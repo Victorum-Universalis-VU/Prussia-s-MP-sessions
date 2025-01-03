@@ -1,0 +1,20 @@
+#8769 - Nikalsburg
+#Region - Bohemia
+#Area - Moravia
+
+owner = MVA
+controller = MVA
+add_core = MVA
+capital = "Nikalsburg"
+culture = austrian
+religion = hussite
+trade_goods = grain
+hre = yes
+base_tax = 1
+base_production = 2
+base_manpower = 2 
+is_city = yes
+
+
+
+
