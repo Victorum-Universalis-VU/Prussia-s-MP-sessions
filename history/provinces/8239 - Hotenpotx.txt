@@ -1,0 +1,35 @@
+#8239 - Hotenpotx
+
+#Default
+owner = SIL
+controller = SIL
+add_core = SIL
+capital = "Osoblaha"
+is_city = yes
+culture = polish
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = wool
+hre = yes
+
+#Claimants
+add_core = MVA
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
+
+#Histories by docRobert & SF
+#Histories by F
+1444.1.1 = { 
+    owner = MVA
+	controller = MVA
+	add_core = MVA
+	add_core = BOH
+	remove_core = SIL
+	culture = silesian_german
+} # Released due to Don - SF

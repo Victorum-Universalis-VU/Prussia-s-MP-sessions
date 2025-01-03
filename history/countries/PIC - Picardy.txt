@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = unlocked_eue_duchy_reform #Was feudalism_reform
+government_rank = 6 #Duchy
+primary_culture = picard_culture
+religion = catholic
+#technology_group = western
+technology_group = french_tech_group
+unit_type = western
+capital = 89 # picardy
+fixed_capital = 89 # Cannot move capital away from this province & no power cost to move to it

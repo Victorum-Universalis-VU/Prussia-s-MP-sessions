@@ -1,0 +1,53 @@
+﻿l_english:
+ mechanic_is_merchant_republic: "Is Merchant Republic"
+ 
+ cider: "Cider"
+ ciderDESC: "Cider is one of the oldest and most widely consumed alcoholic drinks in the world, and the second most popular drink overall after water and tea. Cider is brewed from crushed apples and various other fruits."
+
+ mod_options_title: "Mod Options"
+ mod_options_desc: "Use this to change spawn of goods\n§RUse before the Activate New Goods!!§!"
+ silver_debuff: "Silver"
+ 
+ Black_marble: "Black Marble"
+ potato_tooltip: "Potato Trade Good will spread into Europe."
+ tomato_tooltip: "Tomato Trade Good will spread into Europe."
+ Debug_event.1.t: "Change trade goods TGE"
+ Debug_event.2.t: "Change trade goods TGE Latent"
+ Debug_event.3.t: "Change trade goods Vanilla"
+ Debug_event.1.d: ""
+ Debug_event.2.d: ""
+ Debug_event.3.d: ""
+ 
+ mechanic_GE_minority_exploitation_yes: ""
+ mechanic_reinforce_the_gwangmu_reform_yes: ""
+ mechanic_reinforce_the_gwangmu_reform_2_yes: ""
+ 
+ #New DonBrom VU 1.37* Mechanics - SF
+ mechanic_vu_has_ToR_subjects_yes: "Has §YTable of Ranks§! subjects."                    #New Don renaming
+ #Scottish Clans
+ mechanic_has_scottish_clan_subjects_yes: "Has §YClan§! subjects."                       #=> CLAN SUBJECTS (For Gaelic tags and contains Scottish, Irish, Welsh and Breton subject types)
+ #Swiss Cantons
+ mechanic_has_helvetic_subjects_yes: "Has §YHelvetic§! subjects."                        #=> HELVETIC SUBJECTS (For the Swiss Cantons)
+ #European & Archbishoprics
+ mechanic_has_ecumenical_subjects_yes: "Has §YEcumenical§! subjects."                    #=> ECUMENICAL SUBJECTS (For Christian tags and contains Abbacy, Bishopric and Archbishopric subject types)
+ #Islamic Subjects
+ mechanic_has_islamic_subjects_yes: "Has §YIslamic§! subjects."                          #=> MUSLIM SUBJECTS (For Sunni"Emirate", Shite"Governate" and Ibadi"Emirate" tags)
+ #Mongolian Subjects
+ mechanic_has_horde_subjects_yes: "Has §YHorde§! subjects."                              #=> HORDE SUBJECTS (For Mongolic tags)
+ 
+ #Future Work planned by SF in AD 2025
+ mechanic_has_indian_rajanate_subjects_yes: "Has §YIndian§! subjects."                   #=> INDIAN SUBJECTS (For Indian tags and contains rajanate_subjects)
+ 
+ #Chinese Subjects
+ mechanic_has_chinese_subject_yes: "Has §YChinese§! subjects."                           #=> CHINESE SUBJECTS (For Chinese tags and contains Lordship, Barony, Viscounty, County, Marquisate, Duchy, Principality and Kingdom subject types)
+ 
+ #Below are the subject types I would like to create
+ #mechanic_has_chinese_comandery_subject_yes: "Has §YChinese Commandery§! subjects."               #Lordship
+ #mechanic_has_chinese_barony_subject_yes: "Has §YChinese Barony§! subjects."                      #Barony
+ #mechanic_has_chinese_viscounty_subject_yes: "Has §YChinese Viscounty§! subjects."                #Viscounty
+ #mechanic_has_chinese_county_subject_yes: "Has §YChinese County§! subjects."                      #County
+ #mechanic_has_chinese_marquisate_subject_yes: "Has §YChinese Marquisate§! subjects."              #March
+ #mechanic_has_chinese_duchy_subject_yes: "Has §YChinese Duchy§! subjects."                        #Duchy
+ #mechanic_has_chinese_provincial_governor_subject_yes: "Has §YChinese Governor§! subjects."       #Principality
+ #mechanic_has_chinese_kingdom_subject_yes: "Has §YChinese Kingdom§! subjects."                    #Kingdom
+ 
