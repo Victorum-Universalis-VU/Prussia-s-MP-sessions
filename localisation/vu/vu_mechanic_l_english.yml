@@ -18,20 +18,20 @@
  Debug_event.2.d: ""
  Debug_event.3.d: ""
  
- mechanic_GE_minority_exploitation_yes: ""
+ mechanic_VU_minority_exploitation_yes: ""
  mechanic_reinforce_the_gwangmu_reform_yes: ""
  mechanic_reinforce_the_gwangmu_reform_2_yes: ""
  
  #New DonBrom VU 1.37* Mechanics - SF
  mechanic_vu_has_ToR_subjects_yes: "Has §YTable of Ranks§! subjects."                    #New Don renaming
+ mechanic_vu_has_ToR_crowns_yes: "Has §YTable of Ranks§! subjects."                      #New Don renaming - Added by SF
+ #New SF VU 1.37* Mechanics
  #Scottish Clans
- mechanic_has_scottish_clan_subjects_yes: "Has §YClan§! subjects."                       #=> CLAN SUBJECTS (For Gaelic tags and contains Scottish, Irish, Welsh and Breton subject types)
+ #mechanic_has_scottish_clan_subjects_yes: "Has §YClan§! subjects."                       #=> CLAN SUBJECTS (For Gaelic tags and contains Scottish, Irish, Welsh and Breton subject types)
  #Swiss Cantons
- mechanic_has_helvetic_subjects_yes: "Has §YHelvetic§! subjects."                        #=> HELVETIC SUBJECTS (For the Swiss Cantons)
+ #mechanic_has_helvetic_subjects_yes: "Has §YHelvetic§! subjects."                        #=> HELVETIC SUBJECTS (For the Swiss Cantons)
  #European & Archbishoprics
  mechanic_has_ecumenical_subjects_yes: "Has §YEcumenical§! subjects."                    #=> ECUMENICAL SUBJECTS (For Christian tags and contains Abbacy, Bishopric and Archbishopric subject types)
- #Islamic Subjects
- mechanic_has_islamic_subjects_yes: "Has §YIslamic§! subjects."                          #=> MUSLIM SUBJECTS (For Sunni"Emirate", Shite"Governate" and Ibadi"Emirate" tags)
  #Mongolian Subjects
  mechanic_has_horde_subjects_yes: "Has §YHorde§! subjects."                              #=> HORDE SUBJECTS (For Mongolic tags)
  
@@ -50,4 +50,52 @@
  #mechanic_has_chinese_duchy_subject_yes: "Has §YChinese Duchy§! subjects."                        #Duchy
  #mechanic_has_chinese_provincial_governor_subject_yes: "Has §YChinese Governor§! subjects."       #Principality
  #mechanic_has_chinese_kingdom_subject_yes: "Has §YChinese Kingdom§! subjects."                    #Kingdom
+
+ #New Generic Merchantlist Republic mechanic for VU 1.37.* by SF
+ mechanic_can_create_merchantlist_republic_rule: "Repubblica Mercantile Creation"
+ mechanic_can_create_merchantlist_republic_rule_yes: "Allows establishing the subject type §YRepubblica Mercantile§! in suitable countries."
+
+ #New Venetian Republic mechanic for VU 1.37.* - SF
+ mechanic_can_impose_venetian_republic_rules: "Stato da Màr Creation"
+ mechanic_can_impose_venetian_republic_rules_yes: "Allows establishing the subject type §YStato da Màr§! in Venetian held territories."
+
+ #New Genoese Republic mechanic for VU 1.37.* - SF
+ mechanic_can_impose_genoese_commercial_republic_rules: "Stato do Mâ Creation"
+ mechanic_can_impose_genoese_commercial_republic_rules_yes: "Allows establishing the subject type §YStato do Mâ§! in Genoese held territories."
  
+ #Bohemian Noble's Council mechanic and relevant entries by Don and Modus
+ czech_nobles_council_meeting_mod: "Noble's council meeting in session."
+ czech_state_nobles_council_meeting_mod: "Noble's state council meeting in session."
+ czech_nobles_war_council_meeting_mod: "Noble's war council meeting in session."
+ czech_nobles_council_interaction_tooltip: "Call for a session of the Noble's council."
+ czech_state_nobles_council_interaction_tooltip: "Call for a State session of the Noble's council."
+ czech_nobles_war_council_interaction_tooltip: "Call for a War session of the Noble's council."
+ ability_vu_council_of_nobles_mechanic: "Council of the Nobles"
+ #Relevant Events and modifiers
+ czech_monarchy_events.1.t: "Noble's council meeting"
+ czech_monarchy_events.1.d: "The Nobles of the Realm assemble, a session of the council is in order!"
+ czech_monarchy_events.1.a: "Focus on Splendor and Prestige of the Realm"
+ czech_monarchy_events.1.b: "Focus on Autonomy and Prosperity of our lands"
+ czech_monarchy_events.1.c: "Focus on Advisors of our Monarch"
+ czech_nobles_royal_council_meeting_splendor_mod: "Noble's council focus on Splendor and Prestige"
+ czech_nobles_royal_council_meeting_autonomy_mod: "Noble's council focus on Autonomy and Prosperity"
+ czech_nobles_royal_council_meeting_advisors_mod: "Noble's council focus on Advisors"
+
+ czech_monarchy_events.2.t: "Noble's State council meeting"
+ czech_monarchy_events.2.d: "The Nobles of the Realm assemble, a session of the council is in order!"
+ czech_monarchy_events.2.a: "Focus on Integration of new lands into the Realm"
+ czech_monarchy_events.2.b: "Curtail the powers of Burghers"
+ czech_monarchy_events.2.c: "Focus on keeping vassals loyal"
+ czech_nobles_state_council_meeting_integration_mod: "Noble's state council focus on Integration of new lands"
+ czech_nobles_state_council_meeting_burghers_mod: "Noble's state council curtailing of Burghers"
+ czech_nobles_state_council_meeting_vassals_mod: "Noble's state council focus on keeping vassals loyal"
+
+ czech_monarchy_events.3.t: "Noble's War council meeting"
+ czech_monarchy_events.3.d: "The Nobles of the Realm assemble, a session of the council is in order!"
+ czech_monarchy_events.3.a: "Focus on manpower recovery"
+ czech_monarchy_events.3.b: "Focus on acquiring siege equippment"
+ czech_monarchy_events.3.c: "Focus on manning the fortifications"
+ czech_nobles_war_council_meeting_manpower_mod: "Noble's war council focus on manpower recovery"
+ czech_nobles_war_council_meeting_siege_mod: "Noble's war council focus on acquiring siege equippment"
+ czech_nobles_war_council_meeting_defense_mod: "Noble's war council focus on manning the fortifications"
+

@@ -80,14 +80,6 @@ guarantee = {
 #	end_date = 1462.11.1
 #}
 
-# Hungarian vassals in Transylvania
-vassal = {
-	first = HUN
-	second = TRA
-	start_date = 1444.1.1
-	end_date = 1526.8.30
-}
-
 #vassal = {
 #	first = HUN
 #	second = SZE
@@ -99,11 +91,21 @@ vassal = {
 # Unions #
 ##########
 
-union = {
+dependency = {
+    subject_type = hungarian_crown_PU
 	first = HUN
 	second = CRO
 	start_date = 1444.1.1
 	end_date = 1526.1.1
+}
+
+#Principality of Transylvania
+dependency = {
+    subject_type = hungarian_crown_PU
+    first = HUN
+    second = TRA
+    start_date = 1444.1.1
+    end_date = 1526.8.30
 }
 
 ################################################################
@@ -151,7 +153,7 @@ dependency = {
 	subject_type = turkish_tributary_beylik_vassal
 	first = TUR
 	second = BYZ
-	start_date = 1403.2.1
+	start_date = 1444.1.1 #Was 1403.2.1
 	end_date = 1453.1.1
 }
 
@@ -169,7 +171,7 @@ dependency = {
     subject_type = turkish_tributary_beylik_vassal
     first = TUR
     second = WAL
-    start_date = 1417.1.1
+    start_date = 1444.1.1 #Was 1417.1.1
     end_date = 1856.1.1
 }
 

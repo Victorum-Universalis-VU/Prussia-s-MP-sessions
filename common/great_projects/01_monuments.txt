@@ -508,7 +508,7 @@ stonehenge = {
 
         #cost to upgrade to this level (0 for tier 0)
         cost_to_upgrade = {
-            factor = 7000
+            factor = 6000
         }
 
         #what modifiers are added to the province when we have this project here on this tier
@@ -523,10 +523,9 @@ stonehenge = {
 
         #what modifiers are added to the country when we have this project here on this tier
         country_modifiers = {
-            tolerance_heretic = 0.5
-            tolerance_heathen = 0.5
+            morale_damage = 0.05
             stability_cost_modifier = -0.1
-            ae_impact = -0.15
+            ae_impact = -0.1
             leader_land_shock = 1
             hostile_attrition = 1
             shock_damage = 0.15
@@ -545,7 +544,7 @@ stonehenge = {
 
         #cost to upgrade to this level (0 for tier 0)
         cost_to_upgrade = {
-            factor = 14000
+            factor = 12000
         }
 
         #what modifiers are added to the province when we have this project here on this tier
@@ -562,15 +561,14 @@ stonehenge = {
 
         #what modifiers are added to the country when we have this project here on this tier
         country_modifiers = {
-            tolerance_heretic = 1
-            tolerance_heathen = 1
+            morale_damage = 0.1
             stability_cost_modifier = -0.25
             global_missionary_strength = 0.01
-            ae_impact = -0.2
+            ae_impact = -0.15
             leader_land_shock = 2
             hostile_attrition = 2
             shock_damage = 0.2
-            infantry_shock = 2
+            infantry_shock = 1
         }
 
         conditional_modifier = {
@@ -8251,8 +8249,8 @@ khami_ruins = {
         #what modifiers are added to the country when we have this project here on this tier
         country_modifiers = {
             technology_cost = -0.010
-            fabricate_claims_cost = -0.10
-            adm_tech_cost_modifier = -010
+            fabricate_claims_cost = -0.1
+            adm_tech_cost_modifier = -0.1
         }
 
         #what effects happen when this tier is achieved
@@ -13674,8 +13672,12 @@ etchimiadzin_cathedral = {
     type = monument
 
     build_trigger = {
-        province_is_or_accepts_religion = {
-            religion = coptic
+        OR = {
+            province_is_or_accepts_religion = { religion = coptic }
+            province_is_or_accepts_religion = { religion = bogomilist_new }
+            province_is_or_accepts_religion = { religion = orthodox }
+            province_is_or_accepts_religion = { religion = miaphysite }
+            province_is_or_accepts_religion = { religion = nestorian }
         }
     }
 
@@ -13686,14 +13688,22 @@ etchimiadzin_cathedral = {
     }
 
     can_use_modifiers_trigger = {
-        province_is_or_accepts_religion = {
-            religion = coptic
+        OR = {
+            province_is_or_accepts_religion = { religion = coptic }
+            province_is_or_accepts_religion = { religion = bogomilist_new }
+            province_is_or_accepts_religion = { religion = orthodox }
+            province_is_or_accepts_religion = { religion = miaphysite }
+            province_is_or_accepts_religion = { religion = nestorian }
         }
     }
 
     can_upgrade_trigger = {
-        province_is_or_accepts_religion = {
-            religion = coptic
+        OR = {
+            province_is_or_accepts_religion = { religion = coptic }
+            province_is_or_accepts_religion = { religion = bogomilist_new }
+            province_is_or_accepts_religion = { religion = orthodox }
+            province_is_or_accepts_religion = { religion = miaphysite }
+            province_is_or_accepts_religion = { religion = nestorian }
         }
     }
 
@@ -17405,8 +17415,10 @@ white_house = {
     type = monument
 
     build_trigger = {
-        is_year = 1800
-        vu_post_colonial_usa_cities_trigger = yes
+        OR = {
+            is_year = 1800
+            vu_post_colonial_usa_cities_trigger = yes
+        }
     }
 
     on_built = {
@@ -17419,8 +17431,10 @@ white_house = {
         vu_post_colonial_usa_cities_trigger = yes
     }
     can_upgrade_trigger = {
-        is_year = 1812
-        vu_post_colonial_usa_cities_trigger = yes
+        OR = {
+            is_year = 1812
+            vu_post_colonial_usa_cities_trigger = yes
+        }
     }
 
     keep_trigger = {
