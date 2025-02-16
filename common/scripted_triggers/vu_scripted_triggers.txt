@@ -148,6 +148,7 @@ is_county_subject_type = {
         is_subject_of_type = daimyo_county_vassal
         is_subject_of_type = danish_county
         is_subject_of_type = dutch_county
+        is_subject_of_type = english_earldom
         is_subject_of_type = french_county
         is_subject_of_type = german_county
         is_subject_of_type = hungarian_county
