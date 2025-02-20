@@ -140,7 +140,7 @@ eng_row_slot_1 = {
     }
 
     eng_unify_the_isles = {
-        icon = mission_unite_home_region
+        icon = mission_unify_the_isles
         required_missions = {
             eng_conquer_scotland
             eng_irish_conquest
@@ -4745,6 +4745,9 @@ gbr_row_5 = {
             }
             unlock_issue = {
                 issue = crown_of_iberia_act
+            }
+            unlock_issue = {
+                issue = crown_of_portugal_act
             }
         }
     }

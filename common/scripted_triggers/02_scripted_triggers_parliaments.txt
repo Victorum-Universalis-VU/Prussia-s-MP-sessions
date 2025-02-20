@@ -226,4 +226,5 @@ has_passed_all_acts_of_crown_parliamentary_issues = {
 	has_enacted_parliament_action = { parliament_action = crown_of_the_empire_act }
 	has_enacted_parliament_action = { parliament_action = crown_of_germany_act }
 	has_enacted_parliament_action = { parliament_action = crown_of_the_netherlands_act }
+	has_enacted_parliament_action = { parliament_action = crown_of_portugal_act }
 }

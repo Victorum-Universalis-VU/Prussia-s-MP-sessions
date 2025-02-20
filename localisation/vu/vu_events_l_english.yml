@@ -2128,3 +2128,9 @@
  vu_crown_act_events.2.desc: "With a significant amount of lands now owned by our state in the Low Countries, the question must be asked of how to administer these lands?  Do we incorporate them directly into our administration, or establish a new seperate administration under the direction of a common monarch?"
  vu_crown_act_events.2.a: "Retain direct rule"
  vu_crown_act_events.2.b: "Create a new administration for the Netharlands under the guidance of the King"
+
+ #Portugal
+ vu_crown_act_events.3.t: "The Portuguese Crown"
+ vu_crown_act_events.3.desc: "With a significant amount of lands now owned by our state in Portugal, the question must be asked of how to administer these lands?  Do we incorporate them directly into our administration, or establish a new seperate administration under the direction of a common monarch?"
+ vu_crown_act_events.3.a: "Retain direct rule"
+ vu_crown_act_events.3.b: "Create a new administration for Portugal under the guidance of the King"

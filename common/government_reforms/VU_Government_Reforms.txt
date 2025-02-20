@@ -689,6 +689,7 @@ vu_timurid_reassert_the_yasa_reform = { #T5
         cavalry_power = 0.15
         governing_capacity_modifier = 0.2
 		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
     }
     ai = {
         factor = 1

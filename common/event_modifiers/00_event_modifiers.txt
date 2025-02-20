@@ -11433,6 +11433,12 @@ eng_the_crown_of_the_netherlands = {	#Permanent
     unjustified_demands = -0.1
 }
 
+eng_the_crown_of_portugal = {	#Permanent
+    prestige = 0.5
+    global_colonial_growth = 25
+    unjustified_demands = -0.1
+}
+
 eng_taxation_of_the_clergy = {
     church_influence_modifier = -0.15
     global_tax_modifier = 0.33

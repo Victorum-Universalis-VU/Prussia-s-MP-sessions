@@ -1,18 +1,18 @@
-#6327 - Aalen
+#7596 - Legau
 #Region - Germany
 #Area - Lower Swabia
 
 #Default
-owner = VOR
-controller = VOR
-add_core = VOR
+owner = ST6
+controller = ST6
+add_core = ST6
 culture = bavarian
 religion = catholic
 base_tax = 4
 base_production = 3
 trade_goods = cloth	#fustians
 base_manpower = 2
-capital = "Aalen"
+capital = "Legau"
 is_city = yes
 hre = yes
 
@@ -23,11 +23,6 @@ hre = yes
 #Special Modifiers
 
 #Known by Technology groups
-
-
-
-
-
 
 #Documented 7th century AD
 1530.1.1 = { religion = protestant }

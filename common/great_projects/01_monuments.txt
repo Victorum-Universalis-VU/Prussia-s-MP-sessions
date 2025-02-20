@@ -9116,7 +9116,7 @@ kiev_pechersk_lavra = {
         #what modifiers are added to the country when we have this project here on this tier
         country_modifiers = {
             global_missionary_strength = 0.02
-            tolerance_own = 32
+            tolerance_own = 3
             yearly_patriarch_authority = 0.02
             tolerance_heathen = 3
         }

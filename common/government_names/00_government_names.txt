@@ -10195,29 +10195,8 @@ fra_marquisate_reform = {
             }
             OR = {
                 has_reform = eue_marquisate_reform
-                have_had_reform = eue_marquisate_reform
                 has_reform = unlocked_eue_marquisate_reform
-                have_had_reform = unlocked_eue_marquisate_reform
-                is_marquisate_subject_type = yes
             }
-        }
-        NOT = {
-            primary_culture = cosmopolitan_french_UKS
-            primary_culture = gascon_UKS
-            primary_culture = normand_UKS
-            primary_culture = aquitaine_UKS
-            primary_culture = burgundian_UKS
-            primary_culture = occitain_UKS
-            primary_culture = arpitan_UKS
-            primary_culture = poitevin_UKS
-            primary_culture = angevin_UKS
-            primary_culture = lorraine_UKS
-            primary_culture = auvergnat_UKS
-            primary_culture = gallo_UKS
-            primary_culture = wallonian_UKS
-            primary_culture = breton_UKS
-            primary_culture = burgundian
-            is_revolutionary_republic_trigger = yes
         }
     }
 }
@@ -10415,8 +10394,8 @@ fra_kingdom_reform = {
                 have_had_reform = french_monarchic_restoration_reform
                 has_reform = bourgeoisie_aristocracy_reform
                 have_had_reform = bourgeoisie_aristocracy_reform
-                has_reform = ancien_regime_reform
-                have_had_reform = ancien_regime_reform
+                #has_reform = ancien_regime_reform
+                #have_had_reform = ancien_regime_reform
                 has_reform = crusader_state_vu_reform
                 have_had_reform = crusader_state_vu_reform
                 is_kingdom_subject_type = yes

@@ -299,6 +299,7 @@ islamic_governate = {}
 islamic_sultanate = {}
 islamic_taifa = {}
 islamic_malikate = {}
+islamic_nikkah_PU = {}
 #OTTOMAN BEY SUBJECT
 turkish_tributary_beylik_vassal = {}
 #SLAVIC SUBJECTS
@@ -17420,6 +17421,64 @@ swedish_crown_PU = {
             overlord = { has_government_attribute = personal_union_war_contribution }
         }
         modifier = swedish_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
+islamic_nikkah_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_islamic_nikkah_union
+    diplomacy_overlord_sprite = GFX_islamic_nikkah_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_islamic_nikkah_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = islamic_nikkah_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = islamic_nikkah_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = islamic_nikkah_pu_subject
     }
 
     overlord_opinion_modifier = in_union

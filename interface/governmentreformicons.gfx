@@ -2294,4 +2294,10 @@ spriteTypes = {
         name = "government_reform_timurid_governors"
         texturefile = "gfx//interface//government_reform_icons//timurid//timurid_governors.dds"
     }
+	
+	#VU Council of Nobles by SF
+	spriteType = {
+        name = "government_reform_council_of_nobles"
+        texturefile = "gfx//interface//government_reform_icons//bohemia//council_of_nobles.dds"
+    }
 }

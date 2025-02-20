@@ -122,7 +122,6 @@ monarchy = {
 				bohemian_elective_kingdom_reform
 				stadthalter_monarchy_reform
 				janissary_autocracy_reform
-				admiralty_regime_reform
 				system_of_councils_reform
 				courts_of_navarra
 				league_of_lezhe_reform
@@ -151,8 +150,6 @@ monarchy = {
 				austrian_absolute_monarchy
 				merchant_aristocracy_reform
 				gothic_monarchy_reform
-				high_admiral_reform
-				supreme_admiral_reform
 				#####EndOfVanillaReforms#####
 				#VU_and_other_additions
 				iberian_enlightened_despotism_reform
@@ -171,7 +168,6 @@ monarchy = {
 				greek_roman_governors_reform
 				welsh_monarchy_reform
 				welsh_principality
-				western_principality
 				belgian_kingdom_reform
 				first_french_empire_reform
 				french_kingdom_reform
@@ -237,8 +233,8 @@ monarchy = {
 				#####EndOfMEReforms#####
 				#GE
 				#Generics
-				arch_monarchy_reform
-				ancien_regime_reform
+				#arch_monarchy_reform
+				#ancien_regime_reform
 				french_absolutism
 				lithuania_warlord_duke
 				theocratic_autocracy
@@ -425,7 +421,7 @@ monarchy = {
 				#Spain by Don
 				system_of_councils_reform
 				#Czechia by Don and Modus
-				council_of_nobles_reform
+				vu_council_of_nobles_reform
 				#Timurid Reforms by Prussia
 				vu_timurid_mongol_nobility_reform
 			}
@@ -1070,13 +1066,11 @@ monarchy = {
 		phoenician_elective_monarchical_republic
 		# ME Reforms:
 		ME_tribal_federation_monarchy
-		ME_ibadi_community
 		ME_caliphate_feudal_theocracy
 		ME_caliphate_iqta
 		khaganate
 		#VU
 		welsh_principality
-		western_principality
 		belgian_kingdom_reform
 		french_kingdom_reform
 		#parliamentary_monarchy
@@ -1314,6 +1308,9 @@ republic = {
 		    	french_second_republic_reform
 		    	french_third_republic_reform
 		    	self_governing_dominion_vu_government
+				admiralty_regime_reform
+				high_admiral_reform
+				supreme_admiral_reform
 		    	#GE
 				florentine_republic
 				#american_government

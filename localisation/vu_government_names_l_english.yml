@@ -2034,6 +2034,14 @@
  swedish_crown_PU_subject: "Swedish Crown Subject"
  swedish_crown_PU_is_our: "§Y$NAME$§! is part of the Swedish Crown."
 
+ islamic_nikkah_PU: "Islamic Nikkah"
+ islamic_nikkah_PU_long_desc: "An Islamic Nikkah subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Islamic Nikkah subjects cannot fight each other and can be integrated at a later date."
+ islamic_nikkah_PU_title: "Islamic Nikkah"
+ islamic_nikkah_PU_title_plural: "Islamic Nikkahs"
+ islamic_nikkah_PU_overlord: "Islamic Nikkah Overlord"
+ islamic_nikkah_PU_subject: "Islamic Nikkah Subject"
+ islamic_nikkah_PU_is_our: "§Y$NAME$§! is part of our Islamic Nikkah."
+
  #New VU v1.37 government names - SF & Prussia
  #ANGEVIN
  #Lordship - T1
@@ -5429,7 +5437,7 @@
  BOHEMIA_ABBESS_fem: "Opatka"
  BOHEMIA_PRINCESS_ABBESS_fem: "Princezna Opatka"
  #Male Heir
- BOHEMIA_MONK: "Mnisi"
+ BOHEMIA_MONK: "Mnich"
  #Female Heir
  BOHEMIA_MOTHER_SUPERIOR_fem: "Matka Predstavená"
  #

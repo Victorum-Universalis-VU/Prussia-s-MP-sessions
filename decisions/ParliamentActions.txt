@@ -453,6 +453,47 @@ country_decisions = { #File ported from vanilla by Prussia for new parliament is
 			factor = 10
 		}
 	}
+	debate_crown_of_portugal_act_issue = { #Added by Prussia
+		color = { 110 0 140 }
+		potential = {
+			has_parliament = yes
+			has_government_attribute = english_parliament
+			has_issue_unlocked = { issue = crown_of_portugal_act }
+			has_not_enacted_parliament_action = { parliament_action = crown_of_portugal_act }
+		}
+		allow = {
+			has_active_debate = no
+			num_of_owned_provinces_with = {
+				OR = {
+					area = beieras_area
+					area = minho_duoro_area
+					area = alentejo_area
+					area = algarve_area
+					area = macaronesia_area
+				}
+				value = 15
+			}
+			NOT = { exists = POR }
+		}
+		provinces_to_highlight = {
+			AND = { 
+				area = beieras_area
+				area = minho_duoro_area
+				area = alentejo_area
+				area = algarve_area
+				area = macaronesia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		effect = {
+			start_debate = crown_of_portugal_act
+			custom_tooltip = DEBATE_EFFECT_TT
+			custom_tooltip = crown_of_portugal_act_at
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
 	debate_the_gold_act_issue = {
 		color = { 110 0 140 }
 		potential = {

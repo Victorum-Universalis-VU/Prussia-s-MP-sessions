@@ -63,14 +63,23 @@
  mechanic_can_impose_genoese_commercial_republic_rules: "Stato do Mâ Creation"
  mechanic_can_impose_genoese_commercial_republic_rules_yes: "Allows establishing the subject type §YStato do Mâ§! in Genoese held territories."
  
- #Bohemian Noble's Council mechanic and relevant entries by Don and Modus
- czech_nobles_council_meeting_mod: "Noble's council meeting in session."
- czech_state_nobles_council_meeting_mod: "Noble's state council meeting in session."
- czech_nobles_war_council_meeting_mod: "Noble's war council meeting in session."
- czech_nobles_council_interaction_tooltip: "Call for a session of the Noble's council."
- czech_state_nobles_council_interaction_tooltip: "Call for a State session of the Noble's council."
- czech_nobles_war_council_interaction_tooltip: "Call for a War session of the Noble's council."
- ability_vu_council_of_nobles_mechanic: "Council of the Nobles"
+ #Bohemian Noble's Council mechanic and relevant entries by SF & DonBrom
+ bohemian_church_council_interaction:0 "Call the Church Council"
+ bohemian_church_council_interaction_desc:0 ""
+ czech_nobles_church_council_interaction_tooltip:0 "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of the Chamber§!:\n    Possible Advisors: §G+1§!\n    Advisor Cost: §G-10.0%§!\n\n§YCouncil of Finance§!:\n    Yearly Inflation Reduction: §G-0.05§!\n    Interest per Annum: §G-1.00§!\n\n§YCouncil of the Inquisition§!:\n    Missionaries: §G+1§!\n    Missionary Strength against Heretics: §G+2.0%§!"
+ bohemian_royal_council_interaction:0 "Call the Royal Council"
+ bohemian_royal_council_interaction_desc:0 ""
+ czech_nobles_royal_council_interaction_tooltip:1 "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of Europe§!:\n    Diplomatic Reputation: §G+2.00§!\n\n§YCouncil of the King!:\n    Reduced Prestige Decay: §G-0.15%§!\n\n§YCouncil of Prague§!:\n    Goods Produced: §G+0.15§! \n    Increased Tolerance of Heretics: §G0.10%§!"
+ bohemian_war_council_interaction:0 "Call the Council of War"
+ bohemian_war_council_interaction_desc:0 ""
+ czech_nobles_war_council_interaction_tooltip:0 "Can choose one of the following modifiers for §Y10 years§!:\n§YCouncil of the Crusade§!:\n    Manpower Recovery Speed: §G+15.0%§!\n\n§YCouncil of the Army§!:\n    Yearly Army Tradition: §G+1.00§!\n\n§YCouncil of the Fleet§!:\n    Yearly Navy Tradition: §G+1.00§!"
+
+ czech_nobles_church_council_meeting_mod: "Church Council called."
+ czech_nobles_royal_council_meeting_mod: "Royal Council called."
+ czech_nobles_war_council_meeting_mod: "War Council called."
+ ability_vu_council_of_nobles_mechanic: "Council of Nobles"
+ vu_council_of_nobles_mechanic: "Council of Nobles"
+ vu_council_of_nobles_mechanic_desc: "The Bohemian Council of Nobles is an influential political and administrative body in the Kingdom of Bohemia composed of the highest-ranking nobles that play a significant role in the governance of the kingdom, often acting as a counterbalance to the power of the monarchy."
  #Relevant Events and modifiers
  czech_monarchy_events.1.t: "Noble's council meeting"
  czech_monarchy_events.1.d: "The Nobles of the Realm assemble, a session of the council is in order!"

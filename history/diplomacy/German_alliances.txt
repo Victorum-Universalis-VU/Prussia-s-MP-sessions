@@ -124,7 +124,14 @@ alliance = {
 	end_date = 1679.6.29
 }
 
-
+# Bremen and Verden
+dependency = {
+	subject_type = european_bishopric
+    first = A8B
+    second = VER
+    start_date = 1444.1.1
+    end_date = 1679.6.29
+}
 # Saxony and Poland
 alliance = {
 	first = SAX

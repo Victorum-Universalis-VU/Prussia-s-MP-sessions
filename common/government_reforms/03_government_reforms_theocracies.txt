@@ -32,6 +32,7 @@ leading_clergy_reform = {
     icon = "religious_leader"
     valid_for_nation_designer = yes
     nation_designer_cost = 0
+    fixed_rank = 7
     modifiers = {
         church_loyalty_modifier = 0.1
         global_tax_modifier = 0.1
@@ -44,9 +45,6 @@ leading_clergy_reform = {
             gain_devotion_from_conversions = yes
         }
     }
-    #custom_attributes = {
-    #	gain_monarch_power_from_force_converting = yes
-    #}
 }
 
 monastic_order_reform = {
