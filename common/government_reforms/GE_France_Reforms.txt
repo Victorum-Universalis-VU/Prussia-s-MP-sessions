@@ -33,7 +33,6 @@ french_absolutism = { #
 		OR = {
 			culture_group = french
 			has_reform = french_absolutism
-			is_ToR_subject_type = no
 		}
 	}
 	trigger = {

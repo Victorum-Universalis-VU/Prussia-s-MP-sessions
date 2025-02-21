@@ -85,6 +85,7 @@ protectorate_parliament_reform = {
 	icon = "protectorate_parliament_reform"
 	allow_normal_conversion = no
 	potential = {
+		government_rank = 6
 		has_reform = protectorate_parliament_reform
 	}
 	lock_level_when_selected = yes

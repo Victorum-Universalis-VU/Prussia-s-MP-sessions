@@ -1,6 +1,6 @@
 #OMA - Oman
 government = theocracy
-add_government_reform = islamic_imamate_reform
+add_government_reform = unlocked_islamic_imamate_reform
 government_rank = 1 #Imamate
 primary_culture = omani_culture
 religion = ibadi

@@ -122,7 +122,6 @@ monarchy = {
 				bohemian_elective_kingdom_reform
 				stadthalter_monarchy_reform
 				janissary_autocracy_reform
-				system_of_councils_reform
 				courts_of_navarra
 				league_of_lezhe_reform
 				tibetan_dual_government_reform
@@ -282,8 +281,9 @@ monarchy = {
 				palaiologos_montferrat_reform
 				savoia_reform
 				anglois_dual_monarchy
-				#Spain - By Don
+				#Spain - By Don CRINGE
 				respect_union_reform
+				islamic_feudal_theocratic_order_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -423,7 +423,7 @@ monarchy = {
 				#Czechia by Don and Modus
 				vu_council_of_nobles_reform
 				#Timurid Reforms by Prussia
-				vu_timurid_mongol_nobility_reform
+				timurid_diwan_reform #Moved so it's in the same tier as it's Mughal equivelent - Prussia
 			}
 		}
 		bureaucracy = {
@@ -457,7 +457,6 @@ monarchy = {
 				seven_provinces_reform
 				#1.37 Hungary
 				continue_the_renaissance_reform
-				timurid_diwan_reform
 				# ME Reforms:
 				tur_reform_beylerbeys
 				tur_reform_eyalets
@@ -531,6 +530,8 @@ monarchy = {
 				ME_caliphate_reform_sunni_arabian
 				ME_caliphate_reform_shia_ibadi
 				ME_caliphate_feudal_theocracy
+				#Timurid Reforms by Prussia
+				vu_timurid_mongol_nobility_reform #Moved to tier 3 as the Timmy reform in place of the Diwan reform - Prussia
 			}
 		}
 		military_organisation = {
@@ -1906,6 +1907,8 @@ tribal = {
 				#VU 1.37
 				jamdom_kingdom
 				persianate_tribal_confederation
+				islamic_sheikdom_reform
+				unlocked_islamic_sheikdom_reform
 			}
 		}
 		tribal_cultural_values = {
@@ -1928,8 +1931,6 @@ tribal = {
 			reforms = {
 				religious_societies_reform
 				lip_service_reform
-				#VU
-				islamic_sheikdom_reform
 				#GE
 				adoption_of_christianity_reform
 				great_code_of_nomads
@@ -2151,9 +2152,12 @@ theocracy = {
 				zoroastrian_theocracy_reform
 				ajuuraan_theocracy_reform
 				islamic_imamate_reform
+				unlocked_islamic_imamate_reform
 				islamic_grand_muftate_reform
-				islamic_sheikdom_reform
+				unlocked_islamic_grand_muftate_reform
 				islamic_sharifate_reform
+				unlocked_islamic_sharifate_reform
+				islamic_mystic_order_reform
 				islamic_mystic_order_reform
 				bureaucratic_rule_reform
 				absolute_shogunate_reform
@@ -2200,6 +2204,7 @@ theocracy = {
 				church_of_portugal_abbacy_reform
 				church_of_portugal_bishopric_reform
 				church_of_portugal_archbishopric_reform
+				church_of_spain_archbishopric_reform
 				church_of_switzerland_abbacy_reform
 				church_of_switzerland_bishopric_reform
 				church_of_switzerland_archbishopric_reform

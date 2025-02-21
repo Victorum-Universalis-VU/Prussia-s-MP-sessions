@@ -279,6 +279,9 @@ LHU = "countries/LowerHungary.txt"
 UHU = "countries/UpperHungary.txt"
 
 #VU - Iberia
+AB8 = "countries/Archbishopric_of_Barcelona.txt"
+AB3 = "countries/Archbishopric_of_Evora.txt"
+AB0 = "countries/Archbishopric_of_Oviedo.txt"
 AGV = "countries/Algarve.txt"
 ALV = "countries/Alava.txt"
 AOR = "countries/Andorra.txt"

@@ -1437,6 +1437,12 @@
  EVR: "Évora"
  EVR_ADJ: "Évoran"
  #Spain
+ AB8: "Arquebisbat de Barcelona"
+ AB8_ADJ: "Arquebisbats"
+ AB3: "Arcebispado de Évora"
+ AB3_ADJ: "Arcebispados"
+ AB0: "Arzobispado de Oviedo"
+ AB0_ADJ: "Arzobispados"
  ALV: "Álava"
  ALV_ADJ: "Álavan"
  BDH: "Badajoz"
