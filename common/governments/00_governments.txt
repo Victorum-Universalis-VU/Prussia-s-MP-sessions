@@ -210,6 +210,7 @@ monarchy = {
 				rahanate_reform
 				datunate_reform
 				lakanate_reform
+				duchy_of_brittany_reform
 				#GE
 				imperial_circles_reform
 				irish_clann_reform
@@ -2147,6 +2148,7 @@ theocracy = {
 				caliphate_theocracy_reform
 				dutch_theocracy_reform
 				orthodox_patriarchate_reform
+				jewish_patriarchate_reform
 				fifth_monarchists_reform
 				millennialistic_theocracy_reform
 				zoroastrian_theocracy_reform
