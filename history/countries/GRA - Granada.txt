@@ -5,7 +5,8 @@ primary_culture = andalusi_arabic
 religion = sunni
 add_accepted_culture = andalucian
 technology_group = muslim
-capital = 223	# Granada
+#capital = 223	# Granada
+capital = 8087 # Huyiscar
 government_rank = 6 #Sultanate
 religious_school = maliki_school
 

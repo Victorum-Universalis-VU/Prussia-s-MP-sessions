@@ -2190,6 +2190,17 @@ spriteTypes = {
         texturefile = "gfx//interface//government_reform_icons//persia//persian_shahenshahdom.dds"
     }
 
+    #IRAN
+    spriteType = {
+        name = "government_reform_iranian_revolutionary_republic"
+        texturefile = "gfx//interface//government_reform_icons//iran//iranian_revolutionary_republic.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_islamic_revolutionary_guards"
+        texturefile = "gfx//interface//government_reform_icons//iran//islamic_revolutionary_guards.dds"
+    }
+
     #GHAZINATE
     spriteType = {
         name = "government_reform_ghazinate"

@@ -1445,6 +1445,12 @@ on_monarch_death = {
             #If Albrecht Achilles dies in Ansbach he will also be dead in Brandenburg, will appear as normal death of heir to BRA.
         }
     }
+    if = { #Don & Lucas
+        limit = {
+            is_emperor_of_china = yes
+        }
+        add_stability = -1
+    }
     if = {
         limit = {
             has_country_modifier = sought_after_bachelor

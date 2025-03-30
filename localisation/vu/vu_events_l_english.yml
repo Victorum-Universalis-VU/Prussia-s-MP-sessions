@@ -2109,6 +2109,11 @@
  destroy_great_project_events.1.a: "Great Project Events"
  destroy_great_project_events.2.a: "Great Project Events" 
 
+ #Timurid collapse event
+ prussia_tim_disaster.1.t: "The Great Timurid Civil War"
+ prussia_tim_disaster.1.d: "With the tragic passing of Shah Rukh Mirza, the Timurid Empire fell into an anarchy from which it never recovered. Time shall tell if a new Timurid Empire can be reforged from it's ashes, or if a new dynasty shall take it's place and consign it to the annals of history."
+ prussia_tim_disaster.1.a: "A dark day for the Empire of Timur"
+
  #VU New Crown Act Events - Prussia
 
  #Hannover

@@ -285,6 +285,8 @@ monarchy = {
 				#Spain - By Don CRINGE
 				respect_union_reform
 				islamic_feudal_theocratic_order_reform
+				#Prussia's Larp reforms
+				vu_iranian_revolutionary_republic
 			}
 		}
 		hereditary_vs_nobility = {
@@ -595,6 +597,8 @@ monarchy = {
 				professional_army_reform
 				#Timurid Reforms by Prussia
 				vu_timurid_modernize_mongol_military_reform
+				#Prussia's LARP reforms
+				vu_islamic_revolutionary_guard_corps
 			}
 		}
 		state_and_religion = {
