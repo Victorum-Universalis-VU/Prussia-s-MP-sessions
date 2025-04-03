@@ -638,6 +638,8 @@ NCountry = {
 	MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 25,		-- Development to form a Barony from a Lordship
 	MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 50,		-- Development to form a Viscounty from a Barony
 	--MIN_DEVELOPMENT_FOR_GOV_RANK_4 etc. do not function properly
+	MIN_PRESTIGE_FOR_GOV_RANK_X = 0,
+	PRESTIGE_GAIN_FOR_GOV_RANK_X = 0,
  	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 150,	-- ADDITIONAL development needed to upgrade to government rank above 3
 	MAX_GOV_RANK = 9,	
 
@@ -853,7 +855,7 @@ NCountry = {
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
 	ABANDON_CORE_PRESTIGE = -5.0,					-- The cost of abandoning a core that some other country owns.
-	ABANDON_IDEAGROUP_REFUND = 0.20,				-- The part of the idea group spent that will be refunded upon abandonment.
+	ABANDON_IDEAGROUP_REFUND = 0.10,				-- The part of the idea group spent that will be refunded upon abandonment.
 	NEIGHBOURBONUS = -0.025, 						-- _CDEF_NEIGHBOURBONUS_
 	NEIGHBOURBONUS_CAP = -0.5, 						-- _CDEF_NEIGHBOURBONUS_CAP_
 	NEIGHBOURBONUS_CORRUPTION = 0.0,
