@@ -19,7 +19,6 @@ country_event = {
 		vu_add_regimental_camps = yes		#VU forcelimit balance by Don
 		vu_add_docks = yes		#VU forcelimit balance by Don
 		vu_discover_the_world = yes		#Discover the world by Modus
-		vu_colour_all_countries = yes		#Nation Colouring by Don
 		spawn_troops_on_startup = yes		#Spawning the historical amounts of troops for countries by Modus
 		crownland_share_on_startup = yes		#Spawn the historical crownland share by VU Team
 	}
@@ -27,12 +26,12 @@ country_event = {
 		#Reccommended Mode, doesn't do shit, just leaves the game as is and exits the settings
 		name = VU_SET_Events.01.a
 		add_prestige = 1
+		vu_colour_refresh = yes
 	}
 	option = {
 		#Performance Mode, yeets a lot of extra tags. Turns off some mechanics (TBD)
 		name = VU_SET_Events.01.b
 		remove_extra_tags = yes
-		turn_off_subject_colouring = yes
 		set_global_flag = vu_no_historical_colonization
 		set_country_flag = vu_startup_disable_hard_to_colonise
 	}
@@ -89,10 +88,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_flag = vu_startup_disable_subject_colouring
+				has_global_flag = vu_startup_disable_subject_colouring
 			}
-			turn_off_subject_colouring = yes
-			clr_country_flag = vu_startup_disable_subject_colouring
+		}
+		else = {	
+			vu_colour_all_countries = yes		#Nation Colouring by Don
 		}
 		if = {
 			limit = {
@@ -147,21 +147,21 @@ country_event = {
 		name = VU_SET_Events.03.ay
 		trigger = {
 			NOT = {
-				has_country_flag = vu_startup_disable_subject_colouring
+				has_global_flag = vu_startup_disable_subject_colouring
 			}
 		}
 		hidden_effect = {
-			set_country_flag = vu_startup_disable_subject_colouring
+			set_global_flag = vu_startup_disable_subject_colouring
 		}
 	}
 	option = {
 		#Turn ON Subjects colouring in
 		name = VU_SET_Events.03.an
 		trigger = {
-			has_country_flag = vu_startup_disable_subject_colouring
+			has_global_flag = vu_startup_disable_subject_colouring
 		}
 		hidden_effect = {
-			clr_country_flag = vu_startup_disable_subject_colouring
+			clr_global_flag = vu_startup_disable_subject_colouring
 		}
 	}
 	option = {

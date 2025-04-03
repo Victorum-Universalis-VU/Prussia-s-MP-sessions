@@ -75,6 +75,8 @@ technology = {
 	potters = yes
 	#Dock Building
 	dock = yes
+	#Marketplace Building
+	marketplace = yes
 }
 
 technology = {
@@ -102,6 +104,7 @@ technology = {
 	}
 	trade_efficiency = 0.01
 	fur_workshop = yes
+	papermill = yes
 }
 
 technology = {
@@ -335,8 +338,6 @@ technology = {
 		market_production = 0.5
 	}
 	trade_range = 10
-	#Marketplace Building
-	marketplace = yes
 }
 
 technology = {
@@ -460,7 +461,6 @@ technology = {
 	global_colonial_growth = 10
 	enable = flute
 	enable = war_galley
-	papermill = yes
 }
 
 technology = {

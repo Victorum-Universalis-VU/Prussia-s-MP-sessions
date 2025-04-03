@@ -23,7 +23,7 @@ hre = no
 #Known by Technology groups
 
 #Histories
-1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD remove_core = AMD } # Alhomad territorial lands - By San Felipe
 
 1434.1.1 = {
 	owner = CAS
