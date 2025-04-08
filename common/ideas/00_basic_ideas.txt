@@ -2695,7 +2695,7 @@ quantity_ideas = {
 	}
 	enforced_service = {
 		#fine
-		global_regiment_cost = -0.1
+		global_regiment_cost = -0.15 #Should cost less to form regiments since it this was an enforced system - SF 
 	}
 	camp_followers = {
 		#fine
@@ -2707,7 +2707,7 @@ quantity_ideas = {
 	}
 	the_old_and_infirm = {
 		#fine
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.1 #Increased this as it was too low - SF
 	}
 	expanded_supply_trains = {
 		#fine

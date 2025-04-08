@@ -561,17 +561,17 @@ fief_subject = {
         }
     }
 
-	# Properties:
-	transfer_trade_if_merchant_republic = yes
-	joins_overlords_wars = no
-	can_be_annexed = yes
-	overlord_can_attack = no
-	overlord_can_be_subject = yes
-	can_use_claims = no
-	overlord_can_fabricate_for = no
-	has_power_projection = no
-	gets_help_with_rebels = yes
-	extend_trading_range = yes
+    # Properties:
+    transfer_trade_if_merchant_republic = yes
+    joins_overlords_wars = no
+    can_be_annexed = yes
+    overlord_can_attack = no
+    overlord_can_be_subject = yes
+    can_use_claims = no
+    overlord_can_fabricate_for = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
 
     max_government_rank = 6
     cities_required_for_bonuses = 0 #0
@@ -928,14 +928,14 @@ pirate_brotherhood_vassal = {
         navy_size = 20
     }
 
-	# Properties:
-	uses_tariffs = yes
-	overlord_can_attack = no
-	overlord_can_be_subject = yes
-	can_have_subjects_of_other_types = yes
-	can_be_annexed = yes
-	separatists_become_subjects = yes
-	extend_trading_range = yes
+    # Properties:
+    uses_tariffs = yes
+    overlord_can_attack = no
+    overlord_can_be_subject = yes
+    can_have_subjects_of_other_types = yes
+    can_be_annexed = yes
+    separatists_become_subjects = yes
+    extend_trading_range = yes
 
     max_government_rank = 0
     cities_required_for_bonuses = 0 #0
@@ -2361,7 +2361,7 @@ brother_kingdom = {
     allows_taking_land_without_independence = yes
     extend_trading_range = yes
     overlord_enforce_peace_attacking = yes
-	joins_overlords_wars = yes
+    joins_overlords_wars = yes
     # (off)
     overlord_can_attack = no
     can_have_subjects_of_other_types = no
@@ -2419,17 +2419,17 @@ brother_kingdom = {
     allow_settlement_growth = no
 
     # Modifiers:
-	# (Subject)
+    # (Subject)
     modifier_subject = clear
     modifier_subject = {
         modifier = brother_kingdom_modifier
     }
-	# (Overlord)
+    # (Overlord)
     modifier_overlord = clear
     modifier_overlord = {
         modifier = brother_kingdom_overlord_modifier
     }
-	# (Opinion)
+    # (Opinion)
     overlord_opinion_modifier = is_brother_kingdom
     subject_opinion_modifier = is_brother_kingdom
 }
@@ -4085,65 +4085,35 @@ medieval_vassal = {
                 total_development = 300
             }
         }
-        OR = {
-            government = monarchy
-            # Custom Rule
-            #has_government_attribute = can_create_medieval_vassal_rule
-        }
-        OR = {
-            AND = {
-                #VU - Hashed this out as it has nothing to do with our mod. By San Felipe
-                #has_global_flag = extended_timeline_mod
-                #OR = {
-                #	AND = {
-                #		#current_age = dark_age
-                #		#has_institution = early_feudalism
-                #	}
-                #	#current_age = feudal_age
-                #	#current_age = high_middle_ages
-                #	#current_age = late_middle_ages
-                #}
-                OR = {
-                    religion_group = christian
-                    religion_group = muslim
-                    capital_scope = {
-                        continent = europe
-                    }
-                    # Custom Rule
-                    #has_government_attribute = can_create_medieval_vassal_rule
-                }
+        government = monarchy
+        AND = {
+            OR = {
+                current_age = age_of_discovery
+                current_age = age_of_reformation
             }
-            AND = {
-                OR = {
-                    current_age = age_of_discovery
-                    current_age = age_of_reformation
-                }
-                OR = {
-                    has_reform = feudalism_reform
-                    has_reform = feudal_theocracy
-                    # Governments Expanded reforms
-                    has_reform = feudal_france_reform
-                    #has_reform = arch_monarchy_reform
-                    has_reform = grand_duchy_reform
-                    has_reform = lithuania_warlord_duke
-                    has_reform = beylik_government
-                    has_reform = kingdom_of_castile_and_leon
-                    has_reform = crown_of_castile
-                    has_reform = hispanic_kingdom
-                    has_reform = crown_of_aragon
-                    has_reform = portuguese_monarchy_reform
-                    has_reform = kingdom_of_portugal_and_azures
-                    has_reform = crown_of_saint_wenceslaus
-                    has_reform = office_of_lord_regent_reform
-                    has_reform = arch_king_reform
-                    has_reform = austrian_duchy_reform
-                    has_reform = austrian_archduchy_reform
-                    has_reform = austrian_dual_monarchy
-                    has_reform = austrian_absolute_monarchy
-                    has_reform = granadan_iqta_reform
-                    # Custom Rule
-                    #has_government_attribute = can_create_medieval_vassal_rule
-                }
+            OR = {
+                has_reform = feudalism_reform
+                has_reform = feudal_theocracy
+                # Governments Expanded reforms
+                has_reform = feudal_france_reform
+                #has_reform = arch_monarchy_reform
+                has_reform = grand_duchy_reform
+                has_reform = lithuania_warlord_duke
+                has_reform = kingdom_of_castile_and_leon
+                has_reform = crown_of_castile
+                has_reform = hispanic_kingdom
+                has_reform = crown_of_aragon
+                has_reform = portuguese_monarchy_reform
+                has_reform = kingdom_of_portugal_and_azures
+                has_reform = crown_of_saint_wenceslaus
+                has_reform = office_of_lord_regent_reform
+                has_reform = arch_king_reform
+                has_reform = austrian_duchy_reform
+                has_reform = austrian_archduchy_reform
+                has_reform = austrian_dual_monarchy
+                has_reform = austrian_absolute_monarchy
+                # Custom Rule
+                #has_government_attribute = can_create_medieval_vassal_rule
             }
         }
     }

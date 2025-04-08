@@ -1,4 +1,4 @@
-#Country Name: Please see filename.
+#TUR - Ottomans
 
 graphical_culture = turkishgfx #muslimgfx
 
@@ -15,7 +15,7 @@ historical_score = 5500
 
 historical_idea_groups = {
 	quantity_ideas
-	trade_ideas
+	court_ideas
 	offensive_ideas
 	administrative_ideas
 	humanist_ideas

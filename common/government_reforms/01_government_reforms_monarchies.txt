@@ -2647,11 +2647,30 @@ timurid_amirate_reform = {
         enables_divine_idea_group = yes
         enables_aristocratic_idea_group = no
         claim_states = yes
+        has_qizilbash = yes
+        allowed_qizilbash_fraction = 0.5
     }
     conditional = {
         allow = { has_dlc = "Cradle of Civilization" }
         government_abilities = {
             iqta_mechanic
+        }
+    }
+    conditional = {
+        allow = { has_dlc = "Domination" }
+        has_harem = yes
+        custom_attributes = {
+            has_harem_events = yes
+        }
+    }
+    conditional = {
+        allow = {
+            has_dlc = "Rights of Man"
+            NOT = { has_dlc = "Domination" }
+        }
+        has_harem = yes
+        custom_attributes = {
+            has_harem_events = yes
         }
     }
     ai = {
@@ -10219,7 +10238,7 @@ unlocked_eue_county_reform = { #T4 - County level
             limit = {
                 government_rank = 5
             }
-            add_government_reform = unlocked_eue_marquisate_reform 
+            add_government_reform = unlocked_eue_marquisate_reform
         }
     }
 }
@@ -10286,7 +10305,7 @@ unlocked_eng_earldom_reform = { #T4 - County Level
             limit = {
                 government_rank = 5
             }
-            add_government_reform = unlocked_eue_marquisate_reform 
+            add_government_reform = unlocked_eue_marquisate_reform
         }
     }
 }
@@ -10356,7 +10375,7 @@ unlocked_eue_marquisate_reform = { #T5 - Marquisate level
             limit = {
                 government_rank = 6
             }
-            add_government_reform = unlocked_eue_duchy_reform 
+            add_government_reform = unlocked_eue_duchy_reform
         }
     }
 }
@@ -10420,7 +10439,7 @@ unlocked_eue_duchy_reform = { #T6 - Duchy level
             limit = {
                 government_rank = 7
             }
-            add_government_reform = unlocked_eue_principality_reform 
+            add_government_reform = unlocked_eue_principality_reform
         }
     }
 }
@@ -10487,7 +10506,7 @@ unlocked_eue_principality_reform = { #T7 - Principality level
             limit = {
                 government_rank = 8
             }
-            add_government_reform = unlocked_eue_kingdom_reform 
+            add_government_reform = unlocked_eue_kingdom_reform
         }
     }
 }
@@ -10566,7 +10585,7 @@ unlocked_eue_kingdom_reform = { #T8 - Kingdom level
             limit = {
                 government_rank = 9
             }
-            add_government_reform = unlocked_eue_empire_reform 
+            add_government_reform = unlocked_eue_empire_reform
         }
     }
 }
@@ -10618,8 +10637,6 @@ islamic_emirate_reform = { #T5 - Marquisate level
             is_subject_of_type = islamic_emirate
             is_subject_of_type = islamic_nikkah_PU
         }
-        NOT = { government_rank = 6 }
-        government_rank = 5
     }
     queen = no
     custom_attributes = {
@@ -10677,8 +10694,6 @@ islamic_governate_reform = { #T5 - Marquisate level
             is_subject_of_type = islamic_governate
             is_subject_of_type = islamic_nikkah_PU
         }
-        NOT = { government_rank = 6 }
-        government_rank = 5
     }
     queen = no
     custom_attributes = {
@@ -10699,7 +10714,7 @@ unlocked_islamic_governate_reform = { #T5 - Marquisate level
     #legacy_equivalent = islamic_governate_legacy
     valid_for_nation_designer = no
     potential = {
-        has_reform = unlocked_islamic_governate_reform
+        #has_reform = unlocked_islamic_governate_reform
         OR = {
             religion = shiite
             religion = ibadi
@@ -10738,8 +10753,6 @@ islamic_sultanate_reform = { #T6 - Duchy level
             is_subject_of_type = islamic_sultanate
             is_subject_of_type = islamic_nikkah_PU
         }
-        NOT = { government_rank = 7 }
-        government_rank = 6
     }
     queen = no
     custom_attributes = {
@@ -10762,7 +10775,7 @@ unlocked_islamic_sultanate_reform = { #T6 - Duchy level
     valid_for_nation_designer = yes
     nation_designer_cost = 10
     potential = {
-        has_reform = unlocked_islamic_sultanate_reform
+        #has_reform = unlocked_islamic_sultanate_reform
         religion_group = muslim
         NOT = {
             is_subject_of_type = islamic_sultanate
@@ -10801,8 +10814,6 @@ islamic_taifa_reform = { #T7 - Principality level
             is_subject_of_type = islamic_taifa
             is_subject_of_type = islamic_nikkah_PU
         }
-        NOT = { government_rank = 8 }
-        government_rank = 7
     }
     queen = no
     custom_attributes = {
@@ -10861,8 +10872,6 @@ islamic_malikate_reform = { #T8 - Kingdom level
             is_subject_of_type = islamic_malikate
             is_subject_of_type = islamic_nikkah_PU
         }
-        NOT = { government_rank = 9 }
-        government_rank = 8
     }
     queen = no
     custom_attributes = {

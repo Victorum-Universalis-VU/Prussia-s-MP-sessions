@@ -618,13 +618,13 @@ dependency = {
 # Marquisate #
 ##############
 
-dependency = {
-	subject_type = bohemian_principality
-	first = BOH
-	second = MVA
-	start_date = 1348.1.1
-	end_date = 1903.1.1
-}
+#dependency = {
+#	subject_type = bohemian_principality
+#	first = BOH
+#	second = MVA
+#	start_date = 1348.1.1
+#	end_date = 1903.1.1
+#}
 
 ##########
 # Unions #
@@ -947,13 +947,13 @@ dependency = {
 ##############
 
 #Bishophoric of Lubeck (VU)
-dependency = {
-	subject_type = european_bishopric
-	first = HSA
-	second = BLK
-	start_date = 1160.1.1
-	end_date = 1803.1.1
-}
+#dependency = {
+#	subject_type = european_bishopric
+#	first = HSA
+#	second = BLK
+#	start_date = 1160.1.1
+#	end_date = 1803.1.1
+#}
 
 #################################################################
 ######################### Luxembourg VU #########################

@@ -120,6 +120,7 @@ port = {
 
 in_state = {
     local_institution_spread = 0.10
+    local_has_qizilbash = yes
 }
 
 in_capital_state = {
@@ -985,10 +986,11 @@ navy_tradition = {
     allowed_galleass_fraction = 0.5
 }
 
-positive_piety = { #As of 1.23 Legalism
-    technology_cost = -0.1
-    global_manpower_modifier = 0.20
-    global_tax_modifier = 0.20
+positive_piety = { #As of 1.23 Legalism. Updated by SF for VU v1.37.
+    global_missionary_strength = 0.04        #Moved this from Negative Peity as being more legalistic would increase missionary strength, not decrease it.
+    discipline = 0.075                       #More disciplined and less fanatic.
+    global_tax_modifier = 0.25               #Increased this to 0.25 from 0.2 since being more legalistic would justify more taxation of the Dhimi or Kufar. Don't forget, taxing the infidel was a proven tactic of Islamic rulers to force the Kufars to convert through their own conviction rather than via force of arms.
+    global_unrest = -3                       #Increased adherence from the Ummah for the teaching of Mohammad.
     brahmins_muslim_loyalty_modifier = -0.1
     church_loyalty_modifier = 0.1
     piety_dhimmi_loyalty_modifier = -0.1
@@ -996,10 +998,11 @@ positive_piety = { #As of 1.23 Legalism
 }
 
 #For convenience, its multiplied by negative piety in code.
-negative_piety = { #As of 1.23 Mysticism
-    land_morale = 0.10
-    global_missionary_strength = 0.03
-    idea_cost = -0.1
+negative_piety = { #As of 1.23 Mysticism. Updated by SF for VU v1.37.
+    global_manpower_modifier = 0.25         #Moved this here and increased it as negative piety would mean more warriors from the Ummah or Global community would flock to the banners of Islam in order to shore up its defences and prove to Christendom that .
+    morale_damage = 0.15                    #Less disciplined and organised but more fanatic and zealous.
+    technology_cost = -0.15                 #Innovation is strictly forbidden in Islamic teachings hence it is better suited placing technology_cost here.
+    idea_cost = -0.15                       #Again, Innovation and Iconography is strictly forbidden in Islamic teachings. So, it does not make any sense having this in Legalism.
     brahmins_muslim_loyalty_modifier = 0.1
     piety_church_loyalty_modifier = -0.1
     church_loyalty_modifier = -0.1
@@ -3552,6 +3555,10 @@ null_modifier = {
 # Handicap Modifiers for human player
 ##########################################################################
 rajput_regiment = {
+    land_morale = 0.05
+    fire_damage = 0.1
+    drill_gain_modifier = 0.5
+    reinforce_cost_modifier = -0.5
 }
 
 #New Turkish Modifiers

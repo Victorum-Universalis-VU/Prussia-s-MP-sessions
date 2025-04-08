@@ -1,50 +1,80 @@
 #By Don
-turn_off_subject_colouring = {
-	set_global_flag = vu_uncoloured_subjects_global
-	every_country = {
-		limit = {
-			has_country_flag = has_subject_colour_flag
-		}
-		restore_country_color = yes
-	}
-}
+#First two were removed due to being made obsolete
+#turn_off_subject_colouring = {
+#	hidden_effect = {
+#		set_global_flag = vu_uncoloured_subjects_global
+#		every_country = {
+#			restore_country_color = yes
+#		}
+#	}
+#}
+#vu_colouring_on_action = {
+#	# global scope
+#}
+#vu_subject_colouring = {
+#	# subject scope
+#	hidden_effect = {
+#		if = {
+#			limit = {
+#				NOT = {
+#					has_global_flag = vu_startup_disable_subject_colouring
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				NOT = {
+#					overlord = {
+#						has_country_flag = vu_uncoloured_subjects_overlord
+#					}
+#					has_country_flag = vu_uncoloured_subjects_subject
+#				}
+#				is_colourable_subject_type = yes
+#			}
+#			change_country_color = {
+#				country = overlord
+#			}
+#			set_country_flag = has_subject_colour_flag
+#			every_subject_country = {
+#				limit = {
+#					NOT = {
+#						overlord = {
+#							has_country_flag = vu_uncoloured_subjects_overlord
+#						}
+#						has_country_flag = vu_uncoloured_subjects_subject
+#					}
+#					is_colourable_subject_type = yes
+#				}
+#				change_country_color = {
+#					country = overlord
+#				}
+#				set_country_flag = has_subject_colour_flag
+#			}
+#		}
+#	}
+#}
 
-vu_colouring_on_action = {
-	# global scope
-}
-
-vu_subject_colouring = {
-	# subject scope
+############################################################################################
+#Use sparingly, will cause some lag, but should be called whenever a new country forms, 
+#a tag gets released etc., this will make sure all tags in the game are coloured correctly, 
+#this will also fix a tag not being coloured correctly after being released in a war etc..
+vu_colour_refresh = {
 	hidden_effect = {
 		if = {
 			limit = {
 				NOT = {
-					overlord = {
-						has_country_flag = vu_uncoloured_subjects_overlord
-					}
-					has_country_flag = vu_uncoloured_subjects_subject
+					has_global_flag = vu_startup_disable_subject_colouring
 				}
-				is_colourable_subject_type = yes
 			}
-			change_country_color = {
-				country = overlord
-			}
-			set_country_flag = has_subject_colour_flag
-			every_subject_country = {
+			every_country = {
 				limit = {
 					NOT = {
-						overlord = {
-							has_country_flag = vu_uncoloured_subjects_overlord
-						}
-						has_country_flag = vu_uncoloured_subjects_subject
+						has_country_flag = has_overriden_color_flag
 					}
-					is_colourable_subject_type = yes
 				}
-				change_country_color = {
-					country = overlord
-				}
-				set_country_flag = has_subject_colour_flag
+				restore_country_color = yes
 			}
+			vu_colour_all_countries = yes
 		}
 	}
 }
@@ -53,36 +83,513 @@ vu_colour_all_countries = {
 	# global scope
 	hidden_effect = {
 		every_country = {
-			if = {
+			limit = {
+				num_of_subjects = 1
+			}
+			every_subject_country = {
 				limit = {
-					is_subject = yes
 					is_colourable_subject_type = yes
-					NOT = {
-						overlord = {
-							has_country_flag = vu_uncoloured_subjects_overlord
-						}
-						has_country_flag = vu_uncoloured_subjects_subject
-					}
-				}
-				change_country_color = {
-					country = overlord
+					#ToR_can_change_colour = yes
 				}
 				set_country_flag = has_subject_colour_flag
+				vu_colour_country = yes
 				every_subject_country = {
 					limit = {
-						NOT = {
-							overlord = {
-								has_country_flag = vu_uncoloured_subjects_overlord
-							}
-							has_country_flag = vu_uncoloured_subjects_subject
-						}
+						is_colourable_subject_type = yes
+						#ToR_can_change_colour = yes
 					}
-					change_country_color = {
-						country = overlord
-					}
-					set_country_flag = has_subject_colour_flag
+					set_country_flag = has_subject_of_a_subject_colour_flag
+					vu_colour_country = yes
 				}
 			}
+		}
+	}
+}
+
+vu_colour_country = {
+	#PREV = overlord, THIS = subject
+	if = {
+		limit = {
+			PREV = {
+				tag = BOH
+			}
+		}
+		change_country_color = {
+			color = {
+				230
+				80
+				40
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = POL
+			}
+		}
+		change_country_color = {
+			color = {
+				180
+				50
+				70
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = PLC
+			}
+		}
+		change_country_color = {
+			color = {
+				240
+				40
+				80
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = LIT
+			}
+		}
+		change_country_color = {
+			color = {
+				160
+				50
+				130
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = BRA
+			}
+		}
+		change_country_color = {
+			color = {
+				150
+				110
+				110
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = PRU
+			}
+		}
+		change_country_color = {
+			color = {
+				70
+				90
+				170
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = TEU
+			}
+		}
+		change_country_color = {
+			color = {
+				190
+				170
+				160
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = LIV
+			}
+		}
+		change_country_color = {
+			color = {
+				100
+				100
+				150
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = DAN
+			}
+		}
+		change_country_color = {
+			color = {
+				210
+				90
+				90
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = HUN
+			}
+		}
+		change_country_color = {
+			color = {
+				90
+				130
+				90
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = TUR
+			}
+		}
+		change_country_color = {
+			color = {
+				110
+				160
+				80
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = MOS
+			}
+		}
+		change_country_color = {
+			color = {
+				220
+				200
+				120
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = TIM
+			}
+		}
+		change_country_color = {
+			color = {
+				190
+				20
+				50
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = ASK
+			}
+		}
+		change_country_color = {
+			color = {
+				180
+				50
+				90
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = MAM
+			}
+		}
+		change_country_color = {
+			color = {
+				240
+				200
+				70
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = ETH
+			}
+		}
+		change_country_color = {
+			color = {
+				70
+				140
+				210
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = MOR
+			}
+		}
+		change_country_color = {
+			color = {
+				210
+				130
+				80
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = MOR
+			}
+		}
+		change_country_color = {
+			color = {
+				210
+				130
+				80
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = ARA
+			}
+		}
+		change_country_color = {
+			color = {
+				190
+				90
+				90
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = ARA
+			}
+		}
+		change_country_color = {
+			color = {
+				180
+				90
+				90
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = PAP
+			}
+		}
+		change_country_color = {
+			color = {
+				240
+				240
+				240
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = STY
+			}
+		}
+		change_country_color = {
+			color = {
+				70
+				150
+				70
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				OR = {
+					tag = AUT
+					tag = HAB
+				}
+			}
+		}
+		change_country_color = {
+			color = {
+				240  230  220
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = SAX
+			}
+		}
+		change_country_color = {
+			color = {
+				180  170  200
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = PRO
+			}
+		}
+		change_country_color = {
+			color = {
+				110  180  180 
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = AUT
+			}
+		}
+		change_country_color = {
+			color = {
+				70
+				150
+				70
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = CAS
+			}
+		}
+		change_country_color = {
+			color = {
+				255
+				220
+				20
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = SPA
+			}
+		}
+		change_country_color = {
+			color = {
+				255
+				235
+				30
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = POR
+			}
+		}
+		change_country_color = {
+			color = {
+				30
+				120
+				30
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = FRA
+			}
+		}
+		change_country_color = {
+			color = {
+				20
+				60
+				170
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = BUR
+			}
+		}
+		change_country_color = {
+			color = {
+				170
+				50
+				90
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				OR = {
+					tag = UKS
+					tag = ENG
+				}
+			}
+		}
+		change_country_color = {
+			color = {
+				250
+				40
+				40
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				OR = {
+					tag = UNK
+					tag = GBR
+				}
+			}
+		}
+		change_country_color = {
+			color = {
+				240
+				20
+				20
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				tag = SCO
+			}
+		}
+		change_country_color = {
+			color = {
+				20
+				120
+				210
+			}
+		}
+	}
+	else = {
+		change_country_color = {
+			country = PREV
 		}
 	}
 }
@@ -4108,7 +4615,7 @@ vu_shatter_the_world = {
 				}
 				cede_province = PREV
 			}
-		}	
+		}
 		every_country = {
 			release_all_possible_countries = yes
 		}
