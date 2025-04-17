@@ -2329,4 +2329,29 @@ spriteTypes = {
         name = "government_reform_duchy_of_brittany"
         texturefile = "gfx//interface//government_reform_icons//brittany//duchy_of_brittany.dds"
     }
+    #VU Chinese Principalities
+    spriteType = {
+        name = "government_reform_chinese_principality"
+        texturefile = "gfx//interface//government_reform_icons//china//chinese_principality.dds"
+    }
+    #VU Japanese Subjects
+    spriteType = {
+        name = "government_reform_japanese_imperial_colony"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_colony.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_japanese_imperial_protectorate"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_protectorate.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_japanese_imperial_governate"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_governate.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_japanese_imperial_warlord"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_warlord.dds"
+    }
 }

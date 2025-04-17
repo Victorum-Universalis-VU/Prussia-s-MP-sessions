@@ -71,15 +71,6 @@ dependency = {
 	end_date = 1529.3.12
 }
 
-#Switzerland - Vaud
-dependency = {
-	subject_type = canton
-	first = SWI
-	second = VUD
-	start_date = 1444.1.1
-	end_date = 1532.8.3
-}
-
 #Switzerland - Zurich
 dependency = {
 	subject_type = canton

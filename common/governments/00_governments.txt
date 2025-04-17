@@ -194,6 +194,7 @@ monarchy = {
 				unlocked_eue_principality_reform
 				eue_kingdom_reform
 				unlocked_eue_kingdom_reform
+				unlocked_eue_empire_reform
 				islamic_sharifate_reform
 				islamic_emirate_reform
 				unlocked_islamic_emirate_reform
@@ -211,6 +212,11 @@ monarchy = {
 				datunate_reform
 				lakanate_reform
 				duchy_of_brittany_reform
+				chinese_principality_reform
+				japanese_imperial_colony_reform
+				japanese_imperial_protectorate_reform
+				japanese_imperial_governate_reform
+				japanese_imperial_warlord_reform
 				#GE
 				imperial_circles_reform
 				irish_clann_reform

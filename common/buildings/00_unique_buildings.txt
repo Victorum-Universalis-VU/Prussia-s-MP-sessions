@@ -166,38 +166,6 @@ botanical_gardens = {
 	}
 }
 
-#Tier 3 Education - University
-university = {
-	cost = 1000	#from 900 to 1000
-	time = 60	#from 36 (3 years) to 60 (5 years)
-	one_per_country = yes
-	modifier = {
-		global_institution_spread = 0.25
-		innovativeness_gain = 0.5
-		technology_cost = -0.05
-		idea_cost = -0.05
-	}
-	on_built = {
-		add_development_from_building = {
-			building = university
-			type = tax
-			value = 2
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = university
-			type = tax
-			value = 2
-		}
-	}
-	on_obsolete = {
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
 #VU - Addition by San Felipe
 hospital = {
 	cost = 1000	#From 400, made into unique

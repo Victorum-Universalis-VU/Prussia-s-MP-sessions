@@ -4344,7 +4344,7 @@ vu_add_docks = {
 					has_port = yes
 					area = delta_area
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		MAM = {
@@ -4353,7 +4353,7 @@ vu_add_docks = {
 					has_port = yes
 					area = tunisia_area
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		TUR = {
@@ -4365,7 +4365,7 @@ vu_add_docks = {
 						area = thrace_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		TLC = {
@@ -4374,7 +4374,7 @@ vu_add_docks = {
 					has_port = yes
 					area = barbary_coast_area
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		TUN = {
@@ -4386,7 +4386,7 @@ vu_add_docks = {
 						area = djerba_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		MOR = {
@@ -4398,7 +4398,7 @@ vu_add_docks = {
 						area = northern_morocco_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		GRA = {
@@ -4407,7 +4407,7 @@ vu_add_docks = {
 					has_port = yes
 					area = upper_andalucia_area
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		POR = {
@@ -4416,7 +4416,7 @@ vu_add_docks = {
 					has_port = yes
 					area = estremadura_area
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		FRA = {
@@ -4428,7 +4428,7 @@ vu_add_docks = {
 						area = west_languedoc_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		HOL = {
@@ -4436,7 +4436,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		FLA = {
@@ -4444,7 +4444,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		SCO = {
@@ -4453,7 +4453,7 @@ vu_add_docks = {
 					has_port = yes
 					area = lowlands_area
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		DAN = {
@@ -4465,7 +4465,7 @@ vu_add_docks = {
 						area = denmark_strait_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		BRE = {
@@ -4473,7 +4473,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		HAM = {
@@ -4481,7 +4481,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		HSA = {
@@ -4490,8 +4490,8 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = drydock
 				add_building = grand_shipyard
+				add_building = drydock
 			}
 		}
 		GOT = {
@@ -4500,7 +4500,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = drydock
+				add_building = grand_shipyard
 			}
 		}
 		VEN = {
@@ -4513,7 +4513,7 @@ vu_add_docks = {
 						area = friuli_area
 					}
 				}
-				add_building = drydock
+				add_building = grand_shipyard
 			}
 		}
 		GEN = {
@@ -4526,7 +4526,7 @@ vu_add_docks = {
 						area = corsica_sardinia_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		LAN = {
@@ -4534,7 +4534,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		SIE = {
@@ -4542,7 +4542,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		PAP = {
@@ -4551,7 +4551,7 @@ vu_add_docks = {
 					has_port = yes
 					area = lazio_area
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		CYP = {
@@ -4560,7 +4560,7 @@ vu_add_docks = {
 				limit = {
 					has_port = yes
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		VIJ = {
@@ -4572,7 +4572,7 @@ vu_add_docks = {
 						area = south_carnatic_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		KOR = {
@@ -4586,7 +4586,7 @@ vu_add_docks = {
 						area = left_hwanghae_area
 					}
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 		BRA = {
@@ -4596,7 +4596,7 @@ vu_add_docks = {
 					has_port = yes
 					province_id = 3528
 				}
-				add_building = dock
+				add_building = shipyard
 			}
 		}
 	}

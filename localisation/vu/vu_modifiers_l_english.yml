@@ -1582,3 +1582,82 @@
 
  cossack_subject_modifier: "Cossack Hetmanate"
  desc_cossack_subject_modifier: "Has Cossack Hetmanate"
+
+ #Turkish Selamlik events - SF
+ plot_of_the_selamlik_events.1.t: "Plot of the Selamlik"
+ plot_of_the_selamlik_events.1.desc: "Ever since the birth of our state, the Imperial Selamlik has been an essential need for Turkish Sultans, Viziers and Pashas alike. Not only do these dancers, (often young, handsome and effeminate men and boys) ensure that their masters are provided with the best service in times of need, they were also an important mechanism in the Ottoman state. It was through skill, perseverance, intrigue, special favours and dedicated service that individuals of the Selamlik have been able to attain special and privileged roles within society that have grown their power and influence over time, even rivalling the beautiful and talented women of the Haremlik.\n\nHowever, news of these individuals and the Selamlik quarters within the palaces of Istanbul where they reside has reached Europe, gaining notoriety and warranting discussion on certain topics to be brought up in the courts of Europe, particularly amongst the Papal clergy with questions being asked and discussed surrounding issues concerning homosexuality and reflections on biblical text, especially what befell Sodom and Gomorrah led by the Pope himself. Either way, it is undeniable that the importance of the Selamlik and its 'beloved young men' is unquestioned amongst the elite male nobility of the Turkish courts, raising certain individuals within the Selamlik to stations of prominence such as 'Head Falconer' or 'first officer of the Royal Bedchamber', allowing them to voice their opinions, sometimes negatively criticising and showing their disapproval of current governmental affairs of state. The favourite amongst 'the beloved' known as the Köçekler claims that [Root.Monarch.GetName] is unfit to rule properly, leaving them with no choice but to act in favour of their own agendas that they believe can save the empire. [Root.Monarch.GetTitle] [Root.Monarch.GetName] is nothing but a figurehead and has lost the confidence of our brothers within the Selamlik."
+ 
+ plot_of_the_selamlik_events.1.a: "Hostage to my own Selamlik boys; Oh the humiliation..."
+ plot_of_the_selamlik_events.1.a.tt: "Events of the §YSelamlik§! are disabled as long as this disaster is active."
+
+ plot_of_the_selamlik_events.2.t: "End of the Selamlik's Plot"
+ plot_of_the_selamlik_events.2.desc: "The Selamlik's influence is no more. Through a series of reforms, favors and internal intrigues, the Selamlik have been reined in. These groups of young men and boys, including their leaders have been successfully removed from stations of power and the everyday business of government. No new Sultan shall ever become a slave of his own Selamlik ever again!"
+ plot_of_the_selamlik_events.2.a: "It is finally over."
+ 
+ plot_of_the_selamlik_events.3.t: "Pretender Rises in [tur_pretender_province.GetName]"
+ plot_of_the_selamlik_events.3.desc.boy: "[Root.tur_pretender.GetName], favourite slave boy of [Root.Monarch.GetName], has gone rogue with other Selamlik individuals. They see the strength of the Sultan as too weak and seek to usurp his rule. He has therefore gathered an army in the province of [tur_pretender_province.GetName] and is now, under the guidance of fellow boy friends, in open revolt against the government."
+ plot_of_the_selamlik_events.3.desc.brother: "[Root.tur_pretender.GetName], brother of [Root.Monarch.GetName], has gone rogue with other Selamlik individuals. They see the strength of their half-brother as too weak and seek to usurp him. He gathered an army in the province of [tur_pretender_province.GetName] and is now, under the guidance of his fellow Köçekler, in open revolt against the government."
+ plot_of_the_selamlik_events.3.a: "[Root.tur_pretender.GetName] along with his fellow conspirators will pay with their lives."
+ 
+ plot_of_the_selamlik_events.4.t: "Attempt on [Root.Heir.GetName]'s Life"
+ plot_of_the_selamlik_events.4.desc: "The young Köçekler [Root.Heir.GetName] is the promised heir to the throne of [Root.GetUsableName] and is as such [Root.Monarch.GetName]'s favorite of [Root.Monarch.GetHerHis] Selamlik boys. But not all within the Selamlik agree with the [Root.Monarch.GetTitle]'s decision and feel compelled to take matters into their own hands.\nWherever [Root.Heir.GetName] moves, the whispers of [Root.Heir.GetHerHis] Selamlik brothers and their supporters follow [Root.Heir.GetHerHim]. It is rumored that they plan to strike him down tonight..."
+ plot_of_the_selamlik_events.4.a: "May Allah protect my delicate beloved [Root.Heir.GetDaughterSon]..."
+ 
+ plot_of_the_selamlik_events.5.t: "Corruption at the Court"
+ plot_of_the_selamlik_events.5.desc: "With the Selamlik using its influence, our own advisors' loyalty is no longer guaranteed. These young men and boys of the Selamlik use extortions, briberies and other foul methods to separate our advisors from the [Root.Monarch.GetTitle]."
+ plot_of_the_selamlik_events.5.a: "Blegh... if they were truly loyal they would stay close and service me."
+ plot_of_the_selamlik_events.5.b: "We must give them more attention in order to satiate their lust and convince them to stay."
+ 
+ plot_of_the_selamlik_events.6.t: "Testing the Limits of our Beloved's love"
+ plot_of_the_selamlik_events.6.desc: "It seems as though our 'Beloved' has come to bite us in the back. The head boy who we've designated as favourite has been testing the limits of royal power that had been generously given to him by our gracious and most sublime Sultan. These foolish boys of the Selamlik have been meddling with royal affairs as well, which we simply cannot ignore. However, the Sultan still favors him, citing that it is his legal right as 'the Beloved' to service and advise him on matters of legislation and administration. What should be done concerning the power of this young boy slave?"
+ plot_of_the_selamlik_events.6.a: "It is well within his right!"
+ plot_of_the_selamlik_events.6.a.tt: "This focus of power onto 'the Beloved' will lead to the emergence of rivals from within the Selamlik."
+ plot_of_the_selamlik_events.6.b: "His excesses and that of the Köçekler need to be curbed."
+ plot_of_the_selamlik_events.6.b.tt: "Opposing 'the Beloved' will lead to further rebellions in the future; We must act accordingly."
+ 
+ plot_of_the_selamlik_events.7.t: "Reaction of the Selamlik"
+ plot_of_the_selamlik_events.7.desc.a: "Ever since 'the Beloved' is in charge of both the Selamlik and the government, the Empire has continuously faced one struggle after another. Eventually, the [Root.Monarch.GetName]'s favorite 'the Makbul' has taken matters into his own hand. Through court intrigues, the Makbul has dismantled any power base 'the Beloved' had over the [Root.Monarch.GetTitle] and managed to bring the Imperial Selamlik under his control."
+ plot_of_the_selamlik_events.7.desc.b: "[Root.Monarch.GetName]'s bold actions against the Selamlik are not forgotten. Young rogue slave boys managed to assemble a force to charge the palace in [Root.Capital.GetName] in order to dethrone [Root.Monarch.GetName]."
+ plot_of_the_selamlik_events.7.a: "Finally, some peace in the Selamlik."
+ plot_of_the_selamlik_events.7.b: "Traitors!"
+ 
+ #Selamlik disaster - SF
+ tur_disaster_plot_of_the_selamlik: "Plot of the Selamlik"
+ tur_disaster_plot_of_the_selamlik_desc: "The Selamlik has grown in influence and power over the ruling Sultan. Where once an absolute monarch ruled, now reigns a group of self-serving, effeminate young men and boys."
+ tur_weakened_the_selamlik: "Weakened the Selamlik"
+ desc_tur_weakened_the_selamlik: "As the Selamlik grew to powerful in the past, our great Sultan reined it in and ensured that neither young men nor young slave boys can ever gain influence over the government and court.\n\nThe slave boys of the Selamlik have §R2 less§! skill as long as this modifier is active."
+
+ tur_reign_of_the_kocekler_modifier: "Reign of the Köçekler Sultan"
+ desc_tur_reign_of_the_kocekler_modifier: "The Köçekler Sultan, beloved boy of our [Root.Monarch.GetTitle] rules over the country from the shadows of the Selamlik. Political or governmental decisions [Root.Monarch.GetName] would take are heavily influenced by the opinion of [Root.Monarch.GetHerHis] this young man."
+
+ tur_opposed_kocekler_modifier: "Opposed the Köçekler Sultan"
+ desc_tur_opposed_kocekler_modifier: "The Köçekler Sultan, beloved boy of our [Root.Monarch.GetTitle], has been opposed. No longer able to manipulate him [Root.Monarch.GetDaughterSon], the Selamlik has lost significant power."
+
+ tur_reign_of_femboys_modifier: "Reign of the Beloved"
+ desc_tur_reign_of_femboys_modifier: "Also known as 'the Beloved', their Reign marked a period in Ottoman history where the Selamlik had significant power over the Sultan and his decision-making. Matters of administration and diplomacy were now handled by the young men and boys of the Sultan."
+
+ tur_selamlik_under_head_boy_control: "Selamlik under Makbul Sultan's Control"
+ desc_tur_selamlik_under_head_boy_control: "The Makbul Sultan is 'the favorite' boy slave of the Sultan and has influence over the sultan in his own right, attaining roles such as 'Head Falconer' or 'First Officer of the Royal Bedchamber'. As the Köçekler Sultan power grew, this individual proved to be more damaging to the Empire in general and the Selamlik that it eventually required the Makbul Sultan to take control over the Selamlik and ensure its loyalty towards [Root.Monarch.GetName]."
+ 
+ mechanic_has_selamlik_events_yes: "Has §YSelamlik Events§!"
+ 
+ GOV_HAS_SELAMLIK: "Has a Selamlik, providing a choice of heir!"
+ 
+ #Chinese Principality Bonus Loc - Prussia
+ chinese_principality_subject: "Has Chinese Principality Subject(s)."
+ chinese_heaven_principality_bonus: "Qian Wángzi Bonus"
+ chinese_lake_principality_bonus: "Dui Wángzi Bonus"
+ chinese_fire_principality_bonus: "Li Wángzi Bonus"
+ chinese_thunder_principality_bonus: "Zhen Wángzi Bonus"
+ chinese_wind_principality_bonus: "Xun Wángzi Bonus"
+ chinese_water_principality_bonus: "Kan Wángzi Bonus"
+ chinese_mountain_principality_bonus: "Gen Wángzi Bonus"
+ chinese_earth_principality_bonus: "Kun Wángzi Bonus"
+ japanese_imperial_colony_modifier: "Koroni Bonus"
+ japanese_imperial_colony_overlord_modifier: "Koroni Ovelord Bonus"
+ japanese_imperial_protectorate_modifier: "Hogo-ryo Bonus"
+ japanese_imperial_protectorate_overlord_modifier: "Hogo-ryo Overlord Bonus"
+ japanese_imperial_governate_modifier: "Ken Bonus"
+ japanese_imperial_governate_overlord_modifier: "Ken Overlord Bonus"
+ japanese_imperial_warlord_modifier: "Shogun Bonus"
+ japanese_imperial_warlord_overlord_modifier: "Shogun Ovelord Bonus"

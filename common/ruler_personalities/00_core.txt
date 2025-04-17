@@ -714,6 +714,7 @@ fertile_personality = {
 	allow = {
 		government = monarchy
 		NOT = { has_government_attribute = has_harem_events }
+		NOT = { has_government_attribute = has_selamlik_events }
 		NOT = { has_government_attribute = states_general_mechanic }
 		has_government_attribute = heir
 	}
@@ -2473,6 +2474,7 @@ infertile_personality = {
 
 	allow = {
 		NOT = { has_government_attribute = has_harem_events }
+		NOT = { has_government_attribute = has_selamlik_events }
 		government = monarchy
 		NOT = { has_government_attribute = states_general_mechanic }
 		has_government_attribute = heir

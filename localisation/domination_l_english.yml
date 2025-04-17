@@ -4404,6 +4404,7 @@
  plot_of_the_harem_events.7.desc.b:0 "[Root.Monarch.GetName]'s bold actions against the Harem were not forgotten. Rogue eunuchs managed to assemble a force to charge the palace in [Root.Capital.GetName] in order to dethrone [Root.Monarch.GetName]."
  plot_of_the_harem_events.7.a:0 "Finally, some peace in the harem."
  plot_of_the_harem_events.7.b:0 "Traitors!"
+
  ###DISASTER MODIFIERS###
  tur_shattered_the_janissaries:0 "Janissaries Shattered"
  desc_tur_shattered_the_janissaries:0 "The Janissaries are a shell of their former self. The Auspicious Incident led to the death, exile and banishment of many members of the Janissaries. As such, the power this estate once had over the government is no more."

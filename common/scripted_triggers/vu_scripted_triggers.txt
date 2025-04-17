@@ -507,11 +507,11 @@ ToR_can_change_colour = {
 		overlord = {
 			has_country_flag = vu_uncoloured_subjects_overlord
 		}
-        overlord = {
-            overlord = {
-                has_country_flag = vu_uncoloured_subjects_overlord
-            }
-        }
+		overlord = {
+			overlord = {
+				has_country_flag = vu_uncoloured_subjects_overlord
+			}
+		}
 		has_country_flag = vu_uncoloured_subjects_subject
 	}
 }
@@ -531,5 +531,25 @@ ToR_Muslim_subject_limit_reached = {
 			is_muslim_subject_type = yes
 		}
 		amount = 25		#Total limit for Subjects -Don, Prussia
+	}
+}
+
+VU_ToR_protected_government_reforms = {
+	OR = {
+		#Put all the gov reforms you wish to protect from the ToR gov change here (useful when the gov rank changes when forming a new tag)
+		has_reform = prussian_monarchy
+	}
+}
+
+vu_is_caliphate = {
+	OR = {
+		AND = {
+			is_defender_of_faith = yes
+			government_rank = 9
+		}
+		has_reform = caliphate_theocracy_reform
+		has_reform = timurid_amirate_reform
+		has_reform = ghazi_reform
+		ME_is_caliphate_trigger = yes		#Contains the vanilla + ME caliphates
 	}
 }

@@ -1,4 +1,4 @@
-#1867 - Freiburg
+#1867 - Vaud or Lausanne
 #Region - Germany
 #Area - Romandie
 
@@ -14,6 +14,7 @@ base_tax = 2
 base_production = 3			#Lowered dev generally in Romandie, became richer later as part of die Sweitz, but at this point was just provincial Savoy
 base_manpower = 2 
 is_city = yes
+center_of_trade = 1
 
 #Claimants
 
