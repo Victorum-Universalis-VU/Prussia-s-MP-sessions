@@ -879,6 +879,11 @@ spriteTypes = {
         texturefile = "gfx/interface/subject_turkish_tributary_icon.dds"
     }
 
+    spriteType = {
+        name = "GFX_subject_turkish_timariot_march"
+        texturefile = "gfx/interface/subject_turkish_timariot_march_icon.dds"
+    }
+
     #VU 1.37.* New Feudal Republic
     spriteType = {
         name = "GFX_icon_feudal_republic"
@@ -908,6 +913,57 @@ spriteTypes = {
         name = "GFX_icon_papal_vassal"
         texturefile = "gfx/interface/subject_icon_papal_vassal.dds"
     }
+
+    #Christian Subjects#
+
+    #Abbacy
+    spriteType = {
+        name = "GFX_icon_christian_abbacy_subject"
+        texturefile = "gfx/interface/icon_christian_abbacy_subject.dds"
+    }
+    #Lead
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_christian_abbacy_subject"
+        texturefile = "gfx/interface/icon_diplomacy_lead_christian_abbacy.dds"
+    }
+    #Am
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_christian_abbacy_subject"
+        texturefile = "gfx/interface/icon_diplomacy_am_christian_abbacy.dds"
+    }
+
+    #Bishopric
+    spriteType = {
+        name = "GFX_icon_christian_bishopric_subject"
+        texturefile = "gfx/interface/icon_christian_bishopric_subject.dds"
+    }
+    #Lead
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_christian_bishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_lead_christian_bishopric.dds"
+    }
+    #Am
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_christian_bishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_am_christian_bishopric.dds"
+    }
+
+    #Archbishopric
+    spriteType = {
+        name = "GFX_icon_christian_archbishopric_subject"
+        texturefile = "gfx/interface/icon_christian_archbishopric_subject.dds"
+    }
+    #Lead
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_christian_archbishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_lead_christian_archbishopric.dds"
+    }
+    #Am
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_christian_archbishopric_subject"
+        texturefile = "gfx/interface/icon_diplomacy_am_christian_archbishopric.dds"
+    }
+
     #Chinese Principalities
 
     spriteType = {
@@ -960,14 +1016,15 @@ spriteTypes = {
         texturefile = "gfx/interface/icon_diplomacy_am_chinese_principality.dds"
     }
 
+    #Japanese Imperial Subjects
     spriteType = {
         name = "GFX_icon_japanese_imperial_colony"
         texturefile = "gfx/interface/icon_japanese_imperial_colony.dds"
     }
 
     spriteType = {
-        name = "GFX_icon_japanese_imperial_protectorate"
-        texturefile = "gfx/interface/icon_japanese_imperial_protectorate.dds"
+        name = "GFX_icon_japanese_imperial_directorate"
+        texturefile = "gfx/interface/icon_japanese_imperial_directorate.dds"
     }
 
     spriteType = {
@@ -990,7 +1047,7 @@ spriteTypes = {
         texturefile = "gfx/interface/icon_diplomacy_am_japanese_imperial_subject.dds"
     }
 
-    #Daimyo Icons
+    #Japanese Daimyos
     spriteType = {
         name = "GFX_icon_japanese_shinto_lordship_subject"
         texturefile = "gfx/interface/icon_japanese_shinto_lordship.dds"
@@ -1034,5 +1091,133 @@ spriteTypes = {
     spriteType = {
         name = "GFX_icon_diplomacy_am_japanese_shinto_subject"
         texturefile = "gfx/interface/icon_diplomacy_am_japanese_shinto_subject.dds"
+    }
+
+    #Hindu Subjects
+    spriteType = {
+        name = "GFX_icon_hindu_brahma_principality"
+        texturefile = "gfx/interface/icon_hindu_brahma_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_hindu_vishnu_principality"
+        texturefile = "gfx/interface/icon_hindu_vishnu_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_hindu_shiva_principality"
+        texturefile = "gfx/interface/icon_hindu_shiva_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_hindu_saraswati_principality"
+        texturefile = "gfx/interface/icon_hindu_saraswati_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_hindu_lakshimi_principality"
+        texturefile = "gfx/interface/icon_hindu_lakshimi_principality.dds"
+    }
+    
+    spriteType = {
+        name = "GFX_icon_hindu_parvarti_principality"
+        texturefile = "gfx/interface/icon_hindu_parvarti_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_hindu_principality"
+        texturefile = "gfx/interface/icon_diplomacy_lead_hindu_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_hindu_principality"
+        texturefile = "gfx/interface/icon_diplomacy_am_hindu_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_buddhist_hinayana_principality"
+        texturefile = "gfx/interface/icon_buddhist_hinayana_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_buddhist_bodhisattva_principality"
+        texturefile = "gfx/interface/icon_buddhist_bodhisattva_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_buddhist_sakya_principality"
+        texturefile = "gfx/interface/icon_buddhist_sakya_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_buddhist_principality"
+        texturefile = "gfx/interface/icon_diplomacy_lead_buddhist_principality.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_buddhist_principality"
+        texturefile = "gfx/interface/icon_diplomacy_am_buddhist_principality.dds"
+    }
+
+    #Native American Civilizations
+
+    spriteType = {
+        name = "GFX_icon_aztec_lordship_subject"
+        texturefile = "gfx/interface/icon_aztec_lordship_subject.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_aztec_lordship"
+        texturefile = "gfx/interface/icon_diplomacy_lead_aztec_lordship.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_aztec_lordship"
+        texturefile = "gfx/interface/icon_diplomacy_am_aztec_lordship.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_mayan_lordship_subject"
+        texturefile = "gfx/interface/icon_mayan_lordship_subject.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_mayan_lordship"
+        texturefile = "gfx/interface/icon_diplomacy_lead_mayan_lordship.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_mayan_lordship"
+        texturefile = "gfx/interface/icon_diplomacy_am_mayan_lordship.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_inca_lordship_subject"
+        texturefile = "gfx/interface/icon_inca_lordship_subject.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_inca_lordship"
+        texturefile = "gfx/interface/icon_diplomacy_lead_inca_lordship.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_inca_lordship"
+        texturefile = "gfx/interface/icon_diplomacy_am_inca_lordship.dds"
+    }
+    
+    spriteType = {
+        name = "GFX_icon_iroquois_confederacy_member"
+        texturefile = "gfx/interface/icon_iroquois_confederacy_member.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_lead_iroquois_confederacy_member"
+        texturefile = "gfx/interface/icon_diplomacy_lead_iroquois_confederacy_member.dds"
+    }
+
+    spriteType = {
+        name = "GFX_icon_diplomacy_am_iroquois_confederacy_member"
+        texturefile = "gfx/interface/icon_diplomacy_am_iroquois_confederacy_member.dds"
     }
 }

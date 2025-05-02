@@ -526,6 +526,9 @@ tur_disaster_pasha_decadence = {
 tur_disaster_plot_of_the_harem = {
 	potential = {
 		has_disaster = tur_disaster_ottoman_power_struggle
+		NOT = {
+			has_disaster = tur_disaster_plot_of_the_selamlik
+		}
 		normal_or_historical_nations = yes
 		has_reform = ottoman_government
 		NOT = { has_country_flag = tur_had_plot_of_the_harem }
@@ -606,6 +609,9 @@ tur_disaster_plot_of_the_harem = {
 tur_disaster_plot_of_the_selamlik = {
     potential = {
         has_disaster = tur_disaster_ottoman_power_struggle
+		NOT = {
+			has_disaster = tur_disaster_plot_of_the_harem
+		}
         normal_or_historical_nations = yes
         has_reform = ottoman_government
         NOT = { has_country_flag = tur_had_plot_of_the_selamlik }

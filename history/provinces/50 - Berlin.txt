@@ -12,12 +12,18 @@ base_tax = 6			#Okay, Brandenburg's population was minute and the little wealth 
 base_production = 5			#Population estimates for the period are around 10k, growing rapidly only at the end of the 17th century. Not going as low for dev as would be historical, in order to keep Brandenburg with some dev.
 base_manpower = 5
 trade_goods = cloth
-fort_15th = yes
 capital = "Berlin"
 is_city = yes
-center_of_trade = 2
 
+#Commerce 
+center_of_trade = 2
+extra_cost = 20
+
+#Special Modifiers
 add_permanent_province_modifier = {
     name = jewish_population 
     duration = -1
 }
+
+#Buildings
+fort_16th = yes

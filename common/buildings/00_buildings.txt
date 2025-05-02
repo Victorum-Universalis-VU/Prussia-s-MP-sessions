@@ -34,12 +34,12 @@
 ### PRODUCTION
 #Tier 1 Production - Workshop
 workshop = {
-	cost = 75	#VU - Kept at 150 to 200 in v1.36.2.* by San Felipe
+	cost = 100	#VU - Kept at 150 to 200 in v1.36.2.* by San Felipe
 	time = 12
 	#Returned price to 100 due to the production efficiency increase.
 	modifier = {
 		local_production_efficiency = 0.5
-		trade_goods_size = 0.25		#Don
+		trade_goods_size = 0.1		#Don
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
 		local_core_creation = 0.025
@@ -180,14 +180,14 @@ workshop = {
 
 #Tier 2 Production - Counting House
 counting_house = {
-	cost = 175	#VU - Kept at 400 in v1.36.2.* by San Felipe
+	cost = 200	#VU - Kept at 400 in v1.36.2.* by San Felipe
 	time = 24
 	#VU AddOn price changed from 400 to 200. Part of the comprehensive balance overhaul to adjust buildings to the VU map (with all its new provinces).
 	#VU AddOn time changed from 12 to 24. Doubling upgraded buildings' build time.
 	make_obsolete = workshop
 	modifier = {
-		local_production_efficiency = 0.75
-		trade_goods_size = 0.5		#Don
+		local_production_efficiency = 1
+		trade_goods_size = 0.2		#Don
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.15
 		local_core_creation = 0.03
@@ -328,13 +328,13 @@ counting_house = {
 
 #Tier 3 Production - Factory
 factory = {
-	cost = 255	#VU - Kept at 800 in v1.36.2.* by San Felipe
+	cost = 300	#VU - Kept at 800 in v1.36.2.* by San Felipe
 	time = 48
 	#Factories are expensive and take a long time to build because they're the last tier of the production category and are quite powerful (as they should be).
 	make_obsolete = counting_house
 	modifier = {
-		local_production_efficiency = 1
-		trade_goods_size = 0.75		#Don
+		local_production_efficiency = 1.5
+		trade_goods_size = 0.3		#Don
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
 		local_core_creation = 0.05
@@ -516,11 +516,11 @@ factory = {
 ### TRADE
 #Tier 1 Trade - Marketplace
 marketplace = {
-	cost = 75	#VU - Increased from 100 to 200 in v1.36.2.* by San Felipe
+	cost = 100	#VU - Increased from 100 to 200 in v1.36.2.* by San Felipe
 	time = 12
 	modifier = {
-		province_trade_power_modifier = 0.25
-		trade_value = 0.15		#Don
+		province_trade_power_modifier = 0.5
+		trade_value = 0.25		#Don
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
 		local_core_creation = 0.05
@@ -680,14 +680,14 @@ marketplace = {
 
 #Tier 2 Trade - Trade Depot
 trade_depot = {
-	cost = 400	#VU - Increased from 300 to 400 in v1.36.2.* by San Felipe
+	cost = 200	#VU - Increased from 300 to 400 in v1.36.2.* by San Felipe
 	time = 24
 	#VU AddOn price changed from 300.
 	#VU AddOn time changed from 12. Doubling upgraded buildings' build time.
 	make_obsolete = marketplace
 	modifier = {
-		province_trade_power_modifier = 0.5
-		trade_value = 0.25		#Don
+		province_trade_power_modifier = 1
+		trade_value = 0.35		#Don
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.15
 		local_core_creation = 0.03
@@ -880,11 +880,11 @@ trade_depot = {
 
 #Tier 3 Trade - Corporative Headquarters
 corporative_headquarters = {
-	cost = 800	#VU - Kept at 800 in v1.36.2.* by San Felipe
+	cost = 300	#VU - Kept at 800 in v1.36.2.* by San Felipe
 	time = 48
 	make_obsolete = trade_depot
 	modifier = {
-		province_trade_power_modifier = 1
+		province_trade_power_modifier = 1.5
 		trade_value = 0.5		#Don
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
@@ -1090,9 +1090,10 @@ barracks = {
 		local_core_creation = 0.025
 		#VU 3.0
 		local_governing_cost_increase = 5
+		global_tax_income = -0.6
 	}
 	on_built = {
-        #VU 3.0
+		#VU 3.0
 		add_base_manpower = 1
 		if = {
 			limit = {
@@ -1120,7 +1121,7 @@ barracks = {
 		}
 	}
 	on_destroyed = {
-        #VU 3.0
+		#VU 3.0
 		add_base_manpower = -1
 		if = {
 			limit = {
@@ -1313,7 +1314,7 @@ barracks = {
 
 #Tier 2 Army - Training Fields
 training_fields = {
-	cost = 225	#VU - Kept at 300 in v1.36.2.* by San Felipe
+	cost = 250	#VU - Kept at 300 in v1.36.2.* by San Felipe
 	time = 24
 	#VU AddOn price changed from 300. Part of the comprehensive balance overhaul to adjust buildings to the VU map (with all its new provinces).
 	#VU AddOn time changed from 12. Doubling second level military buildings build time.
@@ -1326,9 +1327,10 @@ training_fields = {
 		local_core_creation = 0.05
 		#VU 3.0
 		local_governing_cost_increase = 10
+		global_tax_income = -1.2
 	}
 	on_built = {
-        #VU 3.0
+		#VU 3.0
 		add_base_manpower = 2
 		if = {
 			limit = {
@@ -1356,7 +1358,7 @@ training_fields = {
 		}
 	}
 	on_destroyed = {
-        #VU 3.0
+		#VU 3.0
 		add_base_manpower = -2
 		if = {
 			limit = {
@@ -1559,6 +1561,7 @@ regimental_camp = {
 		local_core_creation = 0.025
 		#VU 3.0
 		local_governing_cost_increase = 5
+		global_tax_income = -0.6
 	}
 	on_built = {
 		#VU 3.0
@@ -1771,6 +1774,7 @@ conscription_center = {
 		local_core_creation = 0.05
 		#VU 3.0
 		local_governing_cost_increase = 10
+		global_tax_income = -1.2
 	}
 	#THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
@@ -1990,6 +1994,7 @@ shipyard = {
 		local_core_creation = 0.025
 		#VU 3.0
 		local_governing_cost_increase = 5
+		global_tax_income = -0.6
 	}
 	build_trigger = {
 		has_port = yes
@@ -2169,6 +2174,7 @@ grand_shipyard = {
 		local_core_creation = 0.05
 		#VU 3.0
 		local_governing_cost_increase = 10
+		global_tax_income = -1.2
 	}
 	on_built = {
 		#VU 3.0
@@ -2341,6 +2347,7 @@ dock = {
 		local_core_creation = 0.025
 		#VU 3.0
 		local_governing_cost_increase = 5
+		global_tax_income = -0.6
 	}
 	build_trigger = {
 		has_port = yes
@@ -2587,6 +2594,7 @@ drydock = {
 		local_core_creation = 0.05
 		#VU 3.0
 		local_governing_cost_increase = 10
+		global_tax_income = -1.2
 	}
 	build_trigger = {
 		has_port = yes
@@ -2821,7 +2829,7 @@ drydock = {
 ### GOVERNMENT
 #Tier 1 Government - Courthouse
 courthouse = {
-	cost = 150	#Decreased from 750
+	cost = 250	#Decreased from 750
 	time = 12
 	build_trigger = {
 		is_state = yes
@@ -2835,6 +2843,7 @@ courthouse = {
 		local_governing_cost_increase = -5
 		#VU 3.0
 		local_governing_cost = -0.15
+		global_tax_income = -1.2
 	}
 	on_built = {
 		#VU 3.0
@@ -3030,7 +3039,7 @@ courthouse = {
 
 #Tier 1 Government - Hall
 hall = {
-	cost = 100	#VU - Increased from 150 to 200 in v1.36.2.* by San Felipe
+	cost = 125	#VU - Increased from 150 to 200 in v1.36.2.* by San Felipe
 	time = 12
 	#VU AddOn changed from 12. Doubling upgraded buildings' build time.
 	#VU 13 added to balance states territories and tradecompanies.
@@ -3047,6 +3056,7 @@ hall = {
 		local_governing_cost = -0.1
 		#VU 3.0
 		local_governing_cost_increase = -10
+		global_tax_income = -0.6
 	}
 	on_built = {
 		#VU 3.0
@@ -3203,7 +3213,7 @@ hall = {
 
 #Tier 2 Government - Town Hall
 town_hall = {
-	cost = 200	#VU - Increased from 300 to 400 in v1.36.2.* by San Felipe
+	cost = 250	#VU - Increased from 300 to 400 in v1.36.2.* by San Felipe
 	time = 24
 	#VU AddOn changed from 12. Doubling upgraded buildings' build time.
 	#VU 13 added to balance states territories and tradecompanies.
@@ -3221,24 +3231,30 @@ town_hall = {
 		local_governing_cost = -0.2
 		#VU 3.0
 		local_governing_cost_increase = -20
+		global_tax_income = -1.2
 	}
 	on_built = {
 		#VU 3.0
 		add_base_tax = 2
-		if = {
-			limit = {
-				FROM = {
-					has_country_flag = fra_hall_bonus_flag
-				}
-				NOT = {
-					has_province_modifier = fra_improved_halls_modifier
-				}
-			}
-			add_province_modifier = {
-				name = fra_improved_halls_modifier
-				duration = -1
-			}
-		}
+		add_province_modifier = {
+        	name = fra_improved_halls_modifier
+        	duration = -1
+        }
+		#Hashed out in VU ToR 1.37 by SF
+		#if = {
+		#	limit = {
+		#		FROM = {
+		#			has_country_flag = fra_hall_bonus_flag
+		#		}
+		#		NOT = {
+		#			has_province_modifier = fra_improved_halls_modifier
+		#		}
+		#	}
+		#	add_province_modifier = {
+		#		name = fra_improved_halls_modifier
+		#		duration = -1
+		#	}
+		#}
 	}
 	on_destroyed = {
 		#VU 3.0
@@ -3398,7 +3414,7 @@ town_hall = {
 
 #Tier 3 Government - City Hall
 city_hall = {
-	cost = 300	#VU - Increased from 450 to 600 in v1.36.2.* by San Felipe
+	cost = 500	#VU - Increased from 450 to 600 in v1.36.2.* by San Felipe
 	time = 36
 	#VU AddOn changed from 12. Doubling upgraded buildings' build time.
 	#VU 13 added to balance states territories and tradecompanies.
@@ -3416,24 +3432,29 @@ city_hall = {
 		local_governing_cost = -0.3
 		#VU 3.0
 		local_governing_cost_increase = -30
+		global_tax_income = -2.4
 	}
 	on_built = {
-		#VU 3.0
 		add_base_tax = 3
-		if = {
-			limit = {
-				FROM = {
-					has_country_flag = fra_town_hall_bonus_flag
-				}
-				NOT = {
-					has_province_modifier = fra_improved_town_hall_modifier
-				}
-			}
-			add_province_modifier = {
-				name = fra_improved_town_hall_modifier
-				duration = -1
-			}
-		}
+		add_province_modifier = {
+        	name = fra_improved_town_hall_modifier
+        	duration = -1
+        }
+		#Hashed out in VU ToR 1.37 by SF
+		#if = {
+		#	limit = {
+		#		FROM = {
+		#			has_country_flag = fra_town_hall_bonus_flag
+		#		}
+		#		NOT = {
+		#			has_province_modifier = fra_improved_town_hall_modifier
+		#		}
+		#	}
+		#	add_province_modifier = {
+		#		name = fra_improved_town_hall_modifier
+		#		duration = -1
+		#	}
+		#}
 	}
 	on_destroyed = {
 		#VU 3.0
@@ -3596,7 +3617,8 @@ library = {
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
 		#VU 3.0
-		local_governing_cost_increase = 1
+		local_governing_cost_increase = -5
+		global_tax_income = -0.6
 	}
 	on_built = {
 		#VU 3.0
@@ -3762,7 +3784,8 @@ school = {
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
 		#VU 3.0
-		local_governing_cost_increase = 2
+		local_governing_cost_increase = -10
+		global_tax_income = -1.2
 	}
 	on_built = {
 		#VU 3.0
@@ -3920,7 +3943,7 @@ school = {
 
 #Tier 3 Education - University
 university = {
-	cost = 900	#from 900 to 1000
+	cost = 500	#from 900 to 1000
 	time = 60	#from 36 (3 years) to 60 (5 years)
 	modifier = {
 		local_development_cost = -0.2
@@ -3930,7 +3953,8 @@ university = {
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.25
 		#VU 3.0
-		local_governing_cost_increase = 5
+		local_governing_cost_increase = -30
+		global_tax_income = -2.4
 	}
 	on_built = {
 		#VU 3.0
@@ -3954,15 +3978,15 @@ temple = {
 	cost = 125	#VU - Increased from 100 to 250 in v1.36.2.* by San Felipe
 	time = 12
 	modifier = {
-		local_missionary_strength = 0.02
-		local_tax_modifier = 0.5
+		local_missionary_strength = 0.03
+		local_tax_modifier = 0.75
 		local_religious_unity_contribution = 0.1
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
 		local_core_creation = 0.025
 		#VU 3.0
 		local_governing_cost_increase = 2.5
-		tax_income = 1.2
+		tax_income = 0.6
 	}
 	on_built = {
 		#VU 3.0
@@ -4256,15 +4280,15 @@ cathedral = {
 	cost = 250	#VU - Increased from 300 to 500 in v1.36.2.* by San Felipe
 	time = 24
 	modifier = {
-		local_missionary_strength = 0.03
-		local_tax_modifier = 1
+		local_missionary_strength = 0.04
+		local_tax_modifier = 1.25
 		local_religious_unity_contribution = 0.2
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.15
 		local_core_creation = 0.03
 		#VU 3.0
 		local_governing_cost_increase = 5
-		tax_income = 2.4
+		tax_income = 1.2
 	}
 	#VU AddOn changed price from 300. Part of the comprehensive balance overhaul to adjust buildings to the VU map (with all its new provinces).
 	#VU AddOn changed from 12. Doubling upgraded buildings' build time.
@@ -4542,14 +4566,14 @@ grand_cathedral = {
 	time = 36
 	modifier = {
 		local_missionary_strength = 0.05
-		local_tax_modifier = 1.5
+		local_tax_modifier = 2.5
 		local_religious_unity_contribution = 0.3
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
 		local_core_creation = 0.05
 		#VU 3.0
 		local_governing_cost_increase = 10
-		tax_income = 4.8
+		tax_income = 2.4
 	}
 	on_built = {
 		#VU 3.0
@@ -4745,19 +4769,18 @@ road_system = {
 	cost = 50	#VU - Kept at 100 in v1.36.2.* by San Felipe
 	time = 6
 	modifier = {
-		local_friendly_movement_speed = 0.15		#all changed by Don
-		trade_value_modifier = 0.1		#Removed trade value, replaced with modifier
-		allowed_num_of_buildings = 1
-		#VU 2.0 Buffs
-		tax_income = 1.2		#Nerfed
-		#VU 2.0 Debufs
-		local_warscore_cost_modifier = 0.1
-		local_core_creation = 0.02
-		#VU 3.0
-		local_governing_cost_increase = 10
+		#Buffs
+		local_friendly_movement_speed = 0.15
+		allowed_num_of_buildings = 2
 		local_build_time = -0.1
 		local_build_cost = -0.05
-		local_production_efficiency = 0.05
+		trade_value = 0.1
+		trade_goods_size = 0.1
+		#Debuffs
+		global_tax_income = -0.6
+		#Misc
+		local_warscore_cost_modifier = 0.1
+		local_core_creation = 0.02
 	}
 	on_built = {
 		#VU 3.0
@@ -4910,17 +4933,17 @@ canal_system = {
 	modifier = {
 		local_friendly_movement_speed = 0.2		#all changed by Don
 		trade_value_modifier = 0.1		#Removed trade value, replaced with modifier
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 3
 		#VU 2.0 Buffs
-		tax_income = 2.4		#Nerfed
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.15
 		local_core_creation = 0.03
 		#VU 3.0
-		local_governing_cost_increase = 20
+		local_governing_cost_increase = 10
 		local_build_time = -0.15
 		local_build_cost = -0.1
 		local_production_efficiency = 0.1
+		global_tax_income = -1.2
 	}
 	on_built = {
 		#VU 3.0
@@ -5096,17 +5119,17 @@ railway_system = {
 	modifier = {
 		local_friendly_movement_speed = 0.3		#all changed by Don
 		trade_value_modifier = 0.2		#Removed trade value, replaced with modifier
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 4
 		#VU 2.0 Buffs
-		tax_income = 4.8
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
 		local_core_creation = 0.05
 		#VU 3.0
-		local_governing_cost_increase = 30
+		local_governing_cost_increase = 15
 		local_build_time = -0.2
 		local_build_cost = -0.15
 		local_production_efficiency = 0.15
+		global_tax_income = -2.4
 	}
 	on_built = {
 		#VU 3.0
@@ -5261,7 +5284,7 @@ railway_system = {
 ### COASTAL DEFENCE
 #Tier 1 Coastal - Naval Base
 naval_base = {
-	cost = 250	#VU - Increased from 100 to 250 in v1.36.2.* by San Felipe
+	cost = 100	#VU - Increased from 100 to 250 in v1.36.2.* by San Felipe
 	time = 12
 	build_trigger = {
 		has_port = yes
@@ -5278,7 +5301,7 @@ naval_base = {
 		#VU 3.0
 		local_governing_cost_increase = 5
 	}
-    on_built = {
+	on_built = {
 		#VU 3.0
 		add_base_manpower = 1
 	}
@@ -5409,7 +5432,7 @@ naval_base = {
 
 #Tier 2 Coastal - Naval Arsenal
 naval_arsenal = {
-	cost = 500
+	cost = 200
 	time = 24
 	build_trigger = {
 		has_port = yes
@@ -5427,7 +5450,7 @@ naval_arsenal = {
 		#VU 3.0
 		local_governing_cost_increase = 10
 	}
-    on_built = {
+	on_built = {
 		#VU 3.0
 		add_base_manpower = 2
 	}
@@ -5558,7 +5581,7 @@ naval_arsenal = {
 
 #Tier 3 Coastal - Coastal Artillery
 coastal_artillery = {
-	cost = 750
+	cost = 300
 	time = 36
 	build_trigger = {
 		has_port = yes
@@ -5576,7 +5599,7 @@ coastal_artillery = {
 		#VU 3.0
 		local_governing_cost_increase = 15
 	}
-    on_built = {
+	on_built = {
 		#VU 3.0
 		add_base_manpower = 3
 	}
@@ -5723,8 +5746,8 @@ fort_15th = {
 	}
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
-      #VU 3.0
-      add_base_manpower = 1
+		#VU 3.0
+		add_base_manpower = 1
 		if = {
 			limit = {
 				FROM = {
@@ -5854,8 +5877,8 @@ fort_15th = {
 	}
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
-        #VU 3.0
-        add_base_manpower = -1
+		#VU 3.0
+		add_base_manpower = -1
 		if = {
 			limit = {
 				has_province_modifier = estate_nobles_vegvar_system_modifier
@@ -6064,8 +6087,8 @@ fort_16th = {
 	}
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
-        #VU 3.0
-        add_base_manpower = 1
+		#VU 3.0
+		add_base_manpower = 1
 		if = {
 			limit = {
 				FROM = {
@@ -6122,8 +6145,8 @@ fort_16th = {
 	}
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
-        #VU 3.0
-        add_base_manpower = -1
+		#VU 3.0
+		add_base_manpower = -1
 	}
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
 	on_obsolete = {
@@ -6302,8 +6325,8 @@ fort_17th = {
 	}
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
-        #VU 3.0
-        add_base_manpower = 1
+		#VU 3.0
+		add_base_manpower = 1
 		if = {
 			limit = {
 				FROM = {
@@ -6360,8 +6383,8 @@ fort_17th = {
 	}
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
-        #VU 3.0
-        add_base_manpower = -1
+		#VU 3.0
+		add_base_manpower = -1
 		if = {
 			limit = {
 				has_province_modifier = estate_nobles_development_of_castles_mod
@@ -6542,8 +6565,8 @@ fort_18th = {
 	}
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
-        #VU 3.0
-        add_base_manpower = 1
+		#VU 3.0
+		add_base_manpower = 1
 		if = {
 			limit = {
 				FROM = {
@@ -6597,8 +6620,8 @@ fort_18th = {
 	}
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
-        #VU 3.0
-        add_base_manpower = -1
+		#VU 3.0
+		add_base_manpower = -1
 		if = {
 			limit = {
 				has_province_modifier = estate_nobles_development_of_castles_mod
@@ -6829,13 +6852,13 @@ fort_18th = {
 ################################################
 ### MANUFACTORY
 manufactory = {
-	cost = 250
+	cost = 500
 	time = 24	#VU AddOn changed from 60. 5 year construction times are way out of line with all other buildings, and quite unneccessary, I think. Reducing this to comparable with other buildings.
 	modifier = {
-		trade_goods_size = 1
+		trade_goods_size = 0.4
+		trade_goods_size_modifier = 0.25
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 }
 
@@ -6854,8 +6877,7 @@ wharf = {
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		naval_forcelimit = 1		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	keep_trigger = {
 		OR = {
@@ -7032,8 +7054,7 @@ weapons = {
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		land_forcelimit = 0.5		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	on_built = {
@@ -7212,8 +7233,7 @@ textile = {
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		local_tax_modifier = 0.25		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	on_built = {
@@ -7400,8 +7420,7 @@ plantations = {
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		local_production_efficiency = 0.25		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	on_built = {
@@ -7608,8 +7627,7 @@ tradecompany = {
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		province_trade_power_modifier = 0.5		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	on_built = {
@@ -7817,14 +7835,14 @@ farm_estate = {
 		vegetables		#Makes sense to have vegetables in a farm doesn't it ?
 		vodka
 		whiskey
+		organic_soap
 	}
 	modifier = {
 		trade_goods_size = 1		#VU Addon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
 		trade_goods_size_modifier = 0.5		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		local_production_efficiency = 0.5		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	on_built = {
@@ -7892,6 +7910,7 @@ farm_estate = {
 			trade_goods = vodka
 			trade_goods = wine
 			trade_goods = whiskey
+			trade_goods = organic_soap
 		}
 	}
 	ai_will_do = {
@@ -8025,6 +8044,7 @@ mills = {
 		pearls
 		tropical_wood
 		glass
+		coloured_stained_glass
 		chinaware
 		lumber
 		ebony
@@ -8038,8 +8058,7 @@ mills = {
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		local_tax_modifier = 0.25		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	on_built = {
@@ -8076,6 +8095,7 @@ mills = {
 			trade_goods = ebony
 			trade_goods = gems
 			trade_goods = glass
+			trade_goods = coloured_stained_glass
 			trade_goods = lumber
 			trade_goods = optics
 			trade_goods = paper
@@ -8219,8 +8239,7 @@ furnace = {
 		trade_goods_size_modifier = 1		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		global_trade_goods_size_modifier = 0.05		#VU AddOn changed from 0.05. This was just too huge, especially with all the new provinces.
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	show_separate = yes	# Means as a manufactory it will be shown according to the old way
@@ -8390,14 +8409,14 @@ soldier_households = {
 		millet
 		vodka
 		whiskey
+		organic_soap
 	}
 	modifier = {
 		local_manpower = 0.5
 		land_forcelimit = 0.5
 		local_regiment_cost = -0.15
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	bonus_modifier = {
 		local_manpower = 0.5
@@ -8579,8 +8598,7 @@ ramparts = {
 		local_defensiveness = 0.15
 		local_defender_dice_roll_bonus = 1
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = no
 	show_separate = yes	# Means as a manufactory it will be shown according to the old way
@@ -8788,8 +8806,7 @@ impressment_offices = {
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	bonus_modifier = {
 		local_sailors = 150
@@ -8875,6 +8892,7 @@ state_house = {
 		gems
 		tropical_wood
 		glass
+		coloured_stained_glass
 		chinaware
 		diamonds
 		marble
@@ -8921,8 +8939,7 @@ state_house = {
 		min_local_autonomy = -5
 		local_governing_cost = -0.15
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	bonus_modifier = {
 		statewide_governing_cost = -0.2
@@ -9083,8 +9100,7 @@ oil_well = {
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
 		#monthly_splendor = 0.25		#VU AddOn new - Just a fun little new bonus #NO -Don
 		#VU 3.0 Manufactory
-		local_governing_cost = 0.15
-		local_governing_cost_increase = 2.5
+		local_governing_cost_increase = 10
 	}
 	onmap = yes
 	show_separate = yes	# Means as a manufactory it will be shown according to the old way

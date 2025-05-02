@@ -1000,10 +1000,10 @@ vu_promote_vassal_to_imperial_colony = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = japanese_imperial_colony
+			subject_type = vu_japanese_imperial_colony
 		}
 		FROM = {
-			add_government_reform = japanese_imperial_colony_reform
+			add_government_reform = vu_japanese_imperial_colony_reform
 		}
 		vu_colour_refresh = yes		#Thank god somebody uses this -Don
 	}
@@ -1026,7 +1026,7 @@ vu_rein_in_imperial_colony = {
 		FROM = {
 			#FROM has to be a vassal of ROOT 
 			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now... -Don
-			is_subject_of_type = japanese_imperial_colony
+			is_subject_of_type = vu_japanese_imperial_colony
 			government = monarchy
 		}
 	}
@@ -1052,10 +1052,10 @@ vu_rein_in_imperial_colony = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = japanese_imperial_protectorate
+			subject_type = vu_japanese_imperial_directorate
 		}
 		FROM = {
-			add_government_reform = japanese_imperial_protectorate_reform
+			add_government_reform = vu_japanese_imperial_directorate_reform
 		}
 		vu_colour_refresh = yes		#Thank god somebody uses this -Don
 	}
@@ -1078,7 +1078,7 @@ vu_rein_in_imperial_protectorate = {
 		FROM = {
 			#FROM has to be a vassal of ROOT 
 			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now... -Don
-			is_subject_of_type = japanese_imperial_protectorate
+			is_subject_of_type = vu_japanese_imperial_directorate
 			government = monarchy
 		}
 	}
@@ -1104,10 +1104,10 @@ vu_rein_in_imperial_protectorate = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = japanese_imperial_governate
+			subject_type = vu_japanese_imperial_governate
 		}
 		FROM = {
-			add_government_reform = japanese_imperial_governate_reform
+			add_government_reform = vu_japanese_imperial_governate_reform
 		}
 		vu_colour_refresh = yes		#Thank god somebody uses this -Don
 	}
@@ -1130,7 +1130,7 @@ vu_rein_in_imperial_governate = {
 		FROM = {
 			#FROM has to be a vassal of ROOT 
 			is_subject_of = ROOT			#Technically it'd be more efficient to use PREV here as you're using a nested Scope, I'll let this slide for now... -Don
-			is_subject_of_type = japanese_imperial_governate
+			is_subject_of_type = vu_japanese_imperial_governate
 			government = monarchy
 		}
 	}
@@ -1156,10 +1156,10 @@ vu_rein_in_imperial_governate = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = japanese_imperial_warlord
+			subject_type = vu_japanese_imperial_warlord
 		}
 		FROM = {
-			add_government_reform = japanese_imperial_warlord_reform
+			add_government_reform = vu_japanese_imperial_warlord_reform
 		}
 		vu_colour_refresh = yes		#Thank god somebody uses this -Don
 	}

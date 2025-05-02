@@ -19,6 +19,7 @@ fort_15th = yes
 #Claimants
 
 #Buildings
+fort_15th = yes
 
 #Special Modifiers
 

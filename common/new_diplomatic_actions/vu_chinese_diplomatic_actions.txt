@@ -40,12 +40,14 @@ vu_promote_vassal_to_heaven_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_heaven_principality
+			subject_type = vu_chinese_heaven_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -95,12 +97,14 @@ vu_promote_vassal_to_lake_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_lake_principality
+			subject_type = vu_chinese_lake_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -152,12 +156,14 @@ vu_promote_vassal_to_fire_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_fire_principality
+			subject_type = vu_chinese_fire_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -207,12 +213,14 @@ vu_promote_vassal_to_thunder_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_thunder_principality
+			subject_type = vu_chinese_thunder_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -262,12 +270,14 @@ vu_promote_vassal_to_wind_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_wind_principality
+			subject_type = vu_chinese_wind_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -317,12 +327,15 @@ vu_promote_vassal_to_water_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_water_principality
+			subject_type = vu_chinese_water_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
+			add_sailors = 500
 		}
 		vu_colour_refresh = yes
 	}
@@ -372,12 +385,14 @@ vu_promote_vassal_to_mountain_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_mountain_principality
+			subject_type = vu_chinese_mountain_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -427,12 +442,14 @@ vu_promote_vassal_to_earth_prince = {
 	on_accept = {
 		create_subject = {
 			subject = FROM
-			subject_type = chinese_earth_principality
+			subject_type = vu_chinese_earth_principality
 		}
 		FROM = {
 			set_dynasty = ROOT
 			change_religion = ROOT
-			add_government_reform = chinese_principality_reform
+			add_government_reform = vu_chinese_principality_reform
+			add_treasury = 250
+			add_manpower = 14
 		}
 		vu_colour_refresh = yes
 	}
@@ -458,14 +475,14 @@ vu_revert_chinese_principality_to_vassal = {
 			#FROM has to be a vassal of ROOT
 			is_subject_of = ROOT
 			OR = {
-				is_subject_of_type = chinese_heaven_principality
-				is_subject_of_type = chinese_lake_principality
-				is_subject_of_type = chinese_fire_principality
-				is_subject_of_type = chinese_thunder_principality
-				is_subject_of_type = chinese_wind_principality
-				is_subject_of_type = chinese_water_principality
-				is_subject_of_type = chinese_mountain_principality
-				is_subject_of_type = chinese_earth_principality
+				is_subject_of_type = vu_chinese_heaven_principality
+				is_subject_of_type = vu_chinese_lake_principality
+				is_subject_of_type = vu_chinese_fire_principality
+				is_subject_of_type = vu_chinese_thunder_principality
+				is_subject_of_type = vu_chinese_wind_principality
+				is_subject_of_type = vu_chinese_water_principality
+				is_subject_of_type = vu_chinese_mountain_principality
+				is_subject_of_type = vu_chinese_earth_principality
 			}
 		}
 	}
@@ -492,7 +509,7 @@ vu_revert_chinese_principality_to_vassal = {
 		}
 		FROM = {
 			#Adding this entry so it removes the Gov reform when you turn them back, doing it this way shouldn't spawn the "government reform abolished" popup. -Don
-			remove_government_reform = chinese_principality_reform
+			remove_government_reform = vu_chinese_principality_reform
 		}
 		vu_colour_refresh = yes
 	}

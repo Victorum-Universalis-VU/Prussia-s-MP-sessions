@@ -15810,20 +15810,20 @@ duchy_of_brittany_reform = {
 	}
 }
 
-chinese_principality_reform = {
+vu_chinese_principality_reform = { #Added by Prussia as part of the Great Subjects Update
 	icon = "chinese_principality"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	potential = {
 		OR = {
-			is_subject_of_type = chinese_heaven_principality
-			is_subject_of_type = chinese_lake_principality
-			is_subject_of_type = chinese_fire_principality
-			is_subject_of_type = chinese_thunder_principality
-			is_subject_of_type = chinese_wind_principality
-			is_subject_of_type = chinese_water_principality
-			is_subject_of_type = chinese_mountain_principality
-			is_subject_of_type = chinese_earth_principality
+			is_subject_of_type = vu_chinese_heaven_principality
+			is_subject_of_type = vu_chinese_lake_principality
+			is_subject_of_type = vu_chinese_fire_principality
+			is_subject_of_type = vu_chinese_thunder_principality
+			is_subject_of_type = vu_chinese_wind_principality
+			is_subject_of_type = vu_chinese_water_principality
+			is_subject_of_type = vu_chinese_mountain_principality
+			is_subject_of_type = vu_chinese_earth_principality
 		}
 	}
 	fixed_rank = 7
@@ -15832,18 +15832,19 @@ chinese_principality_reform = {
 		nobles_loyalty_modifier = 0.1
 		global_manpower_modifier = 0.2
 		max_absolutism = 10
+		land_forcelimit = 5
 	}
 	custom_attributes = {
 		locked_government_type = yes
 	}
 }
 
-japanese_imperial_colony_reform = {
+vu_japanese_imperial_colony_reform = { #Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_colony"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	potential = {
-		is_subject_of_type = japanese_imperial_colony
+		is_subject_of_type = vu_japanese_imperial_colony
 	}
 	fixed_rank = 5
 	modifiers = {
@@ -15856,12 +15857,12 @@ japanese_imperial_colony_reform = {
 	}
 }
 
-japanese_imperial_protectorate_reform = {
+vu_japanese_imperial_directorate_reform = { #Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_protectorate"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	potential = {
-		is_subject_of_type = japanese_imperial_governate
+		is_subject_of_type = vu_japanese_imperial_governate
 	}
 	fixed_rank = 6
 	modifiers = {
@@ -15875,12 +15876,12 @@ japanese_imperial_protectorate_reform = {
 	}
 }
 
-japanese_imperial_governate_reform = {
+vu_japanese_imperial_governate_reform = { #Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_governate"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	potential = {
-		is_subject_of_type = japanese_imperial_governate
+		is_subject_of_type = vu_japanese_imperial_governate
 	}
 	fixed_rank = 7
 	modifiers = {
@@ -15895,12 +15896,12 @@ japanese_imperial_governate_reform = {
 	}
 }
 
-japanese_imperial_warlord_reform = {
+vu_japanese_imperial_warlord_reform = { #Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_warlord"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	potential = {
-		is_subject_of_type = japanese_imperial_warlord
+		is_subject_of_type = vu_japanese_imperial_warlord
 	}
 	fixed_rank = 8
 	modifiers = {
@@ -15910,6 +15911,135 @@ japanese_imperial_warlord_reform = {
 		merchants = 1
 		yearly_army_professionalism = 0.1
 		siege_ability = 0.1
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+vu_hindu_principality_reform = { #Added by Prussia as part of the Great Subjects Update
+	icon = "hindu_principality"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			is_subject_of_type = vu_hindu_brahma_prince
+			is_subject_of_type = vu_hindu_vishnu_prince
+			is_subject_of_type = vu_hindu_shiva_prince
+			is_subject_of_type = vu_hindu_saraswati_prince
+			is_subject_of_type = vu_hindu_lakshimi_prince
+			is_subject_of_type = vu_hindu_parvarti_prince
+		}
+	}
+	fixed_rank = 7
+	maintain_dynasty = yes
+	modifiers = {
+		army_tradition = 0.5
+		global_manpower_modifier = 0.2
+		manpower_recovery_speed = 0.2
+		land_forcelimit = 5
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+vu_buddhist_principality_reform = { #Added by Prussia as part of the Great Subjects Update
+	icon = "buddhist_principality"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			is_subject_of_type = vu_buddhist_hinayana_prince
+			is_subject_of_type = vu_buddhist_bodhisattva_prince
+			is_subject_of_type = vu_buddhist_sakya_prince
+		}
+	}
+	fixed_rank = 7
+	maintain_dynasty = yes
+	modifiers = {
+		army_tradition = 0.5
+		land_forcelimit = 5
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+aztec_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+	icon = "aztec_lordship"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		is_subject_of_type = aztec_lordship_subject
+	}
+	fixed_rank = 1
+	maintain_dynasty = yes
+	modifiers = {
+		army_tradition = 0.5
+		global_tax_income = 24
+		manpower_recovery_speed = 0.2
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+mayan_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+	icon = "mayan_lordship"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		is_subject_of_type = mayan_lordship_subject
+	}
+	fixed_rank = 1
+	maintain_dynasty = yes
+	modifiers = {
+		army_tradition = 0.5
+		infantry_power = 0.1
+		leader_land_manuever = 1
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+inca_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+	icon = "inca_lordship"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		is_subject_of_type = inca_lordship_subject
+	}
+	fixed_rank = 1
+	maintain_dynasty = yes
+	modifiers = {
+		global_tax_income = 24
+		siege_ability = 0.1
+		discipline = 0.05
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+mesoamerican_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+	icon = "mayan_lordship"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		capital_scope = {
+			superregion = central_america_superregion
+		}
+	}
+	fixed_rank = 1
+	maintain_dynasty = yes
+	modifiers = {
+		global_tax_income = 12
+		infantry_power = 0.1
+		manpower_recovery_speed = 0.2
 	}
 	custom_attributes = {
 		locked_government_type = yes

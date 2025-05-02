@@ -14010,7 +14010,7 @@ decline_of_the_ottomans = {
 }
 
 #Diplo actions
-dissolve_protectorate_timer = {} #Timer
+dissolve_protectorate_timer = {} #Timer & Vanilla EU4 entry - SF
 just_left_sphere_of_cultural_influence_timer = {} #Timer
 just_asked_to_convert_timer = {}
 
@@ -19375,4 +19375,9 @@ VU_HOL_Duchy_Of_Brabant_Modifier = {
 
 VU_HOL_County_Of_Flanders = {
     global_trade_goods_size_modifier = 0.1
+}
+
+vu_internment_camps = {
+    local_colonial_growth = 10
+    local_unrest = 3
 }

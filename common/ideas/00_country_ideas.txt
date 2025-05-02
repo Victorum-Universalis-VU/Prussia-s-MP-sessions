@@ -16055,7 +16055,7 @@ ASU_ideas = {
 		diplomats = 1
 	}
 	asu_colonialism = {
-		colonists = 1
+		colonist_placement_chance = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	asu_millenarian_revival = {

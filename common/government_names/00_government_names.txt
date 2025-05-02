@@ -739,7 +739,7 @@ holy_roman_electors_bishoprics = {
         is_emperor = no
         OR = {
             has_reform = church_of_germany_abbacy_reform
-            is_subject_of_type = european_abbacy
+            is_subject_of_type = christian_abbacy
         }
     }
 }
@@ -766,7 +766,7 @@ holy_roman_electors_bishoprics = {
         is_emperor = no
         OR = {
             has_reform = church_of_germany_bishopric_reform
-            is_subject_of_type = european_bishopric
+            is_subject_of_type = christian_bishopric
         }
     }
 }
@@ -796,7 +796,7 @@ holy_roman_electors_archbishoprics = {
         is_emperor = no
         OR = {
             has_reform = church_of_germany_archbishopric_reform
-            is_subject_of_type = european_archbishopric
+            is_subject_of_type = christian_archbishopric
         }
     }
 }
@@ -2779,6 +2779,9 @@ hindu_rajput_monarchy = {
                 have_had_reform = tribal_kingdom
             }
         }
+        NOT = {
+            has_reform = vu_hindu_principality_reform
+        }
     }
 }
 
@@ -2856,6 +2859,9 @@ maratha_peshwas = {
                 have_had_reform = of_noble_bearing_reform
                 has_reform = meritocratic_focus_reform
                 have_had_reform = meritocratic_focus_reform
+            }
+            NOT = {
+                has_reform = vu_hindu_principality_reform
             }
         }
     }
@@ -2949,6 +2955,9 @@ indian_fiefdom_reform = {
                 has_reform = indian_fief_reform
                 have_had_reform = indian_fief_reform
             }
+        }
+        NOT = {
+            has_reform = vu_hindu_principality_reform
         }
     }
 }
@@ -3051,6 +3060,9 @@ assamese = {
                 has_reform = tribal_kingdom
                 have_had_reform = tribal_kingdom
             }
+        }
+        NOT = {
+            has_reform = vu_hindu_principality_reform
         }
     }
 }
@@ -4508,7 +4520,7 @@ gov_japanese_divine_empire = {
 }
 
 #000 Subjects Expanded
-german_fascist_puppet_state = {
+german_fascist_satellite_state = {
     rank = {
         6 = KANZLERAMT
         7 = MARSCHALLAMT
@@ -4545,7 +4557,7 @@ german_fascist_puppet_state = {
     }
 
     trigger = {
-        is_subject_of_type = puppet_state
+        is_subject_of_type = satellite_state
         overlord = {
             tag = GER
             OR = {
@@ -4556,7 +4568,7 @@ german_fascist_puppet_state = {
     }
 }
 
-fascist_puppet_state = {
+fascist_satellite_state = {
     rank = {
         6 = CHANCELLORSHIP
         7 = HIGH_CHANCELLORSHIP
@@ -4593,7 +4605,7 @@ fascist_puppet_state = {
     }
 
     trigger = {
-        is_subject_of_type = puppet_state
+        is_subject_of_type = satellite_state
         overlord = {
             OR = {
                 #has_reform = fascist_government
@@ -4603,7 +4615,7 @@ fascist_puppet_state = {
     }
 }
 
-communist_puppet_state = {
+communist_satellite_state = {
     rank = {
         6 = COMMISSARIAT
         7 = HIGH_COMMISSARIAT
@@ -4640,7 +4652,7 @@ communist_puppet_state = {
     }
 
     trigger = {
-        is_subject_of_type = puppet_state
+        is_subject_of_type = satellite_state
         overlord = {
             OR = {
                 has_reform = peasants_republic
@@ -4650,12 +4662,12 @@ communist_puppet_state = {
     }
 }
 
-default_puppet_state = {
+default_satellite_state = {
     rank = {
-        6 = PUPPET_STATE
-        7 = PUPPET_STATE
-        8 = PUPPET_STATE
-        9 = PUPPET_STATE
+        6 = SATELLITE_STATE
+        7 = SATELLITE_STATE
+        8 = SATELLITE_STATE
+        9 = SATELLITE_STATE
     }
 
     ruler_male = {
@@ -4687,7 +4699,7 @@ default_puppet_state = {
     }
 
     trigger = {
-        is_subject_of_type = puppet_state
+        is_subject_of_type = satellite_state
     }
 }
 
@@ -4844,11 +4856,11 @@ chinese_principality = {
     }
 
     trigger = {
-        has_reform = chinese_principality_reform
+        has_reform = vu_chinese_principality_reform
     }
 }
 
-japanese_imperial_colony = {
+vu_japanese_imperial_colony = {
     rank = {
         5 = JAPANESE_COLONY
     }
@@ -4866,11 +4878,11 @@ japanese_imperial_colony = {
     }
 
     trigger = {
-        has_reform = japanese_imperial_colony_reform
+        has_reform = vu_japanese_imperial_colony_reform
     }
 }
 
-japanese_imperial_protectorate = {
+vu_japanese_imperial_directorate = {
     rank = {
         6 = JAPANESE_PROTECTORATE
     }
@@ -4888,11 +4900,11 @@ japanese_imperial_protectorate = {
     }
 
     trigger = {
-        has_reform = japanese_imperial_protectorate_reform
+        has_reform = vu_japanese_imperial_directorate_reform
     }
 }
 
-japanese_imperial_governate = {
+vu_japanese_imperial_governate = {
     rank = {
         7 = JAPANESE_GOVERNATE
     }
@@ -4910,11 +4922,11 @@ japanese_imperial_governate = {
     }
 
     trigger = {
-        has_reform = japanese_imperial_governate_reform
+        has_reform = vu_japanese_imperial_governate_reform
     }
 }
 
-japanese_imperial_warlord = {
+vu_japanese_imperial_warlord = {
     rank = {
         8 = JAPANESE_WARLORD_STATE
     }
@@ -4932,6 +4944,206 @@ japanese_imperial_warlord = {
     }
 
     trigger = {
-        has_reform = japanese_imperial_warlord_reform
+        has_reform = vu_japanese_imperial_warlord_reform
+    }
+}
+
+vu_hindu_principality = {
+    rank = {
+        7 = HINDU_PRINCIPALITY
+    }
+
+    ruler_male = {
+        7 = HINDU_PRINCE
+    }
+
+    ruler_female = {
+        7 = HINDU_PRINCE_fem
+    }
+
+    consort_male = {
+        7 = HINDU_PRINCE_CONSORT
+    }
+
+    consort_female = {
+        7 = HINDU_PRINCE_CONSORT_fem
+    }
+
+    heir_male = {
+        7 = HINDU_PRINCE_HEIR
+    }
+
+    heir_female = {
+        7 = HINDU_PRINCE_HEIR_fem
+    }
+
+    trigger = {
+        has_reform = vu_hindu_principality_reform
+    }
+}
+
+vu_buddhist_principality = {
+    rank = {
+        7 = BUDDHIST_PRINCIPALITY
+    }
+
+    ruler_male = {
+        7 = BUDDHIST_PRINCE
+    }
+
+    ruler_female = {
+        7 = BUDDHIST_PRINCE_fem
+    }
+
+    consort_male = {
+        7 = BUDDHIST_PRINCE_CONSORT
+    }
+
+    consort_female = {
+        7 = BUDDHIST_PRINCE_CONSORT_fem
+    }
+
+    heir_male = {
+        7 = BUDDHIST_PRINCE_HEIR
+    }
+
+    heir_female = {
+        7 = BUDDHIST_PRINCE_HEIR_fem
+    }
+
+    trigger = {
+        has_reform = vu_buddhist_principality_reform
+    }
+}
+
+#Native American Reforms
+
+aztec_lordship = {
+    rank = {
+        1 = AZTEC_LORDSHIP
+    }
+
+    ruler_male = {
+        1 = AZTEC_LORD
+    }
+
+    consort_female = {
+        1 = AZTEC_LORD_CONSORT_fem
+    }
+
+    heir_male = {
+        1 = AZTEC_LORD_HEIR
+    }
+
+    trigger = {
+        has_reform = aztec_lordship_reform
+    }
+}
+
+mayan_lordship = {
+    rank = {
+        1 = MAYAN_LORDSHIP
+    }
+
+    ruler_male = {
+        1 = MAYAN_LORD
+    }
+
+    consort_female = {
+        1 = MAYAN_LORD_CONSORT_fem
+    }
+
+    heir_male = {
+        1 = MAYAN_LORD_HEIR
+    }
+
+    trigger = {
+        has_reform = mayan_lordship_reform
+    }
+}
+
+inca_lordship = {
+    rank = {
+        1 = INCA_LORDSHIP
+    }
+
+    ruler_male = {
+        1 = INCA_LORD
+    }
+
+    consort_female = {
+        1 = INCA_LORD_CONSORT_fem
+    }
+
+    heir_male = {
+        1 = INCA_LORD_HEIR
+    }
+
+    trigger = {
+        has_reform = inca_lordship_reform
+    }
+}
+
+iroquois_confederacy_member = {
+    rank = {
+        3 = IROQUOIS_CONFEDERACY_MEMBER
+    }
+
+    ruler_male = {
+        3 = IROQUOIS_CONFEDERACY_CHIEF
+    }
+
+    consort_female = {
+        3 = IROQUOIS_CONFEDERACY_CHIEF_CONSORT_fem
+    }
+
+    heir_male = {
+        3 = IROQUOIS_CONFEDERACY_CHIEF_HEIR
+    }
+
+    trigger = {
+        has_reform = iroquois_confederacy_member_reform
+    }
+}
+
+iqta = {
+    rank = {
+        1 = IQTA_MUFTATE_VU
+        2 = IQTA_GRAND_MUFTATE_VU
+        3 = IQTA_SHEIKHDOM_VU
+        4 = IQTA_GRAND_SHEIKDOM_VU
+        5 = IQTA_EMIRATE
+        6 = IQTA_SULTANATE
+        7 = IQTA_TAIFATE
+        8 = IQTA_MALIKATE
+        9 = IQTA_CALIPHATE
+    }
+
+    ruler_male = {
+        1 = IQTA_MUFTI_VU
+        2 = IQTA_GRAND_MUFTI_VU
+        3 = IQTA_SHEIKH_VU
+        4 = IQTA_GRAND_SHEIKH_VU
+        5 = IQTA_EMIR_VU
+        6 = IQTA_SULTAN_VU
+        7 = IQTA_TAIFA_VU
+        8 = IQTA_MALIK_VU
+        9 = IQTA_CALIPH_VU
+    }
+
+    heir_male = {
+        1 = IQTA_MUFTI_VU_heir
+        2 = IQTA_GRAND_MUFTI_VU_heir
+        3 = IQTA_SHEIKH_VU_heir
+        4 = IQTA_GRAND_SHEIKH_VU_heir
+        5 = IQTA_EMIR_VU_heir
+        6 = IQTA_SULTAN_VU_heir
+        7 = IQTA_TAIFA_VU_heir
+        8 = IQTA_MALIK_VU_heir
+        9 = IQTA_CALIPH_VU_heir
+    }
+
+    trigger = {
+        has_reform = iqta
     }
 }

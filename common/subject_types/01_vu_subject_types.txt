@@ -1,41 +1,9 @@
-# VU Subject types for v1.37 by SF
-# Please only add European and Fuedal subject types in this file.
-# Credits go to: Prussia, Don, Altan, Letole and Modus
-# OBS! Full modding not supported. Code support still needed to remove/rename the original subject types.
-# Custom ones CAN be created with scriptable diplomatic actions (see "dummy" at the bottom of this file), although this is not currently very functional.
+# VU ToR v1.37 subject types by SF
+# Credits go to: Prussia, Don, Altan, Letole and Modus.
+# All subjects listed here are for VU and were created by the VU team. 
 
-# If used, copy_from should be put at the very top ( things above it will be overwitten )
-
-# Triggers will be evaluated in the scope of the Subject, with the Overlord as its FROM scope.
-# Exception: is_potential_overlord is evaluated in the scope of the potential Overlord, with no particular subject in mind.
-
-# count = x is used (means it "counts as" x in some triggers).
-
-# copy_from copies everything except count, is_potential_overlord, and can_be_established
-
-# relative_power_class decides how Subjects are grouped together when considering relative strenghth towards overlord:
-# If it is 0 they won't consider relative power and if it is 1 they will only consider their own power (and those supporting their independence) compared to their Overlord's.
-# Otherwise they will sum up the power of every Subject of the same relative_power_class as themselves, and all countries who support either themselves or one of their allies in the same relative_power_class.
-
-# diplomacy_view_class decides how subjects are grouped together in diplomacy view and in foreign province view:
-# 0 means it won't be listed
-# 1 means it will be listed together only with the same subject type
-# Other values means it will be listed together with all subjects of the same diplomacy_view_class
-
-# The following status checks are considered in old triggers:
-
-# is_colonial_nation  & is_former_colonial_nation
-#        checks the 'has_colonial_parent = yes' attribute
-
-# is_lesser_in_union, junior_union_with, senior_union_with & years_in_union_under
-#		checks the 'has_overlords_ruler = yes' attribute
-# Forward declaring all subject types so they can refer to each other in triggers etc. (Not sure if it's necessary but I like to have a list at the start of the file as in 00_subject_types) By Altan
-
-#SLAVIC SUBJECTS
+#AlBANIAN SUBJECTS
 lezhe_league_member = {}
-bosnian_banat_kingdom = {}
-slavic_vojvodina = {}
-silesian_duke = {}
 #ANGEVIN SUBJECTS
 anglois_lordship = {}
 anglois_barony = {}
@@ -45,6 +13,7 @@ anglois_marquisate = {}
 anglois_duchy = {}
 anglois_principality = {}
 anglois_kingdom = {}
+anglois_crown_PU = {}
 #ARAGONESE SUBJECTS
 aragonese_lordship = {}
 aragonese_barony = {}
@@ -54,6 +23,7 @@ aragonese_marquisate = {}
 aragonese_duchy = {}
 aragonese_principality = {}
 aragonese_kingdom = {}
+aragonese_crown_PU = {}
 #AUSTRIAN SUBJECTS
 austrian_lordship = {}
 austrian_barony = {}
@@ -63,6 +33,7 @@ austrian_marquisate = {}
 austrian_duchy = {}
 austrian_principality = {}
 austrian_kingdom = {}
+austrian_crown_PU = {}
 #BALTIC SUBJECTS
 baltic_lordship = {}
 baltic_barony = {}
@@ -72,6 +43,7 @@ baltic_marquisate = {}
 baltic_duchy = {}
 baltic_principality = {}
 baltic_kingdom = {}
+baltic_crown_PU = {}
 #BELGIAN SUBJECTS
 belgian_lordship = {}
 belgian_barony = {}
@@ -81,6 +53,8 @@ belgian_marquisate = {}
 belgian_duchy = {}
 belgian_principality = {}
 belgian_kingdom = {}
+#BENELUX SUBJECTS
+benelux_crown_PU = {}
 #BOHEMIAN SUBJECTS
 bohemian_lordship = {}
 bohemian_barony = {}
@@ -90,6 +64,9 @@ bohemian_marquisate = {}
 bohemian_duchy = {}
 bohemian_principality = {}
 bohemian_kingdom = {}
+bohemian_crown_PU = {}
+#BOSNIAN SUBJECTS
+bosnian_banat_kingdom = {}
 #BURGUNDIAN SUBJECTS
 burgundian_lordship = {}
 burgundian_barony = {}
@@ -99,6 +76,7 @@ burgundian_marquisate = {}
 burgundian_duchy = {}
 burgundian_principality = {}
 burgundian_kingdom = {}
+burgundian_crown_PU = {}
 #BYZANTINE SUBJECTS
 byzantine_lordship = {}
 byzantine_barony = {}
@@ -108,6 +86,7 @@ byzantine_marquisate = {}
 byzantine_duchy = {}
 byzantine_principality = {}
 byzantine_kingdom = {}
+byzantine_crown_PU = {}
 #CASTILIAN SUBJECTS
 castilian_lordship = {}
 castilian_barony = {}
@@ -117,6 +96,10 @@ castilian_marquisate = {}
 castilian_duchy = {}
 castilian_principality = {}
 castilian_kingdom = {}
+#CHRISTIAN SUBJECTS
+christian_abbacy = {}
+christian_bishopric = {}
+christian_archbishopric = {}
 #DANISH SUBJECTS
 danish_lordship = {}
 danish_barony = {}
@@ -126,6 +109,7 @@ danish_marquisate = {}
 danish_duchy = {}
 danish_principality = {}
 danish_kingdom = {}
+danish_crown_PU = {}
 #DUTCH SUBJECTS
 dutch_lordship = {}
 dutch_barony = {}
@@ -144,6 +128,7 @@ english_marquisate = {}
 english_duchy = {}
 english_principality = {}
 english_kingdom = {}
+english_crown_PU = {}
 #FRENCH SUBJECTS
 french_lordship = {}
 french_barony = {}
@@ -153,6 +138,7 @@ french_marquisate = {}
 french_duchy = {}
 french_principality = {}
 french_kingdom = {}
+french_crown_PU = {}
 #GERMAN SUBJECTS
 german_lordship = {}
 german_barony = {}
@@ -162,6 +148,7 @@ german_marquisate = {}
 german_duchy = {}
 german_principality = {}
 german_kingdom = {}
+german_crown_PU = {}
 #HUNGARIAN SUBJECTS
 hungarian_lordship = {}
 hungarian_barony = {}
@@ -171,6 +158,7 @@ hungarian_marquisate = {}
 hungarian_duchy = {}
 hungarian_principality = {}
 hungarian_kingdom = {}
+hungarian_crown_PU = {}
 #ITALIAN SUBJECTS
 italian_lordship = {}
 italian_barony = {}
@@ -180,6 +168,7 @@ italian_marquisate = {}
 italian_duchy = {}
 italian_principality = {}
 italian_kingdom = {}
+italian_crown_PU = {}
 #LITHUANIAN SUBJECTS
 lithuanian_lordship_march = {}
 lithuanian_duchy = {}
@@ -193,6 +182,7 @@ norwegian_marquisate = {}
 norwegian_duchy = {}
 norwegian_principality = {}
 norwegian_kingdom = {}
+norwegian_crown_PU = {}
 #POLISH SUBJECTS
 polish_lordship = {}
 polish_barony = {}
@@ -202,6 +192,7 @@ polish_marquisate = {}
 polish_duchy = {}
 polish_principality = {}
 polish_kingdom = {}
+polish_crown_PU = {}
 #PORTUGUESE SUBJECTS
 portuguese_lordship = {}
 portuguese_barony = {}
@@ -211,6 +202,7 @@ portuguese_marquisate = {}
 portuguese_duchy = {}
 portuguese_principality = {}
 portuguese_kingdom = {}
+portuguese_crown_PU = {}
 #PRUSSIAN SUBJECTS
 prussian_lordship = {}
 prussian_barony = {}
@@ -220,6 +212,7 @@ prussian_marquisate = {}
 prussian_duchy = {}
 prussian_principality = {}
 prussian_kingdom = {}
+prussian_crown_PU = {}
 #RUSSIAN SUBJECTS
 russian_lordship = {}
 russian_barony = {}
@@ -229,8 +222,17 @@ russian_marquisate = {}
 russian_duchy = {}
 russian_principality = {}
 russian_kingdom = {}
-#SCOTTISH CLAN SUBJECTS
+russian_crown_PU = {}
+#SATELLITE_SUBJECTS
+satellite_state = {}
+#SCOTTISH SUBJECTS
 scottish_clan = {}
+#SILESIAN SUBJECTS
+silesian_duke = {}
+#SLAVIC SUBJECTS
+slavic_vojvodina = {}
+#SPANISH SUBJECTS
+spanish_crown_PU = {}
 #SWEDISH SUBJECTS
 swedish_lordship = {}
 swedish_barony = {}
@@ -240,36 +242,8 @@ swedish_marquisate = {}
 swedish_duchy = {}
 swedish_principality = {}
 swedish_kingdom = {}
-#CROWN PU SUBJECTS
-anglois_crown_PU = {}
-aragonese_crown_PU = {}
-austrian_crown_PU = {}
-baltic_crown_PU = {}
-benelux_crown_PU = {}
-bohemian_crown_PU = {}
-burgundian_crown_PU = {}
-byzantine_crown_PU = {}
-danish_crown_PU = {}
-english_crown_PU = {}
-french_crown_PU = {}
-german_crown_PU = {}
-hungarian_crown_PU = {}
-italian_crown_PU = {}
-norwegian_crown_PU = {}
-polish_crown_PU = {}
-portuguese_crown_PU = {}
-prussian_crown_PU = {}
-russian_crown_PU = {}
-spanish_crown_PU = {}
 swedish_crown_PU = {}
-#BISHOPRIC & ARCHBISHOPRIC SUBJECTS
-european_abbacy = {}
-european_bishopric = {}
-european_archbishopric = {}
-#SLAVIC SUBJECTS
-lezhe_league_member = {}
-bosnian_banat_kingdom = {}
-slavic_vojvodina = {}
+
 #REPUBLIC SUBJECTS
 feudal_republic = {}
 merchantlist_republic = {}
@@ -339,252 +313,6 @@ lezhe_league_member = {
 
     overlord_opinion_modifier = is_lezhe_league_member
     subject_opinion_modifier = is_lezhe_league_member
-}
-
-#BOSNIAN BANAT-KINGDOM SUBJECTS
-bosnian_banat_kingdom = {
-    copy_from = default
-
-    sprite = GFX_icon_bosnian_banat_kingdom
-    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_bosnian_banat_kingdom
-    diplomacy_subject_sprite = GFX_icon_diplomacy_am_bosnian_banat_kingdom
-
-    # Properties:
-    has_power_projection = no
-    takes_diplo_slot = yes
-    gets_help_with_rebels = yes
-    separatists_become_subjects = yes
-    allows_taking_land_without_independence = yes
-    forms_trade_companies = no
-    can_concentrate_development = no
-    trust_on_start = 0
-    base_liberty_desire = 20.0
-    forcelimit_to_overlord = 0.00
-    military_focus = 1.2
-    pays_overlord = 1
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    #Subject Interactions
-    seize_court_resources = yes
-    request_extra_levies = yes
-    grant_administrative_autonomy = yes
-    #(disable)
-    scutage = yes
-    grant_core_claim = yes
-    grant_province = yes
-    place_relative_on_throne = yes
-    enforce_religion = yes
-    enforce_culture = no
-    seize_territory = no
-    #(enable)
-    contribute_to_capital = no
-    return_land = yes
-    conscript_general = yes
-
-    #Modifiers
-    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
-    modifier_subject = {
-        modifier = bosnian_banat_kingdom_subject
-    }
-    modifier_subject = {
-        modifier = subject_tax_modifier
-        trigger = {
-            overlord = {
-                has_government_attribute = subject_tax_modifier_25
-            }
-        }
-    }
-    modifier_overlord = {
-        modifier = bosnian_banat_kingdom_overlord
-    }
-
-    overlord_opinion_modifier = is_bosnian_banat_kingdom
-    subject_opinion_modifier = is_bosnian_banat_kingdom
-}
-
-#SLAVIC VOJVODINA SUBJECTS
-slavic_vojvodina = {
-    copy_from = default
-
-    sprite = GFX_icon_slavic_vojvodina
-    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_slavic_vojvodina
-    diplomacy_subject_sprite = GFX_icon_diplomacy_am_slavic_vojvodina
-
-    # Properties:
-    has_power_projection = yes
-    takes_diplo_slot = yes
-    gets_help_with_rebels = yes
-    separatists_become_subjects = yes
-    allows_taking_land_without_independence = yes
-    forms_trade_companies = no
-    can_concentrate_development = no
-    trust_on_start = 15
-    base_liberty_desire = 20.0
-    forcelimit_to_overlord = 0.00
-    military_focus = 1.5
-    pays_overlord = 0.5
-    joins_overlords_wars = yes
-    can_use_claims = yes
-    is_march = yes
-
-    relative_power_class = 1             #1 is individual 2 is combined
-    should_quit_wars_on_activation = yes
-
-    #Subject Interactions
-    seize_court_resources = no
-    request_extra_levies = yes
-    grant_administrative_autonomy = yes
-    #(disable)
-    scutage = no
-    grant_core_claim = yes
-    grant_province = yes
-    place_relative_on_throne = yes
-    enforce_religion = yes
-    enforce_culture = yes
-    seize_territory = yes          #Kniaz is appointing the vojvod - Don
-    #(enable)
-    contribute_to_capital = no
-    return_land = yes
-    conscript_general = no
-
-    #Modifiers
-    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
-    modifier_subject = {
-        modifier = slavic_vojvodina_subject
-    }
-    modifier_subject = {
-        modifier = subject_tax_modifier
-        trigger = {
-            overlord = {
-                has_government_attribute = subject_tax_modifier_25
-            }
-        }
-    }
-    modifier_overlord = {
-        modifier = slavic_vojvodina_overlord
-    }
-
-    overlord_opinion_modifier = is_slavic_vojvodina
-    subject_opinion_modifier = is_slavic_vojvodina
-}
-
-#SILESIAN DUCHIES - NOW EXTRA DISLOYAL!
-silesian_duke = {
-    copy_from = default
-
-    # Graphics:
-    sprite = GFX_icon_silesian_duke
-    diplomacy_overlord_sprite = GFX_diplomacy_leadsilesian_duke
-    diplomacy_subject_sprite = GFX_diplomacy_amsilesian_duke
-
-    # Properties:
-    can_fight_independence_war = yes
-    transfer_trade_power = yes
-    joins_colonial_wars = no
-    is_voluntary = no
-    joins_overlords_wars = yes
-    takes_diplo_slot = no
-    can_be_annexed = yes
-    can_transfer_in_peace = yes
-    can_release_in_peace = yes
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    overlord_protects_external = yes
-    counts_for_borders = yes
-    can_use_claims = yes
-    can_set_mil_focus = yes
-    can_send_missionary_to_subject = yes
-    overlord_can_fabricate_for = yes
-    does_overlord_size_count_for_warscore_cost = no
-    can_concentrate_development = no
-
-    max_government_rank = 6
-    cities_required_for_bonuses = 0
-    trust_on_start = 35
-
-    base_liberty_desire = -20.0
-    liberty_desire_negative_prestige = 10.0
-    liberty_desire_development_ratio = 0.25
-    liberty_desire_same_dynasty = -5.0
-    liberty_desire_revolution = 35.0
-    pays_overlord = 1.0
-    forcelimit_to_overlord = 0.15
-
-    relative_power_class = 2
-
-    can_fight = { # Silesian dukes can fight between each other
-        same_overlord = silesian_duke
-        same_overlord = vassal
-    }
-    can_rival = {
-        same_overlord = silesian_duke
-    }
-    can_ally = {
-        same_overlord = silesian_duke
-        same_overlord = vassal
-        same_overlord = march
-    }
-    can_marry = {
-        same_overlord = silesian_duke
-        same_overlord = vassal
-        same_overlord = march
-    }
-
-    restoration_cb = cb_disloyal_vassal
-
-    # Subject Interactions:
-    scutage = yes
-    place_relative_on_throne = yes
-    seize_territory = yes
-    enforce_religion = yes
-    grant_core_claim = yes
-    placate_rulers = yes
-    enforce_culture = yes
-    siphon_income = yes
-    takeondebt = yes
-    knowledge_sharing = yes
-
-    # Modifiers:
-    modifier_subject = clear
-    modifier_subject = {
-        modifier = silesian_duke_modifier
-    }
-
-    modifier_subject = { # Actually penalities vassal recieves for being too large since silesian duchies were rather small and fractured
-        trigger = {
-            num_of_cities = 5
-        }
-        modifier = silesian_duke_size_modifier
-    }
-    modifier_subject = {
-        trigger = {
-            num_of_cities = 7
-        }
-        modifier = silesian_duke_size_modifier
-    }
-    modifier_subject = {
-        trigger = {
-            num_of_cities = 10
-        }
-        modifier = silesian_duke_size_modifier
-    }
-    modifier_subject = {
-        trigger = {
-            num_of_cities = 14
-        }
-        modifier = silesian_duke_size_modifier
-    }
-
-    modifier_overlord = {
-        modifier = vassal_subject
-    }
-
-    overlord_opinion_modifier = is_vassal
-    subject_opinion_modifier = is_vassal
 }
 
 #ANGEVIN SUBJECTS
@@ -1240,6 +968,64 @@ anglois_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+anglois_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_anglois_union
+    diplomacy_overlord_sprite = GFX_anglois_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_anglois_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = anglois_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = anglois_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = anglois_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #ARAGONESE SUBJECTS
 aragonese_lordship = {
     copy_from = default
@@ -1891,6 +1677,64 @@ aragonese_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+aragonese_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_aragonese_union
+    diplomacy_overlord_sprite = GFX_aragonese_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_aragonese_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = aragonese_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = aragonese_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = aragonese_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #AUSTRIAN SUBJECTS
@@ -2546,6 +2390,64 @@ austrian_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+austrian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_austrian_union
+    diplomacy_overlord_sprite = GFX_austrian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_austrian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = austrian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = austrian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = austrian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #BALTIC SUBJECTS
 baltic_lordship = {
     copy_from = default
@@ -3199,6 +3101,64 @@ baltic_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+baltic_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_baltic_union
+    diplomacy_overlord_sprite = GFX_baltic_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_baltic_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = baltic_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = baltic_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = baltic_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #BELGIAN SUBJECTS
@@ -4509,6 +4469,129 @@ bohemian_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+bohemian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_bohemian_union
+    diplomacy_overlord_sprite = GFX_bohemian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_bohemian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = bohemian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = bohemian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = bohemian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
+#BOSNIAN BANAT-KINGDOM SUBJECTS
+bosnian_banat_kingdom = {
+    copy_from = default
+
+    sprite = GFX_icon_bosnian_banat_kingdom
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_bosnian_banat_kingdom
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_bosnian_banat_kingdom
+
+    # Properties:
+    has_power_projection = no
+    takes_diplo_slot = yes
+    gets_help_with_rebels = yes
+    separatists_become_subjects = yes
+    allows_taking_land_without_independence = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    trust_on_start = 0
+    base_liberty_desire = 20.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 1
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    #Subject Interactions
+    seize_court_resources = yes
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    #Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+    modifier_subject = {
+        modifier = bosnian_banat_kingdom_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = bosnian_banat_kingdom_overlord
+    }
+
+    overlord_opinion_modifier = is_bosnian_banat_kingdom
+    subject_opinion_modifier = is_bosnian_banat_kingdom
+}
+
 #BURGUNDIAN SUBJECTS
 burgundian_lordship = {
     copy_from = default
@@ -5158,6 +5241,65 @@ burgundian_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+burgundian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_burgundian_union
+    diplomacy_overlord_sprite = GFX_burgundian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_burgundian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    transfer_trade_power = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = burgundian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = burgundian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = burgundian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #BYZANTINE SUBJECTS
@@ -5813,6 +5955,64 @@ byzantine_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+byzantine_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_byzantine_union
+    diplomacy_overlord_sprite = GFX_byzantine_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_byzantine_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = byzantine_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = byzantine_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = byzantine_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #CASTILIAN SUBJECTS
 castilian_lordship = {
     copy_from = default
@@ -6466,6 +6666,250 @@ castilian_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+#CHRISTIAN SUBJECTS
+christian_abbacy = {
+    copy_from = default
+
+    # Graphics:
+    sprite = GFX_icon_christian_abbacy_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_christian_abbacy_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_christian_abbacy_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    can_be_annexed = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 2
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = no
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_christian_abbacy #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = christian_abbacy_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = christian_abbacy_overlord
+    }
+
+    overlord_opinion_modifier = is_christian_abbacy
+    subject_opinion_modifier = is_christian_abbacy
+}
+
+christian_bishopric = {
+    copy_from = christian_abbacy
+
+    # Graphics:
+    sprite = GFX_icon_christian_bishopric_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_christian_bishopric_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_christian_bishopric_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    can_be_annexed = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 4
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = no
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_christian_bishopric #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = christian_bishopric_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = christian_bishopric_overlord
+    }
+
+    overlord_opinion_modifier = is_christian_bishopric
+    subject_opinion_modifier = is_christian_bishopric
+}
+
+christian_archbishopric = {
+    copy_from = christian_bishopric
+
+    # Graphics:
+    sprite = GFX_icon_christian_archbishopric_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_christian_archbishopric_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_christian_archbishopric_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    can_be_annexed = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 7
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = no
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_christian_archbishopric #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = christian_archbishopric_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = christian_archbishopric_overlord
+    }
+
+    overlord_opinion_modifier = is_christian_archbishopric
+    subject_opinion_modifier = is_christian_archbishopric
+}
+
 #DANISH SUBJECTS
 danish_lordship = {
     copy_from = default
@@ -7117,6 +7561,64 @@ danish_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+danish_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_danish_union
+    diplomacy_overlord_sprite = GFX_danish_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_danish_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = danish_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = danish_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = danish_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #DUTCH SUBJECTS
@@ -8423,6 +8925,75 @@ english_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+english_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_english_union
+    diplomacy_overlord_sprite = GFX_english_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_english_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = english_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = english_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            OR = {
+                tag = ENG
+                tag = GBR
+                tag = UNK
+            }
+            overlord = { has_country_flag = ned_man_o_wars_from_pu_flag }
+        }
+        modifier = ned_man_o_war_modifier
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = english_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #FRENCH SUBJECTS
 french_lordship = {
     copy_from = default
@@ -9074,6 +9645,64 @@ french_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+french_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_french_union
+    diplomacy_overlord_sprite = GFX_french_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_french_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = french_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = french_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = french_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #GERMAN SUBJECTS
@@ -9729,6 +10358,64 @@ german_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+german_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_german_union
+    diplomacy_overlord_sprite = GFX_german_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_german_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = german_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = german_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = german_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #HUNGARIAN SUBJECTS
 hungarian_lordship = {
     copy_from = default
@@ -10382,6 +11069,64 @@ hungarian_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+hungarian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_hungarian_union
+    diplomacy_overlord_sprite = GFX_hungarian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_hungarian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = hungarian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = hungarian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = hungarian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #ITALIAN SUBJECTS
 italian_lordship = {
     copy_from = default
@@ -11033,6 +11778,64 @@ italian_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+italian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_italian_union
+    diplomacy_overlord_sprite = GFX_italian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_italian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = italian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = italian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = italian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #LITHUANIAN SUBJECTS
@@ -12024,6 +12827,64 @@ norwegian_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+norwegian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_norwegian_union
+    diplomacy_overlord_sprite = GFX_norwegian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_norwegian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = norwegian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = norwegian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = norwegian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #POLISH SUBJECTS
 polish_lordship = {
     copy_from = default
@@ -12675,6 +13536,64 @@ polish_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+polish_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_polish_union
+    diplomacy_overlord_sprite = GFX_polish_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_polish_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = polish_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = polish_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = polish_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #PORTUGUESE SUBJECTS
@@ -13330,6 +14249,64 @@ portuguese_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+portuguese_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_portuguese_union
+    diplomacy_overlord_sprite = GFX_portuguese_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_portuguese_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = portuguese_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = portuguese_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = portuguese_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
 #PRUSSIAN SUBJECTS
 prussian_lordship = {
     copy_from = default
@@ -13981,6 +14958,64 @@ prussian_kingdom = {
 
     overlord_opinion_modifier = is_kingdom
     subject_opinion_modifier = is_kingdom
+}
+
+prussian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_prussian_union
+    diplomacy_overlord_sprite = GFX_prussian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_prussian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = prussian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = prussian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = prussian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #RUSSIAN SUBJECTS
@@ -14636,6 +15671,152 @@ russian_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
+russian_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_russian_union
+    diplomacy_overlord_sprite = GFX_russian_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_russian_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = russian_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = russian_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = russian_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
+}
+
+#SATELLITE_STATE
+satellite_state = {
+    copy_from = default
+    count = vassal
+
+    # Graphics:
+    sprite = GFX_icon_puppet
+    diplomacy_overlord_sprite = GFX_diplomacy_leadpuppet
+    diplomacy_subject_sprite = GFX_diplomacy_ampuppet
+
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        is_nomad = no
+        is_tribal = no
+        primitives = no
+        legitimacy_equivalent = 50
+        total_development = 300
+    }
+
+    # Properties:
+    can_be_annexed = yes
+    has_power_projection = no
+    can_transfer_in_peace = no
+    extend_trading_range = yes
+
+    max_government_rank = 6
+    cities_required_for_bonuses = 0 #0
+    trust_on_start = 35
+
+    base_liberty_desire = -15.0
+    liberty_desire_development_ratio = 0.2
+    forcelimit_to_overlord = 0.2
+    military_focus = 1.0
+
+    relative_power_class = 2
+    diplomacy_view_class = 1
+
+    can_rival = {
+        other_overlord = satellite_state
+    }
+
+    # Subject Interactions:
+    # (continuous)
+    support_loyalists = yes
+    subsidize_armies = yes
+    # (immediate)
+    placate_rulers = yes
+    replace_governor = yes
+    fortify_march = yes
+    seize_territory = yes
+    send_additional_troops = yes
+
+    # Modifiers:
+    modifier_subject = clear
+    modifier_subject = {
+        modifier = subject_nation
+    }
+    modifier_subject = {
+        modifier = satellite_state_modifier
+        trigger = {
+            NOT = { development_of_overlord_fraction = 0.33 }
+        }
+        expiration_message_overlord = MARCHTOOLARGE
+        expiration_message_subject = MARCHTOOLARGEUS
+    }
+    modifier_subject = {
+        modifier = satellite_state_overlord_has_parliament_modifier
+        trigger = {
+            FROM = {
+                government = monarchy
+                has_parliament = yes
+            }
+        }
+    }
+
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = satellite_state_overlord_modifier
+    }
+    modifier_overlord = {
+        modifier = vassal_subject
+    }
+
+    overlord_opinion_modifier = is_satellite_state
+    subject_opinion_modifier = is_satellite_state
+}
+
 #SCOTTISH SUBJECTS
 scottish_clan = {
     copy_from = vassal
@@ -14710,6 +15891,246 @@ scottish_clan = {
     modifier_overlord = {
         modifier = scottish_clan_overlord
     }
+}
+
+#SILESIAN DUCHIES - NOW EXTRA DISLOYAL!
+silesian_duke = {
+    copy_from = default
+
+    # Graphics:
+    sprite = GFX_icon_silesian_duke
+    diplomacy_overlord_sprite = GFX_diplomacy_leadsilesian_duke
+    diplomacy_subject_sprite = GFX_diplomacy_amsilesian_duke
+
+    # Properties:
+    can_fight_independence_war = yes
+    transfer_trade_power = yes
+    joins_colonial_wars = no
+    is_voluntary = no
+    joins_overlords_wars = yes
+    takes_diplo_slot = no
+    can_be_annexed = yes
+    can_transfer_in_peace = yes
+    can_release_in_peace = yes
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    overlord_protects_external = yes
+    counts_for_borders = yes
+    can_use_claims = yes
+    can_set_mil_focus = yes
+    can_send_missionary_to_subject = yes
+    overlord_can_fabricate_for = yes
+    does_overlord_size_count_for_warscore_cost = no
+    can_concentrate_development = no
+
+    max_government_rank = 6
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+
+    base_liberty_desire = -20.0
+    liberty_desire_negative_prestige = 10.0
+    liberty_desire_development_ratio = 0.25
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 35.0
+    pays_overlord = 1.0
+    forcelimit_to_overlord = 0.15
+
+    relative_power_class = 2
+
+    can_fight = { # Silesian dukes can fight between each other
+        same_overlord = silesian_duke
+        same_overlord = vassal
+    }
+    can_rival = {
+        same_overlord = silesian_duke
+    }
+    can_ally = {
+        same_overlord = silesian_duke
+        same_overlord = vassal
+        same_overlord = march
+    }
+    can_marry = {
+        same_overlord = silesian_duke
+        same_overlord = vassal
+        same_overlord = march
+    }
+
+    restoration_cb = cb_disloyal_vassal
+
+    # Subject Interactions:
+    scutage = yes
+    place_relative_on_throne = yes
+    seize_territory = yes
+    enforce_religion = yes
+    grant_core_claim = yes
+    placate_rulers = yes
+    enforce_culture = yes
+    siphon_income = yes
+    takeondebt = yes
+    knowledge_sharing = yes
+
+    # Modifiers:
+    modifier_subject = clear
+    modifier_subject = {
+        modifier = silesian_duke_modifier
+    }
+
+    modifier_subject = { # Actually penalities vassal recieves for being too large since silesian duchies were rather small and fractured
+        trigger = {
+            num_of_cities = 5
+        }
+        modifier = silesian_duke_size_modifier
+    }
+    modifier_subject = {
+        trigger = {
+            num_of_cities = 7
+        }
+        modifier = silesian_duke_size_modifier
+    }
+    modifier_subject = {
+        trigger = {
+            num_of_cities = 10
+        }
+        modifier = silesian_duke_size_modifier
+    }
+    modifier_subject = {
+        trigger = {
+            num_of_cities = 14
+        }
+        modifier = silesian_duke_size_modifier
+    }
+
+    modifier_overlord = {
+        modifier = vassal_subject
+    }
+
+    overlord_opinion_modifier = is_vassal
+    subject_opinion_modifier = is_vassal
+}
+
+#SLAVIC VOJVODINA SUBJECTS
+slavic_vojvodina = {
+    copy_from = default
+
+    sprite = GFX_icon_slavic_vojvodina
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_slavic_vojvodina
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_slavic_vojvodina
+
+    # Properties:
+    has_power_projection = yes
+    takes_diplo_slot = yes
+    gets_help_with_rebels = yes
+    separatists_become_subjects = yes
+    allows_taking_land_without_independence = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    trust_on_start = 15
+    base_liberty_desire = 20.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.5
+    pays_overlord = 0.5
+    joins_overlords_wars = yes
+    can_use_claims = yes
+    is_march = yes
+
+    relative_power_class = 1             #1 is individual 2 is combined
+    should_quit_wars_on_activation = yes
+
+    #Subject Interactions
+    seize_court_resources = no
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = no
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = yes
+    seize_territory = yes          #Kniaz is appointing the vojvod - Don
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = no
+
+    #Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+    modifier_subject = {
+        modifier = slavic_vojvodina_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = slavic_vojvodina_overlord
+    }
+
+    overlord_opinion_modifier = is_slavic_vojvodina
+    subject_opinion_modifier = is_slavic_vojvodina
+}
+
+#SPANISH SUBJECTS
+spanish_crown_PU = {
+    copy_from = personal_union
+
+    # Graphics:
+    sprite = GFX_court_spanish_union
+    diplomacy_overlord_sprite = GFX_spanish_diplomacy_leadunions
+    diplomacy_subject_sprite = GFX_spanish_diplomacy_inunion
+
+    # Properties:
+    has_overlords_ruler = yes
+    can_be_integrated = yes
+    overlord_can_attack = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    can_have_subjects_of_other_types = yes
+    can_union_break = no
+    takes_diplo_slot = no
+    transfer_subjects_when_made = yes
+    can_concentrate_development = no
+    extend_trading_range = yes
+    joins_overlords_wars = yes
+    can_use_claims = yes
+
+    liberty_desire_negative_prestige = 1.0
+    military_focus = 0.66
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    restoration_cb = cb_restore_personal_union
+
+    # Subject Interactions:
+    placate_rulers = no
+    enforce_culture = yes
+    siphon_income = yes
+    support_loyalists = yes
+
+    # Modifiers:
+    modifier_overlord = {
+        modifier = spanish_crown_pu_bonus
+    }
+    modifier_overlord = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = spanish_crown_pu_bonus
+    }
+    modifier_subject = {
+        trigger = {
+            overlord = { has_government_attribute = personal_union_war_contribution }
+        }
+        modifier = spanish_crown_pu_subject
+    }
+
+    overlord_opinion_modifier = in_union
+    subject_opinion_modifier = in_union
 }
 
 #SWEDISH SUBJECTS
@@ -15362,1179 +16783,6 @@ swedish_kingdom = {
     subject_opinion_modifier = is_kingdom
 }
 
-#CROWN PUs by SF #
-anglois_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_anglois_union
-    diplomacy_overlord_sprite = GFX_anglois_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_anglois_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = anglois_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = anglois_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = anglois_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-aragonese_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_aragonese_union
-    diplomacy_overlord_sprite = GFX_aragonese_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_aragonese_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = aragonese_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = aragonese_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = aragonese_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-austrian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_austrian_union
-    diplomacy_overlord_sprite = GFX_austrian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_austrian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = austrian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = austrian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = austrian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-baltic_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_baltic_union
-    diplomacy_overlord_sprite = GFX_baltic_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_baltic_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = baltic_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = baltic_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = baltic_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-benelux_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_benelux_union
-    diplomacy_overlord_sprite = GFX_benelux_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_benelux_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = benelux_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = benelux_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = benelux_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-bohemian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_bohemian_union
-    diplomacy_overlord_sprite = GFX_bohemian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_bohemian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = bohemian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = bohemian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = bohemian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-burgundian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_burgundian_union
-    diplomacy_overlord_sprite = GFX_burgundian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_burgundian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    transfer_trade_power = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = burgundian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = burgundian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = burgundian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-byzantine_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_byzantine_union
-    diplomacy_overlord_sprite = GFX_byzantine_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_byzantine_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = byzantine_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = byzantine_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = byzantine_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-danish_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_danish_union
-    diplomacy_overlord_sprite = GFX_danish_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_danish_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = danish_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = danish_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = danish_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-english_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_english_union
-    diplomacy_overlord_sprite = GFX_english_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_english_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = english_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = english_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            OR = {
-                tag = ENG
-                tag = GBR
-                tag = UNK
-            }
-            overlord = { has_country_flag = ned_man_o_wars_from_pu_flag }
-        }
-        modifier = ned_man_o_war_modifier
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = english_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-french_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_french_union
-    diplomacy_overlord_sprite = GFX_french_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_french_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = french_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = french_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = french_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-german_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_german_union
-    diplomacy_overlord_sprite = GFX_german_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_german_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = german_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = german_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = german_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-hungarian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_hungarian_union
-    diplomacy_overlord_sprite = GFX_hungarian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_hungarian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = hungarian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = hungarian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = hungarian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-italian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_italian_union
-    diplomacy_overlord_sprite = GFX_italian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_italian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = italian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = italian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = italian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-norwegian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_norwegian_union
-    diplomacy_overlord_sprite = GFX_norwegian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_norwegian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = norwegian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = norwegian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = norwegian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-polish_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_polish_union
-    diplomacy_overlord_sprite = GFX_polish_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_polish_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = polish_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = polish_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = polish_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-portuguese_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_portuguese_union
-    diplomacy_overlord_sprite = GFX_portuguese_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_portuguese_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = portuguese_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = portuguese_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = portuguese_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-prussian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_prussian_union
-    diplomacy_overlord_sprite = GFX_prussian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_prussian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = prussian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = prussian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = prussian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-russian_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_russian_union
-    diplomacy_overlord_sprite = GFX_russian_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_russian_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = russian_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = russian_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = russian_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
-spanish_crown_PU = {
-    copy_from = personal_union
-
-    # Graphics:
-    sprite = GFX_court_spanish_union
-    diplomacy_overlord_sprite = GFX_spanish_diplomacy_leadunions
-    diplomacy_subject_sprite = GFX_spanish_diplomacy_inunion
-
-    # Properties:
-    has_overlords_ruler = yes
-    can_be_integrated = yes
-    overlord_can_attack = no
-    has_power_projection = no
-    gets_help_with_rebels = yes
-    can_have_subjects_of_other_types = yes
-    can_union_break = no
-    takes_diplo_slot = no
-    transfer_subjects_when_made = yes
-    can_concentrate_development = no
-    extend_trading_range = yes
-    joins_overlords_wars = yes
-    can_use_claims = yes
-
-    liberty_desire_negative_prestige = 1.0
-    military_focus = 0.66
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    restoration_cb = cb_restore_personal_union
-
-    # Subject Interactions:
-    placate_rulers = no
-    enforce_culture = yes
-    siphon_income = yes
-    support_loyalists = yes
-
-    # Modifiers:
-    modifier_overlord = {
-        modifier = spanish_crown_pu_bonus
-    }
-    modifier_overlord = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = spanish_crown_pu_bonus
-    }
-    modifier_subject = {
-        trigger = {
-            overlord = { has_government_attribute = personal_union_war_contribution }
-        }
-        modifier = spanish_crown_pu_subject
-    }
-
-    overlord_opinion_modifier = in_union
-    subject_opinion_modifier = in_union
-}
-
 swedish_crown_PU = {
     copy_from = personal_union
 
@@ -17109,248 +17357,4 @@ genoese_commercial_republic = {
 
     overlord_opinion_modifier = is_genoese_commercial_republic
     subject_opinion_modifier = is_genoese_commercial_republic
-}
-
-#BISHOPRIC & ARCHBISHOPRIC SUBJECTS
-european_abbacy = {
-    copy_from = march
-
-    # Graphics:
-    sprite = GFX_icon_european_archbishopric
-    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_european_archbishopric
-    diplomacy_subject_sprite = GFX_icon_diplomacy_am_european_archbishopric
-
-    # Properties:
-    takes_diplo_slot = no
-    gets_help_with_rebels = no
-    separatists_become_subjects = yes
-    forms_trade_companies = no
-    can_concentrate_development = no
-    can_be_annexed = yes
-    liberty_desire_development_ratio = 0.15
-    trust_on_start = 0
-    base_liberty_desire = 25.0
-    forcelimit_to_overlord = 0.00
-    military_focus = 1.2
-    pays_overlord = 0.35
-    max_government_rank = 2
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    # Subject Interactions
-    seize_court_resources = no
-    request_extra_levies = yes
-    grant_administrative_autonomy = yes
-    #(disable)
-    scutage = yes
-    grant_core_claim = yes
-    grant_province = yes
-    place_relative_on_throne = yes
-    enforce_religion = yes
-    enforce_culture = no
-    seize_territory = no
-    #(enable)
-    contribute_to_capital = no
-    return_land = yes
-    conscript_general = yes
-
-    # Modifiers
-    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
-
-    restoration_cb = cb_disloyal_european_abbacy #Was cb_disloyal_marquisate
-
-    # Subject Interactions:
-
-    # Modifiers:
-    modifier_subject = clear # Use this to clear after copy_from.
-
-    modifier_subject = {
-        modifier = european_abbacy_subject
-    }
-    modifier_subject = {
-        modifier = subject_tax_modifier
-        trigger = {
-            overlord = {
-                has_government_attribute = subject_tax_modifier_25
-            }
-        }
-    }
-    modifier_subject = {
-        modifier = same_religion_subject_bonus_mod
-        trigger = {
-            overlord = {
-                has_government_attribute = same_religion_subject_bonus
-                religion = PREV
-            }
-        }
-    }
-    modifier_overlord = {
-        modifier = european_abbacy_overlord
-    }
-
-    overlord_opinion_modifier = is_european_abbacy
-    subject_opinion_modifier = is_european_abbacy
-}
-
-european_bishopric = {
-    copy_from = european_abbacy
-
-    # Graphics:
-    sprite = GFX_icon_european_archbishopric
-    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_european_archbishopric
-    diplomacy_subject_sprite = GFX_icon_diplomacy_am_european_archbishopric
-
-    # Properties:
-    takes_diplo_slot = no
-    gets_help_with_rebels = no
-    separatists_become_subjects = yes
-    forms_trade_companies = no
-    can_concentrate_development = no
-    can_be_annexed = yes
-    liberty_desire_development_ratio = 0.15
-    trust_on_start = 0
-    base_liberty_desire = 25.0
-    forcelimit_to_overlord = 0.00
-    military_focus = 1.2
-    pays_overlord = 0.35
-    max_government_rank = 4
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    # Subject Interactions
-    seize_court_resources = no
-    request_extra_levies = yes
-    grant_administrative_autonomy = yes
-    #(disable)
-    scutage = yes
-    grant_core_claim = yes
-    grant_province = yes
-    place_relative_on_throne = yes
-    enforce_religion = yes
-    enforce_culture = no
-    seize_territory = no
-    #(enable)
-    contribute_to_capital = no
-    return_land = yes
-    conscript_general = yes
-
-    # Modifiers
-    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
-
-    restoration_cb = cb_disloyal_european_bishopric #Was cb_disloyal_marquisate
-
-    # Subject Interactions:
-
-    # Modifiers:
-    modifier_subject = clear # Use this to clear after copy_from.
-
-    modifier_subject = {
-        modifier = european_bishopric_subject
-    }
-    modifier_subject = {
-        modifier = subject_tax_modifier
-        trigger = {
-            overlord = {
-                has_government_attribute = subject_tax_modifier_25
-            }
-        }
-    }
-    modifier_subject = {
-        modifier = same_religion_subject_bonus_mod
-        trigger = {
-            overlord = {
-                has_government_attribute = same_religion_subject_bonus
-                religion = PREV
-            }
-        }
-    }
-    modifier_overlord = {
-        modifier = european_bishopric_overlord
-    }
-
-    overlord_opinion_modifier = is_european_bishopric
-    subject_opinion_modifier = is_european_bishopric
-}
-
-european_archbishopric = {
-    copy_from = european_bishopric
-
-    # Graphics:
-    sprite = GFX_icon_european_archbishopric
-    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_european_archbishopric
-    diplomacy_subject_sprite = GFX_icon_diplomacy_am_european_archbishopric
-
-    # Properties:
-    takes_diplo_slot = no
-    gets_help_with_rebels = no
-    separatists_become_subjects = yes
-    forms_trade_companies = no
-    can_concentrate_development = no
-    can_be_annexed = yes
-    liberty_desire_development_ratio = 0.15
-    trust_on_start = 0
-    base_liberty_desire = 25.0
-    forcelimit_to_overlord = 0.00
-    military_focus = 1.2
-    pays_overlord = 0.35
-    max_government_rank = 7
-
-    relative_power_class = 1
-    should_quit_wars_on_activation = yes
-
-    # Subject Interactions
-    seize_court_resources = no
-    request_extra_levies = yes
-    grant_administrative_autonomy = yes
-    #(disable)
-    scutage = yes
-    grant_core_claim = yes
-    grant_province = yes
-    place_relative_on_throne = yes
-    enforce_religion = yes
-    enforce_culture = no
-    seize_territory = no
-    #(enable)
-    contribute_to_capital = no
-    return_land = yes
-    conscript_general = yes
-
-    # Modifiers
-    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
-
-    restoration_cb = cb_disloyal_european_archbishopric #Was cb_disloyal_marquisate
-
-    # Subject Interactions:
-
-    # Modifiers:
-    modifier_subject = clear # Use this to clear after copy_from.
-
-    modifier_subject = {
-        modifier = european_archbishopric_subject
-    }
-    modifier_subject = {
-        modifier = subject_tax_modifier
-        trigger = {
-            overlord = {
-                has_government_attribute = subject_tax_modifier_25
-            }
-        }
-    }
-    modifier_subject = {
-        modifier = same_religion_subject_bonus_mod
-        trigger = {
-            overlord = {
-                has_government_attribute = same_religion_subject_bonus
-                religion = PREV
-            }
-        }
-    }
-    modifier_overlord = {
-        modifier = european_archbishopric_overlord
-    }
-
-    overlord_opinion_modifier = is_european_archbishopric
-    subject_opinion_modifier = is_european_archbishopric
 }

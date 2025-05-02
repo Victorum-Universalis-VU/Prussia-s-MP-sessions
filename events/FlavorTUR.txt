@@ -236,7 +236,7 @@ country_event = {
 		months = 150
 	}
 	option = {
-		# Expand the Timar System.
+		# Expand the Timariot System.
 		name = "flavor_tur.EVTOPTA3358"
 		add_piety = -0.25
 		add_estate_nobles_loyalty_effect = yes
