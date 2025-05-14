@@ -1,3 +1,4 @@
+#AKK - Ak Koyunlu
 government = tribal
 add_government_reform = persianate_tribal_confederation
 government_rank = 6 #Confederation

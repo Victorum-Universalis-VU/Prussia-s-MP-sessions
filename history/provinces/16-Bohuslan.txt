@@ -1,6 +1,4 @@
 #16 - Bohuslän
-#Region - Scandinavia
-#Area - Eastern Norway
 
 #Default
 owner = BGR
@@ -25,7 +23,6 @@ fort_15th = yes
 
 #Commerce
 center_of_trade = 1
-extra_cost = 10
 
 #Province Modifiers
 add_permanent_province_modifier = {

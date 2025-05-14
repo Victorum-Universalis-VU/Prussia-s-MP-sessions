@@ -50,6 +50,7 @@ europe_superregion = {
 	north_german_region
 	scandinavia_region
 	south_german_region
+	switzerland_region
 }
 
 eastern_europe_superregion = {

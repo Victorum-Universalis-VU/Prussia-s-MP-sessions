@@ -1,6 +1,4 @@
 #265 - Brno
-#Region - Bohemia
-#Area - Moravia
 
 #Default
 owner = MVA
@@ -21,7 +19,6 @@ road_system = yes #Because everyone knows that Brno is just a right hand turn on
 
 #Commerce
 center_of_trade = 1
-extra_cost = 10
 
 #Government
 hre = yes
@@ -32,7 +29,7 @@ add_permanent_province_modifier = {
     duration = -1
 }
 
-#Histories by SF
+#History by SF
 1444.1.1 = { #Moravia was integrated into the Crown of Bohemia in 1431
 	owner = BOH
 	add_core = BOH

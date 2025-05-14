@@ -5,7 +5,7 @@ controller = TKI
 culture = tokai 
 religion = shinto
 capital = "Inabayama"
-trade_goods = books
+trade_goods = paper #Mino washi
 hre = no
 base_tax = 2
 base_manpower = 2
@@ -13,10 +13,6 @@ base_production = 1
 is_city = yes
 add_core = TKI
 fort_15th = yes #Inabayama Castle
-
-
-  
-
 
 #1440.1.1 = { fort_15th = yes } # Inabayama (later Gifu) Castle, Estimation
 

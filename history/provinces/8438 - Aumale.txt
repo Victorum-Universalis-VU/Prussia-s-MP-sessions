@@ -1,5 +1,6 @@
 #8438 - Aumale
 
+#Default
 owner = FRA
 controller = FRA
 add_core = FRA
@@ -12,11 +13,3 @@ base_tax = 3
 base_production = 4
 trade_goods = lumber
 base_manpower = 2
-
-
-
-
-
-
-
-

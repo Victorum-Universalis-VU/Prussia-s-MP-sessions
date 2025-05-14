@@ -1,7 +1,6 @@
-#Nyland, incl. Raseborg, Borgå, Helsingfors.
-#Region - Scandinavia
-#Area - Finland
+#28 - Nyland
 
+#Default
 owner = SWE
 controller = SWE
 add_core = SWE
@@ -15,21 +14,20 @@ base_manpower = 2
 capital = "Raasepori"
 is_city = yes
 
+#Special Modifiers
+add_local_autonomy = 50
+
 #Claimants
 add_core = FIN
 
 #Commerce
 center_of_trade = 1
-extra_cost = 10
 
 #Province Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
-#Special Modifiers
-add_local_autonomy = 50
 
 #History by SF
 1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins

@@ -511,24 +511,26 @@ overseas_territory = {
 #SELF-GOVERNING DOMINION
 self_governing_dominion_vu = {
 
-    copy_from = self_governing_colony
+    copy_from = vassal
 
     sprite = GFX_dominion_icon
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_british_dominion
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_british_dominion
 
     change_colonial_type = no
     upgrade_subject_type = yes
     is_colony_subtype = no
-    count = colony
+    counts_for_borders = yes
 
     # Properties:
     base_liberty_desire = -10.0
-    liberty_desire_development_ratio = 0.05
     pays_overlord = 1.5
-    max_government_rank = 8
-    forcelimit_to_overlord = 0.0 			#Changed from 0.05 to reflect a dominion's much greater autonomy
-    manpower_to_overlord = 0.0 				#Changed from 0.05
-    naval_forcelimit_to_overlord = 0.1		#Changed from 0.05
-    sailors_to_overlord = 0.0 				#Changed from 0.05
+    max_government_rank = 7
+    joins_overlords_wars = yes              #Added this because they would still be beholden to their overlord in return for their self-governance - Prussia
+    has_overlords_ruler = yes               #Would be ruled by the overlord's monarch, but with a Governor-General appointed to govern it - Prussia
+    can_union_break = no                    #Should only be releasable by overlord's permission - Prussia
+    can_use_claims = yes
+    extend_trading_range = yes
 
     # Subject Interactions:
     uses_tariffs = no
@@ -542,39 +544,41 @@ self_governing_dominion_vu = {
     press_sailors = no
     start_colonial_war = no
     enforce_culture = yes #Although it doesn't make much sense, it functions as a workaround to colonial nations switching to native cultures
+    enforce_religion = yes #Added so that you can convert them to both your culture and religion - Prussia
     transfer_trade_power = no
+    grant_province = yes
 
     is_potential_overlord = {
         is_subject = no
-        OR = {
-            is_year = 1600
-            current_age = age_of_absolutism
-        }
-    }
-
-    can_fight = {
-        independent_nations = yes
-        same_overlord = tributary_state
-        other_overlord = all
-    }
-
-    can_rival = {
-        independent_nations = yes
-        same_overlord = tributary_state
-        other_overlord = all
-    }
-    can_ally = {
-        neighboring_primitives = yes
     }
 
     # Modifiers:
-    modifier_overlord = clear
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = self_governing_dominion_vu_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
     modifier_overlord = {
         modifier = self_governing_dominion_vu_overlord
     }
 
-    modifier_subject = clear
-    modifier_subject = {
-        modifier = self_governing_dominion_vu_subject
-    }
+    overlord_opinion_modifier = is_dominion
+    subject_opinion_modifier = is_dominion
 }

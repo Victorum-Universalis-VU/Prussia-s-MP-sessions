@@ -1,6 +1,4 @@
-# 198 Rouergue - Principal cities: Rodez
-#Region - France
-#Area - Massif Central
+#198 - Rouergue
 
 latent_trade_goods = {
 	coal

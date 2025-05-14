@@ -624,7 +624,8 @@ vu_is_caliphate = {
 # legendary_pirate_personality 			| 
 # legendary_conqueror_personality		|
 # great_engineer_personality			|
-# patron_of_arts_personality			|
+# patron_of_arts_personality			| #EU4 vanilla Timurid specific entry
+# vu_patron_of_arts_personality			| #VU vanilla generic entry 
 # papal_puppetmaster_personality 		|
 # iron_crowned_personality				|
 # peasant_revolt_leader_personality		|

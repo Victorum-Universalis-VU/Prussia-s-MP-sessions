@@ -1,7 +1,6 @@
 #228 - Beira
-#Region - Iberia
-#Area - Beiras
 
+#Default
 owner = POR
 controller = POR
 add_core = POR

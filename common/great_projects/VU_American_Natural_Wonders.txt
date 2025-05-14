@@ -1476,7 +1476,7 @@ vu_milford_sound = {
 		province_modifiers = { 
 			trade_value = 1 
 			trade_goods_size = 0.25 
-			tax_income = 12 
+			tax_income = 15
 			local_sailors = 250 
 		}
 		area_modifier = { 
@@ -1725,7 +1725,7 @@ vu_zhangjiajie = {
 		upgrade_time = { months = 0 }
 		cost_to_upgrade = {	factor = 0 }
 		province_modifiers = { 
-			tax_income = 12 
+			tax_income = 15
 			local_development_cost = -0.1 
 		}
 		area_modifier = { 

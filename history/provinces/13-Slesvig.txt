@@ -1,7 +1,6 @@
-#Sönderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
-#Region - Germany
-#Area - Holstein
+#13 - Slesvig
 
+#Default
 owner = SHL
 controller = SHL
 add_core = SHL

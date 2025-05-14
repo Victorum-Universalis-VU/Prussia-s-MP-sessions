@@ -1181,3 +1181,94 @@ vu_golden_era_of_culture_modifier = {
 total_liberalism_modifier = {
     liberty_desire = -20
 }
+
+#Don's POWs
+vu_pow_neutral_attitude = {
+    land_morale = 0.05
+}
+
+vu_pow_hostile_attitude = {
+    morale_damage = 0.05
+}
+
+vu_pow_friendly_attitude = {
+    morale_damage = -0.05
+}
+
+vu_pow_slavery_attitude = {
+    production_efficiency = 0.1
+    global_unrest = 1
+}
+
+vu_pow_sacrificial_attitude = {
+    blood_gain_modifier = 0.1
+}
+
+vu_pow_cannibalism_attitude = {
+    attrition = -1
+}
+
+vu_pow_noble_ransom_attitude = {
+    nobles_loyalty_modifier = 0.10
+    maratha_loyalty_modifier = 0.10
+}
+
+vu_pow_community_service_attitude = {
+    global_monthly_devastation = -0.2
+}
+
+vu_pow_gladiatorial_attitude = {
+    global_prosperity_growth = 0.1
+}
+
+vu_pow_resettlement_attitude = {
+    global_colonial_growth = 10
+    global_unrest = -0.5
+}
+
+vu_pow_internment_camps_attitude = {
+    years_of_nationalism = -5
+    global_unrest = -1
+}
+
+vu_pow_won_battle = {
+    reinforce_cost_modifier = -0.5
+    reinforce_speed = 1
+    recover_army_morale_speed = 0.5
+}
+
+vu_pow_won_battle_friendly = {
+    reinforce_cost_modifier = -0.5
+    reinforce_speed = 1
+    recover_army_morale_speed = 0.5
+    manpower_recovery_speed = 2
+}
+
+vu_pow_lost_battle = {
+    reinforce_cost_modifier = 0.5
+    reinforce_speed = -1
+    recover_army_morale_speed = -1
+}
+
+vu_pow_lost_battle_hostile = {
+    reinforce_cost_modifier = 0.5
+    reinforce_speed = -1
+    manpower_recovery_speed = -2
+    recover_army_morale_speed = -1
+}
+
+vu_pow_gods_favour = {
+    global_unrest = -2
+    prestige = 1
+    legitimacy = 1
+    land_morale = 0.1
+    monthly_splendor = 0.5
+    global_prosperity_growth = 1
+}
+
+vu_pow_arena_fights = {
+    global_unrest = -2
+    prestige = 1
+    army_tradition = 0.5
+    monthly_splendor = 0.5
+}

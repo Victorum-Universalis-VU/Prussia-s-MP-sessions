@@ -1,0 +1,18 @@
+#7434 - Porthmadog
+
+#Default
+owner = WLS
+controller = WLS
+add_core = WLS
+capital = "Porthmadog" #VU - Was Pwllheli. By San Felipe
+is_city = yes
+culture = celtic_welsh_culture #Was welsh
+religion = catholic
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+hre = no
+
+#Claimants
+add_core = GND

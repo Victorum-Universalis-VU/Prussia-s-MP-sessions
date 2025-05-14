@@ -10,18 +10,12 @@ capital = "Úbeda"			#Also Baeza
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = olive_oil
+trade_goods = tin #South-Central Spain is also abundant in tin, adding this one here as all other surrounding provinces have very specific tradegoods
 is_city = yes
 hre = no
 
 #Claimants
 add_core = CAS
-
-#Buildings
-
-#Special Modifiers
-
-#Known by Technology groups
 
 #Histories
 1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe

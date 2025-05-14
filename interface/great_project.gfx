@@ -1574,11 +1574,6 @@ spriteTypes = {
 		name = "GFX_great_project_tomb_of_genghis_kahn"	
 		texturefile = "gfx//interface//great_projects//great_project_tomb_of_genghis_kahn.dds"
 	}
-
-    spriteType = {
-		name = "GFX_great_project_yonaguni_ruins"	
-		texturefile = "gfx//interface//great_projects//great_project_yonaguni_ruins.dds"
-	}	
 	
     spriteType = {
 		name = "GFX_great_project_old_summer_palace"	

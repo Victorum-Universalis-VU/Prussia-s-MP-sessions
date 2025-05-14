@@ -1,5 +1,6 @@
+#SCI - Steinau
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = unlocked_eue_county_reform
 government_rank = 4 #County
 #technology_group = eastern
 technology_group = polish_tech_group

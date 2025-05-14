@@ -1,16 +1,16 @@
+#DAL - Dalmatia
 government = monarchy
-add_government_reform = feudalism_reform
-mercantilism = 25
+add_government_reform = unlocked_eue_duchy_reform
+government_rank = 6 #Duchy
 primary_culture = dalmatian
-religion = catholic
 add_accepted_culture = croatian
-#technology_group = western
+religion = orthodox
 technology_group = hungarian_tech_group
 unit_type = western
 capital = 136 # Split
 add_army_professionalism = 0.05
 
-#union under Venice
+#Sold to Venice by Ladislaus of Naples in 1409. - SF
 
 1595.4.5 = {
 	monarch = {

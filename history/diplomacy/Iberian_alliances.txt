@@ -9,14 +9,7 @@
 guarantee = {
 	first = ARA
 	second = HRZ
-	start_date = 1444.1.1
-	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
-}
-
-guarantee = {
-	first = ARA
-	second = HRZ
-	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1483.1.1
 }
 
@@ -61,14 +54,6 @@ dependency = {
 	subject_type = aragonese_crown_PU
 	first = ARA
 	second = SAR
-	start_date = 1444.1.1 #Was 1324.1.1
-	end_date = 1474.12.11
-}
-
-dependency = {
-	subject_type = aragonese_crown_PU
-	first = ARA
-	second = COR
 	start_date = 1444.1.1 #Was 1324.1.1
 	end_date = 1474.12.11
 }

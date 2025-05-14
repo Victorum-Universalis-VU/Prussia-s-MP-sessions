@@ -350,6 +350,9 @@
  is_principality: "Principality"
  desc_is_principality: "Is a Principality"
 
+ is_dominion: "Dominion"
+ desc_is_dominion: "Is a Dominion"
+
  is_kingdom: "Kingdom"
  desc_is_kingdom: "Is a Kingdom"
 

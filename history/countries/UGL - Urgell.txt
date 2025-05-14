@@ -1,5 +1,6 @@
+#UGL - Urgell
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = unlocked_eue_county_reform
 government_rank = 4 #County
 primary_culture = aragonese
 add_accepted_culture = catalan
@@ -15,6 +16,6 @@ capital = 2987 	# Urgell
 }
 
 1444.11.11 = {
-    add_government_reform = feudalism_reform
+    add_government_reform = unlocked_eue_county_reform
 	government_rank = 4 #County
 }

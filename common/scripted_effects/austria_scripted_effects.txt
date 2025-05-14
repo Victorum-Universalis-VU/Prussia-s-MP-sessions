@@ -411,7 +411,7 @@ HAB_balkanize_poland_into_hre_effect = {
 			age = 20
 			claim = 100
 		}
-		add_ruler_personality = me_enlightened_despote_personality
+		add_ruler_personality = vu_enlightened_despot_personality
 	}
 	
 	LIT = {

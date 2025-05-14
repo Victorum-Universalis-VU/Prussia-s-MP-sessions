@@ -4923,3 +4923,158 @@ vu_release_all_subjects = {
 		}
 	}
 }
+
+vu_set_POW_policy_globally = {
+	hidden_effect = {
+		every_country = {
+			limit = {
+				ai = yes
+			}
+			if = {
+				limit = {
+					OR = {
+						religion = nahuatl
+						religion = mesoamerican_religion
+						religion = inti
+					}
+				}
+				add_country_modifier = {
+					name = vu_pow_sacrificial_attitude
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						religion_group = muslim
+						religion = buddhism
+						religion = hinduism						#Either sell them or release them into proverty
+						religion = surya_majapahit
+						capital_scope = {
+							region = ireland_region
+						}
+						tag = NAP
+						tag = SIC
+						tag = ALB
+						technology_group = scandinavian_tech_group
+					}
+				}
+				add_country_modifier = {
+					name = vu_pow_slavery_attitude
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					technology_group = spanish_tech_group
+				}
+				add_country_modifier = {
+					name = vu_pow_resettlement_attitude
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						technology_group = bohemian_tech_group
+						is_subject_of = BOH
+						tag = BRA
+						tag = TEU
+						technology_group = hungarian_tech_group
+						technology_group = bulgarian_tech_group
+						technology_group = swiss_tech_group
+						technology_group = italian_tech_group
+					}
+				}
+				add_country_modifier = {
+					name = vu_pow_noble_ransom_attitude
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					tag = ENG
+					is_subject_of = ENG
+					technology_group = dutch_tech_group
+					culture = romanian
+					religion = totemism
+				}
+				add_country_modifier = {
+					name = vu_pow_community_service_attitude
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						religion = bon						#Would release them into the wild for them to be eaten by wild beasts
+						religion = tantra						#Same as bon
+						uses_horde_unity = yes
+						tag = TIM
+						is_subject_of = TIM
+						tag = SCO
+						is_subject_of = SCO
+					}
+				}
+				add_country_modifier = {
+					name = vu_pow_hostile_attitude
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						religion = confucianism
+						religion = taoism
+						religion = shinto
+						religion = state_shinto
+						religion = mahayana
+					}
+				}
+				add_country_modifier = {
+					name = vu_pow_friendly_attitude
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						religion = animism
+						religion = shamanism
+						is_primitive = yes
+					}
+				}
+				add_country_modifier = {
+					name = vu_pow_cannibalism_attitude
+					duration = -1
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = vu_pow_neutral_attitude
+					duration = -1
+				}
+			}
+			set_variable = {
+				which = vu_pow_sacrifices
+				value = 0
+			}
+			set_variable = {
+				which = vu_pow_slaves
+				value = 0
+			}
+			set_variable = {
+				which = vu_pow_nobles
+				value = 0
+			}
+			set_variable = {
+				which = vu_pow_gladiators
+				value = 0
+			}
+			set_variable = {
+				which = vu_pow_prisoners
+				value = 0
+			}
+		}
+	}
+}

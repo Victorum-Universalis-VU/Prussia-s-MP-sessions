@@ -7,8 +7,7 @@ add_core = TUR
 culture = greek				#Town populated by Greeks until 1920
 religion = orthodox
 capital = "Finike"
-trade_goods = sea_turtle	#Where do I even begin... Main source of income is oranges production. It also mines unique type of limestone in Limyra mines. Rare Caretta sea turtles are also here. Going for turtles since it's the most unique.
-hre = no
+trade_goods = tin   #Major tin mine since antiquityhre = no
 base_tax = 2 
 base_production = 2 
 base_manpower = 2 

@@ -844,7 +844,6 @@ vu_kasbah_of_tunis = {
 		}
 		province_modifiers = {
 			local_development_cost = -0.05
-			local_monthly_devastation = -0.025
 		}
 		area_modifier = {
 		}
@@ -862,13 +861,15 @@ vu_kasbah_of_tunis = {
 		}
 		province_modifiers = {
 			local_development_cost = -0.1
-			local_monthly_devastation = -0.025
 			allowed_num_of_buildings = 1 
 		}
 		area_modifier = { 
-			local_defensiveness = 0.1 
+			local_monthly_devastation = -0.025
+			supply_limit = 1
 		}
 		country_modifiers = {
+			missionary_maintenance_cost = -0.1
+			tolerance_heretic = 1
 		}
 		on_upgraded = {
 			341 = { add_prosperity = 25 }
@@ -882,14 +883,17 @@ vu_kasbah_of_tunis = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_monthly_devastation = -0.05
+			local_development_cost = -0.1
 			allowed_num_of_buildings = 1 
 		}
 		area_modifier = {
-			local_defensiveness = 0.15
-			local_development_cost = -0.2
+			local_monthly_devastation = -0.05
+			hostile_disembark_speed = 0.5
+			supply_limit = 1
 		}
 		country_modifiers = {
+			missionary_maintenance_cost = -0.15
+			tolerance_heretic = 2
 			merchants = 1
 		}
 		on_upgraded = {
@@ -2542,7 +2546,7 @@ vu_topkapi_palace = {
 	}
 }
 
-vu_bosphorus_toll = {
+vu_harbour_of_theodosius = {
 	start = 151
 	date = 1200.01.01 #Has been there for a few centuries
 	time = {
@@ -2584,7 +2588,7 @@ vu_bosphorus_toll = {
 			province_trade_power_value = 10 
 			trade_value = 12
 			local_ship_cost = -0.1
-			tax_income = 12
+			tax_income = 15
 			province_trade_power_modifier = 0.05
 		}
 		area_modifier = {
@@ -2606,7 +2610,7 @@ vu_bosphorus_toll = {
 			province_trade_power_value = 15 
 			trade_value = 24
 			local_ship_cost = -0.15
-			tax_income = 24
+			tax_income = 25
 			province_trade_power_modifier = 0.1
 		}
 		area_modifier = {
@@ -2631,7 +2635,7 @@ vu_bosphorus_toll = {
 			province_trade_power_value = 25 
 			trade_value = 48
 			local_ship_cost = -0.2
-			tax_income = 36
+			tax_income = 35
 			province_trade_power_modifier = 0.2
 		}
 		area_modifier = {

@@ -300,6 +300,11 @@ spriteTypes = {
         texturefile = "gfx/interface/lambeth.dds"
     }
 
+    spriteType = {
+        name = "GFX_combat_terrain_urban_southwark"
+        texturefile = "gfx/interface/southwark.dds"
+    }
+
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_westminster"
         texturefile = "gfx/interface/westminster.dds"
@@ -843,6 +848,10 @@ spriteTypes = {
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_antwerp"
         texturefile = "gfx/interface/antwerp.dds"
+    }
+    spriteType = {
+        name = "GFX_combat_terrain_urban_spa"
+        texturefile = "gfx/interface/spa.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_brugge"
@@ -4555,6 +4564,14 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_nagoya"
         texturefile = "gfx/interface/nagoya.dds"
+    }
+    spriteType = {
+        name = "GFX_combat_terrain_urban_mino"
+        texturefile = "gfx/interface/mino.dds"
+    }
+    spriteType = {
+        name = "GFX_combat_terrain_urban_nagano"
+        texturefile = "gfx/interface/nagano.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_hamamatsu"

@@ -1,6 +1,4 @@
 #241 - Glamorgan
-#Region - Britain
-#Area - Deheubarth
 
 latent_trade_goods = {
 	coal
@@ -29,7 +27,6 @@ add_core = WLS
 
 #Commerce
 center_of_trade = 1
-extra_cost = 10
 
 #Special Modifiers
 add_local_autonomy = 75

@@ -4,6 +4,8 @@
  urban_canterbury_desc: "Canterbury is a historic city known for its magnificent cathedral, a center of pilgrimage and religious significance during the medieval period."
 
  urban_lambeth_desc: "Lambeth is a parish located along the River Thames, characterized by its rural charm and proximity to the bustling city of London."
+
+ urban_southwark_desc: "Located on the south bank of the River Thames, Southwark is a historic district in Central London and is one of the oldest parts of Greater London, having developed around the southern end of London Bridge, which was the only dry crossing of the Thames for centuries."
  
  urban_westminster_desc: "Westminster is a prominent borough of London, renowned for its grand abbey, royal palaces, and political significance."
  
@@ -239,7 +241,9 @@
  
  urban_brussels_desc: "Brussels is a prominent city known for its grand squares, impressive architecture, and as a center of trade and culture."
  
- urban_antwerp_desc: "Antwerp is a bustling port city renowned for its diamond trade, grand architecture, and vibrant cultural life."
+ urban_antwerp_desc: "Antwerp is a bustling port city renowned for its diamond trade, grand architecture and vibrant cultural life."
+
+ urban_spa_desc: "Located near the vicinity of Liège, Spa is famous for its natural mineral springs and is considered the origin of the word “spa” and has been a popular destination for relaxation and hydrotherapy since ancient times."
  
  urban_brugge_desc: "Brugge is a picturesque town known for its medieval canals, historic buildings, and thriving lace industry."
  
@@ -2078,6 +2082,10 @@
  urban_shizuoka_desc: "Shizuoka is a picturesque city known for its grand views of Mount Fuji, vibrant markets, and rich cultural heritage."
  
  urban_nagoya_desc: "Nagoya is a bustling city known for its grand architecture, thriving trade, and vibrant cultural life."
+
+ urban_mino_desc: "Mino is an urban mountain settlement known for its traditional Japanese washi paper, called Mino Washi, a tradegood that has been produced there for centuries."
+
+ urban_nagano_desc: "Strategically situated above the mountains that overlook Mt.Fujiyama in the distance. Nagano is known for its Zenkoji Temple and for snow monkeys that live nearby known as Jigokudani. It is also known for its breath taking beauty and stunning mountain scenery. "
  
  urban_aomori_desc: "Aomori is a picturesque town known for its grand landscapes, vibrant markets, and rich cultural heritage."
  

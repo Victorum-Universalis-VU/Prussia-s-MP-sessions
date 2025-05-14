@@ -15,7 +15,3 @@ hre = no
 
 #Claimants
 add_core = POI
-
-
-
-

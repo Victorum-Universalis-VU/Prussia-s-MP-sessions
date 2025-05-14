@@ -12099,10 +12099,10 @@ elephants_in_europe = {
     cavalry_power = 0.15
 }
 
-popular_mercs_prosperity = {
-    local_tax_modifier = 0.2
-    local_development_cost = -0.15
-}
+#popular_mercs_prosperity = {
+#    local_tax_modifier = 0.2
+#    local_development_cost = -0.15
+#}
 
 pious_mercenaries = {
     is_mercenary_modifier = yes

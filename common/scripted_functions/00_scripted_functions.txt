@@ -71,25 +71,25 @@ can_claim_defender_of_faith = {
 		potential = {
 			always = yes
 		}
-		allow = {
-			any_country = {
-				is_defender_of_faith = yes
-				religion = ROOT
-				ROOT = {
-					OR = {
-						has_won_war_against = {
-							who = PREV
+		allow = {any_country = {
+					is_defender_of_faith = yes
+					religion = ROOT
+					ROOT = {
+						OR = {
+							has_won_war_against = {
+								who = PREV
+							}
+							army_size = PREV
 						}
-						army_size = PREV
 					}
 				}
-			}
-			army_size = 25
-			any_neighbor_country = {
-				NOT = {
-					religion = ROOT
+				army_size = 25
+				any_neighbor_country = {
+					NOT = {
+						religion = ROOT
+					}
 				}
-			}
+			
 		}
 	}
 }

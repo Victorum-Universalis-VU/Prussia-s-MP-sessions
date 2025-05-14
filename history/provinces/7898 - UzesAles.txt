@@ -21,18 +21,6 @@ hre = no
 #Claimants
 add_core = TOU
 
-#Buildings
-
-#Special Modifiers
-
-#Known by Technology groups
-
-
-
-
-
-
-#Histories
+#History by SF
 1215.6.15 = { owner = TOU controller = TOU add_core = TOU } # Countship of Toulouse - By San Felipe
-
 1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

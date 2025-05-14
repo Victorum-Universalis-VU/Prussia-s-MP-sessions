@@ -340,6 +340,38 @@ country_event = {
                 save_event_target_as = Arabia_Target_3
                 set_province_flag = Arabia_dont_target_me
             }
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        area = quelimane_area
+                        area = mombasa_area
+                        area = central_swahili_coast_area
+                        area = northern_swahili_coast_area
+                        area = mogadishu_area
+                        area = mozambique_area
+                    }
+                    NOT = { has_tax_building_trigger = yes }
+                    NOT = { has_province_flag = Arabia_dont_target_me }
+                }
+                save_event_target_as = Arabia_Target_4
+                set_province_flag = Arabia_dont_target_me
+            }
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        area = quelimane_area
+                        area = mombasa_area
+                        area = central_swahili_coast_area
+                        area = northern_swahili_coast_area
+                        area = mogadishu_area
+                        area = mozambique_area
+                    }
+                    NOT = { has_tax_building_trigger = yes }
+                    NOT = { has_province_flag = Arabia_dont_target_me }
+                }
+                save_event_target_as = Arabia_Target_5
+                set_province_flag = Arabia_dont_target_me
+            }
         }
     }
 
@@ -367,6 +399,12 @@ country_event = {
             add_or_upgrade_tax_building = yes
         }
         event_target:Arabia_Target_3 = {
+            add_or_upgrade_tax_building = yes
+        }
+        event_target:Arabia_Target_4 = {
+            add_or_upgrade_tax_building = yes
+        }
+        event_target:Arabia_Target_5 = {
             add_or_upgrade_tax_building = yes
         }
     }

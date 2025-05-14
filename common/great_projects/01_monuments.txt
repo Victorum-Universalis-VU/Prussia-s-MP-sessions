@@ -3892,6 +3892,7 @@ mount_fuji = {
             prestige = 0.3
             yearly_karma_decay = 0.003
             missionaries = 3
+            development_cost_modifier = -0.3
         }
 
         #what effects happen when this tier is achieved
@@ -4091,7 +4092,7 @@ tenochtitlan = {
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
-            tax_income = 25
+            tax_income = 20
         }
 
         #what modifiers are added to the country when we have this project here on this tier
@@ -4125,7 +4126,7 @@ tenochtitlan = {
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
-            tax_income = 50
+            tax_income = 40
         }
 
         #what modifiers are added to the country when we have this project here on this tier
@@ -4160,7 +4161,7 @@ tenochtitlan = {
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
-            tax_income = 75
+            tax_income = 60
             local_build_cost = -0.3
         }
 
@@ -6652,7 +6653,7 @@ golden_temple = {
             monthly_piety = 0.002
             stability_cost_modifier = -0.2
             monthly_karma = 0.2
-            global_autonomy = -0.020
+            global_autonomy = -0.02
             min_autonomy_in_territories = -0.1
         }
 
@@ -6689,7 +6690,7 @@ golden_temple = {
             monthly_piety = 0.003
             stability_cost_modifier = -0.3
             monthly_karma = 0.3
-            global_autonomy = -0.030
+            global_autonomy = -0.03
             min_autonomy_in_territories = -0.30
 
         }
@@ -9265,7 +9266,7 @@ pena_palace = {
 
         #what modifiers are added to the province when we have this project here on this tier
         province_modifiers = {
-            tax_income = 0.1
+            tax_income = 15
         }
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -9304,7 +9305,7 @@ pena_palace = {
 
         #what modifiers are added to the province when we have this project here on this tier
         province_modifiers = {
-            tax_income = 0.2
+            tax_income = 20
         }
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -9345,7 +9346,7 @@ pena_palace = {
 
         #what modifiers are added to the province when we have this project here on this tier
         province_modifiers = {
-            tax_income = 0.3
+            tax_income = 25
             local_years_of_nationalism = -5
         }
 
@@ -10760,7 +10761,7 @@ potosi = {
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
-            tax_income = 25
+            tax_income = 20
         }
 
         #what modifiers are added to the country when we have this project here on this tier
@@ -10825,7 +10826,7 @@ potosi = {
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
-            tax_income = 50
+            tax_income = 60
         }
 
         #what modifiers are added to the country when we have this project here on this tier
@@ -10892,7 +10893,7 @@ potosi = {
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
             trade_goods_size_modifier = 0.3
-            tax_income = 75
+            tax_income = 90
         }
 
         #what modifiers are added to the country when we have this project here on this tier

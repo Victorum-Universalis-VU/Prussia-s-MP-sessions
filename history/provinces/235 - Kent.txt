@@ -1,5 +1,6 @@
 #235 - Kent
 
+#Default
 owner = ENG
 controller = ENG
 add_core = ENG
@@ -18,7 +19,6 @@ fort_15th = yes
 
 #Commerce
 center_of_trade = 1
-extra_cost = 10
 
 #Government
 seat_in_parliament = yes
@@ -28,7 +28,6 @@ add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
 add_permanent_province_modifier = {
 	name = cinque_ports_modifier
 	duration = -1

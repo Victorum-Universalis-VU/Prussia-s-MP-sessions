@@ -640,7 +640,7 @@ colony = {
 		other_overlord = crown_colony
 		other_overlord = private_enterprise
 		other_overlord = self_governing_colony
-		other_overlord = self_governing_dominion_vu
+		#other_overlord = self_governing_dominion_vu
 		neighboring_primitives = yes
 		colonial_region_nations = yes
 	}
@@ -649,7 +649,7 @@ colony = {
 		other_overlord = crown_colony
 		other_overlord = private_enterprise
 		other_overlord = self_governing_colony
-		other_overlord = self_governing_dominion_vu
+		#other_overlord = self_governing_dominion_vu
 		neighboring_primitives = yes
 		colonial_region_nations = yes
 	}

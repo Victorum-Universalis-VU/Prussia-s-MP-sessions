@@ -1,6 +1,4 @@
 #216 - Salamanca
-#Region - Iberia
-#Area - Leon
 
 #Default
 owner = CAS		#Juan II of Castile
@@ -21,7 +19,6 @@ add_core = LON
 
 #Commerce
 center_of_trade = 1
-extra_cost = 10
 
 #Province Modifiers
 add_permanent_province_modifier = {
