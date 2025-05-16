@@ -8257,8 +8257,8 @@ diocletian_palace = {
 
     build_trigger = {
         OR = {
-		culture_group = south_slavic
-		culture_group = slavic
+		culture_group = byzantine
+		culture_group = latin
 		culture_group = old_latin
 	}
 	OR = {
@@ -8275,8 +8275,8 @@ diocletian_palace = {
 
     can_use_modifiers_trigger = {
         OR = {
-		culture_group = south_slavic
-		culture_group = slavic
+		culture_group = byzantine
+		culture_group = latin
 		culture_group = old_latin
 	}
 	OR = {
@@ -8287,8 +8287,8 @@ diocletian_palace = {
 
     can_upgrade_trigger = {
         OR = {
-		culture_group = south_slavic
-		culture_group = slavic
+		culture_group = byzantine
+		culture_group = latin
 		culture_group = old_latin
 	}
 	OR = {

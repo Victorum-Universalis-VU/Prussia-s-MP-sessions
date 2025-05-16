@@ -162,6 +162,36 @@
  construct_vu_hirosaki_castle_title: "Gaze in awe at the defensive structure that is Hirosaki Castle"
  construct_vu_hirosaki_castle_desc: "Hirosaki Castle is a hirayama-style Japanese castle located in Hirosaki, Aomori Prefecture, Japan. It was originally built in 1611 by the Tsugaru clan, who ruled over the lands which the castle presently stands on; Costs 4000."
 
+ great_project_vu_okazaki_castle: "Okazaki Castle"
+ vu_okazaki_castle: "Okazaki Castle"
+ vu_okazaki_castle_title: "Construct Okazaki Castle."
+ construct_vu_okazaki_castle_title: "Construct Okazaki Castle."
+ construct_vu_okazaki_castle_desc: "The Okazaki Castle is a Great Landmark"
+
+ great_project_vu_nagoya_castle: "Nagoya Castle"
+ vu_nagoya_castle: "Nagoya Castle"
+ vu_nagoya_castle_title: "Construct Nagoya Castle."
+ construct_vu_nagoya_castle_title: "Construct Nagoya Castle."
+ construct_vu_nagoya_castle_desc: "The Nagoya Castle is a Great Landmark"
+
+ great_project_vu_kokubunji_temple: "Kokubunji Temple"
+ vu_kokubunji_temple: "Kokubunji Temple"
+ vu_kokubunji_temple_title: "Construct Kokubunji Temple."
+ construct_vu_kokubunji_temple_title: "Construct Kokubunji Temple."
+ construct_vu_kokubunji_temple_desc: "The Kokubunji Temple is a Great Landmark"
+
+ great_project_vu_port_of_nagasaki: "Port of Nagasaki"
+ vu_port_of_nagasaki: "Port of Nagasaki"
+ vu_port_of_nagasaki_title: "Construct Port of Nagasaki."
+ construct_vu_port_of_nagasaki_title: "Construct Port of Nagasaki."
+ construct_vu_port_of_nagasaki_desc: "The Port of Nagasaki is a Great Landmark"
+
+ great_project_vu_kagoshima_castle: "Kagoshima Castle"
+ vu_kagoshima_castle: "Kagoshima Castle"
+ vu_kagoshima_castle_title: "Construct Kagoshima Castle."
+ construct_vu_kagoshima_castle_title: "Construct Kagoshima Castle."
+ construct_vu_kagoshima_castle_desc: "The Kagoshima Castle is a Great Landmark"
+
  great_project_vu_itsukushima_shrine: "Itsukushima Shrine"
  vu_itsukushima_shrine: "Itsukushima Shrine"
  vu_itsukushima_shrine_title: "Construct Itsukushima Shrine."

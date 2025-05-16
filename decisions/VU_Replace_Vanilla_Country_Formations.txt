@@ -818,7 +818,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			was_never_german_regional_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_bavaria_flag
@@ -1348,7 +1348,7 @@ country_decisions = {
 			has_government_attribute = english_parliament
 			ai = no
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				exists = GBR
 			}
@@ -1969,7 +1969,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			was_never_german_regional_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_franconia_flag
@@ -3168,7 +3168,7 @@ country_decisions = {
 						tag = PRO
 						has_mission = EMP_crusader_antioch
 					}
-					was_never_end_game_tag_trigger = yes
+					#was_never_end_game_tag_trigger = yes
 				}
 				is_emperor = no
 			}
@@ -3236,7 +3236,7 @@ country_decisions = {
 							region = egypt_region
 						}
 					}
-					was_never_end_game_tag_trigger = yes
+					#was_never_end_game_tag_trigger = yes
 				}
 				if = {
 					limit = {
@@ -4080,7 +4080,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_prussia_flag
 			}
@@ -4493,7 +4493,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_prussia_flag
 			}
@@ -5289,7 +5289,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			was_never_german_regional_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_franconia_flag
@@ -6002,7 +6002,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			was_never_german_regional_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_swabia_flag
@@ -6879,7 +6879,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = formed_yemen_flag
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -7091,7 +7091,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				tag = HLR
 			}
@@ -7407,7 +7407,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_yuan_flag
 			}
@@ -7985,7 +7985,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_two_sicilies_flag
 			}
@@ -8125,7 +8125,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -8342,7 +8342,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_tibet_flag
 			}
@@ -8478,7 +8478,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_siam_flag
 			}
@@ -8644,7 +8644,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_rum_flag
 			}
@@ -8825,7 +8825,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_golden_horde_flag
 			}
@@ -9063,7 +9063,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_somalia_flag
 			}
@@ -9242,7 +9242,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = formed_armenia_flag
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -9395,7 +9395,7 @@ country_decisions = {
 				}
 			}
 			else = {
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 				NOT = {
 					tag = ETH
 				}
@@ -9572,7 +9572,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -9885,7 +9885,7 @@ country_decisions = {
 				tag = ALA
 				tag = QUE
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -10043,7 +10043,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -10211,7 +10211,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -10349,7 +10349,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_courland_flag
 			}
@@ -10480,7 +10480,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -10622,7 +10622,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_egypt_flag
 			}
@@ -10789,7 +10789,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = formed_mamluks
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				tag = MAM
 			}
@@ -11040,7 +11040,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -11241,7 +11241,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_georgia_flag
 			}
@@ -11441,7 +11441,7 @@ country_decisions = {
 				}
 			}
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_zimbabwe_flag
 			}
@@ -11571,7 +11571,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			is_random_new_world = no
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			normal_or_historical_nations = yes
 			NOT = {
 				has_country_flag = formed_inca_flag
@@ -11881,7 +11881,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			culture_group = iranian
 			tag = MSY
 		}
@@ -12076,7 +12076,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_israel_flag
 			}
@@ -12198,7 +12198,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = formed_japan_flag
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			has_reform = shogunate
 			any_country = {
 				vassal_of = ROOT
@@ -12346,7 +12346,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = formed_japan_flag
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				exists = JAP
 			}
@@ -12469,7 +12469,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = formed_japan_flag
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_reform = shogunate
 			}
@@ -12839,7 +12839,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_kitara_flag
 			}
@@ -12977,7 +12977,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_livonia_flag
 			}
@@ -13118,7 +13118,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_livonia_flag
 			}
@@ -13276,7 +13276,7 @@ country_decisions = {
 	majapahit_nation = {
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_majapahit_flag
 			}
@@ -13431,7 +13431,7 @@ country_decisions = {
 	mataram_nation = {
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_mataram_flag
 			}
@@ -13579,7 +13579,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_malaya_flag
 			}
@@ -13744,7 +13744,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_manchu_flag
 			}
@@ -13961,7 +13961,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = MCH
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			normal_or_historical_nations = yes
 			OR = {
 				ai = no
@@ -14122,7 +14122,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			is_random_new_world = no
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_mayapan_flag
 			}
@@ -14267,7 +14267,7 @@ country_decisions = {
 					has_country_flag = chagatai_formed_flag
 				}
 				has_reform = holy_horde_reform
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 			}
 			OR = {
 				culture_group = altaic
@@ -14453,7 +14453,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_mughal_empire_flag
 			}
@@ -14708,7 +14708,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_nubian_formable_flag
 			}
@@ -14850,7 +14850,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_persia_flag
 			}
@@ -15278,7 +15278,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				exists = PHI
 			}
@@ -15366,7 +15366,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			OR = {
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 				AND = {
 					was_tag = BYZ
 					tag = MOE
@@ -15846,7 +15846,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			vu_generic_can_form_potential_check = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_russia_flag
 			}
@@ -16378,7 +16378,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_ruthenia_flag
 			}
@@ -16560,7 +16560,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_scandinavia_flag
 			}
@@ -17080,7 +17080,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = changed_from_colonial_nation
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_nomad = no
 			is_random_new_world = no
 			NOT = {
@@ -17463,7 +17463,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_plc_flag
 			}
@@ -17699,7 +17699,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_plc_flag
 			}
@@ -17939,7 +17939,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_plc_flag
 			}
@@ -18244,7 +18244,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_ugria_flag
 			}

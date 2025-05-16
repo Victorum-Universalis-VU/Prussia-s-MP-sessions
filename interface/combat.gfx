@@ -1221,9 +1221,17 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_berlin"
         texturefile = "gfx/interface/berlin.dds"
     }
+    spriteType = {
+        name = "GFX_combat_terrain_urban_altmark"
+        texturefile = "gfx/interface/altmark.dds"
+    }
 	spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_brandeburg_an_der_havel"
-        texturefile = "gfx/interface/brandeburg_an_der_havel.dds"
+        name = "GFX_combat_terrain_urban_luneburg"
+        texturefile = "gfx/interface/luneburg.dds"
+    }
+    spriteType = {
+        name = "GFX_combat_terrain_urban_brandenburg_an_der_havel"
+        texturefile = "gfx/interface/brandenburg_an_der_havel.dds"
     }
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_wittenberg"

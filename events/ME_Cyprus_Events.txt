@@ -930,7 +930,7 @@ country_event = { # The Self-Crowning of The King of Jerusalem
 						NOT = { tag = CYP }
 						NOT = { tag = PRO }
 					}
-					NOT = { was_never_end_game_tag_trigger = yes }
+					NOT = { #was_never_end_game_tag_trigger = yes }
 				}
 			}
 			release = KOJ
@@ -943,7 +943,7 @@ country_event = { # The Self-Crowning of The King of Jerusalem
 					tag = CYP
 					tag = PRO
 				}
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 			}
 			if = {
 				limit = { tag = KNI }
@@ -1009,7 +1009,7 @@ country_event = { # The Self-Crowning of The King of Jerusalem
 						NOT = { tag = CYP }
 						NOT = { tag = PRO }
 					}
-					NOT = { was_never_end_game_tag_trigger = yes }
+					NOT = { #was_never_end_game_tag_trigger = yes }
 				}
 			}
 			release = KOJ
@@ -1022,7 +1022,7 @@ country_event = { # The Self-Crowning of The King of Jerusalem
 					tag = CYP
 					tag = PRO
 				}
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 			}
 			if = {
 				limit = { tag = KNI }
@@ -1279,7 +1279,7 @@ country_event = { # Coronation Day for Cyprus 22
 						NOT = { tag = CYP }
 						NOT = { tag = PRO }
 					}
-					NOT = { was_never_end_game_tag_trigger = yes }
+					NOT = { #was_never_end_game_tag_trigger = yes }
 				}
 			}
 			release = KOJ
@@ -1292,7 +1292,7 @@ country_event = { # Coronation Day for Cyprus 22
 					tag = CYP
 					tag = PRO
 				}
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 			}
 			if = {
 				limit = { tag = KNI }
@@ -1379,7 +1379,7 @@ country_event = { # Coronation Day for Cyprus 22
 						NOT = { tag = CYP }
 						NOT = { tag = PRO }
 					}
-					NOT = { was_never_end_game_tag_trigger = yes }
+					NOT = { #was_never_end_game_tag_trigger = yes }
 				}
 			}
 			release = KOJ
@@ -1392,7 +1392,7 @@ country_event = { # Coronation Day for Cyprus 22
 					tag = CYP
 					tag = PRO
 				}
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 			}
 			if = {
 				limit = { tag = KNI }

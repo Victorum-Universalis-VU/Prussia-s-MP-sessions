@@ -1,12 +1,13 @@
 #5688 - Okitama
 
+#Default
 owner = DTE
 controller = DTE
 add_core = DTE
 culture = togoku
 religion = shinto
 capital = "Yamagata"
-trade_goods = apiculture
+trade_goods = herbs
 hre = no
 base_tax = 2
 base_production = 2

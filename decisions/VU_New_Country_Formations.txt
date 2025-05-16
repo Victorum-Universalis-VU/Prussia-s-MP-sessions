@@ -675,7 +675,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			vu_generic_can_form_potential_check = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_germany_flag
 			}
@@ -893,7 +893,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			vu_generic_can_form_potential_check = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_germany_flag
 			}
@@ -2260,7 +2260,7 @@ country_decisions = {
 		potential = {
 			AND = {
 				vu_generic_can_form_potential_check = yes
-				was_never_end_game_tag_trigger = yes
+				#was_never_end_game_tag_trigger = yes
 			}
 			NOT = {
 				has_country_flag = formed_denmark_norway
@@ -3746,7 +3746,7 @@ country_decisions = {
 				has_country_flag = formed_caucasia
 			}
 			culture_group = caucasian
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			is_colonial_nation = no
 			NOT = {
 				exists = CAU
@@ -4560,7 +4560,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_uks
 			}
@@ -4691,7 +4691,7 @@ country_decisions = {
 		potential = {
 			tag = WLS
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			NOT = {
 				has_country_flag = formed_brl_flag
 			}
@@ -4880,7 +4880,7 @@ country_decisions = {
 			NOT = {
 				has_country_flag = zapadoslavia_formed_flag
 			}
-			was_never_end_game_tag_trigger = yes
+			#was_never_end_game_tag_trigger = yes
 			normal_or_historical_nations = yes
 			OR = {
 				culture_group = west_slavic

@@ -6701,10 +6701,10 @@ sce_lost_woods_tooltip = {
     local_hostile_movement_speed = -0.5
 }
 sce_shortcut = {
-    local_hostile_movement_speed = 0.33
+    local_hostile_movement_speed = -0.33
 }
 sce_shortcut_tooltip = {
-    local_hostile_movement_speed = 0.33
+    local_hostile_movement_speed = -0.33
 }
 sce_jeanne_baret = {
     land_morale = 0.05
@@ -16115,7 +16115,7 @@ caucasus_fortress = {
     local_hostile_attrition = 2
     local_defensiveness = 0.1
     local_friendly_movement_speed = 0.1
-    local_hostile_movement_speed = 0.25
+    local_hostile_movement_speed = -0.25
     local_governing_cost = -0.2
     trade_value = 0.5
 }

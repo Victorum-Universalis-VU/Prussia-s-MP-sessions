@@ -1,12 +1,13 @@
 #1028 - Musashi
 
+#Default
 owner = OUE
 controller = OUE
 add_core = OUE
 culture = kanto 
 religion = shinto
 capital = "Kawagoe"
-trade_goods = horses
+trade_goods = livestock
 hre = no
 base_tax = 7
 base_production = 7

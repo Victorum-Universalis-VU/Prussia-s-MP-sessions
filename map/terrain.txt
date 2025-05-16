@@ -157,7 +157,7 @@ categories =  {
 			6019 6020 6039 6040 8769 463 3343 2196 462
 			
 			#VU - Other
-			42 53 106 119 169 171 185 268 269 273 311 374 409 415 528 531 540 566 607 653 672 683 687 692 789 1119 1183 1187 1203 1770 1743 1864 1882 1953 1960 
+			42 106 119 169 171 185 268 269 273 311 374 409 415 528 531 540 566 607 653 672 683 687 692 789 1119 1183 1187 1203 1770 1743 1864 1882 1953 1960 
 			1973 1982 2043 2047 2051 2052 2059 2061 2062 2065 2093 2137 2143 2169 2175 2227 2268 2270 2393 2655 2674 2704 2754 2775 2796 2976 2981 3009 3039 3058 
 			3073 3075 3148 3175 3187 3202 3227 3239 3241 3247 3273 3677 3695 3696 3726 3748 4062 4080 4090 4092 4126 4130 4131 4165 4185 4191 4231 4242 4249 4264 4290 4305 
 			4309 4349 4369 4388 4409 4411 4430 4436 4464 4474 4525 4530 4736 7686 4746 4756 4768 4802 4826 4838 5171 5219 5290 5317 5382 5383 5656 5659 5663 5667 
@@ -279,7 +279,7 @@ categories =  {
 
 		terrain_override = {
 			#Unaltered Vanilla
-			130 948 2540 194 51 49 2551 945 2964 2969 7618 7619 7620 7621 7624 7626 7627 
+			130 948 2540 194 51 49 2551 945 2969 7618 7619 7620 7621 7624 7626 7627 
 			
 			# 1.29 Manchu
 			7221
@@ -4332,7 +4332,7 @@ categories =  {
 		}
     }
 	# Germany
-	urban_brandeburg_an_der_havel = {
+	urban_brandenburg_an_der_havel = {
 		color = { 177 156 217 }
         type = forest
         sound_type = forest
@@ -4348,6 +4348,42 @@ categories =  {
 		terrain_override = {
 			4748
 		}
+    }
+    # Germany
+    urban_luneburg = {
+        color = { 177 156 217 }
+        type = forest
+        sound_type = forest
+        supply_limit = 4
+        movement_cost = 1.10
+        local_development_cost = -0.30
+
+        allowed_num_of_buildings = 3
+        nation_designer_cost_multiplier = 1.4
+        defence = 1
+        local_defensiveness = 0.1
+        local_build_cost = -0.1
+        terrain_override = {
+            53
+        }
+    }
+    # Germany
+    urban_altmark = {
+        color = { 177 156 217 }
+        type = forest
+        sound_type = forest
+        supply_limit = 4
+        movement_cost = 1.10
+        local_development_cost = -0.30
+
+        allowed_num_of_buildings = 3
+        nation_designer_cost_multiplier = 1.4
+        defence = 1
+        local_defensiveness = 0.1
+        local_build_cost = -0.1
+        terrain_override = {
+            2964
+        }
     }
     # Germany
 	urban_hamburg = {

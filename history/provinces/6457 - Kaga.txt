@@ -1,12 +1,13 @@
-#3307 - Noto
+#6457 - Noto
 
+#Default
 owner = TGS
 controller = TGS
 add_core = TGS
 culture = hokuriku 
 religion = shinto
 capital = "Kanazawa"
-trade_goods = naval_supplies
+trade_goods = chinaware
 hre = no
 base_tax = 6
 base_production = 6
@@ -15,7 +16,6 @@ is_city = yes
 
 #Commerce
 center_of_trade = 2
-extra_cost = 20
 
 #Province Modifiers
 add_permanent_province_modifier = {

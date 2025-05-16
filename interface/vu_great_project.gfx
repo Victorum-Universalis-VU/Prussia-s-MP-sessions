@@ -599,6 +599,26 @@ spriteTypes = {
         texturefile = "gfx//interface//great_projects//VU_Japan//great_project_vu_nijo_castle.dds"
     }
     spriteType = {
+        name = "GFX_great_project_vu_okazaki_castle"
+        texturefile = "gfx//interface//great_projects//VU_Japan//great_project_vu_okazaki_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_nagoya_castle"
+        texturefile = "gfx//interface//great_projects//VU_Japan//great_project_vu_nagoya_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_kokubunji_temple"
+        texturefile = "gfx//interface//great_projects//VU_Japan//great_project_vu_kokubunji_temple.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_port_of_nagasaki"
+        texturefile = "gfx//interface//great_projects//VU_Japan//great_project_vu_port_of_nagasaki.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_kagoshima_castle"
+        texturefile = "gfx//interface//great_projects//VU_Japan//great_project_vu_kagoshima_castle.dds"
+    }
+    spriteType = {
         name = "GFX_great_project_vu_yonaguni_ruins"
         texturefile = "gfx//interface//great_projects//VU_Japan//great_project_vu_yonaguni_ruins.dds"
     }
