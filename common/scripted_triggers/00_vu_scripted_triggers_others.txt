@@ -4247,7 +4247,7 @@ vu_generic_can_form_potential_check = {
 	}
 	#NOT = { was_tag = PAP }
 	NOT = {
-		was_tag = SPA
+		# was_tag = SPA #A lil fix for Prussia - Don
 	}
 	NOT = {
 		was_tag = BSP
@@ -4333,7 +4333,7 @@ vu_generic_can_form_potential_check = {
 		tag = PAP
 	}
 	NOT = {
-		tag = SPA
+		#tag = SPA #A lil fix for Prussia - Don
 	}
 	NOT = {
 		tag = BSP
