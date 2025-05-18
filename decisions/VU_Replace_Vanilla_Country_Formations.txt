@@ -2867,7 +2867,7 @@ country_decisions = {
 			NOT = {
 				tag = ITA
 			}
-			or = {
+			OR = {
 				culture_group = latin
 				tag = SPA
 			}
