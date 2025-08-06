@@ -1,9 +1,9 @@
 #7907 - Montauban
 
 #Default
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = N4R
+controller = N4R
+add_core = N4R
 culture = occitain
 religion = catholic
 capital = "Montauban"
@@ -18,5 +18,4 @@ hre = no
 add_core = TOU
 
 #History by SF
-1215.6.15 = { owner = TOU controller = TOU add_core = TOU } # Countship of Toulouse - By San Felipe
 1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

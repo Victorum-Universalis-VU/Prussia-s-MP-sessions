@@ -76,7 +76,7 @@ leader_names = {
 
 ship_names = {
     "Al-Armah" "Ad-Dahna" "Jabal Tuwayo"
-    "Naf没d Qunayfidahah" "Naf没d Shuqayyiqah"
-    "Al-Bayad" "Naf没d Ad-Dahy" "Naf没d As-Sirrah"
+    "Naf鹍 Qunayfidahah" "Naf鹍 Shuqayyiqah"
+    "Al-Bayad" "Naf鹍 Ad-Dahy" "Naf鹍 As-Sirrah"
     "Ar-Riyad" "Ad-Dilam" Shaqra
 }

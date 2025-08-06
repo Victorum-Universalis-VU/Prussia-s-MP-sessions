@@ -4,7 +4,7 @@ culture = carib
 
 
 religion = animism
-capital = "Codaj√°s"
+capital = "Codaj·s"
 trade_goods = unknown
 hre = no
 base_tax = 1  

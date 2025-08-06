@@ -425,6 +425,7 @@ vu_discover_the_world = {
                 #Sea
                 3020 = { discover_country = PREV }
                 arabian_sea_region = { discover_country = PREV }
+                switzerland_region = { discover_country = PREV }
                 black_sea_region = { discover_country = PREV }
                 caspian_sea_region = { discover_country = PREV }
                 mediterrenean_region = { discover_country = PREV }

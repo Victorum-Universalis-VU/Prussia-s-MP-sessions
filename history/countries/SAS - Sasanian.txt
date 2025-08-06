@@ -5,6 +5,7 @@ government_rank = 9 #Empire
 primary_culture = persian
 religion = zoroastrian
 technology_group = persian_tech_group
+unit_type = muslim
 capital = 6628 #Gharbi
 add_army_professionalism = 0.05
 

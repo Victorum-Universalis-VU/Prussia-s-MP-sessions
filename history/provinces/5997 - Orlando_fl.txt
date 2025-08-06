@@ -43,4 +43,4 @@ native_hostileness = 2
 	add_core = USA
 	remove_core = SPA
 	capital = "Orlando"
-} # The Adams-OnÃ­s Treaty
+} # The Adams-Onís Treaty

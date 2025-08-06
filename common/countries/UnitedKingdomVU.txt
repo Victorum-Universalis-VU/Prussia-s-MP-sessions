@@ -196,7 +196,7 @@ army_names = {
 	"Liverpool Volunteers" "King's American Regiment" "British Legion" "New York Volunteers" "Volunteers of Ireland" "Foot Guards" "Kentish Regiment" 
 	"Royal Northumberland Fusiliers" "Norfolk Regiment" "Prince of Wales's Own" "Enniskillen Regiment" "Royal Highland" "Frasers Highlanders" 
 	"Glasgow Volunteers" "Jamaica Regiment" "Shropshire Volunteers" "Yorkshire Volunteers" "King's Rangers" "King's Orange Rangers" "King's Carolina Rangers" 
-	"Hompesch Hussars" "Roll's Regiment" "RÃ©giment Royal Louis" "Royal Gurkha Rifles" "Prince Consort's Own" "Princess Consort's Own" "Tangier Regiment" "Greek Regiment" 
+	"Hompesch Hussars" "Roll's Regiment" "Régiment Royal Louis" "Royal Gurkha Rifles" "Prince Consort's Own" "Princess Consort's Own" "Tangier Regiment" "Greek Regiment" 
 	"Bombay Regiment" "West India Regiment" "East India Regiment" "South India Regiment" "North India Regiment" "Duke of Sussex's" "Nottinghamshire Regiment" 
 	"Oxfordshire Regiment" "Manchester Volunteers" "Royal Bombay Fusiliers" "King's Irish Infantry" "New Brunswick Regiment" "Madras Regiment" "Royal Canadian" 
 	"Earl of Ulster's" "Duke of Albany's Own" "West Suffolk Regiment" "Staffordshire Regiment" "Durham Regiment" "Regiment of Marines" "Stirlingshire Regiment" 

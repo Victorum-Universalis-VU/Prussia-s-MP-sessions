@@ -1,4 +1,17 @@
 # 12 Active CR's (Please update this when you add in a new CR)
+#A list by Don
+#colonial_alaska
+#colonial_canada
+#colonial_eastern_america
+#colonial_louisiana
+#colonial_california
+#colonial_mexico
+#colonial_the_carribean
+#colonial_colombia
+#colonial_peru
+#colonial_la_plata
+#colonial_brazil
+#colonial_australia
 # Alaska
 colonial_alaska = {
 	color = { 225 225 225 }

@@ -1,9 +1,9 @@
 #7424 - Winchester
 
 #Default
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = WNR
+controller = WNR
+add_core = WNR
 culture = wessexian
 religion = catholic
 hre = no
@@ -13,3 +13,11 @@ trade_goods = cheese
 base_manpower = 3
 capital = "Winchester"
 is_city = yes
+
+#History by SF
+1444.11.11 = {
+	owner = ENG
+	controller= ENG
+	add_core = ENG
+	remove_core = WNR
+}

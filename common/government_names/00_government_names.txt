@@ -1554,7 +1554,7 @@ cristopher_of_bavaria_monarchy = {
 #    trigger = {
 #        tag = HUN
 #        government = monarchy
-#        #		has_ruler = "JÃ¡nos"
+#        #		has_ruler = "János"
 #        has_heir = "Ladislaus Postumus"
 #    }
 #}
@@ -2459,6 +2459,13 @@ pagan_roman_monarchy = {
         9 = IMPERATOR
     }
 
+    ruler_female = {
+        6 = DOMINA_fem
+        7 = DOMINA_fem
+        8 = REGINA_fem
+        9 = IMPERATRIX_fem
+    }
+
     consort_female = {
         6 = DOMINA_CONSORT_fem
         7 = DOMINA_CONSORT_fem
@@ -2473,8 +2480,16 @@ pagan_roman_monarchy = {
         9 = NOBILES
     }
 
+    heir_female = {
+        6 = DOMINA_fem
+        7 = DOMINA_fem
+        8 = DOMINA_fem
+        9 = DOMINA_fem
+    }
+
     trigger = {
         government = monarchy
+        government_rank = 6
         is_subject = no
         OR = {
             AND = {

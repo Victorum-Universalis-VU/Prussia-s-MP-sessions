@@ -1,8 +1,8 @@
-#3249 - ChapecÃ³
+#3249 - Chapecó
 
 culture = guarani
 religion = animism
-capital = "ChapecÃ³"
+capital = "Chapecó"
 trade_goods = unknown
 hre = no
 base_tax = 1

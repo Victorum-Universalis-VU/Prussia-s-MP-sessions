@@ -1,4 +1,4 @@
-# MiniÃ© Rifle
+# Minié Rifle
 
 type = infantry
 unit_type = western

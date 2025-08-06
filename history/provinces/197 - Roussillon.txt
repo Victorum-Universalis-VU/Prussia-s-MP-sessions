@@ -15,10 +15,7 @@ trade_goods = citrus
 base_manpower = 2
 
 #Buildings
-#fort_15th = yes			#Darth Modus removed fort. Aragon was losing too much money and there are already 2 forts right next to Roussillon
-
-#Claimants
-add_core = ARA
+fort_15th = yes
 
 #History by SF
 1412.6.29 = {
@@ -34,5 +31,6 @@ add_core = ARA
 	owner = CAT
 	controller = CAT
 	add_core = CAT
+	add_core = ARA
 	remove_core = MJO
 }

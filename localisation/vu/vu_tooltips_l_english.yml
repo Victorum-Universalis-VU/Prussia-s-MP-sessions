@@ -207,7 +207,6 @@
  tooltip_vu_add_new_instituiton_details_b: "Development at least 20 and a Capital"
  tooltip_vu_add_new_instituiton_details_c: "Located in the Old World"
  tooltip_vu_add_new_instituiton_details_d: "Coastal with at least 24 development or a Center of Trade"
- tooltip_vu_add_new_instituiton_details_e: "Has discovered any province in the New World"
  tooltip_vu_add_new_instituiton_details_f: "is a Center of Trade or a Capital"
  tooltip_vu_add_new_instituiton_details_g: "Development at least 24 in Europe"
  tooltip_vu_add_new_instituiton_details_h: "Development at least 48"
@@ -552,6 +551,7 @@
  me_tim_supported_nomads_tt: "The Timmurids have supported the nomads."
  wls_colonize_thirteen_colonies_tooltip: "Colonise the Thirteen Colonies."
  estate_noble_absolute_taxation_tooltip: "Absolute_taxation."
+ rus_increase_absolute_rule_tt: "Increased Absolute Rule"
  PROPER_VU_FANCIFUR_DESC_TOOLTIP: "Fancy"
  
  CANNOT_ANNEX_PEERAGE: "This subject type cannot be annexed until 25 years have passed."

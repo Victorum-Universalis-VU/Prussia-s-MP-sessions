@@ -22,7 +22,7 @@ native_hostileness = 2
 	controller = SPA
 	add_core = SPA
 	culture = castillian
-	capital = "Ton del dÃ­a"
+	capital = "Ton del día"
 }
 1670.1.1 = { unrest = 8 } # Conflict erupted when British settlers began to arrive
 1680.1.1 = { unrest = 0 }
@@ -43,4 +43,4 @@ native_hostileness = 2
 	add_core = USA
 	remove_core = SPA
 	capital = "Daytona"
-} # The Adams-OnÃ­s Treaty
+} # The Adams-Onís Treaty

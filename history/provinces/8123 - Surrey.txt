@@ -1,9 +1,9 @@
 #8123 - Surrey
 
 #Default
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = E5Y
+controller = E5Y
+add_core = E5Y
 capital = "Guildford"
 is_city = yes
 culture = wessexian
@@ -16,3 +16,12 @@ hre = no
 
 #Claimants
 seat_in_parliament = yes
+
+#History by SF
+1444.11.11 = { 
+	owner = ENG 
+	controller = ENG 
+	add_core = ENG
+	remove_core = E5Y
+}
+

@@ -1,9 +1,9 @@
 #3130 - Torquay
 
 #Default
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = EDV
+controller = EDV
+add_core = EDV
 culture = west_country
 religion = catholic
 hre = no
@@ -16,12 +16,18 @@ is_city = yes
 
 #Claimants
 add_core = CRN
+add_core = ENG
+
+#History by SF
+1444.11.11 = { 
+	owner = EXE 
+	controller = EXE 
+	add_core = EXE 
+	remove_core = EDV
+} # The Dukedom of Exeter territory - By San Felipe
 
 #Province Modifiers
 add_permanent_province_modifier = {
 	name = stannery_law_modifier
 	duration = -1
 }
-
-#History by SF
-1444.11.11 = { owner = EXE controller = EXE add_core = EXE } # The Dukedom of Exeter territory - By San Felipe

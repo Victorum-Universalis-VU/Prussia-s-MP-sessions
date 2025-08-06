@@ -1,8 +1,8 @@
-#3258 - GuaporÃ©
+#3258 - Guaporé
 
 culture = guarani
 religion = animism
-capital = "GuaporÃ©"
+capital = "Guaporé"
 trade_goods = unknown
 hre = no
 base_tax = 1

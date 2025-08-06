@@ -16,3 +16,4 @@ is_city = yes
 
 #Buildings
 cesspit = yes
+fort_15th = yes

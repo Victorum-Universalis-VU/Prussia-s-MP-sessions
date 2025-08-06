@@ -5,9 +5,9 @@ latent_trade_goods = {
 }
 
 #Default
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = DR8
+controller = DR8
+add_core = DR8
 culture = midlander
 religion = catholic
 hre = no
@@ -18,5 +18,12 @@ trade_goods = lead
 capital = "Derby"
 is_city = yes
 
+#Claimants
+add_core = ENG
+
 #History by SF
-1444.11.11 = { owner = KOI controller = KOI add_core = KOI } # The Isle of Mann/Stanley family territory - By San Felipe
+1444.11.11 = { 
+	owner = KOI 
+	controller = KOI 
+	add_core = KOI 
+} # The Isle of Mann/Stanley family territory - By San Felipe

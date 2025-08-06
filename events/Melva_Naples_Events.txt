@@ -166,7 +166,7 @@ country_event = {
 	}
 }
 
-#Gjergj Kastrioti SkÃ«nderbeu 
+#Gjergj Kastrioti Skënderbeu 
 country_event = {
 	id = Melva_Naples_Events.3
 	title = Melva_Naples_Events.3.T

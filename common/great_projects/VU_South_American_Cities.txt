@@ -1553,7 +1553,7 @@ vu_pirenopolis_brz = {
 
 vu_brasilia_brz = {
     start = 2908
-    date = 1827.01.01 #The plan was conceived in 1827 by Jos√© Bonif√°cio, an advisor to Emperor Pedro I
+    date = 1827.01.01 #The plan was conceived in 1827 by JosÈ Bonif·cio, an advisor to Emperor Pedro I
     time = { months = 0 }
     build_cost = 0
     can_be_moved = no

@@ -2,7 +2,7 @@
 #Made by claivin for Missions Expanded Mod
 #########
 
-#̀1
+#1
 manchu_northern_hegemony = {
 	prestige = 1.0
 	horde_unity = 1

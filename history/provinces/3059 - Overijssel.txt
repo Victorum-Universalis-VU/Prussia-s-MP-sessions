@@ -1,10 +1,10 @@
-#3059 - CratÃ©us
+#3059 - Cratéus
 
 culture = tupinamba
 
 
 religion = animism
-capital = "CratÃ©us"
+capital = "Cratéus"
 trade_goods = unknown
 hre = no
 base_tax = 1 

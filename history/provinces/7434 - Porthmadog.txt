@@ -1,9 +1,9 @@
 #7434 - Porthmadog
 
 #Default
-owner = WLS
-controller = WLS
-add_core = WLS
+owner = GND
+controller = GND
+add_core = GND
 capital = "Porthmadog" #VU - Was Pwllheli. By San Felipe
 is_city = yes
 culture = celtic_welsh_culture #Was welsh
@@ -14,5 +14,9 @@ base_manpower = 1
 trade_goods = fish
 hre = no
 
-#Claimants
-add_core = GND
+#History by SF
+1444.11.11 = { 
+	owner = WLS 
+	controller = WLS 
+	add_core = WLS 
+}

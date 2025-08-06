@@ -1,9 +1,9 @@
 #375 - Munster
 
 #Default
-owner = THO
-controller = THO
-add_core = THO
+owner = UIB
+controller = UIB
+add_core = UIB
 culture = celtic_irish_culture
 religion = catholic
 hre = no
@@ -14,30 +14,23 @@ trade_goods = fur
 capital = "Inis Cluana Rámhfhada"
 is_city = yes
 
+#History by SF
+1444.11.11 = {
+    owner = THO
+    controller = THO
+    add_core = THO
+} # Thomond clan territory - By San Felipe
+
 #Province Modifiers
 add_permanent_province_modifier = {
     name = jewish_population 
     duration = -1
 }
-
 #add_permanent_province_modifier = {
 #	name = shannon_estuary_modifier
 #	duration = -1
 #}
-
 add_permanent_province_modifier = {
     name = vu_cliffs_of_moher 
     duration = -1
 }
-
-#History by SF
-1215.6.15 = { 
-	owner = UIB 
-	controller = UIB 
-	add_core = UIB 
-} # Ui Briain clan territory - By San Felipe
-1444.11.11 = { 
-	owner = THO 
-	controller = THO 
-	add_core = THO 
-} # Thomond clan territory - By San Felipe

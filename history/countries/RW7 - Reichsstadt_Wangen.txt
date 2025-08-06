@@ -7,7 +7,7 @@ technology_group = swiss_tech_group
 unit_type = western
 religion = catholic
 primary_culture = swiss
-capital = 4710 #Wangen im Allg√§u
+capital = 4710 #Wangen im Allg‰u
 fixed_capital = 8525 # Cannot move capital away from this province & no power cost to move to it
 
 1399.1.1 = {

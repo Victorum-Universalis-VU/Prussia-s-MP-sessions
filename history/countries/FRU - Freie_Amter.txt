@@ -7,7 +7,7 @@ technology_group = swiss_tech_group
 unit_type = western
 religion = catholic
 primary_culture = swiss
-capital = 8526	#Freie Ã„mter
+capital = 8526	#Freie Ämter
 fixed_capital = 8526 # Cannot move capital away from this province & no power cost to move to it
 
 1399.1.1 = {

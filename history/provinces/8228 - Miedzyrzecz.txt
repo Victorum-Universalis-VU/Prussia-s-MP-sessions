@@ -1,4 +1,4 @@
-#8228 - Międzyrzecz
+#8228 - Midzyrzecz
 
 #Default
 owner = PZN

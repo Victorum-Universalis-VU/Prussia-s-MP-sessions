@@ -1,4 +1,4 @@
-#8245 - Ścinawa
+#8245 - cinawa
 
 #Default
 owner = SIL

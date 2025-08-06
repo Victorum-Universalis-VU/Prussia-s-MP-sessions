@@ -4,7 +4,6 @@
 owner = CAS		#Juan II of Castile
 controller = CAS
 add_core = CAS
-add_core = TLD #BTB added: Castilian revolter tag.
 culture = castillian
 religion = catholic
 hre = no
@@ -15,12 +14,6 @@ base_manpower = 2
 capital = "Madrid" 
 is_city = yes # Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself 
 
-#Commerce
-center_of_trade = 2
-
-#Claimants
-add_core = CIU
-
 #Buildings - SF
 town_hall = yes
 marketplace = yes
@@ -30,3 +23,10 @@ workshop = yes
 road_system = yes
 training_fields = yes
 barracks = yes
+
+#Claimants
+add_core = CIU
+add_core = TLD
+
+#Commerce
+center_of_trade = 2

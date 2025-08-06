@@ -27,7 +27,7 @@ add_core = MA1
 	revolt = {
 		type = nationalist_rebels
 		size = 2
-		leader = "AgustÃ­n de Legazpi"
+		leader = "Agustín de Legazpi"
 	}
 	controller = REB
 }

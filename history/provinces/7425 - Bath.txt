@@ -1,9 +1,9 @@
 #7425 - Bath
 
 #Default
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = B0B
+controller = B0B
+add_core = B0B
 culture = wessexian
 religion = catholic
 hre = no
@@ -16,6 +16,16 @@ is_city = yes
 
 #Buildings
 bath_house = yes
+
+#Claimants
+add_core = ENG
+
+#History by SF
+1444.11.11 = {
+    owner = ENG
+    controller = ENG
+	remove_core = B0B
+}
 
 #Province Modifiers
 add_permanent_province_modifier = {

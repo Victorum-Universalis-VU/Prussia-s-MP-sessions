@@ -1104,7 +1104,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			has_institution = renaissance
+			has_institution = global_trade
 			NOT = {
 				exists = GBR
 			}
@@ -1264,7 +1264,7 @@ country_decisions = {
 			has_country_flag = vu_can_form_gbr
 		}
 		allow = {
-			has_institution = renaissance
+			has_institution = global_trade
 			stability = 2
 			prestige = 50
 		}
@@ -2867,10 +2867,7 @@ country_decisions = {
 			NOT = {
 				tag = ITA
 			}
-			OR = {
-				culture_group = latin
-				tag = SPA
-			}
+			culture_group = latin
 		}
 		color = {
 			50
@@ -4109,7 +4106,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 41				# KÃ¶nigsberg
+				province_id = 41				# Königsberg
 				AND = {
 					province_id = 43					# Danzig
 					ROOT = {
@@ -4140,14 +4137,12 @@ country_decisions = {
 			NOT = {
 				exists = PRU
 			}
-			has_institution = renaissance
+			has_institution = global_trade #VU Marco Polo re-edit by SF
 			OR = {
 				religion = protestant
-				religion = reformed
-				religion = hussite
-				religion = anglican
+				religion = reformed    #Only left this here based on the fact that most of the HRE electors are Calvinist. - SF
 			}
-			owns_core_province = 41			# KÃ¶nigsberg
+			owns_core_province = 41			# Königsberg
 			OR = {
 				owns_core_province = 43				# Danzig
 				owns_core_province = 2995				# Stolp
@@ -4339,7 +4334,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 41				# KÃ¶nigsberg
+				province_id = 41				# Königsberg
 				AND = {
 					province_id = 43					# Danzig
 					ROOT = {
@@ -4374,7 +4369,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			has_institution = renaissance
-			owns_core_province = 41			# KÃ¶nigsberg
+			owns_core_province = 41			# Königsberg
 			OR = {
 				owns_core_province = 43				# Danzig
 				owns_core_province = 2995				# Stolp
@@ -4534,7 +4529,7 @@ country_decisions = {
 			NOT = {
 				tag = TEU
 			}
-			owns_core_province = 41			# KÃ¶nigsberg
+			owns_core_province = 41			# Königsberg
 			num_of_cities = 12			#If not one of the normal candidates, needs 12 provinces plus Koenigsberg to see
 		}
 		color = {
@@ -4544,7 +4539,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 41				# KÃ¶nigsberg
+				province_id = 41				# Königsberg
 				#VU - Hashed out in v1.36.2.*. By San Felipe
 				#owns_core_province = 42		# Warmia
 				province_id = 43				# Danzig
@@ -4589,7 +4584,7 @@ country_decisions = {
 				religion = reformed
 				religion = hussite
 			}
-			owns_core_province = 41			# KÃ¶nigsberg
+			owns_core_province = 41			# Königsberg
 			owns_core_province = 42			# Warmia
 			owns_core_province = 43			# Danzig
 			owns_core_province = 2995			# Stolp
@@ -5527,6 +5522,7 @@ country_decisions = {
 			}
 			is_nomad = no
 			is_free_or_tributary_trigger = yes
+			has_institution = new_world_i
 			owns_core_province = 208			# Leon
 			owns_core_province = 210			# Navarra
 			owns_core_province = 214			# Zaragoza
@@ -5679,7 +5675,7 @@ country_decisions = {
 				}
 				legitimacy = 100
 			}
-			has_institution = renaissance
+			has_institution = new_world_i
 			owns_or_vassal_of = 208			# Leon
 			owns_or_vassal_of = 210			# Navarra
 			owns_or_vassal_of = 214			# Zaragoza
@@ -12409,6 +12405,7 @@ country_decisions = {
 			add_dip_power = 100
 			add_mil_power = 100
 			change_primary_culture = japanese
+			change_religion = state_shinto
 			1020 = {
 				change_culture = japanese
 			}
@@ -14168,7 +14165,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 842				#PetÃ©n
+				province_id = 842				#Petén
 				province_id = 846				#Sotuta
 				province_id = 2633				#Mani
 				province_id = 2652				#Ecab
@@ -14199,7 +14196,7 @@ country_decisions = {
 			else = {
 				has_institution = feudalism
 			}
-			owns_core_province = 842			#PetÃ©n
+			owns_core_province = 842			#Petén
 			owns_core_province = 846			#Sotuta
 			owns_core_province = 2633			#Mani
 			owns_core_province = 2652			#Ecab

@@ -8,12 +8,12 @@ technology_group = german_tech_group
 unit_type = western
 religion = catholic
 primary_culture = swabian
-capital = 3359 #SchÃ¶mberg
+capital = 3359 #Schömberg
 fixed_capital = 3359 # Cannot move capital away from this province & no power cost to move to it
 
 1444.1.1 = {
     monarch = {
-        name = "Gemeinde SchÃ¶mberg"
+        name = "Gemeinde Schömberg"
         adm = 3
         dip = 3
         mil = 3

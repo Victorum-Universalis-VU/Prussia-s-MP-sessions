@@ -4,7 +4,7 @@ culture = tupinamba
 
 
 religion = animism
-capital = "CuianÃ£ ou Cuiu-anÃ£"
+capital = "Cuianã ou Cuiu-anã"
 trade_goods = unknown
 hre = no
 base_tax = 1

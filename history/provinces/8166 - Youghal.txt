@@ -18,7 +18,7 @@ hre = no
 add_core = ANI
 add_core = ENG
 
-#Histories
+#History by SF
 1215.6.15 = { owner = MCM controller = MCM add_core = MCM } # Deasmhumhain territory - By San Felipe
 1291.1.1 = {
 	capital = "Eochaill"

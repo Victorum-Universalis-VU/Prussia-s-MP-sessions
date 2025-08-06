@@ -14,5 +14,5 @@ base_manpower = 1
 trade_goods = livestock
 hre = no
 
-#Histories
+#History by SF
 1444.11.11 = { owner = RCH controller = RCH add_core = RCH } # The Earldom of Richmond territory - By San Felipe

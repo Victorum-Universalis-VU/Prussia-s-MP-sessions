@@ -1,9 +1,9 @@
 #184 - Orléanais
 
 #Default
-owner = ORL
-controller = ORL
-add_core = ORL
+owner = BLS
+controller = BLS
+add_core = BLS
 capital = "Orléans"
 is_city = yes
 culture = cosmopolitan_french
@@ -14,9 +14,11 @@ base_production = 11
 trade_goods = pottery
 base_manpower = 5
 
-
 #Buildings
 fort_15th = yes
+
+#Claimants
+add_core = FRA
 
 #Commerce
 center_of_trade = 2
@@ -32,5 +34,8 @@ add_permanent_province_modifier = {
 }
 
 #History by SF
-1215.6.15 = { owner = BLS controller = BLS add_core = BLS } # Part of the Royal French Domain - By San Felipe
-1444.11.11 = { owner = ORL controller = ORL add_core = ORL } # Duchy of Orléanais - By San Felipe
+1444.11.11 = { 
+	owner = ORL 
+	controller = ORL 
+	add_core = ORL 
+} # Duchy of Orléanais - By San Felipe

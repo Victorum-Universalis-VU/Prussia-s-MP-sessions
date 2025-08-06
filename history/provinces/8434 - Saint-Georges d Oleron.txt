@@ -4,7 +4,7 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-capital = "Saint-Georges-d'OlÃ©ron"
+capital = "Saint-Georges-d'Oléron"
 is_city = yes
 culture = poitevin_culture
 religion = catholic
@@ -17,7 +17,3 @@ base_manpower = 1
 #Claimants
 add_core = POI
 add_core = GUY
-
-#History by SF
-1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # Part of English Duchy of Aquitaine - By San Felipe
-1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

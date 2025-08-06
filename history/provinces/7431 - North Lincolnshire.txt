@@ -14,11 +14,11 @@ base_manpower = 1
 capital = "Scunthorpe"
 is_city = yes
 
+#History by SF
+1444.11.11 = { owner = LNN controller = LNN add_core = LNN } # The Earldom of Lincolm territory - By San Felipe
+
 #Province Modifier
 add_permanent_province_modifier = {
-	name = ancholme_estuary_modifier
-	duration = -1
+    name = ancholme_estuary_modifier
+    duration = -1
 }
-
-#Histories
-1444.11.11 = { owner = LNN controller = LNN add_core = LNN } # The Earldom of Lincolm territory - By San Felipe

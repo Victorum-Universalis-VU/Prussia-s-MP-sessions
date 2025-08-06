@@ -1,4 +1,4 @@
-#8242 - Namysłów
+#8242 - Namys�w
 
 #Default
 owner = NAM

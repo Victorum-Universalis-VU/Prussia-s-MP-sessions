@@ -16,3 +16,6 @@ base_manpower = 3
 
 #Buildings
 bath_house = yes
+
+#Claimants
+add_core = FRA

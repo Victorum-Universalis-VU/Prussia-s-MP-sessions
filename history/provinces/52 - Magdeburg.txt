@@ -16,18 +16,18 @@ is_city = yes
 
 #Commerce
 center_of_trade = 4
-extra_cost = 40
 
-#Province Modifiers
-add_permanent_province_modifier = {
-    name = jewish_population 
-    duration = -1
-}
-
-#History by docRobert & SF
+#History by SF
 1444.1.1 = {
 	owner = MAG
 	controller = MAG
 	add_core = MAG
+	#Claimants
 	remove_core = SOR
+}
+
+#Province Modifiers
+add_permanent_province_modifier = {
+    name = jewish_population
+    duration = -1
 }

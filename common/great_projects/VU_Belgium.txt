@@ -1,4 +1,4 @@
-#Pal√°cio Nacional de Mafra
+#Pal·cio Nacional de Mafra
 vu_spa_hot_springs = {
     start = 8496
     date = 79.01.01

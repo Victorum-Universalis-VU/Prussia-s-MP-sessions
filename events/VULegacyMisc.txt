@@ -113,7 +113,9 @@ country_event = {
 	title = "VULegacyMisc.EVTNAME3"
 	desc = "VULegacyMisc.EVTDESC3"
 	picture = STREET_SPEECH_eventPicture
-	
+
+	fire_only_once = yes
+
 	trigger = {
 		has_global_flag = gaels_and_britons_reunited_into_one_group
 		OR = {

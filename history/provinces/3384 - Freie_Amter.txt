@@ -1,4 +1,4 @@
-#3384 - Freie Ã„mter
+#3384 - Freie Ämter
 
 owner = FRU
 controller = FRU

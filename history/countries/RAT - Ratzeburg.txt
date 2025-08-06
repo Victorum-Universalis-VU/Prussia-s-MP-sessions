@@ -10,7 +10,7 @@ capital = 7617 #Ratzeburg
 
 1444.1.1 = {
 	monarch = {
-		name = "AuÃŸerhalb des BÃ¼ros"
+		name = "Außerhalb des Büros"
 		adm = 1
 		dip = 1
 		mil = 1

@@ -16,6 +16,11 @@ base_manpower = 3
 
 #Claimants
 add_core = BAR
+add_core = FRA
 
 #History by SF
-1430.6.26 = { owner = PRO controller = PRO add_core = PRO }
+1430.6.26 = { 
+	owner = PRO 
+	controller = PRO 
+	add_core = PRO 
+}

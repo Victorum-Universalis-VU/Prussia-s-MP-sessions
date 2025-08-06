@@ -15,14 +15,8 @@ trade_goods = books
 base_manpower = 2 
 
 #History by SF
-1420.5.12 = { 
-	owner = ENG 
-	controller = ENG 
-	add_core = ENG 
-} # Treaty of Troyes, ceded to the English
 1429.1.1 = { 
 	owner = FRA 
 	controller = FRA 
-	add_core = FRA 
-	remove_core = ENG 
+	add_core = FRA
 } # Retaken by the French

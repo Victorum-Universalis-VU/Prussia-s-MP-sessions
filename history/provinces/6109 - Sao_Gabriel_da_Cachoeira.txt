@@ -4,7 +4,7 @@ culture = carib
 
 
 religion = animism
-capital = "SÃ£o Gabriel da Cachoeira"
+capital = "São Gabriel da Cachoeira"
 trade_goods = unknown
 hre = no
 base_tax = 1  

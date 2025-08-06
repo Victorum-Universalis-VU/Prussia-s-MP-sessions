@@ -1,5 +1,6 @@
 #767 - Ortelsburg
 
+#Default
 owner = TEU
 controller = TEU
 add_core = TEU

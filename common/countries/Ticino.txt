@@ -78,10 +78,10 @@ monarch_names = {
 
 leader_names = {
     Aebi Amman Bischofberger Blank Blies Brugger Combe
-    Eugster Frei Frisch Gasenzer GrÃ¼neisen Heberlin
+    Eugster Frei Frisch Gasenzer Grüneisen Heberlin
     Helberingen Hertzler Hiltbrand Honegger Luz Miller
-    Munzinger Oberholzer Schwendimann SpÃ¶rri Vogt
-    "von Baltharsar" WÃ¤chter "von Hasseln" Zumbach
+    Munzinger Oberholzer Schwendimann Spörri Vogt
+    "von Baltharsar" Wächter "von Hasseln" Zumbach
 }
 
 ship_names = {
@@ -106,11 +106,11 @@ ship_names = {
     "Glarus"
     "Zug"
     "Lucerne"
-    "ZÃ¼rich"
+    "Zürich"
     "Berne"
     "Dufour"
     "Rhein"
-    "RhÃ´ne"
+    "Rhône"
     "Inn"
     "Ticino"
     "Wilhelm Tell"

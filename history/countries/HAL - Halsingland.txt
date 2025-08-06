@@ -9,4 +9,4 @@ technology_group = scandinavian_tech_group
 unit_type = western
 historical_friend = DAN
 historical_rival = SHL
-capital = 7797 #GÃ¤vle
+capital = 7797 #Gävle

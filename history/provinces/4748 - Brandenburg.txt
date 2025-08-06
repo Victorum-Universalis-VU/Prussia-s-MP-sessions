@@ -10,12 +10,20 @@ hre = yes
 base_tax = 6
 base_production = 7
 base_manpower = 6
-trade_goods = lumber
+trade_goods = woodworking
 capital = "Brandenburg an der Havel"
 is_city = yes
 
 #Buildings
 fort_15th = yes
+city_hall = yes
+marketplace = yes
+cathedral = yes
+wood_workshop = yes
+road_system = yes
+cesspit = yes
+barracks = yes
+well = yes
 
 #Commerce
 center_of_trade = 2

@@ -14,5 +14,5 @@ base_manpower = 2
 capital = "Oakham"
 is_city = yes
 
-#Histories
+#History by SF
 1444.11.11 = { owner = RT1 controller = RT1 add_core = RT1 } # The Earldom of Rutland territory - By San Felipe

@@ -18,12 +18,11 @@ is_city = yes
 add_core = MEI
 
 #History by SF
-1419.12.1 = { unrest = 10 } # Hussite Wars, Battle of Nekmir
-1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
 1444.1.1 = {
 	owner = SAX
 	controller = SAX
 	add_core = SAX
+	#Claimants
 	remove_core = MEI
 	remove_core = BOH
 }

@@ -21,15 +21,15 @@ add_claim = ARA
 #Commerce
 center_of_trade = 1
 
-#Province Modifier
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
-
 #History by SF
 1441.1.1 = {
     owner = COR
     controller = COR
     add_core = COR
+}
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
 }

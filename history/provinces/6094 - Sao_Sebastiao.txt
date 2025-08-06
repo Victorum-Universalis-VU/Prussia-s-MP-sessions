@@ -4,7 +4,7 @@ culture = tupinamba
 
 
 religion = animism
-capital = "S√£o Sebasti√£o"
+capital = "S„o Sebasti„o"
 trade_goods = unknown
 hre = no
 base_tax = 1

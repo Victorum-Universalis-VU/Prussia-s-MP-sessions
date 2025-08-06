@@ -1,9 +1,9 @@
 #137 - Ragusa
 
 #Default
-owner = RAG
-controller = RAG
-add_core = RAG
+owner = SER
+controller = SER
+add_core = SER
 culture = croatian
 religion = catholic
 capital = "Slano"
@@ -13,13 +13,11 @@ base_tax = 3
 base_production = 4
 base_manpower = 1		
 is_city = yes
-extra_cost = 5
 
 #Claimants
 add_core = DAL
 
-#Histories by SF
-1215.6.15 = { owner = SER controller = SER add_core = SER } # Serbian territorial lands - By San Felipe
+#History by SF
 1444.11.11 = { owner = RAG controller = RAG add_core = RAG } # Ragusan territorial lands - By San Felipe
 
 #Province Modifiers

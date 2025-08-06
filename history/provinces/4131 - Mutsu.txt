@@ -13,3 +13,9 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 is_city = yes
+
+#Buildings
+cathedral = yes
+
+#Commerce
+center_of_trade = 3

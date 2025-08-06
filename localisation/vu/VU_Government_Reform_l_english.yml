@@ -13,3 +13,6 @@
  #Modifiers
  swi_canton_administration_modifier: "Canton Administration Overlord Reform" 
  
+ #Generic Dominions by SF & Don
+ vu_generic_dominion: "Dominion Administration"
+ vu_generic_dominion_desc: "A former colonial nation that has grown to be large enough that it can carry its own weight in war whilst still giving taxes to the overlord."

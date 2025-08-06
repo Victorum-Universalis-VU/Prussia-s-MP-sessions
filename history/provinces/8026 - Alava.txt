@@ -1,5 +1,6 @@
 #8026 - Alava
 
+#Default
 owner = ALV
 controller = ALV
 add_core = ALV
@@ -13,5 +14,7 @@ trade_goods = cider #sidra, especially liked in the Basuque country
 is_city = yes
 hre = no
 
-
-
+#History by SF
+1350.1.1 = {
+    add_core = CAS
+}

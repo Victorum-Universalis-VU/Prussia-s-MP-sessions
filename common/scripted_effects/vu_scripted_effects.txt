@@ -1,4 +1,6 @@
+#All here by Don, for various reasons, explained in # comments
 vu_POW_on_battle_won_effect = {
+	#Runs on battle ended to update the POW mechanic
 	# root = winning country, from = loser country
 	if = {
 		limit = {
@@ -196,6 +198,7 @@ vu_POW_on_battle_won_effect = {
 }
 
 vu_POW_friendly_effect = {
+	#Runns on battle end, updates the mechanic
 	set_variable = {
 		which = land_units_killed_var
 		which = land_units_killed
@@ -237,6 +240,7 @@ vu_POW_friendly_effect = {
 }
 
 vu_POW_slavery_effect = {
+	#Runns on battle end, updates the mechanic
 	set_variable = {
 		which = land_units_killed_var
 		which = land_units_killed
@@ -284,6 +288,7 @@ vu_POW_slavery_effect = {
 }
 
 vu_POW_sell_slaves_effect = {
+	#Runs whenever decision is taken to use this mechanic
 	while = {
 		limit = {
 			check_variable = {
@@ -300,6 +305,7 @@ vu_POW_sell_slaves_effect = {
 }
 
 vu_POW_sacrifice_effect = {
+	#Runns on battle end, updates the mechanic
 	set_variable = {
 		which = land_units_killed_var
 		which = land_units_killed
@@ -347,6 +353,7 @@ vu_POW_sacrifice_effect = {
 }
 
 vu_POW_mass_sacrifice_effect = {
+	#Runs whenever decision is taken to use this mechanic
 	add_country_modifier = {
 		name = vu_pow_gods_favour
 		duration = 365
@@ -358,6 +365,7 @@ vu_POW_mass_sacrifice_effect = {
 }
 
 vu_POW_noble_ransom_effect = {
+	#Runns on battle end, updates the mechanic
 	set_variable = {
 		which = land_units_killed_var
 		which = land_units_killed
@@ -405,6 +413,7 @@ vu_POW_noble_ransom_effect = {
 }
 
 vu_POW_ransom_nobles_effect = {
+	#Runs whenever decision is taken to use this mechanic
 	while = {
 		limit = {
 			check_variable = {
@@ -421,6 +430,7 @@ vu_POW_ransom_nobles_effect = {
 }
 
 vu_POW_gladiatorial_effect = {
+	#Runns on battle end, updates the mechanic
 	set_variable = {
 		which = land_units_killed_var
 		which = land_units_killed
@@ -468,6 +478,7 @@ vu_POW_gladiatorial_effect = {
 }
 
 vu_POW_gladiator_fight_effect = {
+	#Runs whenever decision is taken to use this mechanic
 	add_country_modifier = {
 		name = vu_pow_arena_fights
 		duration = 730
@@ -479,6 +490,7 @@ vu_POW_gladiator_fight_effect = {
 }
 
 vu_POW_internment_effect = {
+	#Runns on battle end, updates the mechanic
 	set_variable = {
 		which = land_units_killed_var
 		which = land_units_killed
@@ -526,6 +538,7 @@ vu_POW_internment_effect = {
 }
 
 vu_POW_set_reset = {
+	#Resets all the POW modifiers
 	remove_country_modifier = vu_pow_neutral_attitude
 	remove_country_modifier = vu_pow_hostile_attitude
 	remove_country_modifier = vu_pow_friendly_attitude
@@ -537,4 +550,42 @@ vu_POW_set_reset = {
 	remove_country_modifier = vu_pow_gladiatorial_attitude
 	remove_country_modifier = vu_pow_resettlement_attitude
 	remove_country_modifier = vu_pow_internment_camps_attitude
+}
+
+#Old version (displays the opposite)
+vu_triggered_modifier_effect = {
+	#Runnable whenever desired, mostly in the VU replacement for Triggered Modifiers, requires a [modifier = ???] to use, 
+	#switches between it being applied, used within the replacements for Triggered Modifiers as it Lags significantly less.
+	if = {
+		limit = {
+			has_country_modifier = $modifier$
+		}
+		remove_country_modifier = $modifier$
+	}
+	else = {
+		add_country_modifier = {
+			name = $modifier$
+			duration = -1
+		}
+	}
+}
+
+vu_triggered_modifier_effect_desc = {
+	#This is just for show in the event description so it shows what it's giving
+	if = {
+		limit = {
+			has_country_modifier = $modifier$
+		}
+		tooltip = {
+			remove_country_modifier = $modifier$
+		}
+	}
+	else = {
+		tooltip = {
+			add_country_modifier = {
+				name = $modifier$
+				duration = -1
+			}
+		}
+	}
 }

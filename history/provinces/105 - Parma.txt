@@ -1,9 +1,9 @@
 #105 - Parma
 
 #Default
-owner = MLO
-controller = MLO
-add_core = MLO
+owner = PAR
+controller = PAR
+add_core = PAR
 culture = romagnan 
 religion = catholic 
 hre = yes 
@@ -34,5 +34,4 @@ add_permanent_province_modifier = {
 }
 
 #History by SF
-1215.1.1 = { controller = PAR owner = PAR add_core = PAR }
 1300.1.1 = { controller = MLO owner = MLO add_core = MLO }

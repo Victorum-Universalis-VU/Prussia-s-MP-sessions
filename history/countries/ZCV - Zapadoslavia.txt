@@ -5,3 +5,4 @@ add_government_reform = feudalism_reform
 technology_group = bohemian_tech_group
 religion = catholic
 primary_culture = czech
+unit_type = western

@@ -1,8 +1,8 @@
-#3257 - CriciÃºma
+#3257 - Criciúma
 
 culture = guarani
 religion = animism
-capital = "CriciÃºma"
+capital = "Criciúma"
 trade_goods = unknown
 hre = no
 base_tax = 1

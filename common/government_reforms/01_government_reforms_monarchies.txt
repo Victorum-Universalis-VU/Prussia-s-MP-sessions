@@ -1749,7 +1749,7 @@ celestial_empire = {
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
 		governing_capacity = 8000		#Increased to 8000 from 500 (EU vanilla) & Increased to 600 from 470 (GE) by San Felipe
-		unjustified_demands = -1 #You are literally claiming to be a scion of the heavens. Who are the puny mortals to question your justifications?
+		unjustified_demands = -1		#You are literally claiming to be a scion of the heavens. Who are the puny mortals to question your justifications?
 	}
 	ai = {
 		factor = 1000		# should always be picked if available
@@ -3956,7 +3956,7 @@ al_andalusia_government = {
 			has_dlc = "Cradle of Civilization"
 		}
 		custom_attributes = {
-			allow_piety_switch_decision = yes			#Enables a decision which gives 1 stabhit, but turns your piety 180°
+			allow_piety_switch_decision = yes			#Enables a decision which gives 1 stabhit, but turns your piety 180�
 		}
 	}
 }
@@ -3977,12 +3977,13 @@ margrave_of_brandenburg = {
 	trigger = {
 	}
 	modifiers = {
-		diplomatic_reputation = 1
-		diplomatic_upkeep = 2
+		diplomatic_reputation = 0.5		#Nerfed from 1 to 0.5 -Don
+		diplomatic_upkeep = 1		#Nerfed from 2 to 1 -Don
 		land_maintenance_modifier = -0.1
-		build_cost = -0.1
 		nobles_influence_modifier = -0.05
 		burghers_loyalty_modifier = 0.05
+		#build_cost = -0.2 #Was making construction in BRA too cheap, replaced below:  -Don
+		relation_with_same_religion = 10		#Make BRA a lot more diplomatic than PRU  -Don
 	}
 	custom_attributes = {
 		vu_has_ToR_subjects = yes
@@ -4035,7 +4036,7 @@ prussian_monarchy = {
 		max_absolutism = 10
 		monarch_military_power = 3
 		nobles_loyalty_modifier = 0.1
-		#governing_capacity_modifier = -0.2 Hashed out due to common consensus by Don,Dar Prussia and Lucas
+		#governing_capacity_modifier = -0.2 Hashed out due to common consensus by Don, SF, Prussia and Lucas
 	}
 	custom_attributes = {
 		vu_has_ToR_subjects = yes
@@ -13357,7 +13358,7 @@ french_orleanist_restoration_reform = {
 #Does not have legacy entry
 french_first_empire_restoration_reform = {
 	#revolutionary_empire_reform
-	# French unique gov 1814 – 1815, France is ruled by Napoleon III
+	# French unique gov 1814 � 1815, France is ruled by Napoleon III
 	icon = "napoleonic_dynasty"
 	allow_normal_conversion = no
 	potential = {
@@ -15814,7 +15815,8 @@ duchy_of_brittany_reform = {
 	}
 }
 
-vu_chinese_principality_reform = { #Added by Prussia as part of the Great Subjects Update
+vu_chinese_principality_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "chinese_principality"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15843,7 +15845,8 @@ vu_chinese_principality_reform = { #Added by Prussia as part of the Great Subjec
 	}
 }
 
-vu_japanese_imperial_colony_reform = { #Added by Prussia as part of the Great Subjects Update
+vu_japanese_imperial_colony_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_colony"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15861,7 +15864,8 @@ vu_japanese_imperial_colony_reform = { #Added by Prussia as part of the Great Su
 	}
 }
 
-vu_japanese_imperial_directorate_reform = { #Added by Prussia as part of the Great Subjects Update
+vu_japanese_imperial_directorate_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_protectorate"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15880,7 +15884,8 @@ vu_japanese_imperial_directorate_reform = { #Added by Prussia as part of the Gre
 	}
 }
 
-vu_japanese_imperial_governate_reform = { #Added by Prussia as part of the Great Subjects Update
+vu_japanese_imperial_governate_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_governate"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15900,7 +15905,8 @@ vu_japanese_imperial_governate_reform = { #Added by Prussia as part of the Great
 	}
 }
 
-vu_japanese_imperial_warlord_reform = { #Added by Prussia as part of the Great Subjects Update
+vu_japanese_imperial_warlord_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "japanese_warlord"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15921,7 +15927,8 @@ vu_japanese_imperial_warlord_reform = { #Added by Prussia as part of the Great S
 	}
 }
 
-vu_hindu_principality_reform = { #Added by Prussia as part of the Great Subjects Update
+vu_hindu_principality_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "hindu_principality"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15948,7 +15955,8 @@ vu_hindu_principality_reform = { #Added by Prussia as part of the Great Subjects
 	}
 }
 
-vu_buddhist_principality_reform = { #Added by Prussia as part of the Great Subjects Update
+vu_buddhist_principality_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "buddhist_principality"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15972,7 +15980,8 @@ vu_buddhist_principality_reform = { #Added by Prussia as part of the Great Subje
 	}
 }
 
-aztec_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+aztec_lordship_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "aztec_lordship"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -15991,7 +16000,8 @@ aztec_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
 	}
 }
 
-mayan_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+mayan_lordship_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "mayan_lordship"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -16010,7 +16020,8 @@ mayan_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
 	}
 }
 
-inca_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+inca_lordship_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "inca_lordship"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -16029,7 +16040,8 @@ inca_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
 	}
 }
 
-mesoamerican_lordship_reform = { #Added by Prussia as part of the Great Subjects Update
+mesoamerican_lordship_reform = {
+	#Added by Prussia as part of the Great Subjects Update
 	icon = "mayan_lordship"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
@@ -16051,7 +16063,6 @@ mesoamerican_lordship_reform = { #Added by Prussia as part of the Great Subjects
 }
 
 #Governor General for Dominions
-
 self_governing_dominion_vu_government = {
 	icon = "self_governing_dominion_vu_government"
 	valid_for_nation_designer = no
@@ -16068,12 +16079,10 @@ self_governing_dominion_vu_government = {
 		embracement_cost = -0.1
 		state_maintenance_modifier = -0.25
 	}
-
 	custom_attributes = {
 		locked_government_type = yes
 	}
-
 	ai = {
-		factor = 1 #Make sure this always gets picked if it gets de-selected by the ai for some reason - Prussia
+		factor = 1		#Make sure this always gets picked if it gets de-selected by the ai for some reason - Prussia
 	}
 }

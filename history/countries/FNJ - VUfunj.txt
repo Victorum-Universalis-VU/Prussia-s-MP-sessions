@@ -13,20 +13,20 @@ historical_rival = ABD
 
 1503.1.1 = {
 	monarch = {
-		name = "'AmÃ¢ra I DÃ»nqas"
+		name = "'Amâra I Dûnqas"
 		dynasty = "Senar"
 		adm = 3
 		dip = 4
 		mil = 5
-		leader = {	name = "'AmÃ¢ra I DÃ»nqas"       	type = general	fire = 2	shock = 2	manuever = 4	siege = 0}
+		leader = {	name = "'Amâra I Dûnqas"       	type = general	fire = 2	shock = 2	manuever = 4	siege = 0}
 	}
 
 }
 
 1503.1.1 = {
 	heir = {
-		name = "'Abd al-QÃ¢dir"
-		monarch_name = "'Abd al-QÃ¢dir I"
+		name = "'Abd al-Qâdir"
+		monarch_name = "'Abd al-Qâdir I"
 		dynasty = "Senar"
 		birth_date = 1503.1.1
 		death_Date = 1543.1.1
@@ -45,7 +45,7 @@ historical_rival = ABD
 
 1534.1.1 = {
 	monarch = {
-		name = "'Abd al-QÃ¢dir I"
+		name = "'Abd al-Qâdir I"
 		dynasty = "Senar"
 		adm = 3
 		dip = 1
@@ -55,8 +55,8 @@ historical_rival = ABD
 
 1534.1.1 = {
 	heir = {
-		name = "NÃ¢'l"
-		monarch_name = "NÃ¢'l"
+		name = "Nâ'l"
+		monarch_name = "Nâ'l"
 		dynasty = "Senar"
 		birth_date = 1520.1.1
 		death_date = 1550.1.1
@@ -69,7 +69,7 @@ historical_rival = ABD
 
 1543.1.1 = {
 	monarch = {
-		name = "NÃ¢'l"
+		name = "Nâ'l"
 		dynasty = "Senar"
 		adm = 2
 		dip = 4
@@ -79,8 +79,8 @@ historical_rival = ABD
 
 1543.1.1 = {
 	heir = {
-		name = "'AmÃ¢ra"
-		monarch_name = "'AmÃ¢ra II"
+		name = "'Amâra"
+		monarch_name = "'Amâra II"
 		dynasty = "Senar"
 		birth_date = 1543.1.1
 		death_date = 1563.1.1
@@ -93,7 +93,7 @@ historical_rival = ABD
 
 1550.1.1 = {
 	monarch = {
-		name = "'AmÃ¢ra II"
+		name = "'Amâra II"
 		dynasty = "Senar"
 		adm = 2
 		dip = 2
@@ -103,8 +103,8 @@ historical_rival = ABD
 
 1550.1.1 = {
 	heir = {
-		name = "DakÃ®n al-'Adil"
-		monarch_name = "DakÃ®n al-'Adil"
+		name = "Dakîn al-'Adil"
+		monarch_name = "Dakîn al-'Adil"
 		dynasty = "Senar"
 		birth_date = 1540.1.1
 		death_date = 1578.1.1
@@ -117,7 +117,7 @@ historical_rival = ABD
 
 1563.1.1 = {
 	monarch = {
-		name = "DakÃ®n al-'Adil"
+		name = "Dakîn al-'Adil"
 		dynasty = "Senar"
 		adm = 0
 		dip = 3
@@ -128,8 +128,8 @@ historical_rival = ABD
 
 1563.1.1 = {
 	heir = {
-		name = "DÃ»ra"
-		monarch_name = "DÃ»ra"
+		name = "Dûra"
+		monarch_name = "Dûra"
 		dynasty = "Senar"
 		birth_date = 1553.1.1
 		death_date = 1588.1.1
@@ -142,7 +142,7 @@ historical_rival = ABD
 
 1578.1.1 = {
 	monarch = {
-		name = "DÃ»ra"
+		name = "Dûra"
 		dynasty = "Senar"
 		adm = 1
 		dip = 4
@@ -152,8 +152,8 @@ historical_rival = ABD
 
 1578.1.1 = {
 	heir = {
-		name = "TaiyÃ®b"
-		monarch_name = "TaiyÃ®b I"
+		name = "Taiyîb"
+		monarch_name = "Taiyîb I"
 		dynasty = "Senar"
 		birth_date = 1568.1.1
 		death_date = 1592.1.1
@@ -166,7 +166,7 @@ historical_rival = ABD
 
 1588.1.1 = {
 	monarch = {
-		name = "TaiyÃ®b I"
+		name = "Taiyîb I"
 		dynasty = "Senar"
 		adm = 1
 		dip = 2
@@ -201,8 +201,8 @@ historical_rival = ABD
 
 1592.1.1 = {
 	heir = {
-		name = "'Abd al-QÃ¢dir"
-		monarch_name = "'Abd al-QÃ¢dir II"
+		name = "'Abd al-Qâdir"
+		monarch_name = "'Abd al-Qâdir II"
 		dynasty = "Senar"
 		birth_date = 1560.1.1
 		death_date = 1606.11.3
@@ -215,7 +215,7 @@ historical_rival = ABD
 
 1604.1.1 = {
 	monarch = {
-		name = "'Abd al-QÃ¢dir II"
+		name = "'Abd al-Qâdir II"
 		dynasty = "Senar"
 		adm = 1
 		dip = 0
@@ -249,8 +249,8 @@ historical_rival = ABD
 
 1606.11.3 = {
 	heir = {
-		name = "BÃ¢dÃ®"
-		monarch_name = "BÃ¢dÃ® I"
+		name = "Bâdî"
+		monarch_name = "Bâdî I"
 		dynasty = "Senar"
 		birth_date = 1590.1.1
 		death_date = 1616.1.1
@@ -263,7 +263,7 @@ historical_rival = ABD
 
 1611.1.1 = {
 	monarch = {
-		name = "BÃ¢dÃ® I"
+		name = "Bâdî I"
 		dynasty = "Senar"
 		adm = 1
 		dip = 2
@@ -273,8 +273,8 @@ historical_rival = ABD
 
 1611.1.1 = {
 	heir = {
-		name = "RubÃ¢t"
-		monarch_name = "RubÃ¢t I"
+		name = "Rubât"
+		monarch_name = "Rubât I"
 		dynasty = "Senar"
 		birth_date = 1600.1.1
 		death_Date = 1644.1.1
@@ -287,7 +287,7 @@ historical_rival = ABD
 
 1616.1.1 = {
 	monarch = {
-		name = "RubÃ¢t I"
+		name = "Rubât I"
 		dynasty = "Senar"
 		adm = 1
 		dip = 3
@@ -298,8 +298,8 @@ historical_rival = ABD
 
 1620.1.1 = {
 	heir = {
-		name = "BÃ¢dÃ®"
-		monarch_name = "BÃ¢dÃ® II"
+		name = "Bâdî"
+		monarch_name = "Bâdî II"
 		dynasty = "Senar"
 		birth_date = 1620.1.1
 		death_date = 1680.12.30
@@ -307,18 +307,18 @@ historical_rival = ABD
 		adm = 5
 		dip = 5
 		mil = 5
-		leader = {	name = "BÃ¢dÃ® II"               	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
+		leader = {	name = "Bâdî II"               	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
 	}
 }
 
 1644.1.1 = {
 	monarch = {
-		name = "BÃ¢dÃ® II"
+		name = "Bâdî II"
 		dynasty = "Senar"
 		adm = 5
 		dip = 5
 		mil = 5
-		leader = {	name = "BÃ¢dÃ® II"               	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
+		leader = {	name = "Bâdî II"               	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
 	}
 
 }
@@ -349,8 +349,8 @@ historical_rival = ABD
 
 1680.12.30 = {
 	heir = {
-		name = "BÃ¢dÃ®"
-		monarch_name = "BÃ¢dÃ® III"
+		name = "Bâdî"
+		monarch_name = "Bâdî III"
 		dynasty = "Senar"
 		birth_date = 1660.1.1
 		death_date = 1716.4.15
@@ -363,7 +363,7 @@ historical_rival = ABD
 
 1692.6.8 = {
 	monarch = {
-		name = "BÃ¢dÃ® III"
+		name = "Bâdî III"
 		dynasty = "Senar"
 		adm = 1
 		dip = 2
@@ -397,8 +397,8 @@ historical_rival = ABD
 
 1716.4.15 = {
 	heir = {
-		name = "NÃ»l"
-		monarch_name = "NÃ»l"
+		name = "Nûl"
+		monarch_name = "Nûl"
 		dynasty = "Senar"
 		birth_date = 1700.1.1
 		death_date = 1724.6.10
@@ -411,7 +411,7 @@ historical_rival = ABD
 
 1720.6.15 = {
 	monarch = {
-		name = "NÃ»l"
+		name = "Nûl"
 		dynasty = "Senar"
 		adm = 2
 		dip = 2
@@ -421,8 +421,8 @@ historical_rival = ABD
 
 1720.6.15 = {
 	heir = {
-		name = "BÃ¢dÃ®"
-		monarch_name = "BÃ¢dÃ® IV"
+		name = "Bâdî"
+		monarch_name = "Bâdî IV"
 		dynasty = "Senar"
 		birth_date = 1700.1.1
 		death_date = 1762.3.29
@@ -435,7 +435,7 @@ historical_rival = ABD
 
 1724.6.10 = {
 	monarch = {
-		name = "BÃ¢dÃ® IV"
+		name = "Bâdî IV"
 		dynasty = "Senar"
 		adm = 6
 		dip = 4
@@ -445,8 +445,8 @@ historical_rival = ABD
 
 1740.1.1 = {
 	heir = {
-		name = "NÃ¢sir"
-		monarch_name = "NÃ¢sir"
+		name = "Nâsir"
+		monarch_name = "Nâsir"
 		dynasty = "Senar"
 		birth_date = 1740.1.1
 		death_Date = 1769.1.1
@@ -459,7 +459,7 @@ historical_rival = ABD
 
 1762.3.29 = {
 	monarch = {
-		name = "NÃ¢sir"
+		name = "Nâsir"
 		dynasty = "Senar"
 		adm = 0
 		dip = 1
@@ -469,8 +469,8 @@ historical_rival = ABD
 
 1762.3.29 = {
 	heir = {
-		name = "IsmÃ¢'Ã®l"
-		monarch_name = "IsmÃ¢'Ã®l"
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl"
 		dynasty = "Senar"
 		birth_date = 1750.1.1
 		death_date = 1778.1.1
@@ -483,7 +483,7 @@ historical_rival = ABD
 
 1769.1.1 = {
 	monarch = {
-		name = "IsmÃ¢'Ã®l"
+		name = "Ismâ'îl"
 		dynasty = "Senar"
 		adm = 0
 		dip = 0
@@ -493,8 +493,8 @@ historical_rival = ABD
 
 1769.1.1 = {
 	heir = {
-		name = "AdlÃ¢n"
-		monarch_name = "AdlÃ¢n"
+		name = "Adlân"
+		monarch_name = "Adlân"
 		dynasty = "Senar"
 		birth_date = 1760.1.1
 		death_date = 1788.12.2
@@ -507,7 +507,7 @@ historical_rival = ABD
 
 1778.1.1 = {
 	monarch = {
-		name = "AdlÃ¢n"
+		name = "Adlân"
 		dynasty = "Senar"
 		adm = 0
 		dip = 0
@@ -517,8 +517,8 @@ historical_rival = ABD
 
 1778.1.1 = {
 	heir = {
-		name = "TaiyÃ®b"
-		monarch_name = "TaiyÃ®b II"
+		name = "Taiyîb"
+		monarch_name = "Taiyîb II"
 		dynasty = "Senar"
 		birth_date = 1778.1.1
 		death_date = 1790.4.1
@@ -531,7 +531,7 @@ historical_rival = ABD
 
 1788.12.2 = {
 	monarch = {
-		name = "TaiyÃ®b II"
+		name = "Taiyîb II"
 		dynasty = "Senar"
 		adm = 0
 		dip = 1
@@ -541,8 +541,8 @@ historical_rival = ABD
 
 1788.12.2 = {
 	heir = {
-		name = "BÃ¢dÃ®"
-		monarch_name = "BÃ¢dÃ® V"
+		name = "Bâdî"
+		monarch_name = "Bâdî V"
 		dynasty = "Senar"
 		birth_date = 1760.1.1
 		death_date = 1790.10.1
@@ -555,7 +555,7 @@ historical_rival = ABD
 
 1790.4.1 = {
 	monarch = {
-		name = "BÃ¢dÃ® V"
+		name = "Bâdî V"
 		dynasty = "Senar"
 		adm = 2
 		dip = 0
@@ -589,8 +589,8 @@ historical_rival = ABD
 
 1790.10.1 = {
 	heir = {
-		name = "BÃ¢dÃ®"
-		monarch_name = "BÃ¢dÃ® VI"
+		name = "Bâdî"
+		monarch_name = "Bâdî VI"
 		dynasty = "Senar"
 		birth_date = 1770.1.1
 		death_date = 1798.1.1
@@ -603,7 +603,7 @@ historical_rival = ABD
 
 1791.1.1 = {
 	monarch = {
-		name = "BÃ¢dÃ® VI"
+		name = "Bâdî VI"
 		dynasty = "Senar"
 		adm = 1
 		dip = 1
@@ -661,8 +661,8 @@ historical_rival = ABD
 
 1804.1.1 = {
 	heir = {
-		name = "BÃ¢dÃ®"
-		monarch_name = "BÃ¢dÃ® VII"
+		name = "Bâdî"
+		monarch_name = "Bâdî VII"
 		dynasty = "Senar"
 		birth_date = 1780.1.1
 		death_Date = 1821.1.1
@@ -675,7 +675,7 @@ historical_rival = ABD
 
 1805.1.1 = {
 	monarch = {
-		name = "BÃ¢dÃ® VII" #2nd reign
+		name = "Bâdî VII" #2nd reign
 		dynasty = "Senar"
 		adm = 1
 		dip = 1

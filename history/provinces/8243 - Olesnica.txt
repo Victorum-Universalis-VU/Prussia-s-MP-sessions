@@ -1,4 +1,4 @@
-#8243 - Oleśnica
+#8243 - Olenica
 
 #Default
 owner = SIL

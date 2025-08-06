@@ -14,11 +14,11 @@ base_production = 3
 base_manpower = 2
 trade_goods = herbs
 
-#Claimants
-add_core = GUY
-
 #Buildings
 fort_15th = yes
+
+#Claimants
+add_core = GUY
 
 #History by SF
 1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # Part of English Duchy of Aquitaine - By San Felipe

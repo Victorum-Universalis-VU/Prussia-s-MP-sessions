@@ -5,9 +5,9 @@ latent_trade_goods = {
 }
 
 #Default
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = EWK
+controller = EWK
+add_core = EWK
 capital = "Warwick"
 is_city = yes
 culture = cotswoldian
@@ -18,11 +18,19 @@ base_manpower = 2
 trade_goods = cloth
 hre = no
 
+#Claimants
+add_core = ENG
+
+#History by SF
+1444.11.11 = { 
+    owner = WRK 
+    controller = WRK 
+    add_core = WRK
+    remove_core = EWK
+} # The Earldom of Warwick territory - By San Felipe
+
 #Province Modifiers
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1
 }
-
-#History by SF
-1444.11.11 = { owner = WRK controller = WRK add_core = WRK } # The Earldom of Warwick territory - By San Felipe

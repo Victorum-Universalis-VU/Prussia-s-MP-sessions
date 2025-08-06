@@ -1,4 +1,4 @@
-#8247 - Żagań
+#8247 - aga
 
 #Default
 capital = "Zagan"

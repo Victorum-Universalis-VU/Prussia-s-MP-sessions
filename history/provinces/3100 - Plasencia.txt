@@ -1,8 +1,8 @@
-#3100 - GuaicuÃ­
+#3100 - Guaicuí
 
 culture = tupinamba
 religion = animism
-capital = "GuaicuÃ­"
+capital = "Guaicuí"
 trade_goods = unknown
 hre = no
 base_tax = 1

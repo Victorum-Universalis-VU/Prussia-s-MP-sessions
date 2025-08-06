@@ -768,7 +768,7 @@ country_event = {
             }
             add_devastation = -25
         }
-        263 = { #Racib贸rz 8 dev
+        263 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -876,7 +876,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        263 = { #Racib贸rz 8 dev
+        263 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -892,7 +892,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        8243 = { #Racib贸rz 8 dev
+        8243 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -900,7 +900,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        8244 = { #Racib贸rz 8 dev
+        8244 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -908,7 +908,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        8242 = { #Racib贸rz 8 dev
+        8242 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -916,7 +916,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        8241 = { #Racib贸rz 8 dev
+        8241 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -924,7 +924,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        4723 = { #Racib贸rz 8 dev
+        4723 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -932,7 +932,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        8240 = { #Racib贸rz 8 dev
+        8240 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1
@@ -940,7 +940,7 @@ country_event = {
             change_culture = silesian_german
             add_devastation = 25
         }
-        7677 = { #Racib贸rz 8 dev
+        7677 = { #Racib髍z 8 dev
             add_base_tax = 1
             add_base_production = 1
             add_base_manpower = 1

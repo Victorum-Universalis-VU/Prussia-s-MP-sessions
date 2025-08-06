@@ -1,7 +1,6 @@
 #7951 - Semur
 
 #Default
-
 owner = FRA
 controller = FRA
 add_core = FRA

@@ -1,11 +1,11 @@
 #3149 - Sunderland
 
 #Default
-capital = "Sunderland"
-is_city = yes
 owner = ENG
 controller = ENG
 add_core = ENG
+capital = "Sunderland"
+is_city = yes
 culture = geordie
 religion = catholic
 base_tax = 1
@@ -14,5 +14,5 @@ base_manpower = 1
 trade_goods = coloured_stained_glass #Once known for producing coloured glass. - SF
 hre = no
 
-#Histories
+#History by SF
 1444.11.11 = { owner = NOL controller = NOL add_core = NOL } # The Dukedom of Northumberland territory - By San Felipe

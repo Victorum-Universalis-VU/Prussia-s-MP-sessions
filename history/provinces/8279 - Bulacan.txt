@@ -28,7 +28,7 @@ is_city = yes
 	revolt = {
 		type = nationalist_rebels
 		size = 2
-		leader = "AgustÃ­n de Legazpi"
+		leader = "Agustín de Legazpi"
 	}
 	controller = REB
 }

@@ -1,9 +1,9 @@
 #179 - Berry
 
 #Default
-owner = BER
-controller = BER
-add_core = BER
+owner = FRA
+controller = FRA
+add_core = FRA
 capital = "Bourges"
 is_city = yes
 culture = cosmopolitan_french
@@ -14,5 +14,5 @@ base_production = 5
 trade_goods = lumber
 base_manpower = 3
 
-#History by SF
-1416.3.15 = { owner = FRA add_core = FRA controller = FRA } # Death of Jean de Valois
+#Claimants
+add_core = BER

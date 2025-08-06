@@ -1,5 +1,5 @@
 #Atol das Rocas
-capital = "Fort Nossa Senhora dos RemÃ©dios"
+capital = "Fort Nossa Senhora dos Remédios"
 religion = animism
 hre = no
 base_tax = 2  

@@ -387,7 +387,7 @@ vu_university_of_oxford = {
 			innovativeness_gain = 0.15
 			global_institution_spread = 0.05
 			idea_cost = -0.025
-			missionary_maintenance_cost = -0.15
+			missionary_maintenance_cost = -0.015 #Fixed this here decimal error | Don
 		}
 		on_upgraded = {
 			owner = {
@@ -412,7 +412,7 @@ vu_university_of_oxford = {
 			global_institution_spread = 0.15
 			reform_progress_growth = 0.25
 			idea_cost = -0.05
-			global_heretic_missionary_strength = 0.1
+			global_heretic_missionary_strength = 0.01 #Fixed this here decimal error | Don
 			missionary_maintenance_cost = -0.2
 		}
 		on_upgraded = {
@@ -439,7 +439,7 @@ vu_university_of_oxford = {
 			reform_progress_growth = 0.5
 			prestige_decay = -0.01
 			idea_cost = -0.1
-			global_heretic_missionary_strength = 0.2
+			global_heretic_missionary_strength = 0.02 #Fixed this here decimal error | Don
 			missionary_maintenance_cost = -0.25
 		}
 		on_upgraded = {

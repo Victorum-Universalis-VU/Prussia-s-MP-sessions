@@ -11,7 +11,7 @@ primary_culture = lower_saxon
 add_accepted_culture = ger_east_frisian
 add_accepted_culture = ger_north_frisian
 capital = 1874	# Bremen
-historical_friend = HSA #LÃ¼beck
+historical_friend = HSA #Lübeck
 historical_friend = HAM #Hamburg
 historical_friend = RIG #Riga
 

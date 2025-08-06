@@ -1,4 +1,4 @@
-#4710 - Wangen im Allg√§u
+#4710 - Wangen im Allg‰u
 #Region - Germany
 #Area - Tirol
 
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 6
 trade_goods = iron
 base_manpower = 2 
-capital = "Wangen im Allg√§u" 
+capital = "Wangen im Allg‰u" 
 is_city = yes	
 hre = yes
 

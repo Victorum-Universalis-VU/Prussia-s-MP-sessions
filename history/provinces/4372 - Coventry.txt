@@ -1,9 +1,9 @@
 #4372 - Coventry
 
 #Default
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = B0W
+controller = B0W
+add_core = B0W
 culture = midlander
 religion = catholic
 hre = no
@@ -15,8 +15,16 @@ base_manpower = 2
 capital = "Worcester" #"Coventry"
 is_city = yes
 
+#Claimants
+remove_core = B0W
+add_core = ENG
+
 #Government
 seat_in_parliament = yes
 
 #History by SF
-1444.11.11 = { owner = WRK controller = WRK add_core = WRK } # The Duchy of York territory - By San Felipe
+1444.11.11 = { 
+	owner = WRK 
+	controller = WRK 
+	add_core = WRK 
+} # The Duchy of York territory - By San Felipe

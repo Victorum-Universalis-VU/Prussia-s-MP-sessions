@@ -14,7 +14,7 @@ base_manpower = 1
 trade_goods = fruit
 hre = no
 
-#Histories
+#History by SF
 1291.1.1 = {
 	capital = "Muineachán"
 }

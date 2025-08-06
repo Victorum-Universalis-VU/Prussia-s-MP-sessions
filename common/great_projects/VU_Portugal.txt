@@ -1,4 +1,4 @@
-#Pal√°cio Nacional de Mafra
+#Pal·cio Nacional de Mafra
 vu_palacio_nacional_de_mafra = {
 	start = 8098
 	date = 1717.01.01 #Palace
@@ -100,7 +100,7 @@ vu_mosteiro_da_batalha = {
 	}
 }
 
-#Mosteiro dos Jer√≥nimos
+#Mosteiro dos JerÛnimos
 vu_mosteiro_dos_jeronimos = {
 	start = 227
 	date = 1502.01.01 #Monastery
@@ -151,7 +151,7 @@ vu_mosteiro_dos_jeronimos = {
 	}
 }
 
-#Aqueduto das √Åguas Livres
+#Aqueduto das ¡guas Livres
 vu_aqueduto_das_aguas_livres = {
 	start = 227
 	date = 1731.01.01 #Aqueduct
@@ -304,7 +304,7 @@ vu_linhas_de_torres_vedras = {
 	}
 }
 
-#Igreja e Torre dos Cl√©rigos
+#Igreja e Torre dos ClÈrigos
 vu_igreja_e_torre_dos_clerigos = {
 	start = 231
 	date = 1732.01.01 #Church
@@ -355,7 +355,7 @@ vu_igreja_e_torre_dos_clerigos = {
 	}
 }
 
-#Castelo de Guimar√£es
+#Castelo de Guimar„es
 vu_castelo_de_guimaraes = {
 	start = 3104
 	date = 1000.01.01 #Castle
@@ -406,7 +406,7 @@ vu_castelo_de_guimaraes = {
 	}
 }
 
-#Mosteiro de Alcoba√ßa
+#Mosteiro de AlcobaÁa
 vu_mosteiro_de_alcobaca = {
 	start = 8098
 	date = 1178.01.01 #Church

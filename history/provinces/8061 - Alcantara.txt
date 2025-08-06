@@ -1,4 +1,4 @@
-#8061 - Alc√°ntara
+#8061 - Alc·ntara
 
 #Default
 owner = CAS
@@ -6,7 +6,7 @@ controller = CAS
 add_core = CAS
 culture = leonese
 religion = catholic
-capital = "Alc√°ntara"
+capital = "Alc·ntara"
 base_tax = 3
 base_production = 1
 base_manpower = 1
@@ -14,17 +14,7 @@ trade_goods = wool
 is_city = yes
 hre = no
 
-#Claimants
-
-#Buildings
-
-#Special Modifiers
-
-#Known by Technology groups
-
-#Histories
+#History by SF
 1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
-
 1350.1.1 = { culture = castillian }
-
 1444.11.11 = { owner = BDH controller = BDH add_core = BDH remove_core = AMD } # Castilian territorial lands - By San Felipe

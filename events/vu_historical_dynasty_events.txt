@@ -313,19 +313,19 @@ country_event = {
             tag = SPA
         }
         is_year = 1589
-        dynasty = "de TrastÃ¡mara"
+        dynasty = "de Trastámara"
         is_lesser_in_union = no
         has_heir = no
     }
 
     option = {
-        name = vu_historical_dynasty_events.6.a  # The House of TrastÃ¡mara must stay! We will not be ruled by an outsider!
+        name = vu_historical_dynasty_events.6.a  # The House of Trastámara must stay! We will not be ruled by an outsider!
         ai_chance = { factor = 50 }
         add_prestige = 10
     }
 
     option = {
-        name = vu_historical_dynasty_events.6.b  # The TrastÃ¡mara are finished, let a new dynasty rise!
+        name = vu_historical_dynasty_events.6.b  # The Trastámara are finished, let a new dynasty rise!
         ai_chance = { factor = 50 }
         add_stability_or_adm_power = yes
         define_heir = {
@@ -362,7 +362,7 @@ country_event = {
         }
         is_year = 1589
         OR = {
-            dynasty = "de TrastÃ¡mara"
+            dynasty = "de Trastámara"
             dynasty = "von Habsburg"
         }
         is_lesser_in_union = no
@@ -370,13 +370,13 @@ country_event = {
     }
 
     option = {
-        name = vu_historical_dynasty_events.7.a  # The House of TrastÃ¡mara must stay! We will not be ruled by an outsider!
+        name = vu_historical_dynasty_events.7.a  # The House of Trastámara must stay! We will not be ruled by an outsider!
         ai_chance = { factor = 50 }
         add_prestige = 10
     }
 
     option = {
-        name = vu_historical_dynasty_events.7.b  # The TrastÃ¡mara are finished, let a new dynasty rise!
+        name = vu_historical_dynasty_events.7.b  # The Trastámara are finished, let a new dynasty rise!
         ai_chance = { factor = 50 }
         add_stability_or_adm_power = yes
         define_heir = {

@@ -5,11 +5,11 @@ latent_trade_goods = {
 }
 
 #Default
+owner = PWF
+controller = PWF
+add_core = PWF
 capital = "Denbigh"
 is_city = yes
-owner = WMC
-controller = WMC
-add_core = WMC
 culture = celtic_welsh_culture #Was welsh
 religion = catholic
 base_tax = 2
@@ -17,13 +17,14 @@ base_production = 2
 base_manpower = 1
 trade_goods = wool
 
-#Claimants
-add_core = WLS
-add_core = PWF
-
-#Other Political
+#Government
 hre = no
 
 #History by SF
-1215.6.15 = { owner = WLS controller = WLS add_core = WLS } # Welsh territory - By San Felipe
-1444.11.11 = { owner = WMC controller = WMC add_core = WMC } # Welsh Marches territory - By San Felipe
+1444.11.11 = { 
+	owner = WMC 
+	controller = WMC 
+	add_core = WMC
+	add_core = ENG
+	add_core = WLS
+} # Welsh Marches territory - By San Felipe

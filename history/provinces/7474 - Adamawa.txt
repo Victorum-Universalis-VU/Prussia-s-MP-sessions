@@ -2,7 +2,7 @@
 
 culture = kanuri
 religion = shamanism #Fetishism
-capital = "NgaoundÃ©rÃ©"
+capital = "Ngaoundéré"
 trade_goods = unknown
 hre = no
 base_tax = 4

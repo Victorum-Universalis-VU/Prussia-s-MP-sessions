@@ -9,7 +9,7 @@ add_army_professionalism = 0.05
 
 1441.11.01 = {
 	monarch = {
-		name = "Bob-KeÃ±esi"
+		name = "Bob-Keñesi"
 		adm = 0
 		dip = 0
 		mil = 6 #We only know war

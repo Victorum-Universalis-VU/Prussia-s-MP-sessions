@@ -17,12 +17,12 @@ is_city = yes
 #Buildings
 fort_15th = yes
 
+#History by SF
+1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
+1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
+
 #Province Modifiers
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1
 }
-
-#Known by Technology groups
-1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
-1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava

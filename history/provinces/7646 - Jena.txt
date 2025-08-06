@@ -16,8 +16,7 @@ is_city = yes
 
 #History by SF
 1444.1.1 = {
-	owner = MAG
-	controller = MAG
-	add_core = MAG
-	remove_core = MEI
+	owner = THU
+	controller = THU
+	add_core = THU
 }

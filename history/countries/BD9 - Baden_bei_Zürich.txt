@@ -1,4 +1,4 @@
-#BD9 - Baden_bei_ZÃ¼rich
+#BD9 - Baden_bei_Zürich
 government = republic
 add_government_reform = vu_canton_administration
 government_rank = 6 #Canton
@@ -7,7 +7,7 @@ technology_group = swiss_tech_group
 unit_type = western
 religion = catholic
 primary_culture = swiss
-capital = 8526	#Baden bei ZÃ¼rich
+capital = 8526	#Baden bei Zürich
 fixed_capital = 8526 # Cannot move capital away from this province & no power cost to move to it
 
 1399.1.1 = {

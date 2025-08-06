@@ -1125,7 +1125,7 @@ strengthen_the_ulema_reform = {
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		custom_attributes = {
-			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180Â°
+			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180°
 		}
 	}
 	
@@ -1785,7 +1785,7 @@ legacy_of_the_safavid_reform = {
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		custom_attributes = {
-			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180Â°
+			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180°
 		}
 	}
 	ai = {
@@ -2782,7 +2782,7 @@ ghazi_reform = {
 		has_dlc = "Domination"
 		culture_group = turko_semitic
 	}
-	fixed_rank = 8
+	#fixed_rank = 8
 	trigger = {
 		if = {
 			limit = { has_modifier_locking_military_tier = yes }

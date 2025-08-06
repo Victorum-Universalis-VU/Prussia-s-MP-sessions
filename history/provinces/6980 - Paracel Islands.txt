@@ -2,7 +2,7 @@
 
 culture = cham
 religion = animism
-capital = "đảo Tri Tôn"
+capital = "o Tri T�n"
 trade_goods = unknown
 hre = no
 base_tax = 1

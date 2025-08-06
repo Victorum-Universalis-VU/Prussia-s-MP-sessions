@@ -26,58 +26,17 @@ change_estate_land_share = {
 	share = -5
 }
 
-1380.9.16 = {
-	monarch = {
-		name = "Charles VI"
-		dynasty = "de Valois"
-		birth_date = 1368.12.3
-		adm = 0
-		dip = 0
-		mil = 0
-	}
+#History of the Kingdom of France
+1180.1.1 = {
+    monarch = {
+        name = "Philip II"
+        dynasty = "de Valois"
+        birth_date = 1165.8.21
+        adm = 4
+        dip = 0
+        mil = 4
+    }
 }
-
-1391.12.25 = {
-	leader = {
-		name = "Jean Le Meingre"
-		type = general
-
-		fire = 2
-		shock = 2
-		manuever = 3
-		siege = 0
-		death_date = 1421.6.21
-	}
-}
-
-1402.1.1 = {
-	leader = {
-		name = "Charles d'Albret"
-		type = general
-
-		fire = 2
-		shock = 2
-		manuever = 3
-		siege = 0
-		death_date = 1415.10.25
-	}
-}
-
-1403.2.22 = {
-	heir = {
-		name = "Charles"
-		monarch_name = "Charles VII"
-		dynasty = "de Valois"
-		birth_date = 1403.2.22
-		death_date = 1461.7.22
-		claim = 95
-		adm = 4
-		dip = 2
-		mil = 4
-	}
-}
-
-1418.1.1 = { leader = {	name = "Étienne de Vignolles"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1443.1.11 } }
 
 1422.10.22 = {
 	monarch = {

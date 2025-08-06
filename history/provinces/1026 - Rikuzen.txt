@@ -1,4 +1,4 @@
-#1026 - Mutsu
+#1026 - Rikuzen
 
 #Default
 owner = DTE

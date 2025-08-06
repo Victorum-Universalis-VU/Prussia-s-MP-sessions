@@ -1,9 +1,9 @@
 #3092 - Vesoul
 
 #Default
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = FDB
+controller = FDB
+add_core = FDB
 capital = "Vesoul"
 is_city = yes
 culture = burgundian
@@ -16,3 +16,12 @@ base_manpower = 2
 
 #Claimants
 add_core = FCM
+
+#History by SF
+1444.11.11 = {
+    owner = BUR
+    controller = BUR
+    add_core = BUR
+    remove_core = FDB
+}
+

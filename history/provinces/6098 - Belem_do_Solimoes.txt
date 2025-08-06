@@ -4,7 +4,7 @@ culture = tupinamba
 
 
 religion = animism
-capital = "BelÃ©m do SolimÃµes"
+capital = "Belém do Solimões"
 trade_goods = unknown
 hre = no
 base_tax = 1 

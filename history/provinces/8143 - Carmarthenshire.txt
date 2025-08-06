@@ -1,9 +1,9 @@
 #8143 - Carmarthen
 
 #Default
-owner = WLS
-controller = WLS
-add_core = WLS
+owner = DEH
+controller = DEH
+add_core = DEH
 capital = "Carmarthen"
 is_city = yes
 culture = celtic_welsh_culture #Was welsh
@@ -14,9 +14,9 @@ base_manpower = 1
 trade_goods = seafood
 hre = no
 
-#Claimants
-add_core = DEH
-
-#Histories
-1215.6.15 = { owner = DEH controller = DEH add_core = DEH } # Welsh territory - By San Felipe
-1444.11.11 = { owner = WLS controller = WLS add_core = WLS } # Welsh Marches territory - By San Felipe
+#History by SF
+1444.11.11 = { 
+	owner = WLS 
+	controller = WLS 
+	add_core = WLS 
+}

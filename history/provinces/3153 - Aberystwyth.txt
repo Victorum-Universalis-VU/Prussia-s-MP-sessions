@@ -1,11 +1,11 @@
 #3153 - Aberystwyth
 
 #Default
+owner = GND
+controller = GND
+add_core = GND
 capital = "Aberystwyth"
 is_city = yes
-owner = WLS
-controller = WLS
-add_core = WLS
 culture = celtic_welsh_culture #Was welsh
 religion = catholic
 base_tax = 1
@@ -14,5 +14,9 @@ base_manpower = 1
 trade_goods = zinc
 hre = no
 
-#Claimants
-add_core = GND
+#History by SF
+1444.11.11 = {
+    owner = WLS
+    controller = WLS
+    add_core = WLS
+}

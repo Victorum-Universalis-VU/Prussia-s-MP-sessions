@@ -348,7 +348,7 @@ vu_la_paz_mex = {
 	}
 }
 
-#Las PeÃ±as
+#Las Peñas
 vu_puerto_vallarta_mex = {
     start = 854
     date = 1851.01.01
@@ -1252,7 +1252,7 @@ vu_guatemala_city_gt = {
 	}
 }
 
-#Villa de SeÃ±or San Pedro de Puerto Caballos
+#Villa de Señor San Pedro de Puerto Caballos
 vu_san_pedro_sula_hond = {
     start = 2637
     date = 1536.01.01

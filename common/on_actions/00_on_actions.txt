@@ -10,6 +10,75 @@ on_startup = {
 			id = VU_SET_Events.01
 		}
 	}
+	if = {
+		limit = {
+			ai = no
+			OR = {
+				#Expansions
+				NOT = {
+					has_dlc = "Conquest of Paradise"
+				}
+				NOT = {
+					has_dlc = "Wealth of Nations"
+				}
+				NOT = {
+					has_dlc = "Res Publica"
+				}
+				NOT = {
+					has_dlc = "El Dorado"
+				}
+				NOT = {
+					has_dlc = "The Cossacks"
+				}
+				NOT = {
+					has_dlc = "Mare Nostrum"
+				}
+				NOT = {
+					has_dlc = "Mandate of Heaven"
+				}
+				NOT = {
+					has_dlc = "Cradle of Civilization"
+				}
+				NOT = {
+					has_dlc = "Dharma"
+				}
+				NOT = {
+					has_dlc = "Emperor"
+				}
+				NOT = {
+					has_dlc = "Leviathan"
+				}
+				NOT = {
+					has_dlc = "Domination"
+				}
+				NOT = {
+					has_dlc = "Winds of Change"
+				}
+				#Immersion Packs
+				NOT = {
+					has_dlc = "Third Rome"
+				}
+				NOT = {
+					has_dlc = "Rule Britannia"
+				}
+				NOT = {
+					has_dlc = "Golden Century"
+				}
+				NOT = {
+					has_dlc = "Origins"
+				}
+				NOT = {
+					has_dlc = "Lions of the North"
+				}
+				NOT = {
+					has_dlc = "King of Kings"
+				}
+			}
+		}
+		country_event = {
+			id = VU_SET_Events.06
+		}
+	}
 	emperor = {
 		save_global_event_target_as = Emperor
 	}
@@ -8619,13 +8688,9 @@ on_loan_repaid = {
 	on_loan_repaid_estate_privileges_effect = yes
 	if = {
 		limit = {
-			THIS = {
-				economic_ideas = 4
-			}
+			economic_ideas = 4
 		}
-		THIS = {
-			add_inflation = -0.05
-		}
+		add_inflation = -0.05
 	}
 }
 

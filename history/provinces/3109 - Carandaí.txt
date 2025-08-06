@@ -1,8 +1,8 @@
-#3109 - CarandaÃ­
+#3109 - Carandaí
 
 culture = tupinamba
 religion = animism
-capital = "CarandaÃ­"
+capital = "Carandaí"
 trade_goods = unknown
 hre = no
 base_tax = 1

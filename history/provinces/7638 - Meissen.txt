@@ -17,6 +17,9 @@ is_city = yes
 #Buildings
 fort_15th = yes
 
+#Commerce
+center_of_trade = 2
+
 #History by SF
 1444.1.1 = {
 	owner = SAX

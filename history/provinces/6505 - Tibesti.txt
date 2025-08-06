@@ -2,7 +2,7 @@
 
 culture = bilala 
 religion = sunni
-capital = "BardaÃ¯"
+capital = "Bardaï"
 trade_goods = unknown
 hre = no
 base_tax = 1

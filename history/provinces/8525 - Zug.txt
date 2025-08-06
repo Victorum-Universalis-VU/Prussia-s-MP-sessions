@@ -1,6 +1,8 @@
 #8525 - Zug
-owner =ZU6
-controller =ZU6
+
+#Default
+owner = ZU6
+controller = ZU6
 add_core = ZU6
 culture = swiss
 religion = catholic

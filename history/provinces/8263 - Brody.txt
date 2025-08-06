@@ -4,7 +4,7 @@
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "FÃ¼rstenberg an der Oder"
+capital = "Fürstenberg an der Oder"
 is_city = yes
 culture = sorbian
 religion = catholic

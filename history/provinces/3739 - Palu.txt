@@ -32,7 +32,7 @@ fort_15th = yes				#Strategic fortress for AKK
 	owner = EGI
 	controller = EGI
 	add_core = EGI
-} #During the civil war in AKK, HÃ¼seyin Bey besieged and annexed the city of Palu - establishing principality of Palu
+} #During the civil war in AKK, Hüseyin Bey besieged and annexed the city of Palu - establishing principality of Palu
 1496.1.1 = {
 	add_local_autonomy = 40
 } #Instead of creating another tag, just gonna give it to Egil but with extra autonomy to mark another principality existing there

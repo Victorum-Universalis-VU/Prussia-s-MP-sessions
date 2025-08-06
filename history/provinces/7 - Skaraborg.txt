@@ -17,14 +17,3 @@ is_city = yes
 #Claimants
 add_core = VTG
 
-#History by SF
-1291.5.21 = {
-	owner = VTG
-	controller = VTG
-	remove_core = SWE
-}
-1291.5.23 = {
-	owner = SWE
-	controller = SWE
-	add_core = SWE
-}

@@ -1,9 +1,9 @@
 #190 - Bourbon
 
 #Default
-owner = BOU
-controller = BOU
-add_core = BOU
+owner = FRA
+controller = FRA
+add_core = FRA
 capital = "Moulins"
 is_city = yes
 culture = auvergnat_culture
@@ -21,5 +21,8 @@ add_core = AUV
 center_of_trade = 1
 
 #History
-1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
-1444.11.11 = { owner = BOU controller = BOU add_core = BOU remove_core = FRA } # Duchy of Bourbonnais - By San Felipe
+1444.11.11 = { 
+	owner = BOU 
+	controller = BOU 
+	add_core = BOU 
+} # Duchy of Bourbonnais - By San Felipe

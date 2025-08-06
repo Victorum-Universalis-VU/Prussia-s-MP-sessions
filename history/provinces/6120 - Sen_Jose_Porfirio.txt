@@ -4,7 +4,7 @@ culture = carib
 
 
 religion = animism
-capital = "Sen. JosÃ© PorfÃ­rio"
+capital = "Sen. José Porfírio"
 trade_goods = unknown
 hre = no
 base_tax = 1

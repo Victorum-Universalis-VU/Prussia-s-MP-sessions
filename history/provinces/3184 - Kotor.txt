@@ -1,8 +1,8 @@
-#3184 - Tup√£
+#3184 - Tup„
 
 culture = guarani
 religion = animism
-capital = "Tup√£"
+capital = "Tup„"
 trade_goods = unknown
 hre = no
 base_tax = 1

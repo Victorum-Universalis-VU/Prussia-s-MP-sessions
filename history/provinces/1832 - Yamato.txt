@@ -13,3 +13,6 @@ base_tax = 7
 base_production = 7
 base_manpower = 7
 is_city = yes
+
+#Buildings
+state_house = yes

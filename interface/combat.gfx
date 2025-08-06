@@ -294,6 +294,16 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_london"
         texturefile = "gfx/interface/london.dds"
     }
+
+    spriteType = {
+        name = "GFX_combat_terrain_urban_york_minster"
+        texturefile = "gfx/interface/york_minster.dds"
+    }
+
+    spriteType = {
+        name = "GFX_combat_terrain_urban_st_albans"
+        texturefile = "gfx/interface/st_albans.dds"
+    }
 	
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_lambeth"
@@ -2672,6 +2682,10 @@ spriteTypes = {
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_kyoto"
         texturefile = "gfx/interface/kyoto.dds"
+    }
+    spriteType = {
+        name = "GFX_combat_terrain_urban_mutsu"
+        texturefile = "gfx/interface/mutsu.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_busan"
@@ -5056,6 +5070,10 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_leipzig"
         texturefile = "gfx/interface/leipzig.dds"
+    }
+    spriteType = {
+        name = "GFX_combat_terrain_urban_meissen"
+        texturefile = "gfx/interface/meissen.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_chemnitz"

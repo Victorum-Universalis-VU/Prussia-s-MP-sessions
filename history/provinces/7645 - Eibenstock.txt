@@ -1,9 +1,9 @@
 #7645 - Eibenstock
 
 #Default
-owner = BOH
-controller = BOH
-add_core = BOH
+owner = MEI
+controller = MEI
+add_core = MEI
 culture = saxon
 religion = catholic
 capital = "Eibenstock"
@@ -16,8 +16,7 @@ is_city = yes
 
 #History by SF
 1444.1.1 = {
-	owner = SAX
-	controller = SAX
-	add_core = SAX
-	remove_core = BOH
+	owner = THU
+	controller = THU
+	add_core = THU
 }

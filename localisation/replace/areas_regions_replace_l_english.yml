@@ -274,13 +274,13 @@
 
  malacca_straits_region: "Malacca Straits"
 
- north_east_pacific_region: "North Eastern Pacific"
+ #north_east_pacific_region: "North Eastern Pacific"
 
- north_west_pacific_region: "North Western Pacific"
+ #north_west_pacific_region: "North Western Pacific"
 
  south_china_sea_region: "South China Sea"
 
- south_east_pacific_region: "South Eastern Pacific"
+ #south_east_pacific_region: "South Eastern Pacific"
 
  south_indian_ocean_region: "Southern Indian Ocean"
 

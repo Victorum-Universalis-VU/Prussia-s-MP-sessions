@@ -138,8 +138,8 @@ leader_names = {
 	Neyazi Semizade Soysal 
 	Zihni Tarhan Fazil
 	Altan Asanin Bekmambet
-	Ziyaeddin SarigÃ¶l BektÃ¶re 
-	Celebicihan Cobanzade DÃ¤gci 
+	Ziyaeddin Sarigöl Bektöre 
+	Celebicihan Cobanzade Dägci 
 	Gaspirali Giraybay
 	Hablemitoglu Hilmi Inalcik 
 	Ipci Kirimal Seydahmet Ihsan Kubay
@@ -147,7 +147,7 @@ leader_names = {
 	Mehdi Neyazi Ortayli Semizade
 	Soysal Zihni Tarhan Fazil
 	Uralgiray Kosay Agah Mangitli
-	TÃ¶gay Kemal
+	Tögay Kemal
 }
 
 ship_names = {
@@ -158,7 +158,7 @@ ship_names = {
 	"Qirq Yer"
 	"Cufut Qale" 
 	Bakhchisaray 
-	"Ã‡Ã¼rÃ¼k Suv" 
+	"Çürük Suv" 
 	"Chufut Kale"
 	Hansaray 
 	"Haci Giray" 

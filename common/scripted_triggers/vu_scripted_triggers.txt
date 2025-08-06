@@ -368,7 +368,7 @@ has_ToR_unique_government_reform = {
 		has_reform = respect_union_reform		#Composite Monarchy
 		has_reform = portuguese_monarchy_reform		#Portuguese Monarchy
 		has_reform = kingdom_of_portugal_and_azures		#Portuguese Thassalocracy
-		has_reform = portuguese_empire_reform		#Portuguese Empire  
+		has_reform = portuguese_empire_reform		#Portuguese Empire
 		has_reform = bohemian_elective_kingdom_reform		#Bohemian Elective Monarchy
 		has_reform = polish_great_sejm		#Great Sejm
 		has_reform = grand_duchy_reform		#Grand Duchy
@@ -538,6 +538,36 @@ ToR_subject_limit_reached = {
 	}
 }
 
+ToR_feudal_republic_subject_limit_reached = {
+	calc_true_if = {
+		all_subject_country = {
+			is_subject_of_type = feudal_republic
+		}
+		amount = 10		#Total limit for Subjects -Don, Prussia
+	}
+}
+
+ToR_bishoprics_subject_limit_reached = {
+	calc_true_if = {
+		all_subject_country = {
+			OR = {
+				is_subject_of_type = christian_abbacy
+				is_subject_of_type = christian_bishopric
+			}
+		}
+		amount = 7		#Total limit for Subjects -Don, Prussia
+	}
+}
+
+ToR_archbishoprics_subject_limit_reached = {
+	calc_true_if = {
+		all_subject_country = {
+			is_subject_of_type = christian_archbishopric
+		}
+		amount = 3		#Total limit for Subjects -Don, Prussia
+	}
+}
+
 ToR_Muslim_subject_limit_reached = {
 	calc_true_if = {
 		all_subject_country = {
@@ -562,7 +592,7 @@ vu_is_caliphate = {
 		}
 		has_reform = caliphate_theocracy_reform
 		has_reform = timurid_amirate_reform
-		has_reform = ghazi_reform #
+		has_reform = ghazi_reform
 		ME_is_caliphate_trigger = yes		#Contains the vanilla + ME caliphates
 	}
 }
@@ -596,7 +626,7 @@ vu_is_caliphate = {
 # navigator_personality 				| ship_durability = 0.1
 # fierce_negotiator_personality 		| merc_maintenance_modifier = -0.25
 ############## VERY GOOD ################---------------------------------------------------------
-# reformist_personality 				| 
+# reformist_personality 				|
 # strict_personality 					| discipline = 0.05
 # silver_tongue_personality 			| improve_relation_modifier = 0.2
 # entrepreneur_personality_upgrade		| trade_efficiency = 0.2
@@ -620,12 +650,12 @@ vu_is_caliphate = {
 # infertile_personality 				| heir_chance = -0.5
 # cruel_personality 					| global_unrest = 2
 ################## N/A ##################---------------------------------------------------------
-# immortal_personality 					| 
-# legendary_pirate_personality 			| 
+# immortal_personality 					|
+# legendary_pirate_personality 			|
 # legendary_conqueror_personality		|
 # great_engineer_personality			|
 # patron_of_arts_personality			| #EU4 vanilla Timurid specific entry
-# vu_patron_of_arts_personality			| #VU vanilla generic entry 
+# vu_patron_of_arts_personality			| #VU vanilla generic entry
 # papal_puppetmaster_personality 		|
 # iron_crowned_personality				|
 # peasant_revolt_leader_personality		|
@@ -634,7 +664,6 @@ vu_is_caliphate = {
 # reaver_personality					|
 # last_knight_personality				|
 #########################################---------------------------------------------------------
-
 vu_ruler_has_bad_personality_trait = {
 	OR = {
 		ruler_has_personality = greedy_personality
@@ -701,6 +730,1133 @@ vu_ruler_has_very_good_personality_trait = {
 	}
 }
 
-vu_ruler_has_educated_trait = {
-	
+vu_province_in_west_afrika = {
+	OR = {
+		trade_company_region = trade_company_senegal
+		trade_company_region = trade_company_gambia
+		trade_company_region = trade_company_bissau
+		trade_company_region = trade_company_guinea
+		trade_company_region = trade_company_sierra_leone
+		trade_company_region = trade_company_liberia
+		trade_company_region = trade_company_ivory_coast
+		trade_company_region = trade_company_ghana
+		trade_company_region = trade_company_togo
+		trade_company_region = trade_company_benin
+		trade_company_region = trade_company_nigeria
+		trade_company_region = trade_company_mali
+		trade_company_region = trade_company_mauritania
+		trade_company_region = trade_company_burkina
+		trade_company_region = trade_company_niger
+	}
+}
+
+vu_province_in_ost_afrika = {
+	OR = {
+		trade_company_region = trade_company_angola
+		trade_company_region = trade_company_namibia
+		trade_company_region = trade_company_kongo
+		trade_company_region = trade_company_gabon
+		trade_company_region = trade_company_cameroon
+		trade_company_region = trade_company_central_africa
+		trade_company_region = trade_company_chad
+		trade_company_region = trade_company_tanganyika
+		trade_company_region = trade_company_kenya
+		trade_company_region = trade_company_zambezi
+		trade_company_region = trade_company_mozambique
+		trade_company_region = trade_company_madagascar
+		trade_company_region = trade_company_buganda
+	}
+}
+
+##################
+## Don's New AI ##
+##################
+vu_don_economy_ai_never_do_when = {
+	OR = {
+		num_of_loans = 5
+		governing_capacity_percentage = 0.8
+	}
+}
+
+vu_don_economy_ai_avoid_doing_when = {
+	OR = {
+		is_in_deficit = yes
+		NOT = {
+			years_of_income = 0.25
+		}
+		is_at_war = yes
+		num_of_loans = 1
+	}
+}
+
+vu_don_economy_ai_never_build_in = {
+	OR = {
+		has_terrain = glacier
+		has_terrain = cold_mountains
+	}
+}
+
+vu_don_economy_ai_avoid_building_in = {
+	OR = {
+		has_climate = arctic
+		has_climate = arid
+		has_climate = tropical
+		has_terrain = mountain
+		has_terrain = swamp
+		has_terrain = marsh
+		has_terrain = hills
+		has_terrain = highlands
+		has_terrain = fertile_highlands
+	}
+}
+
+vu_don_economy_ai_trade_in = {
+	OR = {
+		has_river_estuary_trigger = yes
+		has_special_trade_modifier = yes
+		vu_province_has_naval_base = yes
+		province_has_center_of_trade_of_level = 1
+		trade_goods = fur
+		trade_goods = tobacco
+		trade_goods = silk
+		trade_goods = dyes
+		trade_goods = palm_oil
+		trade_goods = cloves
+		trade_goods = tin
+		trade_goods = carpet
+		trade_goods = exotic_animals
+		trade_goods = vanilla
+		trade_goods = jewellery
+		trade_goods = indigo
+		trade_goods = sea_turtle
+		trade_goods = String_Instruments
+		trade_goods = bison_hides
+		trade_goods = lace
+	}
+}
+
+vu_don_economy_ai_manpower_in = {
+	OR = {
+		base_manpower = 10
+		trade_goods = fruit
+		trade_goods = cocoa
+		trade_goods = rice
+		trade_goods = dates
+		trade_goods = maize
+		trade_goods = tomato
+		trade_goods = agave
+	}
+}
+
+vu_don_economy_ai_manpower_when = {
+	OR = {
+		max_manpower = 20
+		NOT = {
+			manpower_percentage = 0.5
+		}
+	}
+}
+
+vu_don_economy_ai_forcelimit_in = {
+	OR = {
+		base_manpower = 10
+		trade_goods = grain
+		trade_goods = wine
+		trade_goods = tea
+		trade_goods = livestock
+		trade_goods = beer
+		trade_goods = rice
+		trade_goods = horses
+		trade_goods = cheese
+		trade_goods = millet
+		trade_goods = sweet_confectioneries
+		trade_goods = vegetables
+	}
+}
+
+vu_don_economy_ai_forcelimit_when = {
+	OR = {
+		army_size_percentage = 0.9
+		NOT = {
+			army_size = 5
+		}
+	}
+}
+
+vu_don_economy_ai_naval_forcelimit_in = {
+	OR = {
+		vu_province_has_naval_base = yes
+		trade_goods = fish
+		trade_goods = naval_supplies
+		trade_goods = lumber
+		trade_goods = seafood
+	}
+}
+
+vu_don_economy_ai_naval_forcelimit_when = {
+	OR = {
+		navy_size_percentage = 0.9
+		NOT = {
+			navy_size = 5
+		}
+		num_of_galleass = 1
+		num_of_man_of_war = 1
+	}
+}
+
+vu_don_economy_ai_sailors_in = {
+	OR = {
+		vu_province_has_naval_base = yes
+		trade_goods = fish
+		trade_goods = seafood
+	}
+}
+
+vu_don_economy_ai_sailors_when = {
+	OR = {
+		num_of_marines = 1
+		NOT = {
+			sailors_percentage = 0.5
+		}
+	}
+}
+
+vu_don_economy_ai_government_when = {
+	OR = {
+		governing_capacity_percentage = 0.75
+		average_autonomy_above_min = 25
+	}
+}
+
+vu_don_economy_ai_government_never_do_when = {
+	NOT = {
+		governing_capacity_percentage = 0.5
+		average_autonomy_above_min = 25
+		num_of_loans = 1
+	}
+}
+
+vu_don_economy_ai_education_when = {
+	is_lacking_institutions = yes
+}
+
+vu_don_economy_ai_education_in = {
+	OR = {
+		NOT = {
+			current_institution = 100
+		}
+		development = 15
+	}
+}
+
+vu_don_economy_ai_church_when = {
+	NOT = {
+		religious_unity = 0.5
+	}
+}
+
+vu_don_economy_ai_church_in = {
+	OR = {
+		base_tax = 10
+		trade_goods = gems
+		trade_goods = pearls
+		trade_goods = diamonds
+		NOT = {
+			religion = owner
+		}
+	}
+}
+
+vu_don_economy_ai_fortress_never_in = {
+	OR = {
+		any_neighbor_province = {
+			OR = {
+				has_building = fort_15th
+				has_building = fort_16th
+				has_building = fort_17th
+				has_building = fort_18th
+			}
+		}
+		has_terrain = grasslands
+	}
+}
+
+vu_don_economy_ai_fortress_avoid_in = {
+	any_province_in_state = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+	}
+}
+
+vu_don_economy_ai_infrastructure_in = {
+	OR = {
+		development = 10
+		is_capital = yes
+		NOT = {
+			num_free_building_slots = 1
+		}
+	}
+}
+
+###################################
+## SF & Don's Province Modifiers ##
+###################################
+#Uncompleted yet, on hold until the performance update's finished
+vu_has_builing_for_administration = {
+}
+
+vu_has_builing_for_education = {
+}
+
+vu_has_builing_for_entertainment = {
+}
+
+vu_has_builing_for_sanitation = {
+}
+
+##############################
+## Don's Performance Update ##
+##############################
+#
+#Older also working version, swapped it for the new one as it's slightly more optimised
+#vu_triggered_modifier_trigger = {
+#	if = {
+#		limit = {
+#			$trigger$
+#		}
+#		NOT = {
+#			has_country_modifier = $modifier$
+#		}
+#	}
+#	else_if = {
+#		limit = {
+#			NOT = {
+#				AND = {
+#					$trigger$
+#				}
+#			}
+#		}
+#		has_country_modifier = $modifier$
+#	}
+#}
+#
+#############################################################################################
+# Don't touch this, if this breaks the whole system's fucked -Don
+#############################################################################################
+vu_triggered_modifier_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = $modifier$
+		}
+		NOT = {
+			AND = {
+				$trigger$
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = $modifier$
+			}
+		}
+		$trigger$
+	}
+}
+
+#############################################################################################
+#
+#Examples of the alternative "" proof triggered modifiers:
+vu_triggered_modifier_event_6_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = MOR_marinids
+		}
+		NOT = {
+			AND = {
+				tag = MOR
+				has_country_flag = MOR_marinid_buff
+				OR = {
+					dynasty = "Marinid"
+					AND = {
+						has_regency = yes
+						heir_dynasty = "Marinid"
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = MOR_marinids
+			}
+		}
+		tag = MOR
+		has_country_flag = MOR_marinid_buff
+		OR = {
+			dynasty = "Marinid"
+			AND = {
+				has_regency = yes
+				heir_dynasty = "Marinid"
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_7_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = MOR_wattasids
+		}
+		NOT = {
+			AND = {
+				tag = MOR
+				has_country_flag = MOR_wattasid_buff
+				OR = {
+					dynasty = "Wattasid"
+					AND = {
+						has_regency = yes
+						heir_dynasty = "Wattasid"
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = MOR_wattasids
+			}
+		}
+		tag = MOR
+		has_country_flag = MOR_wattasid_buff
+		OR = {
+			dynasty = "Wattasid"
+			AND = {
+				has_regency = yes
+				heir_dynasty = "Wattasid"
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_103_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = bavaria_dynasty_wittelsbach_triggered_modifier
+		}
+		NOT = {
+			AND = {
+				# if you change this modifier, make sure to change bavaria_dynasty_wittelsbach_tooltip_modifier accordingly
+				has_country_flag = bav_dynasty_wittelsbach
+				OR = {
+					dynasty = "von Wittelsbach"
+					AND = {
+						has_regency = yes
+						heir_dynasty = "von Wittelsbach"
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = bavaria_dynasty_wittelsbach_triggered_modifier
+			}
+		}
+		# if you change this modifier, make sure to change bavaria_dynasty_wittelsbach_tooltip_modifier accordingly
+		has_country_flag = bav_dynasty_wittelsbach
+		OR = {
+			dynasty = "von Wittelsbach"
+			AND = {
+				has_regency = yes
+				heir_dynasty = "von Wittelsbach"
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_104_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = bavaria_dynasty_welf_triggered_modifier
+		}
+		NOT = {
+			AND = {
+				# if you change this modifier, make sure to change bavaria_dynasty_welf_tooltip_modifier accordingly
+				has_country_flag = bav_dynasty_welf
+				OR = {
+					dynasty = "von Welf"
+					AND = {
+						has_regency = yes
+						heir_dynasty = "von Welf"
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = bavaria_dynasty_welf_triggered_modifier
+			}
+		}
+		# if you change this modifier, make sure to change bavaria_dynasty_welf_tooltip_modifier accordingly
+		has_country_flag = bav_dynasty_welf
+		OR = {
+			dynasty = "von Welf"
+			AND = {
+				has_regency = yes
+				heir_dynasty = "von Welf"
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_159_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = papal_subjugation
+		}
+		NOT = {
+			AND = {
+				normal_or_historical_nations = yes
+				religion = catholic
+				NOT = {
+					tag = PAP
+					tag = ITL
+					tag = ITA
+				}
+				#VU
+				overlord_of = PAP
+				if = {
+					limit = {
+						is_emperor = yes
+						has_dlc = "Emperor"
+					}
+					OR = {
+						PAP = {
+							NOT = {
+								is_part_of_hre = yes
+							}
+							#Needs to be written like that for localization purpose
+						}
+						NOT = {
+							hre_reform_passed = emperor_privilegia_de_non_appelando
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						is_emperor = yes
+						NOT = {
+							has_dlc = "Emperor"
+						}
+					}
+					OR = {
+						PAP = {
+							NOT = {
+								is_part_of_hre = yes
+							}
+							#Needs to be written like that for localization purpose
+						}
+						NOT = {
+							hre_reform_passed = privilegia_de_non_appelando
+						}
+					}
+				}
+				NOT = {
+					has_country_flag = general_flag_Rome_flag
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = papal_subjugation
+			}
+		}
+		normal_or_historical_nations = yes
+		religion = catholic
+		NOT = {
+			tag = PAP
+			tag = ITL
+			tag = ITA
+		}
+		#VU
+		overlord_of = PAP
+		if = {
+			limit = {
+				is_emperor = yes
+				has_dlc = "Emperor"
+			}
+			OR = {
+				PAP = {
+					NOT = {
+						is_part_of_hre = yes
+					}
+					#Needs to be written like that for localization purpose
+				}
+				NOT = {
+					hre_reform_passed = emperor_privilegia_de_non_appelando
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				is_emperor = yes
+				NOT = {
+					has_dlc = "Emperor"
+				}
+			}
+			OR = {
+				PAP = {
+					NOT = {
+						is_part_of_hre = yes
+					}
+					#Needs to be written like that for localization purpose
+				}
+				NOT = {
+					hre_reform_passed = privilegia_de_non_appelando
+				}
+			}
+		}
+		NOT = {
+			has_country_flag = general_flag_Rome_flag
+		}
+	}
+}
+
+vu_triggered_modifier_event_167_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = waging_war_for_china
+		}
+		NOT = {
+			AND = {
+				has_reform = celestial_empire
+				has_dlc = "Mandate of Heaven"
+				is_in_war = {
+					attacker_leader = root
+					casus_belli = cb_chinese_unification
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = waging_war_for_china
+			}
+		}
+		has_reform = celestial_empire
+		has_dlc = "Mandate of Heaven"
+		is_in_war = {
+			attacker_leader = root
+			casus_belli = cb_chinese_unification
+		}
+	}
+}
+
+vu_triggered_modifier_event_177_trigger = {
+	if = {
+		limit = {
+			has_country_modifier = defense_of_the_empire_modifier
+		}
+		NOT = {
+			AND = {
+				has_dlc = "Emperor"
+				OR = {
+					is_emperor = yes
+					is_elector = yes
+				}
+				hre_reform_passed = emperor_reichskrieg
+				any_country = {
+					war_with = ROOT
+					NOT = {
+						is_part_of_hre = yes
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {
+				has_country_modifier = defense_of_the_empire_modifier
+			}
+		}
+		has_dlc = "Emperor"
+		OR = {
+			is_emperor = yes
+			is_elector = yes
+		}
+		hre_reform_passed = emperor_reichskrieg
+		any_country = {
+			war_with = ROOT
+			NOT = {
+				is_part_of_hre = yes
+			}
+		}
+	}
+}
+
+#Examples of the alternative triggered modifiers:
+vu_triggered_modifier_event_57_trigger = {
+	is_subject = yes
+	has_country_flag = me_persia_indian_hegemony_mechanic_subject
+	overlord = {
+		has_country_flag = me_persia_indian_hegemony_mechanic
+	}
+	OR = {
+		owns = 522
+		owns = 563
+		owns = 1948
+		owns = 541
+	}
+	is_subject_of_type = march
+	if = {
+		limit = {
+			owns = 522
+		}
+		num_of_owned_provinces_with = {
+			value = 35
+			trade_company_region = trade_company_north_india
+		}
+	}
+	else_if = {
+		limit = {
+			owns = 563
+		}
+		num_of_owned_provinces_with = {
+			value = 35
+			trade_company_region = trade_company_east_india
+		}
+	}
+	else_if = {
+		limit = {
+			owns = 1948
+		}
+		num_of_owned_provinces_with = {
+			value = 30
+			trade_company_region = trade_company_deccan
+		}
+	}
+	else_if = {
+		limit = {
+			owns = 541
+		}
+		num_of_owned_provinces_with = {
+			value = 40
+			trade_company_region = trade_company_coromandel
+		}
+	}
+}
+
+vu_triggered_modifier_event_58_trigger = {
+	has_country_flag = me_persia_indian_hegemony_mechanic
+	owns_or_subject_of = 522
+	522 = {
+		owner = {
+			exclude_from_progress = {
+				num_of_cities = 35
+			}
+			has_country_modifier = persia_indian_hegemony_march_triggered_modifier
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				superregion = india_superregion
+			}
+			total_development = 300
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				NOT = {
+					superregion = india_superregion
+				}
+			}
+			total_development = 250
+			india_superregion = {
+				owned_by = PREV
+			}
+		}
+	}
+	has_country_flag = me_persia_indian_hegemony_mechanic
+	owns_or_subject_of = 563
+	563 = {
+		owner = {
+			exclude_from_progress = {
+				num_of_cities = 35
+			}
+			has_country_modifier = persia_indian_hegemony_march_triggered_modifier
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				superregion = india_superregion
+			}
+			total_development = 300
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				NOT = {
+					superregion = india_superregion
+				}
+			}
+			total_development = 250
+			india_superregion = {
+				owned_by = PREV
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_59_trigger = {
+	owns_or_subject_of = 1948
+	1948 = {
+		owner = {
+			exclude_from_progress = {
+				num_of_cities = 30
+			}
+			has_country_modifier = persia_indian_hegemony_march_triggered_modifier
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				superregion = india_superregion
+			}
+			total_development = 300
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				NOT = {
+					superregion = india_superregion
+				}
+			}
+			total_development = 250
+			india_superregion = {
+				owned_by = PREV
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_60_trigger = {
+	has_country_flag = me_persia_indian_hegemony_mechanic
+	owns_or_subject_of = 541
+	541 = {
+		owner = {
+			exclude_from_progress = {
+				num_of_cities = 40
+			}
+			has_country_modifier = persia_indian_hegemony_march_triggered_modifier
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				superregion = india_superregion
+			}
+			total_development = 300
+		}
+	}
+	NOT = {
+		any_country = {
+			NOT = {
+				tag = ROOT
+			}
+			NOT = {
+				overlord_of = ROOT
+			}
+			NOT = {
+				is_subject_of = ROOT
+			}
+			capital_scope = {
+				NOT = {
+					superregion = india_superregion
+				}
+			}
+			total_development = 250
+			india_superregion = {
+				owned_by = PREV
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_71_trigger = {
+	OR = {
+		tag = ITA
+		tag = VEN
+		tag = PIS
+		tag = GEN
+		AND = {
+			OR = {
+				tag = NAP
+				tag = TTS
+			}
+			owns_core_province = 2983			#Salerno/Amalfi
+			2983 = {
+				has_province_modifier = nap_restore_republic
+			}
+		}
+	}
+	OR = {
+		owns_core_province = 2983
+		2983 = {
+			owner = {
+				alliance_with = ROOT
+			}
+		}
+	}
+	OR = {
+		owns_core_province = 101
+		101 = {
+			owner = {
+				alliance_with = ROOT
+			}
+		}
+	}
+	OR = {
+		owns_core_province = 115
+		115 = {
+			owner = {
+				alliance_with = ROOT
+			}
+		}
+	}
+	OR = {
+		owns_core_province = 112
+		112 = {
+			owner = {
+				alliance_with = ROOT
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_110_trigger = {
+	has_country_flag = ARB_china_trade_flag
+	if = {
+		limit = {
+			has_saved_event_target = EmperorOfChina
+		}
+		OR = {
+			is_emperor_of_china = yes
+			event_target:EmperorOfChina = {
+				has_opinion = {
+					who = ROOT
+					value = 75
+				}
+			}
+		}
+	}
+	else = {
+		1816 = {
+			OR = {
+				country_or_non_sovereign_subject_holds = ROOT
+				owner = {
+					has_opinion = {
+						who = ROOT
+						value = 75
+					}
+				}
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_156_trigger = {
+	num_of_ports = 1
+	vu_downstream_of_india = yes
+	has_discovered = 1460
+	OR = {
+		AND = {
+			504 = {
+				has_merchant = ROOT				#Gujarat
+			}
+			1448 = {
+				has_merchant = ROOT				#Zanzibar
+			}
+		}
+		1340 = {
+			has_merchant = ROOT			#Coromandel
+		}
+	}
+	1460 = {
+		has_merchant = ROOT		#Cape of Good Hope
+	}
+	1466 = {
+		has_merchant = ROOT		#Ivory Coast
+	}
+	OR = {
+		AND = {
+			345 = {
+				has_merchant = ROOT				#Safi
+			}
+			227 = {
+				has_merchant = ROOT				#Lisbon
+			}
+		}
+		AND = {
+			345 = {
+				has_merchant = ROOT				#Safi
+			}
+			224 = {
+				has_merchant = ROOT				#Seville
+			}
+		}
+		AND = {
+			1516 = {
+				has_merchant = ROOT				#Caribbean
+			}
+			224 = {
+				has_merchant = ROOT				#Seville
+			}
+		}
+		AND = {
+			1516 = {
+				has_merchant = ROOT				#Caribbean
+			}
+			174 = {
+				has_merchant = ROOT				#Bordeaux
+			}
+		}
+		AND = {
+			1516 = {
+				has_merchant = ROOT				#Caribbean
+			}
+			1269 = {
+				has_merchant = ROOT				#English Channel
+			}
+		}
+		AND = {
+			1516 = {
+				has_merchant = ROOT				#Caribbean
+			}
+			1500 = {
+				has_merchant = ROOT				#Chesapeake Bay
+			}
+			1490 = {
+				has_merchant = ROOT				#St Lawrence
+			}
+			1284 = {
+				has_merchant = ROOT				#Irish Sea
+			}
+		}
+	}
+}
+
+vu_triggered_modifier_event_176_trigger = {
+	has_global_flag = italian_wars_global_flag
+	religion_group = christian
+	OR = {
+		AND = {
+			capital_scope = {
+				region = italy_region
+			}
+			any_country = {
+				war_with = ROOT
+				religion_group = christian
+				capital_scope = {
+					continent = europe
+				}
+				total_development = 300				#VU Dev Doubling
+			}
+		}
+		AND = {
+			NOT = {
+				capital_scope = {
+					region = italy_region
+				}
+			}
+			total_development = 300			#VU Dev Doubling
+			any_country = {
+				war_with = ROOT
+				capital_scope = {
+					region = italy_region
+				}
+			}
+		}
+	}
 }

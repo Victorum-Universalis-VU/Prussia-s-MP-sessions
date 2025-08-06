@@ -56,4 +56,4 @@ add_core = EGI 					#Principality of Egil - core city
 	owner = TUR
 	controller = TUR
 	add_core = TUR
-} # when the Ottomans began losing land on the Balkan peninsula, it started recruiting men from Eğil ultimately ending its special status.
+} # when the Ottomans began losing land on the Balkan peninsula, it started recruiting men from Eil ultimately ending its special status.

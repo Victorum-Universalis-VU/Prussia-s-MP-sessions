@@ -753,8 +753,6 @@ angola_region = {
 
 botswana_region = {
 	areas = {
-	    bechuanaland_area
-		kalahari_area
 		okavango_area
 		upper_limpopo_area
 	}
@@ -795,6 +793,12 @@ central_africa_region = {
 	monsoon = {
 		00.01.01
 		00.04.30
+	}
+}
+
+kalahari_region = {
+	areas = {
+		kalahari_area
 	}
 }
 
@@ -878,6 +882,7 @@ south_africa_region = {
 		cape_of_good_hope_area
 		#VU ADDITIONS
 		vu_natal_area
+		bechuanaland_area
 		eastern_cape_area
 		northern_cape_area
 		xhosa_area

@@ -208,7 +208,7 @@ dan_secure_baltic_mission_slot = {
 		}
 	}
 
-	dan_the_sound_toll = {	#Dominate Northsea, Baltic and LÃ¼beck trade
+	dan_the_sound_toll = {	#Dominate Northsea, Baltic and Lübeck trade
 		icon = mission_the_sound_toll
 		position = 4
 		required_missions = { 

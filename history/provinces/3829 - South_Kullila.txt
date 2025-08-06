@@ -3,7 +3,7 @@
 culture = gamilaraay
 religion = dreamtime
 hre = no
-capital = "Karnaâ€“Mari"
+capital = "Karna–Mari"
 trade_goods = unknown
 base_tax = 1
 base_production = 1

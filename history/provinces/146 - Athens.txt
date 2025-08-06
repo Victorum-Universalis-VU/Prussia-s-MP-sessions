@@ -1,9 +1,9 @@
 #146 - Athens
 
 #Default
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = ATH
+controller = ATH
+add_core = ATH
 culture = greek
 religion = orthodox
 capital = "Athens"
@@ -14,14 +14,11 @@ base_production = 7
 base_manpower = 5
 is_city = yes
 
-#Claimants
-add_core = ATH
+#Buildings
+fort_15th = yes
 
 #Commerce
 center_of_trade = 3
-
-#Buildings
-fort_15th = yes
 
 #Special Modifiers
 add_permanent_province_modifier = {
@@ -36,7 +33,3 @@ add_permanent_province_modifier = {
 #	name = parthenon_modifier
 #	duration = -1
 #}
-
-#History by SF
-1215.6.15 = { owner = ATH controller = ATH add_core = ATH } # Athenian territorial lands - By San Felipe
-1402.1.1 = { owner = ATH controller = ATH remove_core = VEN }

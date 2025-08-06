@@ -1,9 +1,9 @@
 #4387 - Angoumois
 
 #Default
-owner = ORL
-controller = ORL
-add_core = ORL
+owner = FRA
+controller = FRA
+add_core = FRA
 capital = "Angoulême"
 is_city = yes
 culture = poitevin_culture
@@ -18,6 +18,5 @@ base_manpower = 2
 add_core = POI
 add_core = GUY
 
-#Histories
-1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # Part of English Duchy of Aquitaine - By San Felipe
+#History by SF
 1444.11.11 = { owner = ORL controller = ORL add_core = ORL } # House of Orleans rule as part of the French Royal Domain - By San Felipe

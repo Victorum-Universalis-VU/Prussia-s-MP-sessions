@@ -1,9 +1,9 @@
 #2988 - Tarragona
 
 #Default
-owner = ARA
-controller = ARA
-add_core = ARA
+owner = AB8
+controller = AB8
+add_core = AB8
 culture = catalan
 religion = catholic
 hre = no
@@ -15,5 +15,13 @@ capital = "Taragona"
 is_city = yes
 
 #History by SF
-1412.6.29 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Jaime d'Urgell Uprising
-1444.11.11 = { owner = AB8 controller = AB8 add_core = AB8 } #Owned by Archbishopric of Barcelona - SF
+1412.6.29 = { 
+	revolt = { 
+		type = pretender_rebels 
+		size = 0 
+	} 
+	controller = REB 
+} # Jaime d'Urgell Uprising
+1444.11.11 = {
+    add_core = ARA
+}

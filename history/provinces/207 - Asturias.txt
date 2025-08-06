@@ -5,9 +5,9 @@ latent_trade_goods = {
 }
 
 #Default
-owner = ASU		#Juan II of Castile
-controller = ASU
-add_core = ASU
+owner = AB0
+controller = AB0
+add_core = AB0
 culture = leonese
 religion = catholic
 hre = no
@@ -18,13 +18,6 @@ base_manpower = 2
 capital = "Oviedo" 
 is_city = yes
 
-#Commerce
-center_of_trade = 2
-
-#Claimants
-add_core = CAS
-add_core = LON
-
 #Buildings
 town_hall = yes
 cathedral = yes
@@ -33,6 +26,14 @@ road_system = yes
 barracks = yes
 training_fields = yes
 
+#Commerce
+center_of_trade = 2
+
 #History by SF
-1215.6.15 = { owner = LON controller = LON add_core = LON } # Leonese territorial lands - By San Felipe
-1444.11.11 = { owner = AB0 controller = AB0 add_core = AB0 } #Owned by Archbishopric of Oviedo - SF
+1215.06.15 = {
+    add_core = LON
+}
+1350.1.1 = {
+    culture = castillian
+    add_core = CAS
+}

@@ -4,7 +4,7 @@ culture = tupinamba
 
 
 religion = animism
-capital = "Tapau√°"
+capital = "Tapau·"
 trade_goods = unknown
 hre = no
 base_tax = 1  

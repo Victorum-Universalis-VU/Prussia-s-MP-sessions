@@ -1,9 +1,9 @@
 #1 - Uppland
 
 #Default
-add_core = SWE
 owner = SWE
 controller = SWE
+add_core = SWE
 culture = swedish
 religion = catholic
 hre = no
@@ -23,23 +23,22 @@ center_of_trade = 2
 #Claimants
 add_core = SVD
 
-#Province Modifier
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
-
-#Province history completed by docRobert
+#History by SF
 1436.4.28 = { revolt = { type = pretender_rebels size = 1 leader = "Karl Knutsson Bonde" } controller = REB } # Karl Knutsson Bonde marsh on Stockholm
 1438.3.6 = { revolt = {} controller = SWE } # Unclear date
 1438.10.1 = { revolt = { type = pretender_rebels size = 1 leader = "Karl Knutsson Bonde" } controller = REB } # Unclear date
 1440.9.1 = { revolt = {} controller = SWE } # Christopher III elected Union King
-
-#1444 on
 1444.1.1 = {
+    #Province Modifiers
     add_province_modifier = {
         name = vu_fancifur_novels
         duration = 365
         desc = PROPER_VU_FANCIFUR_DESC_TOOLTIP
     }
+}
+
+#Province Modifier
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
 }

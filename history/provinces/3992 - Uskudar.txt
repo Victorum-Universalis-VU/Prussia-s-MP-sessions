@@ -1,4 +1,4 @@
-#3992 - ÃœskÃ¼dar
+#3992 - Üsküdar
 
 #Default
 owner = TUR
@@ -6,7 +6,7 @@ controller = TUR
 add_core = TUR
 culture = turkish
 religion = sunni
-capital = "ÃœskÃ¼dar"
+capital = "Üsküdar"
 trade_goods = vegetables	#provided fresh vegetables for Constantinople PREVIOUS VERSION naval supplies Transport hub + forests in nearby hills
 hre = no
 base_tax = 4

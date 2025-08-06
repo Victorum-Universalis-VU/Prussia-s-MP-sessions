@@ -569,9 +569,9 @@
  california_area: "California"
  california_area_name: "California"
  california_area_adj: "California"
- baja_california_area: "Lower California"
- baja_california_area_name: "Lower California"
- baja_california_area_adj: "Lower California"
+ baja_california_area: "Alta California"
+ baja_california_area_name: "Alta California"
+ baja_california_area_adj: "Alta California"
  upper_american_georgia_area: "District of Columbia"
  west_florida_area: "Rhode Island"
  central_plains_area: "Nebraska"
@@ -590,6 +590,8 @@
  #Sea Overhaul Regions and Areas
  north_west_pacific_region: "North East Pacific"       #NW corner of the map but NE Pacific
  south_west_pacific_region: "South East Pacific"       #SW corner of the map but SE Pacific
+ south_pacific_sea_superregion: "South Pacific"
+ south_west_pacific_superregion: "South West Pacific"
  south_east_pacific_region: "South West Pacific"       #SE corner of the map but SW Pacific
  north_east_pacific_region: "North West Pacific"       #NE corner of the map but NW Pacific
  banda_arafura_seas_area: "Banda Sea"
@@ -666,6 +668,7 @@
  libya_region: "Libya"
  lower_guinea_region: "Gabon"
  east_africa_region: "Mozambique"
+ kalahari_region: "Kalahari"
  madagascar_region: "Madagascar"
  malawi_region: "Malawi"
  namibia_region: "Namibia"
@@ -2683,6 +2686,12 @@
  old_london_bridge_title: "Renovate the Old London Bridge"
  construct_old_london_bridge_title: "Renovate the Old London Bridge"
  construct_old_london_bridge_desc: "Although Old London Bridge has been around since Roman times. It wasn't until 1163, nearly a 100 years after the Norman conquests when Peter of Colechurch, chaplain and warden of the bridge and its brethren supervised the bridge's last rebuilding in timber; Costs 3500."
+ #
+ great_project_vu_tower_bridge: "Tower Bridge"
+ vu_tower_bridge: "Tower Bridge"
+ vu_tower_bridge_title: "Construct Tower Bridge"
+ construct_vu_tower_bridge_title: "Construct Tower Bridge"
+ construct_vu_tower_bridge_desc: "Built between 1886 and 1894, the structure itself combines bascule and suspension bridge design and is one of London's most iconic landmarks, spanning the River Thames near the Tower of London; Costs 3500."
  #
  great_project_havana: "Havana"
  havana: "Havana"

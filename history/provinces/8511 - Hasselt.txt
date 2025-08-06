@@ -1,4 +1,4 @@
-#8511 - LiÃ¨ge
+#8511 - Liège
 
 #Default
 owner = LIE

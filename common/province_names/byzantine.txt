@@ -546,7 +546,7 @@
 4305 = { "Varashekion" "Mingehauros" }
 4307 = { "Koloneia" "Malakopeia" }
 4308 = { "Laodicea" "Aphrodisias" }
-4309 = { "Ephesus" "TheÃ­ra" }
+4309 = { "Ephesus" "Theíra" }
 4310 = { "Arsamosata" "Arsamosata" }
 4311 = { "Kotyaion" "Kotyaion" }
 4312 = { "Claudiopolis" "Heraclea" }

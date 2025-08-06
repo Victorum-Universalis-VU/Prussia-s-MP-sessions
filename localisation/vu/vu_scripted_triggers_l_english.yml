@@ -8,4 +8,9 @@
  #
  exiled_same_dynasty_as_current: ""
  exiled_same_dynasty_as_current_desc: ""
- 
+ #
+ vu_triggered_modifier_events.title: "Triggered Modifier Change"
+ vu_triggered_modifier_events.option: "I see..."
+ vu_triggered_modifier_events.desc: "Due to changes in our nation: "
+ vu_triggered_modifier_events.modifier_removed: "Removed modifier: $Modifier$"
+ vu_triggered_modifier_events.modifier_granted: "Added modifier: $Modifier$"

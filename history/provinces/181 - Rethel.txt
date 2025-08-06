@@ -15,8 +15,9 @@ trade_goods = grain
 base_manpower = 2 
 
 #Claimants
-add_core = NEV 
 add_core = CHP
+add_core = FRA
+add_core = NEV
 
 #Buildings
 fort_15th = yes

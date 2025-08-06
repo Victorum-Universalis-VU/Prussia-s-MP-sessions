@@ -18,8 +18,8 @@ is_city = yes
 add_core = NOR
 add_core = TRD
 
-#Special Modifier
-add_local_autonomy = 50
-
 #History by SF
 1440.1.1 = { owner = NOR controller = NOR add_core = NOR } # Norwegian territorial lands - By San Felipe
+
+#Special Modifier
+add_local_autonomy = 50

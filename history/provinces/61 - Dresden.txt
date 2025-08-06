@@ -18,14 +18,20 @@ is_city = yes
 fort_15th = yes
 
 #Commerce
-center_of_trade = 2
-extra_cost = 20
+center_of_trade = 4
+
+#History by SF
+1423.1.6 = { 
+    owner = SAX 
+    controller = SAX 
+    add_core = SAX 
+    capital = "Dresden"
+    #Claimants
+    remove_core = MEI  
+} # Incorporated into Saxony
 
 #Province Modifier
 add_permanent_province_modifier = {
-    name = jewish_population 
+    name = jewish_population
     duration = -1
 }
-
-#History by SF
-1423.1.6 = { owner = SAX controller = SAX add_core = SAX remove_core = MEI capital = "Dresden" } # Incorporated into Saxony

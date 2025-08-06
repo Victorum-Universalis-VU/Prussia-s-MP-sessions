@@ -29,7 +29,7 @@ country_decisions = {
 			}
 			if = {
 				limit = { culture_group = gaelic }
-				373 = { rename_capital = "Baile √Åtha Cliath" }
+				373 = { rename_capital = "Baile ¡tha Cliath" }
 			}
 			if = {
 				limit = { NOT = { culture_group = gaelic } }

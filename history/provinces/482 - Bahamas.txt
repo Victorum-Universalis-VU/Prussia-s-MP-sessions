@@ -2,7 +2,6 @@
 
 #Default
 culture = west_taino
-#is_city = yes
 religion = animism
 capital = "Bahama"
 trade_goods = unknown

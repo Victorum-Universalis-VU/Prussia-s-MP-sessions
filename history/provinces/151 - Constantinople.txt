@@ -1,9 +1,9 @@
 #151 - Constantinople
 
 #Default
-owner = BYZ
-controller = BYZ
-add_core = BYZ
+owner = LAE
+controller = LAE
+add_core = LAE
 culture = greek
 religion = orthodox
 capital = "Constantinople"
@@ -14,13 +14,13 @@ base_production = 14		#In 1453, when the Ottoman Turks captured the city, it con
 base_manpower = 13
 is_city = yes
 
-#Commerce
-center_of_trade = 5
-
 #Buildings
 fort_15th = yes
 
-#Special Modifiers
+#Commerce
+center_of_trade = 5
+
+#Province Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier_4
     duration = -1
@@ -47,5 +47,4 @@ add_province_triggered_modifier = ecumenical_patriarch_modifier_orthodox
 add_province_triggered_modifier = ecumenical_patriarch_modifier_muslim
 
 #History by SF
-1215.6.15 = { owner = LAE controller = LAE add_core = LAE } # Latin territorial lands - By San Felipe
 1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # Byzantine territorial lands - By San Felipe

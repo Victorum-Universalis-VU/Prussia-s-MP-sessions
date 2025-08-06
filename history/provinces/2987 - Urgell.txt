@@ -1,9 +1,9 @@
 #2987 - Urgell
 
 #Default
-owner = ARA		#Alfons V of Aragon
-controller = ARA
-add_core = ARA
+owner = UGL		#Alfons V of Aragon
+controller = UGL
+add_core = UGL
 culture = catalan
 religion = catholic
 hre = no
@@ -15,7 +15,6 @@ capital = "Urgell" #Tàrrega is way down south in Lleida. Hence it has to be Seu 
 is_city = yes
 
 #History by SF
-1215.6.15 = { owner = UGL controller = UGL add_core = UGL } # Countship of Urgell - By San Felipe
 1412.6.29 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Jaime de Urgell Uprising
 1413.1.1 = { revolt = { type = pretender_rebels size = 1 leader = "Jaume d'Urgell" } controller = REB }
-1444.11.11 = { owner = CAT controller = CAT add_core = CAT } # Portuguese territorial lands - By San Felipe
+1444.11.11 = { owner = ARA add_core = ARA }

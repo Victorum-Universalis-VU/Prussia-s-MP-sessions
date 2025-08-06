@@ -100,7 +100,7 @@ fixed_capital = 7056
 	queen = {
 		country_of_origin = PRO
 		name = "Jeanne"
-		dynasty = "de PontevÃ¨s-Cabanes"
+		dynasty = "de Pontevès-Cabanes"
 		birth_date = 1451.1.1		#Exact date of her birth is unknown.			
 		death_date = 1515.11.19		
 		female = yes
@@ -296,7 +296,7 @@ fixed_capital = 7056
 	}
 	queen = {
 		country_of_origin = FRA
-		name = "Jacques FranÃ§ois Goyon"
+		name = "Jacques François Goyon"
 		dynasty = "Goyon - Matignon"
 		birth_date = 1689.11.21						
 		death_date = 1751.4.23
@@ -365,7 +365,7 @@ fixed_capital = 7056
 	}
 	queen = {
 		country_of_origin = FRA
-		name = "Louise FÃ©licitÃ©"
+		name = "Louise Félicité"
 		dynasty = "d'Aumont, de Mazarin et de la Meilleraye"
 		birth_date = 1759.10.22						
 		death_date = 1826.12.13

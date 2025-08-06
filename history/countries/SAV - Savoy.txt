@@ -8,7 +8,7 @@ religion = catholic
 #technology_group = western
 technology_group = italian_tech_group
 unit_type = western
-capital = 205 # ChambÃ©ry
+capital = 205 # Chambéry
 add_army_professionalism = 0.05
 
 1215.6.15 = {
@@ -263,7 +263,7 @@ add_army_professionalism = 0.05
 }
 
 1529.1.1 = {
-	capital = 205 # ChambÃ©ry
+	capital = 205 # Chambéry
 }
 
 1538.6.17 = {

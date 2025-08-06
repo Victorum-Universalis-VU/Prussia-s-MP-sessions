@@ -14,5 +14,5 @@ trade_goods = wool #VU - Was fur, changed to wool. By San Felipe
 capital = "Leeds"
 is_city = yes
 
-#Histories
+#History by SF
 1444.11.11 = { owner = YRK controller = YRK add_core = YRK } # The Duchy of York territory - By San Felipe

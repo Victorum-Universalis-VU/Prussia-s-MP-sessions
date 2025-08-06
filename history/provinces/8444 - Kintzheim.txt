@@ -5,9 +5,9 @@ latent_trade_goods = {
 }
 
 #Default
-owner = BUR
-controller = BUR
-add_core = BUR 
+owner = FDB
+controller = FDB
+add_core = FDB 
 capital = "Kintzheim"
 is_city = yes
 culture = burgundian
@@ -17,3 +17,11 @@ base_tax = 2
 base_production = 1
 trade_goods = zinc	# some zinc in Franche-Comte region, had to place it somewhere
 base_manpower = 1
+
+#History by SF
+1444.11.11 = {
+    owner = BUR
+    controller = BUR
+    add_core = BUR
+    remove_core = FDB
+}

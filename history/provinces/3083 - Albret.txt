@@ -18,3 +18,8 @@ base_manpower = 2
 add_core = ABT
 add_core = FRA
 add_core = GUY
+
+#History by SF
+1444.11.11 = {
+	remove_core = ABT
+}

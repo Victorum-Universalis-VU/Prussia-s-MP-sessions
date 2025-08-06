@@ -1353,6 +1353,8 @@ kokyo = { #Takei Castle
     }
 
     on_built = {
+		add_building = fort_15th
+		add_center_of_trade_level = 1
     }
     
     on_destroyed = {
@@ -1457,8 +1459,7 @@ kokyo = { #Takei Castle
 		}
 
 		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		on_upgraded = { upgrade_building = { fort = yes } }
 	}
 	
 	tier_3 = {
@@ -3755,183 +3756,6 @@ palacio_de_madrid = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			army_tradition = 0.25
-			prestige = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-
-old_london_bridge = {
-    start = 6929
-    
-    date = 1163.01.01
-    
-    time = {
-        months = 0
-    }
-    
-    build_cost = 0
-    
-    can_be_moved = no
-    
-    move_days_per_unit_distance = 10
-    
-    starting_tier = 1
-    
-    type = monument
-
-    build_trigger = {
-		OR = {
-			culture_group = british
-			culture = anglois
-		}
-		province_is_or_accepts_culture = yes
-    }
-
-    on_built = {
-    }
-    
-    on_destroyed = {
-    }
-
-    can_use_modifiers_trigger = {
-		OR = {
-			culture_group = british
-			culture = anglois
-		}
-		province_is_or_accepts_culture = yes
-    }
-
-    can_upgrade_trigger = {
-		OR = {
-			culture_group = british
-			culture = anglois
-		}
-		province_is_or_accepts_culture = yes
-    }
-
-    keep_trigger = {
-    }
-
-    tier_0 = {
-        upgrade_time = {
-            months = 0
-        }
-
-        cost_to_upgrade = {
-            factor = 0
-        }
-
-        province_modifiers = {
-        }
-
-        area_modifier = {
-        }
-
-        country_modifiers = {
-        }
-
-        on_upgraded = {
-        }
-    }
-
-    tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			trade_goods_size_modifier = 0.05
-			local_development_cost = -0.05
-			local_development_cost_modifier = -0.05
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			province_trade_power_modifier = 0.05
-			trade_goods_size_modifier = 0.1
-			local_unrest = -0.05
-			local_development_cost = -0.1
-			local_development_cost_modifier = -0.1
-			local_production_efficiency = 0.05
-			local_tax_modifier = 0.05
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-	
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			province_trade_power_modifier = 0.1
-			trade_goods_size_modifier = 0.20
-			local_unrest = -1
-			local_development_cost = -0.2
-			local_development_cost_modifier = -0.20
-			local_production_efficiency = 0.1
-			local_tax_modifier = 0.1
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
 			prestige = 0.25
 		}
 

@@ -48,5 +48,5 @@ native_hostileness = 9
 	base_tax = 5
 	base_production = 5
 	base_manpower = 4
-	capital = "Ciudad de Nueva CÃ¡ceres"
+	capital = "Ciudad de Nueva Cáceres"
 }

@@ -1,9 +1,9 @@
 #8029 - Pontarlier
 
 #Default
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = FDB
+controller = FDB
+add_core = FDB
 culture = burgundian
 religion = catholic
 capital = "Pontarlier"
@@ -16,3 +16,11 @@ hre = yes
 
 #Claimants
 add_core = FCM
+
+#History by SF
+1444.11.11 = {
+    owner = BUR
+    controller = BUR
+    add_core = BUR
+    remove_core = FDB
+}

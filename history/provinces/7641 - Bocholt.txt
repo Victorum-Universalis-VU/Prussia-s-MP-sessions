@@ -16,8 +16,7 @@ hre = yes
 
 #History by SF
 1444.1.1 = {
-	owner = BRU
-	controller = BRU
-	add_core = BRU
-	remove_core = MEI
+	owner = SAX
+	controller = SAX
+	add_core = SAX
 }

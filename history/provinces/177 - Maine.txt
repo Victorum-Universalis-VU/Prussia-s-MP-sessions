@@ -1,9 +1,9 @@
 #177 - Maine
 
 #Default
-owner = MNE
-controller = MNE
-add_core = MNE
+owner = FRA
+controller = FRA
+add_core = FRA
 capital = "Le Mans"
 is_city = yes
 culture = angevin_culture
@@ -14,18 +14,20 @@ base_production = 5
 trade_goods = pottery #Grey and cream ware ceramics are well known to be produced in this region of Northern France (by San Felipe).
 base_manpower = 3
 
-#Claimants
-add_core = ENG
-add_core = PRO
-add_core = NRM
-add_core = FRA
-
 #Buildings
 fort_15th = yes
+
+#Claimants
+add_core = ENG
+add_core = NRM
 
 #Special Modifiers
 add_local_autonomy = 25
 
 #History by SF
-1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of French Royal Domain - By San Felipe
-1444.11.11 = { owner = MNE controller = MNE add_core = MNE } # Maine is part of the English alliance - By San Felipe
+1444.11.11 = { 
+	owner = MNE 
+	controller = MNE 
+	add_core = MNE
+	add_core = PRO
+} # Maine is part of the English alliance - By San Felipe

@@ -1,4 +1,4 @@
-#6099 - Santo AntÃ´nio do IÃ§Ã¡
+#6099 - Santo Antônio do Içá
 
 culture = tupinamba
 

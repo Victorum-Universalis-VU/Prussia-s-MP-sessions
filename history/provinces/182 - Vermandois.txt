@@ -15,6 +15,7 @@ trade_goods = vegetables
 base_manpower = 2
 
 #Claimants
+add_core = FRA
 add_core = VLS
 
 #History by SF

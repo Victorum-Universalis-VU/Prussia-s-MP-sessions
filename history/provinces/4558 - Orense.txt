@@ -1,7 +1,9 @@
 #4558 - Orense
-owner = LON	#Juan II of Castile
-controller = LON
-add_core = LON
+
+#Default
+owner = GAL
+controller = GAL
+add_core = GAL
 culture = galician_celtic	#Was galician
 religion = catholic
 hre = no
@@ -11,11 +13,12 @@ trade_goods = tin	#Area of Galicia has been exploited for it's tin since antiqui
 base_manpower = 1
 capital = "Orense"
 is_city = yes
-#Claimants
-add_core = CAS
-#Histories by SF
-1444.11.11 = {
-	owner = GAL
-	controller = GAL
-	add_core = GAL
+
+#History by SF
+1215.06.15 = {
+    add_core = LON
+}
+1350.1.1 = {
+    culture = castillian
+    add_core = CAS
 }
