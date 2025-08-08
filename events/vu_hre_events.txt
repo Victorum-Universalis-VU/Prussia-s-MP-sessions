@@ -1,0 +1,39 @@
+#Events for the HRE
+
+#Principalities of the HRE
+
+namespace = vu_hre_events
+
+country_event = {
+    id = vu_hre_events.1
+    title = vu_hre_events.1.1.t
+    desc = vu_hre_events.1.1.d
+    picture = vu_grand_moff_tarkin_eventPicture
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    trigger = {
+		is_emperor = yes
+        hre_reform_passed = emperor_privilegia_de_non_appelando
+		any_subject_country = {
+			is_subject_of_type = vassal
+		}
+    }
+
+    option = {
+        name = vu_hre_events.1.a  # A new Prince joins the ranks. May he serve well.
+        ai_chance = { factor = 50 }
+        add_prestige = 10
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = vassal
+			}
+			vu_create_ToR_principality = yes
+			every_owned_province = {
+				set_in_empire = yes
+			}
+		}
+    }
+}

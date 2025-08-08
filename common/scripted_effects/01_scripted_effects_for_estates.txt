@@ -5232,7 +5232,11 @@ estate_action_GRANT_ADMIRALSHIP_BURGHERS = {
     #}
     add_estate_loyalty = {
         estate = estate_burghers
-        loyalty = -10
+        loyalty = 10
+    }
+    add_estate_influence_modifier = {
+        influence = 5
+        duration = 3650
     }
 }
 estate_action_GRANT_NEW_WORLD_CHARTER_BURGHERS = {
@@ -5249,6 +5253,14 @@ estate_action_GRANT_NEW_WORLD_CHARTER_BURGHERS = {
     create_leader_scaling_with_tradition = {
         leader = explorer
         type = navy
+    }
+    add_estate_loyalty = {
+        estate = estate_burghers
+        loyalty = 10
+    }
+    add_estate_influence_modifier = {
+        influence = 5
+        duration = 3650
     }
 }
 estate_action_COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS = {
@@ -5269,6 +5281,14 @@ estate_action_COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS = {
         add_ship_construction_scaled_to_ports = {
             type = galley
         }
+    }
+    add_estate_loyalty = {
+        estate = estate_burghers
+        loyalty = -10
+    }
+    add_estate_influence_modifier = {
+        influence = -10
+        duration = 3650
     }
 }
 estate_action_MAKE_GENEROUS_DONATION_CHURCH = {
@@ -5997,6 +6017,8 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
         create_general_scaling_with_tradition_and_pips = {
             add_shock = 1
             add_manuever = 1
+            add_fire = 1
+            add_siege = 1
         }
     }
     else = {
@@ -6007,7 +6029,11 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
     }
     add_estate_loyalty = {
         estate = estate_nobles
-        loyalty = -10
+        loyalty = 10
+    }
+    add_estate_influence_modifier = {
+        influence = 5
+        duration = 3650
     }
     if = {
         limit = {
@@ -6015,7 +6041,11 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
         }
         add_estate_loyalty = {
             estate = estate_rajput
-            loyalty = -5
+            loyalty = 5
+        }
+        add_estate_influence_modifier = {
+            influence = 5
+            duration = 3650
         }
     }
     else_if = {
@@ -6024,7 +6054,11 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
         }
         add_estate_loyalty = {
             estate = estate_maratha
-            loyalty = -5
+            loyalty = 5
+        }
+        add_estate_influence_modifier = {
+            influence = 5
+            duration = 3650
         }
     }
     if = {
@@ -6033,7 +6067,11 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
         }
         add_estate_loyalty = {
             estate = estate_qizilbash
-            loyalty = -5
+            loyalty = 5
+        }
+        add_estate_influence_modifier = {
+            influence = 5
+            duration = 3650
         }
     }
     if = {
@@ -6042,7 +6080,11 @@ estate_action_GRANT_GENERALSHIP_NOBLES = {
         }
         add_estate_loyalty = {
             estate = estate_ghulams
-            loyalty = -5
+            loyalty = 5
+        }
+        add_estate_influence_modifier = {
+            influence = 5
+            duration = 3650
         }
     }
 }

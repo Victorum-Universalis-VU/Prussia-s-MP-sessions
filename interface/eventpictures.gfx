@@ -861,4 +861,12 @@ spriteTypes = {
         texturefile = "gfx/event_pictures/prussias_dynasties/vu_napoleon_I_bonapartePicture.dds"
         alwaystransparent = yes
     }
+
+    #HRE Events
+
+    spriteType = {
+        name = "vu_grand_moff_tarkin_eventPicture"
+        texturefile = "gfx/event_pictures/hre_events/vu_grand_moff_tarkin_eventPicture.dds"
+        alwaystransparent = yes
+    }
 }
