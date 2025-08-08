@@ -3045,7 +3045,7 @@ holy_roman_empire_ideas = {
 		}
 	}
 	bonus = {
-		imperial_authority = 0.1
+		imperial_authority = 0.2
 	}
 	ally_the_electors = {
 		diplomatic_upkeep = 2
@@ -3060,7 +3060,7 @@ holy_roman_empire_ideas = {
 		diplomatic_reputation = 1
 	}
 	dominate_the_electorate = {
-		legitimate_subject_elector = 25
+		legitimate_subject_elector = 50
 	}
 	crowns_of_the_empire = {
 		years_to_integrate_personal_union = -10

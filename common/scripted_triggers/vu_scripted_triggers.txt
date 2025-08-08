@@ -543,7 +543,7 @@ ToR_feudal_republic_subject_limit_reached = {
 		all_subject_country = {
 			is_subject_of_type = feudal_republic
 		}
-		amount = 10		#Total limit for Subjects -Don, Prussia
+		amount = 20		#Total limit for Subjects -Don, Prussia
 	}
 }
 
@@ -555,7 +555,7 @@ ToR_bishoprics_subject_limit_reached = {
 				is_subject_of_type = christian_bishopric
 			}
 		}
-		amount = 7		#Total limit for Subjects -Don, Prussia
+		amount = 25		#Total limit for Subjects -Don, Prussia
 	}
 }
 
@@ -564,7 +564,7 @@ ToR_archbishoprics_subject_limit_reached = {
 		all_subject_country = {
 			is_subject_of_type = christian_archbishopric
 		}
-		amount = 3		#Total limit for Subjects -Don, Prussia
+		amount = 15		#Total limit for Subjects -Don, Prussia
 	}
 }
 
