@@ -2165,6 +2165,14 @@
  flavor_mor.3.b: "Humility is key"
 
  #HRE Principality Event
- vu_hre_events.1.1.t: "A New Prince of the Empire"
- vu_hre_events.1.1.d: "The senate has now been disolved. The regional governors will now have direct control of their territories."
+ vu_hre_events.1.t: "A New Prince of the Empire"
+ vu_hre_events.1.d: "The senate has now been disolved. The regional governors will now have direct control of their territories."
  vu_hre_events.1.a: "For a safe... and secure... SOCIETY!"
+
+ vu_hre_events.2.t: "A New Viceroy of the Empire"
+ vu_hre_events.2.d: "The senate has now been disolved. The regional governors will now have direct control of their territories."
+ vu_hre_events.2.a: "For a safe... and secure... SOCIETY!"
+
+ vu_hre_events.3.t: "A New Bishop of the Empire"
+ vu_hre_events.3.d: "The senate has now been disolved. The regional governors will now have direct control of their territories."
+ vu_hre_events.3.a: "For a safe... and secure... SOCIETY!"
