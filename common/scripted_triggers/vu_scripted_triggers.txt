@@ -529,53 +529,53 @@ ToR_can_change_colour = {
 	}
 }
 
-ToR_subject_limit_reached = {
-	calc_true_if = {
-		all_subject_country = {
-			is_ToR_subject_type = yes
-		}
-		amount = 25		#Total limit for Subjects -Don, Prussia
-	}
-}
+#ToR_subject_limit_reached = { #Turned these off for now until I can figure out how to make this togglable in the startup settings - Prussia
+#	calc_true_if = {
+#		all_subject_country = {
+#			is_ToR_subject_type = yes
+#		}
+#		amount = 25		#Total limit for Subjects -Don, Prussia
+#	}
+#}
 
-ToR_feudal_republic_subject_limit_reached = {
-	calc_true_if = {
-		all_subject_country = {
-			is_subject_of_type = feudal_republic
-		}
-		amount = 20		#Total limit for Subjects -Don, Prussia
-	}
-}
+#ToR_feudal_republic_subject_limit_reached = {
+#	calc_true_if = {
+#		all_subject_country = {
+#			is_subject_of_type = feudal_republic
+#		}
+#		amount = 20		#Total limit for Subjects -Don, Prussia
+#	}
+#}
 
-ToR_bishoprics_subject_limit_reached = {
-	calc_true_if = {
-		all_subject_country = {
-			OR = {
-				is_subject_of_type = christian_abbacy
-				is_subject_of_type = christian_bishopric
-			}
-		}
-		amount = 25		#Total limit for Subjects -Don, Prussia
-	}
-}
+#ToR_bishoprics_subject_limit_reached = {
+#	calc_true_if = {
+#		all_subject_country = {
+#			OR = {
+#				is_subject_of_type = christian_abbacy
+#				is_subject_of_type = christian_bishopric
+#			}
+#		}
+#		amount = 25		#Total limit for Subjects -Don, Prussia
+#	}
+#}
 
-ToR_archbishoprics_subject_limit_reached = {
-	calc_true_if = {
-		all_subject_country = {
-			is_subject_of_type = christian_archbishopric
-		}
-		amount = 15		#Total limit for Subjects -Don, Prussia
-	}
-}
+#ToR_archbishoprics_subject_limit_reached = {
+#	calc_true_if = {
+#		all_subject_country = {
+#			is_subject_of_type = christian_archbishopric
+#		}
+#		amount = 15		#Total limit for Subjects -Don, Prussia
+#	}
+#}
 
-ToR_Muslim_subject_limit_reached = {
-	calc_true_if = {
-		all_subject_country = {
-			is_muslim_subject_type = yes
-		}
-		amount = 25		#Total limit for Subjects -Don, Prussia
-	}
-}
+#ToR_Muslim_subject_limit_reached = {
+#	calc_true_if = {
+#		all_subject_country = {
+#			is_muslim_subject_type = yes
+#		}
+#		amount = 25		#Total limit for Subjects -Don, Prussia
+#	}
+#}
 
 VU_ToR_protected_government_reforms = {
 	OR = {
