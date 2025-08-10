@@ -40,7 +40,7 @@ catholics_vs_ultraquists_mechanic = {
 	interactions = {
 		catholics_vs_ultraquists_mechanic_grant_privileges_to_catholics_interaction = {
 			gui = catholics_vs_ultraquists_mechanic_interaction
-			icon = GFX_catholics_vs_ultraquists_mech_button_cat
+			icon = GFX_catholics_vs_ultraquists_mechanic_interaction_button_catholics
 			cooldown_years = 5
 			trigger = {
 				adm_power_cost = 50
@@ -103,7 +103,7 @@ catholics_vs_ultraquists_mechanic = {
 		}
 		catholics_vs_ultraquists_mechanic_grant_privileges_to_ultraquists_interaction = {
 			gui = catholics_vs_ultraquists_mechanic_interaction
-			icon = GFX_catholics_vs_ultraquists_mech_button_ultra
+			icon = GFX_catholics_vs_ultraquists_mechanic_interaction_button_ultraquists
 			cooldown_years = 5
 			trigger = {
 				adm_power_cost = 50
