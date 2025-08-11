@@ -1,4 +1,4 @@
-#VU - Updated by San Felipe for 1.36.*
+#VU - Updated by San Felipe for v1.37.*
 emp_sav_missions_conquest = {
 	slot = 1
 	generic = no
@@ -31,8 +31,8 @@ emp_sav_missions_conquest = {
 			}
 		}
 		trigger = {
-			owns_core_province = 4727
-			owns_core_province = 2981
+			owns_or_non_sovereign_subject_of = 4727
+			owns_or_non_sovereign_subject_of = 2981
 		}
 		effect = {
 			103 = {
@@ -397,7 +397,7 @@ emp_sav_missions_conquest_north = {
 			}
 		}
 		trigger = {
-			owns_core_province = 4720
+			owns_or_non_sovereign_subject_of = 4720
 		}
 		effect = {
 			romandie_area = {
@@ -827,7 +827,7 @@ emp_sav_missions_conquest_west = {
 		trigger = {
 			NOT = { is_part_of_hre = yes }
 			OR = {
-				owns_core_province = 183
+				owns_or_non_sovereign_subject_of = 183
 				succession_claim = FRA
 			}
 		}

@@ -1237,6 +1237,7 @@ BW3 = "countries/British_Weihaiwei.txt"
 BW4 = "countries/British_Western_Australia.txt"
 N5W = "countries/British_New_South_Wales.txt"
 F1J = "countries/British_Fiji.txt"
+TG4 = "countries/The_Gambia.txt"
 
 #Americas (Crown Colonies)
 N3W = "countries/British_Newfoundland.txt"
@@ -1304,7 +1305,7 @@ ZIB = "countries/Zimbabwe.txt"
 
 ######Sphinx China Overhaul######
 #Mongolia
-#TUV = "countries/Tuva.txt"
+TUV = "countries/Tuva.txt"
 #AIM = "countries/Aimag.txt"
 #TMD = "countries/Tumed.txt"
 #SNU = "countries/Sunud.txt"

@@ -114,7 +114,7 @@ foreign_ghulams_reform = {
 		}
 	}
 	custom_attributes = {
-		enables_ghulams_estate = yes
+		enables_estate_ghulams = yes
 	}
 	ai = {
 		factor = 100

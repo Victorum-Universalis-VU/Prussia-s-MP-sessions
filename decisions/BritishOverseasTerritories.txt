@@ -1386,10 +1386,10 @@ country_decisions = {
 				tag = GBR
 				tag = UNK
 			}
-			owns = 1197
+			owns = 7379
 		}
 		provinces_to_highlight = {
-			area = guinea_coast_area
+			area = sierra_leone_area
 			NOT = {
 				owned_by = ROOT
 			}
@@ -1398,7 +1398,7 @@ country_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			guinea_coast_area = {
+			sierra_leone_area = {
 				add_core = B5I
 			}
 			release = B5I
@@ -1801,7 +1801,7 @@ country_decisions = {
 	}
 
 	#Guinea
-	vu_lordship_of_guinea = {
+	vu_lordship_of_guinea = {#
 		major = yes
 		potential = {
 			OR = {
@@ -1809,9 +1809,12 @@ country_decisions = {
 				tag = GBR
 				tag = UNK
 			}
-			owns = 7434
+			owns = 7364
 		}
 		provinces_to_highlight = {
+			OR = {
+				province_id = 7364
+			}
 			area = cameroon_area
 			NOT = {
 				owned_by = ROOT
@@ -1841,6 +1844,54 @@ country_decisions = {
 			create_subject = {
 				subject_type = self_governing_dominion_vu
 				who = BG1
+			}
+		}
+	}
+
+	#The Gambia
+	vu_lordship_of_the_gambia = {#
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 7364
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 7364
+			}
+			area = gambia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			gambia_area = {
+				add_core = TG4
+			}
+			release = TG4
+			TG4 = {
+				change_religion = ROOT
+				change_government = monarchy
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = TG4
 			}
 		}
 	}

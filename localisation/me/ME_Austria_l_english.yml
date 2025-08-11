@@ -42,7 +42,7 @@
  #me_hab_venetian_branch: "If we picked the §YVenetian Module§! branch."
  #me_hab_modern_navy_branch: "If we picked the §YModern Navy§! branch."
  #me_hab_used_spread_dynasty_3_times: "Has used the §YOut Relative as Heir§! Habsburg interaction 3 times."
- #me_hab_spread_dynasty_cheaper_tt: "§YSpread Dynasty§! Habsburg interaction is §G30%§! cheaper."
+ me_hab_spread_dynasty_cheaper_tt: "§YSpread Dynasty§! Habsburg interaction is §G30%§! cheaper."
  #me_hab_for_as_long_as_we_fully_control_venetia_area: "For as long as we control the entire §YVenetia§! area."
  #me_hab_mainland_focus_branch: "If we picked the §YMainland Focus§! branch."
  me_hab_minorities_branch: "If we picked the §YMinority Management Focus§! branch."
@@ -209,7 +209,6 @@
  me_hab_gain_eastern_roman_emperors_modifier: "For as long as @BYZ §YByzantium§! is of our §YReligion§! and is part of the §YHoly Roman Empire§!, we will gain the §YEastern Roman Emperors§! modifier, granting."
  me_hab_5_dev_cost_reduction: "We will gain §G-5.00%§! Development Cost per level"
  me_hab_extend_golden_age_50: "Extend our §YGolden Era§! by §Y50§! years"
- me_mug_adm_advisors_give_scaling_bonuses: "£adm£ §YAdministrative§! advisors now provide §YScaling Bonuses§! based on the level of your §YAdvisor§!\n\n   §YPhilosopher§!: Idea Cost: §G-2.0%§!\n   §YNatural Scientist§!: State Maintenance Modifier: §G-5.00%§!\n   §YArtist§!: Monthly Splendor: §G+0.5§!\n   §YTreasurer§!: Development Cost: §G-2.0%§!\n   §YTheologian§!: Yearly Corruption: §G-0.05§!\n   §YMaster of Mint§!: Gold Depletion Chance: §G-5.00%§!\n   §YInquisitor§!: Missionary Maintenance Cost: §G-10.00%§!"
  me_mug_dip_advisors_give_scaling_bonuses: "£dip£ §YDiplomatic§! advisors now provide §YScaling Bonuses§! based on the level of your §YAdvisor§!\n\n   §YStatesman§!: Aggressive Expansion: §G-2.0%§!\n   §YNaval Reformer§!: Naval Tradition: §G+0.1§!\n   §YTrader§!: Center of Trade Upgrade Cost: §G-5.00%§!\n   §YSpymaster§!: Minimum Autonomy in Territories: §G-2.0%§!\n   §YColonial Governor§!: Liberty Desire: §G-5.00%§!\n   §YDiplomat§!: Fabricate Claim Cost: §G-5.00%§!\n   §YNavigator§!: Global Disengagement Chance: §G-2.00%§!"
  me_mug_mil_advisors_give_scaling_bonuses: "£mil£ §YMilitary§! advisors now provide §YScaling Bonuses§! based on the level of your §YAdvisor§!\n\n   §YArmy Reformer§!: Military Technology Cost: §G-1.0%§!\n   §YArmy Organizer§!: Drill Gain: §G+5.00%§!\n   §YCommandant§!: Army Tradition from Battles: §G+20.0%§!\n   §YQuartermaster§!: Reinforce Cost: §G-5.0%§!\n   §YRecruitment Master§!: Manpower Recovery Speed: §G+5.0%§!\n   §YFortification Expert§!: Morale Damage Received: §G-2.00%§!\n   §YGrand Captain§!: Reserves Organization: §G+2.00%§!"
  #me_hab_the_following_croat_areas: "§YZagreb§!, §YLika§!, §YRijeka§!, and §YSlavonia Area§! get the following §YModifier§!."
@@ -234,7 +233,6 @@
  
  
  #production_5: "Distribute §Y5§! £dip£ development" 
- #production_10: "Distribute §Y10§! £dip£ development" 
  #production_15: "Distribute §Y15§! £dip£ development" 
  #production_20: "Distribute §Y20§! £dip£ development" 
  #production_25: "Distribute §Y25§! £dip£ development" 

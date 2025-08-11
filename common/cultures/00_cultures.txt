@@ -8897,6 +8897,18 @@ altaic = {
 	}
 	oirats = {
         graphical_culture = mongolgfx
+		primary = OIR
+		male_names = {
+			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten 
+			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bäki Bayan Dayan Hami Molon Oori 
+			Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orlök
+		}
+		female_names = {
+			Hoelun Tamülün Sorghaghtani Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene 
+		}
+	}
+	dzungar = {
+        graphical_culture = mongolgfx
 		primary = ZUN
 		male_names = {
 			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten 
@@ -16569,6 +16581,22 @@ evenks = {
 	buryat = {
 		graphical_culture = mongolgfx #VU - Was 'inuitgfx' but changed in v1.36.2.*. By San Felipe
 		primary = BRT
+		dynasty_names = {
+			Badarhan Chagatay Edigüid Giray Borjigin Shaybanid Janid Mangit
+		}
+		male_names = {
+			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan Darayisung 
+			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke Mulan 
+			Manduulun Öljei Örüg Oyiradai Ögödei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin Temür Toghun Tümen 
+			Tolui Toq Uskhal Yesün Ariq Batu Eljigidei Joichi
+		}
+		female_names = {
+			Temülen Börte Mandukhai Samar Zaufishan 
+		}
+	}
+	tuvan = {
+		graphical_culture = mongolgfx #VU - Was 'inuitgfx' but changed in v1.36.2.*. By San Felipe
+		primary = TUV
 		dynasty_names = {
 			Badarhan Chagatay Edigüid Giray Borjigin Shaybanid Janid Mangit
 		}

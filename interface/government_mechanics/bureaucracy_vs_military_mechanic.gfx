@@ -15,8 +15,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {
-		name = "GFX_bureaucracy_vs_military_mechanic_bureaucratic_focus_button"
-		textureFile = "gfx/interface/government_mechanics/bureaucracy_vs_military_mechanic/bureaucracy_vs_military_mechanic_bureaucratic_focus_button.dds"
+		name = "GFX_bureaucracy_vs_military_mech_focus_button"
+		textureFile = "gfx/interface/government_mechanics/bureaucracy_vs_military_mechanic/bureaucracy_vs_military_mech_focus_button.dds"
 	}
 	spriteType = {
 		name = "GFX_bureaucracy_vs_military_mechanic_military_focus_button"

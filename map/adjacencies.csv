@@ -230,6 +230,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5236;5237;sea;1432;-1;-1;-1;-1;New Georgia-Rendova
 5236;5238;sea;1432;-1;-1;-1;-1;New Georgia-Vangunu
 3851;3837;sea;7352;-1;-1;-1;-1;South Barkindji - North Barkindji
+3852;3850;sea;7352;-1;-1;-1;-1;West Meru-East Meru
 3779;4868;sea;1414;-1;-1;-1;-1;Wybalenna - Pyemmairrener
 1001;4972;sea;1661;-1;-1;-1;-1;Soto-Manidoowaaling
 911;1001;sea;1663;-1;-1;-1;-1;Menominee-Sault
@@ -290,9 +291,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5566;164;sea;5493;-1;-1;-1;-1;Thera-Naxos
 5564;164;sea;5493;-1;-1;-1;-1;Astypalea-Naxos
 4565;5096;sea;1471;-1;-1;-1;-1;Tenerife-GranCanaria
-47;4745;sea;1257;-1;-1;-1;-1;Stralsund-Rugen
+7842;4745;sea;1257;-1;-1;-1;-1;Stralsund-Rugen
 2994;7816;sea;8334;-1;-1;-1;-1;Wolgast-Usedom
-7816;7818;sea;8334;-1;-1;-1;-1;Usedom-Kammin
+3402;7818;sea;8334;-1;-1;-1;-1;Wolin-Kammin
 40;7833;sea;8336;-1;-1;-1;-1;Memel-Sambia
 5642;7851;sea;1260;-1;-1;-1;-1;Gdov-Ugandi
 7730;7731;sea;8353;-1;-1;-1;-1;Makarska-Brac

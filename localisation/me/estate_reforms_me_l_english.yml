@@ -8,7 +8,7 @@
  theocratic_autocracy: "Roman Autocracy"
  theocratic_autocracy_desc: "The emperor is both the head of civil society and the ultimate authority over the ecclesiastical authorities, or patriarchates. The emperor is also considered to be God's omnipotent representative on earth and he rules as an absolute autocrat."
  kingdom_of_portugal_and_azures: "Portuguese Thassalocracy"
- kingdom_of_portugal_and_azures_desc: "John 2 'The Perfect' restored the policies of Atlantic exploration, reviving the work of his great-uncle, Henry the Navigator. The Portuguese explorations were his main priority in government, pushing south the known coast of Africa with the purpose of discovering the maritime route to India and breaking into the spice trade."
+ kingdom_of_portugal_and_azures_desc: "John II 'The Perfect' restored the policies of Atlantic exploration, reviving the work of his great-uncle, Henry the Navigator. The Portuguese explorations were his main priority in government, pushing south the known coast of Africa with the purpose of discovering the maritime route to India and breaking into the spice trade."
  american_government: "American Government"
  american_government_desc: "USA USA USA USA USA"
  
@@ -1270,7 +1270,6 @@
  mechanic_enables_junker_estate_yes: "Enables the Junker Estate."
  mechanic_enables_noble_estate_yes: "Noble Subjects: Enables the Noble Estate."
  mechanic_enables_cossack_estate_yes: "Cossack Influence: Enables the Cossack Estate."
- mechanic_enables_ghulams_estate_yes: "Ghulams Estate: Enables the Ghulam Estate."
  
  military_organisation: "Military Organisation"
  economic_policy: "Economic Policy"

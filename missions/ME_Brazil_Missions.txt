@@ -35,7 +35,7 @@ BRZ_missions_1 = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = BRA_hardy_settlers
+				name = BRZ_hardy_settlers
 				duration = 10950
 			}
 			748 = {

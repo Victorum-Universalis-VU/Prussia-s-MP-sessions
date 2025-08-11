@@ -1,4 +1,4 @@
-#3838 - North_Barindji
+#3838 - Northeast_Barkindji
 
 culture = gamilaraay
 religion = dreamtime
@@ -12,8 +12,7 @@ native_size = 2
 native_ferocity = 1
 native_hostileness = 2
 
-
-
+#Province Modifiers
 add_permanent_province_modifier = {
     name = vu_outback_bush
     duration = -1

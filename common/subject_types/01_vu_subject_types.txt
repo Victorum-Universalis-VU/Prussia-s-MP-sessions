@@ -6923,10 +6923,11 @@ christian_archbishopric = {
     scutage = yes
     grant_core_claim = yes
     grant_province = yes
-    place_relative_on_throne = yes
+    place_relative_on_throne = no
     enforce_religion = yes
     enforce_culture = no
     seize_territory = no
+    placate_rulers = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -16922,19 +16923,24 @@ feudal_republic = {
     pays_overlord = 1.0
     forcelimit_to_overlord = 0.1
 
-    relative_power_class = 2
+    relative_power_class = 1
     should_quit_wars_on_activation = yes
 
     restoration_cb = cb_feudal_republic #Was cb_disloyal_vassal
 
     # Subject Interactions:
     scutage = yes
-    place_relative_on_throne = yes
-    sacrifice_ruler = yes
-    sacrifice_heir = yes
+    place_relative_on_throne = no
+    sacrifice_ruler = no
+    sacrifice_heir = no
+    placate_rulers = yes
     divert_trade = yes
     embargo_rivals = yes
     seize_territory = yes
+    grant_core_claim = yes
+    grant_province = yes
+    seize_court_resources = yes
+    request_extra_levies = yes
 
     # Modifiers:
     modifier_subject = {

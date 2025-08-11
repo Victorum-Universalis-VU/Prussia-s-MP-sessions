@@ -327,7 +327,6 @@
  USA_missions_republican_values_tt_2: "Decisions will be unlocked that allows for §Ystrong vassals§! to be formed in the lands in §Ynorth and south America§! outside of the historical borders of the  @USA §Y[Root.GetName]§!."
  lotf_abolish_slavery_allow: "§YThe Supreme Court§! has passed down a decision pertaining to §YDred Scott§!."
  cotton_gin_modifier_tt: "All §Ycotton§! producing provinces will receive."
- borat_easter_egg_modifier: "Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan"
  #
  #All new claim tooltips:
  tr_access_to_the_baltic_sea_claims: "Grants permanent claims on the provinces required for the mission §YWindows on the West§!"
@@ -562,4 +561,7 @@
  ME_benefits_of_marinids_tt: ""
  ME_this_will_lead_to_a_rebellion_tt: ""
  ME_this_begins_event_chain_tt: ""
- 
+ vu_send_administrative_bureaucrats_for_adm_cooldown_flag: ""
+ vu_send_administrative_bureaucrats_for_adm_flag: ""
+ vu_send_diplomatic_envoys_for_dip_flag: ""
+ vu_send_military_attaches_for_mil_flag: ""

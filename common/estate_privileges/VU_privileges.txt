@@ -299,6 +299,10 @@ estate_jews_suck_privileges = {
 	}
 	on_revoked = {
 		custom_tooltip = estate_jews_suck_revoke_tooltip
+		add_estate_loyalty = {
+			estate = estate_jews
+			loyalty = 30
+		}
 	}
 	on_revoked_province= {
 	}

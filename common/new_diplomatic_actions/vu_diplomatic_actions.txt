@@ -30,7 +30,7 @@ vu_send_administrative_bureaucrats_for_ADM = {
 		if = {
 			#Don addition
 			limit = {
-				has_country_flag = vu_send_administrative_bureaucrats_for_adm_cooldown_flag
+				has_country_flag = vu_send_administrative_bureaucrats_for_adm_cooldown_flag #
 			}
 			had_country_flag = {
 				#Is the effect

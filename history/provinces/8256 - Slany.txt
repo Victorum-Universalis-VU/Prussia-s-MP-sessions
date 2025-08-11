@@ -4,7 +4,7 @@
 owner = BOH
 controller = BOH
 add_core = BOH
-capital = "Slany"
+capital = "Slaný"
 is_city = yes
 culture = czech
 religion = hussite

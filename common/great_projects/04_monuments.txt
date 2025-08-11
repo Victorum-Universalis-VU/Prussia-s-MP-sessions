@@ -4111,7 +4111,7 @@ intramuros = {
 }
 
 jamestown = {
-	start = 950
+	start = 5952
 	date = 1444.01.01
 	time = { months = 0 }
 	build_cost = 0

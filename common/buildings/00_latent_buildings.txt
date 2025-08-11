@@ -1499,6 +1499,7 @@ uniforms_workshop = {
 #				NOT = { has_dlc = "Rule Britannia" }
 #			}
 #		}
+#		NOT = { has_global_flag = No_Steam_engine }
 #
 #	}
 #	
@@ -1712,6 +1713,7 @@ spectacle_factory = {
 		NOT = {
 			trade_goods = glass
 			has_province_flag = has_latent_good
+			has_global_flag = No_Optics
 		}
 	}
 	on_built = {
@@ -1813,6 +1815,7 @@ cigars_factory = {
 		NOT = {
 			trade_goods = tobacco
 			has_province_flag = has_latent_good
+			has_global_flag = No_Cigars
 		}
 	}
 	on_built = {
@@ -1914,6 +1917,7 @@ chocolate_factory = {
 		NOT = {
 			trade_goods = cocoa
 			has_province_flag = has_latent_good
+			has_global_flag = No_Chocolate
 		}
 	}
 	on_built = {
@@ -2016,6 +2020,9 @@ bakery = {
 				which = grain
 				value = 0.6
 			}
+		}
+		NOT = {
+			has_global_flag = No_Sweet_Confectioneries
 		}
 	}
 	on_built = {
@@ -2954,6 +2961,7 @@ medical_facility = {
 #				}
 #			}
 #		}
+#		NOT = { has_global_flag = No_Fabrics }
 #	}
 #	on_built = { #Basically what happens when the manufactory is built.
 #		hidden_effect = {

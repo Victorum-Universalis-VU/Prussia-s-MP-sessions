@@ -643,6 +643,8 @@ guinea_region = {
 		grain_coast_area
 		gold_coast_area
 		jolof_area
+		gambia_area
+		sierra_leone_area
 		sao_tome_area
 		tekrur_area
 	}
