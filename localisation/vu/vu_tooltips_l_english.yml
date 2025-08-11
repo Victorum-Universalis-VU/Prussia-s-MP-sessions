@@ -561,4 +561,7 @@
  ME_benefits_of_marinids_tt: ""
  ME_this_will_lead_to_a_rebellion_tt: ""
  ME_this_begins_event_chain_tt: ""
- 
+ vu_send_administrative_bureaucrats_for_adm_cooldown_flag: ""
+ vu_send_administrative_bureaucrats_for_adm_flag: ""
+ vu_send_diplomatic_envoys_for_dip_flag: ""
+ vu_send_military_attaches_for_mil_flag: ""
