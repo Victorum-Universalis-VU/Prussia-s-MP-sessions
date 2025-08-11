@@ -381,21 +381,21 @@ country_decisions = {
 			is_emperor = no
 			owns_or_non_sovereign_subject_of = 50	# Berlin
 			owns_or_non_sovereign_subject_of = 57	# Brunswick
-			owns_or_non_sovereign_subject_of = 65	# München
+			owns_or_non_sovereign_subject_of = 65	# Mï¿½nchen
 			OR = {
 				owns_or_non_sovereign_subject_of = 1868 # Augsburg
 				owns_or_non_sovereign_subject_of = 70 # Wurttemberg
 			}
 			OR = {
-				owns_or_non_sovereign_subject_of = 67	# Nürnberg
+				owns_or_non_sovereign_subject_of = 67	# Nï¿½rnberg
 				owns_or_non_sovereign_subject_of = 1876 # Frankfurt
 			}
 			OR = {
 				owns_or_non_sovereign_subject_of = 1762 # Niederhessen
-				owns_or_non_sovereign_subject_of = 85	# Köln
+				owns_or_non_sovereign_subject_of = 85	# Kï¿½ln
 			}
 			OR = {
-				owns_or_non_sovereign_subject_of = 41	# Königsberg
+				owns_or_non_sovereign_subject_of = 41	# Kï¿½nigsberg
 				owns_or_non_sovereign_subject_of = 75	# Strassburg
 			}
 			OR = {
@@ -404,7 +404,7 @@ country_decisions = {
 			}
 			OR = {
 				owns_or_non_sovereign_subject_of = 61	# Dresden
-				owns_or_non_sovereign_subject_of = 63	# Thüringen
+				owns_or_non_sovereign_subject_of = 63	# Thï¿½ringen
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				OR = {
@@ -588,7 +588,7 @@ country_decisions = {
 				province_id = 62
 				province_id = 4743
 				province_id = 2965
-				province_id = 4744
+				province_id = 7646
 				province_id = 61
 			}
 		}
@@ -604,7 +604,7 @@ country_decisions = {
 					62 = { country_or_non_sovereign_subject_holds = ROOT }
 					4743 = { country_or_non_sovereign_subject_holds = ROOT }
 					2965 = { country_or_non_sovereign_subject_holds = ROOT }
-					4744 = { country_or_non_sovereign_subject_holds = ROOT }
+					7646 = { country_or_non_sovereign_subject_holds = ROOT }
 					61 = { country_or_non_sovereign_subject_holds = ROOT }
 				}
 			}
@@ -625,7 +625,7 @@ country_decisions = {
 				add_core = SAX
 				hidden_effect = { remove_core = ROOT }
 			}
-			4744 = {
+			7646 = {
 				cede_province = SAX
 				add_core = SAX
 				hidden_effect = { remove_core = ROOT }

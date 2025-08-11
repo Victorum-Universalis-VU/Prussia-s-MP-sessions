@@ -258,6 +258,8 @@
  franconia_nation_desc: "The memory of the old Duchy of Franconia lives on in the memories of ambitious local rulers. The Prince-Bishop of Würzburg claims the title, but in practice it has lain in abeyance for centuries, its former lands riven by disunity. Should this unity be restored, then Franconia would once again become a force to be reckoned with in Germany."
  swabia_nation_title: "Form Swabia"
  swabia_nation_desc: "The old Duchy of Swabia ended with the execution of Conradin, the last of the Hohenstaufen Dukes, in 1268. Since then, a plethora of counties, bishoprics and free cities have emerged to fill the void left by the fall of the Hohenstaufens. However, these small states are often unable to protect their liberty - thus, the Habsburgs of Austria have built up considerable territorial holdings in Swabia, which they call “Further Austria”. We must restore unity to Swabia if we are to end this pattern of outside encroachment."
+ wurttemberg_nation_title: "Form Wurttemberg"
+ wurttemberg_nation_desc: "Following the dissolution of the former Duchy of Swabia, several smaller polities arose from its remains, including the County of Wurttemberg. However, in 1442 at the Treaty of Nürtingen, the County was split into two harves, Württemberg-Stuttgart and Württemberg-Urach and would remain so until 1495 when they were reunited and raised to Ducal rank under Eberhard IV of Württemberg Stuttgart. The local barons in the province of Württemberg must be brought to heel and united under our banner."
  saxony_nation_title: "Form Saxony"
  saxony_nation_desc: "The Duchy of Saxony has passed hands between dynasties and even shifted territory considerably over the centuries. Perhaps we too should lay claim to it?"
  #Scripted trigger custom tooltips

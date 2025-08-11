@@ -1,2 +1,2 @@
-# VU-Marco-Polo-v1.37-Dev
-Contains latest files in preparation for Sphinxy's China and India overhaul.
+# VU-v1.37-Vasco-Da-Gama
+This contains the current files of VU v1.37 Marco Polo but without Don's Building additions.

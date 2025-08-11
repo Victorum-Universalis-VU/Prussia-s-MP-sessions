@@ -8,12 +8,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/catholics_vs_ultraquists_mechanic_bar_frame_icon_right.dds"
 	}
 	spriteType = {
-		name = "GFX_catholics_vs_ultraquists_mechanic_interaction_button_catholics"
-		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/catholics_vs_ultraquists_mechanic_interaction_button_catholics.dds"
+		name = "GFX_catholics_vs_ultraquists_mech_button_cat"
+		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/catholics_vs_ultraquists_mech_button_cat.dds"
 	}
 	spriteType = {
-		name = "GFX_catholics_vs_ultraquists_mechanic_interaction_button_ultraquists"
-		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/catholics_vs_ultraquists_mechanic_interaction_button_ultraquists.dds"
+		name = "GFX_catholics_vs_ultraquists_mech_button_ultra"
+		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/catholics_vs_ultraquists_mech_button_ultra.dds"
 	}
 
 	spriteType = {

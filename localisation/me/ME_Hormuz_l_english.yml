@@ -71,7 +71,9 @@
  ORM_extra_relations: "Extra Improved Relations"
  
  ORM_icon_gray: "Hormuzi Outpost"
+ desc_ORM_icon_gray: "§YHormuzi Outpost§! provides §Y[target_ORM.GetName]§! §G15§! Trade Power as long as Province Owner's §YOpinion§! of §Y[target_ORM.GetName]§! is at least §G80§!."
  ORM_icon: "Hormuzi Outpost"
+ desc_ORM_icon: "§YHormuzi Outpost§! provides §Y[target_ORM.GetName]§! §G15§! Trade Power as long as Province Owner's §YOpinion§! of §Y[target_ORM.GetName]§! is at least §G80§!."
  
  ORM_all_provinces_have_less_than_0_urnest: "All provinces not of §Y[Root.Religion.GetName]§! religion have less than §Y0§! unrest."
  ORM_distribute_10_base_tax_and_production_in_hormuz_node: "Distribute §G10§! Base Tax and §G10§! Base Production among the provinces in the §YHormuz§! Trade Node."

@@ -529,7 +529,7 @@ ToR_can_change_colour = {
 	}
 }
 
-#ToR_subject_limit_reached = { #Turned these off for now until I can figure out how to make this togglable in the startup settings - Prussia
+#ToR_subject_limit_reached = { #Hashed these out so they are turned off by default. If people want to turn this on, they can do so themselves. - Prussia
 #	calc_true_if = {
 #		all_subject_country = {
 #			is_ToR_subject_type = yes
@@ -543,7 +543,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_subject_of_type = feudal_republic
 #		}
-#		amount = 20		#Total limit for Subjects -Don, Prussia
+#		amount = 10		#Total limit for Subjects -Don, Prussia
 #	}
 #}
 
@@ -555,7 +555,7 @@ ToR_can_change_colour = {
 #				is_subject_of_type = christian_bishopric
 #			}
 #		}
-#		amount = 25		#Total limit for Subjects -Don, Prussia
+#		amount = 7		#Total limit for Subjects -Don, Prussia
 #	}
 #}
 
@@ -564,7 +564,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_subject_of_type = christian_archbishopric
 #		}
-#		amount = 15		#Total limit for Subjects -Don, Prussia
+#		amount = 3		#Total limit for Subjects -Don, Prussia
 #	}
 #}
 
@@ -1000,22 +1000,6 @@ vu_don_economy_ai_infrastructure_in = {
 			num_free_building_slots = 1
 		}
 	}
-}
-
-###################################
-## SF & Don's Province Modifiers ##
-###################################
-#Uncompleted yet, on hold until the performance update's finished
-vu_has_builing_for_administration = {
-}
-
-vu_has_builing_for_education = {
-}
-
-vu_has_builing_for_entertainment = {
-}
-
-vu_has_builing_for_sanitation = {
 }
 
 ##############################

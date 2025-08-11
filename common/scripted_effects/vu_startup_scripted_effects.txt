@@ -4851,26 +4851,3 @@ vu_set_disable_releasing_of_colonies_ROOT = {
 		}
 	}
 }
-
-vu_set_province_modifiers = {
-	hidden_effect = {
-		every_province = {
-			if = {
-				limit = {
-					NOT = {
-						has_building = hall
-						has_building = town_hall
-						has_building = city_hall
-						has_building = pigeon_shed
-						has_building = relay_stations
-						has_building = telephone_exchange
-					}
-				}
-				add_province_modifier = {
-					name = vu_no_administration
-					duration = -1
-				}
-			}
-		}
-	}
-}

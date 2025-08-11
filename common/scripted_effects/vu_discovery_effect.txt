@@ -627,6 +627,8 @@ vu_discover_the_world = {
                 west_coast_of_india_provinces = { discover_country = PREV }
                 futa_jallon_area = { discover_country = PREV }
                 sao_tome_area = { discover_country = PREV }
+                gambia_area= { discover_country = PREV }
+                sierra_leone_area = { discover_country = PREV }
                 bornu_area = { discover_country = PREV }
                 dendi_area = { discover_country = PREV }
                 niger_bend_area = { discover_country = PREV }
@@ -897,6 +899,8 @@ vu_discover_the_world = {
                 siwa_oasis_provinces = { discover_country = PREV }
                 west_coast_of_india_provinces = { discover_country = PREV }
                 sao_tome_area = { discover_country = PREV }
+                gambia_area= { discover_country = PREV }
+                sierra_leone_area = { discover_country = PREV }
                 bornu_area = { discover_country = PREV }
                 dendi_area = { discover_country = PREV }
                 niger_bend_area = { discover_country = PREV }
@@ -1922,11 +1926,6 @@ vu_discover_the_world = {
                 7352 = { discover_country = PREV }
                 #Land
                 australia_region = { discover_country = PREV }
-                #Undiscovered
-                1790 = { undiscover_country = PREV }
-                1791 = { undiscover_country = PREV }
-                3812 = { undiscover_country = PREV }
-                3875 = { undiscover_country = PREV }
             }
             if = {
                 limit = {
@@ -1943,10 +1942,7 @@ vu_discover_the_world = {
                 1432 = { discover_country = PREV }
                 #Land
                 melanesia_area = { discover_country = PREV }
-                papua_new_guinea_provinces = { discover_country = PREV }
-                #Undiscovered
-                1789 = { undiscover_country = PREV }
-                3760 = { undiscover_country = PREV }
+                papua_region = { discover_country = PREV }
             }
             #Hawaiian
             if = {

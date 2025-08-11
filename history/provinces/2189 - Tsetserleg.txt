@@ -1,4 +1,4 @@
-# 2189 - Tsetserleg
+#2189 - Tsetserleg
 
 latent_trade_goods = {
 	coal
@@ -19,24 +19,3 @@ is_city = yes
 
 #Claimants
 add_core = KHA
-
-1454.1.1 = {
-	owner = KHA
-	controller = KHA
-	add_core = KHA
-} # Mark?rgis Khan of the Gold Family rises to power after Esen's death.
-
-1635.4.1 = {
-	owner = KLK
-	controller = KLK
-	add_core = KLK
-}
-1688.1.1 = {
-	owner = ZUN
-	controller = ZUN
-}
-1697.1.1 = {
-	owner = QNG
-	controller = QNG
-	add_core = QNG
-} # Outer Mongolia intergrated into Qing

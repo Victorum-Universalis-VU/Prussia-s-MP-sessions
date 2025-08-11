@@ -301,9 +301,6 @@ great_awakening_modifier = {
 	global_missionary_strength = 0.02
 	missionaries = 1
 }
-borat_easter_egg_modifier = {
-	diplomatic_reputation = 1
-}
 university_buff_modifier = {
 	local_development_cost = -0.1
 	local_build_cost = -0.1

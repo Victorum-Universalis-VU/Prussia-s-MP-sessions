@@ -3554,6 +3554,10 @@ mount_fuji = {
                     has_owner_religion = yes
                 }
                 AND = {
+                    religion = state_shinto
+                    has_owner_religion = yes
+                }
+                AND = {
                     religion = mahayana
                     has_owner_religion = yes
                 }
@@ -3565,12 +3569,29 @@ mount_fuji = {
                     owner = { has_harmonized_with = shinto }
                 }
                 AND = {
+                    OR = {
+                        religion = state_shinto
+                        has_owner_religion = yes
+                    }
+                    owner = { has_harmonized_with = state_shinto }
+                }
+                AND = {
                     owner = {
                         religion = tengri_pagan_reformed
                         secondary_religion = shinto
                     }
                     OR = {
                         religion = shinto
+                        has_owner_religion = yes
+                    }
+                }
+                AND = {
+                    owner = {
+                        religion = tengri_pagan_reformed
+                        secondary_religion = state_shinto
+                    }
+                    OR = {
+                        religion = state_shinto
                         has_owner_religion = yes
                     }
                 }
@@ -3615,6 +3636,10 @@ mount_fuji = {
                     has_owner_religion = yes
                 }
                 AND = {
+                    religion = state_shinto
+                    has_owner_religion = yes
+                }
+                AND = {
                     religion = mahayana
                     has_owner_religion = yes
                 }
@@ -3626,12 +3651,29 @@ mount_fuji = {
                     owner = { has_harmonized_with = shinto }
                 }
                 AND = {
+                    OR = {
+                        religion = state_shinto
+                        has_owner_religion = yes
+                    }
+                    owner = { has_harmonized_with = state_shinto }
+                }
+                AND = {
                     owner = {
                         religion = tengri_pagan_reformed
                         secondary_religion = shinto
                     }
                     OR = {
                         religion = shinto
+                        has_owner_religion = yes
+                    }
+                }
+                AND = {
+                    owner = {
+                        religion = tengri_pagan_reformed
+                        secondary_religion = state_shinto
+                    }
+                    OR = {
+                        religion = state_shinto
                         has_owner_religion = yes
                     }
                 }

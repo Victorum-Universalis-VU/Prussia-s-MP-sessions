@@ -2735,7 +2735,7 @@ GER_missions_3 = {
 			}
 		}
 		trigger = {
-			59 = { ##Saxony, has been moved from 4744 (??) to 59
+			59 = { ##Saxony
 				trade_share = {
 					country = ROOT
 					share = 75

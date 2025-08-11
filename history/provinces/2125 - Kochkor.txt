@@ -1,4 +1,4 @@
-# 2125 - Kochkor
+#2125 - Kochkor
 
 owner = CHG
 controller = CHG
@@ -12,32 +12,3 @@ base_tax = 4
 base_production = 4
 base_manpower = 6
 is_city = yes
-
-
-
-
-
-
-
-
-
-
-
-
-1462.1.1 = {
-	owner = KAS
-	controller = KAS
-	add_core = KAS
-}
-
-1650.1.1 = { religion = sunni } #Nestorian churches fade to obscurity
-1682.1.1 = {
-	owner = ZUN
-	controller = ZUN
-	add_core = ZUN
-}
-1755.1.1 = {
-	owner = QNG
-	controller = QNG
-	add_core = QNG
-}

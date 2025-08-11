@@ -6,7 +6,7 @@ estate_ghulams = {
 	# If true, country will get estate
 	trigger = {
 		has_dlc = "King of Kings"
-		NOT = { has_government_attribute = disables_estate_ghulams }
+		#NOT = { has_government_attribute = disables_estate_ghulams } #Commenting this out as it's not used anywhere. Remember to enable it again when we add a reform to disable the estate. - By DM
 		NOT = { has_disabled_estate = { estate = estate_ghulams } }
 		OR = {
 			has_government_attribute = enables_estate_ghulams

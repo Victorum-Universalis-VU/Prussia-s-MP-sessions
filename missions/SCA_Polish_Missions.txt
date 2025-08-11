@@ -1770,20 +1770,30 @@ poland_sca_slot_3_a = {
 			army_size_percentage = 0.9 
 			BOH = { 
 				OR = { 
-					alliance_with = ROOT
-					has_opinion = {
+					alliance_with = ROOT 
+					is_rival = ROOT 
+					has_opinion_modifier = {
 						who = ROOT
-						value = 200
+						modifier = insulted
+					}
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = scornfully_insulted
 					}
 					exists = no 
 				}
 			}
 			HUN = { 
 				OR = { 
-					alliance_with = ROOT
-					has_opinion = {
+					alliance_with = ROOT 
+					is_rival = ROOT 
+					has_opinion_modifier = {
 						who = ROOT
-						value = 200
+						modifier = insulted
+					}
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = scornfully_insulted
 					}
 					exists = no 
 				}

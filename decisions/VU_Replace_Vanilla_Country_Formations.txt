@@ -910,7 +910,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes
 			is_at_war = no
 			if = {
 				limit = {
@@ -2057,7 +2057,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes
 			is_at_war = no
 			OR = {
 				#Wurzburg was the theoretical holder of the title
@@ -2460,7 +2460,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes
 			is_nomad = no
 			owns_core_province = 53			# Luneburg
 			owns_core_province = 1758			# Hannover
@@ -4106,7 +4106,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 41				# Königsberg
+				province_id = 41				# Kï¿½nigsberg
 				AND = {
 					province_id = 43					# Danzig
 					ROOT = {
@@ -4142,7 +4142,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed    #Only left this here based on the fact that most of the HRE electors are Calvinist. - SF
 			}
-			owns_core_province = 41			# Königsberg
+			owns_core_province = 41			# Kï¿½nigsberg
 			OR = {
 				owns_core_province = 43				# Danzig
 				owns_core_province = 2995				# Stolp
@@ -4334,7 +4334,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 41				# Königsberg
+				province_id = 41				# Kï¿½nigsberg
 				AND = {
 					province_id = 43					# Danzig
 					ROOT = {
@@ -4369,7 +4369,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			has_institution = renaissance
-			owns_core_province = 41			# Königsberg
+			owns_core_province = 41			# Kï¿½nigsberg
 			OR = {
 				owns_core_province = 43				# Danzig
 				owns_core_province = 2995				# Stolp
@@ -4529,7 +4529,7 @@ country_decisions = {
 			NOT = {
 				tag = TEU
 			}
-			owns_core_province = 41			# Königsberg
+			owns_core_province = 41			# Kï¿½nigsberg
 			num_of_cities = 12			#If not one of the normal candidates, needs 12 provinces plus Koenigsberg to see
 		}
 		color = {
@@ -4539,7 +4539,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 41				# Königsberg
+				province_id = 41				# Kï¿½nigsberg
 				#VU - Hashed out in v1.36.2.*. By San Felipe
 				#owns_core_province = 42		# Warmia
 				province_id = 43				# Danzig
@@ -4584,7 +4584,7 @@ country_decisions = {
 				religion = reformed
 				religion = hussite
 			}
-			owns_core_province = 41			# Königsberg
+			owns_core_province = 41			# Kï¿½nigsberg
 			owns_core_province = 42			# Warmia
 			owns_core_province = 43			# Danzig
 			owns_core_province = 2995			# Stolp
@@ -5381,7 +5381,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes
 			is_at_war = no
 			NOT = {
 				exists = SAX
@@ -6058,9 +6058,9 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes
 			is_at_war = no
-			owns_core_province = 70			#Wurttemberg
+			#owns_core_province = 70			#Wurttemberg
 			owns_core_province = 1872			#Ulm
 			num_of_owned_provinces_with = {
 				value = 10
@@ -6140,6 +6140,137 @@ country_decisions = {
 					}
 					add_permanent_claim = root
 				}
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_swabia_flag
+			if = {
+				limit = {
+					OR = {
+						is_elector = yes
+						is_part_of_hre = no
+					}
+				}
+				set_government_rank = 8
+			}
+			swap_non_generic_missions = yes
+			if = {
+				limit = {
+					is_playing_custom_nation = no
+				}
+				country_event = {
+					id = ideagroups.1
+				}
+				#Swap Ideas
+			}
+			vu_colour_refresh = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	###################################################################################################
+	################################			Wurttemberg			 ######################################		#Note needs work
+	###################################################################################################
+	wurttemberg_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			#was_never_end_game_tag_trigger = yes
+			was_never_german_regional_tag_trigger = yes
+			NOT = {
+				has_country_flag = formed_swabia_flag
+			}
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = {
+				exists = WUR
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			primary_culture = swabian
+		}
+		color = {
+			250
+			50
+			50
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 70
+				AND = {
+					ROOT = {
+						NOT = {
+							num_of_owned_provinces_with = {
+								value = 8
+								area = wurttemburg_area
+								continent = europe
+								is_core = root
+							}
+						}
+						owns_core_province = 70
+						owns_core_province = 4713
+					}
+					culture = swabian
+				}
+			}
+			OR = {
+				NOT = {
+					owned_by = ROOT
+				}
+				NOT = {
+					is_core = ROOT
+				}
+			}
+		}
+		allow = {
+			#is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 70			#Wurttemberg
+			owns_core_province = 4713			#Urach
+			num_of_owned_provinces_with = {
+				value = 8
+				area = wurttemburg_area
+				continent = europe
+				is_core = root
+			}
+		}
+		effect = {
+			change_tag = WUR
+			restore_country_name_effect = yes
+			wurttemburg_area = {
+				limit = {
+					NOT = {
+						owned_by = root
+					}
+					NOT = {
+						is_permanent_claim = root
+					}
+				}
+				add_permanent_claim = root
+			}
+			baden_area = {
+				limit = {
+					NOT = {
+						owned_by = root
+					}
+					NOT = {
+						is_permanent_claim = root
+					}
+				}
+				add_permanent_claim = root
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -6734,22 +6865,21 @@ country_decisions = {
 				exists = WES
 			}
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes
 			is_nomad = no
 			AND = {
-				owns_core_province = 82				# Westfalen
-				owns_core_province = 1762				# Kassel
+				owns_core_province = 56				# Osnabruck
+				owns_core_province = 86				# Munster
 				OR = {
 					owns_core_province = 85					# Cologne
 					owns_core_province = 80					# Trier
-					owns_core_province = 78					# Mainz
-					owns_core_province = 86					# Munster
+					owns_core_province = 69					# Dortmund
 				}
 			}
 			num_of_owned_provinces_with = {
-				value = 12				#out of 22
+				value = 8				#out of 22
 				OR = {
-					culture = hannoverian
+					culture = westphalian
 					culture = hessian
 				}
 				region = north_german_region
@@ -6757,7 +6887,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			1762 = {
+			86 = {
 				move_capital_effect = yes
 			}
 			change_tag = WES
@@ -6765,14 +6895,14 @@ country_decisions = {
 			if = {
 				limit = {
 					NOT = {
-						government_rank = 8
+						government_rank = 7
 					}
 					OR = {
 						is_elector = yes
 						is_part_of_hre = no
 					}
 				}
-				set_government_rank = 8
+				set_government_rank = 7
 			}
 			capital_scope = {
 				add_base_tax = 1
@@ -14165,7 +14295,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 842				#Petén
+				province_id = 842				#Petï¿½n
 				province_id = 846				#Sotuta
 				province_id = 2633				#Mani
 				province_id = 2652				#Ecab
@@ -14196,7 +14326,7 @@ country_decisions = {
 			else = {
 				has_institution = feudalism
 			}
-			owns_core_province = 842			#Petén
+			owns_core_province = 842			#Petï¿½n
 			owns_core_province = 846			#Sotuta
 			owns_core_province = 2633			#Mani
 			owns_core_province = 2652			#Ecab

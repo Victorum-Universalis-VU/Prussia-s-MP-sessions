@@ -1,15 +1,15 @@
-namespace = ME_Mongolia_Events
+namespace = VU_Mongolia_Events
 
 country_event = {
-	id = ME_Mongolia_Events.1
-	title = ME_Mongolia_Events.EVTNAME1
-	desc = ME_Mongolia_Events.EVTDESC1
+	id = VU_Mongolia_Events.1
+	title = VU_Mongolia_Events.EVTNAME1
+	desc = VU_Mongolia_Events.EVTDESC1
 	picture = CITY_VIEW_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = ME_Mongolia_Events1.EVTOPT1
+		name = VU_Mongolia_Events1.EVTOPT1
 
 		ai_chance = { factor = 0 }
 
@@ -27,7 +27,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events1.EVTOPT2
+		name = VU_Mongolia_Events1.EVTOPT2
 
 		ai_chance = { factor = 100 }
 
@@ -51,9 +51,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.2
-	title = ME_Mongolia_Events.EVTNAME2
-	desc = ME_Mongolia_Events.EVTDESC2
+	id = VU_Mongolia_Events.2
+	title = VU_Mongolia_Events.EVTNAME2
+	desc = VU_Mongolia_Events.EVTDESC2
 	picture = RELIGION_eventPicture
 
 	hidden = yes
@@ -132,22 +132,22 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events2.EVTOPT1
+		name = VU_Mongolia_Events2.EVTOPT1
 
 		ai_chance = { factor = 100 }
 	}
 }
 
 country_event = {
-	id = ME_Mongolia_Events.3
-	title = ME_Mongolia_Events.EVTNAME3
-	desc = ME_Mongolia_Events.EVTDESC3
+	id = VU_Mongolia_Events.3
+	title = VU_Mongolia_Events.EVTNAME3
+	desc = VU_Mongolia_Events.EVTDESC3
 	picture = GOOD_WITH_MONARCH_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = ME_Mongolia_Events3.EVTOPT1
+		name = VU_Mongolia_Events3.EVTOPT1
 
 		ai_chance = { factor = 0.5 }
 
@@ -160,7 +160,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events3.EVTOPT2
+		name = VU_Mongolia_Events3.EVTOPT2
 
 		ai_chance = { factor = 0 }
 
@@ -220,7 +220,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events3.EVTOPT3
+		name = VU_Mongolia_Events3.EVTOPT3
 
 		ai_chance = { factor = 0.5 }
 
@@ -233,15 +233,15 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.4
-	title = ME_Mongolia_Events.EVTNAME4
-	desc = ME_Mongolia_Events.EVTDESC4
+	id = VU_Mongolia_Events.4
+	title = VU_Mongolia_Events.EVTNAME4
+	desc = VU_Mongolia_Events.EVTDESC4
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = ME_Mongolia_Events4.EVTOPT1
+		name = VU_Mongolia_Events4.EVTOPT1
 
 		ai_chance = { factor = 100 }
 
@@ -293,7 +293,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events4.EVTOPT2
+		name = VU_Mongolia_Events4.EVTOPT2
 
 		ai_chance = { factor = 0 }
 
@@ -319,9 +319,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.5
-	title = ME_Mongolia_Events.EVTNAME5
-	desc = ME_Mongolia_Events.EVTDESC5
+	id = VU_Mongolia_Events.5
+	title = VU_Mongolia_Events.EVTNAME5
+	desc = VU_Mongolia_Events.EVTDESC5
 	picture = CITY_VIEW_eventPicture
 
 	fire_only_once = yes
@@ -336,7 +336,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events5.EVTOPT1
+		name = VU_Mongolia_Events5.EVTOPT1
 
 		ai_chance = { factor = 100 }
 
@@ -354,12 +354,12 @@ country_event = {
 		}
 		1821 = {
 			custom_tooltip = IN_THREE_YEARS
-			province_event = { id = ME_Mongolia_Events.6 days = 1095 }
+			province_event = { id = VU_Mongolia_Events.6 days = 1095 }
 		}
 	}
 
 	option = {
-		name = ME_Mongolia_Events5.EVTOPT2
+		name = VU_Mongolia_Events5.EVTOPT2
 
 		ai_chance = { factor = 0 }
 
@@ -378,15 +378,15 @@ country_event = {
 }
 
 province_event = {
-	id = ME_Mongolia_Events.6
-	title = ME_Mongolia_Events.EVTNAME6
-	desc = ME_Mongolia_Events.EVTDESC6
+	id = VU_Mongolia_Events.6
+	title = VU_Mongolia_Events.EVTNAME6
+	desc = VU_Mongolia_Events.EVTDESC6
 	picture = CITY_VIEW_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = ME_Mongolia_Events6.EVTOPT1
+		name = VU_Mongolia_Events6.EVTOPT1
 
 		if = {
 			limit = {
@@ -412,9 +412,9 @@ province_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.7
-	title = ME_Mongolia_Events.EVTNAME7
-	desc = ME_Mongolia_Events.EVTDESC7
+	id = VU_Mongolia_Events.7
+	title = VU_Mongolia_Events.EVTNAME7
+	desc = VU_Mongolia_Events.EVTDESC7
 	picture = RELIGION_eventPicture
 
 	fire_only_once = yes
@@ -429,7 +429,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events7.EVTOPT1
+		name = VU_Mongolia_Events7.EVTOPT1
 
 		ai_chance = { factor = 0.75 }
 
@@ -437,7 +437,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events7.EVTOPT2
+		name = VU_Mongolia_Events7.EVTOPT2
 
 		ai_chance = { factor = 0.25 }
 
@@ -570,9 +570,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.8
-	title = ME_Mongolia_Events.EVTNAME8
-	desc = ME_Mongolia_Events.EVTDESC8
+	id = VU_Mongolia_Events.8
+	title = VU_Mongolia_Events.EVTNAME8
+	desc = VU_Mongolia_Events.EVTDESC8
 	picture = RELIGION_eventPicture
 
 	fire_only_once = yes
@@ -590,7 +590,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events8.EVTOPT1
+		name = VU_Mongolia_Events8.EVTOPT1
 
 		ai_chance = { factor = 0.1 }
 
@@ -606,7 +606,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events8.EVTOPT2
+		name = VU_Mongolia_Events8.EVTOPT2
 
 		ai_chance = { factor = 0.9 }
 
@@ -623,9 +623,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.9
-	title = ME_Mongolia_Events.EVTNAME9
-	desc = ME_Mongolia_Events.EVTDESC9
+	id = VU_Mongolia_Events.9
+	title = VU_Mongolia_Events.EVTNAME9
+	desc = VU_Mongolia_Events.EVTDESC9
 	picture = RELIGION_eventPicture
 
 	fire_only_once = yes
@@ -649,7 +649,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events9.EVTOPT1
+		name = VU_Mongolia_Events9.EVTOPT1
 
 		ai_chance = { factor = 0.75 }
 
@@ -670,7 +670,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events9.EVTOPT2
+		name = VU_Mongolia_Events9.EVTOPT2
 
 		ai_chance = { factor = 0.25 }
 
@@ -689,9 +689,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.10
-	title = ME_Mongolia_Events.EVTNAME10
-	desc = ME_Mongolia_Events.EVTDESC10
+	id = VU_Mongolia_Events.10
+	title = VU_Mongolia_Events.EVTNAME10
+	desc = VU_Mongolia_Events.EVTDESC10
 	picture = DIPLOMACY_eventPicture
 
 	fire_only_once = yes
@@ -710,7 +710,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events10.EVTOPT1
+		name = VU_Mongolia_Events10.EVTOPT1
 
 		ai_chance = { factor = 0.5 }
 
@@ -721,7 +721,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events10.EVTOPT2
+		name = VU_Mongolia_Events10.EVTOPT2
 
 		ai_chance = { factor = 0.5 }
 
@@ -733,9 +733,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.11
-	title = ME_Mongolia_Events.EVTNAME11
-	desc = ME_Mongolia_Events.EVTDESC11
+	id = VU_Mongolia_Events.11
+	title = VU_Mongolia_Events.EVTNAME11
+	desc = VU_Mongolia_Events.EVTDESC11
 	picture = RELIGION_eventPicture
 
 	fire_only_once = yes
@@ -754,7 +754,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events11.EVTOPT1
+		name = VU_Mongolia_Events11.EVTOPT1
 
 		ai_chance = { factor = 0.33 }
 
@@ -765,7 +765,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events11.EVTOPT2
+		name = VU_Mongolia_Events11.EVTOPT2
 
 		ai_chance = { factor = 0.33 }
 
@@ -776,7 +776,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events11.EVTOPT3
+		name = VU_Mongolia_Events11.EVTOPT3
 
 		ai_chance = { factor = 0.33 }
 
@@ -788,9 +788,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.12
-	title = ME_Mongolia_Events.EVTNAME12
-	desc = ME_Mongolia_Events.EVTDESC12
+	id = VU_Mongolia_Events.12
+	title = VU_Mongolia_Events.EVTNAME12
+	desc = VU_Mongolia_Events.EVTDESC12
 	picture = RELIGION_eventPicture
 
 	fire_only_once = yes
@@ -806,7 +806,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events12.EVTOPT1
+		name = VU_Mongolia_Events12.EVTOPT1
 
 		ai_chance = { factor = 0.5 }
 
@@ -831,7 +831,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events12.EVTOPT2
+		name = VU_Mongolia_Events12.EVTOPT2
 
 		ai_chance = { factor = 0.5 }
 
@@ -870,9 +870,9 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Mongolia_Events.13
-	title = ME_Mongolia_Events.EVTNAME13
-	desc = ME_Mongolia_Events.EVTDESC13
+	id = VU_Mongolia_Events.13
+	title = VU_Mongolia_Events.EVTNAME13
+	desc = VU_Mongolia_Events.EVTDESC13
 	picture = RELIGION_eventPicture
 
 	fire_only_once = yes
@@ -890,7 +890,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events13.EVTOPT1
+		name = VU_Mongolia_Events13.EVTOPT1
 
 		ai_chance = { factor = 0.5 }
 
@@ -908,7 +908,7 @@ country_event = {
 	}
 
 	option = {
-		name = ME_Mongolia_Events13.EVTOPT2
+		name = VU_Mongolia_Events13.EVTOPT2
 
 		ai_chance = { factor = 0.5 }
 

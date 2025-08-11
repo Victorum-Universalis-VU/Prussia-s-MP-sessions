@@ -1428,7 +1428,7 @@ technology = {
 		industrialization = 1
 		imperialism = 1
 	}
-	#Minié Ball
+	#Mini Ball
 	infantry_fire = 1
 	enable = dreyse_needle_gun
 	enable = minie_rifle
