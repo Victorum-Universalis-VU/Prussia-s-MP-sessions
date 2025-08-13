@@ -373,7 +373,9 @@ ruthenia_region = {
 		severia_area
 		vitebsk_area
 		polotsk_area
-		polesie_area	  
+		polesie_area	
+		braclaw_area
+		lwow_area
 	}
 }
 

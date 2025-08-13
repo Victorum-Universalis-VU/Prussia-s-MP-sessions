@@ -17,6 +17,9 @@ is_city = yes
 #Commerce
 center_of_trade = 1
 
+#Claimants
+add_core = BZL
+
 #Special Modifiers
 add_local_autonomy = 25
 

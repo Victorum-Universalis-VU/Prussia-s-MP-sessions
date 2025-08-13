@@ -2833,6 +2833,7 @@ GER_missions_4 = {
 				OR = {
 					region = poland_region
 					area = red_ruthenia_area
+					area = lwow_area
 				}
 			}
 		}

@@ -840,6 +840,7 @@ mos_rus_conquer_west = {
 				area = west_dniepr_area
 				area = eastern_volhynia_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = volhynia_area
 				area = polesie_area
 				area = podlasie_area
@@ -887,6 +888,7 @@ mos_rus_conquer_west = {
 				OR = {
 					area = eastern_volhynia_area
 					area = red_ruthenia_area
+					area = lwow_area
 					area = volhynia_area
 					area = polesie_area
 					area = podlasie_area
@@ -929,6 +931,7 @@ mos_rus_conquer_west = {
 				region = poland_region
 				area = eastern_volhynia_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = volhynia_area
 				area = polesie_area
 				area = podlasie_area
@@ -940,6 +943,7 @@ mos_rus_conquer_west = {
 				OR = {
 					area = eastern_volhynia_area
 					area = red_ruthenia_area
+					area = lwow_area
 					area = volhynia_area
 					area = polesie_area
 					area = podlasie_area
@@ -1067,6 +1071,13 @@ mos_rus_conquer_west = {
 				}
 				add_russian_claim = yes
 			}
+			lwow_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_russian_claim = yes
+			}
 		}
 
 		ai_weight = {
@@ -1091,6 +1102,7 @@ mos_rus_conquer_west = {
 				area = transylvania_area
 				area = carpathian_ruthenia_area
 				area = red_ruthenia_area
+				area = lwow_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -1132,6 +1144,10 @@ mos_rus_conquer_west = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			red_ruthenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lwow_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1780,6 +1796,13 @@ mos_rus_conquer_southwest = {
 				}
 				add_russian_claim = yes
 			}
+			braclaw_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_russian_claim = yes
+			}
 			moldavia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -1839,6 +1862,7 @@ mos_rus_conquer_southwest = {
 		provinces_to_highlight = {
 			OR = {
 				area = podolia_volhynia_area
+				area = braclaw_area
 				area = moldavia_area
 				area = bukovina_area
 				area = western_moldovia
@@ -1850,6 +1874,10 @@ mos_rus_conquer_southwest = {
 		}
 		trigger = {
 			podolia_volhynia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			braclaw_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

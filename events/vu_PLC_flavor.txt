@@ -1539,6 +1539,7 @@ country_event = { # Sejm of Lublin 1569
 					area = east_dniepr_area
 					area = zaporizhia_area
 					area = podolia_volhynia_area
+					area = braclaw_area
 					area = volhynia_area
 					area = eastern_volhynia_area
 					area = sloboda_ukraine_area

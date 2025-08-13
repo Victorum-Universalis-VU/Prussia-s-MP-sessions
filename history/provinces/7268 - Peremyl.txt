@@ -17,6 +17,7 @@ hre = no
 #Claimants
 add_claim = LIT			# Going for just claim, to reduce big opinion penalties
 add_core = VOL
+add_core = PMY
 
 #Buildings
 

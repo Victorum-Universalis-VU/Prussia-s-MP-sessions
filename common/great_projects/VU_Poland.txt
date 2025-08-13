@@ -1,0 +1,121 @@
+#Shrine of St. Adalbert's finger
+vu_primatial_basilica = {
+	start = 4526
+	date = 1.01.01
+	time = { months = 120 }
+	build_cost = 1000
+	can_be_moved = no
+	starting_tier = 1
+	type = monument
+	build_trigger = { }
+	on_built = { }
+	on_destroyed = { }
+	can_use_modifiers_trigger = {
+		OR = { 
+			culture_group = west_slavic
+			culture_group = slavic
+		}
+		religion = catholic
+		has_owner_religion = yes
+		OR = {
+			has_owner_culture = yes
+			owner = {
+				OR = { 
+					culture_group = west_slavic
+					culture_group = slavic
+				}
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		OR = { 
+			culture_group = west_slavic
+			culture_group = slavic
+		}
+		religion = catholic
+		OR = {
+			has_owner_culture = yes
+			owner = {
+				OR = { 
+					culture_group = west_slavic
+					culture_group = slavic
+				}
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0	}
+		cost_to_upgrade = {	factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			papal_influence_from_cardinals = 0.15
+			tolerance_own = 0.5
+		}
+		on_upgraded = {
+			add_cardinal = yes
+			owner = {
+				define_advisor = {
+					type = inquisitor
+					culture = ROOT
+					religion = catholic
+					skill = 1
+					discount = yes
+				}
+			}
+		}
+	}
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			papal_influence_from_cardinals = 0.25
+			legitimacy = 0.5
+			tolerance_own = 1
+		}
+		on_upgraded = {
+			owner = {
+				define_advisor = {
+					type = inquisitor
+					culture = ROOT
+					religion = catholic
+					skill = 2
+					discount = yes
+				}
+			}
+		}
+	}
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+			papal_influence_from_cardinals = 0.33
+			legitimacy = 1
+			tolerance_own = 1.5
+		}
+		on_upgraded = {
+			owner = {
+				define_advisor = {
+					type = inquisitor
+					culture = ROOT
+					religion = catholic
+					skill = 3
+					discount = yes
+				}
+			}
+		}
+	}
+}

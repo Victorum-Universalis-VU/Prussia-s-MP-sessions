@@ -13,13 +13,7 @@ trade_goods = lumber
 is_city = yes
 hre = no
 
-
-
-
-
-
-
-
-
+#Claimants
+add_core = CSN
 
 1500.1.1 = { religion = catholic }

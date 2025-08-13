@@ -13,6 +13,9 @@ trade_goods = citrus
 is_city = yes
 hre = no
 
+#Claimants
+add_core = BGS
+
 
 
 

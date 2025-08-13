@@ -14,6 +14,9 @@ base_manpower = 2
 capital = "Gomel"
 is_city = yes
 
+#Claimants
+add_core = CZE
+
 #Special Modifiers
 add_local_autonomy = 50
 

@@ -5047,7 +5047,9 @@ estate_magnates_settle_rus = {
 					area = white_ruthenia_area
 					area = minsk_area
 					area = red_ruthenia_area
+					area = lwow_area
 					area = podolia_volhynia_area
+					area = braclaw_area
 					area = pripyat_area
 					area = volhynia_area
 				}
@@ -5074,7 +5076,9 @@ estate_magnates_settle_rus = {
 					area = white_ruthenia_area
 					area = minsk_area
 					area = red_ruthenia_area
+					area = lwow_area
 					area = podolia_volhynia_area
+					area = braclaw_area
 					area = pripyat_area
 					area = volhynia_area
 				}
@@ -5096,7 +5100,9 @@ estate_magnates_settle_rus = {
 				area = white_ruthenia_area
 				area = minsk_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = podolia_volhynia_area
+				area = braclaw_area
 				area = pripyat_area
 				area = volhynia_area
 			}

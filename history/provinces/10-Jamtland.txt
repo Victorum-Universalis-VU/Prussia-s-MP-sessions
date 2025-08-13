@@ -17,6 +17,7 @@ is_city = yes
 #Claimants
 add_core = NOR
 add_core = TRD
+add_core = JTL
 
 #History by SF
 1440.1.1 = { owner = NOR controller = NOR add_core = NOR } # Norwegian territorial lands - By San Felipe

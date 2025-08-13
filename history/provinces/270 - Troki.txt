@@ -16,3 +16,6 @@ is_city = yes
 
 #Buildings
 #fort_15th = yes #Trakai Castles "Little Marienburg"
+
+#Claimants
+add_core = TKA

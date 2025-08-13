@@ -2465,6 +2465,7 @@ HUN_ideas = {
 	
 	hun_renaissanse_knowledge = {
 		global_unrest = -1
+		institution_spread_from_true_faith = 0.1
 		effect = {
 			if = {
 				limit = {
@@ -2480,6 +2481,7 @@ HUN_ideas = {
 	}
 	bulwark_of_christianity = {
 		global_manpower_modifier = 0.2
+		land_morale = 0.15
 		effect = {
 			if = {
 				limit = {
@@ -2495,6 +2497,7 @@ HUN_ideas = {
 	}
 	found_the_black_army = {
 		discipline = 0.05
+		army_tradition = 0.5
 		effect = {
 			if = {
 				limit = {
@@ -2509,7 +2512,7 @@ HUN_ideas = {
 		}
 	}
 	reformed_coinage = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 		gold_depletion_chance_modifier = -0.25
 		effect = {
 			if = {
@@ -2525,7 +2528,7 @@ HUN_ideas = {
 		}
 	}
 	curtailed_peasantry = {
-		production_efficiency = 0.1
+		production_efficiency = 0.15
 		effect = {
 			if = {
 				limit = {

@@ -23,6 +23,7 @@ fort_15th = yes #Lutsk Upper Castle - Main Lithuanian Fortress in the south.
 
 #Claimants
 add_core = VOL
+add_core = VYN
 
 #Commerce
 center_of_trade = 1

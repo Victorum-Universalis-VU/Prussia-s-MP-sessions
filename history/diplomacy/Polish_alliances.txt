@@ -68,9 +68,25 @@ dependency = {
 ###############
 
 dependency = {
-    subject_type = voivodeship
+    subject_type = polish_duchy
     first = POL
     second = MAZ
+    start_date = 1444.1.1
+    end_date = 1526.3.9
+}
+
+dependency = {
+    subject_type = polish_duchy
+    first = POL
+    second = BLZ
+    start_date = 1444.1.1
+    end_date = 1526.3.9
+}
+
+dependency = {
+    subject_type = christian_archbishopric
+    first = POL
+    second = GNZ
     start_date = 1444.1.1
     end_date = 1526.3.9
 }

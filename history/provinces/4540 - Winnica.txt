@@ -17,6 +17,9 @@ is_city = yes
 #Buildings
 #fort_15th = yes #Bratslav Castle
 
+#Claimants
+add_core = BCL
+
 #History by SF
 1444.1.11 = {
 	owner = BSV

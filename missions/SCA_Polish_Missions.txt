@@ -4280,6 +4280,11 @@ poland_sca_slot_5_branching_lit_hre = {
 				country_or_non_sovereign_subject_holds = ROOT
 				num_of_times_improved = 1 
 			}
+			braclaw_area = {
+				type = all 
+				country_or_non_sovereign_subject_holds = ROOT
+				num_of_times_improved = 1 
+			}
 			282 = { 
 				country_or_non_sovereign_subject_holds = ROOT 
 				num_of_times_improved = 2 
@@ -4353,6 +4358,10 @@ poland_sca_slot_5_branching_lit_hre = {
 						type = all 
 						country_or_non_sovereign_subject_holds = ROOT 
 					}
+					braclaw_area = {
+						type = all 
+						country_or_non_sovereign_subject_holds = ROOT 
+					}
 					LIT = { is_subject_of = ROOT }
 				}
 				country_event = { id = flavor_pol.32 } 
@@ -4379,6 +4388,16 @@ poland_sca_slot_5_branching_lit_hre = {
 					}
 				}
 				podolia_volhynia_area = {
+					add_province_modifier = {
+						name = pol_prosperity_in_ukraine_modifier
+						duration = 7300 
+					}
+					if = {
+						limit = { has_dlc = "Mandate of Heaven" } 
+						add_prosperity = 15 
+					}
+				}
+				braclaw_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
 						duration = 7300 
@@ -4601,6 +4620,7 @@ poland_sca_slot_5_branching_lit_east = {
 						area = west_dniepr_area
 						area = east_dniepr_area
 						area = podolia_volhynia_area
+						area = braclaw_area
 					}
 					NOT = { 
 						num_of_times_improved = 1
@@ -4632,6 +4652,11 @@ poland_sca_slot_5_branching_lit_east = {
 				num_of_times_improved = 1 
 			}
 			podolia_volhynia_area = {
+				type = all 
+				country_or_non_sovereign_subject_holds = ROOT
+				num_of_times_improved = 1 
+			}
+			braclaw_area = {
 				type = all 
 				country_or_non_sovereign_subject_holds = ROOT
 				num_of_times_improved = 1 
@@ -4694,6 +4719,10 @@ poland_sca_slot_5_branching_lit_east = {
 						type = all 
 						country_or_non_sovereign_subject_holds = ROOT 
 					}
+					braclaw_area = {
+						type = all 
+						country_or_non_sovereign_subject_holds = ROOT 
+					}
 					LIT = { is_subject_of = ROOT }
 				}
 				country_event = { id = flavor_pol.32 } 
@@ -4720,6 +4749,16 @@ poland_sca_slot_5_branching_lit_east = {
 					}
 				}
 				podolia_volhynia_area = {
+					add_province_modifier = {
+						name = pol_prosperity_in_ukraine_modifier
+						duration = 7300 
+					}
+					if = {
+						limit = { has_dlc = "Mandate of Heaven" } 
+						add_prosperity = 15 
+					}
+				}
+				braclaw_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
 						duration = 7300 

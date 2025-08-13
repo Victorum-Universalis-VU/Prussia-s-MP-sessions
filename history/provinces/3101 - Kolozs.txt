@@ -16,6 +16,7 @@ hre = no
 
 #Claimants
 add_core = HUN
+add_core = BTH
 
 #Commerce
 center_of_trade = 1

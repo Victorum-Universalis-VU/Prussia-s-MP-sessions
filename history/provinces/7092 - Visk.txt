@@ -16,3 +16,4 @@ hre = no
 
 #Claimants
 add_core = UHU
+add_core = BCZ

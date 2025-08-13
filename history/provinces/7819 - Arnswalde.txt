@@ -1,9 +1,9 @@
 #7819 - Arnswalde
 
 #Default
-owner = PZN
-controller = PZN
-add_core = PZN
+owner = TEU
+controller = TEU
+add_core = TEU
 culture = polish
 religion = catholic
 capital = "Driesen"		# Castle in Driesen was much more important in early history of the region than Arnswalde

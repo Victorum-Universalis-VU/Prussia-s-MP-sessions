@@ -13,14 +13,8 @@ base_manpower = 2
 is_city = yes
 add_core = LIT
 
-
-
-
-
-
-
-
-
+#Claimants
+add_core = RSE
 
 1475.1.1 = { religion = catholic }
 1569.1.1 = { capital = "Raseiniai" }

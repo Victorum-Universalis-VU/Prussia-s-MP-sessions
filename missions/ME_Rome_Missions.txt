@@ -366,6 +366,13 @@ ROM_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			lwow_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			hinter_pommern_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -412,6 +419,7 @@ ROM_missions_2 = {
 				area = wielkopolska_area
 				area = east_prussia_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = hinter_pommern_area
 				province_id = 281
 				province_id = 2969
@@ -429,6 +437,10 @@ ROM_missions_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			red_ruthenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lwow_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

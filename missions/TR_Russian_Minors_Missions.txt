@@ -941,6 +941,10 @@ vu_tr_ukrainian_minors_missions_1 = {
 							type = all
 							owned_by = ROOT
 						}
+						lwow_area = {
+							type = all
+							owned_by = ROOT
+						}
 					}
 				}
 			}
@@ -962,11 +966,19 @@ vu_tr_ukrainian_minors_missions_1 = {
 							type = all
 							owned_by = ROOT
 						}
+						lwow_area = {
+							type = all
+							owned_by = ROOT
+						}
 					}
 				}
 			}
 			ELSE = {
 				red_ruthenia_area = {
+					type = all
+					owned_by = ROOT
+				}
+				lwow_area = {
 					type = all
 					owned_by = ROOT
 				}
@@ -1414,6 +1426,17 @@ vu_tr_ukrainian_minors_missions_5 = {
 				add_permanent_claim = ROOT
 			}
 			podolia_volhynia_area = {
+				limit = {
+					NOT = {
+						is_core = ROOT
+					}
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			braclaw_area = {
 				limit = {
 					NOT = {
 						is_core = ROOT

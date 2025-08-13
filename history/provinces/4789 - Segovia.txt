@@ -23,6 +23,9 @@ road_system = yes
 barracks = yes
 training_fields = yes
 
+#Claimants
+add_core = SGV
+
 #Commerce
 center_of_trade = 2
 

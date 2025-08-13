@@ -17,5 +17,8 @@ base_manpower = 2
 #Buildings
 fort_15th = yes
 
+#Claimants
+add_core = SCV
+
 #Commerce
 center_of_trade = 1
