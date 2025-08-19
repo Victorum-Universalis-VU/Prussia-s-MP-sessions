@@ -19,5 +19,4 @@ trade_goods = lumber
     owner = BUR
     controller = BUR
     add_core = BUR
-    remove_core = FDB
 }

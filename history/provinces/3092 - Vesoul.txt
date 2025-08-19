@@ -14,14 +14,10 @@ base_production = 3
 trade_goods = vegetables
 base_manpower = 2 
 
-#Claimants
-add_core = FCM
-
 #History by SF
 1444.11.11 = {
     owner = BUR
     controller = BUR
     add_core = BUR
-    remove_core = FDB
 }
 

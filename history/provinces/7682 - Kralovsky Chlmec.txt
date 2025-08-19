@@ -17,6 +17,7 @@ is_city = yes
 #Claimants
 add_core = SLO
 add_core = UHU
+add_core = AGM
 
 #Province Modifiers
 add_permanent_province_modifier = {

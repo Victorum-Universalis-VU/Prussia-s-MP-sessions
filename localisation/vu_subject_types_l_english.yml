@@ -509,13 +509,13 @@
  cb_feudal_republic_desc: "The Feudal Republic grew bold and tries to break free from our grip."
  #
  #New Feudal Republic
- feudal_republic: "Repubblica Feudale"
- feudal_republic_title: "Repubblica Feudale"
- feudal_republic_title_plural: "Repubbliche Feudali"
- feudal_republic_is_our: "§Y$NAME$§! is our Repubblica Feudale"
- feudal_republic_long_desc: "A §Repubblica Feudale§! or Feudal Republic diverts trade and embargos their Overlords economic rivals, thus increasing the former's economic presence, activity and dominance in the region. Although Repubbliche Feudali follow their Overlord or Signore Supremo into wars and are free to conduct limited diplomacy with their neighbours such as attack with them, Repubbliche Feudali can be annexed after a period of time, provided their relations with the overlord is high and vice versa. A Repubblica Feudale can be established by independent generic nations that have a primary culture in the §YLatin§! culture group or have the Oligarch or have a custom reform that allows creating this subject type. It can be established in independent one province minors or in own vassals.\n"
- feudal_republic_no_overlord_dow: "You cannot declare war on your own Repubblica Feudale."
- feudal_republic_overlord_title: "Signore Supremo"
+ feudal_republic: "Feudal Republic"
+ feudal_republic_title: "Feudal Republic"
+ feudal_republic_title_plural: "Feudal Republic"
+ feudal_republic_is_our: "§Y$NAME$§! is our Feudal Republic"
+ feudal_republic_long_desc: "A §Feudal Republic§! diverts trade and embargos their Overlords economic rivals, thus increasing the former's economic presence, activity and dominance in the region. Although Feudal Republics follow their Overlord into wars and are free to conduct limited diplomacy with their neighbours such as attack with them, Feudal Republics can be annexed after a period of time, provided their relations with the overlord is high and vice versa. A Feudal Republic can be established by independent generic nations that have a primary culture in the §YLatin§! culture group or have the Oligarch or have a custom reform that allows creating this subject type. It can be established in independent one province minors or in own vassals.\n"
+ feudal_republic_no_overlord_dow: "You cannot declare war on your own Feudal Republic."
+ feudal_republic_overlord_title: "Feudal Overlord"
  #
  #New VU 1.37.* Generic Merchantlist Republic by SF
  merchantlist_republic: "Repubblica Mercantile"

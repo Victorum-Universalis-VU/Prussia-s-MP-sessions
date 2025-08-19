@@ -17,6 +17,7 @@ hre = no
 #Claimants
 add_core = LHU
 add_core = SLO
+add_core = CVS
 
 #Commerce
 center_of_trade = 1

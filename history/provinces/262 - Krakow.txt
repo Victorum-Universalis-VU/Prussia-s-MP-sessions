@@ -25,6 +25,7 @@ fort_15th = yes
 
 #Claimants
 add_core = KRA
+add_core = KKW
 
 #Province Modifier
 add_permanent_province_modifier = {

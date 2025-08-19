@@ -1,4 +1,11 @@
 ﻿l_english:
+ #VU - Polish_Monuments
+ great_project_vu_primatial_basilica: "Primatial Basilica"
+ vu_primatial_basilica: "Primatial Basilica"
+ vu_primatial_basilica_title: "Construct Primatial Basilica."
+ construct_vu_primatial_basilica_title: "Construct Primatial Basilica."
+ construct_vu_primatial_basilica_desc: "The Royal Gniezno Cathedral “The Primatial” Cathedral Basilica of the Assumption of the Blessed Virgin Mary and Shrine of St. Adalbert, is a brick Gothic cathedral located in the historic city of Gniezno that has served as the coronation place for several Polish monarchs and as the seat of Polish church officials continuously for nearly 1000 years.; Costs 4000."
+ #
  #VU - Portuguese_Monuments
  #
  great_project_vu_palacio_nacional_de_mafra: "Palácio Nacional de Mafra"

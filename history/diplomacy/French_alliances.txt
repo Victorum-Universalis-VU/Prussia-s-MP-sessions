@@ -55,6 +55,14 @@ dependency = {
 }
 
 # Feudal Dependencies
+# France-Vergy
+dependency = {
+    subject_type = french_lordship
+    first = FRA
+    second = VGY
+    start_date = 1202.1.1
+    end_date = 1361.1.1
+}
 # France-Albi
 #dependency = {
 #    subject_type = french_viscounty
@@ -150,8 +158,8 @@ dependency = {
     subject_type = french_county
     first = FRA
     second = NEV
-    start_date = 1193.1.1
-    end_date = 1539.1.1 #Integrated into the Kingdom of France and then fully recognised as a province in 1659.
+    start_date = 1215.06.15
+    end_date = 1384.1.1 #Integrated into the Kingdom of France and then fully recognised as a province in 1659.
 }
 
 # France-Rethel
@@ -260,14 +268,6 @@ alliance = {
 	second = PRO
 	start_date = 1431.1.25
 	end_date = 1453.7.18
-}
-
-# Burgundy - Brittany alliance
-alliance = {
-	first = BUR
-	second = BRI
-	start_date = 1435.9.21
-	end_date = 1441.1.2
 }
 
 # Auld Alliance

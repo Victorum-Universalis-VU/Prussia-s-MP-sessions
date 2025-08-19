@@ -728,7 +728,7 @@ country_event = {
                 }
                 define_ruler = {
                     name = "Marie"
-                    dynasty = "de Bourgogne"
+                    dynasty = "de Valois-Bourgogne"
                     culture = burgundian
                     age = 20
                     claim = 95

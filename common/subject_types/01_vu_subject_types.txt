@@ -6928,6 +6928,7 @@ christian_archbishopric = {
     enforce_culture = no
     seize_territory = no
     placate_rulers = yes
+    seize_court_resources = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -16912,6 +16913,7 @@ feudal_republic = {
     diplomacy_subject_sprite = GFX_diplomacy_feudal_republic_amvassal
 
     # Properties:
+    takes_diplo_slot = no
     transfer_trade_if_merchant_republic = yes
     can_be_annexed = yes
     has_power_projection = no

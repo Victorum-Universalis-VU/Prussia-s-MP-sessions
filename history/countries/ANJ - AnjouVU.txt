@@ -1,4 +1,4 @@
-#ANJ - ProvenceVU (Anjou) 
+#ANJ - AnjouVU (Anjou) 
 government = monarchy
 add_government_reform = eue_duchy_reform
 government_rank = 6 #Duchy
@@ -11,7 +11,7 @@ capital = 178
 historical_rival = NRM
 historical_rival = BRI
 
-#History copied from vanilla Provence
+#History by Prussia
 1434.11.16 = {
 	monarch = {
 		name = "René I"

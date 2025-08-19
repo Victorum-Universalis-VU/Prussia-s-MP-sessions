@@ -643,6 +643,11 @@ spriteTypes = {
         name = "GFX_great_project_vu_spa_hot_springs"
         texturefile = "gfx//interface//great_projects//VU_Belgium//great_project_vu_spa_hot_springs.dds"
     }
+    #New Polish additions
+    spriteType = {
+        name = "GFX_great_project_vu_primatial_basilica"
+        texturefile = "gfx//interface//great_projects//VU_Poland//great_project_vu_primatial_basilica.dds"
+    }
     #New Portuguese additions
     spriteType = {
         name = "GFX_great_project_vu_palacio_nacional_de_mafra"

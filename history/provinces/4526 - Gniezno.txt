@@ -14,12 +14,15 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 
+#Buildings
+grand_cathedral = yes #Archbishopric of Gniezno
+
 #Claimants
 add_core = POL
 
 #History by SF
 1444.1.1 = {
-	owner = POL
-	controller = POL
-	add_core = POL
+	owner = GNZ
+	controller = GNZ
+	add_core = GNZ
 }

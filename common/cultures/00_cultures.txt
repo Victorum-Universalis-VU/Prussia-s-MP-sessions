@@ -4534,6 +4534,9 @@ french = {
 	}
 	burgundian = {
         graphical_culture = westerngfx
+		dynasty_names = {
+			"von Andechs" "de Valois-Bourgogne" "de Bourgogne" "de Vergy"
+		}
 		primary = BUR
 	}
 	occitain = {
@@ -4604,6 +4607,9 @@ french = {
 	angevin_culture = {
 	    graphical_culture = westerngfx
 		primary = PRO
+		dynasty_names = {
+            "de Valois-Anjou" "de Barcelona"	
+		}
 	}
 	#VULegacy Culture
 	lorraine_culture = {

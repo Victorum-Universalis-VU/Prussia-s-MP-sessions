@@ -927,6 +927,7 @@ vassalize_lithuania_provinces = {
 		area = mazovia_area
 		area = volhynia_area
 		area = podolia_volhynia_area
+		area = braclaw_area
 		area = white_ruthenia_area
 		#area = central_galicia_area
 		area = eastern_volhynia_area

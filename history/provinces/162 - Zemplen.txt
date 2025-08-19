@@ -20,6 +20,7 @@ fort_15th = yes
 #Claimants
 add_core = UHU
 add_core = SLO
+add_core = BAS
 
 #Commerce
 center_of_trade = 1

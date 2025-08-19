@@ -1,3 +1,4 @@
+#Updated for VU Vasco Da Gama v1.37 by DM
 namespace = SF_Edumacation_Events
 #Revisted broken file and fixed on 25 Sept 2023 by San Felipe
 #DonBrom was here on 24-9-2023
@@ -13,7 +14,11 @@ country_event = {
 		has_regency = no
 		#government = monarchy #all get to suffer
 		#has_institution = feudalism #Kom: Otherwise it doesn't work for nomads etc
-		NOT = { government = native }
+		NOT = { 
+			government = native
+			government = republic #Because one would assume that these individuals would've already been privated educated prior to becoming leaders. - DM
+			government = theocracy #Because one would assume that these individuals would've already been educated in the church prior to becoming leaders. - DM
+		}
 		NOT = {
 			OR = {
 				ruler_age = 40
@@ -305,7 +310,11 @@ country_event = {
 		}
 		#government = monarchy #all get to suffer
 		#has_institution = feudalism #Kom: Otherwise it doesn't work for nomads etc
-		NOT = { government = native }
+		NOT = { 
+			government = native
+			government = republic #Because one would assume that these individuals would've already been privated educated prior to becoming leaders. - DM
+			government = theocracy #Because one would assume that these individuals would've already been educated in the church prior to becoming leaders. - DM
+		}
 	}
 	immediate = {
 	}

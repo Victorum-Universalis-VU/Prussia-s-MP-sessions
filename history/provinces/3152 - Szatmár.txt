@@ -17,3 +17,4 @@ is_city = yes
 #Claimants
 add_core = TRA
 add_core = UHU
+add_core = ZPL

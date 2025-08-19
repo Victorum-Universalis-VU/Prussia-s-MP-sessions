@@ -516,7 +516,21 @@ polotsk_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			braclaw_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			red_ruthenia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lwow_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -549,7 +563,9 @@ polotsk_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = podolia_volhynia_area
+				area = braclaw_area
 				area = red_ruthenia_area
+				area = lwow_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -559,7 +575,15 @@ polotsk_missions_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			braclaw_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			red_ruthenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lwow_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

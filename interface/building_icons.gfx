@@ -1525,7 +1525,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 
-	#Relay Stations
+	#Flag Stations
 	spriteType = {
 		name = "GFX_relay_stations_easterngfx"
 		texturefile = "gfx//interface//buildings//couriers//relay_stations//western//latin_relay_stations.tga"

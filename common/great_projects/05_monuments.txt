@@ -503,7 +503,7 @@ warsaw_castle = {
 
 vilnius_basilica = {
 	# province it starts in
-	start = 272		#Vilnius
+	start = 3404		#Vilnius
 	
 	# date built in real life
 	date = 1387.1.1		#Construction began when Lithuania coverted to christianity

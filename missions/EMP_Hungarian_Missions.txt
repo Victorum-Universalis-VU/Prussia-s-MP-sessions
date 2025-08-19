@@ -97,6 +97,7 @@ emp_hun_poland_branch = {
 			OR = {
 				area = malopolska_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = sandomierz_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -108,6 +109,7 @@ emp_hun_poland_branch = {
 					OR = {
 						area = malopolska_area
 						area = red_ruthenia_area
+						area = lwow_area
 						area = sandomierz_area
 					}
 				}

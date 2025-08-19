@@ -17,3 +17,4 @@ hre = no
 #Claimants
 add_core = UHU
 add_core = SLO
+add_core = ADS

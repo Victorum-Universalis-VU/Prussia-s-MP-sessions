@@ -702,7 +702,7 @@ regimental_camp = {
 	cost = 125	#VU - Decreased from 200 to 150 in v1.36.2.* by San Felipe
 	time = 12
 	modifier = {
-		land_forcelimit = 0.5
+		land_forcelimit = 0.15 #Decreased this from 0.5 to 0.1 (to prevent tags earlier on from having huge armies) but we'll need to monitor this - DM
 		regiment_recruit_speed = -0.15
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.1
@@ -800,7 +800,7 @@ conscription_center = {
 	time = 24
 	make_obsolete = regimental_camp
 	modifier = {
-		land_forcelimit = 1
+		land_forcelimit = 0.3 #Decreased this from 1 to 0.2 (to prevent tags earlier on from having huge armies) but we'll need to monitor this - DM
 		regiment_recruit_speed = -0.25
 		#VU 2.0 Debufs
 		local_warscore_cost_modifier = 0.2
@@ -902,7 +902,7 @@ shipyard = {
 	#VU AddOn notes - leaving cost here despite lowering most others. Dramtically improving naval capabilities was a bit overpowered, in my opinion.
 	#Especially compared to the regimental camp with half effect at double the price.
 	modifier = {
-		naval_forcelimit = 0.5
+		naval_forcelimit = 0.15
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
@@ -987,7 +987,7 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 1
+		naval_forcelimit = 0.3 #Decreased from 1 to 0.3 by DM
 		ship_recruit_speed = -0.5
 		local_ship_repair = 0.5
 		local_has_man_of_war = yes
@@ -3371,7 +3371,7 @@ weapons = {
 	modifier = {
 		trade_goods_size = 0.4		#VU Addon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
 		trade_goods_size_modifier = 0.25		#VU AddOn changed from flat trade good size increase. Logic above at the top of Manufactories entries.
-		land_forcelimit = 0.5		#VU AddOn new - Just a fun little new bonus
+		#land_forcelimit = 0.5		#VU AddOn new - Just a fun little new bonus
 		#VU 3.0 Manufactory
 		local_governing_cost_increase = 10
 	}
@@ -4109,14 +4109,14 @@ soldier_households = {
 	}
 	modifier = {
 		local_manpower = 0.5
-		land_forcelimit = 0.5
+		#land_forcelimit = 0.05
 		local_regiment_cost = -0.15
 		#VU 3.0 Manufactory
 		local_governing_cost_increase = 10
 	}
 	bonus_modifier = {
 		local_manpower = 0.5
-		land_forcelimit = 0.5
+		#land_forcelimit = 0.5
 		local_regiment_cost = -0.15
 	}
 	onmap = no

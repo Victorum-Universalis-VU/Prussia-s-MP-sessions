@@ -16,6 +16,7 @@ is_city = yes
 
 #Claimants
 add_core = WAL
+add_core = YPS
 
 #History by SF
 1215.6.15 = { owner = BUL controller = BUL add_core = BUL } # Bulgarian territorial lands - By San Felipe

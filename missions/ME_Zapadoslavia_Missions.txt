@@ -331,6 +331,13 @@ ZCV_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			lwow_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			volhynia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -358,6 +365,7 @@ ZCV_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = red_ruthenia_area
+				area = lwow_area
 				area = volhynia_area
 				area = podlasie_area
 			}
@@ -365,6 +373,10 @@ ZCV_missions_3 = {
 		}
 		trigger = {
 			red_ruthenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lwow_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

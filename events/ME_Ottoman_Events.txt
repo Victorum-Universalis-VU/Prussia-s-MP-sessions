@@ -1709,6 +1709,13 @@ country_event = { #Right Bank Ukraine
 			cede_province = ZAZ
 			add_core = ZAZ
 		}
+		braclaw_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			cede_province = ZAZ
+			add_core = ZAZ
+		}
 		create_subject = {
 			who = ZAZ
 			subject_type = vassal

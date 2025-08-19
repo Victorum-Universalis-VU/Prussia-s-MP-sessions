@@ -7,7 +7,7 @@ add_core = BOH
 capital = "Praha"
 culture = czech
 religion = hussite
-trade_goods = books
+trade_goods = paper
 base_tax = 10
 base_production = 8
 base_manpower = 4
@@ -16,6 +16,9 @@ is_city = yes
 #Buildings
 fort_15th = yes
 cinema = yes #Because Hussites like fun, unlike Calvinists. - D
+
+#Claimants
+add_core = PGE
 
 #Commerce
 center_of_trade = 4

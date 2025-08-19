@@ -1,9 +1,9 @@
 #7939 - Cuiseaux
 
 #Default
-owner = FDB
-controller = FDB
-add_core = FDB
+owner = FCM
+controller = FCM
+add_core = FCM
 culture = burgundian
 religion = catholic
 capital = "Louhans"
@@ -19,5 +19,4 @@ hre = yes
     owner = BUR
     controller = BUR
     add_core = BUR
-    remove_core = FDB
 }

@@ -322,6 +322,13 @@ hun_south_group = {
 					}
 					add_permanent_claim = ROOT
 				}
+				lwow_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
 				sandomierz_area = {
 					limit = {
 						NOT = { is_core = ROOT }

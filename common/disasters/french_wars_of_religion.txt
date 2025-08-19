@@ -115,7 +115,7 @@ french_wars_of_religion = {
 			100 = french_wars_of_religion.5 #The Assassination of Henri of Guise
 			# french_wars_of_religion.6, french_wars_of_religion.8, french_wars_of_religion.13 are province events
 			# french_wars_of_religion.7, french_wars_of_religion.9 triggered from sieges
-			# french_wars_of_religion.10-12 for foreign powers (BUR, CAS, SPA, NAV, ENG, GBR, NED)
+			# french_wars_of_religion.10-12 for foreign powers (FDB, BUR, CAS, SPA, NAV, ENG, GBR, NED)
 			#french_wars_of_religion.16 Triggers once the disaster is over.
 		}
 	}

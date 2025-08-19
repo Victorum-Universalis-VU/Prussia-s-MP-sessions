@@ -216,8 +216,8 @@
  building_pigeon_shed: "Carrier Pigeons"
  #building_pigeon_shed_desc: "§TCountry Requirements:§!\n-Diplomatic Technology (0)\n"
 
- relay_stations: "Relay Station" #Pony Express
- building_relay_stations: "Relay Station"
+ relay_stations: "Flag Station" #Changed this from Relay Station - DM
+ building_relay_stations: "Flag Station"
  #building_relay_stations_desc: "§TCountry Requirements:§!\n-Diplomatic Technology (2)\n"
 
  radio_station: "Wireless Station"
