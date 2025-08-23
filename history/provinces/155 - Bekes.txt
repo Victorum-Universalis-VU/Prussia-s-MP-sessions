@@ -15,7 +15,7 @@ base_manpower = 2
 is_city = yes
 
 #Claimants
-add_core = 155
+add_core = KHY
 
 #Province Modifiers
 add_permanent_province_modifier = {

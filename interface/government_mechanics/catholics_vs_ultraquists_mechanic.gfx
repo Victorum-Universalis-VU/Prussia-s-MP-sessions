@@ -1,11 +1,11 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_catholics_vs_ultraquists_mechanic_bar_frame_icon_left"
-		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/catholics_vs_ultraquists_mechanic_bar_frame_icon_left.dds"
+		name = "GFX_cat_vs_ultra_mech_bar_frame_icon_left"
+		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/cat_vs_ultra_mech_bar_frame_icon_left.dds"
 	}
 	spriteType = {
-		name = "GFX_catholics_vs_ultraquists_mechanic_bar_frame_icon_right"
-		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/catholics_vs_ultraquists_mechanic_bar_frame_icon_right.dds"
+		name = "GFX_cat_vs_ultra_mech_bar_frame_icon_right"
+		texturefile = "gfx/interface/government_mechanics/catholics_vs_ultraquists_mechanic/cat_vs_ultra_mech_bar_frame_icon_right.dds"
 	}
 	spriteType = {
 		name = "GFX_catholics_vs_ultraquists_mech_button_cat"

@@ -96,7 +96,7 @@ bureaucracy_vs_military_mechanic = {
 			cooldown_years = 20
 			cooldown_desc = bureaucracy_vs_military_mechanic_cooldown_desc
 			cooldown_token = bureaucracy_vs_military_mechanic
-			icon = GFX_bureaucracy_vs_military_mechanic_military_focus_button
+			icon = GFX_bureaucracy_vs_mil_mech_mil_foc_button
 			trigger = {
 				NOT = { has_country_modifier = bureaucracy_vs_military_military_focus_modifier }
 			}
