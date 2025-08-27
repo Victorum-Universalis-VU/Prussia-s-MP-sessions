@@ -852,11 +852,11 @@ lwow_area = {
 }
 
 podolia_volhynia_area = { #4
-    7209 281 7208 7254 7272
+    281 7208 7254 7272
 }
 
 braclaw_area = {
-    1943 3241 4540 7206
+    1943 3241 4540 7206 7209
 }
 
 volhynia_area = { # 4
