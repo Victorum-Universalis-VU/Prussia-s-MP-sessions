@@ -3842,17 +3842,11 @@ vu_create_ToR_crown = {
     }
     else_if = {
         limit = {
-            tag = POL
-            tag = PLC
-            AND = {
-                culture_group = west_slavic
-                NOT = {
-                    primary_culture = czech
-                    primary_culture = czechBOH
-                    primary_culture = czech_new
-                    primary_culture = slovak
-                    primary_culture = slovak_new
-                }
+            OR = {
+                tag = POL
+                tag = PLC
+                primary_culture = polish
+                primary_culture = polish_new
             }
         }
         create_subject = {

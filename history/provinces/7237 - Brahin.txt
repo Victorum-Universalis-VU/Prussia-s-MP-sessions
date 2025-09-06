@@ -16,6 +16,7 @@ hre = no
 
 #Claimants
 add_core = CHR
+add_core = KJW
 
 #History by SF
 1444.1.1 = {

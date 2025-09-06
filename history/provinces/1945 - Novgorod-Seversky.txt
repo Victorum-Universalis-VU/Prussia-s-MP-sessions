@@ -14,6 +14,9 @@ base_manpower = 1
 capital = "Novgorod-Seversky"
 is_city = yes
 
+#Claimants
+add_core = SVK
+
 #History by SF
 1444.1.11 = {
     owner = CHR

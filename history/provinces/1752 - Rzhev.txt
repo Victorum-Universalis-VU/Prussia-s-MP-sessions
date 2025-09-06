@@ -22,11 +22,8 @@ center_of_trade = 2
 #add_core = NOV			#Region bitterly contested between all the local powers
 #add_core = LIT			#Region bitterly contested between all the local powers
 
-
-
-
-
-
+#Claimants
+add_core = RZH
 
 1446.2.13 = { owner = TVE revolt = { type = nationalist_rebels size = 1 } controller = REB }	#Dmitry Shemyaka wins a major victory and claims the throne of Moscovy, uniting Galich and Moscovy in game terms. Vasily hides in Tver and gives Rzhev to Tver as compensation, but the peasants revolt against Tver almost instantly.
 1447.1.1 = { unrest = 0 revolt = {} controller = TVE add_core = TVE }	#Prince Boris sieged the city and intergrated it into Tver

@@ -1,9 +1,9 @@
 #7940 - StClaude
 
 #Default
-owner = FDB
-controller = FDB
-add_core = FDB
+owner = FCM
+controller = FCM
+add_core = FCM
 culture = burgundian
 religion = catholic
 capital = "St. Claude"
@@ -14,13 +14,9 @@ trade_goods = salt
 is_city = yes
 hre = yes
 
-#Claimants
-add_core = FCM
-
 #History by SF
 1444.11.11 = {
     owner = BUR
     controller = BUR
     add_core = BUR
-    remove_core = FDB
 }

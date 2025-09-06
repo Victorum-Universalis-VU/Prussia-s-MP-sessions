@@ -276,6 +276,9 @@ HAB_balkanize_poland_into_hre_effect = {
         red_ruthenia_area = {
             remove_core = MAZ
         }
+        lwow_area = {
+            remove_core = MAZ
+        }
     }
     $Poland$ = {
         release = MAZ

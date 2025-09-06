@@ -94,6 +94,7 @@ scandinavia_region = {
 		southern_norway_area
 		trondelag_area
 		gotland_area
+		bornholm_area
 	}
 }
 
@@ -373,7 +374,9 @@ ruthenia_region = {
 		severia_area
 		vitebsk_area
 		polotsk_area
-		polesie_area	  
+		polesie_area	
+		braclaw_area
+		lwow_area
 	}
 }
 

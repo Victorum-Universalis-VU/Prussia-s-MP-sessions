@@ -4281,6 +4281,7 @@ WoC_austria_5 = {
 			OR = {
 				area = malopolska_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = sandomierz_area
 			}
 			NOT = {
@@ -4293,6 +4294,7 @@ WoC_austria_5 = {
 				OR = {
 					area = malopolska_area
 					area = red_ruthenia_area
+					area = lwow_area
 					area = sandomierz_area
 				}
 			}
@@ -4336,6 +4338,12 @@ WoC_austria_5 = {
 			modifier = {
 				factor = 2
 				red_ruthenia_area = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			modifier = {
+				factor = 2
+				lwow_area = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}

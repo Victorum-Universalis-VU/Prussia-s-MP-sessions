@@ -1192,6 +1192,7 @@ POL_Missions_2 = {
                 AND = {
                     OR = {
                         area = podolia_volhynia_area
+                        area = braclaw_area
                         area = sandomierz_area
                     }
                     NOT = {
@@ -1209,6 +1210,10 @@ POL_Missions_2 = {
                 num_of_times_improved = 5
             }
             podolia_volhynia_area = {
+                num_of_times_improved = 10
+                owned_by = ROOT
+            }
+            braclaw_area = {
                 num_of_times_improved = 10
                 owned_by = ROOT
             }
@@ -3788,6 +3793,7 @@ POL_Missions_5_2 = {
                 area = oka_area
                 area = sloboda_ukraine_area
                 area = podolia_volhynia_area
+                area = braclaw_area
             }
         }
         trigger = {
@@ -3816,6 +3822,7 @@ POL_Missions_5_2 = {
                         area = oka_area
                         area = sloboda_ukraine_area
                         area = podolia_volhynia_area
+                        area = braclaw_area
                     }
                 }
                 value = 2

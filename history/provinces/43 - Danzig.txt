@@ -17,6 +17,9 @@ is_city = yes
 #Commerce
 center_of_trade = 4
 
+#Claimants
+add_core = PML
+
 #History by SF
 1444.1.1 = {
 	owner = TEU

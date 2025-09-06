@@ -5400,6 +5400,7 @@ apostolic_kingdom = {
 	modifiers = {
 		manpower_in_true_faith_provinces = 0.1
 		recover_army_morale_speed = 0.1
+		global_missionary_strength = 0.02
 	}
 
 	conditional = {

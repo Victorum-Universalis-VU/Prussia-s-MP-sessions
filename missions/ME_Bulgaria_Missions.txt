@@ -1683,6 +1683,13 @@ bulgaria_missions_4_slavic = {
 				}
 				add_permanent_claim = ROOT
 			}
+			lwow_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			malopolska_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -1707,6 +1714,7 @@ bulgaria_missions_4_slavic = {
 		provinces_to_highlight = {
 			OR = {
 				area = red_ruthenia_area
+				area = lwow_area
 				area = malopolska_area
 				area = moravia_area
 			}
@@ -1714,6 +1722,10 @@ bulgaria_missions_4_slavic = {
 		}
 		trigger = {
 			red_ruthenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lwow_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1733,6 +1745,13 @@ bulgaria_missions_4_slavic = {
 				cost_multiplier = 0.50
 			}
 			podolia_volhynia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			braclaw_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -1768,6 +1787,7 @@ bulgaria_missions_4_slavic = {
 				AND = {
 					OR = {
 						area = podolia_volhynia_area
+						area = braclaw_area
 						area = west_dniepr_area
 						area = volhynia_area
 					}
@@ -1784,6 +1804,10 @@ bulgaria_missions_4_slavic = {
 		}
 		trigger = {
 			podolia_volhynia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			braclaw_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

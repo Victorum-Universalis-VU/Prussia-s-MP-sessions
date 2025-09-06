@@ -907,6 +907,7 @@ country_event = {
 					area = moldavia_area
 					area = bulgaria_area
 					area = red_ruthenia_area
+					area = lwow_area
 					region = ruthenia_region
 					region = crimea_region
 				}

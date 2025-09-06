@@ -2020,8 +2020,7 @@ country_decisions = {
 						NOT = {
 							num_of_owned_provinces_with = {
 								value = 6
-								culture = franconian
-								continent = europe
+								area = franconia_area
 								is_core = root
 							}
 						}
@@ -2072,14 +2071,13 @@ country_decisions = {
 				owns_core_province = 67				#Nurnberg
 			}
 			num_of_owned_provinces_with = {
-				value = 6
-				culture = franconian
-				continent = europe
+				value = 8
+				area = franconia_area
 				is_core = root
 			}
 			OR = {
 				#just to make it not so easy (owning 6 provinces is really not so hard; Franconia is 70 development at start, so this is that +5)
-				total_development = 150				#VU Dev Doubling
+				#total_development = 150				#VU Dev Doubling
 				is_elector = yes
 			}
 		}
@@ -2439,8 +2437,7 @@ country_decisions = {
 						NOT = {
 							num_of_owned_provinces_with = {
 								value = 8								#out of 13 i.e. you can leave out Holstein or the FCs
-								culture = lower_saxon
-								region = north_german_region
+								area = lower_saxony_area
 								is_core = root
 							}
 						}
@@ -2466,8 +2463,7 @@ country_decisions = {
 			owns_core_province = 1758			# Hannover
 			num_of_owned_provinces_with = {
 				value = 8				#out of 13 i.e. you can leave out Holstein and stuff
-				culture = lower_saxon
-				region = north_german_region
+				area = lower_saxony_area
 				is_core = root
 			}
 			total_development = 200			#VU Dev Doubling
@@ -6037,7 +6033,7 @@ country_decisions = {
 						NOT = {
 							num_of_owned_provinces_with = {
 								value = 10
-								culture = swabian
+								area = swabia_area
 								continent = europe
 								is_core = root
 							}
@@ -6064,8 +6060,7 @@ country_decisions = {
 			owns_core_province = 1872			#Ulm
 			num_of_owned_provinces_with = {
 				value = 10
-				culture = swabian
-				continent = europe
+				area = swabia_area
 				is_core = root
 			}
 		}
@@ -6780,13 +6775,13 @@ country_decisions = {
 			OR = {
 				ai = no
 				AND = {
-					owns_core_province = 82					# Westfalen
-					owns_core_province = 1762					# Kassel
+					owns_core_province = 86						# Munster
+					owns_core_province = 56						# Osnabruck
 					OR = {
 						owns_core_province = 85						# Cologne
 						owns_core_province = 80						# Trier
 						owns_core_province = 78						# Mainz
-						owns_core_province = 86						# Munster
+						owns_core_province = 69						# Ravensburg
 					}
 				}
 			}
@@ -6798,14 +6793,14 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 82				# Westfalen
-				province_id = 1762				# Kassel
+				province_id = 86				# Munster
+				province_id = 56				# Osnabruck
 				AND = {
 					OR = {
 						province_id = 85						# Cologne
 						province_id = 80						# Trier
 						province_id = 78						# Mainz
-						province_id = 86						# Munster
+						province_id = 69						# Ravensburg
 					}
 					ROOT = {
 						NOT = {
@@ -6818,7 +6813,7 @@ country_decisions = {
 							owns_core_province = 78
 						}
 						NOT = {
-							owns_core_province = 86
+							owns_core_province = 82
 						}
 					}
 				}
@@ -6831,22 +6826,18 @@ country_decisions = {
 					ROOT = {
 						NOT = {
 							num_of_owned_provinces_with = {
-								value = 12								#out of 22
-								OR = {
-									culture = hannoverian
-									culture = hessian
-								}
-								region = north_german_region
+								value = 8								#out of 22
+								area = north_westphalia_area
 								is_core = root
 							}
 						}
-						owns_core_province = 82
-						owns_core_province = 1762
+						owns_core_province = 86
+						owns_core_province = 56
 						OR = {
 							owns_core_province = 85
 							owns_core_province = 80
 							owns_core_province = 78
-							owns_core_province = 86
+							owns_core_province = 69
 						}
 					}
 				}
@@ -6878,11 +6869,7 @@ country_decisions = {
 			}
 			num_of_owned_provinces_with = {
 				value = 8				#out of 22
-				OR = {
-					culture = westphalian
-					culture = hessian
-				}
-				region = north_german_region
+				area = north_westphalia_area
 				is_core = root
 			}
 		}
@@ -16636,6 +16623,17 @@ country_decisions = {
 				add_permanent_claim = UKR
 			}
 			red_ruthenia_area = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				add_permanent_claim = UKR
+			}
+			lwow_area = {
 				limit = {
 					NOT = {
 						owned_by = ROOT

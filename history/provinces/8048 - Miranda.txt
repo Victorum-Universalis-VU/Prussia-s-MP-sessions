@@ -24,3 +24,6 @@ sculpture_workshop = yes #Known for its artists - SF
 
 #Commerce
 center_of_trade = 2
+
+#Claimants
+add_core = BGS
