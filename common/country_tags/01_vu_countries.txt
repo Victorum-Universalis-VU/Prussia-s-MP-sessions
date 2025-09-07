@@ -34,7 +34,19 @@ DRJ = "countries/Dobruja.txt"
 VBZ = "countries/Velbazhd.txt"
 
 #VU - Bohemia
+#B05 = "countries/Boskovicove.txt" #Boskovicové
 EGR = "countries/Eger.txt"
+#L4N = "countries/Landstein.txt"
+#L1C = "countries/Lichtenburka.txt"
+#L08 = "countries/Lobkowicz.txt"
+#P3R = "countries/Pernstein.txt"
+#PR3 = "countries/Premyslids.txt"
+#R3U = "countries/Reuss.txt"
+#R05 = "countries/Rosenberg.txt"
+#ST3 = "countries/Sternberg.txt"
+#SV4 = "countries/Svamberka .txt" #Švamberka
+#V4L = "countries/Valdstejnove.txt" #Valdštejnové
+#Z3R = "countries/Zerotinove.txt" #Žerotínové
 
 #VU - Caucasus
 ABZ = "countries/Abazinia.txt"
@@ -88,29 +100,29 @@ WRK	= "countries/Warwick.txt"
 YRK = "countries/York.txt"
 
 #Magna Carta England
-EDV = "countries/Earldom_of_Devon.txt"            #
-EWK = "countries/Earldom_of_Warwick.txt"          #
-EKT = "countries/Earldom_of_Kent.txt"             #
-E5Y = "countries/Earldom_of_Surrey.txt"           #
-ENL = "countries/Earldom_of_Norfolk.txt"          #
-DR8 = "countries/Earldom_of_Derby.txt"            #
-AR9 = "countries/Earldom_of_Arundel.txt"          #
-WNR = "countries/Earldom_of_Winchester.txt"       #
-C0A = "countries/Compte_dArmagnac.txt"            #
-C0B = "countries/Compte_dBigore.txt"              #
-A5T = "countries/Compte_dAstarac.txt"             #
-C0C = "countries/Compte_dComminges.txt"           #
-CO4 = "countries/Compte_dAumale.txt"              #
+EDV = "countries/Earldom_of_Devon.txt"
+EWK = "countries/Earldom_of_Warwick.txt"
+EKT = "countries/Earldom_of_Kent.txt"
+E5Y = "countries/Earldom_of_Surrey.txt"
+ENL = "countries/Earldom_of_Norfolk.txt"
+DR8 = "countries/Earldom_of_Derby.txt"
+AR9 = "countries/Earldom_of_Arundel.txt"
+WNR = "countries/Earldom_of_Winchester.txt"
+C0A = "countries/Compte_dArmagnac.txt"
+C0B = "countries/Compte_dBigore.txt"
+A5T = "countries/Compte_dAstarac.txt"
+C0C = "countries/Compte_dComminges.txt"
+CO4 = "countries/Compte_dAumale.txt"
 
-B0E = "countries/Bishopric_of_Ely.txt"            #
-B0L = "countries/Bishopric_of_London.txt"         #
-B0N = "countries/Bishopric_of_Norwich.txt"        #
-B0B = "countries/Bishopric_of_Bath.txt"           #
-B0S = "countries/Bishopric_of_Salisbury.txt"      #
-B03 = "countries/Bishopric_of_Chichester.txt"     #
-BOE = "countries/Bishopric_of_Exeter.txt"         #
-BOC = "countries/Bishopric_of_Coventry.txt"       #
-B0R = "countries/Bishopric_of_Rochester.txt"      #
+B0E = "countries/Bishopric_of_Ely.txt"
+B0L = "countries/Bishopric_of_London.txt"
+B0N = "countries/Bishopric_of_Norwich.txt"
+B0B = "countries/Bishopric_of_Bath.txt"
+B0S = "countries/Bishopric_of_Salisbury.txt"
+B03 = "countries/Bishopric_of_Chichester.txt"
+BOE = "countries/Bishopric_of_Exeter.txt"
+BOC = "countries/Bishopric_of_Coventry.txt"
+B0R = "countries/Bishopric_of_Rochester.txt"
 B0W = "countries/Bishopric_of_Worcester.txt"
 
 A8Y = "countries/Archbishopric_of_York.txt"
@@ -286,7 +298,6 @@ WRT = "countries/Wertheim.txt"
 ZGM = "countries/Ziegenhain.txt"
 ZWE = "countries/Zweibrucken.txt"
 WDS = "countries/Waldsassen.txt"
-
 
 #VU - Greece & Aegean Islands
 AAT = "countries/Ancient_Athens.txt"
