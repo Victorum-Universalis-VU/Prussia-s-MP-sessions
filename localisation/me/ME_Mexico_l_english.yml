@@ -116,41 +116,67 @@
  # Modifiers:
  #1st column
  mex_desarollo1: "National Desarollo"
+ desc_mex_desarollo1: ""
  mex_desarollo2: "National Desarollo"
+ desc_mex_desarollo2: ""
  mex_desarollo3: "National Desarollo"
+ desc_mex_desarollo3: ""
  mex_embracing_institution: "Embracing Institution"
+ desc_mex_embracing_institution: ""
  mex_ibarra: "Ibarra"
+ desc_mex_ibarra: ""
  mex_cuban_tobacco: "Cuban Tobacco"
+ desc_mex_cuban_tobacco: ""
 
  #2nd column
  mex_piloncillo: "Piloncillo"
+ desc_mex_piloncillo: ""
  mex_sea_expansion: "Sea Expansion"
+ desc_mex_sea_expansion: ""
 
  #3rd column
  mex_struggle_anew: "Struggle Anew"
+ desc_mex_struggle_anew: ""
  mex_colonial_expansion: "Colonial Expansion"
+ desc_mex_colonial_expansion: ""
  mex_glorious_domination: "Glorious Domination"
+ desc_mex_glorious_domination: ""
  mex_tropical_timber: "Tropical Timber"
+ desc_mex_tropical_timber: ""
  mex_tacos_hegemony_modifier: "Diseños Mexicanos en el Continente"
+ desc_mex_tacos_hegemony_modifier: ""
 
  #4th column
  mex_centralisation_modifier: "Centralisation"
+ desc_mex_centralisation_modifier: ""
  mex_grazing_plains: "Grazing Plains"
+ desc_mex_grazing_plains: ""
  mex_national_security: "National Security"
+ desc_mex_national_security: ""
 
  #5th column
  mex_humanist_path1: "A Tolerant Community"
+ desc_mex_humanist_path1: ""
  mex_converting_integrating: "Converting and Integration"
+ desc_mex_converting_integrating: ""
  mex_humanist_path2: "Cultural Appreciation"
+ desc_mex_humanist_path2: ""
  mex_religious_path2: "Religious Conversion"
+ desc_mex_religious_path2: ""
 
  #Event modifiers
  mex_native_contact_modifier: "Mexican Native Assimilation"
+ desc_mex_native_contact_modifier: ""
  mex_gold_rush: "Mining Devastation"
+ desc_mex_gold_rush: ""
  mex_spiritualisation: "Mexican Spiritualisation"
+ desc_mex_spiritualisation_max: ""
  mex_spiritualisation_max: "Mexican Spiritualisation"
+ desc_mex_spiritualisation: ""
  mex_secularisation: "Mexican Secularisation"
+ desc_mex_secularisation_max: ""
  mex_secularisation_max: "Mexican Secularisation"
+ desc_mex_secularisation: ""
 
  # Opinion Modifiers:
  mex_razed_sacred_city: "Razed our sacred city"

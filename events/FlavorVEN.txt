@@ -1248,7 +1248,7 @@ country_event = {
 			NOT = { owned_by = BYZ }
 			NOT = { owned_by = VEN }
 		}
-		owns = 112
+		owns = 6930
 	}
 	
 	mean_time_to_happen = {
@@ -1258,7 +1258,7 @@ country_event = {
 		name = flavor_ven.33.a
 		add_years_of_income = 0.1
 		add_prestige = 5
-		112 = {
+		6930 = {
 			add_permanent_province_modifier = {
 				name = ven_murano_glass_industry
 				duration = -1
@@ -1269,7 +1269,7 @@ country_event = {
 		name = flavor_ven.33.b
 		add_faction_influence = { faction = mr_guilds influence = 30 }
 		add_mercantilism = 2
-		112 = {
+		6930 = {
 			add_permanent_province_modifier = {
 				name = ven_murano_glass_industry
 				duration = -1
@@ -1291,8 +1291,8 @@ country_event = {
 		tag = VEN
 		is_year = 1730
 		NOT = { is_year = 1770 }
-		owns = 112
-		112 = {
+		owns = 6930
+		6930 = {
 			has_province_modifier = ven_murano_glass_industry
 		}
 	}

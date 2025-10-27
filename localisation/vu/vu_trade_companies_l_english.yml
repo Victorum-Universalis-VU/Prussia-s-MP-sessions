@@ -186,6 +186,18 @@
  TRADE_COMPANY_TOGO_Root_Culture_GetName:0 "[Root.Culture.GetName] Togolese Company"
  TRADE_COMPANY_TOGO_Trade_Company:0 "Togo Trade Company"
  #
+ #VU Mid-Atlantic additions by San Felipe
+ #
+ trade_company_mid_atlantic_islands:0 "Mid-Atlantic Charter"
+ TRADE_COMPANY_MID_ATLANTIC_Root_Culture_GetName:0 "[Root.Culture.GetName] Mid-Atlantic Company"
+ TRADE_COMPANY_MID_ATLANTIC_Trade_Company:0 "Mid-Atlantic Trade Company"
+ #
+ #VU Indian Ocean additions by San Felipe
+ #
+ trade_company_indian_ocean:0 "Indian Ocean Charter"
+ TRADE_COMPANY_INDIAN_OCEAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Indian Ocean Company"
+ TRADE_COMPANY_INDIAN_OCEAN_Trade_Company:0 "Indian Ocean Trade Company"
+ #
  #VU Asian additions by San Felipe
  #
  trade_company_moluccas:0 "Malacca Charter"

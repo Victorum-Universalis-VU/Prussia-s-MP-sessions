@@ -464,6 +464,7 @@ vu_create_ToR_lordship = {
     #    }
     #}
 }
+
 ##############################################################
 vu_create_ToR_barony = {
     if = {
@@ -910,6 +911,7 @@ vu_create_ToR_barony = {
     #    }
     #}
 }
+
 ##############################################################
 vu_create_ToR_viscounty = {
     if = {
@@ -1353,6 +1355,7 @@ vu_create_ToR_viscounty = {
     #    }
     #}
 }
+
 ##############################################################
 vu_create_ToR_county = {
     if = {
@@ -1775,6 +1778,7 @@ vu_create_ToR_county = {
     #    }
     #}
 }
+
 ##############################################################
 vu_create_ToR_earldom = {
     if = {
@@ -1798,6 +1802,7 @@ vu_create_ToR_earldom = {
         add_government_reform = eng_earldom_reform
     }
 }
+
 ##############################################################
 vu_create_ToR_marquisate = {
     if = {
@@ -2244,6 +2249,7 @@ vu_create_ToR_marquisate = {
     #    }
     #}
 }
+
 ##############################################################
 vu_create_ToR_duchy = {
     if = {
@@ -2706,6 +2712,7 @@ vu_create_ToR_duchy = {
     #    }
     #}
 }
+
 ##############################################################
 vu_create_ToR_principality = {
     if = {
@@ -3168,6 +3175,7 @@ vu_create_ToR_principality = {
     #    }
     #}
 }
+
 ##############################################################
 vu_create_ToR_kingdom = {
     if = {
@@ -3686,7 +3694,6 @@ vu_create_ToR_crown = {
                 primary_culture = slovak_new
                 tag = BOH
             }
-
         }
         create_subject = {
             subject_type = bohemian_crown_PU
@@ -3835,17 +3842,11 @@ vu_create_ToR_crown = {
     }
     else_if = {
         limit = {
-            tag = POL
-            tag = PLC
-            AND = {
-                culture_group = west_slavic
-                NOT = {
-                    primary_culture = czech
-                    primary_culture = czechBOH
-                    primary_culture = czech_new
-                    primary_culture = slovak
-                    primary_culture = slovak_new
-                }
+            OR = {
+                tag = POL
+                tag = PLC
+                primary_culture = polish
+                primary_culture = polish_new
             }
         }
         create_subject = {
@@ -3925,4 +3926,601 @@ vu_create_ToR_crown = {
     #        keep_liberty_desire = yes
     #    }
     #}
+}
+
+vu_create_muslim_subject = {
+    #FROM is subject ROOT is overlord
+    if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = islamic_taifa
+                    government_rank = 7
+                }
+            }
+        }
+        create_subject = {
+            subject_type = islamic_malikate
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_malikate_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = islamic_sultanate
+                    government_rank = 6
+                }
+            }
+        }
+        create_subject = {
+            subject_type = islamic_taifa
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_taifa_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = islamic_emirate
+                    government_rank = 5
+                }
+            }
+        }
+        create_subject = {
+            subject_type = islamic_sultanate
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_sultanate_reform			#Yani sees no issues with this, it just works - Todd Howard.
+        }
+    }
+    else_if = {
+        limit = {
+            OR = {
+                tag = MUG
+                tag = TIM
+                tag = YUA
+                religion = ibadi
+            }
+            FROM = {
+                OR = {
+                    is_subject_of_type = islamic_sharifate
+                    government_rank = 4
+                }
+            }
+        }
+        create_subject = {
+            subject_type = islamic_governate
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_governate_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = islamic_sharifate
+                    government_rank = 4
+                }
+            }
+        }
+        create_subject = {
+            subject_type = islamic_emirate
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_emirate_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = islamic_sheikdom
+                    government_rank = 3
+                }
+            }
+        }
+        create_subject = {
+            subject_type = islamic_sharifate
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_sharifate_reform
+        }
+    }
+    else_if = {
+        limit = {
+            FROM = {
+                OR = {
+                    is_subject_of_type = islamic_grand_muftate
+                    government_rank = 2
+                }
+            }
+        }
+        create_subject = {
+            subject_type = islamic_sheikdom
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_sheikdom_reform
+        }
+    }
+    else = {
+        create_subject = {
+            subject_type = islamic_grand_muftate
+            subject = FROM
+            keep_liberty_desire = yes
+        }
+        FROM = {
+            add_government_reform = islamic_grand_muftate_reform
+        }
+    }
+}
+
+vu_ToR_removed_EUE_gov_reform = {
+    if = {
+        limit = {
+            government_rank = 9
+        }
+        add_government_reform = unlocked_eue_empire_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 8
+        }
+        add_government_reform = unlocked_eue_kingdom_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 7
+        }
+        add_government_reform = unlocked_eue_principality_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 6
+        }
+        add_government_reform = unlocked_eue_duchy_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 5
+        }
+        add_government_reform = unlocked_eue_marquisate_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 4
+        }
+        add_government_reform = unlocked_eue_county_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 3
+        }
+        add_government_reform = unlocked_eue_viscounty_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 2
+        }
+        add_government_reform = unlocked_eue_barony_reform
+    }
+    else_if = {
+        limit = {
+            government_rank = 1
+        }
+        add_government_reform = unlocked_eue_lordship_reform
+    }
+}
+
+vu_ToR_set_theocracy_gov_reform = {
+    if = {
+        limit = {
+            technology_group = bulgarian_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_balkans_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_balkans_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_balkans_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            OR = {
+                primary_culture = baltic_german
+                primary_culture = prussian
+            }
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_baltics_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_baltics_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_baltics_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = bohemian_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_bohemia_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_bohemia_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_bohemia_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            primary_culture = danish
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_denmark_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_denmark_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_denmark_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = english_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_england_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_england_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_england_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = french_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_france_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_france_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_france_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = german_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_germany_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_germany_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_germany_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = hungarian_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_hungary_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_hungary_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_hungary_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = italian_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_italy_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_italy_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_italy_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = dutch_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_lotharingia_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_lotharingia_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_lotharingia_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            primary_culture = norwegian
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_norway_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_norway_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_norway_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = polish_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_poland_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_poland_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_poland_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = portuguese_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_portugal_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_portugal_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_portugal_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            primary_culture = swedish
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_sweden_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_sweden_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_sweden_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = spanish_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_spain_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_spain_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_spain_archbishopric_reform
+        }
+    }
+    else_if = {
+        limit = {
+            technology_group = swiss_tech_group
+        }
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_switzerland_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_switzerland_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_switzerland_archbishopric_reform
+        }
+    }
+    else = {
+        if = {
+            limit = {
+                is_subject_of_type = christian_abbacy
+            }
+            add_government_reform = church_of_generic_abbacy_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_bishopric
+            }
+            add_government_reform = church_of_generic_bishopric_reform
+        }
+        else_if = {
+            limit = {
+                is_subject_of_type = christian_archbishopric
+            }
+            add_government_reform = church_of_generic_archbishopric_reform
+        }
+    }
 }

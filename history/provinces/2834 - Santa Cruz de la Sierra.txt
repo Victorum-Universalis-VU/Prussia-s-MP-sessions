@@ -1,6 +1,7 @@
 #2834 - Samaipata/Santa Cruz de la Sierra
 
-culture = guarani #ChanÃ© or Arawak
+#Default
+culture = guarani #Chané or Arawak
 religion = animism
 capital = "Samaipata"
 trade_goods = unknown
@@ -11,26 +12,12 @@ base_manpower = 1
 native_size = 15
 native_ferocity = 1 
 native_hostileness = 1
+
+#Commerce
 center_of_trade = 1
 
+#Province Modifiers
 add_permanent_province_modifier = {
 	name = vu_amazon_rainforest
 	duration = -1
 }
-
-
-
-
-
-
-1561.1.1 = {
-	
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic
-	culture = castillian
-	trade_goods = tropical_wood
-}
-1809.7.16 = { revolt = { type = nationalist_rebels size = 0 } controller = REB } # Bolivian War of Independence

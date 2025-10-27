@@ -1,8 +1,8 @@
-#3166 - JaguariÃºna
+#3166 - Jaguariúna
 
 culture = guarani
 religion = animism
-capital = "JaguariÃºna"
+capital = "Jaguariúna"
 trade_goods = unknown
 hre = no
 base_tax = 1

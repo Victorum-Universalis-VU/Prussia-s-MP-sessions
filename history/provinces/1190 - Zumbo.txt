@@ -1,5 +1,6 @@
 #1190 - Zumbo
 
+#Default
 owner = ZIM
 controller = ZIM
 add_core = ZIM
@@ -12,5 +13,6 @@ hre = no
 base_tax = 4  
 base_production = 4
 base_manpower = 2 
-center_of_trade = 1
 
+#Commerce
+center_of_trade = 1

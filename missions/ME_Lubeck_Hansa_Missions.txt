@@ -1397,7 +1397,7 @@ HNS_missions_3 = {
 							has_port = yes
 						}
 						create_named_ship = {
-							name = "Adler von LÃ¼beck"
+							name = "Adler von Lübeck"
 							type = heavy_ship
 						}
 					}

@@ -1,5 +1,6 @@
 #4854 - Badtjala
 
+#Default
 culture = aboriginal
 religion = dreamtime
 capital = "Badtajala"
@@ -11,13 +12,12 @@ base_production = 3
 native_size = 2
 native_ferocity = 1
 native_hostileness = 3
+
+#Commerce
 center_of_trade = 1
 
-
+#Province Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
-
-

@@ -1,8 +1,8 @@
-#3141 - ItanhÃ©m
+#3141 - Itanhém
 
 culture = guarani
 religion = animism
-capital = "ItanhÃ©m"
+capital = "Itanhém"
 trade_goods = unknown
 hre = no
 base_tax = 1

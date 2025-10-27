@@ -9,76 +9,64 @@ technology_group = french_tech_group
 unit_type = western
 capital = 187	# Verdun
 
-
-1352.1.1 = {
+#History by Prussia
+1215.6.15 = {
 	monarch = {
-		name = "Robert I"
+		name = "Henri II"
 		dynasty = "de Montbéliard"
+		birth_date = 1190.1.11
+		death_date = 1239.1.1 #Died in Gaza - Prussia
 		adm = 1
 		dip = 1
-		mil = 3
+		mil = 0 #Did nothing of note for his territory and just rushed off to die with a handful of crusaders fighting an Ayyubid army - Prussia
 	}
-}
-
-1377.6.25 = {
-	heir = {
-		name = "Edward"
-		monarch_name = "Edward III"
-		dynasty = "de Montbéliard"
-		birth_date = 1377.6.25
-		death_date = 1415.10.25
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-
-1411.4.12 = {
-	monarch = {
-		name = "Edward III"
-		dynasty = "de Montbéliard"
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-
-1411.4.12 = {
-	heir = {
-		name = "Louis"
-		monarch_name = "Louis I"
-		dynasty = "de Montbéliard"
-		birth_date = 1375.1.1
-		death_date = 1430.6.26
-		claim = 75
-		adm = 1
-		dip = 4
-		mil = 2
-	}
-}
-
-1415.10.25 = {
-	monarch = {
-		name = "Louis I"
-		dynasty = "de Montbéliard"
-		adm = 1
-		dip = 4
-		mil = 2
-	}
-}
-
-# 1430.6.26: Inherited by René of Anjou
-
-1480.7.10 = {
-	monarch = {
-		name = "Yolande"
-		dynasty = "de Vaudémont"
+	queen = {
+		country_of_origin = BRI
+		name = "Philippa"
+		dynasty = "de Dreux"
+		birth_date = 1192.1.1
+		death_date = 1242.1.1
+		female = yes
 		adm = 2
 		dip = 2
-		mil = 1
+		mil = 2
+	}
+	#Never had any hair - Prussia
+}
+
+1434.11.16 = {
+	monarch = {
+		name = "René I"
+		dynasty = "de Valois-Anjou"
+		birth_date = 1409.1.16
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	queen = {
+		country_of_origin = LOR
+		name = "Isabella"
+		dynasty = "de Metz"
+		birth_date = 1400.1.1
+		death_date = 1453.2.28
 		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 
-# 1483.3.23: Inherited by René II of Lorraine
+1444.11.11 = {
+	heir = {
+		name = "Yolanda"
+		monarch_name = "Yolanda I"
+		dynasty = "de Valois-Anjou"
+		birth_date = 1428.11.2
+		death_date = 1483.3.23
+		female = yes
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2 #She wasn't incompetent but was dominated by her husband - Prussia
+	}
+}

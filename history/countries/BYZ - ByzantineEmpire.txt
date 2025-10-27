@@ -1,3 +1,4 @@
+#BYZ - ByzantineEmpire
 government = monarchy
 add_government_reform = byzantine_autocracy_reform
 government_rank = 9
@@ -71,8 +72,8 @@ capital = 151
 1444.1.1 = {
 	add_dip_tech = 1
 	set_defender_of_the_faith = {
-		who = BYZ
-		religion = orthodox
+		who = ROOT
+		religion = ROOT
 	}
 }
 

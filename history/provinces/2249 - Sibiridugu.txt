@@ -1,5 +1,6 @@
-# No previous file for Sibiridugu
+#2249 - Sibiridugu
 
+#Default
 owner = MAL
 controller = MAL
 add_core = MAL
@@ -15,4 +16,6 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 base_manpower = 2 
+
+#Commerce
 center_of_trade = 1

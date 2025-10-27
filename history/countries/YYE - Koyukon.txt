@@ -4,7 +4,7 @@ government_rank = 1 #Lordship
 primary_culture = koyukon
 religion = totemism
 technology_group = north_american
-capital = 5186 #Meneelghaadzeâ€™ Tâ€™oh
+capital = 5186 #Meneelghaadze’ T’oh
 
 
 1444.11.11 = {

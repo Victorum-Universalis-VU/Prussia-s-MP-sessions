@@ -1,7 +1,9 @@
 #519 - Dhundar
 
+#Default
 owner = DHU
 controller = DHU
+add_core = DHU
 culture = rajput
 religion = hinduism
 capital = "Amber"
@@ -11,41 +13,9 @@ base_tax = 9
 base_production = 9
 base_manpower = 9
 is_city = yes
-add_core = DHU
 
+#Claimants
+add_core = T0K
 
-
-
-
-
-
-
-
-
-
-
-
-extra_cost = 8
+#Commerce
 center_of_trade = 2
-
-1530.1.1 = {
-	owner = MUG
-	controller = MUG
-	add_core = MUG
-} # Mughal Conquest
-1540.1.1 = {
-	owner = DHU
-	controller = DHU
-	remove_core = MUG
-} # Independent after Delhi's fall
-1544.1.1 = {
-	owner = BNG
-	controller = BNG
-} # Sur expansion
-1545.5.22 = {
-	owner = DHU
-	controller = DHU
-} # Independence regained after death of Sher Shah
-
-
-1727.1.1 = { capital = "Jaipur" } # Jaipur founded

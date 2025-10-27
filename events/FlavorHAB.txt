@@ -618,7 +618,7 @@ country_event = {
             spawn_rebels = {
                 type = nationalist_rebels
                 size = 3
-                leader = "IstvÃ¡n Bocskay"
+                leader = "István Bocskay"
                 friend = HUN
             }
             clr_province_flag = hungarian_revolt
@@ -830,7 +830,7 @@ country_event = {
     }
 }
 
-# The Insurrection of Duke Imre ThÃ¶kÃ¶ly
+# The Insurrection of Duke Imre Thököly
 country_event = {
     id = flavor_hab.3333
     title = "flavor_hab.EVTNAME3333"
@@ -908,7 +908,7 @@ country_event = {
                 type = nationalist_rebels
                 size = 3
                 friend = HUN
-                leader = "Imre ThÃ¶kÃ¶ly"
+                leader = "Imre Thököly"
             }
 
 
@@ -1935,7 +1935,7 @@ country_event = {
     }
 }
 
-# The PestsÃ¤ule of Vienna.
+# The Pestsäule of Vienna.
 country_event = {
     id = flavor_hab.14
     title = flavor_hab.14.t
@@ -2045,7 +2045,7 @@ country_event = {
     }
 }
 
-# The MÃ¼hlviertel Textile Production
+# The Mühlviertel Textile Production
 country_event = {
     id = flavor_hab.17
     title = flavor_hab.17.t
@@ -2385,50 +2385,50 @@ country_event = {
     }
 }
 
-country_event = {
-    id = flavor_hab.26
-    title = flavor_hab.26.t
-    desc = flavor_hab.26.d
-    picture = NEW_HEIR_eventPicture
-
-    trigger = {
-        tag = HAB
-        is_year = 1460
-        NOT = { is_year = 1520 }
-        has_heir = no
-        has_government_attribute = heir
-    }
-
-    mean_time_to_happen = {
-        months = 150
-    }
-
-    fire_only_once = yes
-
-    option = {
-        name = flavor_hab.26.a
-
-        define_heir = {
-            name = "Maximilian"
-            dynasty = "von Habsburg"
-            age = 1
-            adm = 5
-            dip = 5
-            mil = 5
-            claim = 95
-            male = yes
-            no_consort_with_heir = yes
-        }
-
-        add_heir_personality = last_knight_personality
-    }
-
-    option = {
-        name = flavor_hab.26.b
-
-        add_prestige_or_monarch_power = { amount = 10 }
-    }
-}
+#country_event = { #Got rid of this turd event. - SF
+#    id = flavor_hab.26
+#    title = flavor_hab.26.t
+#    desc = flavor_hab.26.d
+#    picture = NEW_HEIR_eventPicture
+#
+#    trigger = {
+#        tag = HAB
+#        is_year = 1460
+#        NOT = { is_year = 1520 }
+#        has_heir = no
+#        has_government_attribute = heir
+#    }
+#
+#    mean_time_to_happen = {
+#        months = 150
+#    }
+#
+#    fire_only_once = yes
+#
+#    option = {
+#        name = flavor_hab.26.a
+#
+#        define_heir = {
+#            name = "Maximilian"
+#            dynasty = "von Habsburg"
+#            age = 1
+#            adm = 5
+#            dip = 5
+#            mil = 5
+#            claim = 95
+#            male = yes
+#            no_consort_with_heir = yes
+#        }
+#
+#        add_heir_personality = last_knight_personality
+#    }
+#
+#    option = {
+#        name = flavor_hab.26.b
+#
+#        add_prestige_or_monarch_power = { amount = 10 }
+#    }
+#}
 
 country_event = {
     id = flavor_hab.27
@@ -2817,7 +2817,7 @@ country_event = {
     }
 }
 
-#VU - 1.36.2.* Addition 'Death of Frederich III' by SF (Template found and chosen by Actually Prussia)
+#VU - 1.36.2.* Addition 'Death of Frederich III' by SF and updated by Prussia in v1.37 with fix to make the Austrian Mission tree appear when either Fred or Lukemia boy dies. (Template found and chosen by Actually Prussia)
 country_event = {
     id = flavor_hab.40	#Was flavor_dan.4 - SF
     title = "flavor_hab.40.name"	#Was flavor_dan.4.t - SF
@@ -2903,6 +2903,9 @@ country_event = {
                     inherit = SH1
                 }
                 change_tag = HAB
+                swap_non_generic_missions = yes
+                set_country_flag = formed_austria_flag
+			    vu_colour_refresh = yes
             }
         }
         else = {
@@ -2964,6 +2967,9 @@ country_event = {
                     inherit = SH1
                 }
                 change_tag = HAB
+                swap_non_generic_missions = yes
+                set_country_flag = formed_austria_flag
+			    vu_colour_refresh = yes
             }
         }
     }

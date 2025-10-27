@@ -1,5 +1,6 @@
 #1993 - Marshal Islands
 
+#Default
 culture = polynesian
 religion = animism
 capital = "Majuro"
@@ -11,11 +12,12 @@ base_manpower = 2
 native_size = 1
 native_ferocity = 1
 native_hostileness = 1
+
+#Commerce
 center_of_trade = 1
 
+#Province Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
-

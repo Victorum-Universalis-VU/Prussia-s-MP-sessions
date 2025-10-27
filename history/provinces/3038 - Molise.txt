@@ -2,7 +2,7 @@
 
 culture = soninke 
 religion = shamanism #Fetishism
-capital = "KaÃ©di"
+capital = "Kaédi"
 trade_goods = unknown
 hre = no
 base_tax = 1

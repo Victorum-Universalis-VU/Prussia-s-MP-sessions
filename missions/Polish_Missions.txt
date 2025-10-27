@@ -972,6 +972,15 @@ polish_missions_slot_5 = {
 					duration = 7300
 				}
 			}
+			lwow_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "invested_in_eastern_poland"
+					duration = 7300
+				}
+			}
 		}
 	}
 }

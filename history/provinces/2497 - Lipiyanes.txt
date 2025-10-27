@@ -1,5 +1,10 @@
-# No previous file for Lipiyanes
+#2497 - Lipiyanes
 
+latent_trade_goods = {
+    oil
+}
+
+#Default
 culture = navajo
 religion = totemism
 capital = "Lipiyanes"
@@ -11,23 +16,12 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
+
+#Commerce
 center_of_trade = 1
 
+#Province Modifiers
 add_permanent_province_modifier = {
     name = vu_american_prarie
     duration = -1
 }
-
-latent_trade_goods = {
-	oil
-}
-
-
-1760.1.1 = {
-	owner = COM
-	controller = COM
-	add_core = COM
-	trade_goods = grain
-	culture = shoshone
-	is_city = yes 
-} #Great Plain tribes spread over vast territories

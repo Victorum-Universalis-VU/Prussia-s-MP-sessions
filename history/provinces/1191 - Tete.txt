@@ -1,5 +1,6 @@
 #1191 - Tete
 
+#Default
 owner = ZIM
 controller = ZIM
 add_core = ZIM
@@ -13,9 +14,10 @@ hre = no
 base_tax = 4  
 base_production = 4
 
-extra_cost = 16
+#Commerce
 center_of_trade = 1
 
+#Province Modifier
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1

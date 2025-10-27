@@ -678,145 +678,145 @@ country_event = { #FROM SUPPORTS US
 	}
 }
 
-country_event = { #Onset of the War
-	id = ME_Daimyo_Events.12
-	title = ME_Daimyo_Events.12.t
-	desc = ME_Daimyo_Events.12.d
-	picture = DIPLOMACY_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		is_in_war = {
-			attacker_leader = ROOT
-			casus_belli = cb_onin_war
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = ME_Daimyo_Events.12.a
-		
-		ai_chance = { factor = 100 }
-		
-		hidden_effect = {
-			random_country = {
-				limit = {
-					has_reform = shogunate
-				}
-				every_subject_country = {
-					limit = {
-						NOT = { tag = HSK }
-						NOT = { tag = YMN }
-					}
-					country_event = { id = ME_Daimyo_Events.13 }
-				}
-			}
-		}
-	}
-}
+#country_event = { #The Onin War
+#	id = ME_Daimyo_Events.12
+#	title = ME_Daimyo_Events.12.t
+#	desc = ME_Daimyo_Events.12.d
+#	picture = DIPLOMACY_eventPicture
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		is_in_war = {
+#			attacker_leader = ROOT
+#			casus_belli = cb_onin_war
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = ME_Daimyo_Events.12.a
+#		
+#		ai_chance = { factor = 100 }
+#		
+#		hidden_effect = {
+#			random_country = {
+#				limit = {
+#					has_reform = shogunate
+#				}
+#				every_subject_country = {
+#					limit = {
+#						NOT = { tag = HSK }
+#						NOT = { tag = YMN }
+#					}
+#					country_event = { id = ME_Daimyo_Events.13 }
+#				}
+#			}
+#		}
+#	}
+#}
 
-country_event = { #Onset of the War
-	id = ME_Daimyo_Events.13
-	title = ME_Daimyo_Events.12.t
-	desc = ME_Daimyo_Events.12.d
-	picture = DIPLOMACY_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = ME_Daimyo_Events.13.a
-		trigger = {
-			OR = {
-				has_country_flag = JAP_supporting_hosokawa
-				has_country_flag = JAP_supporting_yamana
-			}
-		}
-		ai_chance = { factor = 100 }
-		
-		if = {
-			limit = {
-				has_country_flag = JAP_supporting_hosokawa
-			}
-			hidden_effect = {
-				join_all_offensive_wars_of = HSK
-				join_all_defensive_wars_of = HSK
-			}
-		}
-		else_if = {
-			limit = {
-				has_country_flag = JAP_supporting_yamana
-			}
-			hidden_effect = {
-				join_all_offensive_wars_of = YMN
-				join_all_defensive_wars_of = YMN
-			}
-		}
-	}
-	option = {
-		name = ME_Daimyo_Events.13.b
-		trigger = {
-			NOT = {
-				OR = {
-					has_country_flag = JAP_supporting_hosokawa
-					has_country_flag = JAP_supporting_yamana
-				}
-			}
-		}
-		ai_chance = { factor = 50 }
-		
-		hidden_effect = {
-			join_all_offensive_wars_of = HSK
-			join_all_defensive_wars_of = HSK
-		}
-	}
-	option = {
-		name = ME_Daimyo_Events.13.c
-		trigger = {
-			NOT = {
-				OR = {
-					has_country_flag = JAP_supporting_hosokawa
-					has_country_flag = JAP_supporting_yamana
-				}
-			}
-		}
-		ai_chance = { factor = 50 }
-		
-		hidden_effect = {
-			join_all_offensive_wars_of = YMN
-			join_all_defensive_wars_of = YMN
-		}
-	}
-}
+#country_event = { #What are Our options?
+#	id = ME_Daimyo_Events.13
+#	title = ME_Daimyo_Events.13.t
+#	desc = ME_Daimyo_Events.13.d
+#	picture = DIPLOMACY_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = ME_Daimyo_Events.13.a
+#		trigger = {
+#			OR = {
+#				has_country_flag = JAP_supporting_hosokawa
+#				has_country_flag = JAP_supporting_yamana
+#			}
+#		}
+#		ai_chance = { factor = 100 }
+#		
+#		if = {
+#			limit = {
+#				has_country_flag = JAP_supporting_hosokawa
+#			}
+#			hidden_effect = {
+#				join_all_offensive_wars_of = HSK
+#				join_all_defensive_wars_of = HSK
+#			}
+#		}
+#		else_if = {
+#			limit = {
+#				has_country_flag = JAP_supporting_yamana
+#			}
+#			hidden_effect = {
+#				join_all_offensive_wars_of = YMN
+#				join_all_defensive_wars_of = YMN
+#			}
+#		}
+#	}
+#	option = {
+#		name = ME_Daimyo_Events.13.b
+#		trigger = {
+#			NOT = {
+#				OR = {
+#					has_country_flag = JAP_supporting_hosokawa
+#					has_country_flag = JAP_supporting_yamana
+#				}
+#			}
+#		}
+#		ai_chance = { factor = 50 }
+#		
+#		hidden_effect = {
+#			join_all_offensive_wars_of = HSK
+#			join_all_defensive_wars_of = HSK
+#		}
+#	}
+#	option = {
+#		name = ME_Daimyo_Events.13.c
+#		trigger = {
+#			NOT = {
+#				OR = {
+#					has_country_flag = JAP_supporting_hosokawa
+#					has_country_flag = JAP_supporting_yamana
+#				}
+#			}
+#		}
+#		ai_chance = { factor = 50 }
+#		
+#		hidden_effect = {
+#			join_all_offensive_wars_of = YMN
+#			join_all_defensive_wars_of = YMN
+#		}
+#	}
+#}
 
-country_event = { #Onset of the War
-	id = ME_Daimyo_Events.14
-	title = ME_Daimyo_Events.12.t
-	desc = ME_Daimyo_Events.12.d
-	picture = DIPLOMACY_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		is_in_war = {
-			defender_leader = ROOT
-			casus_belli = cb_onin_war
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = ME_Daimyo_Events.12.a
-		
-		ai_chance = { factor = 100 }
-	}
-}
+#country_event = { #Outcome of the Onin War
+#	id = ME_Daimyo_Events.14
+#	title = ME_Daimyo_Events.14.t
+#	desc = ME_Daimyo_Events.14.d
+#	picture = DIPLOMACY_eventPicture
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		is_in_war = {
+#			defender_leader = ROOT
+#			casus_belli = cb_onin_war
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = ME_Daimyo_Events.14.a
+#		
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
 country_event = { #Bunkoko-ho aka laws of the daimyos
 	id = ME_Daimyo_Events.15

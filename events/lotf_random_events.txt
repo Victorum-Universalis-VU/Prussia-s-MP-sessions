@@ -158,59 +158,10 @@ country_event = { #Great Awakening
 	}
 }
 
-country_event = { #Borat Easter Egg
+country_event = { #University Flavor Event
 	id = lotf_random_events.5
 	title = lotf_random_events.5.t
 	desc = lotf_random_events.5.d
-	picture = BORAT_eventPicture
-	is_triggered_only = yes
-	fire_only_once = yes
-	trigger = { 
-		tag = USA
-		any_province = { 
-			culture = khazak
-			has_discovered = ROOT
-		}
-	}
-	mean_time_to_happen = {
-		days = 1
-		modifier = {
-			factor = 2
-			has_idea_group = humanist_ideas
-		}
-		modifier = {
-			factor = 2
-			has_idea_group = innovativeness_ideas
-		}
-		modifier = {
-			factor = 2
-			has_idea_group = diplomatic_ideas
-		}
-		modifier = {
-			factor = 0.5
-			is_at_war = yes
-		}
-	}
-	option = {
-		name = lotf_random_events.5.a
-		add_prestige = 10
-		add_country_modifier = { name = borat_easter_egg_modifier duration = 3650 }
-		define_advisor = {
-			culture = khazak
-			religion = animism
-			name = "Borat Sagdiyev"
-			type = statesman 
-			skill = 3 
-			cost_multiplier = 0.50 
-		}
-	}
-}
-
-
-country_event = { #University Flavor Event
-	id = lotf_random_events.6
-	title = lotf_random_events.6.t
-	desc = lotf_random_events.6.d
 	picture = UNIVERSITY_eventPicture
 	is_triggered_only = yes
 	trigger = { 
@@ -234,7 +185,7 @@ country_event = { #University Flavor Event
 		}
 	}
 	option = {
-		name = lotf_random_events.6.a
+		name = lotf_random_events.5.a
 		random_owned_province = {
 			limit = { 
 				has_building = university 

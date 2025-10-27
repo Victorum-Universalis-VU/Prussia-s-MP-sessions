@@ -4,12 +4,10 @@ add_government_reform = imperial_city
 government_rank = 3 #Imperial City
 primary_culture = burgundian
 religion = catholic
-#technology_group = western
-technology_group = dutch_tech_group
+technology_group = german_tech_group
 unit_type = western
 capital = 193
 fixed_capital = 193
 mercantilism = 25
 
-
-#History not yet done
+#History by Prussia

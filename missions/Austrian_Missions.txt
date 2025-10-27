@@ -223,6 +223,13 @@ hab_holy_roman_ambitions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			lwow_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 			sandomierz_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -244,6 +251,7 @@ hab_holy_roman_ambitions = {
 				area = slovakia_area
 				area = malopolska_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = sandomierz_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -258,6 +266,10 @@ hab_holy_roman_ambitions = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			red_ruthenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lwow_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -342,6 +354,12 @@ hab_holy_roman_ambitions = {
 			modifier = {
 				factor = 2
 				red_ruthenia_area = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			modifier = {
+				factor = 2
+				lwow_area = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}

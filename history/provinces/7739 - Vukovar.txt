@@ -12,7 +12,10 @@ base_manpower = 2
 trade_goods = livestock #ducks
 is_city = yes
 hre = no
+
+#Claimants
 add_core = SLA
+add_core = BKV
 
 #Special Modifiers
 

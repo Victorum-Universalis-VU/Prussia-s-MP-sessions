@@ -1,5 +1,6 @@
 #392 - Al-Arid
 
+#Default
 owner = MRU
 controller = MRU
 add_core = MRU
@@ -13,17 +14,5 @@ base_production = 2
 base_manpower = 1 
 is_city = yes
 
+#Commerce
 center_of_trade = 1
-extra_cost = 4
-
-#Claimants
-add_core = R4S
-
-#Histories by SF
-1744.1.1 = {
-	owner = NAJ
-	controller = NAJ
-	add_core = NAJ
-	remove_core = MRU
-	fort_16th = yes
-} # The First Saudi State

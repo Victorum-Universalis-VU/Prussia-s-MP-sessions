@@ -94,9 +94,16 @@ scandinavia_region = {
 		southern_norway_area
 		trondelag_area
 		gotland_area
+		bornholm_area
 	}
 }
 
+switzerland_region = {
+    areas = {
+        romandie_area
+        switzerland_area
+    }
+}
 
 low_countries_region = {
 	areas = {
@@ -116,7 +123,6 @@ low_countries_region = {
 
 italy_region = {
 	areas = {
-		persian_gulf_islands_area
 	    pelagie_islands
 		malta_area
 		venetia_area
@@ -191,11 +197,9 @@ north_german_region = {
 south_german_region = {
 	areas = {
 		bavaria_area
-		switzerland_area
 		liechtenstein_area
 		franconia_area
 		swabia_area
-		romandie_area
 		palatinate_area
 		hohenzollern_area
 		baden_area
@@ -370,7 +374,9 @@ ruthenia_region = {
 		severia_area
 		vitebsk_area
 		polotsk_area
-		polesie_area	  
+		polesie_area	
+		braclaw_area
+		lwow_area
 	}
 }
 
@@ -537,9 +543,11 @@ persia_region = {
 		yazd_area
 		kerman_area
 		persian_gulf_coast
+		persian_gulf_islands_area
 		tabriz_area
 		khuzestan_area
 		mogostan_area
+		soqotra_area
 	}
 }
 
@@ -638,6 +646,8 @@ guinea_region = {
 		grain_coast_area
 		gold_coast_area
 		jolof_area
+		gambia_area
+		sierra_leone_area
 		sao_tome_area
 		tekrur_area
 	}
@@ -748,8 +758,6 @@ angola_region = {
 
 botswana_region = {
 	areas = {
-	    bechuanaland_area
-		kalahari_area
 		okavango_area
 		upper_limpopo_area
 	}
@@ -790,6 +798,12 @@ central_africa_region = {
 	monsoon = {
 		00.01.01
 		00.04.30
+	}
+}
+
+kalahari_region = {
+	areas = {
+		kalahari_area
 	}
 }
 
@@ -873,6 +887,7 @@ south_africa_region = {
 		cape_of_good_hope_area
 		#VU ADDITIONS
 		vu_natal_area
+		bechuanaland_area
 		eastern_cape_area
 		northern_cape_area
 		xhosa_area

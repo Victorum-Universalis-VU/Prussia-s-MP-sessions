@@ -1,4 +1,4 @@
-# Dreyse ZÃ¼ndnadelgewehr
+# Dreyse Zündnadelgewehr
 
 type = infantry
 unit_type = german_tech_group

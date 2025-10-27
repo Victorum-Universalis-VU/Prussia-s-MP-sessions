@@ -425,6 +425,7 @@ vu_discover_the_world = {
                 #Sea
                 3020 = { discover_country = PREV }
                 arabian_sea_region = { discover_country = PREV }
+                switzerland_region = { discover_country = PREV }
                 black_sea_region = { discover_country = PREV }
                 caspian_sea_region = { discover_country = PREV }
                 mediterrenean_region = { discover_country = PREV }
@@ -626,6 +627,8 @@ vu_discover_the_world = {
                 west_coast_of_india_provinces = { discover_country = PREV }
                 futa_jallon_area = { discover_country = PREV }
                 sao_tome_area = { discover_country = PREV }
+                gambia_area= { discover_country = PREV }
+                sierra_leone_area = { discover_country = PREV }
                 bornu_area = { discover_country = PREV }
                 dendi_area = { discover_country = PREV }
                 niger_bend_area = { discover_country = PREV }
@@ -896,6 +899,8 @@ vu_discover_the_world = {
                 siwa_oasis_provinces = { discover_country = PREV }
                 west_coast_of_india_provinces = { discover_country = PREV }
                 sao_tome_area = { discover_country = PREV }
+                gambia_area= { discover_country = PREV }
+                sierra_leone_area = { discover_country = PREV }
                 bornu_area = { discover_country = PREV }
                 dendi_area = { discover_country = PREV }
                 niger_bend_area = { discover_country = PREV }
@@ -1872,11 +1877,14 @@ vu_discover_the_world = {
                 4224 = { discover_country = PREV }
                 4225 = { discover_country = PREV }
                 4226 = { discover_country = PREV }
+                6432 = { discover_country = PREV }
+                6433 = { discover_country = PREV }
                 6709 = { discover_country = PREV }
                 6808 = { discover_country = PREV }
                 6986 = { discover_country = PREV }
                 6992 = { discover_country = PREV }
                 7402 = { discover_country = PREV }
+
                 east_china_sea_area = { discover_country = PREV }
                 #Land
                 central_kyushu_area = { discover_country = PREV }
@@ -1918,11 +1926,6 @@ vu_discover_the_world = {
                 7352 = { discover_country = PREV }
                 #Land
                 australia_region = { discover_country = PREV }
-                #Undiscovered
-                1790 = { undiscover_country = PREV }
-                1791 = { undiscover_country = PREV }
-                3812 = { undiscover_country = PREV }
-                3875 = { undiscover_country = PREV }
             }
             if = {
                 limit = {
@@ -1939,10 +1942,7 @@ vu_discover_the_world = {
                 1432 = { discover_country = PREV }
                 #Land
                 melanesia_area = { discover_country = PREV }
-                papua_new_guinea_provinces = { discover_country = PREV }
-                #Undiscovered
-                1789 = { undiscover_country = PREV }
-                3760 = { undiscover_country = PREV }
+                papua_region = { discover_country = PREV }
             }
             #Hawaiian
             if = {

@@ -1831,7 +1831,7 @@ spice_islands_modifier = { #Main entrepots of the Mollucas, point of origin for 
     trade_goods_size = 3.0
 }
 
-skanemarket = { #SkÃ¥nemarknaden - Biggest Herring Market in Europe
+skanemarket = { #Skånemarknaden - Biggest Herring Market in Europe
     trade_goods_size = 1.5
 }
 
@@ -3111,9 +3111,19 @@ tur_reign_of_women_modifier = {
     female_advisor_chance = 0.33
 }
 
-tur_harem_under_haseki_sultans_control = {
+tur_reign_of_femboys_modifier = {
+    advisor_pool = 1
+    advisor_cost = -0.5
+}
+
+tur_harem_under_haseki_sultans_control = { #Women for babies
     legitimacy = 1
     monarch_lifespan = 1.25
+}
+
+tur_selamlik_under_head_boy_control = { #Boys for pleasure
+    legitimacy = 1
+    monarch_lifespan = 1.5
 }
 
 tur_reign_of_the_valide_sultan_modifier = {
@@ -3123,7 +3133,19 @@ tur_reign_of_the_valide_sultan_modifier = {
     all_estate_loyalty_equilibrium = -0.05
 }
 
+tur_reign_of_the_kocekler_modifier = {
+    all_power_cost = -0.1
+    yearly_corruption = 0.2
+    legitimacy = -1
+    all_estate_loyalty_equilibrium = -0.05
+}
+
 tur_opposed_valide_sultan_modifier = {
+    global_unrest = 5
+    all_estate_loyalty_equilibrium = 0.05
+}
+
+tur_opposed_kocekler_modifier = {
     global_unrest = 5
     all_estate_loyalty_equilibrium = 0.05
 }
@@ -3179,6 +3201,11 @@ tur_pasha_revolt = {
 }
 
 tur_weakened_the_harem = {
+    stability_cost_modifier = -0.2
+    yearly_corruption = -0.5
+}
+
+tur_weakened_the_selamlik = {
     stability_cost_modifier = -0.2
     yearly_corruption = -0.5
 }
@@ -6674,10 +6701,10 @@ sce_lost_woods_tooltip = {
     local_hostile_movement_speed = -0.5
 }
 sce_shortcut = {
-    local_hostile_movement_speed = 0.33
+    local_hostile_movement_speed = -0.33
 }
 sce_shortcut_tooltip = {
-    local_hostile_movement_speed = 0.33
+    local_hostile_movement_speed = -0.33
 }
 sce_jeanne_baret = {
     land_morale = 0.05
@@ -10888,6 +10915,42 @@ VU_anglican_bibles_for_soldiers = {
     recover_army_morale_speed = 0.15
     reinforce_speed = 0.15
 }
+
+#Methodist Aspects
+
+vu_encourage_abstentionism_aspect_modifier = {
+    production_efficiency = 0.15
+    global_unrest = -1
+    global_prosperity_growth = 0.1
+}
+
+vu_encourage_development_aspect_modifier = {
+    development_cost_modifier = -0.1
+    build_cost = -0.1
+}
+
+vu_encourage_productivity_aspect_modifier = {
+    global_trade_goods_size_modifier = 0.1
+    trade_efficiency = 0.1
+}
+
+vu_encourage_trade_aspect_modifier = {
+    global_trade_power = 0.1
+    center_of_trade_upgrade_cost = -0.15
+}
+
+vu_encourage_neigbourly_relations_aspect_modifier = {
+    improve_relation_modifier = 0.2
+    diplomatic_reputation = 1
+    diplomats = 1
+}
+
+vu_encourage_readiness_to_fight_aspect_modifier = {
+    army_tradition = 0.5
+    manpower_recovery_speed = 0.1
+    land_morale = 0.1
+}
+
 #VU - End of Don Broms additions for 1.36.2.**
 # Indian Estates
 look_up_purbias = {
@@ -12072,10 +12135,10 @@ elephants_in_europe = {
     cavalry_power = 0.15
 }
 
-popular_mercs_prosperity = {
-    local_tax_modifier = 0.2
-    local_development_cost = -0.15
-}
+#popular_mercs_prosperity = {
+#    local_tax_modifier = 0.2
+#    local_development_cost = -0.15
+#}
 
 pious_mercenaries = {
     is_mercenary_modifier = yes
@@ -13983,7 +14046,7 @@ decline_of_the_ottomans = {
 }
 
 #Diplo actions
-dissolve_protectorate_timer = {} #Timer
+dissolve_protectorate_timer = {} #Timer & Vanilla EU4 entry - SF
 just_left_sphere_of_cultural_influence_timer = {} #Timer
 just_asked_to_convert_timer = {}
 
@@ -16088,7 +16151,7 @@ caucasus_fortress = {
     local_hostile_attrition = 2
     local_defensiveness = 0.1
     local_friendly_movement_speed = 0.1
-    local_hostile_movement_speed = 0.25
+    local_hostile_movement_speed = -0.25
     local_governing_cost = -0.2
     trade_value = 0.5
 }
@@ -19348,4 +19411,9 @@ VU_HOL_Duchy_Of_Brabant_Modifier = {
 
 VU_HOL_County_Of_Flanders = {
     global_trade_goods_size_modifier = 0.1
+}
+
+vu_internment_camps = {
+    local_colonial_growth = 10
+    local_unrest = 3
 }

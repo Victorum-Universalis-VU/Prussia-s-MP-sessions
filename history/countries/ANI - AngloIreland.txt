@@ -1,3 +1,4 @@
+#ANI - AngloIreland
 government = monarchy
 add_government_reform = unlocked_eue_lordship_reform # Lordship of Ireland between 1177 and 1542 - Prussia
 government_rank = 1 #Lordship
@@ -359,7 +360,7 @@ national_focus = MIL
 	queen = {
 		country_of_origin = POR
 		name = "Catherine"
-		dynasty = "de BraganÃ§a"
+		dynasty = "de Bragança"
 		birth_date = 1638.11.25
 		death_date = 1705.12.31
 		female = yes

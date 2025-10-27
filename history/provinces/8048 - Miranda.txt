@@ -1,5 +1,6 @@
 #8048 - Miranda
 
+#Default
 owner = CAS
 controller = CAS
 add_core = CAS
@@ -12,10 +13,17 @@ base_manpower = 2
 trade_goods = wine
 is_city = yes
 hre = no
-center_of_trade = 1
 
+#Buildings - SF
+road_system = yes
+temple = yes
+hall = yes
+workshop = yes
+marketplace = yes
+sculpture_workshop = yes #Known for its artists - SF
 
+#Commerce
+center_of_trade = 2
 
-
-
-
+#Claimants
+add_core = BGS

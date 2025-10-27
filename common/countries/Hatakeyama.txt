@@ -1,4 +1,4 @@
-#Country Name: Please see filename.
+#HTK - Hatakeyama
 
 graphical_culture = asiangfx
 
@@ -52,7 +52,7 @@ monarch_names = {
 	"Yoshitada #0" = 20
 	"Yoshitsugu #0" = 20
 	"Yoshinori #0" = 20
-	"Yoshitsunaa #0" = 20
+	"Yoshitsuna #0" = 20
 	"Yoshitaka #0" = 20
 	"Toku #0" = -5
 	"Sen #0" = -5

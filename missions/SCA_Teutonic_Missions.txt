@@ -668,6 +668,13 @@ teu_pru_dummy_hre_mission_slot_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			lwow_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -753,6 +760,7 @@ teu_pru_dummy_hre_mission_slot_1 = {
 						OR = {
 							area = sandomierz_area
 							area = red_ruthenia_area
+							area = lwow_area
 						}
 						value = 6
 					}
@@ -1639,6 +1647,13 @@ teu_pru_dummy_hre_mission_slot_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			braclaw_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -1684,6 +1699,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 							area = volhynia_area
 							area = west_dniepr_area
 							area = podolia_volhynia_area
+							area = braclaw_area
 						}
 						value = 16
 					}
@@ -3358,6 +3374,13 @@ teu_pru_kingdom_of_prussia_mission_slot = {
 				}
 				add_permanent_claim = ROOT
 			}
+			lwow_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -3369,6 +3392,7 @@ teu_pru_kingdom_of_prussia_mission_slot = {
 			OR = {
 				area = sandomierz_area
 				area = red_ruthenia_area
+				area = lwow_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -3378,6 +3402,7 @@ teu_pru_kingdom_of_prussia_mission_slot = {
 				OR = {
 					area = sandomierz_area
 					area = red_ruthenia_area
+					area = lwow_area
 				}
 				value = 6
 			}
@@ -3690,6 +3715,13 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 				}
 				add_permanent_claim = ROOT
 			}
+			braclaw_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -3705,6 +3737,7 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 				area = volhynia_area
 				area = west_dniepr_area
 				area = podolia_volhynia_area
+				area = braclaw_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -3719,6 +3752,7 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 					area = volhynia_area
 					area = west_dniepr_area
 					area = podolia_volhynia_area
+					area = braclaw_area
 				}
 				value = 16
 			}

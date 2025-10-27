@@ -179,6 +179,7 @@ tr_muscovy_conquest = {
 			OR = {
 				area = malopolska_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = mazovia_area
 				area = sandomierz_area
 			}
@@ -192,6 +193,10 @@ tr_muscovy_conquest = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			red_ruthenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lwow_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -618,6 +623,13 @@ required_missions = { tr_invade_novgorod_mission }
 				add_permanent_claim = ROOT
 			}
 			red_ruthenia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			lwow_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}

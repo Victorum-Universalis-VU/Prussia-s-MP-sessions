@@ -1,5 +1,6 @@
 #1126 - Ivory Coast
 
+#Default
 culture = aka
 religion = shamanism #Fetishism
 capital = "Assinie"
@@ -11,17 +12,12 @@ base_manpower = 2
 native_size = 60
 native_ferocity = 4
 native_hostileness = 9 
+
+#Commerce
 center_of_trade = 1
 
+#Province Modifier
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
-
-
-
-
-1570.1.1 = { unrest = 5 } #Mane Invasions reach region, disrupt societies in area
-1650.1.1 = { unrest = 4 } #Wave of Akan migrations westward towards Bandama River
-1713.1.1 = { unrest = 4 } #Wave of Akan migrations towards coast in wake of rise of Ashanti

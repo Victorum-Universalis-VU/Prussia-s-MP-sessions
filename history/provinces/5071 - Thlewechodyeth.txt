@@ -1,6 +1,10 @@
 #5071 - Thlewechodyeth
 
+latent_trade_goods = {
+    coal
+}
 
+#Default
 culture = wichita
 religion = totemism 
 capital = "Thlewechodyeth"			#Not really ideal, as it is simply the name of the river marking the Yellowknives' eastern border, but I could find no other named settlements
@@ -12,12 +16,11 @@ base_manpower = 1
 native_size = 1 
 native_ferocity = 1 
 native_hostileness = 3 
+
+#Commerce
 center_of_trade = 1
 
-latent_trade_goods = {
-	coal
-}
-
+#Province Modifiers
 add_permanent_province_modifier = {
     name = vu_american_prarie
     duration = -1

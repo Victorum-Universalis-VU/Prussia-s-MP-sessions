@@ -194,6 +194,7 @@ monarchy = {
 				unlocked_eue_principality_reform
 				eue_kingdom_reform
 				unlocked_eue_kingdom_reform
+				unlocked_eue_empire_reform
 				islamic_sharifate_reform
 				islamic_emirate_reform
 				unlocked_islamic_emirate_reform
@@ -211,6 +212,17 @@ monarchy = {
 				datunate_reform
 				lakanate_reform
 				duchy_of_brittany_reform
+				vu_chinese_principality_reform
+				vu_japanese_imperial_colony_reform
+				vu_japanese_imperial_directorate_reform
+				vu_japanese_imperial_governate_reform
+				vu_japanese_imperial_warlord_reform
+				vu_hindu_principality_reform
+				vu_buddhist_principality_reform
+				aztec_lordship_reform
+				mayan_lordship_reform
+				inca_lordship_reform
+				mesoamerican_lordship_reform
 				#GE
 				imperial_circles_reform
 				irish_clann_reform
@@ -287,6 +299,8 @@ monarchy = {
 				islamic_feudal_theocratic_order_reform
 				#Prussia's Larp reforms
 				vu_iranian_revolutionary_republic
+				#Colonial Dominion Reform
+				self_governing_dominion_vu_government
 			}
 		}
 		hereditary_vs_nobility = {
@@ -1301,6 +1315,7 @@ republic = {
 				confederate_states_republic
 				improved_veche_republic
 				roman_diarchy_reform
+				italian_triarchy_reform
 				spartan_diarchy_reform
 				theban_league_reform
 				athenian_democracy_reform
@@ -1313,7 +1328,6 @@ republic = {
 		    	national_assembly_republic_reform
 		    	french_second_republic_reform
 		    	french_third_republic_reform
-		    	self_governing_dominion_vu_government
 				admiralty_regime_reform
 				high_admiral_reform
 				supreme_admiral_reform
@@ -1914,6 +1928,7 @@ tribal = {
 				persianate_tribal_confederation
 				islamic_sheikdom_reform
 				unlocked_islamic_sheikdom_reform
+				iroquois_confederacy_member_reform
 			}
 		}
 		tribal_cultural_values = {
@@ -2180,6 +2195,9 @@ theocracy = {
 				vu_order_of_saint_joan_reform
 				aju_hydraulic_empire
 				#VU
+				church_of_denmark_abbacy_reform
+				church_of_denmark_bishopric_reform
+				church_of_denmark_archbishopric_reform
 				church_of_england_abbacy_reform
 				church_of_england_bishopric_reform
 				church_of_england_archbishopric_reform
@@ -2192,6 +2210,9 @@ theocracy = {
 				church_of_lotharingia_abbacy_reform
 				church_of_lotharingia_bishopric_reform
 				church_of_lotharingia_archbishopric_reform
+				church_of_norway_abbacy_reform
+				church_of_norway_bishopric_reform
+				church_of_norway_archbishopric_reform
 				church_of_balkans_abbacy_reform
 				church_of_balkans_bishopric_reform
 				church_of_balkans_archbishopric_reform
@@ -2210,6 +2231,11 @@ theocracy = {
 				church_of_portugal_abbacy_reform
 				church_of_portugal_bishopric_reform
 				church_of_portugal_archbishopric_reform
+				church_of_sweden_abbacy_reform
+				church_of_sweden_bishopric_reform
+				church_of_sweden_archbishopric_reform
+				church_of_spain_abbacy_reform
+				church_of_spain_bishopric_reform
 				church_of_spain_archbishopric_reform
 				church_of_switzerland_abbacy_reform
 				church_of_switzerland_bishopric_reform

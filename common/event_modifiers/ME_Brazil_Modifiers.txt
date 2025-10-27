@@ -67,7 +67,7 @@ BRZ_coffers_full = {
 BRZ_europeans_settling = {
 	global_tax_modifier = -0.25
 }
-BRA_hardy_settlers = {
+BRZ_hardy_settlers = {
 	global_colonial_growth = 30
 }
 BRZ_bandeirantes = {

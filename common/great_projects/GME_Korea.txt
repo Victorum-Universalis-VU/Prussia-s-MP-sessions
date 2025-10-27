@@ -165,7 +165,14 @@ gme_dosan_seowon = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		OR = {
 			culture = korean
 			culture = korean_new
@@ -174,7 +181,14 @@ gme_dosan_seowon = {
 		has_owner_accepted_culture = yes
 	}
 	can_upgrade_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		OR = {
 			culture = korean
 			culture = korean_new
@@ -555,14 +569,21 @@ gme_hwaseong_fortress = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	starting_tier = 0
+	starting_tier = 1
 	type = monument
 	can_be_moved = no
 	build_trigger = { }
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		has_owner_religion = yes
 		OR = {
 			culture = korean
@@ -571,7 +592,14 @@ gme_hwaseong_fortress = {
 		has_owner_accepted_culture = yes
 	}
 	can_upgrade_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		has_owner_religion = yes
 		OR = {
 			culture = korean
@@ -595,13 +623,13 @@ gme_hwaseong_fortress = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
-			local_development_cost = -0.05
 			local_defensiveness = 0.10
 		}
-		area_modifier = { }
+		area_modifier = { 
+			local_development_cost = -0.05
+		}
 		country_modifiers = {
 			church_influence_modifier = -0.05
-			nobles_influence_modifier = -0.05
 		}
 		on_upgraded = {	}
 	}
@@ -609,18 +637,20 @@ gme_hwaseong_fortress = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = 2500 }
 		province_modifiers = {
-			local_defensiveness = 0.10
+			local_defensiveness = 0.2
 		}
 		area_modifier = {
-			local_development_cost = -0.05
+			local_development_cost = -0.075
 		}
 		country_modifiers = {
+			church_influence_modifier = -0.075
+			nobles_influence_modifier = -0.05
 			fort_maintenance_modifier = -0.1
 			reform_progress_growth = 0.1
-			church_influence_modifier = -0.05
-			nobles_influence_modifier = -0.05
 		}
-		on_upgraded = {	}
+		on_upgraded = {	
+			add_building = fort_16th
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 480 }
@@ -632,10 +662,10 @@ gme_hwaseong_fortress = {
 			local_development_cost = -0.10
 		}
 		country_modifiers = {
+			church_influence_modifier = -0.1
+			nobles_influence_modifier = -0.075
 			fort_maintenance_modifier = -0.2
 			reform_progress_growth = 0.15
-			church_influence_modifier = -0.10
-			nobles_influence_modifier = -0.10
 		}
 		on_upgraded = {	}
 	}
@@ -652,7 +682,14 @@ gme_jinnamgwan_hall = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		OR = {
 			culture = korean
 			culture = korean_new
@@ -661,7 +698,14 @@ gme_jinnamgwan_hall = {
 		has_owner_accepted_culture = yes
 	}
 	can_upgrade_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		OR = {
 			culture = korean
 			culture = korean_new
@@ -682,7 +726,7 @@ gme_jinnamgwan_hall = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
-			hostile_disembark_speed = 0.25
+			hostile_disembark_speed = 0.15
 			local_sailors_modifier = 0.25
 		}
 		area_modifier = { }
@@ -728,7 +772,14 @@ gme_jongmyo_shrine = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		has_owner_religion = yes
 		OR = {
 			culture = korean
@@ -737,7 +788,14 @@ gme_jongmyo_shrine = {
 		has_owner_accepted_culture = yes
 	}
 	can_upgrade_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		has_owner_religion = yes
 		OR = {
 			culture = korean
@@ -1022,7 +1080,14 @@ gme_sungkyunkwan = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		OR = {
 			culture = korean
 			culture = korean_new
@@ -1031,7 +1096,14 @@ gme_sungkyunkwan = {
 		has_owner_culture = yes
 	}
 	can_upgrade_trigger = {
-		religion = confucianism
+		OR = {
+            province_is_or_accepts_religion = {
+                religion = confucianism
+            }
+            province_is_or_accepts_religion = {
+                religion = taoism
+            }
+        }
 		OR = {
 			culture = korean
 			culture = korean_new

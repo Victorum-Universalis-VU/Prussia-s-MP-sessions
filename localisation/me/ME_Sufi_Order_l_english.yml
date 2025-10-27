@@ -23,6 +23,7 @@
  ME_Sufi_Order_Events.1.a: "But they were meant to be loyal only to the Sultan!"
  
  BKT_rule_of_the_bektashi_order: "Rule of the Bektashi Order" #in rum file
+ desc_BKT_rule_of_the_bektashi_order: ""
  
  Sufi_Order_ideas_start: "Sufi Order Traditions"
  Sufi_Order_ideas_end: "Sufi Order Ambitions"

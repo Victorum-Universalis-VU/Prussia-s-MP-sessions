@@ -4,7 +4,7 @@ culture = carib
 
 
 religion = animism
-capital = "SantarÃ©m"
+capital = "Santarém"
 trade_goods = unknown
 hre = no
 base_tax = 1

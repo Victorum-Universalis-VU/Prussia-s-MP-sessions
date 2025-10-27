@@ -11,7 +11,7 @@ unit_type = eastern
 # The League of Lezhe
 1443.3.4 = {
 	monarch = {
-		name = "LekÃ«"
+		name = "Lekë"
 		dynasty = "Dushmani"
 		birth_date = 1405.1.1		
 		adm = 3

@@ -1,11 +1,11 @@
-#7514 - BÃ¼nde
+#7514 - Bünde
 
 owner = BRG
 controller = BRG
 add_core = BRG
 culture = hannoverian
 religion = catholic
-capital = "BÃ¼nde"
+capital = "Bünde"
 trade_goods = grain
 hre = yes
 base_tax = 3

@@ -710,6 +710,13 @@ ZAZ_TUR_missions_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			braclaw_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -724,6 +731,7 @@ ZAZ_TUR_missions_1 = {
 				area = west_dniepr_area
 				area = east_dniepr_area
 				area = podolia_volhynia_area
+				area = braclaw_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -742,6 +750,10 @@ ZAZ_TUR_missions_1 = {
 				owned_by = ROOT
 			}
 			podolia_volhynia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			braclaw_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -1310,11 +1322,16 @@ ZAZ_RUS_missions_1 = {
 		}
 		provinces_to_highlight = {
 			area = red_ruthenia_area
+			area = lwow_area
 			NOT = { owned_by = ROOT }
 		}
 		position = 9
 		trigger = {
 			red_ruthenia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			lwow_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -1407,6 +1424,14 @@ ZAZ_RUS_missions_2 = {
 		}
 		effect = {
 			red_ruthenia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			lwow_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
@@ -1920,6 +1945,13 @@ ZAZ_RUS_missions_5 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			braclaw_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -1934,6 +1966,7 @@ ZAZ_RUS_missions_5 = {
 				area = west_dniepr_area
 				area = east_dniepr_area
 				area = podolia_volhynia_area
+				area = braclaw_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -1952,6 +1985,10 @@ ZAZ_RUS_missions_5 = {
 				owned_by = ROOT
 			}
 			podolia_volhynia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			braclaw_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -2058,6 +2095,7 @@ ZAZ_GOL_missions_1 = {
 		}
 		provinces_to_highlight = {
 			area = podolia_volhynia_area
+			area = braclaw_area
 			NOT = { owned_by = ROOT }
 		}
 		position = 8
@@ -2066,9 +2104,20 @@ ZAZ_GOL_missions_1 = {
 				type = all
 				owned_by = ROOT
 			}
+			braclaw_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 		effect = {
 			red_ruthenia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lwow_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
@@ -2093,6 +2142,7 @@ ZAZ_GOL_missions_1 = {
 		provinces_to_highlight = {
 			OR = {
 				area = red_ruthenia_area
+				area = lwow_area
 				area = pripyat_area
 			}
 			NOT = { owned_by = ROOT }
@@ -2100,6 +2150,10 @@ ZAZ_GOL_missions_1 = {
 		position = 9
 		trigger = {
 			red_ruthenia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			lwow_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -2310,6 +2364,13 @@ ZAZ_GOL_missions_2 = {
 		}
 		effect = {
 			podolia_volhynia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			braclaw_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }

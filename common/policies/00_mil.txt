@@ -1659,3 +1659,23 @@ vu_nationalism_regiment = {
 		factor = 1
 	}
 }
+
+vu_aristocracy_hre = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = holy_roman_empire_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = holy_roman_empire_ideas
+	}
+	imperial_authority = 0.2
+	effect = {
+	}
+	removed_effect = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}

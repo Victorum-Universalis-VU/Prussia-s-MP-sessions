@@ -23,7 +23,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3372;7510;sea;8392;-1;-1;-1;-1;Bremerlehe-Brake
 7125;3175;sea;8358;-1;-1;-1;-1;Lefkada-Aetolia
 7868;309;sea;8368;-1;-1;-1;-1;Mokrishvitsa-Olonets
-6929;236;sea;6925;-1;-1;-1;-1;Lambeth-London
+236;3392;sea;6925;-1;-1;-1;-1;London-Southwark
 183;6927;sea;8315;-1;-1;-1;-1;Paris-Ile-de-la-Cite
 6927;6924;sea;8315;-1;-1;-1;-1;Ile-de-la-Cite-Ile-Saint-Louis
 6924;6928;sea;8315;-1;-1;-1;-1;Ile-Saint-Louis-Arsenal
@@ -230,6 +230,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5236;5237;sea;1432;-1;-1;-1;-1;New Georgia-Rendova
 5236;5238;sea;1432;-1;-1;-1;-1;New Georgia-Vangunu
 3851;3837;sea;7352;-1;-1;-1;-1;South Barkindji - North Barkindji
+3852;3850;sea;7352;-1;-1;-1;-1;West Meru-East Meru
 3779;4868;sea;1414;-1;-1;-1;-1;Wybalenna - Pyemmairrener
 1001;4972;sea;1661;-1;-1;-1;-1;Soto-Manidoowaaling
 911;1001;sea;1663;-1;-1;-1;-1;Menominee-Sault
@@ -247,7 +248,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7611;7610;sea;1258;-1;-1;-1;-1;Mon-Sydsjaeland
 3;3121;sea;1255;-1;-1;-1;-1;Smaland-Kalmar
 227;3108;sea;7306;-1;-1;-1;-1;Lisboa-Setubal
-8061;8096;sea;7307;-1;-1;-1;-1;Alcantara-Covilha
+3364;8097;sea;7307;-1;-1;-1;-1;Abrantes-Proenca
+8060;4788;sea;7307;-1;-1;-1;-1;Trujillo-Plasencia
+214;3383;sea;3585;-1;-1;-1;-1;Zaragoza-San Gregorio
 4700;5131;sea;1319;-1;-1;-1;-1;Lesbos-Ayvalik
 741;502;sea;1522;-1;-1;-1;-1;Cumana-Trinidad
 741;5579;sea;1520;-1;-1;-1;-1;Cumana-Waikeri
@@ -288,9 +291,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5566;164;sea;5493;-1;-1;-1;-1;Thera-Naxos
 5564;164;sea;5493;-1;-1;-1;-1;Astypalea-Naxos
 4565;5096;sea;1471;-1;-1;-1;-1;Tenerife-GranCanaria
-47;4745;sea;1257;-1;-1;-1;-1;Stralsund-Rugen
+7842;4745;sea;1257;-1;-1;-1;-1;Stralsund-Rugen
 2994;7816;sea;8334;-1;-1;-1;-1;Wolgast-Usedom
-7816;7818;sea;8334;-1;-1;-1;-1;Usedom-Kammin
+3402;7818;sea;8334;-1;-1;-1;-1;Wolin-Kammin
 40;7833;sea;8336;-1;-1;-1;-1;Memel-Sambia
 5642;7851;sea;1260;-1;-1;-1;-1;Gdov-Ugandi
 7730;7731;sea;8353;-1;-1;-1;-1;Makarska-Brac
@@ -551,7 +554,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4831;8556;sea;7284;-1;-1;-1;-1;Nakhon-Pathom
 8567;4832;sea;7284;-1;-1;-1;-1;Sing Buri-Lavo
 8567;4834;sea;7284;-1;-1;-1;-1;Sing Buri-Suphanburi
-8103;7023;sea;7307;-1;-1;-1;-1;Abrantes-Rossio ao Sul do Tejo
 3044;5298;sea;4333;-1;-1;-1;-1;Dahlak-Zula
 5181;7450;sea;6548;-1;-1;-1;-1;Nekhel-Eilat
 5181;6550;sea;6548;-1;-1;-1;-1;Nekhel-Firan

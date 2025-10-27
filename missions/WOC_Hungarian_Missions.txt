@@ -949,6 +949,13 @@ woc_hun_second_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+			lwow_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			sandomierz_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -1723,6 +1730,7 @@ woc_hun_third_branch = {
 			OR = {
 				area = malopolska_area
 				area = red_ruthenia_area
+				area = lwow_area
 				area = sandomierz_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -1735,6 +1743,7 @@ woc_hun_third_branch = {
 					OR = {
 						area = malopolska_area
 						area = red_ruthenia_area
+						area = lwow_area
 						area = sandomierz_area
 					}
 				}

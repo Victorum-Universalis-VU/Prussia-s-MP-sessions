@@ -218,7 +218,7 @@ country_event = { # Orhan Celebi
 		name = vu_fall_of_rome.4.a
 		define_advisor = {
 			type = quartermaster
-			name = "Orhan Ã‡elebi"
+			name = "Orhan Çelebi"
 			skill = 2
 			culture = turkish
 			religion = sunni
@@ -239,7 +239,7 @@ country_event = { # Orhan Celebi
 			fire = 2
 			manuever = 2
 			siege = 1
-			name = "Orhan Ã‡elebi"
+			name = "Orhan Çelebi"
 		}
 	}
 	

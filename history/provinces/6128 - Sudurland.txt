@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 1 
 trade_goods = sulfur	# Icelandic volcanos are probably rich in sulfur
 base_manpower = 1 
-capital = "FluÃ°ir"
+capital = "Fluðir"
 is_city = yes	
 
 

@@ -151,8 +151,11 @@
  ME_Abbasid_Events.31.a: "Hasten, the glory of heavens!"
  
  ME_abbasid_baghdad_modifier: "The Abbasid Caliphate"
+ desc_ME_abbasid_baghdad_modifier: ""
  Abbasid_Caliph_in_province: "Abbasid Caliph Present"
+ desc_Abbasid_Caliph_in_province: ""
  Abbasid_Caliph_in_province_disabled: "Abbasid Caliph Present"
+ desc_Abbasid_Caliph_in_province_disabled: ""
  Abbasid_got_denounced: "Denounced by the Caliph Himself"
  desc_Abbasid_got_denounced: ""
  forced_to_denounce_rival: "Forced Caliph to Denounce Rival"
@@ -232,7 +235,7 @@
  
  abbasid_denounce_actions_title: "Denounce Actions"
  abbasid_denounce_actions_tooltip: "We will force the Caliph residing in [Caliph_province.GetName] to denounce [From.GetAdjective] actions."
- abbasid_denounce_actions_desc: "Do you wish to denounce actions of [From.GetName]? This action can only be done once every 10 Years.\n\n[Root.IfWeAreAbbasidLose50Power]We will gain §G10.00§! §YPower Projection§!.\n\nThe §YTolerance of the True Faith§! and §YDiplomatic Reputation§! of §Y[From.GetName]§! will drop by §R1.00§!.\n\n§Y[From.GetAdjective]§! opinion of §Y[Root.GetName]§! will drop by §R-100§! and they will gain the §YDiplomatic Insult§! casus belli on us.\nTheir [Root.Religion.GetName] neighbors opinion of §Y[From.GetName]§! will drop by §R-50§!."
+ abbasid_denounce_actions_desc: "Do you wish to denounce actions of [From.GetName]? This action can only be done once every 10 Years.\n\n[Root.IfWeAreAbbasidLose50Power]We will gain §G10.00§! §YPower Projection§!.\n\nThe §YTolerance of the True Faith§! and §YDiplomatic Reputation§! of §Y[From.GetName]§! will drop by §R1.00§!.\n\n§Y[From.GetAdjective]§! opinion of §Y[Root.GetName]§! will drop by §R-100§! and they will gain the §YDiplomatic Insult§! casus belli on us.\nTheir [From.Religion.GetName] neighbors opinion of §Y[From.GetName]§! will drop by §R-50§!."
  abbasid_call_jihad_title: "Call Jihad"
  abbasid_call_jihad_tooltip: "We will have the Caliph appeal to all muslims and call our armies to war!"
  abbasid_call_jihad_desc: "Do you wish to call Jihad on [From.GetName]? This action can only be done once every 25 years.\n\n[Root.IfWeAreAbbasidLose100Power]We will gain the '§YCaliph Mandated Jihad§!' casus belli on §Y[From.GetName]§! and §G-0.5§! War Exhaustion."
@@ -284,8 +287,6 @@
  ABA_idea_6_desc: "The Great Library of Baghdad, better known as the House of Wisdom, housed the greatest literary works in the world as a great work in of itself up until the sacking of Baghdad in 1258. While we may never restore the Great Library to its prestigious heights of that time, a renewed House of Wisdom will undoubtedly benefit our great nation."
  ABA_idea_7: "Khilafah"
  ABA_idea_7_desc: "With support of the Caliph, our casus belli are just, and our wars are guided by faith and supported by the blade!"
- 
- ABB_we_might_as_well_collapse: "Unless §Y[Root.GetName]§! manages to stop this, the §Y[Root.GetAdjective]§! Nobility will declare the Abbasid Caliph as their new Suzerain and form a new State in §Y[Abbasid_Disaster_Province.GetName]§! as the Caliphate of @ABA §Y[ABA.GetName]§!"
  
  ABA_while_we_may_not_benefit_from_controlling_the_sunni_caliph: "While we may not directly benefit from controlling the £abbasid_caliph_text_icon£ §YAbbasid Caliph§!, at least we will be able to limit the §YSunni§! authority."
  ABA_caliph_will_be_seated_here: "The £abbasid_caliph_text_icon£ §YAbbasid Caliph§! will be seated in §Y[This.GetName]§!."

@@ -1,5 +1,6 @@
 #5244 - Haima
 
+#Default
 owner = OMA
 controller = OMA
 add_core = OMA
@@ -12,9 +13,9 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-fort_15th = yes
 
 #Claimants
 add_core = R4S
 
-#Histories by SF
+#Buildings
+fort_15th = yes

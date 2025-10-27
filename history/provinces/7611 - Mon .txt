@@ -1,4 +1,4 @@
-#MÃ¸n
+#Møn
 
 add_core = DAN
 owner = DAN

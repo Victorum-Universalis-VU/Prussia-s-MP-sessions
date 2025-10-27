@@ -65,7 +65,7 @@ ship_names = {
 	Lakia
     Achtyn
 	Rutul
-	CÃ¶bein
+	Cöbein
 	Beslenei
 	Zichia
 	Natukhay

@@ -557,7 +557,7 @@ songhai_maghreb_slot = {
 		}
 	}
 
-	#Conquer DjennÃ©
+	#Conquer Djenné
 	son_take_djenne = {
 		icon = mission_mosque
 		required_missions = {

@@ -1,5 +1,6 @@
 #1184 - Zimbabwe
 
+#Default
 owner = ZIM
 controller = ZIM
 add_core = ZIM
@@ -12,5 +13,6 @@ trade_goods = gold
 hre = no
 base_tax = 5
 base_production = 4
-extra_cost = 8
+
+#Commerce
 center_of_trade = 1

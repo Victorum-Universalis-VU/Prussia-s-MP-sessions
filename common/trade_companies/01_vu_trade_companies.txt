@@ -260,7 +260,7 @@ trade_company_madagascar = {
 	color = { 11 106 208 }
 	
 	provinces = {
-		1193 1194 1792 4021 4022 4023 4024 4025 4026 4027 4028 4029 4030 4031 4032 
+		1193 1194 1792 4020 4021 4022 4023 4024 4025 4026 4027 4028 4029 4030 4031 4032 
 	}
 	
 	# Specific
@@ -477,5 +477,39 @@ trade_company_togo = {
 	}
 	names = {
 		name = "TRADE_COMPANY_TOGO_Trade_Company"
+	}
+}
+
+trade_company_mid_atlantic_islands = {
+	color = { 252 103 227 }
+	
+	provinces = {
+		367 368 481 1095 1096 1098 2025 3400 5027 
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_MID_ATLANTIC_ISLANDS_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_MID_ATLANTIC_ISLANDS_Trade_Company"
+	}
+}
+
+trade_company_indian_ocean = {
+	color = { 162 76 107 }
+	
+	provinces = {
+		1100 1101 1102 1103 1999 5093 5125 8545
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_INDIAN_OCEAN_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_INDIAN_OCEAN_Trade_Company"
 	}
 }

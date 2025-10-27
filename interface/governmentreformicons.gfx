@@ -664,6 +664,11 @@ spriteTypes = {
         texturefile = "gfx/interface/government_reform_icons/roman_diarchy_reform.dds"
     }
 
+    spriteType = {
+        name = "government_reform_italian_triarchy_reform"
+        texturefile = "gfx/interface/government_reform_icons/italian_triarchy_reform.dds"
+    }
+
     #VU - Don's additions v1.36.2.*
     spriteType = {
         name = "government_reform_theban_league_reform"
@@ -2046,10 +2051,11 @@ spriteTypes = {
         name = "government_reform_chhetri_clans_reform"
         texturefile = "gfx//interface//government_reform_icons//chhetri_clans_reform.dds"
     }
-    #spriteType = {
-    #	name = "government_reform_self_governing_dominion_vu_government"
-    #	texturefile = "gfx/interface/government_reform_icons/self_governing_dominion_vu_government.dds"
-    #}
+
+    spriteType = {
+        name = "government_reform_self_governing_dominion_vu_government"
+        texturefile = "gfx/interface/government_reform_icons/british/self_governing_dominion_vu_government.dds"
+    }
 
     #spriteType = {
     #	name = "government_reform_self_governing_super_dominion_vu_government"
@@ -2301,13 +2307,13 @@ spriteTypes = {
         texturefile = "gfx//interface//government_reform_icons//timurid//timurid_timur_banner.dds"
     }
 
-	spriteType = {
+    spriteType = {
         name = "government_reform_timurid_governors"
         texturefile = "gfx//interface//government_reform_icons//timurid//timurid_governors.dds"
     }
-	
-	#VU Council of Nobles by SF
-	spriteType = {
+
+    #VU Council of Nobles by SF
+    spriteType = {
         name = "government_reform_council_of_nobles"
         texturefile = "gfx//interface//government_reform_icons//bohemia//council_of_nobles.dds"
     }
@@ -2328,5 +2334,77 @@ spriteTypes = {
     spriteType = {
         name = "government_reform_duchy_of_brittany"
         texturefile = "gfx//interface//government_reform_icons//brittany//duchy_of_brittany.dds"
+    }
+    #VU Chinese Principalities
+    spriteType = {
+        name = "government_reform_chinese_principality"
+        texturefile = "gfx//interface//government_reform_icons//china//chinese_principality.dds"
+    }
+    #VU Japanese Subjects
+    spriteType = {
+        name = "government_reform_japanese_imperial_colony"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_colony.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_japanese_imperial_directorate"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_directorate.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_japanese_imperial_governate"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_governate.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_japanese_imperial_warlord"
+        texturefile = "gfx//interface//government_reform_icons//japan//japanese_imperial_warlord.dds"
+    }
+
+    #VU Hindu Prinipalities
+    spriteType = {
+        name = "government_reform_hindu_principality"
+        texturefile = "gfx//interface//government_reform_icons//india//hindu_principality.dds"
+    }
+
+    #VU Buddhist Principalities
+
+    spriteType = {
+        name = "government_reform_buddhist_principality"
+        texturefile = "gfx//interface//government_reform_icons//buddhist//buddhist_principality.dds"
+    }
+
+    #Native American Lordships
+
+    spriteType = {
+        name = "government_reform_aztec_lordship"
+        texturefile = "gfx//interface//government_reform_icons//native_american//aztec_lordship.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_mayan_lordship"
+        texturefile = "gfx//interface//government_reform_icons//native_american//mayan_lordship.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_inca_lordship"
+        texturefile = "gfx//interface//government_reform_icons//native_american//inca_lordship.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_mesoamerican_lordship"
+        texturefile = "gfx//interface//government_reform_icons//native_american//mesoamerican_lordship.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_iroquois_confederacy_member"
+        texturefile = "gfx//interface//government_reform_icons//native_american//iroquois_confederacy_member.dds"
+    }
+
+    #Generic Dominion by SF & Don
+
+    spriteType = {
+        name = "government_reform_vu_generic_dominion"
+        texturefile = "gfx//interface//government_reform_icons//dominions//generic_dominion_governor_reform.dds"
     }
 }

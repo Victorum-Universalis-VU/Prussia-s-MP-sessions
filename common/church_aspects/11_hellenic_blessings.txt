@@ -1,9 +1,10 @@
+#VU v1.37 additions by AscendingPhoenix and integrated by DM
 blessing_zeus = { #God of lightning and known as King of the Gods and ruler of Mount Olympus
 	is_blessing = yes
 
 	modifier = {
-		shock_damage = 0.05
-		fire_damage = 0.05
+		shock_damage = 0.075
+		fire_damage = 0.075
 	}
 	ai_will_do = {
 		factor = 10
@@ -38,7 +39,7 @@ blessing_demeter = { #Goddess of the harvest, fertility, agriculture, nature and
 	is_blessing = yes
 
 	modifier = {
-	    trade_goods_size_modifier = 0.1
+	    	trade_goods_size_modifier = 0.1
 		development_cost = -0.05
 	}
 	ai_will_do = {
@@ -50,8 +51,8 @@ blessing_apollo = { #God of Sun, light, prophecy, philosophy, archery, truth, in
 	is_blessing = yes
 
 	modifier = {
-	    technology_cost = -0.05
-		idea_cost = -0.05
+	    	technology_cost = -0.10
+		idea_cost = -0.10
 	}
 	ai_will_do = {
 		factor = 10
@@ -62,7 +63,8 @@ blessing_artemis = { #Goddess of the hunt, the wilderness, virginity, the Moon, 
 	is_blessing = yes
 
 	modifier = {
-	    manpower_recovery_speed = 0.1
+		fire_damage = 0.075
+	    	manpower_recovery_speed = 0.1
 		
 	}
 	ai_will_do = {
@@ -74,8 +76,9 @@ blessing_ares = { #God of war, violence, bloodshed and manly virtues
 	is_blessing = yes
 
 	modifier = {
-	    manpower_recovery_speed = 0.1
-		global_manpower_modifier = 0.1
+		morale_damage = 0.075
+	    	shock_damage = 0.075
+		
 	}
 	ai_will_do = {
 		factor = 10
@@ -86,7 +89,7 @@ blessing_athena = { #Goddess of wisdom, handicraft, and warfare
 	is_blessing = yes
 
 	modifier = {
-	    advisor_cost = 0.15
+	    advisor_cost = -0.15
 		innovativeness_gain = 0.33
 	}
 	ai_will_do = {
@@ -110,8 +113,8 @@ blessing_aphrodite = { #Goddess of love, pleasure, passion, procreation, fertili
 	is_blessing = yes
 
 	modifier = {
-	    reduced_liberty_desire = 10
-		vassal_manpower_bonus = 0.1
+	    	reduced_liberty_desire = 10
+		global_manpower_modifier = 0.1
 	}
 	ai_will_do = {
 		factor = 10
@@ -134,7 +137,7 @@ blessing_hestia = { #Goddess of the hearth, fire and of the right ordering of do
 	is_blessing = yes
 
 	modifier = {
-	    culture_conversion_cost = -0.15
+	    	culture_conversion_cost = -0.15
 		culture_conversion_time = -0.15 
 
 	}

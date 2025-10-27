@@ -1,10 +1,12 @@
+#PRT - Parthia
 government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 9
+add_government_reform = persian_shahenshahdom_reform
+government_rank = 9 #Empire
 primary_culture = persian
 religion = zoroastrian
 technology_group = persian_tech_group
-capital = 2350 #Ashgabat (Nisa)
+unit_type = muslim
+capital = 437 #Ashgabat (Nisa)
 add_army_professionalism = 0.05
 
 #1441.11.01 = {

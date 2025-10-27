@@ -29,7 +29,7 @@ country_event = {
             }
             AND = {
                 has_ruler = "Charles"
-                dynasty = "de Bourgogne"
+                dynasty = "de Valois-Bourgogne"
                 ruler_age = 43
                 NOT = {
                     heir_age = 15
@@ -1946,7 +1946,7 @@ country_event = {
         hidden_effect = {
             BUR = {
                 define_ruler = {
-                    dynasty = "de Bourgogne"
+                    dynasty = "de Valois-Bourgogne"
                 }
             }
         }
@@ -1965,7 +1965,7 @@ country_event = {
         hidden_effect = {
             BUR = {
                 define_ruler = {
-                    dynasty = "de Bourgogne"
+                    dynasty = "de Valois-Bourgogne"
                 }
             }
         }
@@ -2042,7 +2042,7 @@ country_event = {
             else = { #if she was not named heir, she becomes ruler here
                 define_ruler = {
                     name = "Marie"
-                    dynasty = "de Bourgogne"
+                    dynasty = "de Valois-Bourgogne"
                     age = 21
                     adm = 4
                     dip = 5

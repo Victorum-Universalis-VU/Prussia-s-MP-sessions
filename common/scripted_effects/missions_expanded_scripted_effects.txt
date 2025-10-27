@@ -1072,7 +1072,7 @@ change_crown_land = {
 			}
 		]
 		[[dip_reward]
-			custom_tooltip = ADD_ACCEPTED_CULTURE_SLOT_LIMITATION_TT # "If the Â§YCultureÂ§! is already an Â§YAccepted CultureÂ§!, or if there are not enough Â§YSlotsÂ§!, gain Â§G100Â§! Diplomatic Power instead."
+			custom_tooltip = ADD_ACCEPTED_CULTURE_SLOT_LIMITATION_TT # "If the §YCulture§! is already an §YAccepted Culture§!, or if there are not enough §YSlots§!, gain §G100§! Diplomatic Power instead."
 		]
 		hidden_effect = {
 			if = {

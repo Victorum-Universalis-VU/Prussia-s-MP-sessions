@@ -518,4 +518,11 @@
  desc_vu_nationalism_conscription: ""
  vu_nationalism_regiment: "Regiments"
  desc_vu_nationalism_regiment: ""
+
+ vu_administrative_hre: "Imperial Administration Act"
+ desc_vu_administrative_hre: ""
+ vu_judiciary_hre: "Imperial Courts Act"
+ desc_vu_judiciary_hre: ""
+ vu_aristocracy_hre: "Imperial Nobles Act"
+ desc_vu_aristocracy_hre: ""
  

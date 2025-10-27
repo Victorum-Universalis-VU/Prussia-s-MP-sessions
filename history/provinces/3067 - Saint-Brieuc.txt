@@ -1,10 +1,10 @@
-#3067 - CaicÃ³
+#3067 - Caicó
 
 culture = tupinamba
 
 
 religion = animism
-capital = "CaicÃ³"
+capital = "Caicó"
 trade_goods = unknown
 hre = no
 base_tax = 1 

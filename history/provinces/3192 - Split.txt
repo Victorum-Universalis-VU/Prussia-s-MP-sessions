@@ -1,8 +1,8 @@
-#3192 - AssaÃ­
+#3192 - Assaí
 
 culture = ge
 religion = animism
-capital = "AssaÃ­"
+capital = "Assaí"
 trade_goods = unknown
 hre = no
 base_tax = 1

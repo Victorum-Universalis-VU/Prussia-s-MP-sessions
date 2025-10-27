@@ -1,5 +1,6 @@
 #4026 - Antemoro
 
+#Default
 owner = ANT
 controller = ANT
 add_core = ANT
@@ -11,15 +12,12 @@ hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 4
+
+#Commerce
 center_of_trade = 1
 
+#Province Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
-
-
-
-1550.1.1 = { capital = "Matitana" }
-1817.1.1 = { owner = MIR controller = MIR add_core = MIR }

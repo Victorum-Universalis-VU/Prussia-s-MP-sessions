@@ -1,5 +1,6 @@
+#NEM - Nemours
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = unlocked_eue_duchy_reform
 government_rank = 6 #Duchy
 primary_culture = cosmopolitan_french
 religion = catholic
@@ -11,7 +12,7 @@ fixed_capital = 185 # Cannot move capital away from this province & no power cos
 
 1425.1.1 = {
 	monarch = {
-		name = "ElÃ©anore"
+		name = "Eléanore"
 		dynasty = "de Bourbon"
 		birth_date = 1407.9.7
 		death_date = 1462.1.1

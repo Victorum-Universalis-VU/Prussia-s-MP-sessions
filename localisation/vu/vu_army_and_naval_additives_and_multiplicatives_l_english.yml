@@ -3,7 +3,6 @@
  vu_addon_triggered_modifier_adm_focus:0 "Administrative Focus"
  vu_addon_triggered_modifier_dip_focus:0 "Diplomatic Focus"
  vu_addon_triggered_modifier_mil_focus:0 "Military Focus"
- vu_addon_bandaid_horde_fix:0 "Placebo"
  sufficient_manpower:0 "Sufficient Manpower"
  insufficient_manpower:0 "Insufficient Manpower"
  exhausted_manpower:0 "Exhausted Manpower"

@@ -1,4 +1,4 @@
-#Country Name: Please see filename.
+#IKE - Ikeda
 
 graphical_culture = asiangfx
 

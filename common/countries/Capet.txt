@@ -37,26 +37,26 @@ historical_units = {
 monarch_names = {
 	"Charles #2" = 40
 	"Louis #1" = 40
-	"RenÃ© #1" = 20
+	"René #1" = 20
 	"Nicolas #0" = 10
 	"Jean #0" = 5
 	"Raymond Berengar #3" = 1
 	"Alphonse #2" = 1
 	"Robert #1" = 1
-	"AdhÃ©mar #0" = 0
+	"Adhémar #0" = 0
 	"Aymeric #0" = 0
 	"Bartomiu #0" = 0
 	"Benedit #0" = 0
 	"Bernat #0" = 0
 	"Bertran #0" = 0
-	"DamiÃ¡n #0" = 0
+	"Damián #0" = 0
 	"Emeric #0" = 0
 	"Enric #0" = 0
-	"EstÄve #0" = 0
-	"FerrÃ¡n #0" = 0
+	"Estve #0" = 0
+	"Ferrán #0" = 0
 	"Folquet #0" = 0
 	"Frances #0" = 0
-	"GastÃ³ #0" = 0
+	"Gastó #0" = 0
 	"Guilhem #0" = 0
 	"Huc #0" = 0
 	"Jacme #0" = 0
@@ -64,7 +64,7 @@ monarch_names = {
 	"Jordan #0" = 0
 	"Loys #0" = 0
 	"Lucas #0" = 0
-	"MartÃ­ #0" = 0
+	"Martí #0" = 0
 	"Matheu #0" = 0
 	"Miqueu #0" = 0
 	"Per #0" = 0
@@ -82,47 +82,47 @@ monarch_names = {
 }
 
 leader_names = {
-	"d'Abeille" "d'AdhÃ©mar" "d'Agoult" "d'Aiglun" "d'AiguiÄres" "d'Allemagne" "d'Amalric" "d'Audiffredi"
+	"d'Abeille" "d'Adhémar" "d'Agoult" "d'Aiglun" "d'Aiguires" "d'Allemagne" "d'Amalric" "d'Audiffredi"
 	"de Bagnols" "de Barberin" "de Barcillon" "de Baschi" "des Baux" "de Bermond" "de Bionneau" "de Brunet"
 	"de Cadenet" "de Cascaris-Castellet" "de Castaing" "de Castellane" "de Castillon" Coquerel "de Cordes" "de Cormis" "de Crillon"
 	"d'Entrecasteaux" "d'Espagnet" Esparron "d'Espinouze"
-	"de Fargis" "Fauque de JonquiÄres" "FerrÃ© de la Grange" 
-	"de Gassendi" "de GÃ©vaudan" "de Gombert" "de Gordes" "de Grignan" Grimaldi "de Grimaud" "de Guast" "des Isnards" 
-	"de Lauris" "de Libertat" "de LomÃ©nie"
+	"de Fargis" "Fauque de Jonquires" "Ferré de la Grange" 
+	"de Gassendi" "de Gévaudan" "de Gombert" "de Gordes" "de Grignan" Grimaldi "de Grimaud" "de Guast" "des Isnards" 
+	"de Lauris" "de Libertat" "de Loménie"
 	"de Monteil" "de Montpezat" 
-	"de Paule" "de Pena" "Pene de la Borde" "de la PÃ©russe" "de PontevÄs"
+	"de Paule" "de Pena" "Pene de la Borde" "de la Pérusse" "de Pontevs"
 	"de Raimondis" "de Revest" "de Riquetti"
-	"de Sabran" "de Sade" "de Saint Victoret" "de SÃ©guiran" "de Simiane"
+	"de Sabran" "de Sade" "de Saint Victoret" "de Séguiran" "de Simiane"
 	"de Valbelle"
 }
 
 ship_names = {
-	Achille AgrÃ©able "Aigle Volant" Alcyon Alouette
-	Altier Aquilon Ardente AssurÃ© Avenant
-	Aventurier Baleine BÃ©casse Bienvenu Bizarre
-	BorÃ©e "Branche d'Olivier" Brillant Bucentaure CachÃ©
-	Caille Capable Centaure CÃ©sar "Cheval Marin"
-	Coche "Commerce de Marseille" "Commerce de Montpellier" "Comte de Provence" ConquÃ©rant
+	Achille Agréable "Aigle Volant" Alcyon Alouette
+	Altier Aquilon Ardente Assuré Avenant
+	Aventurier Baleine Bécasse Bienvenu Bizarre
+	Borée "Branche d'Olivier" Brillant Bucentaure Caché
+	Caille Capable Centaure César "Cheval Marin"
+	Coche "Commerce de Marseille" "Commerce de Montpellier" "Comte de Provence" Conquérant
 	Constant Content Croissant Dauphine Diamant
 	Dieppoise Dur Dromadaire Eclatant Eole
-	EspÃ©rance Fantasque Ferme FidÄle Fier
+	Espérance Fantasque Ferme Fidle Fier
 	Florissant Formidable Fort Foudroyant Gaillard
-	Heureux HÃ©ros Jason Lion Mignon
-	Minerve OcÃ©an OrphÃ©e Parfait PhÃ©nix
-	Poli Pompeux Portefaix Protecteur ProvenÃ§al
-	Provence Prudent Puissant RÃ©ale Redoutable
-	Requin "Royal Louis" Sage Sagittaire "Royal ThÃ©rÄse"
+	Heureux Héros Jason Lion Mignon
+	Minerve Océan Orphée Parfait Phénix
+	Poli Pompeux Portefaix Protecteur Provençal
+	Provence Prudent Puissant Réale Redoutable
+	Requin "Royal Louis" Sage Sagittaire "Royal Thérse"
 	"Saint Esprit" "Saint Joseph" "Saint Philippe" Sardine Sceptre
-	SÃ©duisant Seine SÃ©rieux Solide Souverain
-	Suffisant TÃ©mÃ©raire Terrible Tigre Tonnant
+	Séduisant Seine Sérieux Solide Souverain
+	Suffisant Téméraire Terrible Tigre Tonnant
 	Toulon Toulouse Trident Triomphant Triton
-	Union Vaillant Vigilant Volontaire ZÃ©lÃ©
+	Union Vaillant Vigilant Volontaire Zélé
 }
 
 army_names = {
-	"ArmÃ©e de Marseille" "ArmÃ©e des Baux" "ArmÃ©e de Provence-Forcalquier" 
-	"ArmÃ©e d'Orange" "ArmÃ©e du Pays d'Arles" "ArmÃ©e des Alpes"
-	"ArmÃ©e du RhÃ´ne" "ArmÃ©e de la Durance" "ArmÃ©e de Haute Provence"
-	"ArmÃ©e de Basse Provence" "ArmÃ©e du Vivarais"
-	"ArmÃ©e de $PROVINCE$"
+	"Armée de Marseille" "Armée des Baux" "Armée de Provence-Forcalquier" 
+	"Armée d'Orange" "Armée du Pays d'Arles" "Armée des Alpes"
+	"Armée du Rhône" "Armée de la Durance" "Armée de Haute Provence"
+	"Armée de Basse Provence" "Armée du Vivarais"
+	"Armée de $PROVINCE$"
 }

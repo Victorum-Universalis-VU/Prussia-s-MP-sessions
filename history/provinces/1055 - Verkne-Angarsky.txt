@@ -12,12 +12,5 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 
-
-
-1632.9.25 = {
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-}
-1657.1.1 = { add_core = RUS }
+#Claimants
+add_core = BRT

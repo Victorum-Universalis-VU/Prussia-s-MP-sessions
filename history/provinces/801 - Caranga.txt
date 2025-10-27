@@ -1,14 +1,7 @@
 #801 - Caranga
 
+#Default
 culture = guarani
-
-
-
-
-
-
-
-
 religion = animism
 capital = "Caranga"
 trade_goods = unknown
@@ -19,20 +12,12 @@ base_manpower = 1
 native_size = 15
 native_ferocity = 1 
 native_hostileness = 1
+
+#Commerce
 center_of_trade = 1
+
+#Province Modifier
 add_permanent_province_modifier = {
 	name = vu_amazon_rainforest
 	duration = -1
 }
-1561.1.1 = {
-	
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic
-	culture = castillian
-	trade_goods = grain
-}
-1571.8.2 = { capital = "Cochabamba" } # Viceroy Francisco de Toledo
-1809.7.16 = { revolt = { type = nationalist_rebels size = 0 } controller = REB } # Bolivian War of Independence

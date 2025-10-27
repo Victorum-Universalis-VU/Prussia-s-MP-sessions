@@ -714,6 +714,13 @@ tatar_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			braclaw_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	ruin_ruthenia = {
@@ -727,6 +734,7 @@ tatar_missions_2 = {
 				area = west_dniepr_area
 				area = east_dniepr_area
 				area = podolia_volhynia_area
+				area = braclaw_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -754,6 +762,10 @@ tatar_missions_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			podolia_volhynia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			braclaw_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

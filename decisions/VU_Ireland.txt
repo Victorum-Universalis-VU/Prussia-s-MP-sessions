@@ -29,7 +29,7 @@ country_decisions = {
 			}
 			if = {
 				limit = { culture_group = gaelic }
-				373 = { rename_capital = "Baile √Åtha Cliath" }
+				373 = { rename_capital = "Baile ¡tha Cliath" }
 			}
 			if = {
 				limit = { NOT = { culture_group = gaelic } }
@@ -271,7 +271,7 @@ country_decisions = {
 #					change_primary_culture = ROOT
 #					change_religion = ROOT
 #					set_country_flag = formed_kingdom_of_ireland_flag_vu
-#					set_country_flag = vu_is_a_puppet_state
+#					set_country_flag = vu_is_a_satellite_state
 #				}
 #			}
 #			create_subject = {

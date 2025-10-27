@@ -1,5 +1,6 @@
-# No previous file for Victorum Universalis province
+#5045 - Wintu
 
+#Default
 culture = wintuan
 religion = totemism 
 capital = "Wintuh" 			#of these supposed 239 villages, no one seems to want to mention the names of any of them. Do more checking later
@@ -11,8 +12,11 @@ base_manpower = 2
 native_size = 10
 native_ferocity = 1 
 native_hostileness = 3 
+
+#Commerce
 center_of_trade = 1
 
+#Province Modifiers
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1

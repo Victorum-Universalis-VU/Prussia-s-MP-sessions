@@ -33,6 +33,10 @@
  BEI_generic_overcoming_desc: "While our island may be one of the largest in Nusantara, it is also one of the least populated and developed. Littered in jungles, most urban centers are limited and the land is hard to develop. We need to alleviate those issues!"
  
  BEI_generic_discipline: "Defeated the Hegemon"
+ desc_BEI_generic_discipline: ""
  BEI_generic_projecting_naval_power: "Projecting Naval Power"
+ desc_BEI_generic_projecting_naval_power: ""
  BEI_generic_against_adversities: "Against Adversities"
+ desc_BEI_generic_against_adversities: ""
  BEI_generic_dev_cost: "Tropical City Planning"
+ desc_BEI_generic_dev_cost: ""

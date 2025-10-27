@@ -15,23 +15,9 @@ is_city = yes
 hre = no
 
 #Claimants
+add_core = KJW
 
-#Buildings
-
-#Special Modifiers
-
-#Known by Technology groups
-
-
-
-
-
-
-
-
-
-
-#Histories by docRobert & SF
+#History by SF
 1444.1.1 = {
 	owner = KIE
 	controller = KIE

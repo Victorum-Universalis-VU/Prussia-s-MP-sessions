@@ -1,3 +1,6 @@
+#4088 - Munene
+
+#Default
 owner = KUB
 controller = KUB
 add_core = KUB
@@ -10,4 +13,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
+
+#Commerce
 center_of_trade = 1

@@ -1,8 +1,8 @@
-#3176 - AraÃ§atuba
+#3176 - Araçatuba
 
 culture = guarani
 religion = animism
-capital = "AraÃ§atuba"
+capital = "Araçatuba"
 trade_goods = unknown
 hre = no
 base_tax = 1

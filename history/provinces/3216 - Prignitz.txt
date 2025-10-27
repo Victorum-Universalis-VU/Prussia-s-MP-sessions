@@ -1,8 +1,8 @@
-#3216 - ItajaÃ­
+#3216 - Itajaí
 
 culture = guarani
 religion = animism
-capital = "ItajaÃ­"
+capital = "Itajaí"
 trade_goods = unknown
 hre = no
 base_tax = 1

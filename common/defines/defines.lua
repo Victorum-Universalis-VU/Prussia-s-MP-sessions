@@ -129,11 +129,11 @@ NDiplomacy = {
 	DESIRED_NUM_OF_ELECTORS = 7,
 	MAX_FREE_CITIES = 25,							-- from 15 to 50 -don but brought back down to 25
 	MIN_NUM_ELECTORS_FOR_REMOVE_ELECTORATE = 2,		-- Limit is inclusive.
-	HRE_PRINCE_AUTHORITY_THRESHOLD = 35,			-- Threshold below which you lose IA, and above which you gain it
+	HRE_PRINCE_AUTHORITY_THRESHOLD = 25,			-- Threshold below which you lose IA, and above which you gain it
 	IMPERIAL_AUTHORITY_FROM_PRINCES = 0.075,			-- Scales to threshold
 	HRE_FOREIGN_CONTROL_PENALTY = -0.004,			-- Each foreign-controlled province in the empire (owned or vassalised) lowers IA by this amount
 	HRE_HERETIC_PENALTY = -0.02,					-- Per heretic prince (halved by Peace of Westphalia)
-	LACK_OF_ELECTORS_HIT = -0.2,					-- Also applied to vassalized electors
+	LACK_OF_ELECTORS_HIT = -0.1,					-- Also applied to vassalized electors
 	JOIN_HRE_DEVELOPMENT_CAP_VASSAL = 400,			-- Max cap of development of vassals to join the empire
 	IMPERIAL_REFORM_COST = 50,						-- Minium Cost of enacting a new reform.
 	IMPERIAL_REFORM_AUTHORITY_ACCEPTANCE = 1,		-- How much acceptance for each authority above IMPERIAL_REFORM_COST
@@ -575,7 +575,7 @@ NCountry = {
 	ALLOW_ZERO_BASE_VALUES = 0,						-- Affects base tax, base manpower, and base production
 
 	COUNTRY_DEVELOPMENT_SCALE = 600,
-	OVERSEAS_CLIENT_STATES = 0,					-- Allow overseas client states?
+	OVERSEAS_CLIENT_STATES = 1,					-- Allow overseas client states?
 
 	ESTATE_DROP_LOYALTY_IF_LOST_PRIVILEDGE = -0.2,
 	ESTATE_ANGRY_THRESHOLD = 30,
@@ -606,8 +606,8 @@ NCountry = {
 	CULTURAL_UNION_MIN_RANK = 9,				-- Minimum rank to get cultural union effect with Common Sense.
 	PRIMARY_NATION_BLOCK_CONVERT_CULTURE = 0,	-- Does primary nation of a tag existing block converting culture?
 
-	MIN_DEV_FOR_FREE_CITY = 15,					-- Capital must have at least this much development to be a free city
-	MAX_PROVINCES_FOR_FREE_CITY = 7,			-- A free city cannot have more provinces than this --from 1 to 7 so Bremen can be a free city as it should be -don
+	MIN_DEV_FOR_FREE_CITY = 10,					-- Capital must have at least this much development to be a free city
+	MAX_PROVINCES_FOR_FREE_CITY = 5,			-- A free city cannot have more provinces than this --from 1 to 7 so Bremen can be a free city as it should be -don
 
 	HRE_RANK = 9,								-- Emperor of the HRE is displayed as this rank (for ruler title only)
 	HRE_MAX_RANK = 6,							-- for members
@@ -638,6 +638,8 @@ NCountry = {
 	MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 25,		-- Development to form a Barony from a Lordship
 	MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 50,		-- Development to form a Viscounty from a Barony
 	--MIN_DEVELOPMENT_FOR_GOV_RANK_4 etc. do not function properly
+	MIN_PRESTIGE_FOR_GOV_RANK_X = 0,
+	PRESTIGE_GAIN_FOR_GOV_RANK_X = 0,
  	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 150,	-- ADDITIONAL development needed to upgrade to government rank above 3
 	MAX_GOV_RANK = 9,	
 
@@ -853,7 +855,7 @@ NCountry = {
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
 	ABANDON_CORE_PRESTIGE = -5.0,					-- The cost of abandoning a core that some other country owns.
-	ABANDON_IDEAGROUP_REFUND = 0.20,				-- The part of the idea group spent that will be refunded upon abandonment.
+	ABANDON_IDEAGROUP_REFUND = 0.10,				-- The part of the idea group spent that will be refunded upon abandonment.
 	NEIGHBOURBONUS = -0.025, 						-- _CDEF_NEIGHBOURBONUS_
 	NEIGHBOURBONUS_CAP = -0.5, 						-- _CDEF_NEIGHBOURBONUS_CAP_
 	NEIGHBOURBONUS_CORRUPTION = 0.0,
@@ -945,7 +947,7 @@ NCountry = {
 	MIN_LIBERTY_DESIRE_INFLUENCE = -100,			-- Min influence of a single modifier (e.g. paid of debt)
 	MAX_LIBERTY_DESIRE_INFLUENCE = 100000,			-- Max influence of a single modifier (e.g. seized province)
 
-	MAX_CROWN_COLONIES = 4,							-- How many province a country can hold in a colonial region before creating a colonial nation
+	MAX_CROWN_COLONIES = 1,							-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	OVERSEAS_DISTANCE = 150,						-- Provinces beyond this distance to capital are distant overseas
 
@@ -2735,7 +2737,7 @@ NNationDesigner = {
 },
 
 NGovernment = {
-	SELECT_HEIR_FROM_HAREM_AT_MONARCH_AGE = 30, -- The age in years when an heir is selected if the government "has_harem" flag is set.
+	SELECT_HEIR_FROM_HAREM_AT_MONARCH_AGE = 25, -- The age in years when an heir is selected if the government "has_harem" flag is set.
 
 	TRIBAL_ALLEGIANCE_HUMILIATE = 30.0, -- TA gained from doing Humiliate or Show Strength in a war.
 	GOVERNMENT_REFORM_BASE_COST = 100.0,

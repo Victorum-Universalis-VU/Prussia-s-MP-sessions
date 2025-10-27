@@ -1,5 +1,7 @@
+#HAL - Halsingland
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = unlocked_eue_lordship_reform
+government_rank = 1 #Lordship
 primary_culture = danish
 religion = catholic
 #technology_group = western
@@ -7,4 +9,4 @@ technology_group = scandinavian_tech_group
 unit_type = western
 historical_friend = DAN
 historical_rival = SHL
-capital = 7797 #GÃ¤vle
+capital = 7797 #Gävle

@@ -1,12 +1,12 @@
-#Norway 
+#FAR - FaroeIslands 
 
 graphical_culture = westerngfx
 
-color = { 90 98  134 }
+color = { 13 103  147 }
 
 historical_score = 0
 
-preferred_religion = protestant
+preferred_religion = anglican
 
 historical_idea_groups = {
 	aristocracy_ideas

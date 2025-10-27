@@ -1,5 +1,6 @@
-#Tumbuka
+#4045 - Tumbuka
 
+#Default
 owner = TBK
 controller = TBK
 add_core = TBK
@@ -13,4 +14,5 @@ hre = no
 base_tax = 4 
 base_production = 4
 
+#Commerce
 center_of_trade = 1

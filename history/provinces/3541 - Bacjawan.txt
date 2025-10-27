@@ -1,5 +1,6 @@
 #3541 - Bacjawan
 
+#Default
 add_core = MAS
 owner = MAS
 controller = MAS
@@ -12,15 +13,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 is_city = yes
-center_of_trade = 1
 
-#Histories by SF
-1569.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-} 
-1855.10.6 = {
-	capital = "Concepción" #Changed to Concepción
-}
+#Commerce
+center_of_trade = 1

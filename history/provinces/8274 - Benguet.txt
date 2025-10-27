@@ -14,7 +14,7 @@ is_city = yes
 
 1572.1.1 = { } #Conquistador Juan de Salcedo leads a small expedition into the southern part of Benguet, but is forced to retreat.
 1620.1.1 = { } #In 1620, Fajardo sent the first expedition under Captain Garcia Aldana y Cabrera, Governor of Pangasinan which reaches the settlement of Bua, only to find it abandoned.
-1623.1.1 = { #Sergeant Major Antonio CarreÃ±o de Valdes leads an expedition to the area and is able to build Fort Santiago.
+1623.1.1 = { #Sergeant Major Antonio Carreño de Valdes leads an expedition to the area and is able to build Fort Santiago.
     owner = SPA
 	controller = SPA
 	add_core = SPA
@@ -34,7 +34,7 @@ is_city = yes
 	is_city = yes
 	trade_goods = gold #Bagiuo or "Santo Nino" Gold Mines
 }
-1846.1.1 = { #Col. Guillermo Galvey establishes the province of La MontaÃ±osa or La MontaÃ±a
+1846.1.1 = { #Col. Guillermo Galvey establishes the province of La Montañosa or La Montaña
 	owner = SPA
 	controller = SPA
 	add_core = SPA

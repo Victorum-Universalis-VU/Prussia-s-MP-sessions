@@ -1,8 +1,8 @@
-#6967 - ZouÃ©rat
+#6967 - Zouérat
 
 culture = lamtuna
 religion = sunni
-capital = "ZouÃ©rat"
+capital = "Zouérat"
 trade_goods = unknown
 hre = no
 base_tax = 2  

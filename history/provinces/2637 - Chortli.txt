@@ -1,9 +1,10 @@
 #2637 - Chortli
 
+#Default
 owner = CHT
 controller = CHT
-is_city = yes
 add_core = CHT
+is_city = yes
 culture = highland_mayan
 religion = mesoamerican_religion
 capital = "Chortli"
@@ -15,27 +16,12 @@ base_manpower = 2
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
+
+#Commerce
 center_of_trade = 1
 
+#Province Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
-
-
-
-
-
-
-1524.1.1 = {
-	capital = "Triunfo de la Cruz"
-	owner = SPA 
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic
-} # Founded by de Olid
-1525.1.1 = { capital = "La Navidad" } #New settlement by Cortez
-1536.1.1 = { capital = "Puerto de Caballos" } #New name again
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence

@@ -237,9 +237,9 @@ leader_names = {
 	Tirquawa
 	Shagash
 	Hamtaxu
-	Jemıx'ue
+	Jemx'ue
 	Paq
-	L'ıbzeu
+	L'bzeu
 	Txakushine
 	Gonesh
 	Thets

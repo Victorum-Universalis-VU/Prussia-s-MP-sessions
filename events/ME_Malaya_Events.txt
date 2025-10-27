@@ -1104,7 +1104,7 @@ country_event = {
 
 country_event = {
 	id = ME_Malaya_Events.28
-	title = ME_Malaya_Events.28.t #Translatorâ€™s Dilemma
+	title = ME_Malaya_Events.28.t #Translator’s Dilemma
 	desc = ME_Malaya_Events.28.d
 	picture = NAVAL_MILITARY_eventPicture
 

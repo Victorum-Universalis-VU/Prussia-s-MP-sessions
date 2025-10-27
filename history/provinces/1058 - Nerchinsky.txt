@@ -13,18 +13,5 @@ base_production = 4
 base_manpower = 4
 is_city = yes
 
-
-
-
-
-
-
-1653.1.1 = {
-	 
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-	trade_goods = wool
-} # Pyotr Beketov
-1678.1.1 = { add_core = RUS }
+#Claimants
+add_core = BRT

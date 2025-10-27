@@ -149,7 +149,7 @@
 487 = { "Yamayka" "Tsaritsyn Gorod" }
 488 = { "Zapad" "Port Printsa" }
 489 = { "Severo-Zapad" "Port Mira" }
-490 = { "Seybo" "HigÃ¼ey" }
+490 = { "Seybo" "Higüey" }
 491 = { "Kyurasao" "Svyatoy Fedor" }
 492 = { "Bogatyy port" "Soobshcheniye propovednika" }
 493 = { "Virginskiye Ostrova" "Pridorozhnyy gorod" }

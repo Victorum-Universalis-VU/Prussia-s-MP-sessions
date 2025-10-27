@@ -1,5 +1,6 @@
 #3364 - Abrantes
 
+#Default
 owner = POR
 controller = POR
 add_core = POR
@@ -13,9 +14,15 @@ trade_goods = lead
 is_city = yes
 hre = no
 
-center_of_trade = 1
+#Commerce
+center_of_trade = 2 #Upgraded to level 2 - SF
 
-#Buildings
+#Buildings - SF
 cathedral = yes #One of the largest parishes in Medieval Portugal
 cinema = yes #King Manuel I used to frequent this place a lot wink!
-
+workshop = yes
+marketplace = yes
+custom_house = yes
+road_system = yes
+town_hall = yes
+dock = yes

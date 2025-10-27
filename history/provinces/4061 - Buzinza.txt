@@ -1,5 +1,6 @@
-#Buzinza
+#4061 - Buzinza
 
+#Default
 owner = KRW
 controller = KRW
 add_core = KRW
@@ -12,4 +13,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
+
+#Commerce
 center_of_trade = 1
