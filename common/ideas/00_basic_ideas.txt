@@ -2993,8 +2993,8 @@ nationalism_ideas = {
 	category = DIP
 	trigger = {
 		OR = {
-			dip_tech = 27
-			adm_tech = 27
+			dip_tech = 21
+			adm_tech = 21
 			has_country_flag = vu_proto_nationalism
 		}
 	}
@@ -3429,7 +3429,7 @@ conscription_ideas = {
 mercenary_ideas = {
 	category = MIL
 	bonus = {
-		mercenary_discipline = 0.2
+		mercenary_discipline = 0.10 #Was 0.2 but changed to 0.1 - SF
 	}
 	trigger = {
 		NOT = {

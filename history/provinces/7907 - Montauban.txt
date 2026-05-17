@@ -10,12 +10,13 @@ capital = "Montauban"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = fruit
+trade_goods = brandy
 is_city = yes
 hre = no
 
 #Claimants
 add_core = TOU
+add_core = CN9
 
 #History by SF
 1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

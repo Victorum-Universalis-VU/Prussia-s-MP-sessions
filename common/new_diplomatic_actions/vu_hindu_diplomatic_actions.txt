@@ -8,6 +8,7 @@ vu_promote_vassal_to_brahma_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -62,6 +63,7 @@ vu_promote_vassal_to_vishnu_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -116,6 +118,7 @@ vu_promote_vassal_to_shiva_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -170,6 +173,7 @@ vu_promote_vassal_to_saraswati_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -224,6 +228,7 @@ vu_promote_vassal_to_lakshimi_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 
@@ -278,6 +283,7 @@ vu_promote_vassal_to_parvarti_prince = {
 		#Checks if the overlord has access to the appropriate subject types
 		OR = {
 			religion = hinduism
+			religion = surya_majapahit
 		}
 		FROM = {
 			#FROM has to be a vassal of ROOT 

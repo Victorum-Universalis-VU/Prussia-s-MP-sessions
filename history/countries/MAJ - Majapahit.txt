@@ -1,5 +1,6 @@
+#MAJ - Majapahit
 government = monarchy
-add_government_reform = mandala_reform
+add_government_reform = majapahit_kingdom_reform
 government_rank = 9 #Empire
 primary_culture = javanese
 technology_group = chinese

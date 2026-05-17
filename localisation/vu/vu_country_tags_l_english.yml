@@ -1955,6 +1955,8 @@
  ZCY_ADJ: "Zichian"
  ZPL: "Szapolyai"
  ZPL_ADJ: "Szapolyan"
+ VLD: "Vladimir"
+ VLD_ADJ: "Vladimirian"
 
  #Swedish Tag
  AN6: "Ångermanland"
@@ -2001,3 +2003,7 @@
  L0L_ADJ: "Lollander"
  R0S: "Roskilde"
  R0S_ADJ: "Roskilder"
+
+ #Oirat Region
+ TUV: "Tuva"
+ TUV_ADJ: "Tuvan"

@@ -613,6 +613,7 @@ venice_merchants_reform = {
         is_merchant_republic = yes
         elections_increase_factions_influence = yes
         bonus_stats_for_elected_ruler = yes
+        vu_has_ToR_subjects = yes
     }
     has_term_election = no
 }
@@ -1321,6 +1322,7 @@ ambrosian_republic = {
     custom_attributes = {
         enables_plutocratic_idea_group = yes
         enables_aristocratic_idea_group = no
+        vu_has_ToR_subjects = yes
     }
     duration = 4
 }
@@ -5307,12 +5309,22 @@ roman_diarchy_reform = {
         max_absolutism = -30
         global_autonomy = -0.075
     }
+    conditional = {
+        allow = {
+            OR = {
+                has_dlc = "Common Sense"
+                has_dlc = "Domination"
+            }
+        }
+        has_parliament = yes
+    }
     custom_attributes = {
         locked_government_type = yes
         enables_plutocratic_idea_group = yes
         enables_aristocratic_idea_group = no
         enables_nepotism = yes
         cannot_become_dictatorship = yes
+        vu_has_ToR_subjects = yes
     }
     ai = {
         factor = 10
@@ -5320,7 +5332,7 @@ roman_diarchy_reform = {
 }
 
 italian_triarchy_reform = {
-    icon = "italian_triarchy_reform" #Was roman_diarchy_reform
+    icon = "italian_triarchy_reform"
     allow_normal_conversion = yes
     duration = 1
     #legacy_equivalent = roman_diarchy_legacy
@@ -5348,6 +5360,15 @@ italian_triarchy_reform = {
         max_absolutism = -30
         global_autonomy = -0.075
     }
+    conditional = {
+        allow = {
+            OR = {
+                has_dlc = "Common Sense"
+                has_dlc = "Domination"
+            }
+        }
+        has_parliament = yes
+    }
     custom_attributes = {
         locked_government_type = yes
         enables_plutocratic_idea_group = yes
@@ -5360,7 +5381,7 @@ italian_triarchy_reform = {
     }
 }
 
-#VU - Don's additions
+#VU - SF additions
 theban_league_reform = {
     icon = "theban_league_republic_reform"
     allow_normal_conversion = yes
