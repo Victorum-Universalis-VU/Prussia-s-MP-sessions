@@ -162,7 +162,7 @@ namespace = VU_Russia_Events
 #
 #	# We will govern Slawno ourselves with all means necessary
 #	option = {
-#		name = VU_Russia_Events.107.с
+#		name = VU_Russia_Events.107.c
 #		add_adm_power = 75
 #		ai_chance = {
 #			factor = 1
@@ -644,6 +644,7 @@ country_event = {
 				}
 				NOT = {
 					region = caucasia_region
+					region = south_caucasia_region
 				}
 				culture = astrakhani
 			}
@@ -658,6 +659,7 @@ country_event = {
 				culture = astrakhani
 				NOT = {
 					region = caucasia_region
+					region = south_caucasia_region
 				}
 				development = 4
 				NOT = {
@@ -865,7 +867,7 @@ country_event = {
 	}
 }
 
-#Colonization of the Don
+#Colonization of the VU
 province_event = {
 	id = VU_Russia_Events.110
 	title = VU_Russia_Events.110.t
@@ -1102,6 +1104,7 @@ province_event = {
 		}
 		NOT = {
 			region = caucasia_region
+			region = south_caucasia_region
 		}
 	}
 	mean_time_to_happen = {

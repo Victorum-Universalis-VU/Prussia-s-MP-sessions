@@ -1,5 +1,5 @@
 # VU ToR v1.37 subject types by SF
-# Credits go to: Prussia, Don, Altan, Letole and Modus.
+# Credits go to: Prussia, VU, Altan, Letole and Modus.
 # All subjects listed here are for VU and were created by the VU team. 
 
 #AlBANIAN SUBJECTS
@@ -99,8 +99,11 @@ castilian_principality = {}
 castilian_kingdom = {}
 #CHRISTIAN SUBJECTS
 christian_abbacy = {}
+andoran_co_prince_abbacy = {}
 christian_bishopric = {}
+andoran_co_prince_bishopric = {}
 christian_archbishopric = {}
+andoran_co_prince_archbishopric = {}
 #DANISH SUBJECTS
 danish_lordship = {}
 danish_barony = {}
@@ -250,6 +253,14 @@ feudal_republic = {}
 merchantlist_republic = {}
 venetian_republic = {}
 genoese_commercial_republic = {}
+rep_outpost_subject = {}
+rep_borough_subject = {}
+rep_commune_subject = {}
+rep_canton_subject = {}
+rep_territory_subject = {}
+rep_province_subject = {}
+rep_state_subject = {}
+rep_commonwealth_subject = {}
 
 #ALBANIAN SUBJECTS
 lezhe_league_member = {
@@ -281,7 +292,7 @@ lezhe_league_member = {
     should_quit_wars_on_activation = yes
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -291,7 +302,7 @@ lezhe_league_member = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -362,7 +373,7 @@ anglois_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -372,7 +383,7 @@ anglois_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -443,7 +454,7 @@ anglois_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -453,7 +464,7 @@ anglois_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -525,7 +536,7 @@ anglois_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -535,7 +546,7 @@ anglois_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -607,7 +618,7 @@ anglois_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -617,7 +628,7 @@ anglois_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -676,7 +687,7 @@ anglois_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -686,7 +697,7 @@ anglois_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -762,7 +773,7 @@ anglois_duchy = { #
 
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -772,7 +783,7 @@ anglois_duchy = { #
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -858,7 +869,7 @@ anglois_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -918,6 +929,7 @@ anglois_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -937,13 +949,13 @@ anglois_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -1091,7 +1103,7 @@ aragonese_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1101,7 +1113,7 @@ aragonese_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -1172,7 +1184,7 @@ aragonese_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1182,7 +1194,7 @@ aragonese_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -1254,7 +1266,7 @@ aragonese_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1264,7 +1276,7 @@ aragonese_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -1336,7 +1348,7 @@ aragonese_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1346,7 +1358,7 @@ aragonese_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -1405,7 +1417,7 @@ aragonese_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1415,7 +1427,7 @@ aragonese_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -1501,7 +1513,7 @@ aragonese_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -1587,7 +1599,7 @@ aragonese_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -1647,6 +1659,7 @@ aragonese_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -1666,13 +1679,13 @@ aragonese_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -1820,7 +1833,7 @@ austrian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1830,7 +1843,7 @@ austrian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -1901,7 +1914,7 @@ austrian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1911,7 +1924,7 @@ austrian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -1983,7 +1996,7 @@ austrian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -1993,7 +2006,7 @@ austrian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -2065,7 +2078,7 @@ austrian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -2075,7 +2088,7 @@ austrian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -2134,7 +2147,7 @@ austrian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -2144,7 +2157,7 @@ austrian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -2230,7 +2243,7 @@ austrian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -2316,7 +2329,7 @@ austrian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -2376,6 +2389,7 @@ austrian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -2395,13 +2409,13 @@ austrian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -2549,7 +2563,7 @@ baltic_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -2559,7 +2573,7 @@ baltic_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -2630,7 +2644,7 @@ baltic_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -2640,7 +2654,7 @@ baltic_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -2713,7 +2727,7 @@ baltic_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -2723,7 +2737,7 @@ baltic_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -2796,7 +2810,7 @@ baltic_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -2806,7 +2820,7 @@ baltic_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -2865,7 +2879,7 @@ baltic_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -2875,7 +2889,7 @@ baltic_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -2961,7 +2975,7 @@ baltic_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -3047,7 +3061,7 @@ baltic_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -3107,6 +3121,7 @@ baltic_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -3126,13 +3141,13 @@ baltic_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -3280,7 +3295,7 @@ belgian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -3290,7 +3305,7 @@ belgian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -3361,7 +3376,7 @@ belgian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -3371,7 +3386,7 @@ belgian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -3444,7 +3459,7 @@ belgian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -3454,7 +3469,7 @@ belgian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -3527,7 +3542,7 @@ belgian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -3537,7 +3552,7 @@ belgian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -3596,7 +3611,7 @@ belgian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -3606,7 +3621,7 @@ belgian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -3692,7 +3707,7 @@ belgian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -3778,7 +3793,7 @@ belgian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -3838,6 +3853,7 @@ belgian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -3857,13 +3873,13 @@ belgian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -4012,7 +4028,7 @@ bohemian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4022,7 +4038,7 @@ bohemian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -4093,7 +4109,7 @@ bohemian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4103,7 +4119,7 @@ bohemian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -4175,7 +4191,7 @@ bohemian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4185,7 +4201,7 @@ bohemian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -4257,7 +4273,7 @@ bohemian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4267,7 +4283,7 @@ bohemian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -4326,7 +4342,7 @@ bohemian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4336,7 +4352,7 @@ bohemian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -4422,7 +4438,7 @@ bohemian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -4508,7 +4524,7 @@ bohemian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -4568,6 +4584,7 @@ bohemian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -4587,13 +4604,13 @@ bohemian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -4715,6 +4732,7 @@ bosnian_banat_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 20.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 1
@@ -4737,7 +4755,7 @@ bosnian_banat_kingdom = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -4808,7 +4826,7 @@ burgundian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4818,7 +4836,7 @@ burgundian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -4889,7 +4907,7 @@ burgundian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4899,7 +4917,7 @@ burgundian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -4971,7 +4989,7 @@ burgundian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -4981,7 +4999,7 @@ burgundian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -5053,7 +5071,7 @@ burgundian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -5063,7 +5081,7 @@ burgundian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -5122,7 +5140,7 @@ burgundian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -5132,7 +5150,7 @@ burgundian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -5218,7 +5236,7 @@ burgundian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -5303,7 +5321,7 @@ burgundian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -5363,6 +5381,7 @@ burgundian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -5381,13 +5400,13 @@ burgundian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -5536,7 +5555,7 @@ byzantine_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -5546,7 +5565,7 @@ byzantine_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -5617,7 +5636,7 @@ byzantine_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -5627,7 +5646,7 @@ byzantine_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -5699,7 +5718,7 @@ byzantine_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -5709,7 +5728,7 @@ byzantine_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -5781,7 +5800,7 @@ byzantine_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -5791,7 +5810,7 @@ byzantine_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -5850,7 +5869,7 @@ byzantine_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -5860,7 +5879,7 @@ byzantine_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -5946,7 +5965,7 @@ byzantine_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6032,7 +6051,7 @@ byzantine_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6092,6 +6111,7 @@ byzantine_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -6111,13 +6131,13 @@ byzantine_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6265,7 +6285,7 @@ castilian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -6275,7 +6295,7 @@ castilian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -6346,7 +6366,7 @@ castilian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -6356,7 +6376,7 @@ castilian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -6428,7 +6448,7 @@ castilian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -6438,7 +6458,7 @@ castilian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -6510,7 +6530,7 @@ castilian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -6520,7 +6540,7 @@ castilian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -6579,7 +6599,7 @@ castilian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -6589,7 +6609,7 @@ castilian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6675,7 +6695,7 @@ castilian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6761,7 +6781,7 @@ castilian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6821,6 +6841,7 @@ castilian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -6840,13 +6861,13 @@ castilian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6921,7 +6942,7 @@ christian_abbacy = {
     should_quit_wars_on_activation = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -6931,7 +6952,7 @@ christian_abbacy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -6975,6 +6996,90 @@ christian_abbacy = {
     subject_opinion_modifier = is_christian_abbacy
 }
 
+andoran_co_prince_abbacy = {
+    copy_from = default
+
+    # Graphics:
+    sprite = GFX_icon_andoran_co_prince_abbacy_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_andoran_co_prince_abbacy_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_andoran_co_prince_abbacy_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
+    can_be_annexed = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 2
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = yes
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = yes
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_andoran_co_prince_abbacy #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = andoran_co_prince_abbacy_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = andoran_co_prince_abbacy_overlord
+    }
+
+    overlord_opinion_modifier = is_andoran_co_prince_abbacy
+    subject_opinion_modifier = is_andoran_co_prince_abbacy
+}
+
 christian_bishopric = {
     copy_from = christian_abbacy
 
@@ -7005,7 +7110,7 @@ christian_bishopric = {
     should_quit_wars_on_activation = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7015,7 +7120,7 @@ christian_bishopric = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -7059,6 +7164,90 @@ christian_bishopric = {
     subject_opinion_modifier = is_christian_bishopric
 }
 
+andoran_co_prince_bishopric = {
+    copy_from = andoran_co_prince_abbacy
+
+    # Graphics:
+    sprite = GFX_icon_andoran_co_prince_bishopric_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_andoran_co_prince_bishopric_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_andoran_co_prince_bishopric_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    can_be_annexed = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 4
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = yes
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = yes
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = yes
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_andoran_co_prince_bishopric #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = andoran_co_prince_bishopric_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = andoran_co_prince_bishopric_overlord
+    }
+
+    overlord_opinion_modifier = is_andoran_co_prince_bishopric
+    subject_opinion_modifier = is_andoran_co_prince_bishopric
+}
+
 christian_archbishopric = {
     copy_from = christian_bishopric
 
@@ -7089,7 +7278,7 @@ christian_archbishopric = {
     should_quit_wars_on_activation = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7099,9 +7288,8 @@ christian_archbishopric = {
     place_relative_on_throne = no
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     placate_rulers = yes
-    seize_court_resources = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -7143,6 +7331,91 @@ christian_archbishopric = {
 
     overlord_opinion_modifier = is_christian_archbishopric
     subject_opinion_modifier = is_christian_archbishopric
+}
+
+andoran_co_prince_archbishopric = {
+    copy_from = andoran_co_prince_bishopric
+
+    # Graphics:
+    sprite = GFX_icon_andoran_co_prince_archbishopric_subject
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_andoran_co_prince_archbishopric_subject
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_andoran_co_prince_archbishopric_subject
+
+    # Properties:
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    can_be_annexed = yes
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
+    liberty_desire_development_ratio = 0.15
+    trust_on_start = 0
+    base_liberty_desire = 25.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.35
+    max_government_rank = 7
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+    # Subject Interactions
+    seize_court_resources = yes
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = no
+    enforce_religion = yes
+    enforce_culture = no
+    seize_territory = yes
+    placate_rulers = yes
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_andoran_co_prince_archbishopric #Was cb_disloyal_marquisate
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = andoran_co_prince_archbishopric_subject
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = andoran_co_prince_archbishopric_overlord
+    }
+
+    overlord_opinion_modifier = is_andoran_co_prince_archbishopric
+    subject_opinion_modifier = is_andoran_co_prince_archbishopric
 }
 
 #DANISH SUBJECTS
@@ -7189,7 +7462,7 @@ danish_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7199,7 +7472,7 @@ danish_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -7270,7 +7543,7 @@ danish_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7280,7 +7553,7 @@ danish_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -7352,7 +7625,7 @@ danish_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7362,7 +7635,7 @@ danish_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -7434,7 +7707,7 @@ danish_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7444,7 +7717,7 @@ danish_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -7503,7 +7776,7 @@ danish_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7513,7 +7786,7 @@ danish_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -7599,7 +7872,7 @@ danish_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -7685,7 +7958,7 @@ danish_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -7745,6 +8018,7 @@ danish_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -7764,13 +8038,13 @@ danish_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -7918,7 +8192,7 @@ dutch_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -7928,7 +8202,7 @@ dutch_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -7999,7 +8273,7 @@ dutch_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8009,7 +8283,7 @@ dutch_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -8081,7 +8355,7 @@ dutch_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8091,7 +8365,7 @@ dutch_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -8163,7 +8437,7 @@ dutch_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8173,7 +8447,7 @@ dutch_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -8232,7 +8506,7 @@ dutch_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8242,7 +8516,7 @@ dutch_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -8328,7 +8602,7 @@ dutch_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -8414,7 +8688,7 @@ dutch_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -8474,6 +8748,7 @@ dutch_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -8493,13 +8768,13 @@ dutch_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -8587,7 +8862,7 @@ english_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8597,7 +8872,7 @@ english_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -8668,7 +8943,7 @@ english_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8678,7 +8953,7 @@ english_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -8749,7 +9024,7 @@ english_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8759,7 +9034,7 @@ english_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -8830,7 +9105,7 @@ english_earldom = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8840,7 +9115,7 @@ english_earldom = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -8899,7 +9174,7 @@ english_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -8909,7 +9184,7 @@ english_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -8995,7 +9270,7 @@ english_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -9081,7 +9356,7 @@ english_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -9141,6 +9416,7 @@ english_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -9160,13 +9436,13 @@ english_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -9325,7 +9601,7 @@ french_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -9335,7 +9611,7 @@ french_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -9406,7 +9682,7 @@ french_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -9416,7 +9692,7 @@ french_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -9488,7 +9764,7 @@ french_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -9498,7 +9774,7 @@ french_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -9570,7 +9846,7 @@ french_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -9580,7 +9856,7 @@ french_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -9639,7 +9915,7 @@ french_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -9649,7 +9925,7 @@ french_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -9735,7 +10011,7 @@ french_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -9821,7 +10097,7 @@ french_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -9881,6 +10157,7 @@ french_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -9900,13 +10177,13 @@ french_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -10054,7 +10331,7 @@ german_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10064,7 +10341,7 @@ german_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -10135,7 +10412,7 @@ german_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10145,7 +10422,7 @@ german_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -10217,7 +10494,7 @@ german_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10227,7 +10504,7 @@ german_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -10299,7 +10576,7 @@ german_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10309,7 +10586,7 @@ german_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -10368,7 +10645,7 @@ german_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10378,7 +10655,7 @@ german_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -10464,7 +10741,7 @@ german_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -10550,7 +10827,7 @@ german_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -10610,6 +10887,7 @@ german_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -10629,13 +10907,13 @@ german_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -10783,7 +11061,7 @@ hungarian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10793,7 +11071,7 @@ hungarian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -10864,7 +11142,7 @@ hungarian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10874,7 +11152,7 @@ hungarian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -10946,7 +11224,7 @@ hungarian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -10956,7 +11234,7 @@ hungarian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -11028,7 +11306,7 @@ hungarian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -11038,7 +11316,7 @@ hungarian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -11097,7 +11375,7 @@ hungarian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -11107,7 +11385,7 @@ hungarian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -11193,7 +11471,7 @@ hungarian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -11279,7 +11557,7 @@ hungarian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -11339,6 +11617,7 @@ hungarian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -11358,13 +11637,13 @@ hungarian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -11512,7 +11791,7 @@ italian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -11522,7 +11801,7 @@ italian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -11593,7 +11872,7 @@ italian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -11603,7 +11882,7 @@ italian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -11675,7 +11954,7 @@ italian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -11685,7 +11964,7 @@ italian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -11757,7 +12036,7 @@ italian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -11767,7 +12046,7 @@ italian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -11826,7 +12105,7 @@ italian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -11836,7 +12115,7 @@ italian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -11922,7 +12201,7 @@ italian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12008,7 +12287,7 @@ italian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12068,6 +12347,7 @@ italian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -12087,13 +12367,13 @@ italian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12229,7 +12509,7 @@ lithuanian_lordship_march = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -12239,7 +12519,7 @@ lithuanian_lordship_march = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12325,7 +12605,7 @@ lithuanian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12411,7 +12691,7 @@ lithuanian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12487,7 +12767,7 @@ mongolian_vassal = {
 
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -12497,7 +12777,7 @@ mongolian_vassal = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12585,7 +12865,7 @@ norwegian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -12595,7 +12875,7 @@ norwegian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -12666,7 +12946,7 @@ norwegian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -12676,7 +12956,7 @@ norwegian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -12748,7 +13028,7 @@ norwegian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -12758,7 +13038,7 @@ norwegian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -12830,7 +13110,7 @@ norwegian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -12840,7 +13120,7 @@ norwegian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -12909,7 +13189,7 @@ norwegian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -12995,7 +13275,7 @@ norwegian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -13081,7 +13361,7 @@ norwegian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -13141,6 +13421,7 @@ norwegian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -13160,13 +13441,13 @@ norwegian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -13324,7 +13605,7 @@ polish_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -13395,7 +13676,7 @@ polish_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -13405,7 +13686,7 @@ polish_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -13477,7 +13758,7 @@ polish_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -13487,7 +13768,7 @@ polish_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -13559,7 +13840,7 @@ polish_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -13569,7 +13850,7 @@ polish_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -13628,7 +13909,7 @@ polish_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -13638,7 +13919,7 @@ polish_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -13724,7 +14005,7 @@ polish_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -13810,7 +14091,7 @@ polish_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -13870,6 +14151,7 @@ polish_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -13889,13 +14171,13 @@ polish_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -14043,7 +14325,7 @@ portuguese_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14053,7 +14335,7 @@ portuguese_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -14124,7 +14406,7 @@ portuguese_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14134,7 +14416,7 @@ portuguese_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -14206,7 +14488,7 @@ portuguese_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14216,7 +14498,7 @@ portuguese_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -14288,7 +14570,7 @@ portuguese_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14298,7 +14580,7 @@ portuguese_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -14357,7 +14639,7 @@ portuguese_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14367,7 +14649,7 @@ portuguese_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -14453,7 +14735,7 @@ portuguese_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -14539,7 +14821,7 @@ portuguese_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -14599,6 +14881,7 @@ portuguese_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -14618,13 +14901,13 @@ portuguese_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -14772,7 +15055,7 @@ prussian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14782,7 +15065,7 @@ prussian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -14853,7 +15136,7 @@ prussian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14863,7 +15146,7 @@ prussian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -14935,7 +15218,7 @@ prussian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -14945,7 +15228,7 @@ prussian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -15017,7 +15300,7 @@ prussian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -15027,7 +15310,7 @@ prussian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -15086,7 +15369,7 @@ prussian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -15096,7 +15379,7 @@ prussian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -15182,7 +15465,7 @@ prussian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -15268,7 +15551,7 @@ prussian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -15328,6 +15611,7 @@ prussian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -15347,13 +15631,13 @@ prussian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -15501,7 +15785,7 @@ russian_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -15511,7 +15795,7 @@ russian_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -15582,7 +15866,7 @@ russian_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -15592,7 +15876,7 @@ russian_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -15664,7 +15948,7 @@ russian_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -15674,7 +15958,7 @@ russian_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -15746,7 +16030,7 @@ russian_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -15756,7 +16040,7 @@ russian_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -15815,7 +16099,7 @@ russian_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -15825,7 +16109,7 @@ russian_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -15911,7 +16195,7 @@ russian_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -15997,7 +16281,7 @@ russian_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -16057,6 +16341,7 @@ russian_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -16076,13 +16361,13 @@ russian_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -16316,7 +16601,7 @@ scottish_clan = {
     }
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -16326,7 +16611,7 @@ scottish_clan = {
     place_relative_on_throne = no
     enforce_religion = no
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -16500,7 +16785,7 @@ slavic_vojvodina = {
     should_quit_wars_on_activation = yes
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -16510,7 +16795,7 @@ slavic_vojvodina = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = yes
-    seize_territory = yes          #Kniaz is appointing the vojvod - Don
+    seize_territory = yes          #Kniaz is appointing the vojvod - VU
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -16642,7 +16927,7 @@ swedish_lordship = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -16652,7 +16937,7 @@ swedish_lordship = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -16723,7 +17008,7 @@ swedish_barony = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -16733,7 +17018,7 @@ swedish_barony = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -16805,7 +17090,7 @@ swedish_viscounty = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -16815,7 +17100,7 @@ swedish_viscounty = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -16887,7 +17172,7 @@ swedish_county = {
     }
 
     #Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -16897,7 +17182,7 @@ swedish_county = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = yes
     return_land = yes
@@ -16956,7 +17241,7 @@ swedish_marquisate = {
     is_march = yes
 
     # Subject Interactions
-    seize_court_resources = no
+    seize_court_resources = yes
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
@@ -16966,7 +17251,7 @@ swedish_marquisate = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -17051,7 +17336,7 @@ swedish_duchy = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -17136,7 +17421,7 @@ swedish_principality = {
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -17196,6 +17481,7 @@ swedish_kingdom = {
     can_concentrate_development = no
     trust_on_start = 0
     base_liberty_desire = 15.0
+    liberty_desire_development_ratio = 0.00
     forcelimit_to_overlord = 0.00
     military_focus = 1.2
     pays_overlord = 0.25
@@ -17214,13 +17500,13 @@ swedish_kingdom = {
     request_extra_levies = yes
     grant_administrative_autonomy = yes
     #(disable)
-    scutage = yes
+    support_loyalists = yes
     grant_core_claim = yes
     grant_province = yes
     place_relative_on_throne = yes
     enforce_religion = yes
     enforce_culture = no
-    seize_territory = no
+    seize_territory = yes
     #(enable)
     contribute_to_capital = no
     return_land = yes
@@ -17850,3 +18136,381 @@ genoese_commercial_republic = {
     overlord_opinion_modifier = is_genoese_commercial_republic
     subject_opinion_modifier = is_genoese_commercial_republic
 }
+
+#REPUBLIC SUBJECTS
+rep_outpost_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_outpost_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_outpost_subject
+    subject_opinion_modifier = is_rep_outpost_subject
+}
+
+rep_borough_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_borough_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_borough_subject
+    subject_opinion_modifier = is_rep_borough_subject
+}
+
+rep_commune_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_commune_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_commune_subject
+    subject_opinion_modifier = is_rep_commune_subject
+}
+
+rep_canton_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_canton_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_canton_subject
+    subject_opinion_modifier = is_rep_canton_subject
+}
+
+rep_territory_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_territory_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_territory_subject
+    subject_opinion_modifier = is_rep_territory_subject
+}
+
+rep_province_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_province_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_province_subject
+    subject_opinion_modifier = is_rep_province_subject
+}
+
+rep_state_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_state_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_state_subject
+    subject_opinion_modifier = is_rep_state_subject
+}
+
+rep_commonwealth_subject = {
+    copy_from = default
+    # Graphics:
+    sprite = GFX_icon_vu_republic_subject
+    diplomacy_overlord_sprite = GFX_diplomacy_vu_republic_subject_leadvassal
+    diplomacy_subject_sprite = GFX_diplomacy_vu_republic_subject_amvassal
+    # Triggers:
+    is_potential_overlord = {
+        is_subject = no
+        has_government_attribute = vu_has_ToR_subjects
+        government = republic
+    }
+    # Properties:
+    transfer_trade_power = yes
+    takes_diplo_slot = no
+    has_power_projection = no
+    gets_help_with_rebels = yes
+    extend_trading_range = yes
+    can_be_integrated = yes
+    can_be_annexed = no
+    cities_required_for_bonuses = 0
+    trust_on_start = 35
+    base_liberty_desire = -10
+    liberty_desire_development_ratio = 0.15
+    liberty_desire_same_dynasty = -5.0
+    liberty_desire_revolution = 0
+    pays_overlord = 0.25
+    forcelimit_to_overlord = 0.05
+    relative_power_class = 6
+    diplomacy_view_class = 1
+    should_quit_wars_on_activation = yes
+    # Subject Interactions:
+    # (continuous)
+    scutage = yes
+    # (immediate)
+    seize_territory = yes
+    contribute_to_capital = yes
+    # Modifiers:
+    modifier_subject = clear
+    modifier_overlord = clear
+    modifier_overlord = {
+        modifier = rep_commonwealth_subject_overlord_modifier
+    }
+    overlord_opinion_modifier = is_rep_commonwealth_subject
+    subject_opinion_modifier = is_rep_commonwealth_subject
+}
+

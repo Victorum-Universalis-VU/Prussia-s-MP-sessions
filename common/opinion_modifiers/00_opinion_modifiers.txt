@@ -203,12 +203,24 @@ is_christian_abbacy = { #Edited by SF
 	opinion = 50
 }
 
+is_andoran_co_prince_abbacy = { #Edited by SF
+    opinion = 50
+}
+
 is_christian_bishopric = { #Edited by Prussia
 	opinion = 50
 }
 
+is_andoran_co_prince_bishopric = { #Edited by SF
+    opinion = 50
+}
+
 is_christian_archbishopric = { #Edited by Prussia
 	opinion = 50
+}
+
+is_andoran_co_prince_archbishopric = { #Edited by SF
+    opinion = 50
 }
 
 is_lezhe_league_member = { #Edited by SF
@@ -348,7 +360,7 @@ is_mongolian_vassal = {
 	opinion = 60
 }
 
-#VU v1,37 additions by Don
+#VU v1,37 additions
 vu_sacking = {
     opinion = -5
     yearly_decay = -2
@@ -5547,4 +5559,30 @@ hab_peaceful_shadow_kingdom = {
 fra_gave_up_on_calais = {
 	opinion = -75
 	yearly_decay = 3
+}
+
+#New VU 1.37.* New Republican Subject Types
+is_rep_outpost_subject = {
+    opinion = 50
+}
+is_rep_borough_subject = {
+    opinion = 50
+}
+is_rep_commune_subject = {
+    opinion = 50
+}
+is_rep_canton_subject = {
+    opinion = 50
+}
+is_rep_territory_subject = {
+    opinion = 50
+}
+is_rep_province_subject = {
+    opinion = 50
+}
+is_rep_state_subject = {
+    opinion = 50
+}
+is_rep_commonwealth_subject = {
+    opinion = 50
 }

@@ -5,7 +5,6 @@
 #Quonton
 #Letole
 #Oblivier
-#DonBrom
 #Mellstrom
 #Actually Prussia
 #Sphinx
@@ -34,19 +33,19 @@ DRJ = "countries/Dobruja.txt"
 VBZ = "countries/Velbazhd.txt"
 
 #VU - Bohemia
-#B05 = "countries/Boskovicove.txt" #Boskovicové
+B05 = "countries/Boskovicove.txt" #Boskovicové
 EGR = "countries/Eger.txt"
-#L4N = "countries/Landstein.txt"
-#L1C = "countries/Lichtenburka.txt"
-#L08 = "countries/Lobkowicz.txt"
-#P3R = "countries/Pernstein.txt"
-#PR3 = "countries/Premyslids.txt"
-#R3U = "countries/Reuss.txt"
-#R05 = "countries/Rosenberg.txt"
-#ST3 = "countries/Sternberg.txt"
-#SV4 = "countries/Svamberka .txt" #Švamberka
-#V4L = "countries/Valdstejnove.txt" #Valdštejnové
-#Z3R = "countries/Zerotinove.txt" #Žerotínové
+L4N = "countries/Landstein.txt"
+L1C = "countries/Lichtenburka.txt"
+L08 = "countries/Lobkowicz.txt"
+P3R = "countries/Pernstein.txt"
+PR3 = "countries/Premyslids.txt"
+R3U = "countries/Reuss.txt"
+R05 = "countries/Rosenberg.txt"
+ST3 = "countries/Sternberg.txt"
+SV4 = "countries/Svamberka.txt" #Švamberka
+V4L = "countries/Valdstejnove.txt" #Valdštejnové
+Z3R = "countries/Zerotinove.txt" #Žerotínové
 
 #VU - Caucasus
 ABZ = "countries/Abazinia.txt"
@@ -86,6 +85,7 @@ DUR = "countries/Durham.txt"
 EXE = "countries/Exeter.txt"
 GLR = "countries/Gloucester.txt"
 JER = "countries/JerseyandGuernsey.txt"
+K3T = "countries/Kent.txt"
 LCA = "countries/Lancaster.txt"
 LNN = "countries/Lincoln.txt"
 NFL = "countries/Norfolk.txt"
@@ -141,6 +141,7 @@ BLS = "countries/Blois.txt"
 BSA = "countries/Besancon.txt"
 CMB = "countries/Cambrai.txt"
 CMG = "countries/Comminges.txt"
+CN9 = "countries/Condom.txt"
 CRC = "countries/Carcassonne.txt"
 DRE = "countries/Dreux.txt"
 ELB = "countries/Principality_of_Elba.txt"
@@ -233,7 +234,7 @@ HOS = "countries/Hohnstein.txt"
 JUL = "countries/Julich.txt"
 KMB = "countries/Kulmbach.txt"
 KMP = "countries/Princely_Abbey_of_Kempten.txt"
-K0R = "countries/Imperial_County_of_Konigsegg_Rothenfels.txt"
+K0A = "countries/Imperial_County_of_Konigsegg_Rothenfels.txt"
 KRH = "countries/Kirchberg.txt"
 KTZ = "countries/Katz.txt"
 KUZ = "countries/Kreuzburg.txt"
@@ -1151,6 +1152,8 @@ S3O = "countries/Seoul.txt"
 SA1 = "countries/Saigon.txt"
 PY0 = "countries/Pyongyang.txt"
 BG5 = "countries/Bangladesh.txt"
+DRR = "countries/Durrani.txt"
+AFS = "countries/Afsharids.txt"
 
 #Crusader States
 AC3 = "countries/Acre.txt"                      #Principality
@@ -1393,6 +1396,7 @@ SLT = "countries/Slutsk.txt"
 TBT = "countries/Trubetsk.txt"
 TMT = "countries/Tmutarakan.txt"
 TOV = "countries/Turov.txt"
+VLD = "countries/Vladimir.txt"
 
 #ROMANIAN PRINCIPALITIES by Prussia
 B5R = "countries/Basarab.txt"

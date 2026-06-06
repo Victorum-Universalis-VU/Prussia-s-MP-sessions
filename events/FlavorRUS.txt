@@ -2781,7 +2781,7 @@ country_event = {
 	}
 }
 
-# Establishment of Rostov-on-Don
+# Establishment of Rostov-on-VU
 #country_event = {
 #	id = flavor_rus.114
 #	title = flavor_rus.114.t
@@ -2802,8 +2802,8 @@ country_event = {
 #		name = flavor_rus.114.a
 #		add_years_of_income = -0.2
 #		286 = {
-#			change_province_name = "Rostov-on-Don"
-#			rename_capital = "Rostov-on-Don"
+#			change_province_name = "Rostov-on-VU"
+#			rename_capital = "Rostov-on-VU"
 #			if = {
 #				limit = { NOT = { has_shipyard_building_trigger = yes } }
 #				add_building = shipyard
@@ -2981,6 +2981,13 @@ country_event = {
 	option = {
 		name = flavor_rus.119.a
 		caucasia_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_russian_claim = yes
+		}
+		south_caucasia_region = {
 			limit = {
 				NOT = { is_core = ROOT }
 				NOT = { is_permanent_claim = ROOT }

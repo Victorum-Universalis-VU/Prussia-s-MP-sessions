@@ -3410,17 +3410,22 @@ dom_cas_missions_4 = {
         }
 
         trigger = {
-            inner_austria_area = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
-            }
-            austria_proper_area = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
-            }
-            tirol_area = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
+            OR = {
+                AND = {
+                    inner_austria_area = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    austria_proper_area = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    tirol_area = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                }
+                dynasty = "von Habsburg"
             }
         }
         effect = {
