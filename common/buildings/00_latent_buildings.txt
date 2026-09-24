@@ -1,4 +1,4 @@
-#vu_TGE_latent_buildings
+#vu_latent_buildings
 # Do not change tags in here without changing every other reference to them.
 # If adding new buildings, make sure they are uniquely named.
 # cost = x #==> cost in $ to build (subject to other modifiers)
@@ -1647,21 +1647,6 @@ mine = {
 			NOT = {
 				has_province_flag = has_mine
 			}
-			NOT = {
-				trade_goods = copper
-			}
-			NOT = {
-				trade_goods = tin
-			}
-			NOT = {
-				trade_goods = zinc
-			}
-			NOT = {
-				trade_goods = iron
-			}
-			NOT = {
-				trade_goods = lead
-			}
 			OR = {
 				has_terrain = mountain
 				has_terrain = hills
@@ -2005,24 +1990,23 @@ chocolate_factory = {
 	}
 }
 
-bakery = {
+bakery = { #
 	cost = 1150
 	time = 12
 	build_trigger = {
-		ROOT = {
-			NOT = {
-				has_province_flag = has_latent_good
-			}
+		NOT = {
+			has_province_flag = has_latent_good
+			has_global_flag = No_Sweet_Confectioneries
+		}
+		OR = {
+			trade_goods = grain
+			trade_goods = rice
+			trade_goods = millet
+			trade_goods = oats
+			trade_goods = maize
 		}
 		FROM = {
 			has_institution = new_world_i
-			check_variable = {
-				which = grain
-				value = 0.6
-			}
-		}
-		NOT = {
-			has_global_flag = No_Sweet_Confectioneries
 		}
 	}
 	on_built = {

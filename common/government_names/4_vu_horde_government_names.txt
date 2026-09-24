@@ -1,6 +1,6 @@
 #All Horde government names go here, at the top add the specific ones, the further down the file, the more generic they get. 
 #Game will pick the first applicable government name from this file.
-#Contributors: Don, Modus, Prussia
+#Contributors: Darth Modus & Prussia
 #Contains Original and modified entries from Victorum Universalis, Vanilla, Missions Expanded and Government's Expanded, they were all transformatively changed according
 #to the DMCA. Permissions were granted for all entries by the constituent parties.
 khanate = {
@@ -18,6 +18,10 @@ khanate = {
     }
     trigger = {
         has_reform = steppe_horde
+        government_rank = 8
+        NOT = {
+            government_rank = 9
+        }
         OR = {
             tag = AST
             tag = BAL
@@ -44,6 +48,7 @@ ilkhanate = {
         9 = KHANZADEH
     }
     trigger = {
+        government_rank = 9
         tag = ILK
     }
 }

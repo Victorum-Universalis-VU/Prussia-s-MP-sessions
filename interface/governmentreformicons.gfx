@@ -425,8 +425,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "government_reform_vu_majapahit_kingdom_reform"
+        texturefile = "gfx//interface//government_reform_icons//majapahit//vu_majapahit_kingdom_reform.dds"
+    }
+
+    spriteType = {
         name = "government_reform_mandala_system"
         texturefile = "gfx//interface//government_reform_icons//mandala_system.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_sunda_kingdom_reform"
+        texturefile = "gfx//interface//government_reform_icons//sunda//vu_sunda_kingdom_reform.dds"
     }
 
     spriteType = {
@@ -691,6 +701,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "government_reform_vu_pacification_commission_reform"
+        texturefile = "gfx//interface//government_reform_icons//china//vu_pacification_commission_reform.dds"
+    }
+
+    spriteType = {
         name = "government_reform_selucian_kingdom_reform"
         texturefile = "gfx/interface/government_reform_icons/selucian_kingdom_reform.dds"
     }
@@ -818,7 +833,27 @@ spriteTypes = {
         texturefile = "gfx/interface/government_reform_icons/islamic/islamic_sublimating_m1a_khalifa_reform.dds"
     }
 
+    spriteType = {
+        name = "government_reform_vu_melayu_islam_beraja_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_melayu_islam_beraja_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_unlocked_melayu_islam_beraja_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_unlocked_melayu_islam_beraja_reform.dds"
+    }
+
     #Prince-Archbishopric of Andorra
+    spriteType = {
+        name = "government_reform_prince_abbacy_of_andorra_reform"
+        texturefile = "gfx/interface/government_reform_icons/andorra/prince_abbacy_of_andorra_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_prince_bishopric_of_andorra_reform"
+        texturefile = "gfx/interface/government_reform_icons/andorra/prince_bishopric_of_andorra_reform.dds"
+    }
+    
     spriteType = {
         name = "government_reform_prince_archbishopric_of_andorra_reform"
         texturefile = "gfx/interface/government_reform_icons/andorra/prince_archbishopric_reform.dds"
@@ -1026,6 +1061,56 @@ spriteTypes = {
     spriteType = {
         name = "government_reform_kongsi_federation"
         texturefile = "gfx//interface//government_reform_icons//kongsi_federation.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_mantri_sakai_system_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_mantri_sakai_system_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_banua_federation_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_banua_federation_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_landak_absolutism_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_landak_absolutism_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_divine_monarchy_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_divine_monarchy_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_matriarchal_leadership_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_matriarchal_leadership_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_migratory_capital_system_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_migratory_capital_system_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_nek_aristocracy_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_nek_aristocracy_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_unified_law_reform"
+        texturefile = "gfx//interface//government_reform_icons//borneo//vu_unified_law_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_dual_monarchy_islamic_confederation"
+        texturefile = "gfx//interface//government_reform_icons//sulawesi//vu_dual_monarchy_islamic_confederation.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_momole_and_kolano_system_reform"
+        texturefile = "gfx//interface//government_reform_icons//sulawesi//vu_momole_and_kolano_system_reform.dds"
     }
 
     spriteType = {
@@ -2406,5 +2491,47 @@ spriteTypes = {
     spriteType = {
         name = "government_reform_vu_generic_dominion"
         texturefile = "gfx//interface//government_reform_icons//dominions//generic_dominion_governor_reform.dds"
+    }
+
+    #New Republic Subject Types by SF & Don
+
+    spriteType = {
+        name = "government_reform_vu_rep_outpost_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_outpost_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_borough_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_borough_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_commune_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_commune_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_canton_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_canton_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_territory_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_territory_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_province_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_province_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_state_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_state_reform.dds"
+    }
+
+    spriteType = {
+        name = "government_reform_vu_rep_commonwealth_reform"
+        texturefile = "gfx//interface//government_reform_icons//new_republic_reforms//vu_rep_commonwealth_reform.dds"
     }
 }

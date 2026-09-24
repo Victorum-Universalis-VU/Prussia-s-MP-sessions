@@ -2,7 +2,6 @@
 #country_has_both_paradox_and_golden_bull_missions = {}
 #Contributors:
 #Altan
-#DonBrom
 #San Felipe
 #VU building triggers - Altan
 has_production_building_trigger = {
@@ -40,7 +39,7 @@ has_transportation_trigger = {
 	}
 }
 
-#VU subject triggers - Altan, appended by Don with some modifications + new ones
+#VU subject triggers - Altan, appended with some modifications + new ones
 is_daimyo_subject_type = {
 	OR = {
 		is_subject_of_type = daimyo_vassal
@@ -341,67 +340,104 @@ has_ToR_government_reform = {
 	}
 }
 
-has_ToR_unique_government_reform = {
+is_ToR_republican_subject_type = {
+    OR = {
+		is_subject_of_type = rep_outpost_subject
+		is_subject_of_type = rep_borough_subject
+		is_subject_of_type = rep_commune_subject
+		is_subject_of_type = rep_canton_subject
+		is_subject_of_type = rep_territory_subject
+		is_subject_of_type = rep_province_subject
+		is_subject_of_type = rep_state_subject
+		is_subject_of_type = rep_commonwealth_subject
+    }
+}
+
+has_ToR_republican_government_reform = { #By DM, VU, Lukas & Prussia
+    OR = {
+		has_reform = vu_rep_outpost_reform                   #Commandant
+		has_reform = vu_unlocked_rep_outpost_reform
+		has_reform = vu_rep_borough_reform                   #Councillor
+		has_reform = vu_unlocked_rep_borough_reform
+		has_reform = vu_rep_commune_reform                   #Mayor
+		has_reform = vu_unlocked_rep_commune_reform
+		has_reform = vu_rep_canton_reform                    #Chancellor
+		has_reform = vu_unlocked_rep_canton_reform
+		has_reform = vu_rep_territory_reform                 #Administrator
+		has_reform = vu_unlocked_rep_territory_reform
+		has_reform = vu_rep_province_reform                  #Governor
+		has_reform = vu_unlocked_rep_province_reform
+		has_reform = vu_rep_state_reform                     #President
+		has_reform = vu_unlocked_rep_state_reform
+		has_reform = vu_rep_commonwealth_reform              #Premier
+		has_reform = vu_unlocked_rep_commonwealth_reform
+    }
+}
+
+has_ToR_unique_government_reform = { 
 	OR = {
-		has_reform = scottish_monarchy		#Scottish Monarchy
-		has_reform = welsh_principality		#Welsh Principality
-		has_reform = english_monarchy		#English Monarchy
-		has_reform = british_monarchy		#British Monarchy
-		has_reform = absolute_british_monarchy		#Absolute British Monarchy
-		has_reform = duchy_of_brittany_reform		#Duchy of Brittany
-		has_reform = burgundian_state_reform		#Burgundian State
-		has_reform = feudal_france_reform		#French Feudalism
-		has_reform = bourgeoisie_aristocracy_reform		#Bourgeoisie Aristocracy
-		has_reform = french_absolutism		#Royaume du Soleil
-		has_reform = french_kingdom_reform		#French Monarchy
-		has_reform = french_orleanist_restoration_reform		#French Orleanist Monarchy
-		has_reform = crusader_state_vu_reform		#Crusader State
-		has_reform = french_monarchic_restoration_reform		#French Bourbon Monarchy
-		has_reform = courts_of_navarra		#Courts of Navarra
-		has_reform = kingdom_of_castile_and_leon		#Kingdom of Castile and Leon
-		has_reform = crown_of_castile		#Crown of Castile
-		has_reform = hispanic_kingdom		#Hispanic Kingdom
-		has_reform = spanish_parliamentary_monarchy		#Cortes Generales
-		has_reform = system_of_councils_reform		#System of Councils
-		has_reform = aragonese_cortes_reform		#Cortz d'Aragon
-		has_reform = crown_of_aragon		#Crown of Aragon
-		has_reform = respect_union_reform		#Composite Monarchy
-		has_reform = portuguese_monarchy_reform		#Portuguese Monarchy
-		has_reform = kingdom_of_portugal_and_azures		#Portuguese Thassalocracy
-		has_reform = portuguese_empire_reform		#Portuguese Empire
-		has_reform = bohemian_elective_kingdom_reform		#Bohemian Elective Monarchy
-		has_reform = polish_great_sejm		#Great Sejm
-		has_reform = grand_duchy_reform		#Grand Duchy
-		has_reform = norwegian_parliamentary_monarchy		#Norwegian Monarchy
-		has_reform = office_of_lord_regent_reform		#Office of the Lord Regent
-		has_reform = tsardom		#Tsardom
-		has_reform = german_kaiserreich		#German Kaiserreich
-		has_reform = prussian_monarchy		#Prussian Monarchy
-		has_reform = prussian_republic		#Stratocratic Administration
-		has_reform = german_prussian_reform		#Army with a State
-		has_reform = savoia_reform		#I Savoia
-		has_reform = visconti_dukes_of_milan		#Visconti Dukes of Milan
-		has_reform = house_of_este_reform		#House of Este
-		has_reform = house_of_gonzaga_reform		#House of Gonzaga
-		has_reform = palaiologos_montferrat_reform		#Palaiologos of Montferrat
-		has_reform = autocracy_reform		#Autocracy
-		has_reform = kingdom_of_sicily_reform		#Kingdom of Sicily
-		has_reform = italian_monarchy_reform		#Italian Monarchy
-		has_reform = giudicati_sardi_reform		#Giudicati Sardi
-		has_reform = apostolic_kingdom		#Apostolic Kingdom
-		has_reform = stadthalter_monarchy_reform		#Stadhouder Monarchy
-		has_reform = elective_monarchy_reform		#Elective Monarchy
-		has_reform = kalmar_union		#Kalmar Union
-		has_reform = byzantine_autocracy_reform		#Byzantine Autocracy
-		has_reform = belgian_kingdom_reform		#Belgian Kingdom
-		has_reform = austrian_duchy_reform		#Austrian Duchy
-		has_reform = austrian_archduchy_reform		#Austrian Archduchy
-		has_reform = austrian_absolute_monarchy		#Austrian Absolute Monarchy
+		has_reform = scottish_monarchy		                    #Scottish Monarchy
+		has_reform = welsh_principality		                    #Welsh Principality
+		has_reform = english_monarchy		                    #English Monarchy
+		has_reform = british_monarchy		                    #British Monarchy
+		has_reform = absolute_british_monarchy		            #Absolute British Monarchy
+		has_reform = duchy_of_brittany_reform		            #Duchy of Brittany
+		has_reform = burgundian_state_reform		            #Burgundian State
+		has_reform = feudal_france_reform		                #French Feudalism
+		has_reform = bourgeoisie_aristocracy_reform		        #Bourgeoisie Aristocracy
+		has_reform = french_absolutism		                    #Royaume du Soleil
+		has_reform = french_kingdom_reform		                #French Monarchy
+		has_reform = french_orleanist_restoration_reform        #French Orleanist Monarchy
+		has_reform = crusader_state_vu_reform		            #Crusader State
+		has_reform = french_monarchic_restoration_reform	    #French Bourbon Monarchy
+		has_reform = courts_of_navarra		                    #Courts of Navarra
+		has_reform = kingdom_of_castile_and_leon		        #Kingdom of Castile and Leon
+		has_reform = crown_of_castile		                    #Crown of Castile
+		has_reform = hispanic_kingdom		                    #Hispanic Kingdom
+		has_reform = spanish_parliamentary_monarchy		        #Cortes Generales
+		has_reform = system_of_councils_reform		            #System of Councils
+		has_reform = aragonese_cortes_reform		            #Cortz d'Aragon
+		has_reform = crown_of_aragon		                    #Crown of Aragon
+		has_reform = respect_union_reform		                #Composite Monarchy
+		has_reform = portuguese_monarchy_reform		            #Portuguese Monarchy
+		has_reform = kingdom_of_portugal_and_azures		        #Portuguese Thassalocracy
+		has_reform = portuguese_empire_reform		            #Portuguese Empire
+		has_reform = bohemian_elective_kingdom_reform		    #Bohemian Elective Monarchy
+		has_reform = polish_great_sejm		                    #Great Sejm
+		has_reform = polish_elective_monarchy                   #Polish Elective Monarchy
+		has_reform = polish_constitutionalism_reform            #Polish Constitutionalism
+		has_reform = grand_duchy_reform		                    #Grand Duchy
+		has_reform = norwegian_parliamentary_monarchy		    #Norwegian Monarchy
+		has_reform = office_of_lord_regent_reform		        #Office of the Lord Regent
+		has_reform = tsardom		                            #Tsardom
+		has_reform = german_kaiserreich		                    #German Kaiserreich
+		has_reform = prussian_monarchy		                    #Prussian Monarchy
+		has_reform = prussian_republic                          #Stratocratic Administration
+		has_reform = german_prussian_reform		                #Army with a State
+		has_reform = savoia_reform		                        #I Savoia
+		has_reform = visconti_dukes_of_milan		            #Visconti Dukes of Milan
+		has_reform = house_of_este_reform		                #House of Este
+		has_reform = house_of_gonzaga_reform		            #House of Gonzaga
+		has_reform = palaiologos_montferrat_reform              #Palaiologos of Montferrat
+		has_reform = autocracy_reform		                    #Autocracy
+		has_reform = kingdom_of_sicily_reform		            #Kingdom of Sicily
+		has_reform = italian_monarchy_reform		            #Italian Monarchy
+		has_reform = giudicati_sardi_reform		                #Giudicati Sardi
+		has_reform = apostolic_kingdom		                    #Apostolic Kingdom
+		has_reform = stadthalter_monarchy_reform		        #Stadhouder Monarchy
+		has_reform = elective_monarchy_reform		            #Elective Monarchy
+		has_reform = kalmar_union		                        #Kalmar Union
+		has_reform = byzantine_autocracy_reform		            #Byzantine Autocracy
+		has_reform = belgian_kingdom_reform		                #Belgian Kingdom
+		has_reform = austrian_duchy_reform		                #Austrian Duchy
+		has_reform = austrian_archduchy_reform		            #Austrian Archduchy
+		has_reform = austrian_absolute_monarchy		            #Austrian Absolute Monarchy
 		has_reform = hessian_militarized_monarchy_reform		#Hessian Militarized Monarchy
-		has_reform = granadan_iqta_reform		#Granadan Iqta
-		has_reform = kingdom_of_gao_reform		#Kingdom of Gao
-		has_reform = ajuuraan_theocracy_reform		#Somalian Theocracy
-		has_reform = jewish_patriarchate_reform		#Patriarhiya
+		has_reform = granadan_iqta_reform		                #Granadan Iqta
+		has_reform = kingdom_of_gao_reform		                #Kingdom of Gao
+		has_reform = ajuuraan_theocracy_reform		            #Somalian Theocracy
+		has_reform = jewish_patriarchate_reform		            #Patriarhiya
+		has_reform = margrave_of_brandenburg                    #Brandenburg
 	}
 }
 
@@ -424,6 +460,8 @@ has_ToR_muslim_government_reform = {
 		has_reform = unlocked_islamic_emirate_reform
 		has_reform = islamic_sultanate_reform
 		has_reform = unlocked_islamic_sultanate_reform
+		has_reform = vu_melayu_islam_beraja_reform
+		has_reform = vu_unlocked_melayu_islam_beraja_reform
 		has_reform = islamic_taifa_reform
 		has_reform = unlocked_islamic_taifa_reform
 		has_reform = islamic_malikate_reform
@@ -457,8 +495,11 @@ is_slavic_subject_type = {
 is_theocratic_subject_type = {
 	OR = {
 		is_subject_of_type = christian_abbacy
+		is_subject_of_type = andoran_co_prince_abbacy
 		is_subject_of_type = christian_bishopric
+		is_subject_of_type = andoran_co_prince_bishopric
 		is_subject_of_type = christian_archbishopric
+		is_subject_of_type = andoran_co_prince_archbishopric
 	}
 }
 
@@ -503,7 +544,7 @@ is_ToR_rein_in_able = {
 		is_duchy_subject_type = yes
 		is_principality_subject_type = yes
 		is_kingdom_subject_type = yes
-		is_crown_subject_type = yes
+		#is_crown_subject_type = yes
 		is_muslim_subject_type = yes
 	}
 }
@@ -527,6 +568,10 @@ is_asian_principality_subject_type = {
 	is_subject_of_type = vu_buddhist_bodhisattva_prince
 	is_subject_of_type = vu_buddhist_hinayana_prince
 	is_subject_of_type = vu_buddhist_sakya_prince
+}
+
+is_chinese_pacification_commission_subject_type = {
+    is_subject_of_type = vu_chinese_pacification_commission
 }
 
 #By Prussia
@@ -569,7 +614,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_ToR_subject_type = yes
 #		}
-#		amount = 25		#Total limit for Subjects -Don, Prussia
+#		amount = 25		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -578,7 +623,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_subject_of_type = feudal_republic
 #		}
-#		amount = 10		#Total limit for Subjects -Don, Prussia
+#		amount = 10		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -590,7 +635,7 @@ ToR_can_change_colour = {
 #				is_subject_of_type = christian_bishopric
 #			}
 #		}
-#		amount = 7		#Total limit for Subjects -Don, Prussia
+#		amount = 7		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -599,7 +644,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_subject_of_type = christian_archbishopric
 #		}
-#		amount = 3		#Total limit for Subjects -Don, Prussia
+#		amount = 3		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -608,7 +653,7 @@ ToR_can_change_colour = {
 #		all_subject_country = {
 #			is_muslim_subject_type = yes
 #		}
-#		amount = 25		#Total limit for Subjects -Don, Prussia
+#		amount = 25		#Total limit for Subjects, Prussia
 #	}
 #}
 
@@ -622,6 +667,7 @@ VU_ToR_protected_government_reforms = {
 vu_is_caliphate = {
 	OR = {
 		AND = {
+			religion_group = muslim
 			is_defender_of_faith = yes
 			government_rank = 9
 		}
@@ -804,16 +850,16 @@ vu_province_in_ost_afrika = {
 }
 
 ##################
-## Don's New AI ##
+## VU's New AI ##
 ##################
-vu_don_economy_ai_never_do_when = {
+vu_economy_ai_never_do_when = {
 	OR = {
 		num_of_loans = 5
 		governing_capacity_percentage = 0.8
 	}
 }
 
-vu_don_economy_ai_avoid_doing_when = {
+vu_economy_ai_avoid_doing_when = {
 	OR = {
 		is_in_deficit = yes
 		NOT = {
@@ -824,14 +870,14 @@ vu_don_economy_ai_avoid_doing_when = {
 	}
 }
 
-vu_don_economy_ai_never_build_in = {
+vu_economy_ai_never_build_in = {
 	OR = {
 		has_terrain = glacier
 		has_terrain = cold_mountains
 	}
 }
 
-vu_don_economy_ai_avoid_building_in = {
+vu_economy_ai_avoid_building_in = {
 	OR = {
 		has_climate = arctic
 		has_climate = arid
@@ -845,7 +891,7 @@ vu_don_economy_ai_avoid_building_in = {
 	}
 }
 
-vu_don_economy_ai_trade_in = {
+vu_economy_ai_trade_in = {
 	OR = {
 		has_river_estuary_trigger = yes
 		has_special_trade_modifier = yes
@@ -870,7 +916,7 @@ vu_don_economy_ai_trade_in = {
 	}
 }
 
-vu_don_economy_ai_manpower_in = {
+vu_economy_ai_manpower_in = {
 	OR = {
 		base_manpower = 10
 		trade_goods = fruit
@@ -883,16 +929,19 @@ vu_don_economy_ai_manpower_in = {
 	}
 }
 
-vu_don_economy_ai_manpower_when = {
+vu_economy_ai_manpower_when = {
+	# Fixed: the original NOT { manpower_percentage = 0.5 } fired when manpower was BELOW
+	# 50%, making AI rush to build barracks while depleted — exactly the wrong time.
+	# This fed the doom-stack loop: war -> low manpower -> build barracks -> more FL ->
+	# recruit empty regiments. Now fires when manpower is healthy (75%+), so AI builds
+	# manpower infrastructure as forward preparation, not as a panic response.
 	OR = {
 		max_manpower = 20
-		NOT = {
-			manpower_percentage = 0.5
-		}
+		manpower_percentage = 0.75
 	}
 }
 
-vu_don_economy_ai_forcelimit_in = {
+vu_economy_ai_forcelimit_in = {
 	OR = {
 		base_manpower = 10
 		trade_goods = grain
@@ -904,12 +953,13 @@ vu_don_economy_ai_forcelimit_in = {
 		trade_goods = horses
 		trade_goods = cheese
 		trade_goods = millet
+		trade_goods = oats
 		trade_goods = sweet_confectioneries
 		trade_goods = vegetables
 	}
 }
 
-vu_don_economy_ai_forcelimit_when = {
+vu_economy_ai_forcelimit_when = {
 	OR = {
 		army_size_percentage = 0.9
 		NOT = {
@@ -918,7 +968,7 @@ vu_don_economy_ai_forcelimit_when = {
 	}
 }
 
-vu_don_economy_ai_naval_forcelimit_in = {
+vu_economy_ai_naval_forcelimit_in = {
 	OR = {
 		vu_province_has_naval_base = yes
 		trade_goods = fish
@@ -928,7 +978,7 @@ vu_don_economy_ai_naval_forcelimit_in = {
 	}
 }
 
-vu_don_economy_ai_naval_forcelimit_when = {
+vu_economy_ai_naval_forcelimit_when = {
 	OR = {
 		navy_size_percentage = 0.9
 		NOT = {
@@ -939,7 +989,7 @@ vu_don_economy_ai_naval_forcelimit_when = {
 	}
 }
 
-vu_don_economy_ai_sailors_in = {
+vu_economy_ai_sailors_in = {
 	OR = {
 		vu_province_has_naval_base = yes
 		trade_goods = fish
@@ -947,7 +997,7 @@ vu_don_economy_ai_sailors_in = {
 	}
 }
 
-vu_don_economy_ai_sailors_when = {
+vu_economy_ai_sailors_when = {
 	OR = {
 		num_of_marines = 1
 		NOT = {
@@ -956,26 +1006,32 @@ vu_don_economy_ai_sailors_when = {
 	}
 }
 
-vu_don_economy_ai_government_when = {
+vu_economy_ai_government_when = {
 	OR = {
 		governing_capacity_percentage = 0.75
 		average_autonomy_above_min = 25
 	}
 }
 
-vu_don_economy_ai_government_never_do_when = {
+vu_economy_ai_government_never_do_when = {
+	# Fixed logic: NOT { A B C } evaluates as NOT(A AND B AND C), meaning it fired
+	# whenever any single condition was false — i.e., almost always. The intent is
+	# "never build government buildings when none of the distress signals are present."
+	# Correct form is NOT { OR { A B C } }.
 	NOT = {
-		governing_capacity_percentage = 0.5
-		average_autonomy_above_min = 25
-		num_of_loans = 1
+		OR = {
+			governing_capacity_percentage = 0.5
+			average_autonomy_above_min = 25
+			num_of_loans = 1
+		}
 	}
 }
 
-vu_don_economy_ai_education_when = {
+vu_economy_ai_education_when = {
 	is_lacking_institutions = yes
 }
 
-vu_don_economy_ai_education_in = {
+vu_economy_ai_education_in = {
 	OR = {
 		NOT = {
 			current_institution = 100
@@ -984,13 +1040,13 @@ vu_don_economy_ai_education_in = {
 	}
 }
 
-vu_don_economy_ai_church_when = {
+vu_economy_ai_church_when = {
 	NOT = {
 		religious_unity = 0.5
 	}
 }
 
-vu_don_economy_ai_church_in = {
+vu_economy_ai_church_in = {
 	OR = {
 		base_tax = 10
 		trade_goods = gems
@@ -1002,7 +1058,7 @@ vu_don_economy_ai_church_in = {
 	}
 }
 
-vu_don_economy_ai_fortress_never_in = {
+vu_economy_ai_fortress_never_in = {
 	OR = {
 		any_neighbor_province = {
 			OR = {
@@ -1016,7 +1072,7 @@ vu_don_economy_ai_fortress_never_in = {
 	}
 }
 
-vu_don_economy_ai_fortress_avoid_in = {
+vu_economy_ai_fortress_avoid_in = {
 	any_province_in_state = {
 		OR = {
 			has_building = fort_15th
@@ -1027,7 +1083,7 @@ vu_don_economy_ai_fortress_avoid_in = {
 	}
 }
 
-vu_don_economy_ai_infrastructure_in = {
+vu_economy_ai_infrastructure_in = {
 	OR = {
 		development = 10
 		is_capital = yes
@@ -1038,7 +1094,7 @@ vu_don_economy_ai_infrastructure_in = {
 }
 
 ##############################
-## Don's Performance Update ##
+## VU's Performance Update ##
 ##############################
 #
 #Older also working version, swapped it for the new one as it's slightly more optimised
@@ -1064,7 +1120,7 @@ vu_don_economy_ai_infrastructure_in = {
 #}
 #
 #############################################################################################
-# Don't touch this, if this breaks the whole system's fucked -Don
+# VU't touch this, if this breaks the whole system's fucked
 #############################################################################################
 vu_triggered_modifier_trigger = {
 	if = {
@@ -1876,6 +1932,29 @@ vu_triggered_modifier_event_176_trigger = {
 					region = italy_region
 				}
 			}
+		}
+	}
+}
+
+########################################
+# VU French Nation Scripted Trigger    #
+# True for all VU French progression   #
+# tags, plus any French culture nation #
+# when FRA does not exist.             #
+########################################
+is_french_nation = {
+	OR = {
+		tag = FRA
+		tag = BFR
+		tag = FSE
+		tag = FSR
+		tag = NPF
+		tag = OFR
+		tag = RVF
+		tag = TFR
+		AND = {
+			culture_group = french
+			NOT = { exists = FRA }
 		}
 	}
 }

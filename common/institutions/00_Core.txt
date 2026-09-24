@@ -1,6 +1,6 @@
-#VU Marco Polo v1.37 update by SF, Prussia and DonBrom
+#VU Marco Polo v1.37 update by SF, Prussia and VU
 #Credits to Prussia for thinking up institutions as a replacement for technology levels.
-#Credits to DonBrom for adding in Prussia's idea and for re-writing the entries.
+#Credits to VU for adding in Prussia's idea and for re-writing the entries.
 # remember to add graphics for relevant ones when you add to this
 #
 # if a modifier is scaled, its multiplied with development in the province.
@@ -1471,7 +1471,7 @@ new_world_i = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = tooltip_vu_add_new_instituiton_details_al			#VU cleaner UI
-			is_in_capital_area = yes			#VU AddOn note. Don't like this because it blocks a few good alt history options, but leaving it because it also blocks some bad ones
+			is_in_capital_area = yes			#VU AddOn note. VU't like this because it blocks a few good alt history options, but leaving it because it also blocks some bad ones
 		}
 		#Only people who're actually colonising may spawn colonialism
 		owner = {
@@ -2471,9 +2471,11 @@ manufactories = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 				manufactories_origin = {
 					same_continent = PREV
@@ -2675,9 +2677,11 @@ manufactories = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 				manufactories_origin = {
 					NOT = {
@@ -3570,9 +3574,11 @@ industrialization = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 			}
 			custom_trigger_tooltip = {
@@ -3775,9 +3781,11 @@ industrialization = {
 					trade_goods = potato
 					trade_goods = maize
 					trade_goods = tomato
+					trade_goods = vegetables
 					trade_goods = champagne_bottle
 					trade_goods = llama
 					trade_goods = millet
+					trade_goods = oats
 				}
 				industrialization_origin = {
 					NOT = {

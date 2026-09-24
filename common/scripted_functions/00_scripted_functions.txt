@@ -66,29 +66,31 @@ can_release_colonial_nation = {
 }
 
 can_claim_defender_of_faith = {
-	condition = {
+	condition = { #By DM & VU
 		tooltip = "defender_of_faith_limits_tt"
 		potential = {
 			always = yes
 		}
 		allow = {
-			any_country = {
-				is_defender_of_faith = yes
-				religion = ROOT
-				ROOT = {
-					OR = {
-						has_won_war_against = {
-							who = PREV
-						}
-						army_size = PREV
-					}
-				}
-			}
-			army_size = 25
-			any_neighbor_country = {
-				NOT = {
-					religion = ROOT
-				}
+			religious_unity = 1.0  #Works - DM
+			army_size = 30         #Works - DM
+			stability = 2          #Works - DM
+			#OR = { 
+			#	theologian = 1
+			#	religious_representative = 1
+			#	inquisitor = 1
+			#	has_idea_group = religious_ideas    #Doesn't work - DM
+			#}
+			OR = {
+				fervor = 55                   #Calvinism
+				papal_influence = 55          #Catholicism
+				patriarch_authority = 0.55    #Orthodoxy
+				church_power = 55             #Protestants
+				piety = -55                   #Islam
+				karma = 30                    #Buddhism
+				num_of_active_blessings = 2   #Coptics
+				religion_group = dharmic      #Hinduism (VU't have specific religious mechanic - Don) 
+				#All these work - DM    
 			}
 		}
 	}
@@ -572,26 +574,30 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#Spanish Cultures
+					#AndalucianFROM = { primary_culture = aragonese } #Aragonese
 					FROM = {
 						primary_culture = andalucian
 					}
-					#AndalucianFROM = { primary_culture = aragonese } #Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -1857,30 +1863,34 @@ can_colonize_province = {
 					}
 					#Dixie
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -2499,49 +2509,55 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#British Cultures
+					#English
 					FROM = {
 						primary_culture = english
 					}
-					#English
+					#Northumbrian
 					FROM = {
 						primary_culture = northumbrian
 					}
-					#Northumbrian
+					#Scottish
 					FROM = {
 						primary_culture = scottish
 					}
-					#Scottish
+					#Lowland Scottish
 					FROM = {
 						primary_culture = celtic_lowland_scottish
 					}
+					#Highland Scottish
 					FROM = {
 						primary_culture = celtic_highland_scottish_culture
 					}
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -2599,84 +2615,88 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#French Cultures
+					#Angevin
 					FROM = {
 						primary_culture = angevin_culture
 					}
-					#Angevin
+					#Provençal
 					FROM = {
 						primary_culture = aquitaine
 					}
-					#Provençal
+					#Arpitan
 					FROM = {
 						primary_culture = arpitan
 					}
-					#Arpitan
+					#Auvergnat
 					FROM = {
 						primary_culture = auvergnat_culture
 					}
-					#Auvergnat
+					#Celtic Breton
 					FROM = {
 						primary_culture = celtic_breton_culture
 					}
-					#Celtic Breton
+					#Burgundian
 					FROM = {
 						primary_culture = burgundian
 					}
-					#Burgundian
+					#Francien
 					FROM = {
 						primary_culture = cosmopolitan_french
 					}
-					#Francien
 					#FROM = { primary_culture = gallo_culture } #Gallo #Hashed out by Prussia because Gallo culture had died out in France by 1444 and it has no tags for it. - SF
+					#Gascon
 					FROM = {
 						primary_culture = gascon
 					}
-					#Gascon
+					#Lorraine
 					FROM = {
 						primary_culture = lorraine_culture
 					}
-					#Lorraine
+					#Norman
 					FROM = {
 						primary_culture = normand
 					}
-					#Norman
+					#Occitain
 					FROM = {
 						primary_culture = occitain
 					}
-					#Occitain
+					#Picard
 					FROM = {
 						primary_culture = picard_culture
 					}
-					#Picard
+					#Poitevin
 					FROM = {
 						primary_culture = poitevin_culture
 					}
-					#Poitevin
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -3034,128 +3054,128 @@ can_colonize_province = {
 			NOT = {
 				OR = {
 					#Chinese Cultures
+					#Cantonese
 					FROM = {
 						primary_culture = cantonese
 					}
-					#Cantonese
+					#Zhili
 					FROM = {
 						primary_culture = chihan
 					}
-					#Zhili
+					#Min
 					FROM = {
 						primary_culture = chimin
 					}
-					#Min
+					#Gan
 					FROM = {
 						primary_culture = gan
 					}
-					#Gan
+					#Hakka
 					FROM = {
 						primary_culture = hakka
 					}
-					#Hakka
+					#Hubei
 					FROM = {
 						primary_culture = hubei
 					}
-					#Hubei
+					#Jianghuai
 					FROM = {
 						primary_culture = jianghuai
 					}
-					#Jianghuai
+					#Jin
 					FROM = {
 						primary_culture = jin
 					}
-					#Jin
+					#Shandong
 					FROM = {
 						primary_culture = shandong_culture
 					}
-					#Shandong
+					#Sichuanese
 					FROM = {
 						primary_culture = sichuanese
 					}
-					#Sichuanese
+					#Wu
 					FROM = {
 						primary_culture = wu
 					}
-					#Wu
+					#Xiang
 					FROM = {
 						primary_culture = xiang
 					}
-					#Xiang
+					#Xibei
 					FROM = {
 						primary_culture = xibei
 					}
-					#Xibei
+					#Zhongyuan
 					FROM = {
 						primary_culture = zhongyuan
 					}
-					#Zhongyuan
 					#Dutch Cultures
+					#Brabatian
 					FROM = {
 						primary_culture = brabantian
 					}
-					#Brabatian
+					#Hollander
 					FROM = {
 						primary_culture = dutch
 					}
-					#Hollander
+					#Nedersaksisch
 					FROM = {
 						primary_culture = dutch_saxon
 					}
-					#Nedersaksisch
+					#East Frisian
 					FROM = {
 						primary_culture = east_frisian
 					}
-					#East Frisian
-					FROM = {
-						primary_culture = frisian
-					}
 					#Frisian
 					FROM = {
 						primary_culture = frisian
-					}
-					#Frisian
-					FROM = {
-						primary_culture = guelders
 					}
 					#Guelderish
 					FROM = {
-						primary_culture = limburgish
+						primary_culture = guelders
 					}
 					#Limburgish
 					FROM = {
-						primary_culture = north_frisian
+						primary_culture = limburgish
 					}
 					#North Frisian
 					FROM = {
-						primary_culture = zeelandic
+						primary_culture = north_frisian
 					}
 					#Zeelander
+					FROM = {
+						primary_culture = zeelandic
+					}
 					#Spanish Cultures
+					#Andalucian
 					FROM = {
 						primary_culture = andalucian
 					}
-					#Andalucian
+					#Aragonese
 					FROM = {
 						primary_culture = aragonese
 					}
-					#Aragonese
+					#Castillian
 					FROM = {
 						primary_culture = castillian
 					}
-					#Castillian
+					#Catalan
 					FROM = {
 						primary_culture = catalan
 					}
-					#Catalan
+					#Celtic Galician
 					FROM = {
 						primary_culture = galician_celtic
 					}
-					#Celtic Galician
+					#Leonese
 					FROM = {
 						primary_culture = leonese
 					}
-					#Leonese
+					#Asturian
+					FROM = {
+						primary_culture = asturian
+					}
 				}
 			}
 			FROM = {
@@ -3416,200 +3436,200 @@ can_have_colonial_nations = {
 			always = no
 		}
 	}
-    condition = {
-        potential = {
-            OR = {
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_alaska
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_canada
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_eastern_america
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_louisiana
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_california
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_mexico
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_the_carribean
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_colombia
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_peru
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_la_plata
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_brazil
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_australia
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_cascadia
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_northwest_territories
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_hudson_bay
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_newfoundland
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_acadia
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_cuba
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_hispaniola
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_polynesia
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_cape
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_greenland
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_great_lakes
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_florida
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_mississippi
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_papua
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_solomons
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_vanuatu
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_new_caledonia
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_fiji
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_guyana
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_ecuador
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_venezuela
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_bolivia
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_chile
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_texas
-                }
-                has_disabled_colonial_nation_spawning = {
-                    is_province = yes
-                    who = FROM
-                    colonial_region = colonial_central_america
-                }
-            }
-        }
-        allow = {
-            always = no
-        }
-    }
+	condition = {
+		potential = {
+			OR = {
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_alaska
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_canada
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_eastern_america
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_louisiana
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_california
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_mexico
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_the_carribean
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_colombia
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_peru
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_la_plata
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_brazil
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_australia
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_cascadia
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_northwest_territories
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_hudson_bay
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_newfoundland
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_acadia
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_cuba
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_hispaniola
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_polynesia
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_cape
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_greenland
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_great_lakes
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_florida
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_mississippi
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_papua
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_solomons
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_vanuatu
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_new_caledonia
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_fiji
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_guyana
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_ecuador
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_venezuela
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_bolivia
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_chile
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_texas
+				}
+				has_disabled_colonial_nation_spawning = {
+					is_province = yes
+					who = FROM
+					colonial_region = colonial_central_america
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 ### Special functions

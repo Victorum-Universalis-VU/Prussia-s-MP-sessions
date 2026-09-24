@@ -11,6 +11,7 @@ vu_chinese_wind_principality = {}
 vu_chinese_water_principality = {}
 vu_chinese_mountain_principality = {}
 vu_chinese_earth_principality = {}
+vu_chinese_pacification_commission = {}
 #JAPANESE DAIMYO SUBJECTS
 daimyo_barony_vassal = {}
 daimyo_viscounty_vassal = {}
@@ -66,10 +67,10 @@ vu_chinese_heaven_principality = { #Aristocratic Principality Type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
-
 
     # Subject Interactions
     seize_court_resources = yes
@@ -119,11 +120,11 @@ vu_chinese_heaven_principality = { #Aristocratic Principality Type
         }
     }
     modifier_overlord = {
-        modifier = chinese_principality_subject
+        modifier = chinese_pacification_commission_subject
     }
 
-    overlord_opinion_modifier = is_principality
-    subject_opinion_modifier = is_principality
+    overlord_opinion_modifier = is_marquisate
+    subject_opinion_modifier = is_marquisate
 }
 
 vu_chinese_lake_principality = { #Religious Principality Type
@@ -153,6 +154,7 @@ vu_chinese_lake_principality = { #Religious Principality Type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -240,6 +242,7 @@ vu_chinese_fire_principality = { #Industrial Principality type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -327,6 +330,7 @@ vu_chinese_thunder_principality = { #Offensive Principality Type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -414,6 +418,7 @@ vu_chinese_wind_principality = { #Trade Principality Type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -501,6 +506,7 @@ vu_chinese_water_principality = { #Naval Principality Type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -588,6 +594,7 @@ vu_chinese_mountain_principality = { #Defensive Principality Type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -675,6 +682,7 @@ vu_chinese_earth_principality = { #Agricultural Principality Type
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -709,6 +717,93 @@ vu_chinese_earth_principality = { #Agricultural Principality Type
 
     modifier_subject = {
         modifier = chinese_earth_principality_bonus
+    }
+    modifier_subject = {
+        modifier = subject_tax_modifier
+        trigger = {
+            overlord = {
+                has_government_attribute = subject_tax_modifier_25
+            }
+        }
+    }
+    modifier_subject = {
+        modifier = same_religion_subject_bonus_mod
+        trigger = {
+            overlord = {
+                has_government_attribute = same_religion_subject_bonus
+                religion = PREV
+            }
+        }
+    }
+    modifier_overlord = {
+        modifier = chinese_principality_subject
+    }
+
+    overlord_opinion_modifier = is_principality
+    subject_opinion_modifier = is_principality
+}
+
+vu_chinese_pacification_commission = { #Commandery
+    copy_from = march
+
+    # Graphics:
+    sprite = GFX_icon_vu_chinese_pacification_commission #Was GFX_icon_core_eyalet
+    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_vu_chinese_pacification_commission #Was GFX_icon_diplomacy_lead_core_eyalet
+    diplomacy_subject_sprite = GFX_icon_diplomacy_am_vu_chinese_pacification_commission #Was GFX_icon_diplomacy_am_core_eyalet
+
+    # Properties:
+    can_send_tribute = yes
+    takes_diplo_slot = no
+    gets_help_with_rebels = no
+    separatists_become_subjects = yes
+    forms_trade_companies = no
+    can_concentrate_development = no
+    liberty_desire_development_ratio = 0.05
+    trust_on_start = 0
+    base_liberty_desire = 20.0
+    forcelimit_to_overlord = 0.00
+    military_focus = 1.2
+    pays_overlord = 0.25
+    can_be_integrated = no #Changed to no for now so Sphinx can decide how to handle integration - Prussia
+    can_be_annexed = no
+    joins_overlords_wars = no
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
+    can_use_claims = yes
+
+    relative_power_class = 1
+    should_quit_wars_on_activation = yes
+
+
+    # Subject Interactions
+    seize_court_resources = yes
+    request_extra_levies = yes
+    grant_administrative_autonomy = yes
+    #(disable)
+    scutage = yes
+    grant_core_claim = yes
+    grant_province = yes
+    place_relative_on_throne = no #Would already be a Prince of the Dynasty anyway. - Prussia
+    enforce_religion = no #Would be made their overlord's religion on creation. - Prussia
+    enforce_culture = no
+    seize_territory = no
+    #(enable)
+    contribute_to_capital = no
+    return_land = yes
+    conscript_general = yes
+
+    # Modifiers
+    modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+
+    restoration_cb = cb_disloyal_marquisate #Up to Sphinx what cb they would use - Prussia
+
+    # Subject Interactions:
+
+    # Modifiers:
+    modifier_subject = clear # Use this to clear after copy_from.
+
+    modifier_subject = {
+        modifier = chinese_pacification_commission_bonus
     }
     modifier_subject = {
         modifier = subject_tax_modifier
@@ -1399,6 +1494,7 @@ copy_from = vassal
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -1486,6 +1582,7 @@ copy_from = vu_hindu_brahma_prince
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -1573,6 +1670,7 @@ copy_from = vu_hindu_brahma_prince
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -1660,6 +1758,7 @@ copy_from = vu_hindu_brahma_prince
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -1747,6 +1846,7 @@ copy_from = vu_hindu_brahma_prince
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
@@ -1834,6 +1934,7 @@ copy_from = vu_hindu_brahma_prince
     can_be_co_belligerented = yes
     must_accept_cta_from_overlord = yes
     can_use_claims = yes
+    extend_trading_range = yes
 
     relative_power_class = 1
     should_quit_wars_on_activation = yes
