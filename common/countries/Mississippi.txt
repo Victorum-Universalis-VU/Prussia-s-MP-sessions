@@ -1,4 +1,4 @@
-#M15 - Mississippi
+#M1P - Mississippi
 
 graphical_culture = westerngfx
 

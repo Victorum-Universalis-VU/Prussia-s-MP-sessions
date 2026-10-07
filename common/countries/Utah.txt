@@ -1,4 +1,4 @@
-#U74 - Utah
+#U7H - Utah
 
 graphical_culture = westerngfx
 

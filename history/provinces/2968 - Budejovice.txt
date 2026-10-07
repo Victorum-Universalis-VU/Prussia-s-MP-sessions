@@ -18,7 +18,7 @@ is_city = yes
 fort_15th = yes
 
 #Claimants
-add_core = R05
+add_core = R0B
 
 #Commerce
 center_of_trade = 1

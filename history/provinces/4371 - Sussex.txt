@@ -19,9 +19,9 @@ seat_in_parliament = yes
 
 #History by SF
 1215.06.15 = {
-	owner = B03
-	controller = B03
-	add_core = B03
+	owner = B0C
+	controller = B0C
+	add_core = B0C
 }
 1444.11.11 = {
 	owner = ENG

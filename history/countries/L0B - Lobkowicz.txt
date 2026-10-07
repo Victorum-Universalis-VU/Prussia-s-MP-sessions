@@ -1,4 +1,4 @@
-#L08 - Lobkowicz
+#L0B - Lobkowicz
 government = monarchy
 add_government_reform = unlocked_eue_county_reform
 government_rank = 4 #County

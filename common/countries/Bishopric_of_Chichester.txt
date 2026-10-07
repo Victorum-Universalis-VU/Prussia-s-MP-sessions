@@ -1,4 +1,4 @@
-#B03 - Bishopric_of_Chichester
+#B0C - Bishopric_of_Chichester
 graphical_culture = westerngfx
 
 color = { 0  0  128 }

@@ -1,4 +1,4 @@
-#R01 - Rhode_Island
+#R0I - Rhode_Island
 
 graphical_culture = westerngfx
 

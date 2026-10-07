@@ -1,4 +1,4 @@
-#W15 - Wisconsin
+#W1S - Wisconsin
 
 graphical_culture = westerngfx
 

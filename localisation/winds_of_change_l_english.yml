@@ -151,7 +151,7 @@
  feo_upgrade_prime_herding_rights_mod: "Military Supplies"
  desc_feo_upgrade_prime_herding_rights_mod: "This province contributes to the military of its overlord through the creation of army supplies."
  FEO_BUFF_RUSSIAN_ARISTOCRACY_IDEA: "The §YRussian Aristocracy§! Idea will now give us an extra §G15.0%§! Improve Relations Modifier"
- FEO_IF_COMPLETED_WITH_15_PROVINCES: "If the mission was completed by owning at least §M15§! provinces in §MRussia§!:"
+ FEO_IF_COMPLETED_WITH_15_PROVINCES: "If the mission was completed by owning at least §M1P§! provinces in §MRussia§!:"
  FEO_LOWER_RUSSIAN_PROVINCES_AUTONOMY_AND_ACCEPT_RUSSIAN_CULTURE: "Every owned province in §YRussia§! will lose §G20%§! Autonomy and §G20§! Years of Separatism\n\nWe will accept the entire §YEast Slavic§! Culture Group without taking a slot"
  FEO_GRANT_NOBILITY_OFFICER_CORP_BUFF: "The §YNobility in Officer Corps§! Estate Privilege will now grant §G-10.0%§! Regiment Cost"
  FEO_UNLOCK_RUSSIAN_MERCENARY_GUARD: "We will unlock the Tier 5 §YRussian Mercenary Guard§! Government Reform, which will allow us to recruit §YStreltsy§!"

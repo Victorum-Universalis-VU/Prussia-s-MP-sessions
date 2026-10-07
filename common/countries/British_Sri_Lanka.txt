@@ -1,4 +1,4 @@
-#S47 - British Sri Lanka (Ceylon)
+#S4L - British Sri Lanka (Ceylon)
 
 graphical_culture = westerngfx
 

@@ -1,4 +1,4 @@
-#R05 - Rosenberg
+#R0B - Rosenberg
 
 graphical_culture = westerngfx
 

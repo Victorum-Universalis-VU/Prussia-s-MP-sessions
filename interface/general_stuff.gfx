@@ -897,8 +897,8 @@ spriteTypes = {
         name = "GFX_technologyView_progressbar"
         color = { 0.0 0.5 0.0 }
         colortwo = { 1.0 0.0 0.0 }
-        textureFile1 = "gfx\\interface\\technologyView_progressbar_w151_h10_green.dds"
-        textureFile2 = "gfx\\interface\\technologyView_progressbar_w151_h10_black.dds"
+        textureFile1 = "gfx\\interface\\technologyView_progressbar_W1S1_h10_green.dds"
+        textureFile2 = "gfx\\interface\\technologyView_progressbar_W1S1_h10_black.dds"
         size = { x = 151 y = 11 }
         effectFile = "gfx/FX/progress.lua"
     }

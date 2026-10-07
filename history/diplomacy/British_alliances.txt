@@ -111,7 +111,7 @@ dependency = {
 dependency = {
     subject_type = "christian_bishopric"
     first = ENG
-    second = B03
+    second = B0C
     start_date = 1215.06.15 #Was 1291.1.1
     end_date = 1444.1.1
 }

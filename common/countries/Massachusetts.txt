@@ -1,4 +1,4 @@
-#M42 - Massachusetts
+#M5T - Massachusetts
 
 graphical_culture = westerngfx
 

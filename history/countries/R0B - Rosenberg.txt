@@ -1,4 +1,4 @@
-#B05 - Boskovicove
+#R0B - Rosenberg
 government = monarchy
 add_government_reform = unlocked_eue_county_reform
 government_rank = 4 #County
@@ -7,4 +7,4 @@ technology_group = bohemian_tech_group
 unit_type = western
 primary_culture = moravian
 religion = catholic
-capital = 4237 #Boskovice
+capital = 2968 #Český Krumlov

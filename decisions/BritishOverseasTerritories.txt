@@ -573,10 +573,10 @@ country_decisions = {
 		}
 		effect = {
 			south_lanka_area = {
-				add_core = S47
+				add_core = S4L
 			}
-			release = S47
-			S47 = {
+			release = S4L
+			S4L = {
 				change_religion = ROOT
 				change_government = monarchy
 				set_government_rank = 7
@@ -591,7 +591,7 @@ country_decisions = {
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
-				who = S47
+				who = S4L
 			}
 		}
 	}
