@@ -1440,7 +1440,6 @@ vu_rep_commonwealth_reform = {
     allow_normal_conversion = no
     lock_level_when_selected = yes
     fixed_rank = 8
-    maintain_dynasty = yes
     potential = {
         OR = {
             is_republican_subject_type = yes

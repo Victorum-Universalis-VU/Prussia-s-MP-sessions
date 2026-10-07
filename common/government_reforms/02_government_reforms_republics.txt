@@ -9164,3 +9164,30 @@ vu_generic_dominion = {
         factor = 1
     }
 }
+
+#Governor General for Dominions
+self_governing_dominion_vu_government = {
+    icon = "self_governing_dominion_vu_government"
+    valid_for_nation_designer = no
+    lock_level_when_selected = yes
+    allow_normal_conversion = no
+    fixed_rank = 7
+    potential = {
+        is_subject_of_type = self_governing_dominion_vu
+    }
+    #legacy_equivalent = colonial_government_legacy
+    modifiers = {
+        build_cost = -0.1
+        development_cost = -0.1
+        embracement_cost = -0.1
+        state_maintenance_modifier = -0.25
+        global_trade_goods_size_modifier = 0.1
+        republican_tradition = 0.5
+    }
+    custom_attributes = {
+        locked_government_type = yes
+    }
+    ai = {
+        factor = 1		#Make sure this always gets picked if it gets de-selected by the ai for some reason - Prussia
+    }
+}

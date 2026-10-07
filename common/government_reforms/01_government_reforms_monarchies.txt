@@ -3955,7 +3955,7 @@ al_andalusia_government = {
             has_dlc = "Cradle of Civilization"
         }
         custom_attributes = {
-            allow_piety_switch_decision = yes			#Enables a decision which gives 1 stabhit, but turns your piety 180°
+            allow_piety_switch_decision = yes			#Enables a decision which gives 1 stabhit, but turns your piety 180ï¿½
         }
     }
 }
@@ -13301,7 +13301,7 @@ french_kingdom_reform = {
             change_tag = FRA
             swap_non_generic_missions = yes
         }
-        # Restore the Bourbon court — Louis and his queen take the throne
+        # Restore the Bourbon court ï¿½ Louis and his queen take the throne
         hidden_effect = {
             kill_ruler = yes
             define_ruler = {
@@ -13572,7 +13572,7 @@ french_monarchic_restoration_reform = {
             change_tag = BFR
             swap_non_generic_missions = yes
         }
-        # The Bourbon dynasty is restored — Louis returns to the throne
+        # The Bourbon dynasty is restored ï¿½ Louis returns to the throne
         hidden_effect = {
             kill_ruler = yes
             define_ruler = {
@@ -13752,7 +13752,7 @@ french_first_empire_restoration_reform = {
             change_tag = NPF
             swap_non_generic_missions = yes
         }
-        # Napoleon returns from Elba — the Hundred Days begin
+        # Napoleon returns from Elba ï¿½ the Hundred Days begin
         hidden_effect = {
             kill_ruler = yes
             define_ruler = {
@@ -13765,7 +13765,7 @@ french_first_empire_restoration_reform = {
                 claim = 90
             }
         }
-        # The Emperor rides once more — spawn him as a field commander
+        # The Emperor rides once more ï¿½ spawn him as a field commander
         define_general = {
             name = "Napoleon Bonaparte"
             fire = 6
@@ -16544,31 +16544,6 @@ mesoamerican_lordship_reform = {
     }
     custom_attributes = {
         locked_government_type = yes
-    }
-}
-
-#Governor General for Dominions
-self_governing_dominion_vu_government = {
-    icon = "self_governing_dominion_vu_government"
-    valid_for_nation_designer = no
-    lock_level_when_selected = yes
-    allow_normal_conversion = no
-    fixed_rank = 7
-    potential = {
-        is_subject_of_type = self_governing_dominion_vu
-    }
-    #legacy_equivalent = colonial_government_legacy
-    modifiers = {
-        build_cost = -0.1
-        development_cost = -0.1
-        embracement_cost = -0.1
-        state_maintenance_modifier = -0.25
-    }
-    custom_attributes = {
-        locked_government_type = yes
-    }
-    ai = {
-        factor = 1		#Make sure this always gets picked if it gets de-selected by the ai for some reason - Prussia
     }
 }
 

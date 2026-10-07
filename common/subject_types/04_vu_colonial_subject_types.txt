@@ -31,7 +31,7 @@ viceroyalty_vu = {
     liberty_desire_development_ratio = 0.1
     cities_required_for_bonuses = 10
     military_focus = 0.75
-    relative_power_class = 2
+    relative_power_class = 1
     restoration_cb = cb_restore_personal_union
     # Subject Interactions:
     placate_rulers = no
@@ -113,26 +113,6 @@ canadian_province_subject_vu = {
     relative_power_class = 1
     diplomacy_view_class = 1
     should_quit_wars_on_activation = no
-    can_fight = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = canadian_province_subject_vu
-    }
-    can_rival = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = canadian_province_subject_vu
-    }
-    can_ally = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = canadian_province_subject_vu
-    }
-    can_marry = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = canadian_province_subject_vu
-    }
     # Subject Interactions:
     # (continuous)
     scutage = yes
@@ -222,56 +202,39 @@ commonwealth_subject_vu = {
     can_concentrate_development = no
     can_have_great_projects_moved_by_overlord = no
     can_be_annexed = no
-    base_liberty_desire = -10
-    liberty_desire_negative_prestige = 0.25
-    liberty_desire_development_ratio = 0.33
+    can_use_claims = yes
+    base_liberty_desire = -75
+    liberty_desire_development_ratio = 0.0
     pays_overlord = 1
-    forcelimit_to_overlord = 0
+    forcelimit_to_overlord = 0.25
     relative_power_class = 1
     diplomacy_view_class = 1
     should_quit_wars_on_activation = no
-    can_fight = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = commonwealth_subject_vu
-    }
-    can_rival = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = commonwealth_subject_vu
-    }
-    can_ally = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = commonwealth_subject_vu
-    }
-    can_marry = {
-        independent_nations = yes
-        other_overlord = all
-        same_overlord = commonwealth_subject_vu
-    }
     # Subject Interactions:
     # (continuous)
     scutage = yes
     divert_trade = yes
     # (immediate)
-    placate_rulers = no
-    enforce_religion = no
+    placate_rulers = yes
+    enforce_religion = yes
     enforce_culture = yes
     siphon_income = yes
     grant_core_claim = no
+    grant_province = yes
     takeondebt = yes
     bestow_gifts = yes
     block_settlement_growth = no
     allow_settlement_growth = no
+    seize_territory = yes
+    seize_court_resources = yes
     # Modifiers:
     modifier_subject = clear
     modifier_subject = {
-        modifier = commonwealth_subject_modifier
+        modifier = vu_commonwealth_subject_modifier
     }
     modifier_overlord = clear
     modifier_overlord = {
-        modifier = commonwealth_subject_overlord_modifier
+        modifier = vu_commonwealth_subject_overlord_modifier
     }
     modifier_overlord = {
         trigger = {
@@ -324,8 +287,8 @@ overseas_territory = {
     takes_diplo_slot = no
     uses_military_focus = no
     overlord_protects_external = yes
-    counts_for_borders = no
-    can_use_claims = no
+    counts_for_borders = yes
+    can_use_claims = yes
     share_rebel_popup = no
     allows_taking_land_without_independence = yes
     can_transfer_in_peace = no
@@ -338,27 +301,11 @@ overseas_territory = {
     can_be_annexed = no
     cities_required_for_bonuses = 0	#25
     trust_on_start = 5
-    liberty_desire_development_ratio = 0.1
+    liberty_desire_development_ratio = 0.0
     military_focus = 0.5
-    relative_power_class = 0
+    relative_power_class = 1
     diplomacy_view_class = 1
     should_quit_wars_on_activation = no
-    can_fight = {
-        independent_nations = yes
-        other_overlord = all
-    }
-    can_rival = {
-        independent_nations = yes
-        other_overlord = all
-    }
-    can_ally = {
-        same_overlord = overseas_territory
-    }
-    can_marry = {
-        independent_nations = yes
-        same_overlord = all
-        other_overlord = all
-    }
     # Subject Interactions:
     # (continuous)
     embargo_rivals = no
@@ -522,6 +469,7 @@ self_governing_dominion_vu = {
     # Properties:
     base_liberty_desire = -25
     pays_overlord = 1.5
+    liberty_desire_development_ratio = 0.0
     max_government_rank = 7
     joins_overlords_wars = no
     can_be_co_belligerented = yes
@@ -539,12 +487,15 @@ self_governing_dominion_vu = {
     replace_governor = no
     block_settlement_growth = no
     allow_settlement_growth = no
-    press_sailors = no
+    press_sailors = yes
+    request_extra_levies = yes
     start_colonial_war = no
     enforce_culture = yes #Although it doesn't make much sense, it functions as a workaround to colonial nations switching to native cultures
     enforce_religion = yes #Added so that you can convert them to both your culture and religion - Prussia
-    transfer_trade_power = no
+    transfer_trade_power = yes
     grant_province = yes
+    seize_territory = yes
+    seize_court_resources = yes
     is_potential_overlord = {
         is_subject = no
     }

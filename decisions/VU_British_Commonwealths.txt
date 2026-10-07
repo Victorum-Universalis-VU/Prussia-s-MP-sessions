@@ -1,0 +1,65 @@
+#British Commonwealth Decisions
+
+country_decisions = {
+	#Canada
+	vu_confederate_canadian_commonwealth = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			AND = {
+				exists = UC4
+				exists = LC4
+				exists = N3R
+				exists = QU3
+				exists = NV5
+				exists = NW3
+				exists = RL4
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			UC4 = {
+				change_tag = C4N
+			}
+			C4N = {
+				inherit = LC4
+				inherit = N3R
+				inherit = QU3
+				inherit = NV5
+				inherit = NW3
+				inherit = RL4
+				set_government_rank = 8
+				#add_government_reform = vu_rep_commonwealth_reform #Need to create a VU version of this for the British Commonwealth of Nations subjects - Prussia
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 1360
+				add_manpower = 28
+				add_sailors = 5000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = commonwealth_subject_vu
+				who = C4N
+			}
+		}
+	}
+
+	#United Commonwealths
+
+	#Central America
+
+	#South Africa
+
+	#India
+
+	#Australia
+
+	#New Zealand
+}
