@@ -211,7 +211,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			has_institution = nationalism_institution
+			#has_institution = nationalism_institution
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -719,10 +719,10 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 40
-					OR = {
-						has_institution = nationalism_institution
-						has_idea_group = nationalism_ideas
-					}
+					#OR = {
+					#	has_institution = nationalism_institution
+					#	has_idea_group = nationalism_ideas
+					#}
 				}
 			}
 			culture_group = germanic
@@ -773,10 +773,10 @@ country_decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				has_institution = nationalism_institution
-				has_idea_group = nationalism_ideas
-			}
+			#OR = {
+			#	has_institution = nationalism_institution
+			#	has_idea_group = nationalism_ideas
+			#}
 			NOT = {
 				hre_size = 1
 			}
@@ -939,10 +939,10 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 40
-					OR = {
-						has_institution = nationalism_institution
-						has_idea_group = nationalism_ideas
-					}
+					#OR = {
+					#	has_institution = nationalism_institution
+					#	has_idea_group = nationalism_ideas
+					#}
 				}
 			}
 			culture_group = germanic
@@ -995,10 +995,10 @@ country_decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				has_institution = nationalism_institution
-				has_idea_group = nationalism_ideas
-			}
+			#OR = {
+			#	has_institution = nationalism_institution
+			#	has_idea_group = nationalism_ideas
+			#}
 			NOT = {
 				hre_size = 1
 			}
@@ -4747,10 +4747,10 @@ country_decisions = {
 				}
 				#3 (asturias) + 10
 			}
-			OR = {
-				has_institution = nationalism_institution
-				has_idea_group = nationalism_ideas
-			}
+			#OR = {
+			#	has_institution = nationalism_institution
+			#	has_idea_group = nationalism_ideas
+			#}
 			is_subject = no
 			is_nomad = no
 			stability = 3
@@ -4924,10 +4924,10 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			is_emperor = no
-			OR = {
-				has_institution = nationalism_institution
-				has_idea_group = nationalism_ideas
-			}
+			#OR = {
+			#	has_institution = nationalism_institution
+			#	has_idea_group = nationalism_ideas
+			#}
 			owns_core_province = 266
 			owns_core_province = 264
 			owns_core_province = 257
@@ -5063,10 +5063,10 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			is_emperor = no
-			OR = {
-				has_institution = nationalism_institution
-				has_idea_group = nationalism_ideas
-			}
+			#OR = {
+			#	has_institution = nationalism_institution
+			#	has_idea_group = nationalism_ideas
+			#}
 			owns_core_province = 630
 			owns_core_province = 622
 			owns_core_province = 636

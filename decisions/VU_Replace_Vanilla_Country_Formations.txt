@@ -1104,7 +1104,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = global_trade
+            #has_institution = global_trade
             NOT = {
                 exists = GBR
             }
@@ -1264,7 +1264,7 @@ country_decisions = {
             has_country_flag = vu_can_form_gbr
         }
         allow = {
-            has_institution = global_trade
+            #has_institution = global_trade
             stability = 2
             prestige = 50
         }
@@ -4096,7 +4096,7 @@ country_decisions = {
         }
         provinces_to_highlight = {
             OR = {
-                province_id = 41				# Königsberg
+                province_id = 41				# Kï¿½nigsberg
                 AND = {
                     province_id = 43					# Danzig
                     ROOT = {
@@ -4127,12 +4127,12 @@ country_decisions = {
             NOT = {
                 exists = PRU
             }
-            has_institution = global_trade #VU Marco Polo re-edit by SF
+            #has_institution = global_trade #VU Marco Polo re-edit by SF
             OR = {
                 religion = protestant
                 religion = reformed    #Only left this here based on the fact that most of the HRE electors are Calvinist. - SF
             }
-            owns_core_province = 41			# Königsberg
+            owns_core_province = 41			# Kï¿½nigsberg
             OR = {
                 owns_core_province = 43				# Danzig
                 owns_core_province = 2995				# Stolp
@@ -4324,7 +4324,7 @@ country_decisions = {
         }
         provinces_to_highlight = {
             OR = {
-                province_id = 41				# Königsberg
+                province_id = 41				# Kï¿½nigsberg
                 AND = {
                     province_id = 43					# Danzig
                     ROOT = {
@@ -4358,8 +4358,8 @@ country_decisions = {
             is_nomad = no
             is_free_or_tributary_trigger = yes
             is_at_war = no
-            has_institution = renaissance
-            owns_core_province = 41			# Königsberg
+            #has_institution = renaissance
+            owns_core_province = 41			# Kï¿½nigsberg
             OR = {
                 owns_core_province = 43				# Danzig
                 owns_core_province = 2995				# Stolp
@@ -4519,7 +4519,7 @@ country_decisions = {
             NOT = {
                 tag = TEU
             }
-            owns_core_province = 41			# Königsberg
+            owns_core_province = 41			# Kï¿½nigsberg
             num_of_cities = 12			#If not one of the normal candidates, needs 12 provinces plus Koenigsberg to see
         }
         color = {
@@ -4529,7 +4529,7 @@ country_decisions = {
         }
         provinces_to_highlight = {
             OR = {
-                province_id = 41				# Königsberg
+                province_id = 41				# Kï¿½nigsberg
                 #VU - Hashed out in v1.36.2.*. By San Felipe
                 #owns_core_province = 42		# Warmia
                 province_id = 43				# Danzig
@@ -4565,7 +4565,7 @@ country_decisions = {
             NOT = {
                 exists = PRU
             }
-            has_institution = renaissance
+            #has_institution = renaissance
             is_free_or_tributary_trigger = yes
             is_nomad = no
             is_at_war = no
@@ -4574,7 +4574,7 @@ country_decisions = {
                 religion = reformed
                 religion = hussite
             }
-            owns_core_province = 41			# Königsberg
+            owns_core_province = 41			# Kï¿½nigsberg
             owns_core_province = 42			# Warmia
             owns_core_province = 43			# Danzig
             owns_core_province = 2995			# Stolp
@@ -5512,7 +5512,7 @@ country_decisions = {
             }
             is_nomad = no
             is_free_or_tributary_trigger = yes
-            has_institution = new_world_i
+            #has_institution = new_world_i
             owns_core_province = 208			# Leon
             owns_core_province = 210			# Navarra
             owns_core_province = 214			# Zaragoza
@@ -5665,7 +5665,7 @@ country_decisions = {
                 }
                 legitimacy = 100
             }
-            has_institution = new_world_i
+            #has_institution = new_world_i
             owns_or_vassal_of = 208			# Leon
             owns_or_vassal_of = 210			# Navarra
             owns_or_vassal_of = 214			# Zaragoza
@@ -7259,7 +7259,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -7947,10 +7947,10 @@ country_decisions = {
             }
         }
         allow = {
-            OR = {
-                has_idea_group = nationalism_ideas
-                has_institution = nationalism_institution
-            }
+            #OR = {
+            #    has_idea_group = nationalism_ideas
+            #    has_institution = nationalism_institution
+            #}
             NOT = {
                 exists = VIN
             }
@@ -8307,7 +8307,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -8655,10 +8655,10 @@ country_decisions = {
             }
         }
         allow = {
-            OR = {
-                has_idea_group = nationalism_ideas
-                has_institution = nationalism_institution
-            }
+            #OR = {
+            #    has_idea_group = nationalism_ideas
+            #    has_institution = nationalism_institution
+            #}
             NOT = {
                 exists = SIA
             }
@@ -9736,7 +9736,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -9877,10 +9877,10 @@ country_decisions = {
             }
         }
         allow = {
-            OR = {
-                has_idea_group = nationalism_ideas
-                has_institution = nationalism_institution
-            }
+            #OR = {
+            #    has_idea_group = nationalism_ideas
+            #    has_institution = nationalism_institution
+            #}
             NOT = {
                 exists = BRM
             }
@@ -10049,7 +10049,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -10208,7 +10208,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -10375,7 +10375,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -10509,7 +10509,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = renaissance
+            #has_institution = renaissance
             is_nomad = no
             is_at_war = no
             OR = {
@@ -10635,7 +10635,7 @@ country_decisions = {
             50
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -10798,7 +10798,7 @@ country_decisions = {
         }
         allow = {
             capital = 361			# Cairo
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_nomad = no
             is_at_war = no
@@ -11219,7 +11219,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             capital_scope = {
@@ -13132,7 +13132,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = renaissance
+            #has_institution = renaissance
             is_nomad = no
             is_at_war = no
             OR = {
@@ -13276,7 +13276,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = renaissance
+            #has_institution = renaissance
             is_nomad = no
             is_at_war = no
             OR = {
@@ -14276,7 +14276,7 @@ country_decisions = {
         }
         provinces_to_highlight = {
             OR = {
-                province_id = 842				#Petén
+                province_id = 842				#Petï¿½n
                 province_id = 846				#Sotuta
                 province_id = 2633				#Mani
                 province_id = 2652				#Ecab
@@ -14307,7 +14307,7 @@ country_decisions = {
             else = {
                 has_institution = feudalism
             }
-            owns_core_province = 842			#Petén
+            owns_core_province = 842			#Petï¿½n
             owns_core_province = 846			#Sotuta
             owns_core_province = 2633			#Mani
             owns_core_province = 2652			#Ecab
@@ -16080,7 +16080,7 @@ country_decisions = {
             NOT = {
                 exists = RUS
             }
-            has_institution = new_world_i
+            #has_institution = new_world_i
             NOT = {
                 has_reform = states_general_reform
             }
@@ -16576,7 +16576,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = renaissance
+            #has_institution = renaissance
             is_free_or_tributary_trigger = yes
             is_nomad = no
             is_at_war = no
@@ -16742,10 +16742,10 @@ country_decisions = {
             }
         }
         allow = {
-            OR = {
-                has_institution = nationalism_institution
-                has_idea_group = nationalism_ideas
-            }
+            #OR = {
+            #    has_institution = nationalism_institution
+            #    has_idea_group = nationalism_ideas
+            #}
             is_free_or_tributary_trigger = yes
             is_nomad = no
             is_at_war = no
@@ -17264,7 +17264,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_at_war = no
             NOT = {
@@ -17658,7 +17658,7 @@ country_decisions = {
                     liberty_desire = 25
                 }
             }
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_subject = no
             is_nomad = no
             stability = 1
@@ -17896,7 +17896,7 @@ country_decisions = {
                 }
             }
             #Keep this number the same as in potential. Original 14+10
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_subject = no
             is_nomad = no
             stability = 3
@@ -18135,7 +18135,7 @@ country_decisions = {
             }
         }
         allow = {
-            has_institution = new_world_i
+            #has_institution = new_world_i
             is_free_or_tributary_trigger = yes
             is_nomad = no
             stability = 3
@@ -18428,10 +18428,10 @@ country_decisions = {
             }
         }
         allow = {
-            OR = {
-                has_idea_group = nationalism_ideas
-                has_institution = nationalism_institution
-            }
+            #OR = {
+            #    has_idea_group = nationalism_ideas
+            #    has_institution = nationalism_institution
+            #}
             is_free_or_tributary_trigger = yes
             is_nomad = no
             is_at_war = no
