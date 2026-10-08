@@ -41,9 +41,6 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
-					add_permanent_claim = B3R
-				}
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
@@ -77,7 +74,7 @@ country_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			bermuda_area = {
+			lucayan_area = {
 				add_core = B4H
 			}
 			release = B4H
@@ -93,9 +90,6 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
-					add_permanent_claim = B4H
-				}
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
@@ -145,9 +139,6 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
-					add_permanent_claim = J4M
-				}
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
@@ -197,9 +188,6 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
-					add_permanent_claim = L3W
-				}
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
@@ -248,9 +236,6 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
-					add_permanent_claim = W1N
-				}
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
@@ -300,7 +285,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				canada_region = {
 					add_permanent_claim = N3W
 				}
 			}
@@ -352,7 +337,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				canada_region = {
 					add_permanent_claim = QU3
 				}
 			}
@@ -404,7 +389,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				canada_region = {
 					add_permanent_claim = UC4
 				}
 			}
@@ -456,7 +441,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				canada_region = {
 					add_permanent_claim = LC4
 				}
 			}
@@ -508,7 +493,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				canada_region = {
 					add_permanent_claim = N3R
 				}
 			}
@@ -560,7 +545,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				canada_region = {
 					add_permanent_claim = NV5
 				}
 			}
@@ -612,7 +597,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				hudson_bay_region = {
 					add_permanent_claim = RL4
 				}
 			}
@@ -663,7 +648,7 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
-				burma_region = {
+				northwest_territories_region = {
 					add_permanent_claim = NW3
 				}
 			}
@@ -673,7 +658,631 @@ country_decisions = {
 			}
 		}
 	}
+
+	vu_dominion_of_british_columbia = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			lower_fraser_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = lower_fraser_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			lower_fraser_area = {
+				add_core = BC0
+			}
+			release = BC0
+			BC0 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				cascadia_region = {
+					add_permanent_claim = BC0
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BC0
+			}
+		}
+	}
+
+	vu_dominion_of_guyana = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			guyana_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = guyana_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			guyana_area = {
+				add_core = BG4
+			}
+			release = BG4
+			BG4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				colombia_region = {
+					add_permanent_claim = BG4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BG4
+			}
+		}
+	}
+
+	### AFRICA ###
+
+	#Cape Colony
+	vu_dominion_of_cape_colony = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			cape_of_good_hope_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = cape_of_good_hope_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			cape_of_good_hope_area = {
+				add_core = C4P
+			}
+			release = C4P
+			C4P = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				south_africa_region = {
+					add_permanent_claim = C4P
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = C4P
+			}
+		}
+	}
+
+	#Natal
+	vu_dominion_of_natal = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			vu_natal_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = vu_natal_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			vu_natal_area = {
+				add_core = N4T
+			}
+			release = N4T
+			N4T = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				south_africa_region = {
+					add_permanent_claim = N4T
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = N4T
+			}
+		}
+	}
+
+	#Orange Free State
+	vu_dominion_of_orange_free_state = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			highveld_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = highveld_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			highveld_area = {
+				add_core = OR6
+			}
+			release = OR6
+			OR6 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				south_africa_region = {
+					add_permanent_claim = OR6
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = OR6
+			}
+		}
+	}
+
+	#Transvaal
+	vu_dominion_of_transvaal = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			transvaal_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = transvaal_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			transvaal_area = {
+				add_core = TR4
+			}
+			release = TR4
+			TR4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				south_africa_region = {
+					add_permanent_claim = TR4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = TR4
+			}
+		}
+	}
+
+	### ASIA ###
+
+	#Queensland
+	vu_dominion_of_queensland = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			northern_australia_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = northern_australia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			northern_australia_area = {
+				add_core = BQ3
+			}
+			release = BQ3
+			BQ3 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				australia_region = {
+					add_permanent_claim = BQ3
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BQ3
+			}
+		}
+	}
+
+	vu_dominion_of_south_australia = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			murray_river_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = murray_river_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			murray_river_area = {
+				add_core = BS4
+			}
+			release = BS4
+			BS4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				australia_region = {
+					add_permanent_claim = BS4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BS4
+			}
+		}
+	}
+
+	vu_dominion_of_tasmania = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			tasmania_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = tasmania_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			tasmania_area = {
+				add_core = BT5
+			}
+			release = BT5
+			BT5 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				australia_region = {
+					add_permanent_claim = BT5
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BT5
+			}
+		}
+	}
+
+	vu_dominion_of_victoria = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			southern_australia_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = southern_australia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			southern_australia_area = {
+				add_core = BV1
+			}
+			release = BV1
+			BV1 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				australia_region = {
+					add_permanent_claim = BV1
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BV1
+			}
+		}
+	}
+
+	vu_dominion_of_western_australia = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			western_australia_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = western_australia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			western_australia_area = {
+				add_core = BW4
+			}
+			release = BW4
+			BW4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				australia_region = {
+					add_permanent_claim = BW4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BW4
+			}
+		}
+	}
+
+	vu_dominion_of_new_south_wales = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			eastern_australia_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = eastern_australia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			eastern_australia_area = {
+				add_core = N5W
+			}
+			release = N5W
+			N5W = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				australia_region = {
+					add_permanent_claim = N5W
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = N5W
+			}
+		}
+	}
 }
+
+
+### TEMPLATE ###
 
 #vu_dominion_of_ = {
 #		major = yes
@@ -715,7 +1324,7 @@ country_decisions = {
 #				add_manpower = 8
 #				add_sailors = 3000
 #				add_army_tradition = 10
-#				burma_region = {
+#				_region = {
 #					add_permanent_claim = ---
 #				}
 #			}

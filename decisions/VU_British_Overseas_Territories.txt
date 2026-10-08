@@ -4,7 +4,7 @@ country_decisions = {
 	#MEDITERRANEAN
 
 	#Gibraltar
-	vu_lordship_of_gibraltar = {
+	vu_dominion_of_gibraltar = {
 		major = yes
 		potential = {
 			OR = {
@@ -49,7 +49,7 @@ country_decisions = {
 	}
 
 	#Heligoland
-	vu_lordship_of_heligoland = {
+	vu_dominion_of_heligoland = {
 		major = yes
 		potential = {
 			OR = {
@@ -94,7 +94,7 @@ country_decisions = {
 	}
 
 	#Malta
-	vu_lordship_of_malta = {
+	vu_dominion_of_malta = {
 		major = yes
 		potential = {
 			OR = {
@@ -139,7 +139,7 @@ country_decisions = {
 	}
 
 	#Menorca
-	vu_lordship_of_menorca = {
+	vu_dominion_of_menorca = {
 		major = yes
 		potential = {
 			OR = {
@@ -184,7 +184,7 @@ country_decisions = {
 	}
 
 	#Corsica
-	vu_lordship_of_corsica = {
+	vu_dominion_of_corsica = {
 		major = yes
 		potential = {
 			OR = {
@@ -229,7 +229,7 @@ country_decisions = {
 	}
 
 	#Corfu
-	vu_lordship_of_corfu = {
+	vu_dominion_of_corfu = {
 		major = yes
 		potential = {
 			OR = {
@@ -274,7 +274,7 @@ country_decisions = {
 	}
 
 	#Cyprus
-	vu_lordship_of_cyprus = {
+	vu_dominion_of_cyprus = {
 		major = yes
 		potential = {
 			OR = {
@@ -321,7 +321,7 @@ country_decisions = {
 	#ASIA
 
 	#Palestine
-	vu_lordship_of_palestine = {
+	vu_dominion_of_palestine = {
 		major = yes
 		potential = {
 			OR = {
@@ -366,7 +366,7 @@ country_decisions = {
 	}
 
 	#Singapore
-	vu_lordship_of_singapore = {
+	vu_dominion_of_singapore = {
 		major = yes
 		potential = {
 			OR = {
@@ -411,7 +411,7 @@ country_decisions = {
 	}
 
 	#Malaya
-	vu_lordship_of_malaya = {
+	vu_dominion_of_malaya = {
 		major = yes
 		potential = {
 			OR = {
@@ -459,7 +459,7 @@ country_decisions = {
 	}
 
 	#Hong Kong
-	vu_lordship_of_hong_kong = {
+	vu_dominion_of_hong_kong = {
 		major = yes
 		potential = {
 			OR = {
@@ -552,7 +552,7 @@ country_decisions = {
 	}
 
 	#Sri Lanka
-	vu_lordship_of_ceylon = {
+	vu_dominion_of_ceylon = {
 		major = yes
 		potential = {
 			OR = {
@@ -597,7 +597,7 @@ country_decisions = {
 	}
 
 	#Burma
-	vu_lordship_of_burma = {
+	vu_dominion_of_burma = {
 		major = yes
 		potential = {
 			OR = {
@@ -645,7 +645,7 @@ country_decisions = {
 	}
 
 	#Borneo
-	vu_lordship_of_borneo = {
+	vu_dominion_of_borneo = {
 		major = yes
 		potential = {
 			OR = {
@@ -693,7 +693,7 @@ country_decisions = {
 	}
 
 	#Aden
-	vu_lordship_of_aden = {
+	vu_dominion_of_aden = {
 		major = yes
 		potential = {
 			OR = {
@@ -738,7 +738,7 @@ country_decisions = {
 	}
 
 	#Bhutan
-	vu_lordship_of_bhutan = {
+	vu_dominion_of_bhutan = {
 		major = yes
 		potential = {
 			OR = {
@@ -783,7 +783,7 @@ country_decisions = {
 	}
 
 	#Nepal
-	vu_lordship_of_nepal = {
+	vu_dominion_of_nepal = {
 		major = yes
 		potential = {
 			OR = {
@@ -828,7 +828,7 @@ country_decisions = {
 	}
 
 	#New Hebrides
-	vu_lordship_of_new_hebrides = {
+	vu_dominion_of_new_hebrides = {
 		major = yes
 		potential = {
 			OR = {
@@ -873,7 +873,7 @@ country_decisions = {
 	}
 
 	#Papua
-	vu_lordship_of_papua = {
+	vu_dominion_of_papua = {
 		major = yes
 		potential = {
 			OR = {
@@ -918,7 +918,7 @@ country_decisions = {
 	}
 
 	#Tuvalu
-	vu_lordship_of_tuvalu = {
+	vu_dominion_of_tuvalu = {
 		major = yes
 		potential = {
 			OR = {
@@ -963,7 +963,7 @@ country_decisions = {
 	}
 
 	#Weihaiwei
-	vu_lordship_of_weihaiwei = {
+	vu_dominion_of_weihaiwei = {
 		major = yes
 		potential = {
 			OR = {
@@ -1008,7 +1008,7 @@ country_decisions = {
 	}
 
 	#Fiji
-	vu_lordship_of_fiji = {
+	vu_dominion_of_fiji = {
 		major = yes
 		potential = {
 			OR = {
@@ -1055,7 +1055,7 @@ country_decisions = {
 	#AMERICAS
 
 	#Falklands
-	vu_lordship_of_falklands = {
+	vu_dominion_of_falklands = {
 		major = yes
 		potential = {
 			OR = {
@@ -1100,7 +1100,7 @@ country_decisions = {
 	}
 
 	#Saint Helena
-	vu_lordship_of_saint_helena = {
+	vu_dominion_of_saint_helena = {
 		major = yes
 		potential = {
 			OR = {
@@ -1145,7 +1145,7 @@ country_decisions = {
 	}
 
 	#Hawaii
-	vu_lordship_of_hawaii = {
+	vu_dominion_of_hawaii = {
 		major = yes
 		potential = {
 			OR = {
@@ -1192,7 +1192,7 @@ country_decisions = {
 	#AFRICA
 
 	#Egypt
-	vu_lordship_of_egypt = {
+	vu_dominion_of_egypt = {
 		major = yes
 		potential = {
 			OR = {
@@ -1240,7 +1240,7 @@ country_decisions = {
 	}
 
 	#Diego Garcia
-	vu_lordship_of_diego_garcia = {
+	vu_dominion_of_diego_garcia = {
 		major = yes
 		potential = {
 			OR = {
@@ -1285,7 +1285,7 @@ country_decisions = {
 	}
 
 	#Zanzibar
-	vu_lordship_of_zanzibar = {
+	vu_dominion_of_zanzibar = {
 		major = yes
 		potential = {
 			OR = {
@@ -1330,7 +1330,7 @@ country_decisions = {
 	}
 
 	#Tanganyika
-	vu_lordship_of_tanganyika = {
+	vu_dominion_of_tanganyika = {
 		major = yes
 		potential = {
 			OR = {
@@ -1378,7 +1378,7 @@ country_decisions = {
 	}
 
 	#Sierra Leone
-	vu_lordship_of_sierra_leone = {
+	vu_dominion_of_sierra_leone = {
 		major = yes
 		potential = {
 			OR = {
@@ -1423,7 +1423,7 @@ country_decisions = {
 	}
 
 	#Somaliland
-	vu_lordship_of_somaliland = {
+	vu_dominion_of_somaliland = {
 		major = yes
 		potential = {
 			OR = {
@@ -1471,7 +1471,7 @@ country_decisions = {
 	}
 
 	#Niger Coast
-	vu_lordship_of_niger_coast = {
+	vu_dominion_of_niger_coast = {
 		major = yes
 		potential = {
 			OR = {
@@ -1519,7 +1519,7 @@ country_decisions = {
 	}
 
 	#Kenya
-	vu_lordship_of_kenya = {
+	vu_dominion_of_kenya = {
 		major = yes
 		potential = {
 			OR = {
@@ -1567,7 +1567,7 @@ country_decisions = {
 	}
 
 	#Mauritius
-	vu_lordship_of_mauritius = {
+	vu_dominion_of_mauritius = {
 		major = yes
 		potential = {
 			OR = {
@@ -1612,7 +1612,7 @@ country_decisions = {
 	}
 
 	#Nigeria
-	vu_lordship_of_nigeria = {
+	vu_dominion_of_nigeria = {
 		major = yes
 		potential = {
 			OR = {
@@ -1657,7 +1657,7 @@ country_decisions = {
 	}
 
 	#Togoland
-	vu_lordship_of_togoland = {
+	vu_dominion_of_togoland = {
 		major = yes
 		potential = {
 			OR = {
@@ -1705,7 +1705,7 @@ country_decisions = {
 	}
 
 	#Uganda
-	vu_lordship_of_uganda = {
+	vu_dominion_of_uganda = {
 		major = yes
 		potential = {
 			OR = {
@@ -1753,7 +1753,7 @@ country_decisions = {
 	}
 
 	#Central Africa
-	vu_lordship_of_central_africa = {
+	vu_dominion_of_central_africa = {
 		major = yes
 		potential = {
 			OR = {
@@ -1801,7 +1801,7 @@ country_decisions = {
 	}
 
 	#Guinea
-	vu_lordship_of_guinea = {#
+	vu_dominion_of_guinea = {#
 		major = yes
 		potential = {
 			OR = {
@@ -1849,7 +1849,7 @@ country_decisions = {
 	}
 
 	#The Gambia
-	vu_lordship_of_the_gambia = {#
+	vu_dominion_of_the_gambia = {#
 		major = yes
 		potential = {
 			OR = {
@@ -1897,7 +1897,7 @@ country_decisions = {
 	}
 
 	#Senegal
-	vu_lordship_of_senegal = {
+	vu_dominion_of_senegal = {
 		major = yes
 		potential = {
 			OR = {
@@ -1942,7 +1942,7 @@ country_decisions = {
 	}
 
 	#Sudan
-	vu_lordship_of_sudan = {
+	vu_dominion_of_sudan = {
 		major = yes
 		potential = {
 			OR = {
@@ -1978,6 +1978,9 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
+				sudan_region = {
+					add_permanent_claim = SD4
+				}
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
@@ -1987,7 +1990,7 @@ country_decisions = {
 	}
 
 	#North Rhodesia
-	vu_lordship_of_north_rhodesia = {
+	vu_dominion_of_north_rhodesia = {
 		major = yes
 		potential = {
 			OR = {
@@ -2032,7 +2035,7 @@ country_decisions = {
 	}
 
 	#South Rhodesia
-	vu_lordship_of_south_rhodesia = {
+	vu_dominion_of_south_rhodesia = {
 		major = yes
 		potential = {
 			OR = {
@@ -2068,6 +2071,9 @@ country_decisions = {
 				add_manpower = 8
 				add_sailors = 3000
 				add_army_tradition = 10
+				zimbabwe_region = {
+					add_permanent_claim = R0D
+				}
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu

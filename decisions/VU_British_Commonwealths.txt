@@ -18,6 +18,7 @@ country_decisions = {
 				exists = NV5
 				exists = NW3
 				exists = RL4
+				exists = BC0
 			}
 		}
 		allow = {
@@ -34,6 +35,7 @@ country_decisions = {
 				inherit = NV5
 				inherit = NW3
 				inherit = RL4
+				inherit = BC0
 				set_government_rank = 8
 				#add_government_reform = vu_rep_commonwealth_reform #Need to create a VU version of this for the British Commonwealth of Nations subjects - Prussia
 				add_adm_power = 112
@@ -43,6 +45,7 @@ country_decisions = {
 				add_manpower = 28
 				add_sailors = 5000
 				add_army_tradition = 10
+				set_capital = 2585
 			}
 			create_subject = {
 				subject_type = commonwealth_subject_vu
@@ -51,15 +54,152 @@ country_decisions = {
 		}
 	}
 
-	#United Commonwealths
-
-	#Central America
+	#United Commonwealths (United States if they didn't rebel)
 
 	#South Africa
-
-	#India
+	vu_confederate_south_african_commonwealth = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			AND = {
+				exists = C4P
+				exists = N4T
+				exists = OR6
+				exists = TR4
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			C4P = {
+				change_tag = RSA
+			}
+			RSA = {
+				inherit = N4T
+				inherit = OR6
+				inherit = TR4
+				set_government_rank = 8
+				#add_government_reform = vu_rep_commonwealth_reform #Need to create a VU version of this for the British Commonwealth of Nations subjects - Prussia
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 1360
+				add_manpower = 28
+				add_sailors = 5000
+				add_army_tradition = 10
+				set_capital = 2596
+			}
+			create_subject = {
+				subject_type = commonwealth_subject_vu
+				who = RSA
+			}
+		}
+	}
 
 	#Australia
+	vu_confederate_australian_commonwealth = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			AND = {
+				exists = BQ3
+				exists = BV1
+				exists = BS4
+				exists = BT5
+				exists = BW4
+				exists = N5W
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			N5W = {
+				change_tag = B4U
+			}
+			C4N = {
+				inherit = BQ3
+				inherit = BV1
+				inherit = BS4
+				inherit = BW4
+				inherit = BT5
+				set_government_rank = 8
+				#add_government_reform = vu_rep_commonwealth_reform #Need to create a VU version of this for the British Commonwealth of Nations subjects - Prussia
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 1360
+				add_manpower = 28
+				add_sailors = 5000
+				add_army_tradition = 10
+				set_capital = 1090
+			}
+			create_subject = {
+				subject_type = commonwealth_subject_vu
+				who = B4U
+			}
+		}
+	}
 
 	#New Zealand
+	vu_confederate_nre_zealander_commonwealth = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			te_ika_a_maui_area = {
+				any_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		provinces_to_highlight = {
+			area = te_ika_a_maui_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			te_ika_a_maui_area = {
+				add_core = N3Z
+			}
+			release = N3Z
+			N3Z = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 8
+				#add_government_reform = vu_rep_commonwealth_reform #Need to create a VU version of this for the British Commonwealth of Nations subjects - Prussia
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 1360
+				add_manpower = 28
+				add_sailors = 5000
+				add_army_tradition = 10
+				set_capital = 1107
+				new_zealand_region = {
+					add_permanent_claim = N3Z
+				}
+			}
+			create_subject = {
+				subject_type = commonwealth_subject_vu
+				who = N3Z
+			}
+		}
+	}
 }
