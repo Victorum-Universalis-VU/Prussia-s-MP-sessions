@@ -4596,30 +4596,8 @@ tur_persian_conquest = {
                 id = flavor_tur.232
                 insight_tooltip = INSIGHT_JUST_TOOLTIP
                 effect_tooltip = "add_mil_power = 50
-#caucasia_region = {
-#    limit = {
-#        country_or_non_sovereign_subject_holds = ROOT
-#    }
-#    add_province_modifier = {
-#        name = tur_caucasian_conquest
-#        duration = 9125
-#    }
-#
-}
-every_owned_or_non_subject_province = { 
-capital_scope = {
-limit = {
-OR = {
-region = caucasia_region
-region = south_caucasia_region
-}
-}
-add_province_modifier = {
-name = tur_caucasian_conquest
-duration = 9125
-}
-}
-}"
+caucasia_region = { limit = { country_or_non_sovereign_subject_holds = ROOT } add_province_modifier = { name = tur_caucasian_conquest duration = 9125 } }
+south_caucasia_region = { limit = { country_or_non_sovereign_subject_holds = ROOT } add_province_modifier = { name = tur_caucasian_conquest duration = 9125 } }"
             }
             persia_region = {
                 limit = {
