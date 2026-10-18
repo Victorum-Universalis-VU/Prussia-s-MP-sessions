@@ -466,6 +466,7 @@ self_governing_dominion_vu = {
     upgrade_subject_type = yes
     is_colony_subtype = no
     counts_for_borders = yes
+    takes_diplo_slot = no
     # Properties:
     base_liberty_desire = -25
     pays_overlord = 1.5
