@@ -28264,8 +28264,7 @@ brythonic = {
 
 			Roazhon Naoned Tangi Karter Roc'han "de Rohan" Most Breton
 
-			Rohan Leon Poutrecoet "de
-			#Dinan" "de Vitré" "de Cornouaille" "de Porhoët" "of Brittany"
+			Rohan Leon Poutrecoet "de Dinan" "de Vitré" "de Cornouaille" "de Porhoët" "of Brittany"
 
 			"de Châteaubriant" "de Nantes" Guennec Pensec "de Vannes" "de Bretagne" "Sant Nazar" Tanguy
 
@@ -30173,8 +30172,7 @@ unified_celtic_group = {
 
 			Roazhon Naoned Tangi Karter Roc'han Most Breton Rohan
 
-			Leon Poutrecoet "de
-			#Dinan" "de Vitré" "de Cornouaille" "de Rohan" "de Porhoët" "of Brittany"
+			Leon Poutrecoet "de Dinan" "de Vitré" "de Cornouaille" "de Rohan" "de Porhoët" "of Brittany"
 
 			"de Châteaubriant" "de Nantes" Guennec Pensec "de Vannes" "de Bretagne" "Sant Nazar" Tanguy
 
