@@ -2269,31 +2269,13 @@ WoC_austria_2_1 = {
             custom_tooltip = SEPERATOR_TOOLTIP
             country_event_with_option_insight = {
                 id = flavor_hab.28
-                option_1 = "capital_scope = {
-                    spawn_rebels = {
-                        size = 3
-                        type = noble_rebels
-                    }
-                    spawn_rebels = {
-                        size = 3
-                        type = noble_rebels
-                    }
-                }
-
-                custom_tooltip = SEPERATOR_TOOLTIP
-
-                custom_tooltip = HAB_UNLOCK_RAAB_RESTRICTIONS_PRIVILEGE
-                custom_tooltip = SEPERATOR_TOOLTIP
-                "
-                option_2 = "add_estate_loyalty = {
-                    estate = estate_nobles
-                    loyalty = 15
-                }
-
-                custom_tooltip = SEPERATOR_TOOLTIP
-
-                custom_tooltip = HAB_MODIFY_SUPREMACY_OVER_THE_CROWN_PRIVILEGE
-                "
+                option_1 = "capital_scope = { spawn_rebels = { size = 3 type = noble_rebels } spawn_rebels = { size = 3 type = noble_rebels } }
+custom_tooltip = SEPERATOR_TOOLTIP
+custom_tooltip = HAB_UNLOCK_RAAB_RESTRICTIONS_PRIVILEGE
+custom_tooltip = SEPERATOR_TOOLTIP"
+                option_2 = "add_estate_loyalty = { estate = estate_nobles loyalty = 15 }
+custom_tooltip = SEPERATOR_TOOLTIP
+custom_tooltip = HAB_MODIFY_SUPREMACY_OVER_THE_CROWN_PRIVILEGE"
             }
         }
     }
