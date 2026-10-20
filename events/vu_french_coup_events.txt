@@ -7,7 +7,7 @@
 namespace = vu_french_coup
 
 ########################################
-# EVENT 1 â€” The Military Coup         #
+# EVENT 1 — The Military Coup         #
 # Fires for French republican tags     #
 # when stability is low or republican  #
 # tradition has collapsed.             #
@@ -69,7 +69,7 @@ country_event = {
 		}
 	}
 
-	# The coup succeeds â€” monarchy is restored by force
+	# The coup succeeds — monarchy is restored by force
 	option = {
 		name = vu_french_coup.1.a
 		ai_chance = {
@@ -94,7 +94,7 @@ country_event = {
 		}
 	}
 
-	# The republic holds â€” but the attempt leaves scars
+	# The republic holds — but the attempt leaves scars
 	option = {
 		name = vu_french_coup.1.b
 		ai_chance = {
@@ -111,7 +111,7 @@ country_event = {
 }
 
 ########################################
-# EVENT 2 â€” Legitimacy Restored       #
+# EVENT 2 — Legitimacy Restored       #
 # Hidden cleanup event. Fires once    #
 # the coup monarchy has stabilised    #
 # and a proper reform is in place,   #

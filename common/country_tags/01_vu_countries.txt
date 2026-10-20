@@ -22,7 +22,7 @@ ABN = "countries/Arbanon.txt"
 
 #VU - Austria
 AUT = "countries/DuchyOfAustria.txt"
-BSN = "countries/St_Polten.txt"         #St.P√∂lten
+BSN = "countries/St_Polten.txt"         #St.Pˆlten
 CR1 = "countries/DuchyOfCarinthia.txt"  #Under PU with Styria
 SH1 = "countries/Schaunberg.txt"
 
@@ -33,7 +33,7 @@ DRJ = "countries/Dobruja.txt"
 VBZ = "countries/Velbazhd.txt"
 
 #VU - Bohemia
-B05 = "countries/Boskovicove.txt" #Boskovicov√©
+B05 = "countries/Boskovicove.txt" #BoskovicovÈ
 EGR = "countries/Eger.txt"
 L4N = "countries/Landstein.txt"
 L1C = "countries/Lichtenburka.txt"
@@ -43,9 +43,9 @@ PR3 = "countries/Premyslids.txt"
 R3U = "countries/Reuss.txt"
 R05 = "countries/Rosenberg.txt"
 ST3 = "countries/Sternberg.txt"
-SV4 = "countries/Svamberka.txt" #≈†vamberka
-V4L = "countries/Valdstejnove.txt" #Vald≈°tejnov√©
-Z3R = "countries/Zerotinove.txt" #≈Ωerot√≠nov√©
+SV4 = "countries/Svamberka.txt" #ävamberka
+V4L = "countries/Valdstejnove.txt" #ValdötejnovÈ
+Z3R = "countries/Zerotinove.txt" #éerotÌnovÈ
 
 #VU - Caucasus
 ABZ = "countries/Abazinia.txt"
@@ -641,7 +641,7 @@ SLA = "countries/Slavonia.txt"
 AP3 = "countries/Appenzell.txt"
 ARU = "countries/Aargau.txt"
 B1E = "countries/Biel.txt"
-BD9 = "countries/Baden_bei_Z√ºrich.txt"
+BD9 = "countries/Baden_bei_Z¸rich.txt"
 BFB = "countries/Bishopric_of_Fribourg.txt"
 BRN = "countries/Berne.txt"
 BSL = "countries/Basel.txt"
@@ -1134,7 +1134,7 @@ GHU = "countries/Ghurid.txt"                    #Malikate
 J0R = "countries/Jordan.txt"                    #Malikate
 K4W = "countries/Khwarazmia.txt"                
 KUW = "countries/Kuwait.txt"                    #Emirate
-M3D = "countries/Media.txt"                     #Shadom MƒÅda
+M3D = "countries/Media.txt"                     #Shadom Mada
 NAB = "countries/Nabatea.txt"                   #Petty_Kingdom
 PRT = "countries/Parthia.txt"                   #Empire
 PT0 = "countries/Ptolemaic_Egypt.txt"           #Empire

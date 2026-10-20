@@ -3522,7 +3522,7 @@ mount_fuji = {
     start = 1029
 
     # date built in real life (so anything built during game time will be there if you start a game after that date)
-    date = 806.01.01 #when the Fujisan Hongū Sengen Taisha shrine was built
+    date = 806.01.01 #when the Fujisan Hongu Sengen Taisha shrine was built
 
     #time to build
     time = {
@@ -16830,7 +16830,7 @@ white_house = {
 }
 
 tikal = {
-    start = 842 #Petén
+    start = 842 #Pet�n
     date = 10.01.01
     time = { months = 0	}
     build_cost = 0

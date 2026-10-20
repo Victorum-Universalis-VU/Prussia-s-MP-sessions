@@ -267,7 +267,7 @@ guiTypes = {
 				maxWidth = 120
 				maxHeight = 32
 				format = center
-				text = "4322 Â¤"
+				text = "4322 ¤"
 			}
 			
 			guiButtonType = {

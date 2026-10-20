@@ -401,7 +401,7 @@ vu_zao_onsen_hot_springs = {
 
 vu_kanazawa_castle = {
     start = 6457
-    date = 1336.01.01 #Built on top of a past defensive structure known as “Kanazawa Gobō,” a fortified temple complex on the tip of the Kodatsuno Ridge. - SF
+    date = 1336.01.01 #Built on top of a past defensive structure known as �Kanazawa Gobo,� a fortified temple complex on the tip of the Kodatsuno Ridge. - SF
     time = { months = 0 }
     build_cost = 0
     can_be_moved = no
@@ -1194,7 +1194,7 @@ vu_nagoya_castle = {
 
 vu_kokubunji_temple = {
     start = 6463
-    date = 741.01.01 #Founded "according to legend" by a Buddhist priest called Gyōki
+    date = 741.01.01 #Founded "according to legend" by a Buddhist priest called Gyoki
     time = { months = 0 }
     build_cost = 0
     can_be_moved = no

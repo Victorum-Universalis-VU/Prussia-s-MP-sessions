@@ -54,7 +54,7 @@ country_event = {
 }
 
 country_event = {
-	id = ME_Poland_Events.2 #Zamość
+	id = ME_Poland_Events.2 #Zamosc
 	title = ME_Poland_Events.2.t
 	picture = CITY_VIEW_eventPicture
 	desc = ME_Poland_Events.2.d

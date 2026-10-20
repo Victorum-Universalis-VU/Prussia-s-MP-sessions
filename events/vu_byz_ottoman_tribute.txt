@@ -140,7 +140,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	# Retaliate â€” march on Constantinople
+	# Retaliate — march on Constantinople
 	option = {
 		name = byz_tribute.4.a
 		add_prestige = 5

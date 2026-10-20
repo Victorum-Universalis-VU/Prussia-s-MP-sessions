@@ -1152,9 +1152,9 @@ gov_greek_duchy = { #Greek Duchy formables
         9 = GREEK_NOMARCHATE #Nomarchate
     }
     ruler_male = {
-        1 = GREEK_LORD #Despotēs
-        2 = GREEK_LORD #Despotēs
-        3 = GREEK_LORD #Despotēs
+        1 = GREEK_LORD #Despotes
+        2 = GREEK_LORD #Despotes
+        3 = GREEK_LORD #Despotes
         4 = GREEK_KATEPANOS #Katepanos
         5 = GREEK_KATEPANOS #Katepanos
         6 = GREEK_DUKE #Doux

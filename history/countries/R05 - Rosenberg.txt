@@ -7,4 +7,4 @@ technology_group = bohemian_tech_group
 unit_type = western
 primary_culture = moravian
 religion = catholic
-capital = 2968 #Český Krumlov
+capital = 2968 #Cesk� Krumlov

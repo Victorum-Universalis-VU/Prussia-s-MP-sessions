@@ -125,7 +125,7 @@ POL_Missions_1 = {
             }
         }
         effect = {
-            country_event = { id = ME_Poland_Events.2 } #Zamość
+            country_event = { id = ME_Poland_Events.2 } #Zamosc
         }
     }
 
