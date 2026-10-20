@@ -3785,10 +3785,10 @@ on_colonist_boosting_colony_effect = {
         if = {
             limit = {
                 NOT = {
-                    OR = {
+                    owner = { OR = {
                         tag = RUS
                         tag = TZR
-                    }
+                    } }
                     OR = {
                         superregion = tartary_superregion
                         region = russia_region
@@ -3834,10 +3834,10 @@ on_colonist_boosting_colony_effect = {
         if = {
             limit = {
                 NOT = {
-                    OR = {
+                    owner = { OR = {
                         tag = RUS
                         tag = TZR
-                    }
+                    } }
                     OR = {
                         superregion = tartary_superregion
                         region = russia_region
