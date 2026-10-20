@@ -7,9 +7,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = POR
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = POR
-				}
+				} } else = { always = no }
 			}
 		}
 	}
@@ -30,9 +30,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = POR
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = POR
-				}
+				} } else = { always = no }
 			}
 		}
 	}
@@ -53,9 +53,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = SPA
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = SPA
-				}
+				} } else = { always = no }
 			}
 		}
 	}
@@ -64,9 +64,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = CAS
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = CAS
-				}
+				} } else = { always = no }
 			}
 		}
 	}
@@ -75,9 +75,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = GBR
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = GBR
-				}
+				} } else = { always = no }
 			}
 		}
 	}
@@ -98,9 +98,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = SPA
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = SPA
-				}
+				} } else = { always = no }
 			}
 		}
 	}
@@ -109,9 +109,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = CAS
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = CAS
-				}
+				} } else = { always = no }
 			}
 		}
 	}
@@ -120,9 +120,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				exists = GBR
-				event_target:kilwa_trade_ally = {
+				if = { limit = { has_saved_global_event_target = kilwa_trade_ally } event_target:kilwa_trade_ally = {
 					tag = GBR
-				}
+				} } else = { always = no }
 			}
 		}
 	}
