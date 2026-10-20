@@ -228,7 +228,7 @@
  ME_Yemen_Events.3.t: "Taiz Captured"
  ME_Yemen_Events.3.d: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a scelerisque nulla. Ut fermentum tempor ipsum id laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in tellus sed est gravida porttitor. Quisque in est at diam laoreet tincidunt. In dictum interdum lobortis. Aliquam non suscipit ex, maximus vulputate nibh. Nulla quam mi, vulputate interdum sodales et, faucibus et justo. Vestibulum tristique turpis eget turpis bibendum, at pulvinar augue rutrum."
  ME_Yemen_Events.3.a: "Make it our capital!"
- ME_Yemen_Events.3.b: "We will remain in [Capital.GetName]"
+ ME_Yemen_Events.3.b: "We will remain in [Root.Capital.GetName]"
  
  ME_Yemen_Events.4.t: "Question of Religion"
  ME_Yemen_Events.4.d: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et dolor vitae felis maximus suscipit. Cras commodo accumsan ante eu maximus. Donec vehicula egestas turpis, ac porttitor eros imperdiet vel. Integer eros arcu, tincidunt ac elit ac, semper pellentesque lorem. Fusce magna neque, hendrerit ut tellus vitae, maximus dignissim nibh. Sed hendrerit nibh massa, sed lacinia lectus tincidunt quis. Nulla magna enim, viverra ut tellus at, porta pellentesque odio. Maecenas sed pretium purus. Proin malesuada nisl diam, id lacinia diam cursus quis. Curabitur non mollis enim. Aliquam at turpis non tellus molestie rhoncus. Vestibulum dictum ante eget efficitur mattis. In hac habitasse platea dictumst. Nam id augue rutrum nisl tincidunt condimentum at ac tortor. Phasellus nec tempor velit. Etiam at efficitur augue. "

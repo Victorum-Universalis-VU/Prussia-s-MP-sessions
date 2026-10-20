@@ -476,12 +476,12 @@
  ME_Rum_Events.107.t: "An Old Capital"
  ME_Rum_Events.107.d: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec ullamcorper dolor. Praesent sodales est a nisi gravida consectetur. Etiam id laoreet ante, in hendrerit nibh. Nullam elementum ligula vel ullamcorper eleifend. Aliquam aliquam iaculis ultrices. Donec lobortis vel libero nec auctor. Nunc mollis tempus ultricies. Fusce et lectus odio."
  ME_Rum_Events.107.a: "Yes, absolutely."
- ME_Rum_Events.107.b: "No, we'd rather stay in [Capital.GetName]."
+ ME_Rum_Events.107.b: "No, we'd rather stay in [Root.Capital.GetName]."
  
  ME_Rum_Events.108.t: "An Old Capital"
  ME_Rum_Events.108.d: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec ullamcorper dolor. Praesent sodales est a nisi gravida consectetur. Etiam id laoreet ante, in hendrerit nibh. Nullam elementum ligula vel ullamcorper eleifend. Aliquam aliquam iaculis ultrices. Donec lobortis vel libero nec auctor. Nunc mollis tempus ultricies. Fusce et lectus odio."
  ME_Rum_Events.108.a: "Yes, absolutely."
- ME_Rum_Events.108.b: "No, we'd rather stay in [Capital.GetName]."
+ ME_Rum_Events.108.b: "No, we'd rather stay in [Root.Capital.GetName]."
  
  ME_Rum_Events.109.t: "Emirate of Cordoba"
  ME_Rum_Events.109.d: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis nunc congue est fermentum auctor. Aliquam volutpat lorem sed tristique laoreet. Aliquam ultrices eros vitae nulla volutpat, sit amet consequat diam mollis. Nulla auctor neque sed rutrum pellentesque. Etiam eget elit dictum, venenatis lectus eu, finibus nulla. Maecenas quis felis arcu. Pellentesque non tempus nibh. Quisque ac erat ut sem mattis malesuada at ut felis. Aliquam a vestibulum ipsum. Sed accumsan tristique vehicula. "
