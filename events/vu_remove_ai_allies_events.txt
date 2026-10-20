@@ -77,8 +77,8 @@ country_event = {
             limit = {
                 ai = yes
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
             #added cause AI would get over diplo relations as they
             #refuse to break royal marriages with anybody
         }
@@ -120,8 +120,8 @@ country_event = {
                     ai = yes
                     is_part_of_hre = no
                 }
-                break_alliance = root
-                break_marriage = root
+                break_alliance = ROOT
+                if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
             }
         }
         else_if = {
@@ -134,8 +134,8 @@ country_event = {
                     ai = yes
                     is_part_of_hre = yes
                 }
-                break_alliance = root
-                break_marriage = root
+                break_alliance = ROOT
+                if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
             }
         }
         ai_chance = {
@@ -207,8 +207,8 @@ country_event = {
                 ai = yes
                 is_at_war = yes
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
         }
         ai_chance = {
             #simple this one is.
@@ -234,8 +234,8 @@ country_event = {
                     religion = root
                 }
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
         }
         ai_chance = {
             factor = 3
@@ -275,8 +275,8 @@ country_event = {
                     value = 2
                 }
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
         }
         ai_chance = {
             #this was added due to two phenomena, first being the tendancy of the small AI's to ally bigger tags for
@@ -312,8 +312,8 @@ country_event = {
                 ai = yes
                 coalition_target = from
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
         }
         ai_chance = {
             #The AI should consider ceasing their alliance if their ally is in a coalition, to avoid getting dragged in
@@ -335,7 +335,7 @@ country_event = {
             any_ally = {
                 ai = yes
                 ROOT = {
-                    colony_claim = prev
+                    colony_claim = PREV
                 }
             }
         }
@@ -344,11 +344,11 @@ country_event = {
             limit = {
                 ai = yes
                 ROOT = {
-                    colony_claim = prev
+                    colony_claim = PREV
                 }
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
         }
         ai_chance = {
             factor = 5
@@ -388,8 +388,8 @@ country_event = {
                     }
                 }
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
         }
         ai_chance = {
             #this was added due to two phenomena, first being the tendancy of the small AI's to ally bigger tags for
@@ -434,8 +434,8 @@ country_event = {
                     war_exhaustion = 10
                 }
             }
-            break_alliance = root
-            break_marriage = root
+            break_alliance = ROOT
+            if = { limit = { marriage_with = ROOT } break_marriage = ROOT }
         }
         ai_chance = {
             factor = 2
