@@ -4889,7 +4889,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			OR = {
 				culture_group = west_slavic
-				culture = slovak
+				primary_culture = slovak
 			}
 			is_colonial_nation = no
 			OR = {
@@ -5027,9 +5027,9 @@ country_decisions = {
 			#was_never_end_game_tag_trigger = yes
 			normal_or_historical_nations = yes
 			OR = {
-				culture = sundanese
-				culture = javanese
-				culture = sumatran
+				primary_culture = sundanese
+				primary_culture = javanese
+				primary_culture = sumatran
 			}
 			is_colonial_nation = no
 			OR = {

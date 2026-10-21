@@ -52,7 +52,7 @@
  PRO_a_merchant_fleet_title: "A Merchant Fleet"
  PRO_a_merchant_fleet_desc: "Our position in the northern shores of the Mediterranean provides us with excellent trade opportunities. We should build a merchant fleet to better monopolize trade going into the Genoese market."
  PRO_louis_ii_title: "The Legacy of Louis III"
- PRO_louis_ii_desc: "Louis III also known as Louis the Blind, was a Provencal count who got crowned emperor of the Holy Roman empire. We shall storm the forts of [Root.Emperor.Name] and seize this illustrious Crown. We shall restore Louis' legacy as the new rulers of the Holy Roman Empire."
+ PRO_louis_ii_desc: "Louis III also known as Louis the Blind, was a Provencal count who got crowned emperor of the Holy Roman empire. We shall storm the forts of [Root.Emperor.GetName] and seize this illustrious Crown. We shall restore Louis' legacy as the new rulers of the Holy Roman Empire."
  PRO_house_of_anjou_title: "The House of Anjou"
  PRO_house_of_anjou_desc: "With our recent conquests of the French and the Palestinian regions we have achieved what everyone though of as 'outrageous. We will no longer be the laughing stock of nations that deem our claims untrue and fabricated. The Anjou dynasty has finally united under our banner and French unity is at an all time high."
  PRO_the_third_temple_title: "The Third Temple"

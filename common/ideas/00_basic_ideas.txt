@@ -179,7 +179,7 @@ economic_ideas = {
 				culture_group = germanic
 				culture_group = french
 				culture_group = british
-				culture = czech
+				primary_culture = czech
 			}
 		}
 		modifier = {
@@ -292,8 +292,8 @@ expansion_ideas = {
 			OR = {
 				culture_group = iberian
 				culture_group = british
-				culture = russian
-				culture = prussian
+				primary_culture = russian
+				primary_culture = prussian
 				is_colonial_nation = yes
 				num_of_colonists = 1
 			}
@@ -599,7 +599,7 @@ religious_ideas = {
 				tag = BAV
 				#Overall cultural trends
 				culture_group = iberian
-				culture = bavarian
+				primary_culture = bavarian
 			}
 		}
 		modifier = {
@@ -1445,7 +1445,7 @@ aristocracy_ideas = {
 	frequent_banquets = {
 		#Was international_nobility
 		monthly_splendor = 1
-		imperial_authority_per_battle_won = 0.15
+		imperial_authority_value = 0.1
 	}
 	dynastic_integrity = {
 		#Was rightful_conquest

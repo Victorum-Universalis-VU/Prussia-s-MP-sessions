@@ -91,16 +91,16 @@ ship_names = {
 	Chairacha Yotfa Worawongsa Chakkraphat Mahin
 	Sanpet Naresuan Ekathotsarot "Si Saowaphak"
 	Songtham Chehha "Somdet Phra" "Prasat Thong" Chai
-	Suthammaracha Narai Petratcha S?a Phumintharacha
+	Suthammaracha Narai Petratcha Suea Phumintharacha
 	Uthumpon Ekkathat
 }
 
 army_names = {
-	"Kxngth?ph s?y?m" "Kxngth?ph bk th?y" "Kxngth?ph bk $PROVINCE$"
+	"Kongthap Sayam" "Kongthap Bok Thai" "Kongthap Bok $PROVINCE$"
 }
 
 fleet_names = {
-	"Kxng re??x s?y?m" "Kxng re??x th?y" "Kxng re??x k?hxng $PROVINCE$"
+	"Kong Ruea Sayam" "Kong Ruea Thai" "Kong Ruea Khong $PROVINCE$"
 }
 
 

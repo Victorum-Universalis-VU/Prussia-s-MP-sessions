@@ -229,24 +229,15 @@ country_decisions = {
 			
 			custom_tooltip = BYZ_level_1
 			tooltip = {
-				add_province_modifier = {
-					name = BYZ_theodosian_wall_1
-					duration = -1
-				}
+				151 = { add_province_modifier = { name = BYZ_theodosian_wall_1 duration = -1 } }
 			}
 			custom_tooltip = BYZ_level_2
 			tooltip = {
-				add_province_modifier = {
-					name = BYZ_theodosian_wall_2
-					duration = -1
-				}
+				151 = { add_province_modifier = { name = BYZ_theodosian_wall_2 duration = -1 } }
 			}
 			custom_tooltip = BYZ_level_3
 			tooltip = {
-				add_province_modifier = {
-					name = BYZ_theodosian_wall_3
-					duration = -1
-				}
+				151 = { add_province_modifier = { name = BYZ_theodosian_wall_3 duration = -1 } }
 			}
 		}
 		ai_will_do = {

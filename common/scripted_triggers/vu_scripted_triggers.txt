@@ -931,7 +931,7 @@ vu_economy_ai_manpower_in = {
 
 vu_economy_ai_manpower_when = {
 	# Fixed: the original NOT { manpower_percentage = 0.5 } fired when manpower was BELOW
-	# 50%, making AI rush to build barracks while depleted â€” exactly the wrong time.
+	# 50%, making AI rush to build barracks while depleted — exactly the wrong time.
 	# This fed the doom-stack loop: war -> low manpower -> build barracks -> more FL ->
 	# recruit empty regiments. Now fires when manpower is healthy (75%+), so AI builds
 	# manpower infrastructure as forward preparation, not as a panic response.
@@ -1015,7 +1015,7 @@ vu_economy_ai_government_when = {
 
 vu_economy_ai_government_never_do_when = {
 	# Fixed logic: NOT { A B C } evaluates as NOT(A AND B AND C), meaning it fired
-	# whenever any single condition was false â€” i.e., almost always. The intent is
+	# whenever any single condition was false — i.e., almost always. The intent is
 	# "never build government buildings when none of the distress signals are present."
 	# Correct form is NOT { OR { A B C } }.
 	NOT = {

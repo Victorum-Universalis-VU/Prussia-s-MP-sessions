@@ -186,7 +186,7 @@
  ME_Canada_Events.20.OPT2: "When we allowed the HBC Autonomy, we meant it."
 
  ME_Canada_Events.21.T: "Impressment of Sailors"
- ME_Canada_Events.21.D: "In our common law, it has been known that while military conscription has been outlawed, impressment into the Navy was not - it is a need for our navy to stay as strong as it is, this causes issues. \n\nUnder the law, if you were born $CULTURE$, then it was legal to be impressed into the Navy. \n\nDuring a war as important as this, $OVERLORD$ has begun to impress sailors from our old and now independent 13 colonies, under the pretext that they were §[Root.Monarch.GetName]§! born. \n\nTensions are rising."
+ ME_Canada_Events.21.D: "In our common law, it has been known that while military conscription has been outlawed, impressment into the Navy was not - it is a need for our navy to stay as strong as it is, this causes issues. \n\nUnder the law, if you were born $CULTURE$, then it was legal to be impressed into the Navy. \n\nDuring a war as important as this, $OVERLORD$ has begun to impress sailors from our old and now independent 13 colonies, under the pretext that they were §Y[Root.Monarch.GetName]§! born. \n\nTensions are rising."
  ME_Canada_Events.21.OPT1: "This can be concerning."
 
  ME_Canada_Events.22.T: "Impressment of Sailors"

@@ -386,7 +386,7 @@ l_english:
  HNS_upgrade_kontor: "The §YHanseatic Outpost§! will be upgraded. This means that it will grant us §G30§! §YTrade Power§! instead of §G15§!.\n"
  HNS_every_woolen_province: "Every province producing §YWool§! owned by §Y[236.Owner.GetName]§!:"
  HNS_this_can_be_upgraded: "This §YModifier§! can be further improved by a special decision for 5000¤ and 10000¤ §YDucats§! respectively."
- HNS_lose_10_opinion_with_all_contractors: "Gain §r-10§! Opinion with every nation owning a §YHanseatic Outpost§!\n\nYou can prevent this event from firing further by completing the '§YCombat the Decline§!' mission."
+ HNS_lose_10_opinion_with_all_contractors: "Gain §R-10§! Opinion with every nation owning a §YHanseatic Outpost§!\n\nYou can prevent this event from firing further by completing the '§YCombat the Decline§!' mission."
  HNS_every_low_Countries_province: "Every §YCloth§! producing province in the §YLow Countries§! Region:"
  HNS_no_more_decline: "Prevents the '§YHanseatic Decline§!' Events from firing."
  is_privateering_or_protecting_trade_10_percent_tt: "§Y[Root.GetName]§! has at least §Y10%§! or more §YTrade Power§! or §Y[Root.GetAdjective]§! Privateers have at least §Y10%§! or more §YTrade Power§!"

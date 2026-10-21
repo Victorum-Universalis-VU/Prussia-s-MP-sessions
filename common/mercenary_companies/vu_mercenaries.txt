@@ -108,9 +108,9 @@ vu_merc_local_large_siege_company = {
 # Design: Darth Modus & Prussia   #
 ####################################
 
-# ── OTTOMAN-STYLE (hired by Europeans) ──────────────────────────────────────
+# -- OTTOMAN-STYLE (hired by Europeans) --------------------------------------
 
-# The Janissary Corps — elite devshirme infantry of the Sublime Porte.
+# The Janissary Corps � elite devshirme infantry of the Sublime Porte.
 # Hired by European border nations who have encountered Ottoman methods of war
 # firsthand. The Ottomans themselves already field Janissaries as standing troops
 # and have no need to hire them as mercenaries.
@@ -118,12 +118,12 @@ vu_merc_ottoman_janissaries = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0
 	artillery_weight = 0
-	cost_modifier = 0.75		# Foreign mercenaries — expensive but formidable
-	home_province = 151		# Istanbul — where these soldiers were trained
+	cost_modifier = 0.75		# Foreign mercenaries � expensive but formidable
+	home_province = 151		# Istanbul � where these soldiers were trained
 	sprites = { muslimgfx_sprite_pack }
 	trigger = {
 		# Available to European nations that border or contest the Ottoman sphere.
-		# NOT available to the Ottomans themselves — they already have Janissaries.
+		# NOT available to the Ottomans themselves � they already have Janissaries.
 		NOT = { tag = OTT }
 		NOT = { tag = TUR }
 		NOT = { religion_group = muslim }
@@ -132,7 +132,7 @@ vu_merc_ottoman_janissaries = {
 			capital_scope = { region = carpathia_region }
 			capital_scope = { region = austria_region }
 			capital_scope = { region = poland_region }
-			tag = VEN		# Venice — long trade and conflict with the Porte
+			tag = VEN		# Venice � long trade and conflict with the Porte
 		}
 	}
 	modifier = {
@@ -142,7 +142,7 @@ vu_merc_ottoman_janissaries = {
 	}
 }
 
-# Sipahi — the timariot cavalry of Anatolia and the Balkans.
+# Sipahi � the timariot cavalry of Anatolia and the Balkans.
 # Deserters, discharged veterans, and adventurers from the Ottoman cavalry
 # tradition available for hire by neighbouring European powers.
 # The Ottomans field their own Sipahi as a core unit and need not hire them.
@@ -150,12 +150,12 @@ vu_merc_sipahi = {
 	regiments_per_development = 0.05
 	cavalry_weight = 1
 	artillery_weight = 0
-	cost_modifier = 0.75		# Foreign mercenaries — expensive but formidable
-	home_province = 330		# Bursa — cradle of the Ottoman cavalry tradition
+	cost_modifier = 0.75		# Foreign mercenaries � expensive but formidable
+	home_province = 330		# Bursa � cradle of the Ottoman cavalry tradition
 	sprites = { muslimgfx_sprite_pack }
 	trigger = {
 		# Available to European nations in the Ottoman's shadow.
-		# NOT available to the Ottomans — they already have Sipahi as a unit type.
+		# NOT available to the Ottomans � they already have Sipahi as a unit type.
 		NOT = { tag = OTT }
 		NOT = { tag = TUR }
 		NOT = { religion_group = muslim }
@@ -174,16 +174,16 @@ vu_merc_sipahi = {
 	}
 }
 
-# ── MAMLUKE ──────────────────────────────────────────────────────────────────
+# -- MAMLUKE ------------------------------------------------------------------
 
-# The Mamluke Guard — slave-soldier cavalry, unmatched in the near east.
+# The Mamluke Guard � slave-soldier cavalry, unmatched in the near east.
 # Their entire culture of warfare is built around mobile shock cavalry.
 vu_merc_mamluke_guard = {
 	regiments_per_development = 0.05
 	cavalry_weight = 1
 	artillery_weight = 0
 	cost_modifier = 0.5
-	home_province = 361		# Cairo — seat of the Mamluke Sultanate
+	home_province = 361		# Cairo � seat of the Mamluke Sultanate
 	sprites = { muslimgfx_sprite_pack }
 	trigger = {
 		OR = {
@@ -201,16 +201,16 @@ vu_merc_mamluke_guard = {
 	}
 }
 
-# ── SYRIAN ───────────────────────────────────────────────────────────────────
+# -- SYRIAN -------------------------------------------------------------------
 
-# Syrian Ghazi Warriors — religious volunteers from the Levant.
+# Syrian Ghazi Warriors � religious volunteers from the Levant.
 # Inspired by faith and the tradition of jihad, they fight with fierce zeal.
 vu_merc_syrian_ghazi = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0.5
 	artillery_weight = 0
 	cost_modifier = 0.25
-	home_province = 379		# Aleppo — gateway of the Syrian corridor
+	home_province = 379		# Aleppo � gateway of the Syrian corridor
 	sprites = { muslimgfx_sprite_pack }
 	trigger = {
 		capital_scope = { region = mashriq_region }
@@ -223,16 +223,16 @@ vu_merc_syrian_ghazi = {
 	}
 }
 
-# ── MESOPOTAMIAN ─────────────────────────────────────────────────────────────
+# -- MESOPOTAMIAN -------------------------------------------------------------
 
-# Mesopotamian Horse Archers — the tribal cavalry of Iraq and the river valleys.
+# Mesopotamian Horse Archers � the tribal cavalry of Iraq and the river valleys.
 # Skilled riders who exploit terrain and harry enemies with hit-and-run raids.
 vu_merc_mesopotamian_cavalry = {
 	regiments_per_development = 0.05
 	cavalry_weight = 1
 	artillery_weight = 0
 	cost_modifier = 0.25
-	home_province = 410		# Baghdad — the ancient seat of Abbasid prestige
+	home_province = 410		# Baghdad � the ancient seat of Abbasid prestige
 	sprites = { muslimgfx_sprite_pack }
 	trigger = {
 		capital_scope = { region = mashriq_region }
@@ -245,16 +245,16 @@ vu_merc_mesopotamian_cavalry = {
 	}
 }
 
-# ── TIMURID ──────────────────────────────────────────────────────────────────
+# -- TIMURID ------------------------------------------------------------------
 
-# Timurid Ghulam Cavalry — the personal household guard of the Timurid sultans.
+# Timurid Ghulam Cavalry � the personal household guard of the Timurid sultans.
 # Heavily armored horsemen drawn from Central Asian and Persian noble families.
 vu_merc_timurid_ghulam = {
 	regiments_per_development = 0.04
 	cavalry_weight = 1
 	artillery_weight = 0
 	cost_modifier = 0.75
-	home_province = 454		# Samarkand — jewel of the Timurid empire
+	home_province = 454		# Samarkand � jewel of the Timurid empire
 	sprites = { muslimgfx_sprite_pack }
 	trigger = {
 		OR = {
@@ -277,7 +277,7 @@ vu_merc_timurid_ghulam = {
 	}
 }
 
-# Timurid War Elephants — terror weapons of Tamerlane's campaigns.
+# Timurid War Elephants � terror weapons of Tamerlane's campaigns.
 # In EU4 represented as slow but devastating shock infantry that crushes lines.
 vu_merc_timurid_war_elephants = {
 	regiments_per_development = 0.03

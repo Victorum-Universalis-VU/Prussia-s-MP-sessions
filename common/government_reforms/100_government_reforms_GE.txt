@@ -1971,7 +1971,7 @@ taha_divisions_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture #Old value
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = taha_divisions_reform
         }
@@ -1982,7 +1982,7 @@ taha_divisions_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture	#Old value
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = taha_divisions_reform
         }
@@ -3702,7 +3702,7 @@ taifa_governors_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture #Old
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = taha_divisions_reform
         }
@@ -3713,7 +3713,7 @@ taifa_governors_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture #Old
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = taha_divisions_reform
         }
@@ -5016,7 +5016,7 @@ cultural_investment_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = cultural_investment_reform
         }
@@ -5027,7 +5027,7 @@ cultural_investment_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = cultural_investment_reform
         }
@@ -7863,7 +7863,7 @@ berber_cavalry_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture #Old value
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = berber_cavalry_reform
         }
@@ -7874,7 +7874,7 @@ berber_cavalry_reform = {
                 religion_group = muslim
                 #culture_group = iberian
                 #culture = andalusi_culture #Old value
-                culture = andalucian
+                primary_culture = andalucian
             }
             has_reform = berber_cavalry_reform
         }

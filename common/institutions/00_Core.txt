@@ -128,7 +128,7 @@ crop_rotation = {
 						technology_group = central_african
 					}
 					NOT = {
-						culture = shona
+						primary_culture = shona
 						government = monarchy
 						culture_group = cushitic
 					}
@@ -446,15 +446,15 @@ feudalism = {
 					OR = {
 						#British Isles
 						culture_group = british
-						culture = celtic_welsh_culture
-						culture = celtic_lowland_scottish
+						primary_culture = celtic_welsh_culture
+						primary_culture = celtic_lowland_scottish
 						tag = CBE
 						#Ireland
 						tag = WEX
 						tag = MTH
 						tag = WTF
 						#Scandinavia
-						culture = danish
+						primary_culture = danish
 						#Africa
 						tag = ETH
 						#Asia

@@ -11,7 +11,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 8788;7731;sea;8353;-1;-1;-1;-1;Danzig-Marienburg
 43;1841;sea;7310;-1;-1;-1;-1;Danzig-Marienburg
 7257;7196;sea;3016;-1;-1;-1;-1;Dnipro-Ekaterinoslav
-7766;12;sea;1258;-1;-1;-1;-1;SkÃ¥ne-Sjaelland
+7766;12;sea;1258;-1;-1;-1;-1;Skåne-Sjaelland
 7768;14;sea;5494;-1;-1;-1;-1;Sjaelland-Fyn
 14;4142;sea;5494;-1;-1;-1;-1;Fyn-Aarhus
 14;4149;sea;5494;-1;-1;-1;-1;Fyn-Kolding
@@ -33,8 +33,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 8168;375;sea;1287;-1;-1;-1;-1;Tralee-Limerick
 6932;3992;sea;6359;-1;-1;-1;-1;Galata-Bithynia
 911;945;sea;1662;-1;-1;-1;-1;Menominee-Michigan
-1;1930;sea;1928;-1;-1;-1;-1;Stockholm-Ã…land
-1930;27;sea;1928;-1;-1;-1;-1;Ã…land-Finland
+1;1930;sea;1928;-1;-1;-1;-1;Stockholm-Åland
+1930;27;sea;1928;-1;-1;-1;-1;Åland-Finland
 4110;369;sea;1299;-1;-1;-1;-1;Sutherland-Orkney
 8431;171;sea;1275;-1;-1;-1;-1;Belle Ile-Vannetais
 8433;4386;sea;1275;-1;-1;-1;-1;Ile de Re-Fontenay
@@ -124,7 +124,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6455;1024;sea;1980;-1;-1;-1;-1;Sado - Echigo
 2159;666;sea;1370;-1;-1;-1;-1;Jiangmen-Hainan
 3231;7857;sea;1926;-1;-1;-1;-1;Haapsalu-Hiiumaa
-35;3227;sea;1256;-1;-1;-1;-1;Ã–sel-Piltene
+35;3227;sea;1256;-1;-1;-1;-1;Ösel-Piltene
 5048;982;sea;1491;-1;-1;-1;-1;Esgigeoag-Unamakik
 4891;983;sea;1491;-1;-1;-1;-1;Piktuk-Epekwitk
 1050;4658;sea;1379;-1;-1;-1;-1;Deren-Nanghaer
@@ -180,8 +180,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 431;2999;sea;1334;-1;-1;-1;-1;Mogostan-Hormuz
 2999;5249;sea;1334;-1;-1;-1;-1;Hormuz-Khasab
 7194;4140;sea;8360;-1;-1;-1;-1;Kinburn-Vozia
-35;7857;sea;1926;-1;-1;-1;-1;Hiiumaa-Ã–sel
-3231;35;sea;1256;-1;-1;-1;-1;Haapsalu-Ã–sel
+35;7857;sea;1926;-1;-1;-1;-1;Hiiumaa-Ösel
+3231;35;sea;1256;-1;-1;-1;-1;Haapsalu-Ösel
 747;2890;sea;1529;-1;-1;-1;-1;Amapa-Marajo
 782;2869;sea;1539;-1;-1;-1;-1;Tierra Del Fuego-Florida Blanca
 778;2851;sea;1536;-1;-1;-1;-1;Rio de la Plata-Colonia

@@ -1768,12 +1768,12 @@ country_event = {
                 limit = {
                     is_subject_of = BUR
                     OR = {
-                        culture = dutch
-                        culture = flemish
-                        culture = frisian
-                        culture = ger_dutch #VU addition by Quonton
-                        culture = ger_flemish #VU addition by Quonton
-                        culture = ger_frisian #VU addition by Quonton
+                        primary_culture = dutch
+                        primary_culture = flemish
+                        primary_culture = frisian
+                        primary_culture = ger_dutch #VU addition by Quonton
+                        primary_culture = ger_flemish #VU addition by Quonton
+                        primary_culture = ger_frisian #VU addition by Quonton
                         is_part_of_hre = yes
                     }
                 }

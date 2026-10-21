@@ -1706,7 +1706,7 @@
  AVAILABLE_BECAUSE_OF_REFORM_KOPRULU_DYNASTY: "Available due to the §YKoprulu Dynasty§! ."
  AVAILABLE_BECAUSE_OF_REFORM_THEOCRATIC_BUREACRATS: "Available due to §YTheocratic Bureaucrats§! ."
  AVAILABLE_BECAUSE_OF_REFORM_MILLET: "Available due to the §YMillet System§! ."
- AVAILABLE_BECAUSE_OF_REFORM_ENFORCE_PRIVILEGES: "Available due to §YEnforce Noble Privileges§ !."
+ AVAILABLE_BECAUSE_OF_REFORM_ENFORCE_PRIVILEGES: "Available due to §YEnforce Noble Privileges§!."
  AVAILABLE_BECAUSE_OF_REFORM_GROWTH_SIGNORIA: "Available due to the §YGrowth of the Signoria§! ."
  AVAILABLE_BECAUSE_OF_REFORM_AKRITAI_PRIVILEGES: "Available due to the §YAkritai Privileges§! ."
  AVAILABLE_BECAUSE_OF_REFORM_COUNCIL_OF_SHEIKHS: "Available due to the §YCouncil of Sheikhs§! ."
@@ -1731,20 +1731,20 @@
  AVAILABLE_BECAUSE_OF_REFORM_CENTRALIZING: "Available due to §YCentralizing Reforms§! ."
  AVAILABLE_BECAUSE_OF_REFORM_NOBLE_ADMINISTRATORS: "Available due to §YNobles in the Administration§! ."
  
- AVAILABLE_BECAUSE_OF_REFORM_INTERNAL_MISSION: "Available due to §YInternal Mission§ ."
- AVAILABLE_BECAUSE_OF_REFORM_EXTERNAL_MISSION: "Available due to §YExternal Mission§ ."
- AVAILABLE_BECAUSE_OF_REFORM_SAFEGUARD_HOLY_SITES: "Available due to §YSafeguard Holy Sites§ ."
- AVAILABLE_BECAUSE_OF_REFORM_EXPELL_HEATHENS: "Available due to §YExpell Heathens§ ."
- AVAILABLE_BECAUSE_OF_REFORM_COMBAT_HERESY: "Available due to §YCombat Heresy§ ."
+ AVAILABLE_BECAUSE_OF_REFORM_INTERNAL_MISSION: "Available due to §YInternal Mission§!."
+ AVAILABLE_BECAUSE_OF_REFORM_EXTERNAL_MISSION: "Available due to §YExternal Mission§!."
+ AVAILABLE_BECAUSE_OF_REFORM_SAFEGUARD_HOLY_SITES: "Available due to §YSafeguard Holy Sites§!."
+ AVAILABLE_BECAUSE_OF_REFORM_EXPELL_HEATHENS: "Available due to §YExpell Heathens§!."
+ AVAILABLE_BECAUSE_OF_REFORM_COMBAT_HERESY: "Available due to §YCombat Heresy§!."
  
- AVAILABLE_BECAUSE_OF_REFORM_FREQUENT_ELECTIONS: "Available due to §YFrequent Elections§ ."
- AVAILABLE_BECAUSE_OF_REFORM_DEVOLUTION_OF_POWERS: "Available due to §YDevolution of Powers§ ."
+ AVAILABLE_BECAUSE_OF_REFORM_FREQUENT_ELECTIONS: "Available due to §YFrequent Elections§!."
+ AVAILABLE_BECAUSE_OF_REFORM_DEVOLUTION_OF_POWERS: "Available due to §YDevolution of Powers§!."
  
  #VU addition by San Felipe
  GET_RID_OF_THE_NOBLES: "Available due to §YDisabling Noble Estate§! ."
  
  
- AVAILABLE_BECAUSE_OF_TAG_NED: "Available due to being the §YNetherlands§ ."
+ AVAILABLE_BECAUSE_OF_TAG_NED: "Available due to being the §YNetherlands§!."
 
  RAJPUT_REGIMENT: "Elite Regiment\n$EFFECT$"
  ONLY_RAJPUT_MODIFIER: "§YAffects only Elite Regiments§!"

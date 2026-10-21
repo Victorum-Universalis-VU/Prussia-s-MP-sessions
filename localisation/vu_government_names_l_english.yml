@@ -498,7 +498,7 @@
  lezhe_league_member_title_plural: "Lezhe League Members"
  lezhe_league_member_overlord: "Lezhe League Member Overlord"
  lezhe_league_member_subject: "Lezhe League Member Subject"
- lezhe_league_member_is_our: "§Y$NAME$§ is our Lezhe League Member."
+ lezhe_league_member_is_our: "§Y$NAME$§! is our Lezhe League Member."
 
  #BOSNIAN BANAT-KINGDOM
  bosnian_banat_kingdom: "Bosnian Banat-Kingdom"
@@ -507,7 +507,7 @@
  bosnian_banat_kingdom_title_plural: "Bosnian Banat-Kingdoms"
  bosnian_banat_kingdom_overlord: "Bosnian Banat-Kingdom Overlord"
  bosnian_banat_kingdom_subject: "Bosnian Banat-Kingdom Subject"
- bosnian_banat_kingdom_is_our: "§Y$NAME$§ is our Bosnian Banat-Kingdom."
+ bosnian_banat_kingdom_is_our: "§Y$NAME$§! is our Bosnian Banat-Kingdom."
 
  #SLAVIC VOJVODINA
  slavic_vojvodina: "Slavic Vojvodina"
@@ -516,7 +516,7 @@
  slavic_vojvodina_title_plural: "Slavic Vojvodinas"
  slavic_vojvodina_overlord: "Slavic Vojvodina Overlord"
  slavic_vojvodina_subject: "Slavic Vojvodina Subject"
- slavic_vojvodina_is_our: "§Y$NAME$§ is our Slavic Vojvodina."
+ slavic_vojvodina_is_our: "§Y$NAME$§! is our Slavic Vojvodina."
 
  #ANGLOIS
  anglois_lordship: "Lordship"
@@ -525,7 +525,7 @@
  anglois_lordship_title_plural: "Lordships"
  anglois_lordship_overlord: "Lordship Overlord"
  anglois_lordship_subject: "Lordship Subject"
- anglois_lordship_is_our: "§Y$NAME$§ is our Lordship."
+ anglois_lordship_is_our: "§Y$NAME$§! is our Lordship."
 
  anglois_barony: "Barony"
  anglois_barony_long_desc: "A Barony subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Barony subjects can fight each other."
@@ -533,7 +533,7 @@
  anglois_barony_title_plural: "Baronies"
  anglois_barony_overlord: "Barony Overlord"
  anglois_barony_subject: "Barony Subject"
- anglois_barony_is_our: "§Y$NAME$§ is our Barony."
+ anglois_barony_is_our: "§Y$NAME$§! is our Barony."
 
  anglois_viscounty: "Viscounty"
  anglois_viscounty_long_desc: "A Viscounty subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Viscounty subjects can fight each other."
@@ -541,7 +541,7 @@
  anglois_viscounty_title_plural: "Viscounties"
  anglois_viscounty_overlord: "Viscounty Overlord"
  anglois_viscounty_subject: "Viscounty Subject"
- anglois_viscounty_is_our: "§Y$NAME$§ is our Viscounty."
+ anglois_viscounty_is_our: "§Y$NAME$§! is our Viscounty."
 
  anglois_county: "County"
  anglois_county_long_desc: "A County subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. County subjects can fight each other."
@@ -549,7 +549,7 @@
  anglois_county_title_plural: "Counties"
  anglois_county_overlord: "County Overlord"
  anglois_county_subject: "County Subject"
- anglois_county_is_our: "§Y$NAME$§ is our County."
+ anglois_county_is_our: "§Y$NAME$§! is our County."
  
  anglois_marquisate: "Marquisate"
  anglois_marquisate_long_desc: "A Marquisate subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquisate subjects can no longer fight each other."
@@ -557,7 +557,7 @@
  anglois_marquisate_title_plural: "Marquisates"
  anglois_marquisate_overlord: "Marquisate Overlord"
  anglois_marquisate_subject: "Marquisate Subject"
- anglois_marquisate_is_our: "§Y$NAME$§ is our Marquisate."
+ anglois_marquisate_is_our: "§Y$NAME$§! is our Marquisate."
 
  anglois_duchy: "Duchy"
  anglois_duchy_long_desc: "A Duchy subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Duchy subjects can no longer fight each other."
@@ -565,7 +565,7 @@
  anglois_duchy_title_plural: "Duchies"
  anglois_duchy_overlord: "Duchy Overlord"
  anglois_duchy_subject: "Duchy Subject"
- anglois_duchy_is_our: "§Y$NAME$§ is our Duchy."
+ anglois_duchy_is_our: "§Y$NAME$§! is our Duchy."
 
  anglois_principality: "Principality"
  anglois_principality_long_desc: "A Principality subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Principality subjects can no longer fight each other."
@@ -573,7 +573,7 @@
  anglois_principality_title_plural: "Principalities"
  anglois_principality_overlord: "Principality Overlord"
  anglois_principality_subject: "Principality Subject"
- anglois_principality_is_our: "§Y$NAME$§ is our Principality."
+ anglois_principality_is_our: "§Y$NAME$§! is our Principality."
  
  anglois_kingdom: "Kingdom"
  anglois_kingdom_long_desc: "A Kingdom subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Kingdom subjects can no longer fight each other."
@@ -581,7 +581,7 @@
  anglois_kingdom_title_plural: "Kingdoms"
  anglois_kingdom_overlord: "Kingdom Overlord"
  anglois_kingdom_subject: "Kingdom Subject"
- anglois_kingdom_is_our: "§Y$NAME$§ is our Kingdom."
+ anglois_kingdom_is_our: "§Y$NAME$§! is our Kingdom."
 
  #######################################################################################################################################################
 
@@ -599,7 +599,7 @@
  aragonese_barony_title_plural: "Baronias"
  aragonese_barony_overlord: "Baronia Overlord"
  aragonese_barony_subject: "Baronia Subject"
- aragonese_barony_is_our: "§Y$NAME$§ is our ."
+ aragonese_barony_is_our: "§Y$NAME$§! is our ."
 
  aragonese_viscounty: "Vescomtat"
  aragonese_viscounty_long_desc: "A Vescomtat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Vescomtat subjects can fight each other."
@@ -607,7 +607,7 @@
  aragonese_viscounty_title_plural: "Vescomtats"
  aragonese_viscounty_overlord: "Vescomtat Overlord"
  aragonese_viscounty_subject: "Vescomtat Subject"
- aragonese_viscounty_is_our: "§Y$NAME$§ is our Vescomtat."
+ aragonese_viscounty_is_our: "§Y$NAME$§! is our Vescomtat."
 
  aragonese_county: "Comtat"
  aragonese_county_long_desc: "A Comtat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Comtat subjects can fight each other."
@@ -615,7 +615,7 @@
  aragonese_county_title_plural: "Comtats"
  aragonese_county_overlord: "Comtat Overlord"
  aragonese_county_subject: "Comtat Subject"
- aragonese_county_is_our: "§Y$NAME$§ is our Comtat."
+ aragonese_county_is_our: "§Y$NAME$§! is our Comtat."
  
  aragonese_marquisate: "Marquesat"
  aragonese_marquisate_long_desc: "A Marquesat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquesat subjects can no longer fight each other."
@@ -623,7 +623,7 @@
  aragonese_marquisate_title_plural: "Marquesats"
  aragonese_marquisate_overlord: "Marquesat Overlord"
  aragonese_marquisate_subject: "Marquesat Subject"
- aragonese_marquisate_is_our: "§Y$NAME$§ is our Marquesat."
+ aragonese_marquisate_is_our: "§Y$NAME$§! is our Marquesat."
  
  aragonese_duchy: "Ducat"
  aragonese_duchy_long_desc: "A Ducat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Ducat subjects can no longer fight each other."
@@ -631,7 +631,7 @@
  aragonese_duchy_title_plural: "Ducats"
  aragonese_duchy_overlord: "Ducat Overlord"
  aragonese_duchy_subject: "Ducat Subject"
- aragonese_duchy_is_our: "§Y$NAME$§ is our Ducat."
+ aragonese_duchy_is_our: "§Y$NAME$§! is our Ducat."
  
  aragonese_principality: "Principat"
  aragonese_principality_long_desc: "A Principat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Principat subjects can no longer fight each other."
@@ -647,7 +647,7 @@
  aragonese_kingdom_title_plural: "Regnes"
  aragonese_kingdom_overlord: "Regne Overlord"
  aragonese_kingdom_subject: "Regne Subject"
- aragonese_kingdom_is_our: "§Y$NAME$§ is our Regne."
+ aragonese_kingdom_is_our: "§Y$NAME$§! is our Regne."
 
  #######################################################################################################################################################
  
@@ -658,7 +658,7 @@
  christian_abbacy_title_plural: "Abbacies"
  christian_abbacy_overlord: "Abbacy Overlord"
  christian_abbacy_subject: "Abbacy Subject"
- christian_abbacy_is_our: "§Y$NAME$§ is our Abbacy."
+ christian_abbacy_is_our: "§Y$NAME$§! is our Abbacy."
 
  andoran_co_prince_abbacy: "Co-prince Abbacy"
  andoran_co_prince_abbacy_long_desc: "A Co-prince Abbacy or Príncep Abadia subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Co-prince Abbacy subjects cannot fight each other."
@@ -666,7 +666,7 @@
  andoran_co_prince_abbacy_title_plural: "Co-prince Abbacies"
  andoran_co_prince_abbacy_overlord: "Co-prince Abbacy Overlord"
  andoran_co_prince_abbacy_subject: "Co-prince Abbacy Subject"
- andoran_co_prince_abbacy_is_our: "§Y$NAME$§ is our Co-prince Abbacy."
+ andoran_co_prince_abbacy_is_our: "§Y$NAME$§! is our Co-prince Abbacy."
  
  christian_bishopric: "Bishopric"
  christian_bishopric_long_desc: "A Bishopric subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Bishopric subjects cannot fight each other."
@@ -674,7 +674,7 @@
  christian_bishopric_title_plural: "Bishoprics"
  christian_bishopric_overlord: "Bishopric Overlord"
  christian_bishopric_subject: "Bishopric Subject"
- christian_bishopric_is_our: "§Y$NAME$§ is our Bishopric."
+ christian_bishopric_is_our: "§Y$NAME$§! is our Bishopric."
 
  andoran_co_prince_bishopric: "Co-prince Bishopric"
  andoran_co_prince_bishopric_long_desc: "A Co-prince Bishopric or Príncep Bisbat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Co-prince Bishopric subjects cannot fight each other."
@@ -682,7 +682,7 @@
  andoran_co_prince_bishopric_title_plural: "Co-prince Bishoprics"
  andoran_co_prince_bishopric_overlord: "Co-prince Bishopric Overlord"
  andoran_co_prince_bishopric_subject: "Co-prince Bishopric Subject"
- andoran_co_prince_bishopric_is_our: "§Y$NAME$§ is our Co-prince Bishopric."
+ andoran_co_prince_bishopric_is_our: "§Y$NAME$§! is our Co-prince Bishopric."
 
  christian_archbishopric: "Archbishopric"
  christian_archbishopric_long_desc: "An Archbishopric subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Archbishopric subjects cannot fight each other."
@@ -690,7 +690,7 @@
  christian_archbishopric_title_plural: "Archbishoprics"
  christian_archbishopric_overlord: "Archbishopric Overlord"
  christian_archbishopric_subject: "Archbishopric Subject"
- christian_archbishopric_is_our: "§Y$NAME$§ is our Archbishopric."
+ christian_archbishopric_is_our: "§Y$NAME$§! is our Archbishopric."
 
  andoran_co_prince_archbishopric: "Co-prince Archbishopric"
  andoran_co_prince_archbishopric_long_desc: "A Co-prince Archbishopric or Príncep Arquebisbat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Co-prince Archbishopric subjects cannot fight each other."
@@ -698,7 +698,7 @@
  andoran_co_prince_archbishopric_title_plural: "Co-prince Archbishoprics"
  andoran_co_prince_archbishopric_overlord: "Co-prince Archbishopric Overlord"
  andoran_co_prince_archbishopric_subject: "Co-prince Archbishopric Subject"
- andoran_co_prince_archbishopric_is_our: "§Y$NAME$§ is our Co-prince Archbishopric."
+ andoran_co_prince_archbishopric_is_our: "§Y$NAME$§! is our Co-prince Archbishopric."
 
  #######################################################################################################################################################
  
@@ -716,7 +716,7 @@
  austrian_barony_title_plural: "Baronies"
  austrian_barony_overlord: "Baronie Overlord"
  austrian_barony_subject: "Baronie Subject"
- austrian_barony_is_our: "§Y$NAME$§ is our Baronie."
+ austrian_barony_is_our: "§Y$NAME$§! is our Baronie."
 
  austrian_viscounty: "Burgraf"
  austrian_viscounty_long_desc: "A Burgraf subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Burgraf subjects can fight each other."
@@ -724,7 +724,7 @@
  austrian_viscounty_title_plural: "Burgrafs"
  austrian_viscounty_overlord: "Burgraf Overlord"
  austrian_viscounty_subject: "Burgraf Subject"
- austrian_viscounty_is_our: "§Y$NAME$§ is our Burgraf."
+ austrian_viscounty_is_our: "§Y$NAME$§! is our Burgraf."
 
  austrian_county: "Graf"
  austrian_county_long_desc: "A Graf subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Graf subjects can fight each other."
@@ -732,7 +732,7 @@
  austrian_county_title_plural: "Grafs"
  austrian_county_overlord: "Graf Overlord"
  austrian_county_subject: "Graf Subject"
- austrian_county_is_our: "§Y$NAME$§ is our Graf."
+ austrian_county_is_our: "§Y$NAME$§! is our Graf."
  
  austrian_marquisate: "Marquise"
  austrian_marquisate_long_desc: "A Marquise subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquise subjects can no longer fight each other."
@@ -740,7 +740,7 @@
  austrian_marquisate_title_plural: "Marquises"
  austrian_marquisate_overlord: "Marquise Overlord"
  austrian_marquisate_subject: "Marquise Subject"
- austrian_marquisate_is_our: "§Y$NAME$§ is our Marquise."
+ austrian_marquisate_is_our: "§Y$NAME$§! is our Marquise."
  
  austrian_duchy: "Herzogtum"
  austrian_duchy_long_desc: "A Herzogtum subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Herzogtum subjects can no longer fight each other."
@@ -748,7 +748,7 @@
  austrian_duchy_title_plural: "Herzogtums"
  austrian_duchy_overlord: "Herzogtum Overlord"
  austrian_duchy_subject: "Herzogtum Subject"
- austrian_duchy_is_our: "§Y$NAME$§ is our Herzogtum."
+ austrian_duchy_is_our: "§Y$NAME$§! is our Herzogtum."
  
  austrian_principality: "Fürstentum"
  austrian_principality_long_desc: "A Fürstentum subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Fürstentum subjects can no longer fight each other."
@@ -764,7 +764,7 @@
  austrian_kingdom_title_plural: "Konigreichs"
  austrian_kingdom_overlord: "Konigreich Overlord"
  austrian_kingdom_subject: "Konigreich Subject"
- austrian_kingdom_is_our: "§Y$NAME$§ is our Konigreich."
+ austrian_kingdom_is_our: "§Y$NAME$§! is our Konigreich."
 
  #######################################################################################################################################################
 
@@ -782,7 +782,7 @@
  baltic_barony_title_plural: "Baronijas"
  baltic_barony_overlord: "Baronija Overlord"
  baltic_barony_subject: "Baronija Subject"
- baltic_barony_is_our: "§Y$NAME$§ is our Baronija."
+ baltic_barony_is_our: "§Y$NAME$§! is our Baronija."
 
  baltic_viscounty: "Viskas"
  baltic_viscounty_long_desc: "A Viskas subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Viskas subjects can fight each other."
@@ -790,7 +790,7 @@
  baltic_viscounty_title_plural: "Viskas"
  baltic_viscounty_overlord: "Viskas Overlord"
  baltic_viscounty_subject: "Viskas Subject"
- baltic_viscounty_is_our: "§Y$NAME$§ is our Viskas."
+ baltic_viscounty_is_our: "§Y$NAME$§! is our Viskas."
 
  baltic_county: "Grafyste"
  baltic_county_long_desc: "A Grafyste subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Grafyste subjects can fight each other."
@@ -798,7 +798,7 @@
  baltic_county_title_plural: "Grafystes"
  baltic_county_overlord: "Grafyste Overlord"
  baltic_county_subject: "Grafyste Subject"
- baltic_county_is_our: "§Y$NAME$§ is our Grafyste."
+ baltic_county_is_our: "§Y$NAME$§! is our Grafyste."
  
  baltic_marquisate: "Markize"
  baltic_marquisate_long_desc: "A Markize subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markize subjects can no longer fight each other."
@@ -806,7 +806,7 @@
  baltic_marquisate_title_plural: "Markizes"
  baltic_marquisate_overlord: "Markize Overlord"
  baltic_marquisate_subject: "Markize Subject"
- baltic_marquisate_is_our: "§Y$NAME$§ is our Markize."
+ baltic_marquisate_is_our: "§Y$NAME$§! is our Markize."
  
  baltic_duchy: "Hercogyste"
  baltic_duchy_long_desc: "A Hercogyste subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hercogyste subjects can no longer fight each other."
@@ -814,7 +814,7 @@
  baltic_duchy_title_plural: "Hercogystes"
  baltic_duchy_overlord: "Hercogyste Overlord"
  baltic_duchy_subject: "Hercogyste Subject"
- baltic_duchy_is_our: "§Y$NAME$§ is our Hercogyste."
+ baltic_duchy_is_our: "§Y$NAME$§! is our Hercogyste."
  
  baltic_principality: "Kunigaikstyste"
  baltic_principality_long_desc: "A Kunigaikstyste subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Kunigaikstyste subjects can no longer fight each other."
@@ -830,7 +830,7 @@
  baltic_kingdom_title_plural: "Karalystes"
  baltic_kingdom_overlord: "Karalyste Overlord"
  baltic_kingdom_subject: "Karalyste Subject"
- baltic_kingdom_is_our: "§Y$NAME$§ is our Karalyste."
+ baltic_kingdom_is_our: "§Y$NAME$§! is our Karalyste."
 
  #######################################################################################################################################################
 
@@ -848,7 +848,7 @@
  belgian_barony_title_plural: "Baronies"
  belgian_barony_overlord: "Baronie Overlord"
  belgian_barony_subject: "Baronie Subject"
- belgian_barony_is_our: "§Y$NAME$§ is our Baronie."
+ belgian_barony_is_our: "§Y$NAME$§! is our Baronie."
 
  belgian_viscounty: "Burggraafschap"
  belgian_viscounty_long_desc: "A Burggraafschap subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Burggraafschap subjects can fight each other."
@@ -856,7 +856,7 @@
  belgian_viscounty_title_plural: "Burggraafschaps"
  belgian_viscounty_overlord: "Burggraafschap Overlord"
  belgian_viscounty_subject: "Burggraafschap Subject"
- belgian_viscounty_is_our: "§Y$NAME$§ is our Burggraafschap."
+ belgian_viscounty_is_our: "§Y$NAME$§! is our Burggraafschap."
  
  belgian_county: "Graafschap"
  belgian_county_long_desc: "A Graafschap subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Graafschap subjects can fight each other."
@@ -864,7 +864,7 @@
  belgian_county_title_plural: "Graafschaps"
  belgian_county_overlord: "Graafschap Overlord"
  belgian_county_subject: "Graafschap Subject"
- belgian_county_is_our: "§Y$NAME$§ is our Graafschap."
+ belgian_county_is_our: "§Y$NAME$§! is our Graafschap."
  
  belgian_marquisate: "Markiezaat"
  belgian_marquisate_long_desc: "A Markiezaat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markiezaat subjects can no longer fight each other."
@@ -872,7 +872,7 @@
  belgian_marquisate_title_plural: "Markiezaats"
  belgian_marquisate_overlord: "Markiezaat Overlord"
  belgian_marquisate_subject: "Markiezaat Subject"
- belgian_marquisate_is_our: "§Y$NAME$§ is our Markiezaat."
+ belgian_marquisate_is_our: "§Y$NAME$§! is our Markiezaat."
  
  belgian_duchy: "Hertogdom"
  belgian_duchy_long_desc: "A Hertogdom subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hertogdom subjects can no longer fight each other."
@@ -880,7 +880,7 @@
  belgian_duchy_title_plural: "Hertogdoms"
  belgian_duchy_overlord: "Hertogdom Overlord"
  belgian_duchy_subject: "Hertogdom Subject"
- belgian_duchy_is_our: "§Y$NAME$§ is our Hertogdom."
+ belgian_duchy_is_our: "§Y$NAME$§! is our Hertogdom."
  
  belgian_principality: "Vorstendom"
  belgian_principality_long_desc: "A Vorstendom subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Vorstendom subjects can no longer fight each other."
@@ -896,7 +896,7 @@
  belgian_kingdom_title_plural: "Koninkrijks"
  belgian_kingdom_overlord: "Koninkrijk Overlord"
  belgian_kingdom_subject: "Koninkrijk Subject"
- belgian_kingdom_is_our: "§Y$NAME$§ is our Koninkrijk."
+ belgian_kingdom_is_our: "§Y$NAME$§! is our Koninkrijk."
  
  #######################################################################################################################################################
 
@@ -914,7 +914,7 @@
  bohemian_barony_title_plural: "Svobodné panství"
  bohemian_barony_overlord: "Svobodné panství Overlord"
  bohemian_barony_subject: "Svobodné panství Subject"
- bohemian_barony_is_our: "§Y$NAME$§ is our Svobodné panství."
+ bohemian_barony_is_our: "§Y$NAME$§! is our Svobodné panství."
 
  bohemian_viscounty: "Zemanství"
  bohemian_viscounty_long_desc: "A Zemanství  subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Zemanství subjects can fight each other."
@@ -922,7 +922,7 @@
  bohemian_viscounty_title_plural: "Zemanství"
  bohemian_viscounty_overlord: "Zemanství  Overlord"
  bohemian_viscounty_subject: "Zemanství  Subject"
- bohemian_viscounty_is_our: "§Y$NAME$§ is our Zemanství."
+ bohemian_viscounty_is_our: "§Y$NAME$§! is our Zemanství."
  
  bohemian_county: "Hrabství"
  bohemian_county_long_desc: "A Hrabství subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hrabství subjects can fight each other."
@@ -930,7 +930,7 @@
  bohemian_county_title_plural: "Hrabství"
  bohemian_county_overlord: "Hrabství Overlord"
  bohemian_county_subject: "Hrabství Subject"
- bohemian_county_is_our: "§Y$NAME$§ is our Hrabství."
+ bohemian_county_is_our: "§Y$NAME$§! is our Hrabství."
  
  bohemian_marquisate: "Markýza"
  bohemian_marquisate_long_desc: "A Markýza subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markýza subjects can no longer fight each other."
@@ -938,7 +938,7 @@
  bohemian_marquisate_title_plural: "Markýzas"
  bohemian_marquisate_overlord: "Markýza Overlord"
  bohemian_marquisate_subject: "Markýza Subject"
- bohemian_marquisate_is_our: "§Y$NAME$§ is our Markýza."
+ bohemian_marquisate_is_our: "§Y$NAME$§! is our Markýza."
  
  bohemian_duchy: "Knízectví"
  bohemian_duchy_long_desc: "A Knízectví subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Knízectví subjects can no longer fight each other."
@@ -946,7 +946,7 @@
  bohemian_duchy_title_plural: "Knízectví"
  bohemian_duchy_overlord: "Knízectví Overlord"
  bohemian_duchy_subject: "Knízectví Subject"
- bohemian_duchy_is_our: "§Y$NAME$§ is our Knízectví."
+ bohemian_duchy_is_our: "§Y$NAME$§! is our Knízectví."
  
  bohemian_principality: "Markrabství"
  bohemian_principality_long_desc: "A Markrabství subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markrabství subjects can no longer fight each other."
@@ -962,7 +962,7 @@
  bohemian_kingdom_title_plural: "Kralovstvis"
  bohemian_kingdom_overlord: "Kralovstvi Overlord"
  bohemian_kingdom_subject: "Kralovstvi Subject"
- bohemian_kingdom_is_our: "§Y$NAME$§ is our Kralovstvi."
+ bohemian_kingdom_is_our: "§Y$NAME$§! is our Kralovstvi."
 
  #######################################################################################################################################################
  
@@ -980,7 +980,7 @@
  burgundian_barony_title_plural: "Baronnies"
  burgundian_barony_overlord: "Baronnie Overlord"
  burgundian_barony_subject: "Baronnie Subject"
- burgundian_barony_is_our: "§Y$NAME$§ is our Baronnie."
+ burgundian_barony_is_our: "§Y$NAME$§! is our Baronnie."
  
  burgundian_viscounty: "Vicomté"
  burgundian_viscounty_long_desc: "A Vicomté subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Vicomté subjects can fight each other."
@@ -988,7 +988,7 @@
  burgundian_viscounty_title_plural: "Vicomtés"
  burgundian_viscounty_overlord: "Vicomté Overlord"
  burgundian_viscounty_subject: "Vicomté Subject"
- burgundian_viscounty_is_our: "§Y$NAME$§ is our Vicomté."
+ burgundian_viscounty_is_our: "§Y$NAME$§! is our Vicomté."
 
  burgundian_county: "Comté"
  burgundian_county_long_desc: "A Comté subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Comté subjects can fight each other."
@@ -996,7 +996,7 @@
  burgundian_county_title_plural: "Comtés"
  burgundian_county_overlord: "Comté Overlord"
  burgundian_county_subject: "Comté Subject"
- burgundian_county_is_our: "§Y$NAME$§ is our Comté."
+ burgundian_county_is_our: "§Y$NAME$§! is our Comté."
  
  burgundian_marquisate: "Marquisat"
  burgundian_marquisate_long_desc: "A Marquisat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquisat subjects can no longer fight each other."
@@ -1004,7 +1004,7 @@
  burgundian_marquisate_title_plural: "Marquisats"
  burgundian_marquisate_overlord: "Marquisat Overlord"
  burgundian_marquisate_subject: "Marquisat Subject"
- burgundian_marquisate_is_our: "§Y$NAME$§ is our Marquisat."
+ burgundian_marquisate_is_our: "§Y$NAME$§! is our Marquisat."
  
  burgundian_duchy: "Duche"
  burgundian_duchy_long_desc: "A Duche subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Duche subjects can no longer fight each other."
@@ -1012,7 +1012,7 @@
  burgundian_duchy_title_plural: "Duches"
  burgundian_duchy_overlord: "Duche Overlord"
  burgundian_duchy_subject: "Duche Subject"
- burgundian_duchy_is_our: "§Y$NAME$§ is our Duche."
+ burgundian_duchy_is_our: "§Y$NAME$§! is our Duche."
 
  burgundian_principality: "Principauté"
  burgundian_principality_long_desc: "A Principauté subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Principauté subjects can no longer fight each other."
@@ -1028,7 +1028,7 @@
  burgundian_kingdom_title_plural: "Royaumes"
  burgundian_kingdom_overlord: "Royaume Overlord"
  burgundian_kingdom_subject: "Royaume Subject"
- burgundian_kingdom_is_our: "§Y$NAME$§ is our Royaume."
+ burgundian_kingdom_is_our: "§Y$NAME$§! is our Royaume."
 
  #######################################################################################################################################################
 
@@ -1046,7 +1046,7 @@
  byzantine_barony_title_plural: "Varoneias"
  byzantine_barony_overlord: "Varoneia Overlord"
  byzantine_barony_subject: "Varoneia Subject"
- byzantine_barony_is_our: "§Y$NAME$§ is our Varoneia."
+ byzantine_barony_is_our: "§Y$NAME$§! is our Varoneia."
 
  byzantine_viscounty: "Ypokomiteia"
  byzantine_viscounty_long_desc: "A Ypokomiteia subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Ypokomiteia subjects can fight each other."
@@ -1054,7 +1054,7 @@
  byzantine_viscounty_title_plural: "Ypokomiteias"
  byzantine_viscounty_overlord: "Ypokomiteia Overlord"
  byzantine_viscounty_subject: "Ypokomiteia Subject"
- byzantine_viscounty_is_our: "§Y$NAME$§ is our Ypokomiteia."
+ byzantine_viscounty_is_our: "§Y$NAME$§! is our Ypokomiteia."
  
  byzantine_county: "Komiteia"
  byzantine_county_long_desc: "A Komiteia subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Komiteia subjects can fight each other."
@@ -1062,7 +1062,7 @@
  byzantine_county_title_plural: "Komiteias"
  byzantine_county_overlord: "Komiteia Overlord"
  byzantine_county_subject: "Komiteia Subject"
- byzantine_county_is_our: "§Y$NAME$§ is our Komiteia."
+ byzantine_county_is_our: "§Y$NAME$§! is our Komiteia."
  
  byzantine_marquisate: "Markisia"
  byzantine_marquisate_long_desc: "A Markisia subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markisia subjects can no longer fight each other."
@@ -1070,7 +1070,7 @@
  byzantine_marquisate_title_plural: "Markisias"
  byzantine_marquisate_overlord: "Markisia Overlord"
  byzantine_marquisate_subject: "Markisia Subject"
- byzantine_marquisate_is_our: "§Y$NAME$§ is our Markisia."
+ byzantine_marquisate_is_our: "§Y$NAME$§! is our Markisia."
  
  byzantine_duchy: "Doukato"
  byzantine_duchy_long_desc: "A Doukato subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Doukato subjects can no longer fight each other."
@@ -1078,7 +1078,7 @@
  byzantine_duchy_title_plural: "Doukatos"
  byzantine_duchy_overlord: "Doukato Overlord"
  byzantine_duchy_subject: "Doukato Subject"
- byzantine_duchy_is_our: "§Y$NAME$§ is our Doukato."
+ byzantine_duchy_is_our: "§Y$NAME$§! is our Doukato."
  
  byzantine_principality: "Igemonía"
  byzantine_principality_long_desc: "A Igemonía subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Igemonía subjects can no longer fight each other."
@@ -1094,7 +1094,7 @@
  byzantine_kingdom_title_plural: "Vasileios"
  byzantine_kingdom_overlord: "Vasileio Overlord"
  byzantine_kingdom_subject: "Vasileio Subject"
- byzantine_kingdom_is_our: "§Y$NAME$§ is our Vasileio."
+ byzantine_kingdom_is_our: "§Y$NAME$§! is our Vasileio."
 
  #######################################################################################################################################################
   
@@ -1178,7 +1178,7 @@
  danish_barony_title_plural: "Baronis"
  danish_barony_overlord: "Baroni Overlord"
  danish_barony_subject: "Baroni Subject"
- danish_barony_is_our: "§Y$NAME$§ is our Baroni."
+ danish_barony_is_our: "§Y$NAME$§! is our Baroni."
 
  danish_viscounty: "Jarl"
  danish_viscounty_long_desc: "A Jarl subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Jarl subjects can fight each other."
@@ -1186,7 +1186,7 @@
  danish_viscounty_title_plural: "Jarls"
  danish_viscounty_overlord: "Jarl Overlord"
  danish_viscounty_subject: "Jarl Subject"
- danish_viscounty_is_our: "§Y$NAME$§ is our Jarl."
+ danish_viscounty_is_our: "§Y$NAME$§! is our Jarl."
  
  danish_county: "Amt"
  danish_county_long_desc: "A Amt subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Amt subjects can fight each other."
@@ -1194,7 +1194,7 @@
  danish_county_title_plural: "Amts"
  danish_county_overlord: "Amt Overlord"
  danish_county_subject: "Amt Subject"
- danish_county_is_our: "§Y$NAME$§ is our Amt."
+ danish_county_is_our: "§Y$NAME$§! is our Amt."
  
  danish_marquisate: "Markisatet"
  danish_marquisate_long_desc: "A Markisatet subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markisatet subjects can no longer fight each other."
@@ -1202,7 +1202,7 @@
  danish_marquisate_title_plural: "Markisatets"
  danish_marquisate_overlord: "Markisatet Overlord"
  danish_marquisate_subject: "Markisatet Subject"
- danish_marquisate_is_our: "§Y$NAME$§ is our Markisatet."
+ danish_marquisate_is_our: "§Y$NAME$§! is our Markisatet."
  
  danish_duchy: "Hertugdommet"
  danish_duchy_long_desc: "A Hertugdommet subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hertugdommet subjects can no longer fight each other."
@@ -1210,7 +1210,7 @@
  danish_duchy_title_plural: "Hertugdommets"
  danish_duchy_overlord: "Hertugdommet Overlord"
  danish_duchy_subject: "Hertugdommet Subject"
- danish_duchy_is_our: "§Y$NAME$§ is our Hertugdommet."
+ danish_duchy_is_our: "§Y$NAME$§! is our Hertugdommet."
  
  danish_principality: "Fyrstendømme"
  danish_principality_long_desc: "A Fyrstendømme subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Fyrstendømme subjects can no longer fight each other."
@@ -1226,7 +1226,7 @@
  danish_kingdom_title_plural: "Kongeriges"
  danish_kingdom_overlord: "Kongerige Overlord"
  danish_kingdom_subject: "Kongerige Subject"
- danish_kingdom_is_our: "§Y$NAME$§ is our Kongerige."
+ danish_kingdom_is_our: "§Y$NAME$§! is our Kongerige."
 
  #######################################################################################################################################################
  
@@ -1244,7 +1244,7 @@
  dutch_barony_title_plural: "Baronies"
  dutch_barony_overlord: "Baronie Overlord"
  dutch_barony_subject: "Baronie Subject"
- dutch_barony_is_our: "§Y$NAME$§ is our Baronie."
+ dutch_barony_is_our: "§Y$NAME$§! is our Baronie."
 
  dutch_viscounty: "Burggraafschap"
  dutch_viscounty_long_desc: "A Burggraafschap subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Burggraafschap subjects can fight each other."
@@ -1252,7 +1252,7 @@
  dutch_viscounty_title_plural: "Burggraafschaps"
  dutch_viscounty_overlord: "Burggraafschap Overlord"
  dutch_viscounty_subject: "Burggraafschap Subject"
- dutch_viscounty_is_our: "§Y$NAME$§ is our Burggraafschap."
+ dutch_viscounty_is_our: "§Y$NAME$§! is our Burggraafschap."
  
  dutch_county: "Graafschap"
  dutch_county_long_desc: "A Graafschap subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Graafschap subjects can fight each other."
@@ -1260,7 +1260,7 @@
  dutch_county_title_plural: "Graafschaps"
  dutch_county_overlord: "Graafschap Overlord"
  dutch_county_subject: "Graafschap Subject"
- dutch_county_is_our: "§Y$NAME$§ is our Graafschap."
+ dutch_county_is_our: "§Y$NAME$§! is our Graafschap."
  
  dutch_marquisate: "Markiezaat"
  dutch_marquisate_long_desc: "A Markiezaat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markiezaat subjects can no longer fight each other."
@@ -1268,7 +1268,7 @@
  dutch_marquisate_title_plural: "Markiezaats"
  dutch_marquisate_overlord: "Markiezaat Overlord"
  dutch_marquisate_subject: "Markiezaat Subject"
- dutch_marquisate_is_our: "§Y$NAME$§ is our Markiezaat."
+ dutch_marquisate_is_our: "§Y$NAME$§! is our Markiezaat."
  
  dutch_duchy: "Hertogdom"
  dutch_duchy_long_desc: "A Hertogdom subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hertogdom subjects can no longer fight each other."
@@ -1276,7 +1276,7 @@
  dutch_duchy_title_plural: "Hertogdoms"
  dutch_duchy_overlord: "Hertogdom Overlord"
  dutch_duchy_subject: "Hertogdom Subject"
- dutch_duchy_is_our: "§Y$NAME$§ is our Hertogdom."
+ dutch_duchy_is_our: "§Y$NAME$§! is our Hertogdom."
  
  dutch_principality: "Vorstendom"
  dutch_principality_long_desc: "A Vorstendom subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Vorstendom subjects can no longer fight each other."
@@ -1292,7 +1292,7 @@
  dutch_kingdom_title_plural: "Koninkrijks"
  dutch_kingdom_overlord: "Koninkrijk Overlord"
  dutch_kingdom_subject: "Koninkrijk Subject"
- dutch_kingdom_is_our: "§Y$NAME$§ is our Koninkrijk."
+ dutch_kingdom_is_our: "§Y$NAME$§! is our Koninkrijk."
 
  ######################################################################################################################################################
 
@@ -1376,7 +1376,7 @@
  french_barony_title_plural: "Baronnies"
  french_barony_overlord: "Baronnie Overlord"
  french_barony_subject: "Baronnie Subject"
- french_barony_is_our: "§Y$NAME$§ is our Baronnie."
+ french_barony_is_our: "§Y$NAME$§! is our Baronnie."
 
  french_viscounty: "Vicomté"
  french_viscounty_long_desc: "A Vicomté subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Vicomté subjects can fight each other."
@@ -1384,7 +1384,7 @@
  french_viscounty_title_plural: "Vicomtés"
  french_viscounty_overlord: "Vicomté Overlord"
  french_viscounty_subject: "Vicomté Subject"
- french_viscounty_is_our: "§Y$NAME$§ is our Vicomté."
+ french_viscounty_is_our: "§Y$NAME$§! is our Vicomté."
 
  french_county: "Comté"
  french_county_long_desc: "A Comté subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Comté subjects can fight each other."
@@ -1392,7 +1392,7 @@
  french_county_title_plural: "Comtés"
  french_county_overlord: "Comté Overlord"
  french_county_subject: "Comté Subject"
- french_county_is_our: "§Y$NAME$§ is our Comté."
+ french_county_is_our: "§Y$NAME$§! is our Comté."
  
  french_marquisate: "Marquisat"
  french_marquisate_long_desc: "A Marquisat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquisat subjects can no longer fight each other."
@@ -1400,7 +1400,7 @@
  french_marquisate_title_plural: "Marquisats"
  french_marquisate_overlord: "Marquisat Overlord"
  french_marquisate_subject: "Marquisat Subject"
- french_marquisate_is_our: "§Y$NAME$§ is our Marquisat."
+ french_marquisate_is_our: "§Y$NAME$§! is our Marquisat."
  
  french_duchy: "Duche"
  french_duchy_long_desc: "A Duche subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Duche subjects can no longer fight each other."
@@ -1408,7 +1408,7 @@
  french_duchy_title_plural: "Duches"
  french_duchy_overlord: "Duche Overlord"
  french_duchy_subject: "Duche Subject"
- french_duchy_is_our: "§Y$NAME$§ is our Duche."
+ french_duchy_is_our: "§Y$NAME$§! is our Duche."
 
  french_principality: "Principauté"
  french_principality_long_desc: "A Principauté subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Principauté subjects can no longer fight each other."
@@ -1424,7 +1424,7 @@
  french_kingdom_title_plural: "Royaumes"
  french_kingdom_overlord: "Royaume Overlord"
  french_kingdom_subject: "Royaume Subject"
- french_kingdom_is_our: "§Y$NAME$§ is our Royaume."
+ french_kingdom_is_our: "§Y$NAME$§! is our Royaume."
 
  ######################################################################################################################################################
 
@@ -1442,7 +1442,7 @@
  german_barony_title_plural: "Baronies"
  german_barony_overlord: "Baronie Overlord"
  german_barony_subject: "Baronie Subject"
- german_barony_is_our: "§Y$NAME$§ is our Baronie."
+ german_barony_is_our: "§Y$NAME$§! is our Baronie."
  
  german_viscounty: "Burgraf"
  german_viscounty_long_desc: "A Burgraf subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Burgraf subjects can fight each other."
@@ -1450,7 +1450,7 @@
  german_viscounty_title_plural: "Burgrafs"
  german_viscounty_overlord: "Burgraf Overlord"
  german_viscounty_subject: "Burgraf Subject"
- german_viscounty_is_our: "§Y$NAME$§ is our Burgraf."
+ german_viscounty_is_our: "§Y$NAME$§! is our Burgraf."
 
  german_county: "Graf"
  german_county_long_desc: "A Graf subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Graf subjects can fight each other."
@@ -1458,7 +1458,7 @@
  german_county_title_plural: "Grafs"
  german_county_overlord: "Graf Overlord"
  german_county_subject: "Graf Subject"
- german_county_is_our: "§Y$NAME$§ is our Graf."
+ german_county_is_our: "§Y$NAME$§! is our Graf."
  
  german_marquisate: "Marquise"
  german_marquisate_long_desc: "A Marquise subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquise subjects can no longer fight each other."
@@ -1466,7 +1466,7 @@
  german_marquisate_title_plural: "Marquises"
  german_marquisate_overlord: "Marquise Overlord"
  german_marquisate_subject: "Marquise Subject"
- german_marquisate_is_our: "§Y$NAME$§ is our Marquise."
+ german_marquisate_is_our: "§Y$NAME$§! is our Marquise."
  
  german_duchy: "Herzogtum"
  german_duchy_long_desc: "A Herzogtum subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Herzogtum subjects can no longer fight each other."
@@ -1474,7 +1474,7 @@
  german_duchy_title_plural: "Herzogtums"
  german_duchy_overlord: "Herzogtum Overlord"
  german_duchy_subject: "Herzogtum Subject"
- german_duchy_is_our: "§Y$NAME$§ is our Herzogtum."
+ german_duchy_is_our: "§Y$NAME$§! is our Herzogtum."
 
  german_principality: "Fürstentum"
  german_principality_long_desc: "A Fürstentum subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Fürstentum subjects can no longer fight each other."
@@ -1490,7 +1490,7 @@
  german_kingdom_title_plural: "Konigreichs"
  german_kingdom_overlord: "Konigreich Overlord"
  german_kingdom_subject: "Konigreich Subject"
- german_kingdom_is_our: "§Y$NAME$§ is our Konigreich."
+ german_kingdom_is_our: "§Y$NAME$§! is our Konigreich."
 
  ######################################################################################################################################################
  
@@ -1508,7 +1508,7 @@
  hungarian_barony_title_plural: "Barosags"
  hungarian_barony_overlord: "Barosag Overlord"
  hungarian_barony_subject: "Barosag Subject"
- hungarian_barony_is_our: "§Y$NAME$§ is our Barosag."
+ hungarian_barony_is_our: "§Y$NAME$§! is our Barosag."
 
  hungarian_viscounty: "Magnas"
  hungarian_viscounty_long_desc: "A Magnas subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Magnas subjects can fight each other."
@@ -1516,7 +1516,7 @@
  hungarian_viscounty_title_plural: "Magnass"
  hungarian_viscounty_overlord: "Magnas Overlord"
  hungarian_viscounty_subject: "Magnas Subject"
- hungarian_viscounty_is_our: "§Y$NAME$§ is our Magnas."
+ hungarian_viscounty_is_our: "§Y$NAME$§! is our Magnas."
  
  hungarian_county: "Megye"
  hungarian_county_long_desc: "A Megye subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Megye subjects can fight each other."
@@ -1524,7 +1524,7 @@
  hungarian_county_title_plural: "Megyes"
  hungarian_county_overlord: "Megye Overlord"
  hungarian_county_subject: "Megye Subject"
- hungarian_county_is_our: "§Y$NAME$§ is our Megye."
+ hungarian_county_is_our: "§Y$NAME$§! is our Megye."
  
  hungarian_marquisate: "Urgrof"
  hungarian_marquisate_long_desc: "A Urgrof subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Urgrof subjects can no longer fight each other."
@@ -1532,7 +1532,7 @@
  hungarian_marquisate_title_plural: "Urgrofs"
  hungarian_marquisate_overlord: "Urgrof Overlord"
  hungarian_marquisate_subject: "Urgrof Subject"
- hungarian_marquisate_is_our: "§Y$NAME$§ is our Urgrof."
+ hungarian_marquisate_is_our: "§Y$NAME$§! is our Urgrof."
  
  hungarian_duchy: "Hercegseg"
  hungarian_duchy_long_desc: "A Hercegseg subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hercegseg subjects can no longer fight each other."
@@ -1540,7 +1540,7 @@
  hungarian_duchy_title_plural: "Hercegsegs"
  hungarian_duchy_overlord: "Hercegseg Overlord"
  hungarian_duchy_subject: "Hercegseg Subject"
- hungarian_duchy_is_our: "§Y$NAME$§ is our Hercegseg."
+ hungarian_duchy_is_our: "§Y$NAME$§! is our Hercegseg."
 
  hungarian_principality: "Fejedelemség"
  hungarian_principality_long_desc: "A Fejedelemség subject must follow their overlord to war, cannot make certain diplomatic actions and will pay a fraction of their income to their overlord. Fejedelemség subjects can also fight each other."
@@ -1556,7 +1556,7 @@
  hungarian_kingdom_title_plural: "Kiralysags"
  hungarian_kingdom_overlord: "Kiralysag Overlord"
  hungarian_kingdom_subject: "Kiralysag Subject"
- hungarian_kingdom_is_our: "§Y$NAME$§ is our Kiralysag."
+ hungarian_kingdom_is_our: "§Y$NAME$§! is our Kiralysag."
 
  ######################################################################################################################################################
  
@@ -1574,7 +1574,7 @@
  italian_barony_title_plural: "Baronias"
  italian_barony_overlord: "Baronia Overlord"
  italian_barony_subject: "Baronia Subject"
- italian_barony_is_our: "§Y$NAME$§ is our Baronia."
+ italian_barony_is_our: "§Y$NAME$§! is our Baronia."
 
  italian_viscounty: "Viscontea"
  italian_viscounty_long_desc: "A Viscontea subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Viscontea subjects can fight each other."
@@ -1582,7 +1582,7 @@
  italian_viscounty_title_plural: "Visconteas"
  italian_viscounty_overlord: "Viscontea Overlord"
  italian_viscounty_subject: "Viscontea Subject"
- italian_viscounty_is_our: "§Y$NAME$§ is our Viscontea."
+ italian_viscounty_is_our: "§Y$NAME$§! is our Viscontea."
  
  italian_county: "Contea"
  italian_county_long_desc: "A Contea subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Contea subjects can fight each other."
@@ -1590,7 +1590,7 @@
  italian_county_title_plural: "Conteas"
  italian_county_overlord: "Contea Overlord"
  italian_county_subject: "Contea Subject"
- italian_county_is_our: "§Y$NAME$§ is our Contea."
+ italian_county_is_our: "§Y$NAME$§! is our Contea."
  
  italian_marquisate: "Marchesato"
  italian_marquisate_long_desc: "A Marchesato subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marchesato subjects can no longer fight each other."
@@ -1598,7 +1598,7 @@
  italian_marquisate_title_plural: "Marchesatos"
  italian_marquisate_overlord: "Marchesato Overlord"
  italian_marquisate_subject: "Marchesato Subject"
- italian_marquisate_is_our: "§Y$NAME$§ is our Marchesato."
+ italian_marquisate_is_our: "§Y$NAME$§! is our Marchesato."
  
  italian_duchy: "Ducato"
  italian_duchy_long_desc: "A Ducato subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Ducato subjects can no longer fight each other."
@@ -1606,7 +1606,7 @@
  italian_duchy_title_plural: "Ducatos"
  italian_duchy_overlord: "Ducato Overlord"
  italian_duchy_subject: "Ducato Subject"
- italian_duchy_is_our: "§Y$NAME$§ is our Ducato."
+ italian_duchy_is_our: "§Y$NAME$§! is our Ducato."
  
  italian_principality: "Principato"
  italian_principality_long_desc: "A Principato subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Principato subjects can no longer fight each other."
@@ -1622,7 +1622,7 @@
  italian_kingdom_title_plural: "Regnos"
  italian_kingdom_overlord: "Regno Overlord"
  italian_kingdom_subject: "Regno Subject"
- italian_kingdom_is_our: "§Y$NAME$§ is our Regno."
+ italian_kingdom_is_our: "§Y$NAME$§! is our Regno."
 
  #######################################################################################################################################################
 
@@ -1633,7 +1633,7 @@
  lithuanian_lordship_march_title_plural: "Bajorai"
  lithuanian_lordship_march_overlord: "Bajoras Overlord"
  lithuanian_lordship_march_subject: "Bajoras Subject"
- lithuanian_lordship_march_is_our: "§Y$NAME$§ is our Bajoras."
+ lithuanian_lordship_march_is_our: "§Y$NAME$§! is our Bajoras."
 
  lithuanian_duchy: "Seimas"
  lithuanian_duchy_long_desc: "A Seimas subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Seimas subjects can no longer fight each other."
@@ -1641,7 +1641,7 @@
  lithuanian_duchy_title_plural: "Seimai"
  lithuanian_duchy_overlord: "Seimas Overlord"
  lithuanian_duchy_subject: "Seimas Subject"
- lithuanian_duchy_is_our: "§Y$NAME$§ is our Seimas."
+ lithuanian_duchy_is_our: "§Y$NAME$§! is our Seimas."
  
  lithuanian_principality: "Magnatas"
  lithuanian_principality_long_desc: "A Magnatas subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Magnatas subjects can no longer fight each other."
@@ -1677,7 +1677,7 @@
  norwegian_barony_title_plural: "Baronis"
  norwegian_barony_overlord: "Baroni Overlord"
  norwegian_barony_subject: "Baroni Subject"
- norwegian_barony_is_our: "§Y$NAME$§ is our Baroni."
+ norwegian_barony_is_our: "§Y$NAME$§! is our Baroni."
 
  norwegian_viscounty: "Jarl"
  norwegian_viscounty_long_desc: "A Jarl subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Jarl subjects can fight each other."
@@ -1685,7 +1685,7 @@
  norwegian_viscounty_title_plural: "Jarls"
  norwegian_viscounty_overlord: "Jarl Overlord"
  norwegian_viscounty_subject: "Jarl Subject"
- norwegian_viscounty_is_our: "§Y$NAME$§ is our Jarl."
+ norwegian_viscounty_is_our: "§Y$NAME$§! is our Jarl."
 
  norwegian_county: "Fylke"
  norwegian_county_long_desc: "A Fylke subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Fylke subjects can fight each other."
@@ -1693,7 +1693,7 @@
  norwegian_county_title_plural: "Fylkes"
  norwegian_county_overlord: "Fylke Overlord"
  norwegian_county_subject: "Fylke Subject"
- norwegian_county_is_our: "§Y$NAME$§ is our Fylke."
+ norwegian_county_is_our: "§Y$NAME$§! is our Fylke."
  
  norwegian_marquisate: "Markisatet"
  norwegian_marquisate_long_desc: "A Markisatet subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markisatet subjects can no longer fight each other."
@@ -1701,7 +1701,7 @@
  norwegian_marquisate_title_plural: "Markisatets"
  norwegian_marquisate_overlord: "Markisatet Overlord"
  norwegian_marquisate_subject: "Markisatet Subject"
- norwegian_marquisate_is_our: "§Y$NAME$§ is our Markisatet."
+ norwegian_marquisate_is_our: "§Y$NAME$§! is our Markisatet."
  
  norwegian_duchy: "Hertugdommet"
  norwegian_duchy_long_desc: "A Hertugdommet subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hertugdommet subjects can no longer fight each other."
@@ -1709,7 +1709,7 @@
  norwegian_duchy_title_plural: "Hertugdommets"
  norwegian_duchy_overlord: "Hertugdommet Overlord"
  norwegian_duchy_subject: "Hertugdommet Subject"
- norwegian_duchy_is_our: "§Y$NAME$§ is our Hertugdommet."
+ norwegian_duchy_is_our: "§Y$NAME$§! is our Hertugdommet."
  
  norwegian_principality: "Fyrstedømme"
  norwegian_principality_long_desc: "A Fyrstedømme subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Fyrstedømme subjects can no longer fight each other."
@@ -1725,7 +1725,7 @@
  norwegian_kingdom_title_plural: "Kongedømmes"
  norwegian_kingdom_overlord: "Kongedømme Overlord"
  norwegian_kingdom_subject: "Kongedømme Subject"
- norwegian_kingdom_is_our: "§Y$NAME$§ is our Kongedømme."
+ norwegian_kingdom_is_our: "§Y$NAME$§! is our Kongedømme."
 
  ######################################################################################################################################################
 
@@ -1743,7 +1743,7 @@
  polish_barony_title_plural: "Okregs"
  polish_barony_overlord: "Okreg Overlord"
  polish_barony_subject: "Okreg Subject"
- polish_barony_is_our: "§Y$NAME$§ is our Okreg."
+ polish_barony_is_our: "§Y$NAME$§! is our Okreg."
 
  polish_viscounty: "Wicehrabstwo"
  polish_viscounty_long_desc: "A Wicehrabstwo subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Wicehrabstwo subjects can fight each other."
@@ -1751,7 +1751,7 @@
  polish_viscounty_title_plural: "Wicehrabstwos"
  polish_viscounty_overlord: "Wicehrabstwo Overlord"
  polish_viscounty_subject: "Wicehrabstwo Subject"
- polish_viscounty_is_our: "§Y$NAME$§ is our Wicehrabstwo."
+ polish_viscounty_is_our: "§Y$NAME$§! is our Wicehrabstwo."
  
  polish_county: "Hrabstwo"
  polish_county_long_desc: "A Hrabstwo subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hrabstwo subjects can fight each other."
@@ -1759,7 +1759,7 @@
  polish_county_title_plural: "Hrabstwos"
  polish_county_overlord: "Hrabstwo Overlord"
  polish_county_subject: "Hrabstwo Subject"
- polish_county_is_our: "§Y$NAME$§ is our Hrabstwo."
+ polish_county_is_our: "§Y$NAME$§! is our Hrabstwo."
  
  polish_marquisate: "Markizat"
  polish_marquisate_long_desc: "A Markizat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markizat subjects can no longer fight each other."
@@ -1767,7 +1767,7 @@
  polish_marquisate_title_plural: "Markizats"
  polish_marquisate_overlord: "Markizat Overlord"
  polish_marquisate_subject: "Markizat Subject"
- polish_marquisate_is_our: "§Y$NAME$§ is our Markizat."
+ polish_marquisate_is_our: "§Y$NAME$§! is our Markizat."
  
  polish_duchy: "Voivode"
  polish_duchy_long_desc: "A Voivode subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Voivode subjects can no longer fight each other."
@@ -1775,7 +1775,7 @@
  polish_duchy_title_plural: "Voivodes"
  polish_duchy_overlord: "Voivode Overlord"
  polish_duchy_subject: "Voivode Subject"
- polish_duchy_is_our: "§Y$NAME$§ is our Voivode."
+ polish_duchy_is_our: "§Y$NAME$§! is our Voivode."
  
  polish_principality: "Zleceniodawca"
  polish_principality_long_desc: "A Zleceniodawca subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Zleceniodawca subjects can no longer fight each other."
@@ -1791,7 +1791,7 @@
  polish_kingdom_title_plural: "Krolestwos"
  polish_kingdom_overlord: "Krolestwo Overlord"
  polish_kingdom_subject: "Krolestwo Subject"
- polish_kingdom_is_our: "§Y$NAME$§ is our Krolestwo."
+ polish_kingdom_is_our: "§Y$NAME$§! is our Krolestwo."
 
  ######################################################################################################################################################
 
@@ -1809,7 +1809,7 @@
  portuguese_barony_title_plural: "Baronatos"
  portuguese_barony_overlord: "Baronato Overlord"
  portuguese_barony_subject: "Baronato Subject"
- portuguese_barony_is_our: "§Y$NAME$§ is our Baronato."
+ portuguese_barony_is_our: "§Y$NAME$§! is our Baronato."
 
  portuguese_viscounty: "Viscondado"
  portuguese_viscounty_long_desc: "A Viscondado subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Viscondado subjects can fight each other."
@@ -1817,7 +1817,7 @@
  portuguese_viscounty_title_plural: "Viscondados"
  portuguese_viscounty_overlord: "Viscondado Overlord"
  portuguese_viscounty_subject: "Viscondado Subject"
- portuguese_viscounty_is_our: "§Y$NAME$§ is our Viscondado."
+ portuguese_viscounty_is_our: "§Y$NAME$§! is our Viscondado."
 
  portuguese_county: "Condado"
  portuguese_county_long_desc: "A Condado subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Condado subjects can fight each other."
@@ -1825,7 +1825,7 @@
  portuguese_county_title_plural: "Condados"
  portuguese_county_overlord: "Condado Overlord"
  portuguese_county_subject: "Condado Subject"
- portuguese_county_is_our: "§Y$NAME$§ is our Condado."
+ portuguese_county_is_our: "§Y$NAME$§! is our Condado."
  
  portuguese_marquisate: "Marquesado"
  portuguese_marquisate_long_desc: "A Marquesado subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquesado subjects can no longer fight each other."
@@ -1833,7 +1833,7 @@
  portuguese_marquisate_title_plural: "Marquesados"
  portuguese_marquisate_overlord: "Marquesado Overlord"
  portuguese_marquisate_subject: "Marquesado Subject"
- portuguese_marquisate_is_our: "§Y$NAME$§ is our Marquesado."
+ portuguese_marquisate_is_our: "§Y$NAME$§! is our Marquesado."
  
  portuguese_duchy: "Ducado"
  portuguese_duchy_long_desc: "A Ducado subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Ducado subjects can no longer fight each other."
@@ -1841,7 +1841,7 @@
  portuguese_duchy_title_plural: "Ducados"
  portuguese_duchy_overlord: "Ducado Overlord"
  portuguese_duchy_subject: "Ducado Subject"
- portuguese_duchy_is_our: "§Y$NAME$§ is our Ducado."
+ portuguese_duchy_is_our: "§Y$NAME$§! is our Ducado."
  
  portuguese_principality: "Principado"
  portuguese_principality_long_desc: "A Principado subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Principado subjects can no longer fight each other."
@@ -1857,7 +1857,7 @@
  portuguese_kingdom_title_plural: "Reinos"
  portuguese_kingdom_overlord: "Reino Overlord"
  portuguese_kingdom_subject: "Reino Subject"
- portuguese_kingdom_is_our: "§Y$NAME$§ is our Reino."
+ portuguese_kingdom_is_our: "§Y$NAME$§! is our Reino."
 
  ######################################################################################################################################################
  
@@ -1875,7 +1875,7 @@
  prussian_barony_title_plural: "Baronies"
  prussian_barony_overlord: "Baronie Overlord"
  prussian_barony_subject: "Baronie Subject"
- prussian_barony_is_our: "§Y$NAME$§ is our Baronie."
+ prussian_barony_is_our: "§Y$NAME$§! is our Baronie."
  
  prussian_viscounty: "Burgraf"
  prussian_viscounty_long_desc: "A Burgraf subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Burgraf subjects can fight each other."
@@ -1883,7 +1883,7 @@
  prussian_viscounty_title_plural: "Burgrafs"
  prussian_viscounty_overlord: "Burgraf Overlord"
  prussian_viscounty_subject: "Burgraf Subject"
- prussian_viscounty_is_our: "§Y$NAME$§ is our Burgraf."
+ prussian_viscounty_is_our: "§Y$NAME$§! is our Burgraf."
 
  prussian_county: "Graf"
  prussian_county_long_desc: "A Graf subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Graf subjects can fight each other."
@@ -1891,7 +1891,7 @@
  prussian_county_title_plural: "Grafs"
  prussian_county_overlord: "Graf Overlord"
  prussian_county_subject: "Graf Subject"
- prussian_county_is_our: "§Y$NAME$§ is our Graf."
+ prussian_county_is_our: "§Y$NAME$§! is our Graf."
  
  prussian_marquisate: "Marquise"
  prussian_marquisate_long_desc: "A Marquise subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Marquise subjects can no longer fight each other."
@@ -1899,7 +1899,7 @@
  prussian_marquisate_title_plural: "Marquises"
  prussian_marquisate_overlord: "Marquise Overlord"
  prussian_marquisate_subject: "Marquise Subject"
- prussian_marquisate_is_our: "§Y$NAME$§ is our ."
+ prussian_marquisate_is_our: "§Y$NAME$§! is our ."
  
  prussian_duchy: "Herzogtum"
  prussian_duchy_long_desc: "A Herzogtum subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Herzogtum subjects can no longer fight each other."
@@ -1907,7 +1907,7 @@
  prussian_duchy_title_plural: "Herzogtums"
  prussian_duchy_overlord: "Herzogtum Overlord"
  prussian_duchy_subject: "Herzogtum Subject"
- prussian_duchy_is_our: "§Y$NAME$§ is our ."
+ prussian_duchy_is_our: "§Y$NAME$§! is our ."
  
  prussian_principality: "Fürstentum"
  prussian_principality_long_desc: "A Fürstentum subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Fürstentum subjects can no longer fight each other."
@@ -1923,7 +1923,7 @@
  prussian_kingdom_title_plural: "Konigreichs"
  prussian_kingdom_overlord: "Konigreich Overlord"
  prussian_kingdom_subject: "Konigreich Subject"
- prussian_kingdom_is_our: "§Y$NAME$§ is our ."
+ prussian_kingdom_is_our: "§Y$NAME$§! is our ."
 
  ######################################################################################################################################################
  
@@ -1941,7 +1941,7 @@
  russian_barony_title_plural: "Baronstvos"
  russian_barony_overlord: "Baronstvo Overlord"
  russian_barony_subject: "Baronstvo Subject"
- russian_barony_is_our: "§Y$NAME$§ is our Baronstvo."
+ russian_barony_is_our: "§Y$NAME$§! is our Baronstvo."
 
  russian_viscounty: "Vikontstvo"
  russian_viscounty_long_desc: "A Vikontstvo subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Vikontstvo subjects can fight each other."
@@ -1949,7 +1949,7 @@
  russian_viscounty_title_plural: "Vikontstvos"
  russian_viscounty_overlord: "Vikontstvo Overlord"
  russian_viscounty_subject: "Vikontstvo Subject"
- russian_viscounty_is_our: "§Y$NAME$§ is our Vikontstvo."
+ russian_viscounty_is_our: "§Y$NAME$§! is our Vikontstvo."
  
  russian_county: "Grafstvo"
  russian_county_long_desc: "A Grafstvo subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Grafstvo subjects can fight each other."
@@ -1957,7 +1957,7 @@
  russian_county_title_plural: "Grafstvos"
  russian_county_overlord: "Grafstvo Overlord"
  russian_county_subject: "Grafstvo Subject"
- russian_county_is_our: "§Y$NAME$§ is our Grafstvo."
+ russian_county_is_our: "§Y$NAME$§! is our Grafstvo."
  
  russian_marquisate: "Markizat"
  russian_marquisate_long_desc: "A Markizat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markizat subjects can no longer fight each other."
@@ -1965,7 +1965,7 @@
  russian_marquisate_title_plural: "Markizats"
  russian_marquisate_overlord: "Markizat Overlord"
  russian_marquisate_subject: "Markizat Subject"
- russian_marquisate_is_our: "§Y$NAME$§ is our Markizat."
+ russian_marquisate_is_our: "§Y$NAME$§! is our Markizat."
  
  russian_duchy: "Gertsogstvo"
  russian_duchy_long_desc: "A Gertsogstvo subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Gertsogstvo subjects can no longer fight each other."
@@ -1973,7 +1973,7 @@
  russian_duchy_title_plural: "Gertsogstvos"
  russian_duchy_overlord: "Gertsogstvo Overlord"
  russian_duchy_subject: "Gertsogstvo Subject"
- russian_duchy_is_our: "§Y$NAME$§ is our Gertsogstvo."
+ russian_duchy_is_our: "§Y$NAME$§! is our Gertsogstvo."
  
  russian_principality: "Knyazhestvo"
  russian_principality_long_desc: "A Knyazhestvo subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Knyazhestvo subjects can no longer fight each other."
@@ -1989,7 +1989,7 @@
  russian_kingdom_title_plural: "Korolevstvos"
  russian_kingdom_overlord: "Korolevstvo Overlord"
  russian_kingdom_subject: "Korolevstvo Subject"
- russian_kingdom_is_our: "§Y$NAME$§ is our Korolevstvo." 
+ russian_kingdom_is_our: "§Y$NAME$§! is our Korolevstvo." 
 
  ######################################################################################################################################################
 
@@ -2017,7 +2017,7 @@
  swedish_barony_title_plural: "Baronis"
  swedish_barony_overlord: "Baroni Overlord"
  swedish_barony_subject: "Baroni Subject"
- swedish_barony_is_our: "§Y$NAME$§ is our Baroni."
+ swedish_barony_is_our: "§Y$NAME$§! is our Baroni."
 
  swedish_viscounty: "Jarl"
  swedish_viscounty_long_desc: "A Jarl subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Jarl subjects can fight each other."
@@ -2025,7 +2025,7 @@
  swedish_viscounty_title_plural: "Jarls"
  swedish_viscounty_overlord: "Jarl Overlord"
  swedish_viscounty_subject: "Jarl Subject"
- swedish_viscounty_is_our: "§Y$NAME$§ is our Jarl."
+ swedish_viscounty_is_our: "§Y$NAME$§! is our Jarl."
  
  swedish_county: "Grevskap"
  swedish_county_long_desc: "A Grevskap subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Grevskap subjects can fight each other."
@@ -2033,7 +2033,7 @@
  swedish_county_title_plural: "Grevskaps"
  swedish_county_overlord: "Grevskap Overlord"
  swedish_county_subject: "Grevskap Subject"
- swedish_county_is_our: "§Y$NAME$§ is our Grevskap."
+ swedish_county_is_our: "§Y$NAME$§! is our Grevskap."
  
  swedish_marquisate: "Markisatet"
  swedish_marquisate_long_desc: "A Markisatet subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Markisatet subjects can no longer fight each other."
@@ -2041,7 +2041,7 @@
  swedish_marquisate_title_plural: "Markisatets"
  swedish_marquisate_overlord: "Markisatet Overlord"
  swedish_marquisate_subject: "Markisatet Subjects"
- swedish_marquisate_is_our: "§Y$NAME$§ is our Markisatet."
+ swedish_marquisate_is_our: "§Y$NAME$§! is our Markisatet."
  
  swedish_duchy: "Hertigdomet"
  swedish_duchy_long_desc: "A Hertigdomet subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Hertigdomet subjects can no longer fight each other."
@@ -2049,7 +2049,7 @@
  swedish_duchy_title_plural: "Hertigdomets"
  swedish_duchy_overlord: "Hertigdomet Overlord"
  swedish_duchy_subject: "Hertigdomet Subjects"
- swedish_duchy_is_our: "§Y$NAME$§ is our Hertigdomet."
+ swedish_duchy_is_our: "§Y$NAME$§! is our Hertigdomet."
  
  swedish_principality: "Furstendömet"
  swedish_principality_long_desc: "A Furstendömet subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Furstendömet subjects can no longer fight each other."
@@ -2065,7 +2065,7 @@
  swedish_kingdom_title_plural: "Rikes"
  swedish_kingdom_overlord: "Rike Overlord"
  swedish_kingdom_subject: "Rike Subjects"
- swedish_kingdom_is_our: "§Y$NAME$§ is our Rike."
+ swedish_kingdom_is_our: "§Y$NAME$§! is our Rike."
 
  ######################################################################################################################################################
  
@@ -2077,7 +2077,7 @@
  islamic_imamate_title_plural: "Imamats"
  islamic_imamate_overlord: "Imamat Overlord"
  islamic_imamate_subject: "Imamat Subject"
- islamic_imamate_is_our: "§Y$NAME$§ is our Imamat."
+ islamic_imamate_is_our: "§Y$NAME$§! is our Imamat."
 
  islamic_grand_muftate: "Grand Muftat"
  islamic_grand_muftate_long_desc: "A Grand Muftat subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Grand Muftat subjects can fight each other."
@@ -2085,7 +2085,7 @@
  islamic_grand_muftate_title_plural: "Grand Muftats"
  islamic_grand_muftate_overlord: "Grand Muftat Overlord"
  islamic_grand_muftate_subject: "Grand Muftat Subject"
- islamic_grand_muftate_is_our: "§Y$NAME$§ is our Grand Muftat."
+ islamic_grand_muftate_is_our: "§Y$NAME$§! is our Grand Muftat."
  
  islamic_sheikdom: "Sheikdom"
  islamic_sheikdom_long_desc: "A Sheikdom subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Sheikdom subjects can fight each other."
@@ -2093,7 +2093,7 @@
  islamic_sheikdom_title_plural: "Sheikdoms"
  islamic_sheikdom_overlord: "Sheikdom Overlord"
  islamic_sheikdom_subject: "Sheikdom Subject"
- islamic_sheikdom_is_our: "§Y$NAME$§ is our Sheikdom."
+ islamic_sheikdom_is_our: "§Y$NAME$§! is our Sheikdom."
 
  islamic_sharifate: "Sharifate"
  islamic_sharifate_long_desc: "A Sharifate subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Sharifate subjects can fight each other."
@@ -2101,7 +2101,7 @@
  islamic_sharifate_title_plural: "Sharifates"
  islamic_sharifate_overlord: "Sharifate Overlord"
  islamic_sharifate_subject: "Sharifate Subject"
- islamic_sharifate_is_our: "§Y$NAME$§ is our Sharifate."
+ islamic_sharifate_is_our: "§Y$NAME$§! is our Sharifate."
  
  islamic_emirate: "Emirate"
  islamic_emirate_long_desc: "A Emirate subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Emirate subjects can fight each other."
@@ -2109,7 +2109,7 @@
  islamic_emirate_title_plural: "Emirates"
  islamic_emirate_overlord: "Emirate Overlord"
  islamic_emirate_subject: "Emirate Subject"
- islamic_emirate_is_our: "§Y$NAME$§ is our Emirate."
+ islamic_emirate_is_our: "§Y$NAME$§! is our Emirate."
  
  islamic_governate: "Governate"
  islamic_governate_long_desc: "A Governate subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Governate subjects can no longer fight each other."
@@ -2117,7 +2117,7 @@
  islamic_governate_title_plural: "Governates"
  islamic_governate_overlord: "Governate Overlord"
  islamic_governate_subject: "Governate Subjects"
- islamic_governate_is_our: "§Y$NAME$§ is our Governate."
+ islamic_governate_is_our: "§Y$NAME$§! is our Governate."
  
  islamic_sultanate: "Sultanate"
  islamic_sultanate_long_desc: "A Sultanate subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Sultanate subjects can no longer fight each other."
@@ -2125,7 +2125,7 @@
  islamic_sultanate_title_plural: "Sultanates"
  islamic_sultanate_overlord: "Sultanate Overlord"
  islamic_sultanate_subject: "Sultanate Subjects"
- islamic_sultanate_is_our: "§Y$NAME$§ is our Sultanate."
+ islamic_sultanate_is_our: "§Y$NAME$§! is our Sultanate."
 
  islamic_taifa: "Taifa"
  islamic_taifa_long_desc: "A Taifa subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Taifa subjects can no longer fight each other."
@@ -2133,7 +2133,7 @@
  islamic_taifa_title_plural: "Taifas"
  islamic_taifa_overlord: "Taifa Overlord"
  islamic_taifa_subject: "Taifa Subjects"
- islamic_taifa_is_our: "§Y$NAME$§ is our Taifa."
+ islamic_taifa_is_our: "§Y$NAME$§! is our Taifa."
 
  islamic_malikate: "Malikate"
  islamic_malikate_long_desc: "A Malikate subject must follow their overlord to war, cannot make any independent diplomatic actions and will pay a fraction of their income to their overlord. Malikate subjects can no longer fight each other."
@@ -2141,7 +2141,7 @@
  islamic_malikate_title_plural: "Malikates"
  islamic_malikate_overlord: "Malikate Overlord"
  islamic_malikate_subject: "Malikate Subjects"
- islamic_malikate_is_our: "§Y$NAME$§ is our Malikate."
+ islamic_malikate_is_our: "§Y$NAME$§! is our Malikate."
 
  ######################################################################################################################################################
 

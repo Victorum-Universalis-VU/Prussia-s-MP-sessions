@@ -4159,6 +4159,7 @@ vu_historical_colony_events_for_the_ai_candidate = {
 
 #Check for more colonies than colonists, or more than 8 colonies.
 vu_more_colonies_than_colonists_check = {
+	owner = { # country triggers; callers are province events
 	NOT = {
 		OR = {
 			AND = {
@@ -4199,6 +4200,7 @@ vu_more_colonies_than_colonists_check = {
 			}
 			num_of_colonies = 8
 		}
+	}
 	}
 }
 

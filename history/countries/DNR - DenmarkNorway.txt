@@ -227,7 +227,7 @@ capital = 12 #Copenhagen but it was also Oslo (17). Game doesn't support multipl
 
 1648.1.1 = { leader = {	name = "Hans Schack"           	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1676.2.27 } }
 
-1648.1.1 = { leader = {	name = "TÅ™nne Huitfeldt"       	type = general	fire = 2	shock = 1	manuever = 1	siege = 2 	death_date = 1660.1.1 } }
+1648.1.1 = { leader = {	name = "Tønne Huitfeldt"       	type = general	fire = 2	shock = 1	manuever = 1	siege = 2 	death_date = 1660.1.1 } }
 
 1648.3.2 = {
 	monarch = {
@@ -278,13 +278,13 @@ capital = 12 #Copenhagen but it was also Oslo (17). Game doesn't support multipl
 
 1650.1.1 = { leader = {	name = "Eberstein"             	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1681.8.28 } }
 
-1651.1.1 = { leader = {	name = "JÅ™rgen Bjelke"         	type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1697.1.1 } }
+1651.1.1 = { leader = {	name = "Jørgen Bjelke"         	type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1697.1.1 } }
 
 1657.1.1 = { leader = {	name = "Niels Juel"            	type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1697.4.8 } }
 
 1662.1.1 = { leader = {	name = "Cort Adelaer"          	type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1675.1.1 } }
 
-1664.1.1 = { leader = {	name = "Holstein-PlÃ¶n"         	type = general	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1676.1.1 } }
+1664.1.1 = { leader = {	name = "Holstein-Plön"         	type = general	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1676.1.1 } }
 
 1670.2.10 = {
 	monarch = {
@@ -326,7 +326,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1673.1.1 = { leader = {	name = "Ulrich GyldenlÃ¶we"     	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1676.1.1 } }
+1673.1.1 = { leader = {	name = "Ulrich Gyldenlöwe"     	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1676.1.1 } }
 
 1690.1.1 = { leader = {	name = "Andreas Harboe"        	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1706.1.1 } }
 
@@ -334,7 +334,7 @@ add_government_reform = autocracy_reform }
 
 1693.1.1 = { leader = {	name = "Friedrich von Trampe"  	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1704.1.1 } }
 
-1696.1.1 = { leader = {	name = "Christian GyldenlÃ¶we"  	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1717.1.1 } }
+1696.1.1 = { leader = {	name = "Christian Gyldenlöwe"  	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1717.1.1 } }
 
 1699.8.27 = {
 	monarch = {
@@ -376,11 +376,11 @@ add_government_reform = autocracy_reform }
 
 1700.1.1 = { leader = {	name = "Christian Reventlow"   	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1713.1.1 } }
 
-1710.1.1 = { leader = {	name = "LÃ¼tzow"                	type = general	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1720.1.1 } }
+1710.1.1 = { leader = {	name = "Lützow"                	type = general	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1720.1.1 } }
 
 1711.1.1 = { leader = {	name = "Peter Tordenskiold"    	type = admiral	fire = 2	shock = 6	manuever = 5	siege = 0	death_date = 1720.1.1 } }
 
-1711.1.1 = { leader = {	name = "Poul LÅ™venÅ™rn"         	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1730.1.1 } }
+1711.1.1 = { leader = {	name = "Poul Løvenørn"         	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1730.1.1 } }
 
 1721.1.1 = { leader = {	name = "Hans Egedes"           	type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1758.1.1 } }
 
