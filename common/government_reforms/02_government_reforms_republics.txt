@@ -2350,14 +2350,14 @@ english_parliamentary_republic_government = {
         has_dlc = "Domination"
         OR = {
             culture_group = british
-            culture = anglois
+            primary_culture = anglois
         }
     }
     nation_designer_cost = 20
     nation_designer_trigger = {
         OR = {
             culture_group = british
-            culture = anglois
+            primary_culture = anglois
         }
     }
     valid_for_nation_designer = yes

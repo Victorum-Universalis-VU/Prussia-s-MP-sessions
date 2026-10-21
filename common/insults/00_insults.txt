@@ -467,9 +467,9 @@ insult_barbary_pirates = {
 	trigger = {
 		FROM = { religion_group = christian }
 		OR = {
-			culture = moroccan
-			culture = algerian
-			culture = tunisian
+			primary_culture = moroccan
+			primary_culture = algerian
+			primary_culture = tunisian
 			culture_group = berber_group
 		}
 		religion_group = muslim

@@ -48,9 +48,9 @@ po_establish_eyalet = {
 				if = {
 					limit = {
 						OR = {
-							culture = moroccan
-							culture = algerian
-							culture = tunisian
+							primary_culture = moroccan
+							primary_culture = algerian
+							primary_culture = tunisian
 							culture_group = berber_group
 							has_reform = pirate_republic_reform
 						}

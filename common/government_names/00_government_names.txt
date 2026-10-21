@@ -118,7 +118,7 @@ revolutionary_spanish_republic = {
         government_rank = 6
         OR = {
             culture_group = iberian
-            culture = galician_celtic
+            primary_culture = galician_celtic
         }
         OR = {
             is_revolutionary_republic_trigger = yes
@@ -331,7 +331,7 @@ gov_revolutionary_republic = {
             primary_culture = catalan
             culture_group = germanic
             culture_group = iberian
-            culture = galician_celtic
+            primary_culture = galician_celtic
             primary_culture = polish
             primary_culture = polish_new
             primary_culture = portugese

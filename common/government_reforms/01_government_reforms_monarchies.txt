@@ -8838,8 +8838,8 @@ corvee_reform = {
             culture_group = thai_group
             culture_group = burman
             culture_group = southeastasian_group
-            culture = assamese
-            culture = kochi
+            primary_culture = assamese
+            primary_culture = kochi
         }
     }
     modifiers = {
@@ -10972,7 +10972,7 @@ chrysanthemum_throne_reform = {
             religion = state_shinto
         }
         AND = {
-            culture = japanese
+            primary_culture = japanese
             OR = {
                 has_reform = chrysanthemum_throne_reform
                 have_had_reform = chrysanthemum_throne_reform

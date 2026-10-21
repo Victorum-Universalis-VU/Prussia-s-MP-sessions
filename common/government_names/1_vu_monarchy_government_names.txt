@@ -2320,7 +2320,7 @@ cas_ToR_reform = {
     trigger = {
         OR = {
             culture_group = iberian
-            culture = galician_celtic
+            primary_culture = galician_celtic
         }
         OR = {
             has_ToR_government_reform = yes
@@ -3316,17 +3316,17 @@ dutch_ToR_reform = {
     }
     trigger = {
         OR = {
-            culture = dutch                 #Dutch
-            culture = dutch_saxon           #Dutch
-            culture = zeelandic             #Dutch
-            culture = limburgish            #Dutch
-            culture = guelders              #Dutch
-            culture = frisian               #Dutch
-            culture = ger_dutch             #Dutch
-            culture = ger_dutch_saxon       #Dutch
-            culture = ger_zeelandic         #Dutch
-            culture = ger_limburgish        #Dutch
-            culture = ger_guelders          #Dutch
+            primary_culture = dutch                 #Dutch
+            primary_culture = dutch_saxon           #Dutch
+            primary_culture = zeelandic             #Dutch
+            primary_culture = limburgish            #Dutch
+            primary_culture = guelders              #Dutch
+            primary_culture = frisian               #Dutch
+            primary_culture = ger_dutch             #Dutch
+            primary_culture = ger_dutch_saxon       #Dutch
+            primary_culture = ger_zeelandic         #Dutch
+            primary_culture = ger_limburgish        #Dutch
+            primary_culture = ger_guelders          #Dutch
         }
         OR = {
             has_ToR_government_reform = yes
@@ -4452,7 +4452,7 @@ gov_jarldom = {
         government_rank = 4
         OR = {
             religion = norse_pagan_reformed
-            culture = norse
+            primary_culture = norse
         }
         government_rank = 4
         NOT = {

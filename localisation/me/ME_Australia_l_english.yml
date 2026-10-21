@@ -50,7 +50,7 @@
  ME_Australia_Events.1.OPT3: "Sydney is the only city grand enough."
  ME_Australia_Events.1.OPT4: "There's no reason to choose so hastily."
 
- ME_Australia_Events.2.T: "§[Root.GetAdjective]§! Rise to Power"
+ ME_Australia_Events.2.T: "§Y[Root.GetAdjective]§! Rise to Power"
  ME_Australia_Events.2.D: "Ages have passed since we were nothing more than the last place in the East where you would find life, this barren lands, unsustainable for a happy life, have now become one of the greatest resort and place in this sacred world. \nOur greatness and knowledge is renowned in the whole world, respected and bestowed to those in need."
  ME_Australia_Events.2.OPT1: "They even dared to called us nothing."
 

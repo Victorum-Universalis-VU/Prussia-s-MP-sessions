@@ -450,8 +450,8 @@ novgorodian_ushkuiniks = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
 		OR = {
-			culture = novgorodian
-			culture = novgorodian_new
+			primary_culture = novgorodian
+			primary_culture = novgorodian_new
 		}
 	}
 
@@ -471,10 +471,10 @@ dvoyane_admiralty = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
 		OR = {
-			culture = russian
-			culture = russian_new
-			culture = muscovite
-			culture = muscovite_new
+			primary_culture = russian
+			primary_culture = russian_new
+			primary_culture = muscovite
+			primary_culture = muscovite_new
 		}
 	}
 
@@ -513,8 +513,8 @@ the_junk_fleet = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
 		culture_group = east_asian
-		NOT = { culture = korean_new }
-		NOT = { culture = jianghuai }
+		NOT = { primary_culture = korean_new }
+		NOT = { primary_culture = jianghuai }
 	}
 
 	cost = 0.1
@@ -532,7 +532,7 @@ chinese_treasure_fleet = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine }
-		culture = jianghuai
+		primary_culture = jianghuai
 	}
 
 	cost = 0.1

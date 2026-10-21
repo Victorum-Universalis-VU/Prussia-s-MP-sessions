@@ -6657,7 +6657,7 @@ cerne_abbas_giant = {
 			OR = {
 				culture_group = unified_celtic_group
 				culture_group = british
-				culture = anglois
+				primary_culture = anglois
 			}
 		}
 	}
@@ -6666,7 +6666,7 @@ cerne_abbas_giant = {
 			OR = {
 				culture_group = unified_celtic_group
 				culture_group = british
-				culture = anglois
+				primary_culture = anglois
 			}
 		}
 	}
@@ -6677,7 +6677,7 @@ cerne_abbas_giant = {
 			OR = {
 				culture_group = unified_celtic_group
 				culture_group = british
-				culture = anglois
+				primary_culture = anglois
 			}
 		}
 	}

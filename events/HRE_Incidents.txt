@@ -82,7 +82,7 @@ country_event = {
 		}
 	}
 
-	Option = {
+	option = {
 		name = imperial_hussite.2.c
 
 		ai_chance = {

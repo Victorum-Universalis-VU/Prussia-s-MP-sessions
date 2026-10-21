@@ -314,7 +314,7 @@
  ME_Spain_Events5.EVTOPT1: "We dominate Europe and we will dominate the world."
  
  ME_Spain_Events.EVTNAME6: "[From.GetName] demands conversion"
- ME_Spain_Events.EVTDESC6: "[From.GetName] demands that we convert to the [From.Religion.getName] faith. How should we react to this outrages demand?"
+ ME_Spain_Events.EVTDESC6: "[From.GetName] demands that we convert to the [From.Religion.GetName] faith. How should we react to this outrages demand?"
  ME_Spain_Events6.EVTOPT1: "We have to give in."
  ME_Spain_Events6.EVTOPT2: "We will never bow to the filthy [From.Religion.GetName]s!"
 

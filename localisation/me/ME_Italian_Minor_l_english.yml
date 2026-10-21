@@ -17,7 +17,7 @@
 
  #2
  italian_minor_secure_home_trade_title: "Secure Home Trade"
- italian_minor_secure_home_trade_desc: "The production of [CAPITAL.GetTradeGoodsName] has grown as high as the skies, allowing our merchants to profit it beyond our borders, and now in the countryside no one talks about anything else but our trade."
+ italian_minor_secure_home_trade_desc: "The production of [Root.Capital.GetTradeGoodsName] has grown as high as the skies, allowing our merchants to profit it beyond our borders, and now in the countryside no one talks about anything else but our trade."
  italian_minor_dominate_italian_seas_title: "Dominate the Italian Seas"
  italian_minor_dominate_italian_seas_desc: "The centuries-old contrasts between Venetia and Genoa found new nourishment during the fourteenth and fifteen century and while they have continued with their skirmishes our ships are dominating the Tirreno and Adriatico without any problems."
  italian_minor_league_communes_title: "A League of Communes"
