@@ -5513,3 +5513,45 @@ self_governing_dominion_vu = {
         has_reform = self_governing_dominion_vu_government
     }
 }
+
+self_governing_commonwealth_vu = {
+    rank = {
+        1 = BRITISH_COMMONWEALTH_VU
+        2 = BRITISH_COMMONWEALTH_VU
+        3 = BRITISH_COMMONWEALTH_VU
+        4 = BRITISH_COMMONWEALTH_VU
+        5 = BRITISH_COMMONWEALTH_VU
+        6 = BRITISH_COMMONWEALTH_VU
+        7 = BRITISH_COMMONWEALTH_VU
+        8 = BRITISH_COMMONWEALTH_VU
+        9 = BRITISH_COMMONWEALTH_VU
+    }
+
+    ruler_male = {
+        1 = BRITISH_PRIME_MINISTER_VU
+        2 = BRITISH_PRIME_MINISTER_VU
+        3 = BRITISH_PRIME_MINISTER_VU
+        4 = BRITISH_PRIME_MINISTER_VU
+        5 = BRITISH_PRIME_MINISTER_VU
+        6 = BRITISH_PRIME_MINISTER_VU
+        7 = BRITISH_PRIME_MINISTER_VU
+        8 = BRITISH_PRIME_MINISTER_VU
+        9 = BRITISH_PRIME_MINISTER_VU
+    }
+
+    heir_male = {
+        1 = BRITISH_PRIME_MINISTER_VU_heir
+        2 = BRITISH_PRIME_MINISTER_VU_heir
+        3 = BRITISH_PRIME_MINISTER_VU_heir
+        4 = BRITISH_PRIME_MINISTER_VU_heir
+        5 = BRITISH_PRIME_MINISTER_VU_heir
+        6 = BRITISH_PRIME_MINISTER_VU_heir
+        7 = BRITISH_PRIME_MINISTER_VU_heir
+        8 = BRITISH_PRIME_MINISTER_VU_heir
+        9 = BRITISH_PRIME_MINISTER_VU_heir
+    }
+
+    trigger = {
+        has_reform = self_governing_commonwealth_vu_government
+    }
+}

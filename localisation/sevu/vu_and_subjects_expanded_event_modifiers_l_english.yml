@@ -5,7 +5,9 @@
  desc_disallow_subject_from_annexing_subjects_modifier: "Allowed to Annex or Integrate Subjects: §RNo§! \n\nOur overlord has disallowed us to annex or integrate our subjects. As long as we are a subject nation and this modifier is active we are not able to annex or integrate our subjects."
 
  overseas_territory_modifier: "Overseas Territory"
- desc_overseas_territory_modifier: ""
+ desc_overseas_territory_modifier: "This nation is an overseas territory, given limited self governance by its overlord"
+ overseas_territory_overlord_modifier: "Overseas Territory"
+ desc_overseas_territory_overlord_modifier: "This nation posesses one or more overseas territories, which have been given limited self governance in return for providing resources to the motherland."
  overseas_territory_institution_modifier_1: "Overseas Territory"
  desc_overseas_territory_institution_modifier_1: ""
  overseas_territory_institution_modifier_2: "Overseas Territory"

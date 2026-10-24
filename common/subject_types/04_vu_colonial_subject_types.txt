@@ -279,41 +279,46 @@ overseas_territory = {
         }
     }
     # Properties:
-    transfer_trade_power = yes
+    transfer_trade_if_merchant_republic = yes
     joins_overlords_wars = no
-    joins_colonial_wars = yes
+    can_be_co_belligerented = yes
+    must_accept_cta_from_overlord = yes
     overlord_can_attack = no
     can_have_subjects_of_other_types = yes
     takes_diplo_slot = no
-    uses_military_focus = no
     overlord_protects_external = yes
-    counts_for_borders = yes
-    can_use_claims = yes
-    share_rebel_popup = no
+    gets_help_with_rebels = yes
     allows_taking_land_without_independence = yes
     can_transfer_in_peace = no
-    can_set_mil_focus = no
-    can_send_missionary_to_subject = no
     does_overlord_size_count_for_warscore_cost = no
     can_concentrate_development = no
     can_have_great_projects_moved_by_overlord = no
-    extend_trading_range = yes
     can_be_annexed = no
-    cities_required_for_bonuses = 0	#25
-    trust_on_start = 5
+    can_use_claims = yes
+    base_liberty_desire = -75
     liberty_desire_development_ratio = 0.0
-    military_focus = 0.5
+    pays_overlord = 1
+    forcelimit_to_overlord = 0.25
     relative_power_class = 1
     diplomacy_view_class = 1
     should_quit_wars_on_activation = no
     # Subject Interactions:
     # (continuous)
-    embargo_rivals = no
+    scutage = yes
     divert_trade = yes
     # (immediate)
+    placate_rulers = yes
+    enforce_religion = yes
+    enforce_culture = yes
     siphon_income = yes
+    grant_core_claim = no
+    grant_province = yes
+    takeondebt = yes
     bestow_gifts = yes
+    block_settlement_growth = no
+    allow_settlement_growth = no
     seize_territory = yes
+    seize_court_resources = yes
     # Modifiers:
     modifier_subject = clear
     modifier_subject = {
@@ -447,10 +452,7 @@ overseas_territory = {
     }
     modifier_overlord = clear
     modifier_overlord = {
-        modifier = large_colonial_nation
-        trigger = {
-            num_of_cities = 25
-        }
+        modifier = overseas_territory_overlord_modifier
     }
     overlord_opinion_modifier = is_overseas_territory
     subject_opinion_modifier = is_overseas_territory

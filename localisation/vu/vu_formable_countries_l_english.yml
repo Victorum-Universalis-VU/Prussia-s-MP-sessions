@@ -106,6 +106,9 @@
  #
  self_governing_dominion_vu_government: "Dominion"
  self_governing_dominion_vu_government_desc: "A type of colony that is autonomous, a Dominion acts as a country inside a country."
+
+ self_governing_commonwealth_vu_government: "Commonwealth"
+ self_governing_commonwealth_vu_government_desc: "A type of colony that is highly autonomous, a Commonwealth acts as a country inside a country."
  #
  #self_governing_super_dominion_vu_government: "Super Dominion"
  #self_governing_super_dominion_vu_government_desc: "A type of colony that is autonomous, a Super Dominion acts as a empire inside a empire."

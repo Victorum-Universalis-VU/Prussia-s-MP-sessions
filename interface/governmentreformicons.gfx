@@ -2142,6 +2142,11 @@ spriteTypes = {
         texturefile = "gfx/interface/government_reform_icons/british/self_governing_dominion_vu_government.dds"
     }
 
+        spriteType = {
+        name = "government_reform_self_governing_commonwealth_vu_government"
+        texturefile = "gfx/interface/government_reform_icons/british/self_governing_commonwealth_vu_government.dds"
+    }
+
     #spriteType = {
     #	name = "government_reform_self_governing_super_dominion_vu_government"
     #	texturefile = "gfx/interface/government_reform_icons/self_governing_super_dominion_vu_government.dds"

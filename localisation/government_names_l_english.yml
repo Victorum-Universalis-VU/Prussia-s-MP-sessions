@@ -786,6 +786,9 @@
  DOMINION_VU: "Dominion"
  GOVERNOR_GENERAL_VU: "Governor-General"
  GOVERNOR_GENERAL_VU_heir: "Governor"
+ BRITISH_COMMONWEALTH_VU_VU: "Commonwealth"
+ BRITISH_PRIME_MINISTER_VU: "Prime Minister"
+ BRITISH_PRIME_MINISTER_VU_heir: "Deputy Prime Minister"
  #ANDORRAN PRINCE-BISHOPRIC
  #Religion Court - GOVERNMENT
  AOR_PRINCE_ABBACY: "Príncep Abadia"

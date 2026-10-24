@@ -202,4 +202,53 @@ country_decisions = {
 			}
 		}
 	}
+
+	#British Raj
+	vu_establish_the_raj = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 522
+		}
+		provinces_to_highlight = {
+			area = upper_doab_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			upper_doab_area = {
+				add_core = R4J
+			}
+			release = R4J
+			R4J = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 8
+				add_government_reform = self_governing_commonwealth_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				india_superregion = {
+					add_permanent_claim = R4J
+				}
+			}
+			create_subject = {
+				subject_type = commonwealth_subject_vu
+				who = R4J
+			}
+		}
+	}
+
 }

@@ -4,8 +4,8 @@ country_decisions = {
 	
 	### AMERICAS ###
 
-	#Bermuda
-	vu_dominion_of_bermuda = {
+		#Hawaii
+	vu_dominion_of_hawaii = {
 		major = yes
 		potential = {
 			OR = {
@@ -13,10 +13,10 @@ country_decisions = {
 				tag = GBR
 				tag = UNK
 			}
-			owns = 481
+			owns = 1240
 		}
 		provinces_to_highlight = {
-			area = bermuda_area
+			area = northern_polynesia_area
 			NOT = {
 				owned_by = ROOT
 			}
@@ -25,11 +25,11 @@ country_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			bermuda_area = {
-				add_core = B3R
+			northern_polynesia_area = {
+				add_core = BH4
 			}
-			release = B3R
-			B3R = {
+			release = BH4
+			BH4 = {
 				change_religion = ROOT
 				change_government = republic
 				set_government_rank = 7
@@ -44,7 +44,7 @@ country_decisions = {
 			}
 			create_subject = {
 				subject_type = self_governing_dominion_vu
-				who = B3R
+				who = BH4
 			}
 		}
 	}
@@ -971,7 +971,943 @@ country_decisions = {
 		}
 	}
 
+	#Egypt
+	vu_dominion_of_egypt = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 361
+		}
+		provinces_to_highlight = {
+			area = bahari_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			bahari_area = {
+				add_core = B3G
+			}
+			release = B3G
+			B3G = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				egypt_region = {
+					add_permanent_claim = B3G
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = B3G
+			}
+		}
+	}
+
+		#Tanganyika
+	vu_dominion_of_tanganyika = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1197
+		}
+		provinces_to_highlight = {
+			area = central_swahili_coast_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			central_swahili_coast_area = {
+				add_core = BT4
+			}
+			release = BT4
+			BT4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				tanzania_region = {
+					add_permanent_claim = BT4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BT4
+			}
+		}
+	}
+
+	#Sierra Leone
+	vu_dominion_of_sierra_leone = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 7379
+		}
+		provinces_to_highlight = {
+			area = sierra_leone_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			sierra_leone_area = {
+				add_core = B5I
+			}
+			release = B5I
+			B5I = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = B5I
+			}
+		}
+	}
+
+	#Somaliland
+	vu_dominion_of_somaliland = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1209
+		}
+		provinces_to_highlight = {
+			area = somaliland_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			somaliland_area = {
+				add_core = B5M
+			}
+			release = B5M
+			B5M = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				horn_of_africa_region = {
+					add_permanent_claim = B5M
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = B5M
+			}
+		}
+	}
+
+	#Niger Coast
+	vu_dominion_of_niger_coast = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1163
+		}
+		provinces_to_highlight = {
+			area = gulf_of_guinea_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			gulf_of_guinea_area = {
+				add_core = BB1
+			}
+			release = BB1
+			BB1 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				niger_region = {
+					add_permanent_claim = BB1
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BB1
+			}
+		}
+	}
+
+	#Kenya
+	vu_dominion_of_kenya = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1925
+		}
+		provinces_to_highlight = {
+			area = kenya_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			kenya_area = {
+				add_core = BK4
+			}
+			release = BK4
+			BK4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				central_africa_region = {
+					add_permanent_claim = BK4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BK4
+			}
+		}
+	}
+
+	#Mauritius
+	vu_dominion_of_mauritius = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1102
+		}
+		provinces_to_highlight = {
+			province_id = 1102
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			1102 = {
+				add_core = BM4
+			}
+			release = BM4
+			BM4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BM4
+			}
+		}
+	}
+
+	#Nigeria
+	vu_dominion_of_nigeria = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 2290
+		}
+		provinces_to_highlight = {
+			area = benin_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			benin_area = {
+				add_core = BN1
+			}
+			release = BN1
+			BN1 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BN1
+			}
+		}
+	}
+
+	#Togoland
+	vu_dominion_of_togoland = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1925
+		}
+		provinces_to_highlight = {
+			area = upper_volta_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			upper_volta_area = {
+				add_core = BT0
+			}
+			release = BT0
+			BT0 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				lower_volta_area = {
+					add_permanent_claim = BT0
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BT0
+			}
+		}
+	}
+
+	#Uganda
+	vu_dominion_of_uganda = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 4064
+		}
+		provinces_to_highlight = {
+			area = uganda_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			uganda_area = {
+				add_core = BU4
+			}
+			release = BU4
+			BU4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				uganda_region = {
+					add_permanent_claim = BU4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BU4
+			}
+		}
+	}
+
+	#Central Africa
+	vu_dominion_of_central_africa = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 4044
+		}
+		provinces_to_highlight = {
+			area = ngonde_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			ngonde_area = {
+				add_core = BC4
+			}
+			release = BC4
+			BC4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				malawi_region = {
+					add_permanent_claim = BC4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BC4
+			}
+		}
+	}
+
+	#Guinea
+	vu_dominion_of_guinea = {#
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 7364
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 7364
+			}
+			area = cameroon_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			cameroon_area = {
+				add_core = BG1
+			}
+			release = BG1
+			BG1 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BG1
+			}
+		}
+	}
+
+	#The Gambia
+	vu_dominion_of_the_gambia = {#
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 7364
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 7364
+			}
+			area = gambia_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			gambia_area = {
+				add_core = TG4
+			}
+			release = TG4
+			TG4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = TG4
+			}
+		}
+	}
+
+	#Senegal
+	vu_dominion_of_senegal = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 7357
+		}
+		provinces_to_highlight = {
+			area = jolof_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			jolof_area = {
+				add_core = BS3
+			}
+			release = BS3
+			BS3 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BS3
+			}
+		}
+	}
+
+	#Sudan
+	vu_dominion_of_sudan = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 6973
+		}
+		provinces_to_highlight = {
+			area = white_nile_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			white_nile_area = {
+				add_core = SD4
+			}
+			release = SD4
+			SD4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				sudan_region = {
+					add_permanent_claim = SD4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = SD4
+			}
+		}
+	}
+
+	#North Rhodesia
+	vu_dominion_of_north_rhodesia = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1242
+		}
+		provinces_to_highlight = {
+			area = upper_zambezi_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			upper_zambezi_area = {
+				add_core = NR5
+			}
+			release = NR5
+			NR5 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = NR5
+			}
+		}
+	}
+
+	#South Rhodesia
+	vu_dominion_of_south_rhodesia = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1184
+		}
+		provinces_to_highlight = {
+			area = zimbabwe_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			zimbabwe_area = {
+				add_core = R0D
+			}
+			release = R0D
+			R0D = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				zimbabwe_region = {
+					add_permanent_claim = R0D
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = R0D
+			}
+		}
+	}
+
 	### ASIA ###
+
+		#Bhutan
+	vu_dominion_of_bhutan = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 565
+		}
+		provinces_to_highlight = {
+			area = bhutan_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			bhutan_area = {
+				add_core = B8H
+			}
+			release = B8H
+			B8H = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = B8H
+			}
+		}
+	}
+
+	#Nepal
+	vu_dominion_of_nepal = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 557
+		}
+		provinces_to_highlight = {
+			area = nepal_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			nepal_area = {
+				add_core = BN3
+			}
+			release = BN3
+			BN3 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BN3
+			}
+		}
+	}
+
+	#Papua
+	vu_dominion_of_papua = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 1237
+		}
+		provinces_to_highlight = {
+			area = papua_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			papua_area = {
+				add_core = P4P
+			}
+			release = P4P
+			P4P = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = P4P
+			}
+		}
+	}
 
 	#Queensland
 	vu_dominion_of_queensland = {
@@ -1276,6 +2212,285 @@ country_decisions = {
 			create_subject = {
 				subject_type = self_governing_dominion_vu
 				who = N5W
+			}
+		}
+	}
+
+		#Sri Lanka
+	vu_dominion_of_ceylon = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 572
+		}
+		provinces_to_highlight = {
+			area = south_lanka_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			south_lanka_area = {
+				add_core = S4L
+			}
+			release = S4L
+			S4L = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = S4L
+			}
+		}
+	}
+
+	#Burma
+	vu_dominion_of_burma = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 4399
+		}
+		provinces_to_highlight = {
+			area = lower_burma_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			lower_burma_area = {
+				add_core = BR4
+			}
+			release = BR4
+			BR4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				burma_region = {
+					add_permanent_claim = BR4
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BR4
+			}
+		}
+	}
+
+	#Borneo
+	vu_dominion_of_borneo = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 2705
+		}
+		provinces_to_highlight = {
+			area = brunei_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			brunei_area = {
+				add_core = BB0
+			}
+			release = BB0
+			BB0 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+				borneo_region = {
+					add_permanent_claim = BB0
+				}
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BB0
+			}
+		}
+	}
+
+	#Aden
+	vu_dominion_of_aden = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 388
+		}
+		provinces_to_highlight = {
+			area = hadramut_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			hadramut_area = {
+				add_core = B4D
+			}
+			release = B4D
+			B4D = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = B4D
+			}
+		}
+	}
+
+	#Malaya
+	vu_dominion_of_malaya = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 8669
+		}
+		provinces_to_highlight = {
+			area = singapore_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			singapore_area = {
+				add_core = BM1
+			}
+			release = BM1
+			BM1 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BM1
+			}
+			malaya_region = {
+				add_permanent_claim = BM1
+			}
+		}
+	}
+
+		#Palestine
+	vu_dominion_of_palestine = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ENG
+				tag = GBR
+				tag = UNK
+			}
+			owns = 379
+		}
+		provinces_to_highlight = {
+			area = palestine_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			palestine_area = {
+				add_core = BP4
+			}
+			release = BP4
+			BP4 = {
+				change_religion = ROOT
+				change_government = republic
+				set_government_rank = 7
+				add_government_reform = self_governing_dominion_vu_government
+				add_adm_power = 112
+				add_dip_power = 112
+				add_mil_power = 112
+				add_treasury = 136
+				add_manpower = 8
+				add_sailors = 3000
+				add_army_tradition = 10
+			}
+			create_subject = {
+				subject_type = self_governing_dominion_vu
+				who = BP4
 			}
 		}
 	}
