@@ -958,7 +958,7 @@ mandala_trade_vassal = {
                     culture_group = malay
                     culture_group = southeastasian_group
                     culture_group = burman
-                    culture = sinhala
+                    primary_culture = sinhala
                     has_reform = mandala_reform
                     # Governments Expanded
                     has_reform = basic_reformed_mandala_reform

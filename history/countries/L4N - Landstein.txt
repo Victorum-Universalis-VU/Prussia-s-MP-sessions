@@ -7,4 +7,4 @@ technology_group = bohemian_tech_group
 unit_type = western
 primary_culture = czech
 religion = catholic
-capital = 7665 #Land≈°tejn (Land STAIN)
+capital = 7665 #Landötejn (Land STAIN)

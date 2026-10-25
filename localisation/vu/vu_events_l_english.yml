@@ -2307,8 +2307,8 @@
  cb_force_vassal_emperor_of_china: "Imperial Subjugation"
  cb_force_vassal_emperor_of_china_desc: "Bring this wayward land under the rule of the Dragon Throne!"
  
-take_capital_vassalize_eoc: "Take their capital"
-take_capital_vassalize_eoc_desc: "Wargoal is to take their capital"
+ take_capital_vassalize_eoc: "Take their capital"
+ take_capital_vassalize_eoc_desc: "Wargoal is to take their capital"
 
  vu_taoism_eradicate_confucianism_title: "Eradicate Confucianism"
  vu_taoism_eradicate_confucianism_desc: "The scourge of Confucian rigidity has plagued our lands for far too long. BEGONE!"

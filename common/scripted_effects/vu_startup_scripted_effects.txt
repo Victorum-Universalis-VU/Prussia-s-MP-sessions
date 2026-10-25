@@ -4631,7 +4631,7 @@ vu_set_POW_policy_globally = {
 					tag = ENG
 					is_subject_of = ENG
 					technology_group = dutch_tech_group
-					culture = romanian
+					primary_culture = romanian
 					religion = totemism
 				}
 				add_country_modifier = {

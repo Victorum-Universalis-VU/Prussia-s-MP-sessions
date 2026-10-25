@@ -7,7 +7,7 @@
 namespace = vu_french_progression
 
 ########################################
-# EVENT 1 â€” FRA goes Republican        #
+# EVENT 1 — FRA goes Republican        #
 # FRA adopts a republican government   #
 # (e.g. via the Revolution disaster)   #
 # and becomes Revolutionary France.    #

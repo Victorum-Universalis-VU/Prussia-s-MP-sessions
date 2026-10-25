@@ -290,7 +290,7 @@
  vu_murica_USA_republic_tt: "You will be able to release §Yvery powerful puppet republic vassal states§! in the regions of @CAN §YCanada§!, @CUB the §YCaribbean§!, @MEX §YMexico§!, @COL §YColombia§!, and @PEU §YPeru§!. These vassals will §Ynot take up a diplomatic relation slot§! and will give §Ystrong bonuses§!, as long as they remain your vassal and are released via their respective decisions."
  vu_murica_USA_annex_hawaii_title: "@USA Annex Hawaii"
  vu_murica_USA_annex_hawaii_desc: "The natives of Hawaii do not seem extremely eager to join our union, but this opportunity we are presenting them with doesn't really leave them any room to say no."
- vu_murica_USA_annex_hawaii_tt: "§YAny nation§! that meets the criteria for this decision will be §Yintegrated§! and the @USA §Y[Root.GetName]§! will gain §claims on all provinces§! in the area that are NOT annexed via the decision."
+ vu_murica_USA_annex_hawaii_tt: "§YAny nation§! that meets the criteria for this decision will be §Yintegrated§! and the @USA §Y[Root.GetName]§! will gain §Yclaims on all provinces§! in the area that are NOT annexed via the decision."
  vu_murica_USA_republic: "@USA The Republican Virtues Act"
  #
  colombia_vassal_name: "Republic of Colombia"

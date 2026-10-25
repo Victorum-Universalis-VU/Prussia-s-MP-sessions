@@ -9831,7 +9831,7 @@ vu_st_petka_belgrade_fortress = {
 }
 
 vu_church_of_st_jan_of_nepomuk = {
-	#Kostel SvatÃ©ho Jana NepomuckÃ©ho
+	#Kostel Svatého Jana Nepomuckého
 	start = 8260
 	date = 1720.01.01
 	time = {
@@ -10143,7 +10143,7 @@ vu_pomnik_jana_zizky_z_trocnova_a_kalicha = {
 }
 
 vu_mestansky_pivovar_plzen = {
-	#MÄ›Å¡Å¥anskÃ½ pivovar PlzeÅˆ or Plzen Brewery
+	#Meštanský pivovar Plzen or Plzen Brewery
 	start = 267
 	date = 1839.01.01
 	time = {

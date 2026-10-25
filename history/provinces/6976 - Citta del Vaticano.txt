@@ -1,4 +1,4 @@
-#6976 - Citt√† del Vaticano
+#6976 - Citt‡ del Vaticano
 
 #Default
 owner = PAP

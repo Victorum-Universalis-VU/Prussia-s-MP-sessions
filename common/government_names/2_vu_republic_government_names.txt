@@ -146,7 +146,7 @@ iberian_colonial_government = {
 		}
 		OR = {
 			culture_group = iberian
-			culture = galician_celtic
+			primary_culture = galician_celtic
 		}
 		OR = {
 			has_reform = colonial_government

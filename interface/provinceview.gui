@@ -415,12 +415,6 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "remove_parliament"
-				spriteType = "GFX_remove_parliament_icon"
-				position = { x = 73 y = 1 }
-			}
-
-			iconType = {
  				name = "have_capital"
 				spriteType = "GFX_have_capital"
 				position = { x = 1 y = 1 }
@@ -5738,7 +5732,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		iconType = {
@@ -5760,7 +5754,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		iconType = {
@@ -5782,7 +5776,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#iconType = {
@@ -5804,7 +5798,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		#Government 2
@@ -5844,7 +5838,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 				
 		iconType = {
@@ -5866,7 +5860,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -5888,7 +5882,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Trade 3
@@ -5928,7 +5922,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -5950,7 +5944,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -5972,7 +5966,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 		
 		#iconType = {
@@ -5994,7 +5988,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Revenue & Customs 4
@@ -6034,7 +6028,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		checkboxType = {
@@ -6050,7 +6044,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		checkboxType = {
@@ -6066,7 +6060,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Sanitation 5
@@ -6106,7 +6100,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6128,7 +6122,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6150,7 +6144,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6172,7 +6166,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Religion 6
@@ -6212,7 +6206,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6234,7 +6228,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6256,7 +6250,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Water 7
@@ -6296,7 +6290,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6318,7 +6312,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6340,7 +6334,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6362,7 +6356,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Education 8
@@ -6402,7 +6396,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		#iconType = {
@@ -6424,7 +6418,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		#iconType = {
@@ -6446,7 +6440,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}		
 
 		#Entertainment 9
@@ -6486,7 +6480,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#iconType = {
@@ -6508,7 +6502,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#iconType = {
@@ -6530,7 +6524,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6552,7 +6546,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Healthcare 10
@@ -6592,7 +6586,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		#iconType = {
@@ -6614,7 +6608,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		#iconType = {
@@ -6636,7 +6630,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Couriers 11
@@ -6676,7 +6670,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6698,7 +6692,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6720,7 +6714,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -6742,7 +6736,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Leisure 12
@@ -6782,7 +6776,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		checkboxType = {
@@ -6798,7 +6792,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		checkboxType = {
@@ -6814,7 +6808,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Foreign & Domestic 13
@@ -6854,7 +6848,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#iconType = {
@@ -6876,7 +6870,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		checkboxType = {
@@ -6892,7 +6886,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#iconType = {
@@ -6914,7 +6908,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Public Safety 14
@@ -6954,7 +6948,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
         checkboxType = {
@@ -6970,7 +6964,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
         checkboxType = {
@@ -6986,7 +6980,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Discoveries 15
@@ -7026,7 +7020,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
         checkboxType = {
@@ -7042,7 +7036,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		checkboxType = {
@@ -7058,7 +7052,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
         checkboxType = {
@@ -7074,7 +7068,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Transport 16
@@ -7114,7 +7108,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		iconType = {
@@ -7136,7 +7130,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		iconType = {
@@ -7158,7 +7152,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Army 17
@@ -7198,7 +7192,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -7220,7 +7214,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}			
 		
 		checkboxType = {
@@ -7236,7 +7230,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -7258,7 +7252,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Industry 18
@@ -7298,7 +7292,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		checkboxType = {
@@ -7314,7 +7308,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		checkboxType = {
@@ -7330,7 +7324,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Navy 19
@@ -7370,7 +7364,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -7392,7 +7386,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		checkboxType = {
@@ -7408,7 +7402,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -7430,7 +7424,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Offence 20
@@ -7470,7 +7464,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		checkboxType = {
@@ -7486,7 +7480,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		checkboxType = {
@@ -7502,7 +7496,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		#Defence 21
@@ -7542,7 +7536,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -7564,7 +7558,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -7586,7 +7580,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"	
+			text = "2000¤"	
 		}
 
 		iconType = {
@@ -7608,7 +7602,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Coastal Defence 22
@@ -7648,7 +7642,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -7670,7 +7664,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -7692,7 +7686,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		###Invisable Buildings
@@ -7710,7 +7704,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7726,7 +7720,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7742,7 +7736,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7758,7 +7752,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7774,7 +7768,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7790,7 +7784,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7806,7 +7800,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7822,7 +7816,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7838,7 +7832,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7854,7 +7848,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7870,7 +7864,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7886,7 +7880,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7902,7 +7896,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7918,7 +7912,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7934,7 +7928,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7950,7 +7944,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7966,7 +7960,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -7982,7 +7976,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#checkboxType = {
@@ -7998,7 +7992,7 @@ guiTypes = {
 		#	borderSize = { x = 0 y = 0 }	
 		#	maxWidth = 128
 		#	maxHeight = 18
-		#	text = "2000Â¤"	
+		#	text = "2000¤"	
 		#}
 
 		#Manufactory 23
@@ -8038,7 +8032,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8054,7 +8048,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8070,7 +8064,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8086,7 +8080,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		#Special 24
@@ -8126,7 +8120,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		checkboxType = {
@@ -8142,7 +8136,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		
@@ -8159,7 +8153,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -8183,7 +8177,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		checkboxType = {
@@ -8199,7 +8193,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 		
 		checkboxType = {
@@ -8215,7 +8209,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8231,7 +8225,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8247,7 +8241,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8263,7 +8257,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8279,7 +8273,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8295,7 +8289,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8311,7 +8305,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8327,7 +8321,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8343,7 +8337,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8359,7 +8353,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8375,7 +8369,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8391,7 +8385,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8407,7 +8401,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8423,7 +8417,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8439,7 +8433,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8455,7 +8449,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8471,7 +8465,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8487,7 +8481,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8503,7 +8497,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8519,7 +8513,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8535,7 +8529,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8551,7 +8545,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8567,7 +8561,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -8583,7 +8577,7 @@ guiTypes = {
 			borderSize = { x = 0 y = 0 }
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 	}
 

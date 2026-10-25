@@ -8,7 +8,7 @@ country_decisions = {
 
     ###########################################################################
     # merc_mubarizun (ARB_company)
-    # Mubarizun â€” Arabian champions of the faith, elite cavalry vanguards.
+    # Mubarizun — Arabian champions of the faith, elite cavalry vanguards.
     # Available to Arabian/Gulf tags once they have consolidated the Hejaz
     # and built up a proud military tradition.
     ###########################################################################
@@ -27,7 +27,7 @@ country_decisions = {
         allow = {
             is_at_war = no
             army_tradition = 40
-            owns_core_province = 385       # Basra â€” heartland of the Gulf trade routes
+            owns_core_province = 385       # Basra — heartland of the Gulf trade routes
             mil_power = 50
         }
         effect = {
@@ -44,7 +44,7 @@ country_decisions = {
 
     ###########################################################################
     # merc_mor_ottoman_mercenaries (MOR_ottoman_company)
-    # Ottoman-trained corps â€” Moroccan soldiers drilled in Ottoman methods.
+    # Ottoman-trained corps — Moroccan soldiers drilled in Ottoman methods.
     # Available to Morocco once they have made contact with the Ottoman sphere
     # and invested in military modernisation.
     ###########################################################################
@@ -84,7 +84,7 @@ country_decisions = {
 
     ###########################################################################
     # merc_mor_black_guard (MOR_black_guard_flag)
-    # The Black Guard â€” elite sub-Saharan slave soldiers of the Moroccan
+    # The Black Guard — elite sub-Saharan slave soldiers of the Moroccan
     # sultans. Historically established by Ismail ibn Sharif c. 1680.
     ###########################################################################
     vu_establish_the_black_guard = {
@@ -124,7 +124,7 @@ country_decisions = {
 
     ###########################################################################
     # merc_gra_volunteers_of_the_faith (GRA_merc_company_volunteers_flag)
-    # Volunteers of the Faith â€” Granadan crusaders who fought to reclaim
+    # Volunteers of the Faith — Granadan crusaders who fought to reclaim
     # the holy sites. Unlocked after completing the Reclaim Mecca mission.
     ###########################################################################
     vu_raise_volunteers_of_the_faith = {

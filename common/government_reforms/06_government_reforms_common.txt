@@ -2504,7 +2504,7 @@ the_righteous_army_reform = {
 		has_dlc = "Domination"
 		OR = {
 			culture_group = korean_g
-			culture = korean_new
+			primary_culture = korean_new
 		}
 	}
 	trigger = {
@@ -2536,8 +2536,8 @@ merchant_arsenal_reform = {
 	potential = {
 		has_dlc = "Domination"
 		OR = {
-			culture = venetian
-			culture = ligurian
+			primary_culture = venetian
+			primary_culture = ligurian
 		}
 	}
 	trigger = {

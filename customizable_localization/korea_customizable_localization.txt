@@ -72,7 +72,7 @@ defined_text = {
 				}
 			}
 		}
-		localisation_key = KOR_sijeon_win_small
+		localisation_key = KOR_sijeon_win_small.d
 	}
 	text = {
 		trigger = {
@@ -83,7 +83,7 @@ defined_text = {
 				}
 			}
 		}
-		localisation_key = KOR_sijeon_win_big
+		localisation_key = KOR_sijeon_win_big.d
 	}
 }
 

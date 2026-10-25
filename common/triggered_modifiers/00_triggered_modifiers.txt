@@ -115,7 +115,7 @@ lost_control_of_canton = {
 # Design: VU
 ##########################################################################
 
-# 1-10 provinces â€” Independent Principality
+# 1-10 provinces — Independent Principality
 # Minor lords, free cities, OPMs. Disproportionate military capacity
 # to survive in a world of larger neighbours.
 vu_army_scale_micro = {
@@ -131,7 +131,7 @@ vu_army_scale_micro = {
 	naval_forcelimit_modifier = 0.20
 }
 
-# 11-25 provinces â€” Small Kingdom
+# 11-25 provinces — Small Kingdom
 # England, Venice, Denmark, minor European kingdoms at game start.
 # Real military powers, just not continent-spanning.
 vu_army_scale_small = {
@@ -147,7 +147,7 @@ vu_army_scale_small = {
 	naval_forcelimit_modifier = 0.10
 }
 
-# 26-50 provinces â€” Regional Power
+# 26-50 provinces — Regional Power
 # Mid-sized kingdoms. Punching at their weight but not yet a great power.
 vu_army_scale_regional = {
 	potential = {
@@ -162,9 +162,9 @@ vu_army_scale_regional = {
 	naval_forcelimit_modifier = 0.05
 }
 
-# 51-100 provinces â€” baseline, no modifier applied.
+# 51-100 provinces — baseline, no modifier applied.
 
-# 101-150 provinces â€” Great Power Overstretch
+# 101-150 provinces — Great Power Overstretch
 # Administering a large empire strains the capacity to fully mobilise.
 vu_army_scale_great_power = {
 	potential = {
@@ -179,7 +179,7 @@ vu_army_scale_great_power = {
 	naval_forcelimit_modifier = -0.10
 }
 
-# 151-200 provinces â€” Continental Empire Overstretch
+# 151-200 provinces — Continental Empire Overstretch
 # Holding together a continent-spanning empire fragments military focus.
 vu_army_scale_empire = {
 	potential = {
@@ -194,7 +194,7 @@ vu_army_scale_empire = {
 	naval_forcelimit_modifier = -0.20
 }
 
-# 200+ provinces â€” World Empire Overstretch
+# 200+ provinces — World Empire Overstretch
 # Late Ottomans, Mughals, world-spanning empires. Administrative limits
 # on mobilising such vast territories historically capped effective armies.
 vu_army_scale_world_empire = {

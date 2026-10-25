@@ -1,10 +1,10 @@
-# The Hundred Days â€” Collapse Events
+# The Hundred Days — Collapse Events
 # Fires when the french_first_empire_restoration_reform (Hundred Days) ends.
 #
 # Two triggers:
-#   vu_waterloo.1 â€” battle lost in Northern France / Southern Low Countries
+#   vu_waterloo.1 — battle lost in Northern France / Southern Low Countries
 #                   (hooked via on_battle_won_province in 00_on_actions.txt)
-#   vu_waterloo.2 â€” 4-month MTTH fallback: the campaign exhausts itself even
+#   vu_waterloo.2 — 4-month MTTH fallback: the campaign exhausts itself even
 #                   if the player never fights in the Waterloo corridor
 #
 # Design: Darth Modus & Prussia
@@ -12,7 +12,7 @@
 namespace = vu_waterloo
 
 ########################################
-# EVENT 1 â€” The Eagles Have Fallen     #
+# EVENT 1 — The Eagles Have Fallen     #
 # Fires when France loses a battle in  #
 # Northern France or the Low Countries #
 # while holding the Hundred Days reform#
@@ -30,7 +30,7 @@ country_event = {
 		NOT = { has_country_flag = vu_hundred_days_collapsed }
 	}
 
-	# Napoleon abdicates â€” the Bourbons return
+	# Napoleon abdicates — the Bourbons return
 	option = {
 		name = vu_waterloo.1.a
 		set_country_flag = vu_hundred_days_collapsed
@@ -78,7 +78,7 @@ country_event = {
 }
 
 ########################################
-# EVENT 2 â€” The Hundred Days Expire    #
+# EVENT 2 — The Hundred Days Expire    #
 # 4-month MTTH fallback. Fires if the  #
 # Hundred Days reform is still active  #
 # and France is at war, regardless of  #

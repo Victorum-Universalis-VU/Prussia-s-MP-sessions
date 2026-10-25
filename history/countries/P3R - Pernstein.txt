@@ -7,4 +7,4 @@ technology_group = bohemian_tech_group
 unit_type = western
 primary_culture = czech
 religion = catholic
-capital = 4725 #Pern≈°tejn Castle
+capital = 4725 #Pernötejn Castle

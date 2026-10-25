@@ -7,4 +7,4 @@ technology_group = bohemian_tech_group
 unit_type = western
 primary_culture = moravian
 religion = catholic
-capital = 4726 #Přerov
+capital = 4726 #Prerov
