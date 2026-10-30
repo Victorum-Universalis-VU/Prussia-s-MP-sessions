@@ -899,7 +899,7 @@ vu_tierra_castillos = {
             local_defensiveness = 0.10
         }
         country_modifiers = {
-            attrition = -0.5
+            land_attrition = -0.05
         }
         on_upgraded = {
         }
@@ -915,7 +915,7 @@ vu_tierra_castillos = {
             local_defensiveness = 0.15
         }
         country_modifiers = {
-            attrition = -1
+            land_attrition = -0.10
         }
         on_upgraded = {
             add_building = fort_16th
@@ -933,7 +933,7 @@ vu_tierra_castillos = {
             local_defensiveness = 0.2
         }
         country_modifiers = {
-            attrition = -2
+            land_attrition = -0.15
         }
         on_upgraded = {
         }

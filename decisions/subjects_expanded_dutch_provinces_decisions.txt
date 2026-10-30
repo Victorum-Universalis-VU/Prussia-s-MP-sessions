@@ -42,7 +42,6 @@ country_decisions = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 2
-						all_subject_country = yes
 					}
 				}
 			}
@@ -55,7 +54,6 @@ country_decisions = {
 							years_in_vassalage_under = {
 								who = ROOT
 								years = 1
-								all_subject_country = yes
 							}
 						}
 					}
@@ -172,7 +170,6 @@ country_decisions = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 2
-						all_subject_country = yes
 					}
 				}
 			}
@@ -185,7 +182,6 @@ country_decisions = {
 							years_in_vassalage_under = {
 								who = ROOT
 								years = 1
-								all_subject_country = yes
 							}
 						}
 					}
@@ -302,7 +298,6 @@ country_decisions = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 2
-						all_subject_country = yes
 					}
 				}
 			}
@@ -315,7 +310,6 @@ country_decisions = {
 							years_in_vassalage_under = {
 								who = ROOT
 								years = 1
-								all_subject_country = yes
 							}
 						}
 					}
@@ -469,7 +463,6 @@ country_decisions = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 2
-						all_subject_country = yes
 					}
 				}
 			}
@@ -482,7 +475,6 @@ country_decisions = {
 							years_in_vassalage_under = {
 								who = ROOT
 								years = 1
-								all_subject_country = yes
 							}
 						}
 					}

@@ -134,7 +134,7 @@ vu_reichstag = {
 			expand_administration_cost = -0.1
 		}
 		on_upgraded = {
-			add_stability_or_adm_power = yes
+			owner = { add_stability_or_adm_power = yes }
 		}
 	}
 }

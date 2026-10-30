@@ -61,7 +61,6 @@ country_event = {
 								years_in_vassalage_under = {
 									who = ROOT
 									years = 2
-									all_subject_country = yes
 								}
 							}
 							ROOT = {
@@ -72,7 +71,6 @@ country_event = {
 											years_in_vassalage_under = {
 												who = ROOT
 												years = 2
-												all_subject_country = yes
 											}
 										}
 									}

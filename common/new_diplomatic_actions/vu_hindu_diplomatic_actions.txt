@@ -30,7 +30,7 @@ vu_promote_vassal_to_brahma_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -92,7 +92,7 @@ vu_promote_vassal_to_vishnu_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -154,7 +154,7 @@ vu_promote_vassal_to_shiva_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -216,7 +216,7 @@ vu_promote_vassal_to_saraswati_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -278,7 +278,7 @@ vu_promote_vassal_to_lakshimi_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -340,7 +340,7 @@ vu_promote_vassal_to_parvarti_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -407,7 +407,7 @@ vu_revert_hindu_principality_to_vassal = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}

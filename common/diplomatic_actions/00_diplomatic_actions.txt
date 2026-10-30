@@ -625,7 +625,6 @@ annexationaction = {
                 years_in_vassalage_under = {
                     who = ROOT
                     years = 25
-                    all_subject_country = yes
                 }
             }
         }

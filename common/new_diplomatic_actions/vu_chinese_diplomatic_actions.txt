@@ -32,7 +32,7 @@ vu_promote_vassal_to_heaven_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -96,7 +96,7 @@ vu_promote_vassal_to_lake_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -162,7 +162,7 @@ vu_promote_vassal_to_fire_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -226,7 +226,7 @@ vu_promote_vassal_to_thunder_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -290,7 +290,7 @@ vu_promote_vassal_to_wind_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -354,7 +354,7 @@ vu_promote_vassal_to_water_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -419,7 +419,7 @@ vu_promote_vassal_to_mountain_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -483,7 +483,7 @@ vu_promote_vassal_to_earth_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -548,7 +548,7 @@ vu_promote_vassal_to_chinese_pacification_commission = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -619,7 +619,7 @@ vu_revert_chinese_principality_to_vassal = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -671,7 +671,7 @@ vu_revert_chinese_pacification_commission_to_vassal = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }

@@ -35,7 +35,7 @@ vu_promote_vassal_to_lordship = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -85,7 +85,7 @@ vu_promote_vassal_to_barony = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -135,7 +135,7 @@ vu_promote_vassal_to_viscounty = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -185,7 +185,7 @@ vu_promote_vassal_to_marquisate = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -473,7 +473,7 @@ vu_promote_vassal_to_abbacy = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -528,7 +528,7 @@ vu_promote_vassal_to_andoran_co_prince_abbacy = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -581,7 +581,7 @@ vu_promote_theocracy = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -672,7 +672,7 @@ vu_promote_andoran_co_prince_theocracy = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -764,7 +764,7 @@ vu_promote_vassal_to_feudal_republic = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -824,7 +824,7 @@ vu_promote_vassal_to_imamate = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -886,7 +886,7 @@ vu_promote_vassal_to_grand_muftate = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -948,7 +948,7 @@ vu_promote_vassal_to_sheikdom = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1010,7 +1010,7 @@ vu_promote_vassal_to_emirate = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1428,7 +1428,7 @@ vu_invite_vassal_to_become_a_timariot_march = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1445,9 +1445,9 @@ vu_invite_vassal_to_become_a_timariot_march = {
 	}
 }
 
-#####################################################
-#   vu_invite_vassal_to_league_of_lezhe by Prussia	#
-#####################################################
+#########################################################################
+#   vu_invite_vassal_to_league_of_lezhe (league of pleasure) by Prussia	#
+#########################################################################
 vu_invite_vassal_to_league_of_lezhe = {
     category = influence
     alert_index = 6
@@ -1476,7 +1476,7 @@ vu_invite_vassal_to_league_of_lezhe = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1525,7 +1525,7 @@ vu_invite_vassal_to_become_a_beylik = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -1567,7 +1567,7 @@ call_peerage_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1639,7 +1639,7 @@ call_governor_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1711,7 +1711,7 @@ call_viceroy_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1783,7 +1783,7 @@ call_bishopric_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -1855,7 +1855,7 @@ call_voivode_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -2008,7 +2008,7 @@ call_principality_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -2079,7 +2079,7 @@ call_chinese_pacification_commission_into_wars = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }
@@ -2162,7 +2162,7 @@ call_daimyo_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -2241,7 +2241,7 @@ call_hindu_prince_into_wars = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -2326,7 +2326,7 @@ vu_promote_vassal_to_outpost = {
             custom_trigger_tooltip = {
                 tooltip = FROM_IS_REBELLIOUS_TT
                 FROM = {
-                    liberty_desire = 50
+                    NOT = { liberty_desire = 50 }
                 }
             }
         }

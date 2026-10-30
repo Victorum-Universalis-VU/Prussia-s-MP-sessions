@@ -14,13 +14,11 @@ vu_university_of_constantinople = {
 		province_id = 151
 		is_year = 425
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = south_slavic
 					culture_group = byzantine
 				}
-			}
 		}
 	}
 	on_built = {
@@ -31,24 +29,20 @@ vu_university_of_constantinople = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = south_slavic
 					culture_group = byzantine
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = south_slavic
 					culture_group = byzantine
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -163,14 +157,12 @@ vu_university_of_bologna = {
 		province_id = 4730
 		is_year = 1088
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -181,26 +173,22 @@ vu_university_of_bologna = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -315,13 +303,11 @@ vu_university_of_oxford = {
 		province_id = 237
 		is_year = 1096
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -332,24 +318,20 @@ vu_university_of_oxford = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -462,13 +444,11 @@ vu_university_of_cambridge = {
 		province_id = 4370
 		is_year = 1209
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -479,24 +459,20 @@ vu_university_of_cambridge = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -609,14 +585,12 @@ vu_university_of_salamanca = {
 		province_id = 216
 		is_year = 1218
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -627,26 +601,22 @@ vu_university_of_salamanca = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -761,14 +731,12 @@ vu_university_of_padua = {
 		province_id = 4729
 		is_year = 1222
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -779,26 +747,22 @@ vu_university_of_padua = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -913,14 +877,12 @@ vu_university_of_naples = {
 		province_id = 121
 		is_year = 1224
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -931,26 +893,22 @@ vu_university_of_naples = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -1063,14 +1021,12 @@ vu_university_of_siena = {
 		province_id = 117
 		is_year = 1240
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -1081,26 +1037,22 @@ vu_university_of_siena = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -1214,14 +1166,12 @@ vu_university_of_valladolid = {
 		province_id = 215
 		is_year = 1241
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -1232,26 +1182,22 @@ vu_university_of_valladolid = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -1365,13 +1311,11 @@ vu_university_of_sorbonne = {
 		province_id = 7960
 		is_year = 1257
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -1382,24 +1326,20 @@ vu_university_of_sorbonne = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -1513,7 +1453,6 @@ vu_university_of_montpellier = {
 		province_id = 200
 		is_year = 1287
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
@@ -1522,7 +1461,6 @@ vu_university_of_montpellier = {
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -1533,7 +1471,6 @@ vu_university_of_montpellier = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
@@ -1542,12 +1479,10 @@ vu_university_of_montpellier = {
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
@@ -1556,7 +1491,6 @@ vu_university_of_montpellier = {
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -1670,14 +1604,12 @@ vu_university_of_macerata = {
 		province_id = 119
 		is_year = 1290
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -1688,26 +1620,22 @@ vu_university_of_macerata = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -1808,7 +1736,7 @@ vu_university_of_macerata = {
 
 vu_university_of_coimbra = {
 	start = 1851
-	date = 1290.05.0
+	date = 1290.3.1
 	time = {
 		months = 0
 	}
@@ -1821,14 +1749,12 @@ vu_university_of_coimbra = {
 		province_id = 1851
 		is_year = 1290
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -1839,26 +1765,22 @@ vu_university_of_coimbra = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -1973,14 +1895,12 @@ vu_university_of_complutense_de_madrid = {
 		province_id = 217
 		is_year = 1293
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -1991,26 +1911,22 @@ vu_university_of_complutense_de_madrid = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -2124,14 +2040,12 @@ vu_university_of_sapienza = {
 		province_id = 118
 		is_year = 1303
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -2142,26 +2056,22 @@ vu_university_of_sapienza = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -2275,14 +2185,12 @@ vu_university_of_perugia = {
 		province_id = 7036
 		is_year = 1308
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -2293,26 +2201,22 @@ vu_university_of_perugia = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -2426,14 +2330,12 @@ vu_university_of_florence = {
 		province_id = 116
 		is_year = 1321
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -2444,26 +2346,22 @@ vu_university_of_florence = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -2577,14 +2475,12 @@ vu_university_of_pisa = {
 		province_id = 115
 		is_year = 1343
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -2595,26 +2491,22 @@ vu_university_of_pisa = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -2728,13 +2620,11 @@ vu_university_of_charles = {
 		province_id = 266
 		is_year = 1348
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	on_built = {
@@ -2745,24 +2635,20 @@ vu_university_of_charles = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -2878,14 +2764,12 @@ vu_university_of_pavia = {
 		province_id = 4728
 		is_year = 1361
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -2896,26 +2780,22 @@ vu_university_of_pavia = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -3029,13 +2909,11 @@ vu_university_of_jagiellon = {
 		province_id = 262
 		is_year = 1364
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	on_built = {
@@ -3046,24 +2924,20 @@ vu_university_of_jagiellon = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -3179,13 +3053,11 @@ vu_university_of_vienna = {
 		province_id = 134
 		is_year = 1365
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	on_built = {
@@ -3196,24 +3068,20 @@ vu_university_of_vienna = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = west_slavic
 					culture_group = germanic
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -3329,12 +3197,8 @@ vu_university_of_heidelberg = {
 		province_id = 77
 		is_year = 1386
 		owner = {
-			AND = {
 				innovativeness = 10
-				OR = {
 					culture_group = germanic
-				}
-			}
 		}
 	}
 	on_built = {
@@ -3345,22 +3209,14 @@ vu_university_of_heidelberg = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
-				OR = {
 					culture_group = germanic
-				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
-				OR = {
 					culture_group = germanic
-				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -3476,14 +3332,12 @@ vu_university_of_ferrara = {
 		province_id = 113
 		is_year = 1391
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -3494,26 +3348,22 @@ vu_university_of_ferrara = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = latin
 					culture_group = old_latin
 					culture_group = iberian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -3629,13 +3479,11 @@ vu_university_of_leipzig = {
 		province_id = 62
 		is_year = 1406
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = west_slavic
 				}
-			}
 		}
 	}
 	on_built = {
@@ -3646,24 +3494,20 @@ vu_university_of_leipzig = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = west_slavic
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = west_slavic
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -3779,13 +3623,11 @@ vu_university_of_leuven = {
 		province_id = 4347
 		is_year = 1425
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -3796,24 +3638,20 @@ vu_university_of_leuven = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -3929,13 +3767,11 @@ vu_university_of_glasgow = {
 		province_id = 3019
 		is_year = 1451
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -3946,24 +3782,20 @@ vu_university_of_glasgow = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -4079,13 +3911,11 @@ vu_university_of_istanbul = {
 		province_id = 151
 		is_year = 1453
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = south_slavic
 					religion_group = muslim
 				}
-			}
 		}
 	}
 	on_built = {
@@ -4096,24 +3926,20 @@ vu_university_of_istanbul = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = south_slavic
 					religion_group = muslim
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = south_slavic
 					religion_group = muslim
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -4229,14 +4055,12 @@ vu_university_of_greifswald = {
 		province_id = 7842
 		is_year = 1456
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = west_slavic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -4247,26 +4071,22 @@ vu_university_of_greifswald = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = west_slavic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = west_slavic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -4382,7 +4202,6 @@ vu_university_of_freiburg = {
 		province_id = 72
 		is_year = 1457
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
@@ -4390,7 +4209,6 @@ vu_university_of_freiburg = {
 					culture_group = old_latin
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -4401,7 +4219,6 @@ vu_university_of_freiburg = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
@@ -4409,12 +4226,10 @@ vu_university_of_freiburg = {
 					culture_group = old_latin
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
@@ -4422,7 +4237,6 @@ vu_university_of_freiburg = {
 					culture_group = old_latin
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -4538,7 +4352,6 @@ vu_university_of_basel = {
 		province_id = 3055
 		is_year = 1460
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
@@ -4546,7 +4359,6 @@ vu_university_of_basel = {
 					culture_group = old_latin
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -4557,7 +4369,6 @@ vu_university_of_basel = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
@@ -4565,12 +4376,10 @@ vu_university_of_basel = {
 					culture_group = old_latin
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
@@ -4578,7 +4387,6 @@ vu_university_of_basel = {
 					culture_group = old_latin
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -4694,12 +4502,8 @@ vu_university_of_tubingen = {
 		province_id = 7560
 		is_year = 1477
 		owner = {
-			AND = {
 				innovativeness = 10
-				OR = {
 					culture_group = germanic
-				}
-			}
 		}
 	}
 	on_built = {
@@ -4710,22 +4514,14 @@ vu_university_of_tubingen = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
-				OR = {
 					culture_group = germanic
-				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
-				OR = {
 					culture_group = germanic
-				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -4841,13 +4637,11 @@ vu_university_of_uppsala = {
 		province_id = 1
 		is_year = 1477
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -4858,24 +4652,20 @@ vu_university_of_uppsala = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -4991,13 +4781,11 @@ vu_university_of_copenhagen = {
 		province_id = 12
 		is_year = 1479
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	on_built = {
@@ -5008,24 +4796,20 @@ vu_university_of_copenhagen = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = scandinavian
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -5142,13 +4926,11 @@ vu_university_of_aberdeen = {
 		province_id = 251
 		is_year = 1451
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -5159,24 +4941,20 @@ vu_university_of_aberdeen = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = british
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -5296,13 +5074,11 @@ vu_university_of_leiden = {
 			religion = reformed
 		}
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = french
 				}
-			}
 		}
 	}
 	on_built = {
@@ -5313,24 +5089,20 @@ vu_university_of_leiden = {
 	}
 	can_use_modifiers_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = french
 				}
-			}
 		}
 	}
 	can_upgrade_trigger = {
 		owner = {
-			AND = {
 				innovativeness = 10
 				OR = {
 					culture_group = germanic
 					culture_group = french
 				}
-			}
 		}
 	}
 	keep_trigger = {
@@ -5447,10 +5219,8 @@ vu_academy_of_science_berlin = {
     build_trigger = {
         province_id = 50
         owner = {
-            AND = {
                 innovativeness = 20
                 culture_group = germanic
-            }
         }
     }
     on_built = {
@@ -5461,18 +5231,14 @@ vu_academy_of_science_berlin = {
     }
     can_use_modifiers_trigger = {
         owner = {
-            AND = {
                 innovativeness = 20
                 culture_group = germanic
-            }
         }
     }
     can_upgrade_trigger = {
         owner = {
-            AND = {
                 innovativeness = 20
                 culture_group = germanic
-            }
         }
     }
     keep_trigger = {

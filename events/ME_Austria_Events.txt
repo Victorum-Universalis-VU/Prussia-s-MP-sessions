@@ -2785,7 +2785,7 @@ country_event = { #Carolingian Empire
                     limit = {
                         region = france_region
                     }
-                    add_prestige_or_monarch_power = { amount = 1 }
+                    owner = { add_prestige_or_monarch_power = { amount = 1 } }
                 }
             }
         }

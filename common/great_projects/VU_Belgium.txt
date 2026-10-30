@@ -11,8 +11,8 @@ vu_spa_hot_springs = {
     build_trigger = {
         #Anyone can use it and everyone has been using it since antiquity
     }
-    on_built = { show_ambient_object = vu_spa_hot_springs }
-    on_destroyed = { hide_ambient_object = vu_spa_hot_springs }
+    on_built = { } #show_ambient_object = vu_spa_hot_springs - model not made yet, re-enable when the ambient object exists
+    on_destroyed = { } #hide_ambient_object = vu_spa_hot_springs - model not made yet, re-enable when the ambient object exists
     can_use_modifiers_trigger = {
     }
     can_upgrade_trigger = {

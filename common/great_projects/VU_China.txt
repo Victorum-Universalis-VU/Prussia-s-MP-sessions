@@ -1058,23 +1058,17 @@ vu_terracotta_army = { #costs are high but it's ming so... yeah
     type = monument
     #can we build it?
     build_trigger = {
-        AND = {
             religion_group = eastern
             has_owner_religion = yes
-        }
     }
     can_use_modifiers_trigger = {
-        AND = {
             religion_group = eastern
             has_owner_religion = yes
-        }
     }
     #can our country upgrade it?
     can_upgrade_trigger = {
-        AND = {
             religion_group = eastern
             has_owner_religion = yes
-        }
     }
     #can our country keep it or is it destroyed when we get hold of it?
     keep_trigger = {

@@ -12,37 +12,31 @@ vu_royal_naval_college = {
         province_id = 6929
         is_year = 1696
         owner = {
-            AND = {
                 innovativeness = 10
                 OR = {
                     culture_group = british
                     culture_group = french
                 }
-            }
         }
     }
     on_built = { }
     on_destroyed = { }
     can_use_modifiers_trigger = {
         owner = {
-            AND = {
                 innovativeness = 10
                 OR = {
                     culture_group = british
                     culture_group = french
                 }
-            }
         }
     }
     can_upgrade_trigger = {
         owner = {
-            AND = {
                 innovativeness = 10
                 OR = {
                     culture_group = british
                     culture_group = french
                 }
-            }
         }
     }
     keep_trigger = {

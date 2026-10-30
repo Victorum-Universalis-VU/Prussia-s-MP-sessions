@@ -3281,7 +3281,6 @@ make_cadet_branch_to_personal_union = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 25
-					all_subject_country = yes
 				}
 			}
 		}
@@ -3314,7 +3313,6 @@ make_cadet_branch_to_personal_union = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 25
-						all_subject_country = yes
 					}
 				}
 			}
@@ -3352,7 +3350,6 @@ make_cadet_branch_to_personal_union = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 25
-						all_subject_country = yes
 					}
 				}
 			}
@@ -4828,7 +4825,6 @@ establish_crusader_state_vassal = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 		}
@@ -5146,7 +5142,6 @@ establish_defensive_march = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 			num_of_owned_provinces_with = {
@@ -5298,7 +5293,6 @@ ask_to_become_defensive_march = {
 				years_in_vassalage_under = {
 					who = FROM
 					years = 10
-					all_subject_country = yes
 				}
 			}
 			export_to_variable = {
@@ -7365,7 +7359,6 @@ dutch_province_subject_ask_for_independence = {
 				years_in_vassalage_under = {
 					who = FROM
 					years = 1
-					all_subject_country = yes
 				}
 			}
 			export_to_variable = {
@@ -8306,7 +8299,6 @@ cancel_dutch_province_subject = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 50
-					all_subject_country = yes
 				}
 			}
 		}
@@ -8412,7 +8404,6 @@ establish_imperial_tributary_state = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 		}
@@ -8591,7 +8582,6 @@ ask_for_imperial_tributary_state = {
 							years_in_vassalage_under = {
 								who = ROOT
 								years = 10
-								all_subject_country = yes
 							}
 						}
 					}
@@ -8878,7 +8868,6 @@ cancel_imperial_tributary_state = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 30
-				all_subject_country = yes
 			}
 			OR = {
 				is_neighbor_of = ROOT
@@ -8963,7 +8952,6 @@ establish_integrated_personal_union = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 70
-				all_subject_country = yes
 			}
 		}
 	}
@@ -9007,7 +8995,6 @@ increase_chance_to_integrate_integrated_personal_union = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 10
-				all_subject_country = yes
 			}
 		}
 		if = {
@@ -9056,7 +9043,6 @@ increase_chance_to_integrate_integrated_personal_union = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 10
-						all_subject_country = yes
 					}
 				}
 			}
@@ -9116,7 +9102,6 @@ return_integrated_personal_union_to_personal_union = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 10
-				all_subject_country = yes
 			}
 		}
 	}
@@ -9137,7 +9122,6 @@ return_integrated_personal_union_to_personal_union = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 10
-						all_subject_country = yes
 					}
 				}
 			}
@@ -9168,7 +9152,6 @@ return_integrated_personal_union_to_personal_union = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 25
-				all_subject_country = yes
 			}
 		}
 	}
@@ -9323,7 +9306,6 @@ establish_integrated_tribe_subject = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 		}
@@ -9651,7 +9633,6 @@ cancel_mandala_trade_vassal = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 50
-				all_subject_country = yes
 			}
 		}
 	}
@@ -11800,7 +11781,6 @@ cancel_muslim_tributary_vassal = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 25
-				all_subject_country = yes
 			}
 		}
 	}
@@ -11876,7 +11856,6 @@ establish_nahuatl_vassal = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 		}
@@ -13353,7 +13332,6 @@ cancel_first_nations_reserve = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 25
-				all_subject_country = yes
 			}
 		}
 	}
@@ -13420,7 +13398,6 @@ establish_pagan_chiefdom = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 			any_neighbor_country = {
@@ -13560,7 +13537,6 @@ ask_to_become_pagan_chiefdom = {
 				years_in_vassalage_under = {
 					who = FROM
 					years = 10
-					all_subject_country = yes
 				}
 			}
 			export_to_variable = {
@@ -15121,7 +15097,6 @@ cancel_peasant_vassal = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 75
-				all_subject_country = yes
 			}
 		}
 	}
@@ -15225,7 +15200,6 @@ establish_persian_satrapy = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 			capital_scope = {
@@ -15318,7 +15292,6 @@ establish_pirate_brotherhood_vassal = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 		}
@@ -15386,7 +15359,6 @@ cancel_pirate_brotherhood_vassal = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 25
-				all_subject_country = yes
 			}
 		}
 	}
@@ -17421,7 +17393,6 @@ cancel_overseas_territory = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 50
-					all_subject_country = yes
 				}
 			}
 		}
@@ -19045,7 +19016,6 @@ cancel_revolution_subject = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 25
-				all_subject_country = yes
 			}
 		}
 	}
@@ -19084,7 +19054,7 @@ establish_roman_client_kingdom = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -19374,7 +19344,6 @@ cancel_roman_client_kingdom = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 30
-				all_subject_country = yes
 			}
 		}
 	}
@@ -22020,7 +21989,6 @@ cancel_sister_republic = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 90
-				all_subject_country = yes
 			}
 		}
 	}
@@ -27807,7 +27775,6 @@ establish_trade_outpost = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 5
-						all_subject_country = yes
 					}
 				}
 			}
@@ -28178,7 +28145,6 @@ ask_to_become_trade_outpost = {
 							years_in_vassalage_under = {
 								who = FROM
 								years = 5
-								all_subject_country = yes
 							}
 						}
 					}
@@ -28509,7 +28475,6 @@ cancel_trade_outpost = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 25
-				all_subject_country = yes
 			}
 		}
 	}
@@ -28713,7 +28678,6 @@ establish_voivodeship = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 10
-					all_subject_country = yes
 				}
 			}
 		}
@@ -28778,7 +28742,6 @@ cancel_voivodeship = {
 			years_in_vassalage_under = {
 				who = ROOT
 				years = 25
-				all_subject_country = yes
 			}
 		}
 	}
@@ -29342,7 +29305,6 @@ return_subject_to_vassal = {
 						years_in_vassalage_under = {
 							who = ROOT
 							years = 5
-							all_subject_country = yes
 						}
 					}
 					NOT = {
@@ -29371,7 +29333,6 @@ return_subject_to_vassal = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 25
-					all_subject_country = yes
 				}
 			}
 			FROM = {
@@ -29380,7 +29341,6 @@ return_subject_to_vassal = {
 				years_in_vassalage_under = {
 					who = ROOT
 					years = 60
-					all_subject_country = yes
 				}
 			}
 		}
@@ -29502,7 +29462,6 @@ revoke_custom_march_subject = {
 					years_in_vassalage_under = {
 						who = ROOT
 						years = 25
-						all_subject_country = yes
 					}
 				}
 				NOT = {

@@ -10194,7 +10194,7 @@ potosi = {
                 }
             }
             modifier = {
-                trade_goods_size = 1
+                global_trade_goods_size_modifier = 0.05
                 inflation_reduction = 0.02
             }
         }
@@ -10260,7 +10260,7 @@ potosi = {
                 }
             }
             modifier = {
-                trade_goods_size = 2
+                global_trade_goods_size_modifier = 0.10
                 inflation_reduction = 0.03
             }
         }
@@ -10328,7 +10328,7 @@ potosi = {
                 }
             }
             modifier = {
-                trade_goods_size = 3
+                global_trade_goods_size_modifier = 0.15
                 inflation_reduction = 0.05
             }
         }

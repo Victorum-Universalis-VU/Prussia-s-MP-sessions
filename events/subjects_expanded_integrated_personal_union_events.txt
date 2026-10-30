@@ -19,7 +19,6 @@ country_event = {
 				years_in_vassalage_under = {
 					who = PREV
 					years = 10
-					all_subject_country = yes
 				}
 			}
 		}

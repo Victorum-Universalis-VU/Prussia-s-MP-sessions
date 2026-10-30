@@ -1926,14 +1926,14 @@ on_monarch_death = {
 			has_country_flag = me_hab_conquer_iberia
 		}
 		clr_country_flag = me_hab_conquer_iberia
-		break_union = CAS
-		break_union = SPA
-		break_union = BBS
-		break_union = BSP
-		break_union = CSP
-		break_union = SPB
-		break_union = POR
-		break_union = ARA
+		if = { limit = { OR = { senior_union_with = CAS junior_union_with = CAS } } break_union = CAS }
+		if = { limit = { OR = { senior_union_with = SPA junior_union_with = SPA } } break_union = SPA }
+		if = { limit = { OR = { senior_union_with = BBS junior_union_with = BBS } } break_union = BBS }
+		if = { limit = { OR = { senior_union_with = BSP junior_union_with = BSP } } break_union = BSP }
+		if = { limit = { OR = { senior_union_with = CSP junior_union_with = CSP } } break_union = CSP }
+		if = { limit = { OR = { senior_union_with = SPB junior_union_with = SPB } } break_union = SPB }
+		if = { limit = { OR = { senior_union_with = POR junior_union_with = POR } } break_union = POR }
+		if = { limit = { OR = { senior_union_with = ARA junior_union_with = ARA } } break_union = ARA }
 	}
 }
 
@@ -6052,11 +6052,8 @@ on_province_owner_change = {
 	}
 	if = {
 		limit = {
-			NOT = {
-				culture_group = ROOT
-			}
+			owner = { NOT = { culture_group = ROOT } has_estate_privilege = estate_church_one_faith_one_culture }
 			has_owner_accepted_culture = no
-			has_estate_privilege = estate_church_one_faith_one_culture
 			NOT = {
 				has_province_modifier = estate_church_false_culture
 			}

@@ -1,5 +1,4 @@
-#So there are two ways of connecting this. First is to use coordinates ;start_x;start_y;stop_x;stop_y; which can be gathered by opening bmp map and then refering to how Rob has explained it in the server map room or to do it the automatic way by simply entering -1;-1;-1;-1; which will automatically connect two provinces. 
-From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment;#So there are two ways of connecting this. First is to use coordinates ;start_x;start_y;stop_x;stop_y; which can be gathered by opening bmp map and then refering to how Rob has explained it in the server map room or to do it the automatic way by simply entering -1;-1;-1;-1; which will automatically connect two provinces. 
 8804;8867;sea;8798;-1;-1;-1;-1;Independence-Gladstone
 898;8867;sea;8798;-1;-1;-1;-1;Kansas City-Gladstone
 900;8865;sea;8798;-1;-1;-1;-1;St.Louis-St.Charles
@@ -77,7 +76,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7196;2411;sea;3016;-1;-1;-1;-1;Ekaterinoslav-Zaporizhzhia
 3243;1974;sea;8360;-1;-1;-1;-1;Nikitin Rog-Yedi Shkul
 4340;3318;sea;6361;-1;-1;-1;-1;Neftchala - Salyan
-7237;4115;sea;7237;-1;-1;-1;-1;Brahin - Gomel
+7237;4115;sea;8361;-1;-1;-1;-1;Brahin - Gomel
 3020;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1365;1347;canal;2390;-1;-1;-1;-1;kra_canal
 1660;1659;canal;987;-1;-1;-1;-1;welland_canal

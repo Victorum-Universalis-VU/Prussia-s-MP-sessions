@@ -113,7 +113,6 @@ saxony_missions_slot_1 = {
 						years_in_vassalage_under = {
 							who = ROOT
 							years = 50
-							all_subject_country = yes
 						}
 					}
 				}
@@ -130,7 +129,6 @@ saxony_missions_slot_1 = {
 						years_in_vassalage_under = {
 							who = ROOT
 							years = 50
-							all_subject_country = yes
 						}
 					}
 				}

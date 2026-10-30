@@ -24,7 +24,7 @@ po_establish_eyalet = {
 	applies_to_war_target = yes # only applies to the target of the war, not the war leader
 	
 	is_visible = { # Defaults to equivalent of "always = yes"
-		always = yes
+		has_government_attribute = has_eyalets	#VU: only states with eyalets (Ottomans) - visible to all crashed the AI peace evaluation (MP crash 30 Oct 2026)
 	}
 	is_allowed = { # Defaults to equivalent of "always = yes"
 		custom_trigger_tooltip = {

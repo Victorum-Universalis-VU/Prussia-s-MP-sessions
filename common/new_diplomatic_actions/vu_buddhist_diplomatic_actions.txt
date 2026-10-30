@@ -28,7 +28,7 @@ vu_promote_vassal_to_hinayana_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -79,7 +79,7 @@ vu_promote_vassal_to_bodhisattva_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -130,7 +130,7 @@ vu_promote_vassal_to_sakya_prince = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -182,7 +182,7 @@ vu_revert_buddhist_principality_to_vassal = {
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_REBELLIOUS_TT
 				FROM = {
-					liberty_desire = 50
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}

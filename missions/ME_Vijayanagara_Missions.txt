@@ -3397,10 +3397,7 @@ vijayanagara_mission_5_tall = {
 		effect = {
 			custom_tooltip = VIJ_TRADE_SUPREMACY_TT
 			tooltip = {
-				if = {
-					limit = { has_province_modifier = vij_defying_external_trade }
-					remove_province_modifier = vij_defying_external_trade
-				}
+				remove_province_modifier = vij_defying_external_trade
 				add_province_modifier = {
 					name = vij_indian_trade
 					duration = -1

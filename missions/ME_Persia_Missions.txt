@@ -3468,7 +3468,7 @@ me_persia_missions_2_trade = {
                 event_target:Persia_Target_1 = {
                     if = {
                         limit = {
-                            DIP = 6
+                            owner = { DIP = 6 }
                         }
                         add_base_production = 2
                     }
@@ -3479,7 +3479,7 @@ me_persia_missions_2_trade = {
                 event_target:Persia_Target_2 = {
                     if = {
                         limit = {
-                            DIP = 6
+                            owner = { DIP = 6 }
                         }
                         add_base_production = 2
                     }
@@ -3490,7 +3490,7 @@ me_persia_missions_2_trade = {
                 event_target:Persia_Target_3 = {
                     if = {
                         limit = {
-                            DIP = 6
+                            owner = { DIP = 6 }
                         }
                         add_base_production = 2
                     }
@@ -3501,7 +3501,7 @@ me_persia_missions_2_trade = {
                 event_target:Persia_Target_4 = {
                     if = {
                         limit = {
-                            DIP = 6
+                            owner = { DIP = 6 }
                         }
                         add_base_production = 2
                     }
@@ -3512,7 +3512,7 @@ me_persia_missions_2_trade = {
                 event_target:Persia_Target_5 = {
                     if = {
                         limit = {
-                            DIP = 6
+                            owner = { DIP = 6 }
                         }
                         add_base_production = 2
                     }
