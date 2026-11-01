@@ -280,4 +280,47 @@ spriteTypes = {
         noOfFrames = 1
         effectFile = "gfx/FX/buttonstate_linear.lua"
     }
+    # VU religious denomination idea groups (icons by Modus, groups by Prussia)
+    spriteType = {
+        name = "GFX_idea_catholic_ideas"
+        texturefile = "gfx//interface//ideas//christians//idea_catholic_ideas.dds"
+        noOfFrames = 1
+
+        effectFile = "gfx/FX/buttonstate_linear.lua"
+    }
+    spriteType = {
+        name = "GFX_idea_lutheran_ideas"
+        texturefile = "gfx//interface//ideas//christians//idea_lutheran_ideas.dds"
+        noOfFrames = 1
+
+        effectFile = "gfx/FX/buttonstate_linear.lua"
+    }
+    spriteType = {
+        name = "GFX_idea_calvinist_ideas"
+        texturefile = "gfx//interface//ideas//christians//idea_calvinist_ideas.dds"
+        noOfFrames = 1
+
+        effectFile = "gfx/FX/buttonstate_linear.lua"
+    }
+    spriteType = {
+        name = "GFX_idea_orthodox_ideas"
+        texturefile = "gfx//interface//ideas//christians//idea_orthodox_ideas.dds"
+        noOfFrames = 1
+
+        effectFile = "gfx/FX/buttonstate_linear.lua"
+    }
+    spriteType = {
+        name = "GFX_idea_anglican_ideas"
+        texturefile = "gfx//interface//ideas//christians//idea_anglican_ideas.dds"
+        noOfFrames = 1
+
+        effectFile = "gfx/FX/buttonstate_linear.lua"
+    }
+    spriteType = {
+        name = "GFX_idea_hussite_ideas"
+        texturefile = "gfx//interface//ideas//christians//idea_hussite_ideas.dds"
+        noOfFrames = 1
+
+        effectFile = "gfx/FX/buttonstate_linear.lua"
+    }
 }
