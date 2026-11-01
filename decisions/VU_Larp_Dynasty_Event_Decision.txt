@@ -4,15 +4,11 @@ country_decisions = {
 		major = yes
 		potential = {
 			ai = no
-			NOT = {
-				has_country_flag = meme_dynasty_decision_taken
-			}
 		}
 		allow = {
 			ai = no
 		}
 		effect = {
-			set_country_flag = meme_dynasty_decision_taken
 			country_event = {
 				id = vu_meme_dynasty_events.1
 			}
@@ -119,6 +115,30 @@ country_decisions = {
 				}
 			}
 		} 
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	vu_larp_poland_orthodox = {
+		major = yes
+		potential = {
+			ai = no
+			AND = {
+				tag = POL
+				NOT = {
+					religion = orthodox
+				}
+			}
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			change_religion = orthodox
+			set_ruler_religion = orthodox
+			set_heir_religion = orthodox
+		}
 		ai_will_do = {
 			factor = 0
 		}

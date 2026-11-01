@@ -5,7 +5,7 @@ graphical_culture = westerngfx # was britishgfx # UPE compatibility
 color = { 46  89  220 }
 
 historical_idea_groups = {
-	religious_ideas
+	catholic_ideas
 	aristocracy_ideas
 	trade_ideas
 	economic_ideas

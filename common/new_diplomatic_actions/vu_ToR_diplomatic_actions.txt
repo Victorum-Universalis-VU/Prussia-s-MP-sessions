@@ -196,20 +196,20 @@ vu_promote_vassal_to_marquisate = {
 		vu_create_ToR_marquisate = yes
 		FROM = {
 			change_religion = ROOT
-			if = { 
-				#Added by Prussia to stop Daimyo dynasties being overwritten
-				limit = {
-					ROOT = {
-						NOT = {
-							has_reform = shogunate
-							has_reform = absolute_shogunate_reform
-							has_reform = japanese_divine_empire
-							has_reform = japanese_divine_empire
-						}
-					}
-				}
-				set_dynasty = ROOT
-			}
+			#if = { #Hashed this out for now - Prussia
+			#	#Added by Prussia to stop Daimyo dynasties being overwritten
+			#	limit = {
+			#		ROOT = {
+			#			NOT = {
+			#				has_reform = shogunate
+			#				has_reform = absolute_shogunate_reform
+			#				has_reform = japanese_divine_empire
+			#				has_reform = japanese_divine_empire
+			#			}
+			#		}
+			#	}
+			#	set_dynasty = ROOT
+			#}
 			add_treasury = 250
 			add_manpower = 14
 		}

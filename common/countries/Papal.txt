@@ -12,7 +12,7 @@ historical_idea_groups = {
 	theocracy_gov_ideas
 	diplomatic_ideas
 	defensive_ideas
-	religious_ideas
+	catholic_ideas
 	influence_ideas
 	offensive_ideas
 	economic_ideas

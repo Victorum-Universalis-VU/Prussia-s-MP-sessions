@@ -9,7 +9,7 @@ color = { 0  144  75 }
 revolutionary_colors = { 5  8  5 }
 
 historical_idea_groups = {
-	religious_ideas
+	catholic_ideas
 	society_ideas
 	defensive_ideas
 	spy_ideas

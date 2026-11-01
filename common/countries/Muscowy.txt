@@ -11,7 +11,7 @@ color = { 206  181  97 }
 revolutionary_colors = { 0  13  5 }
 
 historical_idea_groups = {
-	religious_ideas
+	orthodox_ideas
 	conscription_ideas
 	defensive_ideas
 	trade_ideas

@@ -11,7 +11,7 @@ historical_idea_groups = {
 	defensive_ideas
 	diplomatic_ideas
 	mercenary_ideas
-	religious_ideas
+	administrative_ideas
 	aristocracy_ideas
 	court_ideas
 	spy_ideas	
